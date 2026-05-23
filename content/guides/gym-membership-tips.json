@@ -1,0 +1,51 @@
+{
+  "slug": "gym-membership-tips",
+  "short_title": "Membership Tips",
+  "title": "10 Tips for Getting the Best Gym Membership Deal in NZ",
+  "meta_desc": "How to negotiate a better gym deal, avoid hidden fees, and choose the right membership in New Zealand. Practical tips for 2026.",
+  "intro": "Gyms are in the business of signing people up on expensive long-term contracts. Here's how to cut through the sales tactics and get a deal that actually suits you.",
+  "updated": "May 2026",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Before You Sign Anything",
+      "list": [
+        "Try before you commit — most gyms offer a free trial or day pass. ClassPass lets you try multiple studios for a month free.",
+        "Visit at your usual workout time — a quiet Monday morning looks very different from a 6pm Tuesday.",
+        "Ask about the joining fee — it's almost always negotiable, especially at franchise gyms.",
+        "Read the cancellation clause — know exactly what it takes to exit before you sign.",
+        "Check if there's a cooling-off period — some NZ gyms offer 7–10 days to cancel without penalty."
+      ]
+    },
+    {
+      "heading": "Getting the Best Price",
+      "list": [
+        "Sign up in January or June — both are peak promotion periods with waived joining fees and discounts.",
+        "Sign up online rather than in-club — most gyms offer cheaper rates or no joining fee online.",
+        "Ask for student, community, or corporate rates — City Fitness and YMCA have the best discount programs.",
+        "Pay annually — many gyms offer 2 free months on an annual upfront payment.",
+        "Negotiate the contract length — if a 12-month term is standard, ask if they'll do 6 months first."
+      ]
+    },
+    {
+      "heading": "Avoiding Hidden Costs",
+      "list": [
+        "Joining fee — can be $49–$149 at premium gyms. Always ask if it can be waived.",
+        "Access card fee — some clubs charge $20–$30 for the key fob. Ask upfront.",
+        "Locker rental — check if storage is included or extra.",
+        "Group class surcharges — at some gyms, premium classes (spin, yoga) cost extra on top of your membership.",
+        "Personal training upsell — great if you want coaching, but you'll be pressured to buy this at sign-up. It's always optional.",
+        "Towel hire — easy to forget, usually $2–$4/visit or $5/month extra."
+      ]
+    },
+    {
+      "heading": "Choosing Between Gyms",
+      "body": "The best gym is the one you'll actually go to. Proximity matters more than facilities — a gym 5 minutes from home or work will see far more use than a premium facility 30 minutes away. If you're unsure, ClassPass is the best way to test multiple gyms before committing to one.",
+      "cta": {
+        "text": "Compare all NZ gyms →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ]
+}

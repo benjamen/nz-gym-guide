@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}{{ guide.title }}{% endblock %}
+{% block desc %}{{ guide.meta_desc }}{% endblock %}
+{% block canonical %}guides/{{ guide.slug }}/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/guides/">Guides</a> › {{ guide.short_title }}</div>
+    <h1>{{ guide.title }}</h1>
+    <p>{{ guide.intro }}</p>
+    <div class="guide-meta">
+      <span>Updated {{ guide.updated }}</span>
+      {% if guide.reading_time %}<span>{{ guide.reading_time }} min read</span>{% endif %}
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+{% for section in guide.sections %}
+<section class="section">
+  <h2>{{ section.heading }}</h2>
+  {% if section.body %}
+  <div class="guide-body">{{ section.body }}</div>
+  {% endif %}
+
+  {% if section.table %}
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead><tr>{% for col in section.table.headers %}<th>{{ col }}</th>{% endfor %}</tr></thead>
+      <tbody>
+        {% for row in section.table.rows %}
+        <tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  {% if section.list %}
+  <ul class="guide-list">
+    {% for item in section.list %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if section.cta %}
+  <div class="guide-cta">
+    <a href="{{ section.cta.url }}" class="btn btn-primary {% if section.cta.affiliate %}btn-affiliate{% endif %}" {% if section.cta.affiliate %}rel="sponsored" target="_blank"{% endif %}>{{ section.cta.text }}</a>
+  </div>
+  {% endif %}
+</section>
+{% endfor %}
+
+<!-- Bottom affiliate CTA -->
+<section class="section spotlight">
+  <h2>Ready to Join?</h2>
+  <div class="spotlight-grid">
+    <div class="spotlight-card">
+      <h3>ClassPass — Try 500+ Studios</h3>
+      <p>Not sure which gym to commit to? Try ClassPass for a month free — access yoga, HIIT, pilates and more across hundreds of NZ studios.</p>
+      <a href="{{ site.affiliates.classpass.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Start free →</a>
+    </div>
+    <div class="spotlight-card">
+      <h3>Compare All NZ Gyms</h3>
+      <p>Side-by-side comparison of every major NZ gym chain — prices, contracts, features and honest ratings.</p>
+      <a href="/compare/" class="btn btn-outline">Compare gyms →</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

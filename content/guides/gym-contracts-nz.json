@@ -1,0 +1,52 @@
+{
+  "slug": "gym-contracts-nz",
+  "short_title": "Understanding Contracts",
+  "title": "Understanding NZ Gym Contracts — What to Watch Out For",
+  "meta_desc": "What NZ gym contracts actually say — minimum terms, cancellation clauses, price increases, and how to protect yourself. Updated for 2026.",
+  "intro": "Gym contracts in New Zealand vary wildly from a simple month-to-month arrangement to a binding 12-month commitment with steep exit fees. Here's what to look for before you sign.",
+  "updated": "May 2026",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Key Contract Terms to Understand",
+      "table": {
+        "headers": ["Term", "What it means", "Watch out for"],
+        "rows": [
+          ["Minimum term", "How long you're locked in (typically 3, 6, or 12 months)", "12-month terms at Les Mills and Anytime Fitness"],
+          ["Notice period", "How much warning you must give before cancelling", "Some gyms require 30–60 days notice ON TOP of the minimum term"],
+          ["Joining fee", "One-off sign-up cost ($0–$149)", "Non-refundable if you cancel within cooling-off period"],
+          ["Direct debit authority", "You authorise fortnightly or weekly payments", "Hard to stop without gym confirming cancellation first"],
+          ["Price review clause", "Gym can increase fees annually", "Often buried in fine print — check the percentage cap"],
+          ["Transfer clause", "Whether you can transfer contract to another person", "Useful if you want to exit — some gyms allow free transfer"]
+        ]
+      }
+    },
+    {
+      "heading": "How Minimum Terms Work",
+      "body": "A minimum term means you're committed to paying for that period regardless of whether you use the gym. After the minimum term, most contracts roll to a month-to-month arrangement — but you usually need to give 30 days notice before the minimum term ends to avoid auto-renewal. Anytime Fitness and Les Mills are the most common gyms with 12-month minimums in NZ. City Fitness, Jetts, Snap Fitness and ClassPass have no meaningful lock-in."
+    },
+    {
+      "heading": "Price Increase Clauses",
+      "body": "Most NZ gym contracts include a clause allowing price increases, typically tied to CPI (inflation) or a fixed annual percentage (e.g. up to 5%). The gym must give you notice (usually 30 days) before increasing your rate. Under the Fair Trading Act, if the increase is significant and not clearly disclosed, you may have grounds to cancel. Always read the specific wording — some contracts cap increases at CPI, others don't cap at all."
+    },
+    {
+      "heading": "Direct Debit: Your Rights",
+      "list": [
+        "Do not cancel your direct debit without first getting written cancellation confirmation from the gym.",
+        "If you cancel your direct debit without gym approval, they can send you to a debt collection agency.",
+        "Your bank can dispute direct debits on your behalf if you believe they're unauthorised — but only after the gym has been notified.",
+        "Always keep email records of all cancellation requests.",
+        "If you're in a dispute, the Disputes Tribunal NZ handles claims under $30,000 for a small fee."
+      ]
+    },
+    {
+      "heading": "The Safest Gyms for Contracts",
+      "body": "If you're cautious about commitments, stick to gyms with no lock-in or very short minimum terms: City Fitness (4 weeks), Jetts (none), Snap Fitness (none), ClassPass (monthly). You'll pay slightly more per week but have complete flexibility.",
+      "cta": {
+        "text": "Compare no lock-in gyms →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ]
+}

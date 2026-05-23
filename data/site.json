@@ -1,0 +1,53 @@
+{
+  "title": "NZ Gym Guide",
+  "tagline": "Compare gym memberships across New Zealand — prices, contracts, locations",
+  "description": "Compare NZ gym memberships side by side. Find the cheapest gym near you, read honest reviews, and get the best deal on a membership in Auckland, Wellington, Christchurch and beyond.",
+  "base_url": "https://nzgymguide.co.nz",
+  "base_path": "",
+  "contact_email": "instituteofbba@gmail.com",
+  "ga_id": "",
+  "affiliates": {
+    "les_mills": {
+      "name": "Les Mills NZ",
+      "url": "https://www.lesmills.co.nz/",
+      "network": "Awin",
+      "commission": "12.5% per signup",
+      "cta": "View Les Mills memberships"
+    },
+    "classpass": {
+      "name": "ClassPass NZ",
+      "url": "https://classpass.com/nz",
+      "network": "Impact",
+      "commission": "$6 per free trial",
+      "cta": "Try ClassPass free"
+    },
+    "orangetheory": {
+      "name": "Orangetheory NZ",
+      "url": "https://www.orangetheory.com/en-nz/",
+      "network": "Impact",
+      "commission": "$25 per lead",
+      "cta": "Book a free class"
+    },
+    "myprotein": {
+      "name": "Myprotein NZ",
+      "url": "https://nz.myprotein.com/",
+      "network": "Awin",
+      "commission": "8%",
+      "cta": "Shop Myprotein NZ"
+    },
+    "stealth": {
+      "name": "Stealth Supplements NZ",
+      "url": "https://stealthsupplements.co.nz/",
+      "network": "Direct",
+      "commission": "10%",
+      "cta": "Shop Stealth Supplements"
+    },
+    "nz_fitness_gear": {
+      "name": "NZ Fitness Gear",
+      "url": "https://www.nzfitnessgear.co.nz/",
+      "network": "Direct",
+      "commission": "varies",
+      "cta": "Shop gym equipment NZ"
+    }
+  }
+}

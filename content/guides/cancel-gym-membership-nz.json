@@ -1,0 +1,59 @@
+{
+  "slug": "cancel-gym-membership-nz",
+  "short_title": "How to Cancel",
+  "title": "How to Cancel a Gym Membership in NZ — Step-by-Step Guide",
+  "meta_desc": "How to cancel your gym membership in New Zealand. Your rights under the Consumer Guarantees Act, notice periods, and scripts for each major gym chain.",
+  "intro": "Cancelling a gym membership in New Zealand can be straightforward — or a nightmare, depending on the gym and your contract. Here's exactly what to do for each major chain.",
+  "updated": "May 2026",
+  "reading_time": 8,
+  "sections": [
+    {
+      "heading": "Your Legal Rights in NZ",
+      "body": "Under the Consumer Guarantees Act 1993 and the Fair Trading Act 1986, you have the right to cancel your gym membership (even mid-contract) if: (1) the gym moves to a location materially less convenient for you, (2) the gym significantly reduces its services, (3) you have a medical condition that prevents exercise, or (4) you're moving out of the region with no accessible branch. For other reasons, you're generally bound by your contract terms. Always get cancellation confirmation in writing — email is fine."
+    },
+    {
+      "heading": "Cancellation Terms by Gym",
+      "table": {
+        "headers": ["Gym", "Notice period", "Cancellation method", "Early exit fee"],
+        "rows": [
+          ["City Fitness", "4 weeks", "Online portal or in-club", "None (no lock-in)"],
+          ["Jetts", "Cancel anytime", "App or email", "None"],
+          ["Snap Fitness", "Cancel anytime", "Written notice to club", "None"],
+          ["Anytime Fitness", "30 days", "Certified letter or in-club", "Remaining months or $200 buyout"],
+          ["Les Mills", "30–60 days", "In-club or email", "Remaining months on contract"],
+          ["YMCA", "2 weeks", "In-club or email", "None"],
+          ["F45", "Varies by studio", "Contact your studio directly", "Varies"],
+          ["ClassPass", "Cancel anytime", "In-app settings", "None"]
+        ]
+      }
+    },
+    {
+      "heading": "Step-by-Step: How to Cancel",
+      "list": [
+        "1. Read your membership agreement — note your notice period and any early exit clauses.",
+        "2. Get your cancellation in writing — email the gym and keep a copy. Don't rely on verbal cancellations.",
+        "3. Reference your legal rights if applicable — if the gym has changed services or location, cite the Consumer Guarantees Act explicitly.",
+        "4. Stop your direct debit only after confirmation — cancelling your bank payment without gym confirmation can put you in debt collection.",
+        "5. Get written confirmation — request an email confirming your membership end date and that no further payments will be taken.",
+        "6. Check your next billing date — you may still owe one more payment depending on when you cancelled in your billing cycle."
+      ]
+    },
+    {
+      "heading": "Medical Cancellation",
+      "body": "All major NZ gyms must accept medical cancellations. You'll need a letter from a registered health professional stating you cannot use the gym facility. The gym may ask for a 30-day notice period even with a medical certificate. If they refuse, you can escalate to the Commerce Commission or take a disputes tribunal claim — but most gyms comply readily with legitimate medical cancellations."
+    },
+    {
+      "heading": "Freezing vs Cancelling",
+      "body": "Most gyms (Les Mills, Anytime Fitness, City Fitness) offer a 'freeze' option if you're travelling, recovering from injury, or temporarily unable to attend. Freezes are typically $5–$10/week. This is worth considering if you plan to return — freezing avoids paying a new joining fee when you restart. However, freezes often don't count toward your minimum term, so check the fine print."
+    },
+    {
+      "heading": "Avoid This Next Time",
+      "body": "Looking for a gym without lock-in? City Fitness (4-week minimum), Jetts, Snap Fitness, and ClassPass all offer flexible memberships you can cancel without penalty.",
+      "cta": {
+        "text": "Compare no-contract gyms →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ]
+}

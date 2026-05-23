@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block title %}{{ gym.name }} NZ Review 2026 — Prices, Contracts & Honest Verdict{% endblock %}
+{% block desc %}{{ gym.name }} NZ membership review: prices from ${{ gym.pricing.weekly_from }}/week, contract terms, features, locations and whether it's worth it in 2026.{% endblock %}
+{% block canonical %}gym/{{ gym.slug }}/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/compare/">Compare</a> › {{ gym.name }}</div>
+    <h1>{{ gym.name }} NZ — Membership Review 2026</h1>
+    <p>{{ gym.tagline }}</p>
+    <div class="gym-badges">
+      <span class="gym-type type-{{ gym.type|lower|replace(' ','-') }}">{{ gym.type }}</span>
+      {% if gym.features.open_247 %}<span class="feat">24/7 access</span>{% endif %}
+      {% if gym.features.no_lock_in %}<span class="feat feat-green">No lock-in</span>{% endif %}
+      {% if gym.nationwide %}<span class="feat">Nationwide</span>{% endif %}
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<!-- Key stats -->
+<section class="section">
+  <div class="stats-grid">
+    <div class="stat-box">
+      <span class="stat-val">${{ gym.pricing.weekly_from }}–${{ gym.pricing.weekly_to }}</span>
+      <span class="stat-label">Per week</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-val">${{ gym.pricing.joining_fee }}</span>
+      <span class="stat-label">Joining fee</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-val">{{ gym.pricing.minimum_term }}</span>
+      <span class="stat-label">Minimum term</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-val">{{ gym.rating }}★</span>
+      <span class="stat-label">Rating ({{ gym.review_count }} reviews)</span>
+    </div>
+  </div>
+</section>
+
+{% if gym.has_affiliate %}
+<div class="affiliate-banner">
+  <div>
+    <strong>{{ site.affiliates[gym.affiliate_key].cta }}</strong>
+    {% if gym.discount_note %}<span>{{ gym.discount_note }}</span>{% endif %}
+  </div>
+  <a href="{{ site.affiliates[gym.affiliate_key].url }}" class="btn btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[gym.affiliate_key].cta }} →</a>
+</div>
+{% endif %}
+
+<!-- Verdict -->
+<section class="section">
+  <h2>Our Verdict</h2>
+  <div class="verdict-box">
+    <p>{{ gym.verdict }}</p>
+    <p><strong>Best for:</strong> {{ gym.best_for }}</p>
+    <p><strong>Watch out for:</strong> {{ gym.watch_out }}</p>
+    {% if gym.discount_note %}<p><strong>Discounts:</strong> {{ gym.discount_note }}</p>{% endif %}
+  </div>
+</section>
+
+<!-- Pros and cons -->
+<section class="section">
+  <div class="pros-cons-grid">
+    <div class="pros-box">
+      <h3>✓ Pros</h3>
+      <ul>{% for p in gym.pros %}<li>{{ p }}</li>{% endfor %}</ul>
+    </div>
+    <div class="cons-box">
+      <h3>✗ Cons</h3>
+      <ul>{% for c in gym.cons %}<li>{{ c }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing detail -->
+<section class="section">
+  <h2>{{ gym.name }} NZ Membership Prices</h2>
+  {% if gym.tiers %}
+  <div class="tier-grid">
+    {% for tier in gym.tiers %}
+    <div class="tier-card">
+      <h3>{{ tier.name }}</h3>
+      <div class="tier-price">${{ tier.weekly }}<span>/wk</span></div>
+      <p>{{ tier.includes }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="pricing-table">
+    <div class="price-row"><span>Weekly cost</span><span>${{ gym.pricing.weekly_from }}–${{ gym.pricing.weekly_to }}</span></div>
+    <div class="price-row"><span>Joining fee</span><span>${{ gym.pricing.joining_fee }} <em>{{ gym.pricing.joining_fee_note }}</em></span></div>
+    <div class="price-row"><span>Minimum term</span><span>{{ gym.pricing.minimum_term }}</span></div>
+    {% if gym.pricing.casual_visit %}<div class="price-row"><span>Casual visit</span><span>${{ gym.pricing.casual_visit }}</span></div>{% endif %}
+    <div class="price-row"><span>Cancellation</span><span>{{ gym.cancellation }}</span></div>
+  </div>
+  {% endif %}
+  <p class="price-note">Prices are indicative. {{ gym.name }} uses franchise pricing — your local club may differ. Always confirm before signing.</p>
+</section>
+
+<!-- Features -->
+<section class="section">
+  <h2>Features</h2>
+  <div class="features-grid">
+    {% set feats = [
+      ('group_fitness', 'Group fitness classes'),
+      ('pool', 'Swimming pool'),
+      ('sauna', 'Sauna'),
+      ('personal_training', 'Personal training'),
+      ('app', 'Mobile app'),
+      ('guest_passes', 'Guest passes'),
+      ('no_lock_in', 'No lock-in contract'),
+      ('open_247', '24/7 access'),
+      ('crèche', 'Crèche / childcare')
+    ] %}
+    {% for key, label in feats %}
+    <div class="feature-row {% if gym.features[key] %}feat-yes{% else %}feat-no{% endif %}">
+      <span>{% if gym.features[key] %}✓{% else %}—{% endif %}</span>
+      <span>{{ label }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  <p><strong>Hours:</strong> {{ gym.hours }}</p>
+</section>
+
+<!-- Locations -->
+<section class="section">
+  <h2>{{ gym.name }} Locations in NZ</h2>
+  <div class="location-tags">
+    {% for loc in gym.locations %}
+    <span class="location-tag">{{ loc }}</span>
+    {% endfor %}
+  </div>
+  <p>Find your nearest {{ gym.name }} on <a href="{{ gym.website }}" rel="nofollow" target="_blank">their website →</a></p>
+</section>
+
+<!-- Compare CTA -->
+<section class="section cta-section">
+  <h2>How Does {{ gym.name }} Compare?</h2>
+  <p>See how {{ gym.name }} stacks up against every other major NZ gym on price, features and contract terms.</p>
+  <a href="/compare/" class="btn btn-primary">Compare all NZ gyms →</a>
+</section>
+
+{% endblock %}

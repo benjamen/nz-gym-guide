@@ -1,0 +1,70 @@
+{
+  "slug": "classpass-review-nz",
+  "short_title": "ClassPass NZ Review",
+  "title": "ClassPass New Zealand Review 2026 — Is It Worth It?",
+  "meta_desc": "Honest ClassPass NZ review: pricing from $36/month, 500+ studios, and a free first month. Who it's right for and where it falls short.",
+  "intro": "ClassPass lets you book classes at hundreds of NZ studios — yoga, HIIT, pilates, cycling, barre, swimming — on one monthly subscription. Here's an honest review of whether it's worth it in 2026.",
+  "updated": "May 2026",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "ClassPass NZ at a Glance",
+      "table": {
+        "headers": ["Detail", "Info"],
+        "rows": [
+          ["Starting price", "From $36/month (~$9/week)"],
+          ["Credits per month", "27 (Starter) to unlimited (Premium)"],
+          ["Studios in NZ", "500+ across major cities"],
+          ["Contract", "Monthly — cancel anytime"],
+          ["Free trial", "First month free (new members)"],
+          ["Best for", "Variety seekers, gym shoppers, travellers"]
+        ]
+      }
+    },
+    {
+      "heading": "How ClassPass Works in New Zealand",
+      "body": "ClassPass operates on a credit system. You buy a monthly credit allowance, then spend those credits booking classes at partner studios. Popular classes cost more credits; off-peak slots cost fewer. Studios include gyms, yoga studios, pilates reformer, boxing, swimming, cycling, barre and more. In Auckland, Wellington and Christchurch you'll find 100+ studios within a reasonable commute. Smaller cities like Hamilton and Dunedin have fewer options but coverage is growing."
+    },
+    {
+      "heading": "ClassPass NZ Pricing Plans",
+      "table": {
+        "headers": ["Plan", "Monthly cost", "Credits", "Good for"],
+        "rows": [
+          ["Starter", "$36/mo", "27 credits", "1–2 classes/week"],
+          ["Core", "$62/mo", "45 credits", "2–3 classes/week"],
+          ["Premium", "$99/mo", "Unlimited", "Daily gym-goers, variety seekers"]
+        ]
+      }
+    },
+    {
+      "heading": "What We Like About ClassPass NZ",
+      "list": [
+        "First month free — genuine no-risk trial, no credit card required upfront.",
+        "Cancel anytime — no lock-in, no cancellation penalty.",
+        "500+ NZ studios — huge variety across yoga, HIIT, pilates, swimming, barre, boxing.",
+        "Great for travelling — credits work across NZ and internationally.",
+        "Discover local studios — find hidden gems you'd never walk past otherwise.",
+        "Flexible scheduling — book last-minute or plan ahead."
+      ]
+    },
+    {
+      "heading": "Where ClassPass Falls Short",
+      "list": [
+        "Credits expire monthly — unused credits are lost at the end of the period.",
+        "Popular classes book out fast — you may miss your preferred time slot.",
+        "Not cheap for heavy users — if you go daily, a gym membership works out cheaper.",
+        "Some studios restrict ClassPass to off-peak slots — can limit flexibility.",
+        "Gym-style floor time is limited — ClassPass is class-based, not open-floor membership."
+      ]
+    },
+    {
+      "heading": "Is ClassPass Worth It in New Zealand?",
+      "body": "ClassPass is excellent if you: (1) want to try different fitness styles without committing, (2) travel regularly and need gym access on the road, (3) prefer guided classes over solo gym sessions, or (4) are new to fitness and want to find what you enjoy. It's not great if you just want to use weights at any hour — for that, City Fitness or Jetts are better value. The Starter plan at $36/month is a very low-risk way to explore NZ's fitness scene, and the free first month makes it a no-brainer to try.",
+      "cta": {
+        "text": "Start your free month →",
+        "url": "https://classpass.com/nz",
+        "affiliate": true
+      }
+    }
+  ]
+}

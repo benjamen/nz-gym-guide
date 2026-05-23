@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "auckland",
+    "name": "Auckland",
+    "population": 1700000,
+    "intro": "Auckland has the widest selection of gyms in NZ — from budget 24/7 clubs in the suburbs to premium facilities in the CBD. City Fitness and Les Mills dominate, with strong presence from Anytime Fitness, F45, and ClassPass across the region.",
+    "gyms_available": ["les-mills", "city-fitness", "anytime-fitness", "snap-fitness", "jetts", "ymca", "f45", "classpass"],
+    "cheapest_option": "city-fitness",
+    "best_value": "city-fitness",
+    "premium_pick": "les-mills",
+    "no_contract_pick": "jetts",
+    "suburbs": ["CBD", "Newmarket", "Ponsonby", "Mt Eden", "Takapuna", "Albany", "Manukau", "Henderson", "Botany", "Remuera"]
+  },
+  {
+    "slug": "wellington",
+    "name": "Wellington",
+    "population": 430000,
+    "intro": "Wellington has a competitive gym market for its size. Les Mills in the CBD is popular with office workers, while City Fitness offers the best value. The compact city means most gyms are accessible by foot or a short commute.",
+    "gyms_available": ["les-mills", "city-fitness", "anytime-fitness", "snap-fitness", "jetts", "ymca", "f45", "classpass"],
+    "cheapest_option": "city-fitness",
+    "best_value": "city-fitness",
+    "premium_pick": "les-mills",
+    "no_contract_pick": "jetts",
+    "suburbs": ["CBD", "Lambton Quay", "Thorndon", "Newtown", "Petone", "Porirua", "Lower Hutt", "Upper Hutt"]
+  },
+  {
+    "slug": "christchurch",
+    "name": "Christchurch",
+    "population": 400000,
+    "intro": "Christchurch has strong gym coverage with competitive pricing. The flat city means cycling to the gym is easy. Les Mills has a well-equipped facility in the CBD, and City Fitness offers strong budget options.",
+    "gyms_available": ["les-mills", "city-fitness", "anytime-fitness", "snap-fitness", "ymca", "f45", "classpass"],
+    "cheapest_option": "city-fitness",
+    "best_value": "city-fitness",
+    "premium_pick": "les-mills",
+    "no_contract_pick": "anytime-fitness",
+    "suburbs": ["CBD", "Riccarton", "Hornby", "Papanui", "Sumner", "Burnside", "Ferrymead"]
+  },
+  {
+    "slug": "hamilton",
+    "name": "Hamilton",
+    "population": 180000,
+    "intro": "Hamilton's gym scene has grown significantly. City Fitness and Les Mills both operate here, and several boutique studios have opened in recent years. Good value for money compared to the main centres.",
+    "gyms_available": ["les-mills", "city-fitness", "anytime-fitness", "snap-fitness", "jetts", "f45"],
+    "cheapest_option": "city-fitness",
+    "best_value": "city-fitness",
+    "premium_pick": "les-mills",
+    "no_contract_pick": "jetts",
+    "suburbs": ["CBD", "Chartwell", "Rototuna", "Claudelands", "Frankton", "Dinsdale"]
+  },
+  {
+    "slug": "tauranga",
+    "name": "Tauranga",
+    "population": 155000,
+    "intro": "Tauranga's sunny lifestyle means gym culture is strong. City Fitness has several locations across the Bay of Plenty, and the area has a growing boutique fitness scene including F45.",
+    "gyms_available": ["les-mills", "city-fitness", "anytime-fitness", "snap-fitness", "f45"],
+    "cheapest_option": "city-fitness",
+    "best_value": "city-fitness",
+    "premium_pick": "les-mills",
+    "no_contract_pick": "anytime-fitness",
+    "suburbs": ["CBD", "Mount Maunganui", "Papamoa", "Bethlehem", "Greerton"]
+  },
+  {
+    "slug": "dunedin",
+    "name": "Dunedin",
+    "population": 130000,
+    "intro": "Dunedin has a solid gym scene anchored by the University of Otago student population. Good value memberships available, with strong Les Mills and YMCA options, plus several independent gyms.",
+    "gyms_available": ["les-mills", "anytime-fitness", "snap-fitness", "ymca", "classpass"],
+    "cheapest_option": "ymca",
+    "best_value": "ymca",
+    "premium_pick": "les-mills",
+    "no_contract_pick": "anytime-fitness",
+    "suburbs": ["CBD", "St Kilda", "Mosgiel", "North Dunedin", "Caversham"]
+  }
+]

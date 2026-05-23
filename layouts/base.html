@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ site.title }}{% endblock %}</title>
+  <meta name="description" content="{% block desc %}{{ site.description }}{% endblock %}">
+  <link rel="canonical" href="{{ site.base_url }}/{% block canonical %}{% endblock %}">
+  <link rel="stylesheet" href="{{ site.base_path }}/static/css/style.css">
+  <link rel="icon" href="{{ site.base_path }}/static/img/favicon.svg" type="image/svg+xml">
+  {% if site.ga_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.ga_id }}');</script>
+  {% endif %}
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{ site.title }}","url":"{{ site.base_url }}"}</script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="{{ site.base_path }}/" class="nav-logo">🏋️ NZ Gym Guide</a>
+      <div class="nav-links">
+        <a href="{{ site.base_path }}/compare/">Compare All</a>
+        <a href="{{ site.base_path }}/gym/auckland/">Auckland</a>
+        <a href="{{ site.base_path }}/gym/wellington/">Wellington</a>
+        <a href="{{ site.base_path }}/gym/christchurch/">Christchurch</a>
+        <a href="{{ site.base_path }}/guides/cheapest-gym-nz/">Cheapest Gym</a>
+      </div>
+    </div>
+  </nav>
+
+  {% block hero %}{% endblock %}
+
+  <main class="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-cols">
+        <div>
+          <strong>NZ Gym Guide</strong>
+          <p>Independent gym comparisons for New Zealand. We earn a small commission on some referrals — this never affects our rankings.</p>
+        </div>
+        <div>
+          <strong>Compare</strong>
+          <ul>
+            {% for gym in gyms %}
+            <li><a href="{{ site.base_path }}/gym/{{ gym.slug }}/">{{ gym.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div>
+          <strong>By City</strong>
+          <ul>
+            {% for city in cities %}
+            <li><a href="{{ site.base_path }}/gym/{{ city.slug }}/">{{ city.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div>
+          <strong>Guides</strong>
+          <ul>
+            <li><a href="{{ site.base_path }}/guides/cheapest-gym-nz/">Cheapest gym in NZ</a></li>
+            <li><a href="{{ site.base_path }}/guides/gym-membership-tips/">Membership tips</a></li>
+            <li><a href="{{ site.base_path }}/guides/cancel-gym-membership-nz/">How to cancel</a></li>
+            <li><a href="{{ site.base_path }}/guides/gym-contracts-nz/">Understanding contracts</a></li>
+            <li><a href="{{ site.base_path }}/guides/classpass-review-nz/">ClassPass review NZ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 NZ Gym Guide · <a href="mailto:{{ site.contact_email }}">Contact</a> · Prices are indicative and change — always confirm with the gym directly.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

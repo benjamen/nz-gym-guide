@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block title %}NZ Gym Membership Comparison 2026 — Compare Prices & Contracts{% endblock %}
+{% block desc %}Compare NZ gym memberships side by side. Find the cheapest gym near you — prices, contracts, and honest reviews for Les Mills, City Fitness, Anytime Fitness, ClassPass and more.{% endblock %}
+{% block canonical %}{% endblock %}
+
+{% block hero %}
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Compare NZ Gym Memberships — Find the Best Price</h1>
+    <p class="hero-sub">Transparent pricing, honest reviews, and side-by-side comparisons for every major NZ gym chain. No sales pitch — just the facts.</p>
+    <div class="hero-ctas">
+      <a href="#compare" class="btn btn-primary">Compare all gyms →</a>
+      <a href="/guides/cheapest-gym-nz/" class="btn btn-secondary">Find cheapest gym</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat"><span>8</span> gyms compared</div>
+      <div class="hstat"><span>6</span> NZ cities</div>
+      <div class="hstat"><span>from $7.99</span>/week</div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<!-- Quick filter -->
+<section class="section">
+  <h2>Find Your Gym</h2>
+  <div class="city-grid">
+    {% for city in cities %}
+    <a href="/gym/{{ city.slug }}/" class="city-card">
+      <span class="city-name">{{ city.name }}</span>
+      <span class="city-count">{{ city.gyms_available|length }} gyms</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Comparison table -->
+<section class="section" id="compare">
+  <h2>NZ Gym Membership Prices Compared (2026)</h2>
+  <p class="section-intro">All prices are weekly equivalents. Always confirm current pricing directly with the gym — franchise locations can vary.</p>
+
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Gym</th>
+          <th>From (weekly)</th>
+          <th>Joining fee</th>
+          <th>Contract</th>
+          <th>24/7</th>
+          <th>Group classes</th>
+          <th>Pool</th>
+          <th>Best for</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for gym in gyms %}
+        <tr class="{% if gym.has_affiliate %}affiliate-row{% endif %}">
+          <td class="gym-name-cell">
+            <a href="/gym/{{ gym.slug }}/">{{ gym.name }}</a>
+            <span class="gym-type type-{{ gym.type|lower|replace(' ','-') }}">{{ gym.type }}</span>
+          </td>
+          <td class="price-cell">${{ gym.pricing.weekly_from }}</td>
+          <td>${{ gym.pricing.joining_fee }}{% if gym.pricing.joining_fee == 0 %} <span class="badge-green">Free</span>{% endif %}</td>
+          <td>{% if gym.pricing.contract_required %}<span class="badge-amber">{{ gym.pricing.minimum_term }}</span>{% else %}<span class="badge-green">No lock-in</span>{% endif %}</td>
+          <td>{% if gym.features.open_247 %}✓{% else %}—{% endif %}</td>
+          <td>{% if gym.features.group_fitness %}✓{% else %}—{% endif %}</td>
+          <td>{% if gym.features.pool %}✓{% else %}—{% endif %}</td>
+          <td class="best-for-cell">{{ gym.best_for }}</td>
+          <td>
+            {% if gym.has_affiliate %}
+            <a href="{{ site.affiliates[gym.affiliate_key].url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[gym.affiliate_key].cta }}</a>
+            {% else %}
+            <a href="/gym/{{ gym.slug }}/" class="btn btn-sm btn-outline">View details →</a>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="table-note">* Affiliate disclosure: we earn a commission on some referrals. This does not affect our rankings.</p>
+</section>
+
+<!-- Gym cards -->
+<section class="section">
+  <h2>Gym Reviews</h2>
+  <div class="gym-grid">
+    {% for gym in gyms %}
+    <div class="gym-card">
+      <div class="gym-card-header">
+        <div>
+          <h3><a href="/gym/{{ gym.slug }}/">{{ gym.name }}</a></h3>
+          <p class="gym-tagline">{{ gym.tagline }}</p>
+        </div>
+        <span class="gym-type type-{{ gym.type|lower|replace(' ','-') }}">{{ gym.type }}</span>
+      </div>
+      <div class="gym-price-row">
+        <span class="price-big">${{ gym.pricing.weekly_from }}<span class="per-week">/wk</span></span>
+        <span class="price-note">{% if gym.pricing.contract_required %}{{ gym.pricing.minimum_term }} min{% else %}No lock-in{% endif %}</span>
+      </div>
+      <div class="gym-features">
+        {% if gym.features.open_247 %}<span class="feat">24/7</span>{% endif %}
+        {% if gym.features.group_fitness %}<span class="feat">Classes</span>{% endif %}
+        {% if gym.features.pool %}<span class="feat">Pool</span>{% endif %}
+        {% if gym.features.no_lock_in %}<span class="feat">No contract</span>{% endif %}
+        {% if gym.features.crèche %}<span class="feat">Crèche</span>{% endif %}
+      </div>
+      <p class="gym-verdict">{{ gym.verdict }}</p>
+      <div class="gym-card-footer">
+        <a href="/gym/{{ gym.slug }}/" class="btn btn-outline btn-sm">Full review →</a>
+        {% if gym.has_affiliate %}
+        <a href="{{ site.affiliates[gym.affiliate_key].url }}" class="btn btn-primary btn-sm" rel="sponsored" target="_blank">{{ site.affiliates[gym.affiliate_key].cta }}</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Affiliate spotlight -->
+<section class="section spotlight">
+  <h2>Try Before You Commit</h2>
+  <div class="spotlight-grid">
+    <div class="spotlight-card">
+      <h3>ClassPass — Access 500+ NZ Studios</h3>
+      <p>Not sure which gym to commit to? ClassPass lets you try yoga, HIIT, pilates, swimming and more across hundreds of NZ studios — from $9/week. First month free.</p>
+      <a href="{{ site.affiliates.classpass.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Try ClassPass free →</a>
+    </div>
+    <div class="spotlight-card">
+      <h3>Orangetheory — Free Introductory Class</h3>
+      <p>Orangetheory's heart-rate based HIIT workout is the fastest growing gym in NZ. Book a free intro class — no credit card required.</p>
+      <a href="{{ site.affiliates.orangetheory.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Book free class →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary>What is the cheapest gym in NZ?</summary>
+      <p>City Fitness is the cheapest major gym chain in NZ, starting from <strong>$7.99/week</strong> on their Basic membership. Jetts offers no-lock-in memberships from around $14.95/week. See our <a href="/guides/cheapest-gym-nz/">cheapest gym guide</a> for a full breakdown.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Which NZ gyms have no contracts?</summary>
+      <p>City Fitness (4-week minimum), Jetts (cancel anytime), F45 (most studios), and ClassPass (monthly subscription) all offer flexible memberships with no long-term lock-in. Les Mills and Anytime Fitness typically require 3–12 month terms.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Is ClassPass worth it in New Zealand?</summary>
+      <p>ClassPass is excellent if you like variety and don't want to commit to one gym. You get access to hundreds of NZ studios for yoga, HIIT, pilates, cycling and more. The Starter plan from $36/month suits occasional gym-goers; the Premium plan suits those doing 3+ sessions per week. <a href="/guides/classpass-review-nz/">Read our full ClassPass NZ review.</a></p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I cancel a gym membership early in NZ?</summary>
+      <p>Under the Consumer Guarantees Act, you can cancel if the gym moves location, reduces services, or you have a medical reason. For other reasons, most gyms require you to pay out the remaining months or find a member to take over your contract. See our <a href="/guides/cancel-gym-membership-nz/">how to cancel guide</a>.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What gym is best for beginners in NZ?</summary>
+      <p>ClassPass is great for beginners — try different styles before committing. For a permanent gym, City Fitness offers an affordable, low-pressure environment. F45 or Les Mills group classes are excellent if you want structure and coaching.</p>
+    </details>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+
+{% block title %}Compare All NZ Gym Memberships 2026 — Side-by-Side Prices & Features{% endblock %}
+{% block desc %}Full side-by-side comparison of every major NZ gym: Les Mills, City Fitness, Anytime Fitness, Snap Fitness, Jetts, YMCA, F45 and ClassPass. Prices, contracts, features and honest ratings.{% endblock %}
+{% block canonical %}compare/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Compare</div>
+    <h1>Compare All NZ Gym Memberships 2026</h1>
+    <p>Side-by-side prices, contracts, and features for every major gym chain in New Zealand.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<section class="section">
+  <p class="section-intro">All prices are weekly equivalents and indicative — always confirm with your local club before signing. Franchise pricing can vary by location.</p>
+
+  <div class="table-wrap">
+    <table class="compare-table compare-table-full">
+      <thead>
+        <tr>
+          <th>Gym</th>
+          <th>From/wk</th>
+          <th>To/wk</th>
+          <th>Joining fee</th>
+          <th>Contract</th>
+          <th>Cancel</th>
+          <th>24/7</th>
+          <th>Classes</th>
+          <th>Pool</th>
+          <th>Sauna</th>
+          <th>PT</th>
+          <th>App</th>
+          <th>Crèche</th>
+          <th>Rating</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for gym in gyms %}
+        <tr class="{% if gym.has_affiliate %}affiliate-row{% endif %}">
+          <td class="gym-name-cell">
+            <a href="/gym/{{ gym.slug }}/">{{ gym.name }}</a>
+            <span class="gym-type type-{{ gym.type|lower|replace(' ','-') }}">{{ gym.type }}</span>
+          </td>
+          <td class="price-cell">${{ gym.pricing.weekly_from }}</td>
+          <td class="price-cell">${{ gym.pricing.weekly_to }}</td>
+          <td>
+            ${{ gym.pricing.joining_fee }}
+            {% if gym.pricing.joining_fee == 0 %}<span class="badge-green">Free</span>{% endif %}
+          </td>
+          <td>
+            {% if gym.pricing.contract_required %}
+            <span class="badge-amber">{{ gym.pricing.minimum_term }}</span>
+            {% else %}
+            <span class="badge-green">None</span>
+            {% endif %}
+          </td>
+          <td class="small-cell">{{ gym.cancellation }}</td>
+          <td class="icon-cell">{% if gym.features.open_247 %}✓{% else %}—{% endif %}</td>
+          <td class="icon-cell">{% if gym.features.group_fitness %}✓{% else %}—{% endif %}</td>
+          <td class="icon-cell">{% if gym.features.pool %}✓{% else %}—{% endif %}</td>
+          <td class="icon-cell">{% if gym.features.sauna %}✓{% else %}—{% endif %}</td>
+          <td class="icon-cell">{% if gym.features.personal_training %}✓{% else %}—{% endif %}</td>
+          <td class="icon-cell">{% if gym.features.app %}✓{% else %}—{% endif %}</td>
+          <td class="icon-cell">{% if gym.features['crèche'] %}✓{% else %}—{% endif %}</td>
+          <td>{{ gym.rating }}★</td>
+          <td>
+            {% if gym.has_affiliate %}
+            <a href="{{ site.affiliates[gym.affiliate_key].url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Join →</a>
+            {% else %}
+            <a href="/gym/{{ gym.slug }}/" class="btn btn-sm btn-outline">Review →</a>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="table-note">* Affiliate disclosure: we earn a commission on some referrals. This does not affect our rankings or ratings.</p>
+</section>
+
+<!-- By need -->
+<section class="section">
+  <h2>Which Gym Is Right for You?</h2>
+  <div class="need-grid">
+    <div class="need-card">
+      <h3>Cheapest option</h3>
+      <p><strong>City Fitness</strong> — from $7.99/wk. Basic membership, no frills, solid equipment.</p>
+      <a href="/gym/city-fitness/" class="btn btn-outline btn-sm">See City Fitness →</a>
+    </div>
+    <div class="need-card">
+      <h3>No lock-in contract</h3>
+      <p><strong>Jetts</strong> — cancel any time, 24/7 access, no joining fee promotions run regularly.</p>
+      <a href="/gym/jetts/" class="btn btn-outline btn-sm">See Jetts →</a>
+    </div>
+    <div class="need-card">
+      <h3>Best group classes</h3>
+      <p><strong>Les Mills</strong> — the home of BodyPump, RPM, GRIT and 20+ other class formats.</p>
+      <a href="/gym/les-mills/" class="btn btn-outline btn-sm">See Les Mills →</a>
+    </div>
+    <div class="need-card">
+      <h3>Try before committing</h3>
+      <p><strong>ClassPass</strong> — access 500+ NZ studios on one subscription. First month free.</p>
+      <a href="/gym/classpass/" class="btn btn-outline btn-sm">See ClassPass →</a>
+    </div>
+    <div class="need-card">
+      <h3>Best for families</h3>
+      <p><strong>YMCA</strong> — pool, crèche, family memberships and community focus at an affordable price.</p>
+      <a href="/gym/ymca/" class="btn btn-outline btn-sm">See YMCA →</a>
+    </div>
+    <div class="need-card">
+      <h3>High-intensity training</h3>
+      <p><strong>F45</strong> — 45-minute functional HIIT classes, coach-led, no guessing what to do.</p>
+      <a href="/gym/f45/" class="btn btn-outline btn-sm">See F45 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Affiliate CTA -->
+<section class="section spotlight">
+  <h2>Not Sure Where to Start?</h2>
+  <div class="spotlight-grid">
+    <div class="spotlight-card">
+      <h3>ClassPass — Try 500+ Studios Free</h3>
+      <p>One subscription, hundreds of NZ studios. Yoga, HIIT, pilates, cycling, boxing — try it all before committing to one gym. First month free.</p>
+      <a href="{{ site.affiliates.classpass.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Start free month →</a>
+    </div>
+    <div class="spotlight-card">
+      <h3>Orangetheory — Free Intro Class</h3>
+      <p>Science-backed heart-rate training in a group setting. Book one free class — no credit card, no commitment.</p>
+      <a href="{{ site.affiliates.orangetheory.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Book free class →</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
