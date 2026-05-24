@@ -80,18 +80,29 @@ def build():
                guide=guide, **ctx)
 
     # Sitemap
-    pages = (
-        [""] +
-        ["compare"] +
-        [f"gym/{g['slug']}" for g in gyms] +
-        [f"gym/{c['slug']}" for c in cities] +
-        [f"guides/{g['slug']}" for g in guides]
-    )
+    from datetime import date as _date
+    today = _date.today().isoformat()
+
+    def sm_url(path, priority="0.6", changefreq="monthly"):
+        loc = f"{site['base_url']}/{path}" if path else site['base_url']
+        return f'  <url><loc>{loc}</loc><lastmod>{today}</lastmod><changefreq>{changefreq}</changefreq><priority>{priority}</priority></url>\n'
+
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for p in pages:
-        sitemap += f"  <url><loc>{site['base_url']}/{p}</loc></url>\n"
+    sitemap += sm_url("", "1.0", "weekly")
+    sitemap += sm_url("compare", "0.9", "weekly")
+    for g in gyms:
+        sitemap += sm_url(f"gym/{g['slug']}", "0.8", "monthly")
+    for c in cities:
+        sitemap += sm_url(f"gym/{c['slug']}", "0.7", "monthly")
+    for g in guides:
+        sitemap += sm_url(f"guides/{g['slug']}", "0.7", "monthly")
     sitemap += "</urlset>"
     (OUT / "sitemap.xml").write_text(sitemap)
+
+    # robots.txt
+    (OUT / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nSitemap: {site['base_url']}/sitemap.xml\n"
+    )
 
     # CNAME for GitHub Pages
     (OUT / "CNAME").write_text("nzgymguide.co.nz")

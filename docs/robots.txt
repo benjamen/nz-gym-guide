@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nzgymguide.co.nz/sitemap.xml
