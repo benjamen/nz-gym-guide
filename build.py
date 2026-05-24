@@ -69,20 +69,15 @@ def build():
         render("city.html", f"gym/{city['slug']}/index.html",
                city=city, city_gyms=city_gyms, **ctx)
 
-    # Guide pages
-    guides = [
-        ("cheapest-gym-nz", "cheapest-gym-nz"),
-        ("gym-membership-tips", "gym-membership-tips"),
-        ("cancel-gym-membership-nz", "cancel-gym-membership-nz"),
-        ("gym-contracts-nz", "gym-contracts-nz"),
-        ("classpass-review-nz", "classpass-review-nz"),
-    ]
-    for slug, tpl_name in guides:
-        guide_file = CONTENT / "guides" / f"{slug}.json"
-        if guide_file.exists():
-            guide = json.loads(guide_file.read_text())
-            render("guide.html", f"guides/{slug}/index.html",
-                   guide=guide, **ctx)
+    # Guide pages — load all guides dynamically from content/guides/
+    guides_dir = CONTENT / "guides"
+    guides = []
+    if guides_dir.exists():
+        for f in sorted(guides_dir.glob("*.json")):
+            guides.append(json.loads(f.read_text()))
+    for guide in guides:
+        render("guide.html", f"guides/{guide['slug']}/index.html",
+               guide=guide, **ctx)
 
     # Sitemap
     pages = (
@@ -90,7 +85,7 @@ def build():
         ["compare"] +
         [f"gym/{g['slug']}" for g in gyms] +
         [f"gym/{c['slug']}" for c in cities] +
-        [f"guides/{s}" for s, _ in guides]
+        [f"guides/{g['slug']}" for g in guides]
     )
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for p in pages:
