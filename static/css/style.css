@@ -294,3 +294,26 @@ img { max-width: 100%; display: block; }
 /* === Sections headings === */
 .section h2 { font-size: 1.4rem; font-weight: 700; margin-bottom: 1rem; color: var(--text); }
 .section h3 { font-size: 1.05rem; font-weight: 600; }
+
+/* === Deals / Posts hub === */
+.exercise-nz-banner { background: linear-gradient(135deg, #1a5276, #2e86c1); border-radius: 12px; padding: 1.5rem 2rem; margin-bottom: 1.5rem; }
+.exnz-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+.exnz-text { color: #fff; display: flex; flex-direction: column; gap: .3rem; }
+.exnz-text strong { font-size: 1.05rem; }
+.exnz-text span { font-size: .9rem; opacity: .9; }
+
+.posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+.post-card { background: var(--card-bg, #fff); border: 1px solid var(--border, #e5e7eb); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; gap: .75rem; }
+.post-meta { display: flex; gap: .75rem; align-items: center; }
+.post-date { font-size: .8rem; color: #6b7280; }
+.post-badge { font-size: .7rem; background: #dcfce7; color: #166534; border-radius: 4px; padding: .15rem .5rem; font-weight: 600; }
+.post-title { font-size: 1.05rem; font-weight: 700; margin: 0; line-height: 1.4; }
+.post-title a { color: var(--text); text-decoration: none; }
+.post-title a:hover { color: var(--primary, #2563eb); }
+.post-intro { font-size: .9rem; color: #4b5563; line-height: 1.5; margin: 0; }
+.post-read-more { font-size: .85rem; color: var(--primary, #2563eb); font-weight: 600; text-decoration: none; margin-top: auto; }
+
+@media (max-width: 600px) {
+  .exnz-inner { flex-direction: column; align-items: flex-start; }
+  .posts-grid { grid-template-columns: 1fr; }
+}

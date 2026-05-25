@@ -1,0 +1,58 @@
+{
+  "title": "Snap Fitness vs Jetts",
+  "short_title": "Gym Comparison",
+  "meta_desc": "Compare Snap Fitness and Jetts NZ gym memberships, prices, and features to find the best gym for your needs and budget, with prices from $14.95/week and contract lengths varying, consider Exercise NZ's subsidy scheme for 40-70% off",
+  "intro": "Snap Fitness and Jetts are two popular gym options in New Zealand, offering 24/7 access and affordable prices. But which one is right for you? In this comparison, we'll look at price, contract length, cancellation policy, facilities, and locations to help you decide. With current deals like Jetts 15% Off + 4 Weeks Free and Snap Fitness 6 Weeks Free, it's a great time to join.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Price and Contract Comparison",
+      "body": "<p>Both Snap Fitness and Jetts offer competitive pricing, with Snap Fitness starting at $14.95/week and Jetts starting at $14.95/week. However, Jetts has no joining fee, while Snap Fitness charges a $49 joining fee, although they often run promotions to waive this fee. Contract lengths also vary, with Snap Fitness offering 6-12 month contracts and Jetts having no lock-in contract.</p><p>Consider Exercise NZ's subsidy scheme, which offers 40-70% off for eligible members, making either option even more affordable.</p>",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price/week",
+          "Contract",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Snap Fitness",
+            "$14.95-$17.95",
+            "6-12 months",
+            "Small-town NZ locations"
+          ],
+          [
+            "Jetts",
+            "$14.95-$19.95",
+            "No lock-in",
+            "Flexibility seekers"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Facilities and Classes",
+      "body": "<p>Both gyms offer personal training and 24/7 access, but Jetts has fewer locations and no group classes. Snap Fitness has smaller clubs, which can feel cramped during peak hours. If you prioritize group classes or a wider range of facilities, you may want to consider other options like Les Mills or City Fitness.</p>",
+      "list": [
+        "Personal training available at both gyms",
+        "24/7 access at both gyms",
+        "Jetts has fewer locations and no group classes",
+        "Snap Fitness has smaller clubs"
+      ]
+    },
+    {
+      "heading": "Locations and Overall Value",
+      "body": "<p>Snap Fitness has a wider reach across New Zealand, making it a great option for those in smaller towns. However, Jetts' flexibility and no-lock-in contract make it an attractive choice for those who value freedom and affordability.</p><p>Ultimately, the best gym for you will depend on your individual needs and priorities. If you're on a tight budget and want no-contract flexibility, Jetts may be the better choice. For those who prioritize 24/7 access in smaller NZ towns, Snap Fitness is a solid option.</p>",
+      "cta": {
+        "text": "Find the best gym for your needs and budget",
+        "url": "https://nzgymguide.co.nz",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "snap-fitness-vs-jetts-nz",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-25"
+}

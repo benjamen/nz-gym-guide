@@ -79,6 +79,19 @@ def build():
         render("guide.html", f"guides/{guide['slug']}/index.html",
                guide=guide, **ctx)
 
+    # Auto-generated posts — content/posts/
+    posts_dir = CONTENT / "posts"
+    posts = []
+    if posts_dir.exists():
+        for f in sorted(posts_dir.glob("*.json"), reverse=True):  # newest first
+            posts.append(json.loads(f.read_text()))
+    if posts:
+        # Posts index page — reuse the guide layout as a simple hub
+        render("posts.html", "deals/index.html", posts=posts, **ctx)
+        for post in posts:
+            render("guide.html", f"deals/{post['slug']}/index.html",
+                   guide=post, **ctx)
+
     # Sitemap
     from datetime import date as _date
     today = _date.today().isoformat()
@@ -96,6 +109,10 @@ def build():
         sitemap += sm_url(f"gym/{c['slug']}", "0.7", "monthly")
     for g in guides:
         sitemap += sm_url(f"guides/{g['slug']}", "0.7", "monthly")
+    if posts:
+        sitemap += sm_url("deals", "0.8", "daily")
+        for p in posts:
+            sitemap += sm_url(f"deals/{p['slug']}", "0.8", "weekly")
     sitemap += "</urlset>"
     (OUT / "sitemap.xml").write_text(sitemap)
 

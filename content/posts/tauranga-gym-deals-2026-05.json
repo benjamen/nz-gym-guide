@@ -1,0 +1,72 @@
+{
+  "title": "Tauranga Gym Deals",
+  "short_title": "Tauranga Gyms",
+  "meta_desc": "Find the best gym deals in Tauranga, NZ. Compare prices, contract lengths, and get up to 70% off with Exercise NZ's subsidy scheme.",
+  "intro": "Tauranga's sunny lifestyle means gym culture is strong. City Fitness has several locations across the Bay of Plenty, and the area has a growing boutique fitness scene including F45. With numerous gyms to choose from, it can be challenging to find the best value for your money. Here's a rundown of the current deals and offers available in Tauranga.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Gym Deals in Tauranga",
+      "body": "<p>Several gyms in Tauranga are offering attractive deals to new members. City Fitness is currently the cheapest option, with a month-to-month membership for $18.99/week. Les Mills is also offering a flexi membership with no lock-in contract. Anytime Fitness provides 24/7 access to over 5,000 clubs worldwide.</p><p>Snap Fitness is giving away 6 weeks free, while F45 offers a free trial week. Eligible members can also take advantage of Exercise NZ's subsidy scheme, which offers 40-70% off gym memberships.</p>",
+      "list": [
+        "City Fitness: $18.99/week (month-to-month)",
+        "Les Mills: Flexi membership (no lock-in contract)",
+        "Anytime Fitness: 24/7 access to over 5,000 clubs worldwide",
+        "Snap Fitness: 6 weeks free",
+        "F45: Free trial week"
+      ]
+    },
+    {
+      "heading": "Best Value Gyms in Tauranga",
+      "body": "<p>City Fitness is currently the best value gym in Tauranga, with a month-to-month membership for $18.99/week. Les Mills is the premium pick, offering a range of group classes and high-end facilities.</p><p>Anytime Fitness is a great option for those who want 24/7 access to gyms worldwide. With the Exercise NZ subsidy scheme, eligible members can get up to 70% off their gym membership, making it even more affordable to stay fit and healthy.</p>",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price/week",
+          "Contract",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$18.99",
+            "Month-to-month",
+            "Best value"
+          ],
+          [
+            "Les Mills",
+            "$20-$30",
+            "12 months",
+            "Premium"
+          ],
+          [
+            "Anytime Fitness",
+            "$20-$30",
+            "12 months",
+            "No contract"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Joining a Gym in Tauranga",
+      "body": "<p>Here are some tips to help you save money when joining a gym in Tauranga:</p>",
+      "list": [
+        "Take advantage of the Exercise NZ subsidy scheme (40-70% off for eligible members)",
+        "Consider a month-to-month membership instead of a long-term contract",
+        "Look for gyms that offer free trials or discounts for new members",
+        "Negotiate with the gym to see if they can offer any discounts or promotions",
+        "Use online coupons or promo codes to get a discount on your membership"
+      ],
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "tauranga-gym-deals-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-25"
+}

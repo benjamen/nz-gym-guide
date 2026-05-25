@@ -1,0 +1,93 @@
+{
+  "updated": "May 2026",
+  "exercise_nz": {
+    "name": "Exercise NZ Subsidised Gym Membership",
+    "description": "40–70% subsidy for first-time gym members or anyone inactive for 12+ months. Available at 200+ NZ providers.",
+    "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+    "saving": "40–70% off",
+    "eligibility": "New members or those inactive for 12+ months",
+    "provider_count": "200+",
+    "note": "Payment required upfront, subsidy applied at point of purchase through participating gyms"
+  },
+  "current_deals": [
+    {
+      "gym": "Jetts",
+      "title": "Jetts 15% Off + 4 Weeks Free",
+      "description": "15% off membership plus 4 weeks free on 12 or 18-month terms",
+      "saving": "15% off + 4 weeks free",
+      "url": "https://www.jetts.co.nz/memberships/",
+      "valid_until": "May 31, 2026",
+      "chains": ["jetts"]
+    },
+    {
+      "gym": "Snap Fitness",
+      "title": "Snap Fitness 6 Weeks Free",
+      "description": "Up to 6 weeks free on 12-month memberships. AIA Vitality members also eligible.",
+      "saving": "6 weeks free",
+      "url": "https://www.snapfitness.com/nz/national-offer",
+      "valid_until": "Ongoing — check current offer",
+      "chains": ["snap-fitness"]
+    },
+    {
+      "gym": "Les Mills",
+      "title": "Les Mills Flexi Membership",
+      "description": "No lock-in contract flexi membership from $40/week. Join fee waiver deals available periodically.",
+      "saving": "No lock-in contract",
+      "url": "https://www.lesmills.co.nz/memberships",
+      "valid_until": "Ongoing",
+      "chains": ["les-mills"]
+    },
+    {
+      "gym": "City Fitness",
+      "title": "City Fitness $18.99/week Month-to-Month",
+      "description": "NZ's most affordable full-service gym chain. $18.99/week with no contract, $29 joining fee.",
+      "saving": "$18.99/week — best value full-service",
+      "url": "https://www.cityfitness.co.nz/",
+      "valid_until": "Ongoing",
+      "chains": ["city-fitness"]
+    },
+    {
+      "gym": "Anytime Fitness",
+      "title": "Anytime Fitness 24/7 Access",
+      "description": "63+ NZ locations, 24/7 access, reciprocal access to 5,000+ clubs worldwide. From ~$26/week.",
+      "saving": "Access to 5,000+ clubs worldwide",
+      "url": "https://www.anytimefitness.co.nz/",
+      "valid_until": "Ongoing",
+      "chains": ["anytime-fitness"]
+    },
+    {
+      "gym": "ClassPass",
+      "title": "ClassPass First Month Discount",
+      "description": "Access 1,000+ NZ studios and gyms. First month heavily discounted for new members.",
+      "saving": "First month discount",
+      "url": "https://classpass.com/nz",
+      "valid_until": "Ongoing for new members",
+      "chains": ["classpass"]
+    },
+    {
+      "gym": "F45",
+      "title": "F45 Free Trial Week",
+      "description": "Try any F45 studio free for one week. High-intensity group training, 45-minute sessions.",
+      "saving": "1 week free trial",
+      "url": "https://f45training.co.nz/",
+      "valid_until": "Ongoing at most studios",
+      "chains": ["f45"]
+    },
+    {
+      "gym": "YMCA",
+      "title": "YMCA Community Membership",
+      "description": "Sliding scale membership available for community members. Pool, gym, group classes included.",
+      "saving": "Sliding scale pricing available",
+      "url": "https://ymca.org.nz/",
+      "valid_until": "Ongoing",
+      "chains": ["ymca"]
+    }
+  ],
+  "seasonal_notes": {
+    "january": "New Year rush — joining fees often waived. Best time to negotiate.",
+    "march_april": "Post-summer lull — gyms actively competing. Good time to switch.",
+    "june_july": "Mid-year deals common. Exercise NZ subsidy program very active.",
+    "october": "Spring surge — check for free trial offers before committing.",
+    "year_round": "Jetts and Snap regularly run 4-6 weeks free deals. Always check before joining at full price."
+  }
+}

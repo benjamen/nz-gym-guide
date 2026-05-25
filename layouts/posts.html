@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}NZ Gym Deals & Tips — Updated Daily | NZ Gym Guide{% endblock %}
+{% block desc %}Daily NZ gym deals, membership reviews, Exercise NZ subsidy guides, and money-saving tips for every city. Updated every day.{% endblock %}
+{% block canonical %}deals/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Deals & Tips</div>
+    <h1>NZ Gym Deals & Tips</h1>
+    <p>Daily articles on gym deals, membership reviews, Exercise NZ subsidies, and money-saving tips — one new post every day for every city.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="exercise-nz-banner">
+    <div class="exnz-inner">
+      <div class="exnz-text">
+        <strong>💰 Exercise NZ Subsidy — 40–70% Off Your Gym Membership</strong>
+        <span>New to the gym or been inactive for 12+ months? Exercise NZ subsidises gym memberships at 200+ NZ providers.</span>
+      </div>
+      <a href="https://www.exercise.org.nz/subsidised-gym-membership/" class="btn btn-primary" rel="sponsored" target="_blank">Check eligibility →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="posts-grid">
+    {% for post in posts %}
+    <article class="post-card">
+      <div class="post-meta">
+        <span class="post-date">{{ post.updated }}</span>
+        {% if post.auto_generated %}<span class="post-badge">Daily update</span>{% endif %}
+      </div>
+      <h2 class="post-title"><a href="/deals/{{ post.slug }}/">{{ post.title }}</a></h2>
+      <p class="post-intro">{{ post.intro[:160] }}{% if post.intro|length > 160 %}…{% endif %}</p>
+      <a href="/deals/{{ post.slug }}/" class="post-read-more">Read more →</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
