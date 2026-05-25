@@ -1,0 +1,64 @@
+{
+  "title": "Jetts NZ Deals",
+  "short_title": "Jetts Deals",
+  "meta_desc": "Compare Jetts NZ gym membership deals and promotions, including 15% off and 4 weeks free. Get the best price with our tips and advice.",
+  "intro": "Jetts NZ is a budget-friendly gym option with no joining fee and flexible membership plans. Current deals include 15% off membership plus 4 weeks free on 12 or 18-month terms. With prices starting from $14.95–$19.95/week, Jetts NZ is an affordable choice for those seeking flexibility and 24/7 access.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Promotions and How to Claim",
+      "body": "<p>Jetts NZ is currently offering 15% off membership plus 4 weeks free on 12 or 18-month terms. To claim this deal, simply sign up for a Jetts NZ membership on their website or in-club. No promo code is required, and the discount will be applied automatically.</p><p>In addition to this deal, Jetts NZ also offers a no-joining-fee policy, making it an attractive option for those who want to try out a gym without committing to a long-term contract.</p>",
+      "list": [
+        "15% off membership",
+        "4 weeks free on 12 or 18-month terms",
+        "No joining fee"
+      ]
+    },
+    {
+      "heading": "Best Time to Join and Comparison to Exercise NZ Subsidy",
+      "body": "<p>The best time to join Jetts NZ for deals is typically during promotional periods, such as New Year's sales or special events. However, with the current 15% off and 4 weeks free deal, it's always a good time to sign up.</p><p>In comparison to the Exercise NZ subsidy scheme, which offers 40–70% off for eligible members, Jetts NZ's prices are still competitive, especially with the current promotion. However, those who are eligible for the Exercise NZ subsidy may find it a more affordable option in the long run.</p>",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price/week",
+          "Contract",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Jetts NZ",
+            "$14.95–$19.95",
+            "No lock-in",
+            "Flexibility seekers"
+          ],
+          [
+            "Exercise NZ subsidy",
+            "40–70% off",
+            "Varies",
+            "Eligible members"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips for Getting the Best Deal on a Jetts Membership",
+      "body": "<p>To get the best deal on a Jetts NZ membership, consider the following tips:</p>",
+      "list": [
+        "Sign up during promotional periods for discounts and free trials",
+        "Choose a longer contract term to get a lower weekly rate",
+        "Consider the Exercise NZ subsidy scheme if you're eligible",
+        "Negotiate with the club staff to see if they can offer any additional discounts",
+        "Use online coupons or promo codes if available"
+      ],
+      "cta": {
+        "text": "Claim current Jetts deal",
+        "url": "https://www.jetts.co.nz/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "jetts-deals-nz-may-2026",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-26"
+}

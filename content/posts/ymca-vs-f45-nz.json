@@ -1,0 +1,70 @@
+{
+  "title": "YMCA vs F45",
+  "short_title": "Gym Comparison",
+  "meta_desc": "Compare YMCA and F45 Training NZ gym memberships, prices, facilities, and classes to find the best fit for your fitness needs and budget in New Zealand.",
+  "intro": "YMCA and F45 Training NZ are two popular gym options in New Zealand, catering to different fitness needs and budgets. YMCA offers a community-focused approach with affordable prices, while F45 provides a premium, boutique experience. In this comparison, we'll help you decide which gym is best for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Overview of YMCA and F45 Training NZ",
+      "body": "<p>YMCA NZ is a community-focused gym with prices starting from $17.50 to $26.00 per week, featuring group fitness classes, a pool, personal training, and crèche facilities. F45 Training NZ, on the other hand, is a boutique gym with prices ranging from $25.00 to $42.50 per week, offering high-intensity interval training (HIIT) classes and a free trial week.</p><p>Both gyms have their strengths and weaknesses. YMCA is ideal for families and those seeking a community atmosphere, while F45 is suited for individuals who prefer group motivation and fast results.</p>",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price/week",
+          "Contract",
+          "24/7 Access",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "YMCA",
+            "$17.50-$26.00",
+            "No contract",
+            "No",
+            "Families, community-focused"
+          ],
+          [
+            "F45 Training NZ",
+            "$25.00-$42.50",
+            "No lock-in contract",
+            "No",
+            "HIIT lovers, premium experience"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Price and Value Comparison",
+      "body": "<p>When comparing prices, YMCA is the more affordable option, with prices starting at $17.50 per week. F45 Training NZ, however, offers a premium experience with prices ranging from $25.00 to $42.50 per week.</p><p>Consider the Exercise NZ subsidy scheme, which offers 40-70% off for eligible members. This can significantly reduce the cost of your gym membership.</p>",
+      "list": [
+        "YMCA: $17.50-$26.00/week",
+        "F45 Training NZ: $25.00-$42.50/week",
+        "Exercise NZ subsidy: 40-70% off for eligible members"
+      ]
+    },
+    {
+      "heading": "Facilities, Classes, and Locations",
+      "body": "<p>YMCA NZ features a range of facilities, including group fitness classes, a pool, personal training, and crèche. F45 Training NZ, on the other hand, focuses on HIIT classes and offers a free trial week.</p><p>YMCA has limited locations, while F45 Training NZ has a wider reach across New Zealand.</p>",
+      "list": [
+        "YMCA: group fitness, pool, personal training, crèche",
+        "F45 Training NZ: HIIT classes, free trial week",
+        "YMCA: limited locations",
+        "F45 Training NZ: nationwide locations"
+      ]
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "<p>Based on our comparison, YMCA is the best choice for families and those seeking a community-focused gym experience on a budget. F45 Training NZ, however, is ideal for individuals who prefer a premium, boutique experience and are willing to pay for it.</p><p>For those prioritizing affordability, YMCA is the better option. For those seeking a high-end experience, F45 Training NZ is the way to go.</p>",
+      "cta": {
+        "text": "Find your perfect gym match",
+        "url": "https://nzgymguide.co.nz",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "ymca-vs-f45-nz",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-26"
+}
