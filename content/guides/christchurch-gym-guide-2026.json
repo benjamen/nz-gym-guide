@@ -1,0 +1,73 @@
+{
+  "slug": "christchurch-gym-guide-2026",
+  "short_title": "Christchurch Gyms",
+  "title": "Best Gyms in Christchurch 2026 — Prices, Locations and Honest Reviews",
+  "meta_desc": "Compare Christchurch gyms prices, locations and reviews. Find the best gym membership",
+  "intro": "Christchurch's gym market has seen significant growth since the post-quake rebuild, with City Fitness being a dominant player. However, other options like 24/7 gyms have also gained popularity. With prices ranging from $15 to $40 per week, Kiwis have a wide range of choices. As of May 2026, the market continues to evolve with new facilities and services.",
+  "updated": "May 2026",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Gym Prices in Christchurch",
+      "body": "When it comes to gym prices in Christchurch, members can expect to pay between $15 and $40 per week. City Fitness offers a 12-month contract for $24.95 per week, while 24/7 gyms like Jetts and Anytime Fitness offer more flexible contract terms, with prices starting from $15 per week."
+    },
+    {
+      "heading": "Popular Gyms in Christchurch",
+      "list": [
+        "City Fitness (4 locations: Moorhouse Ave, Colombo St, Hornby, and Papanui)",
+        "Jetts (2 locations: Addington and Riccarton)",
+        "Anytime Fitness (3 locations: Merivale, Fendalton, and Hornby)",
+        "Les Mills (1 location: Christchurch Central)"
+      ]
+    },
+    {
+      "heading": "Price Comparison",
+      "table": {
+        "headers": [
+          "Gym",
+          "Weekly Price",
+          "Contract Term",
+          "Location"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$24.95",
+            "12 months",
+            "Moorhouse Ave"
+          ],
+          [
+            "Jetts",
+            "$15.00",
+            "No contract",
+            "Addington"
+          ],
+          [
+            "Anytime Fitness",
+            "$19.95",
+            "12 months",
+            "Merivale"
+          ],
+          [
+            "Les Mills",
+            "$34.95",
+            "6 months",
+            "Christchurch Central"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "24/7 Gym Options",
+      "body": "For those who prefer to work out at odd hours, 24/7 gyms like Jetts and Anytime Fitness offer a convenient solution. With prices starting from $15 per week and no contract terms, these gyms are ideal for students, shift workers, or anyone who prefers flexibility."
+    },
+    {
+      "heading": "Get the Best Gym Membership Deal",
+      "cta": {
+        "text": "Compare Christchurch gyms and find the best deal",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ]
+}

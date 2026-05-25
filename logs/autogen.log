@@ -1,0 +1,52 @@
+[main afb6f61] Auto-generate 5 gym articles — 2026-05-26
+ 13 files changed, 1568 insertions(+), 29 deletions(-)
+ create mode 100644 content/posts/cheapest-gyms-tauranga-2026-05.json
+ create mode 100644 content/posts/hamilton-gym-deals-2026-05.json
+ create mode 100644 content/posts/jetts-deals-nz-may-2026.json
+ create mode 100644 content/posts/jetts-review-nz-2026-05.json
+ create mode 100644 content/posts/ymca-vs-f45-nz.json
+ create mode 100644 docs/deals/cheapest-gyms-tauranga-2026-05/index.html
+ create mode 100644 docs/deals/hamilton-gym-deals-2026-05/index.html
+ create mode 100644 docs/deals/jetts-deals-nz-may-2026/index.html
+ create mode 100644 docs/deals/jetts-review-nz-2026-05/index.html
+ create mode 100644 docs/deals/ymca-vs-f45-nz/index.html
+ create mode 100644 logs/autogen.log
+
+Today's 5 gym articles (2026-05-26):
+
+  1. [city_deals     ] Hamilton                            — hamilton-gym-deals-2026-05
+     WILL GENERATE
+  2. [gym_review     ] Jetts                               — jetts-review-nz-2026-05
+     WILL GENERATE
+  3. [comparison     ] YMCA vs F45 Training                — ymca-vs-f45-nz
+     WILL GENERATE
+  4. [budget_guide   ] Tauranga                            — cheapest-gyms-tauranga-2026-05
+     WILL GENERATE
+  5. [chain_deals    ] Jetts                               — jetts-deals-nz-may-2026
+     WILL GENERATE
+
+[1/5] Generating: hamilton-gym-deals-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/hamilton-gym-deals-2026-05.json
+
+[2/5] Generating: jetts-review-nz-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/jetts-review-nz-2026-05.json
+
+[3/5] Generating: ymca-vs-f45-nz
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/ymca-vs-f45-nz.json
+
+[4/5] Generating: cheapest-gyms-tauranga-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/cheapest-gyms-tauranga-2026-05.json
+
+[5/5] Generating: jetts-deals-nz-may-2026
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/jetts-deals-nz-may-2026.json
+
+Generated 5 articles.
+
+Rebuilding site...
+  Build complete → /home/ben/nz-gym-guide/docs/
+  Pushed to GitHub Pages
