@@ -1,0 +1,45 @@
+{
+  "title": "Anxiety Relief",
+  "short_title": "Anxiety",
+  "meta_desc": "Using exercise to manage anxiety in NZ, with statistics, evidence-based advice, and gym options to help reduce anxiety symptoms and improve mental health.",
+  "intro": "Anxiety affects many New Zealanders, with over 790,000 people experiencing mental health issues each year, according to the Ministry of Health. Exercise is a proven way to reduce anxiety symptoms. This article explores how different types of exercise can help manage anxiety and how to get started safely.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Anxiety in NZ: The Statistics",
+      "body": "In New Zealand, anxiety is a significant mental health concern. Research suggests that one in five Kiwis will experience anxiety at some point in their lives. The Ministry of Health reports that anxiety disorders are a leading cause of health loss, with young people and women being disproportionately affected. Exercise has been shown to be an effective way to manage anxiety, with studies indicating that regular physical activity can reduce symptoms of anxiety by up to 40%."
+    },
+    {
+      "heading": "Exercise as Medicine",
+      "body": "Exercise is a natural anxiety-reducing treatment that can be just as effective as medication or therapy. The World Health Organisation recommends at least 150 minutes of moderate-intensity aerobic physical activity or 75 minutes of vigorous-intensity aerobic physical activity per week. For anxiety management, activities like yoga, walking, and swimming are particularly beneficial due to their low-impact nature and focus on relaxation and breathing techniques.",
+      "list": [
+        "Yoga: combines physical movement with deep breathing and meditation techniques",
+        "Walking: a low-impact aerobic activity that can be done almost anywhere",
+        "Swimming: a low-impact exercise that can help reduce stress and anxiety"
+      ]
+    },
+    {
+      "heading": "Getting Started Safely",
+      "body": "Before starting any new exercise programme, it's essential to consult with a healthcare professional, especially if you have any underlying health conditions. They can help you determine the best type and intensity of exercise for your needs. Many gyms in NZ offer beginner-friendly classes and programmes, and some even participate in Exercise NZ's subsidised gym scheme, which can provide discounts of 40-70% off membership fees.",
+      "cta": {
+        "text": "Find a gym near you",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "Exercise is a powerful tool for managing anxiety, and with the right approach, you can reduce your symptoms and improve your overall mental health. By choosing low-impact activities like yoga, walking, or swimming, and taking advantage of gym membership options, you can take the first step towards a healthier, happier you.",
+      "cta": {
+        "text": "Take our quiz to find the best gym for you",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-anxiety-nz-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-27",
+  "post_type": "health_info"
+}
