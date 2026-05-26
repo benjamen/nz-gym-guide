@@ -1,0 +1,88 @@
+{
+  "slug": "best-womens-gym-nz",
+  "short_title": "Best Women's Gym NZ",
+  "title": "Best Women's Gyms in New Zealand 2026 — Honest Guide",
+  "meta_desc": "Find the best women's gym in NZ. Compare Contours, Les Mills, YMCA, and ClassPass — pricing, women-only options, classes, and which suits beginners vs experienced gym-goers.",
+  "intro": "Finding the right gym as a woman in New Zealand means weighing up more than just price. Environment, class availability, and whether you want a women-only or mixed space all matter. This guide covers every major option — from dedicated women's gyms to mixed gyms with strong women's communities.",
+  "updated": "May 2026",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Women's Gym Options in NZ",
+      "body": "New Zealand has several gym options specifically marketed to or suited for women. These range from women-only chains (Contours) to premium mixed gyms with excellent group fitness programmes (Les Mills, ClassPass), and community gyms with crèche and family focus (YMCA)."
+    },
+    {
+      "heading": "Women's Gym Comparison",
+      "table": {
+        "headers": ["Gym", "Women only?", "Price from", "Best for", "Contract"],
+        "rows": [
+          ["Contours Women's Gym", "✓ Yes", "$9.99/wk", "Beginners, comfort, guided workouts", "No lock-in"],
+          ["Les Mills", "Mixed", "$17.99/wk", "Group fitness, premium facilities", "3 months"],
+          ["YMCA", "Mixed", "$17.50/wk", "Families, swimming, community", "6 months"],
+          ["ClassPass", "Mixed studios", "from $9/wk", "Variety: yoga, pilates, HIIT", "Monthly"],
+          ["Orangetheory", "Mixed", "$18.25/wk", "Weight loss, coached HIIT", "Monthly"],
+          ["F45", "Mixed", "$25/wk", "Team HIIT, community motivation", "Flexible"],
+          ["City Fitness", "Mixed", "$7.99/wk", "Budget, 24/7, flexible", "No lock-in"]
+        ]
+      }
+    },
+    {
+      "heading": "Contours Women's Gym — Best Women-Only Option",
+      "body": "Contours is New Zealand's most accessible women-only gym chain, with locations across the country from Auckland to Dunedin. The 30-minute circuit format means every session is guided — perfect for beginners or anyone who doesn't know where to start. Prices from $9.99/week with no lock-in and no joining fee. The welcoming, non-competitive atmosphere makes it the top recommendation for women who've previously felt uncomfortable at mixed gyms.",
+      "cta": {
+        "text": "Read full Contours review",
+        "url": "/gym/contours/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Les Mills — Best Mixed Gym for Women",
+      "body": "Les Mills is consistently ranked the best mixed gym in NZ for women, thanks to its exceptional group fitness programme. BodyPump, BodyBalance, SH'BAM, and yoga classes create a strong community of women at every club. The crèche at most locations is a major drawcard for mothers. Prices from $17.99/week with a 3-month minimum term. Under-23 discounts of 20% apply.",
+      "cta": {
+        "text": "View Les Mills memberships",
+        "url": "https://www.lesmills.co.nz/",
+        "affiliate": true
+      }
+    },
+    {
+      "heading": "ClassPass — Best for Studio Variety",
+      "body": "If you want access to yoga studios, pilates, barre, boxing, and cycling classes across NZ without committing to one gym, ClassPass is outstanding. The Standard plan covers 6–8 classes a month ($80/month) at hundreds of partner studios. First month is free — a genuine no-risk trial. Particularly strong in Auckland, Wellington, and Christchurch where the studio variety is excellent.",
+      "cta": {
+        "text": "Try ClassPass free — first month included",
+        "url": "https://classpass.com/nz",
+        "affiliate": true
+      }
+    },
+    {
+      "heading": "Best Gym for Beginners — Honest Advice",
+      "body": "If you're new to the gym and feel nervous or unsure where to start, our honest recommendation is Contours Women's Gym. The guided circuit format removes all uncertainty — you'll never stand in a weights room not knowing what to do. Every session is structured and the environment is specifically designed to be non-intimidating. Once you've built confidence, you can always transition to a mixed gym.",
+      "list": [
+        "Contours — women-only, guided circuit, no pressure, from $9.99/wk",
+        "YMCA — community feel, pool, crèche, long-standing NZ institution",
+        "City Fitness Premium — affordable, includes group fitness classes for guided workouts",
+        "ClassPass — try different formats before committing to a gym type"
+      ]
+    },
+    {
+      "heading": "Women's Gym Safety & Comfort Considerations",
+      "list": [
+        "Women-only gyms have locked, member-access-only entry — Contours and some YMCA women's areas use this system",
+        "Always check if a mixed gym has women-only changing rooms and toilets (all major chains do, but smaller independent gyms vary)",
+        "Peak hour crowding at mixed gyms is less common at women's facilities — Contours is rarely busy",
+        "Ask about trial sessions before committing to any gym — reputable gyms offer these",
+        "If you're training alone late at night, check lighting and parking at your specific club before signing up"
+      ]
+    },
+    {
+      "heading": "Our Picks by Goal",
+      "list": [
+        "Best for beginners: Contours ($9.99/wk, no lock-in, women-only)",
+        "Best for weight loss: Orangetheory ($18.25/wk) or F45 ($25/wk)",
+        "Best for variety: ClassPass (from $9/wk, hundreds of studios)",
+        "Best for families: YMCA ($17.50/wk, pool, crèche)",
+        "Best budget: City Fitness Basic ($7.99/wk, 24/7)",
+        "Best group fitness: Les Mills ($17.99/wk, world-class classes)"
+      ]
+    }
+  ]
+}

@@ -92,6 +92,36 @@ def build():
             render("guide.html", f"deals/{post['slug']}/index.html",
                    guide=post, **ctx)
 
+    # Quiz page
+    render("quiz.html", "quiz/index.html", **ctx)
+
+    # Diet plan pages
+    diet_dir = CONTENT / "diet"
+    diet_plans = []
+    if diet_dir.exists():
+        # Load in a fixed order
+        diet_order = ["lose-weight-fast", "lose-weight-healthy", "gain-muscle", "feel-healthier"]
+        for slug in diet_order:
+            f = diet_dir / f"{slug}.json"
+            if f.exists():
+                diet_plans.append(json.loads(f.read_text()))
+        # Also pick up any extras
+        for f in sorted(diet_dir.glob("*.json")):
+            slug = f.stem
+            if slug not in diet_order:
+                diet_plans.append(json.loads(f.read_text()))
+    if diet_plans:
+        render("diet-index.html", "diet/index.html", diet_plans=diet_plans, **ctx)
+        for plan in diet_plans:
+            render("diet.html", f"diet/{plan['slug']}/index.html",
+                   plan=plan, diet_plans=diet_plans, **ctx)
+
+    # Guides index page
+    render("guides-index.html", "guides/index.html", guides=guides, **ctx)
+
+    # 404 page
+    render("404.html", "404.html", **ctx)
+
     # Sitemap
     from datetime import date as _date
     today = _date.today().isoformat()
@@ -103,6 +133,7 @@ def build():
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("compare", "0.9", "weekly")
+    sitemap += sm_url("quiz", "0.8", "monthly")
     for g in gyms:
         sitemap += sm_url(f"gym/{g['slug']}", "0.8", "monthly")
     for c in cities:
@@ -113,6 +144,10 @@ def build():
         sitemap += sm_url("deals", "0.8", "daily")
         for p in posts:
             sitemap += sm_url(f"deals/{p['slug']}", "0.8", "weekly")
+    sitemap += sm_url("diet", "0.8", "monthly")
+    for dp in diet_plans:
+        sitemap += sm_url(f"diet/{dp['slug']}", "0.8", "monthly")
+    sitemap += sm_url("guides", "0.7", "monthly")
     sitemap += "</urlset>"
     (OUT / "sitemap.xml").write_text(sitemap)
 

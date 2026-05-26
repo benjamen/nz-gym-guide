@@ -1,0 +1,109 @@
+{
+  "slug": "feel-healthier",
+  "title": "How to Feel Healthier in NZ — Simple Habits That Actually Work in 2026",
+  "short_title": "Feel Healthier",
+  "meta_desc": "Want to feel healthier without a strict diet? Our NZ wellness guide covers the 10 habits that make the biggest difference to energy, mood, and long-term health.",
+  "intro": "You don't need a perfect diet to feel dramatically better. These evidence-backed habits — most of them free — transform how you feel within 2–4 weeks. No expensive supplements, no extreme diets required.",
+  "updated": "May 2026",
+  "reading_time": 8,
+  "type": "diet",
+  "badge": "Wellness Focus",
+  "goal": "feel-healthier",
+  "hero_stats": [
+    {"value": "2–4 weeks", "label": "To feel the difference"},
+    {"value": "10 habits", "label": "Evidence-backed changes"},
+    {"value": "Free–low cost", "label": "Most are completely free"}
+  ],
+  "sections": [
+    {
+      "heading": "Why Most NZ Adults Feel Tired and Sluggish",
+      "body": "<p>Stats NZ data shows that over <strong>40% of New Zealanders</strong> don't get enough sleep, and nearly 50% don't meet the recommended activity guidelines. Combine that with a diet high in ultra-processed food and low in vegetables, and it's no surprise that fatigue, low mood, and poor energy are epidemic.</p><p>The good news: small, consistent changes compound fast. You don't need to overhaul everything at once — add one habit per week and stack them.</p>"
+    },
+    {
+      "heading": "The 10 Habits That Change How You Feel",
+      "body": "<p>Ranked by evidence strength and ease of implementation:</p>",
+      "table": {
+        "headers": ["Habit", "Time Required", "Impact", "Start With"],
+        "rows": [
+          ["Sleep 7–9 hours", "Free — just prioritise it", "★★★★★", "Set a consistent wake time, even weekends"],
+          ["Walk 7,000–10,000 steps daily", "30–45 min/day", "★★★★★", "Walk 15 min after each meal"],
+          ["Eat vegetables at every meal", "5 min meal prep", "★★★★☆", "Add frozen veges to whatever you're making"],
+          ["Drink 2–3L water daily", "Free", "★★★★☆", "Fill a 1L bottle before breakfast"],
+          ["Reduce ultra-processed food by 50%", "Minimal effort", "★★★★☆", "Cook one extra meal at home per week"],
+          ["Get morning sunlight (10–20 min)", "Free — go outside", "★★★★☆", "Walk without sunglasses, face the sun"],
+          ["Strength train 2–3x/week", "45–60 min, 3x/wk", "★★★★☆", "Start with bodyweight at home or gym"],
+          ["Reduce alcohol", "Free", "★★★☆☆", "Try 2–3 alcohol-free days per week"],
+          ["Eat protein at breakfast", "5 min change", "★★★☆☆", "Add eggs, yoghurt, or protein powder"],
+          ["Limit screen time before bed", "Free — willpower", "★★★☆☆", "No phone in bed — charge it in another room"]
+        ]
+      }
+    },
+    {
+      "heading": "Your Anti-Fatigue Eating Strategy",
+      "body": "<p>These specific dietary changes have the most impact on energy levels:</p>",
+      "list": [
+        "🍬 <strong>Cut the sugar spikes</strong> — refined sugar causes energy crashes 1–2 hours later. Swap sugary snacks for protein + fat combos (nuts, eggs, cheese).",
+        "☕ <strong>Don't overcaffeinate</strong> — more than 3 coffees/day increases cortisol and disrupts sleep. The buzz isn't worth the afternoon crash.",
+        "🥦 <strong>Eat iron-rich foods</strong> — iron deficiency (common in NZ women) causes fatigue. Red meat, lentils, spinach, fortified cereals help.",
+        "🐟 <strong>Omega-3s for brain and mood</strong> — salmon, sardines, walnuts, flaxseed reduce inflammation and improve mental clarity.",
+        "🌿 <strong>Magnesium for sleep and muscles</strong> — found in dark chocolate, almonds, spinach, pumpkin seeds. Deficiency is extremely common.",
+        "🍳 <strong>Eat breakfast with protein</strong> — skipping breakfast or eating only carbs sets up a blood sugar rollercoaster for the whole day."
+      ]
+    },
+    {
+      "heading": "The NZ-Specific Nutrition Gaps to Know About",
+      "body": "<p>These deficiencies are particularly common in New Zealand due to diet patterns, geography, and lifestyle:</p>",
+      "table": {
+        "headers": ["Nutrient", "Why NZ is Affected", "Best Food Sources", "Consider Supplementing?"],
+        "rows": [
+          ["Vitamin D", "Long winters, indoor work, sun protection", "Oily fish, eggs; mainly from sun", "Yes — especially May–Aug, $10–20/month"],
+          ["Iron", "High female athlete population, low red meat intake", "Red meat, lentils, spinach, fortified cereals", "Only if blood test confirms deficiency"],
+          ["Iodine", "NZ soils are iodine-poor; less salt used", "Seafood, iodised salt, dairy, eggs", "Most bread is iodised — usually sufficient"],
+          ["Vitamin B12", "Rising vegan/vegetarian rates", "Meat, eggs, dairy, fortified foods", "Essential if plant-based — $15–25/month"],
+          ["Folate", "Pre-conception & pregnancy critical", "Leafy greens, legumes, fortified foods", "Supplement 0.8mg if pregnant/trying"],
+          ["Calcium", "Declining dairy consumption", "Dairy, canned fish (with bones), tofu, almonds", "Usually not needed if eating dairy"]
+        ]
+      }
+    },
+    {
+      "heading": "Mental Health & Feeling Good — The Physical Levers",
+      "body": "<p>Physical health and mental health are deeply connected. These interventions are as effective as mild antidepressants for many people:</p>",
+      "list": [
+        "🏃 <strong>Exercise (any form)</strong> — 30 min of moderate exercise 3x/week reduces depression and anxiety symptoms by 30–40% in studies. It's the most consistent mental health intervention known.",
+        "🌿 <strong>Spend time in nature</strong> — 'Forest bathing' (just being in green spaces) lowers cortisol, blood pressure, and heart rate within 20 minutes. New Zealand has no shortage of this.",
+        "🤝 <strong>Social connection</strong> — loneliness is as damaging as smoking 15 cigarettes/day (Harvard longitudinal study). Prioritise in-person time with others.",
+        "📵 <strong>Social media limits</strong> — 1 hour/day is associated with better wellbeing vs unlimited use. Try grayscale phone mode to reduce compulsive checking.",
+        "📓 <strong>Gratitude journalling (3 min/day)</strong> — writing 3 specific things you're grateful for daily increases life satisfaction in 3 weeks. Sounds simple because it is."
+      ]
+    },
+    {
+      "heading": "Free NZ Health Resources",
+      "body": "<p>These are all free or low-cost for New Zealanders:</p>",
+      "list": [
+        "📞 <strong>Healthline: 0800 611 116</strong> — free 24/7 health advice from registered nurses",
+        "🧠 <strong>1737 (text or call)</strong> — free mental health support, any time",
+        "🏥 <strong>Healthify He Puna Waiora (healthify.govt.nz)</strong> — NZ's most comprehensive free health information library",
+        "🏃 <strong>ParticipACTION NZ / Green Prescription</strong> — GP can refer you to a free exercise programme",
+        "🥗 <strong>Dietitian via GP referral</strong> — eligible New Zealanders can see a dietitian at no cost",
+        "📱 <strong>Staying On Track app (MoH)</strong> — free NZ app for setting and tracking health goals"
+      ]
+    },
+    {
+      "heading": "Your First Week — A Simple Starter Plan",
+      "body": "<p>Don't try to change everything at once. Start here:</p>",
+      "list": [
+        "Day 1–2: Set a consistent bedtime — aim for 7.5–8 hours",
+        "Day 3–4: Add a 20-min walk after dinner every evening",
+        "Day 5–7: Swap breakfast to include protein (eggs, yoghurt, or protein powder)",
+        "Week 2: Add vegetables to lunch and dinner (frozen is fine — just as nutritious)",
+        "Week 3: Drink 2L water daily — fill the bottle the night before",
+        "Week 4: Try one gym class or strength session — see how you feel after"
+      ],
+      "cta": {
+        "text": "Find a gym or class that suits you →",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ]
+}

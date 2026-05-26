@@ -7,28 +7,87 @@
   <meta name="description" content="{% block desc %}{{ site.description }}{% endblock %}">
   <link rel="canonical" href="{{ site.base_url }}/{% block canonical %}{% endblock %}">
   <link rel="stylesheet" href="{{ site.base_path }}/static/css/style.css">
+
+  <!-- Favicon set -->
   <link rel="icon" href="{{ site.base_path }}/static/img/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="{{ site.base_path }}/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="{{ site.base_path }}/static/img/favicon.svg">
+  <meta name="theme-color" content="#2563eb">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.base_url }}/{% block og_canonical %}{% block og_canonical2 %}{% endblock %}{% endblock %}">
+  <meta property="og:title" content="{% block og_title %}{% block og_title2 %}{{ site.title }}{% endblock %}{% endblock %}">
+  <meta property="og:description" content="{% block og_desc %}{% block og_desc2 %}{{ site.description }}{% endblock %}{% endblock %}">
+  <meta property="og:image" content="{{ site.base_url }}/static/img/og-image.svg">
+  <meta property="og:site_name" content="NZ Gym Guide">
+  <meta property="og:locale" content="en_NZ">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% block tw_title %}{% block tw_title2 %}{{ site.title }}{% endblock %}{% endblock %}">
+  <meta name="twitter:description" content="{% block tw_desc %}{% block tw_desc2 %}{{ site.description }}{% endblock %}{% endblock %}">
+  <meta name="twitter:image" content="{{ site.base_url }}/static/img/og-image.svg">
+
+  <!-- Extra SEO -->
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="NZ Gym Guide">
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
   {% if site.ga_id %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.ga_id }}');</script>
   {% endif %}
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{ site.title }}","url":"{{ site.base_url }}"}</script>
+  {% block head_extra %}{% endblock %}
 </head>
 <body>
   <nav class="nav">
     <div class="nav-inner">
       <a href="{{ site.base_path }}/" class="nav-logo">🏋️ NZ Gym Guide</a>
       <div class="nav-links">
-        <a href="{{ site.base_path }}/compare/">Compare All</a>
+        <a href="{{ site.base_path }}/compare/">Compare</a>
+        <a href="{{ site.base_path }}/quiz/">Find My Gym ✨</a>
         <a href="{{ site.base_path }}/gym/auckland/">Auckland</a>
         <a href="{{ site.base_path }}/gym/wellington/">Wellington</a>
-        <a href="{{ site.base_path }}/gym/christchurch/">Christchurch</a>
-        <a href="{{ site.base_path }}/guides/cheapest-gym-nz/">Cheapest Gym</a>
+        <a href="{{ site.base_path }}/guides/cheapest-gym-nz/">Cheapest</a>
+        <a href="{{ site.base_path }}/diet/">Diet Plans</a>
         <a href="{{ site.base_path }}/deals/">Deals</a>
       </div>
+      <button class="nav-hamburger" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="{{ site.base_path }}/compare/">Compare All Gyms</a>
+      <a href="{{ site.base_path }}/gym/auckland/">Auckland Gyms</a>
+      <a href="{{ site.base_path }}/gym/wellington/">Wellington Gyms</a>
+      <a href="{{ site.base_path }}/gym/christchurch/">Christchurch Gyms</a>
+      <a href="{{ site.base_path }}/gym/hamilton/">Hamilton Gyms</a>
+      <a href="{{ site.base_path }}/gym/tauranga/">Tauranga Gyms</a>
+      <a href="{{ site.base_path }}/gym/dunedin/">Dunedin Gyms</a>
+      <a href="{{ site.base_path }}/gym/palmerston-north/">Palmerston North Gyms</a>
+      <a href="{{ site.base_path }}/guides/cheapest-gym-nz/">Cheapest Gym in NZ</a>
+      <a href="{{ site.base_path }}/diet/">Free Diet Plans</a>
+      <a href="{{ site.base_path }}/diet/lose-weight-fast/">Lose Weight Fast</a>
+      <a href="{{ site.base_path }}/diet/gain-muscle/">Gain Muscle</a>
+      <a href="{{ site.base_path }}/diet/feel-healthier/">Feel Healthier</a>
+      <a href="{{ site.base_path }}/deals/">Deals &amp; Reviews</a>
     </div>
   </nav>
+  <script>
+    (function(){
+      var btn = document.getElementById('navToggle');
+      var menu = document.getElementById('navMobile');
+      if(btn && menu){
+        btn.addEventListener('click', function(){
+          menu.classList.toggle('is-open');
+          btn.setAttribute('aria-expanded', menu.classList.contains('is-open'));
+        });
+      }
+    })();
+  </script>
 
   {% block hero %}{% endblock %}
 
@@ -62,11 +121,24 @@
         <div>
           <strong>Guides</strong>
           <ul>
+            <li><a href="{{ site.base_path }}/quiz/">Find my gym — quiz</a></li>
             <li><a href="{{ site.base_path }}/guides/cheapest-gym-nz/">Cheapest gym in NZ</a></li>
+            <li><a href="{{ site.base_path }}/guides/best-247-gym-nz/">Best 24/7 gym NZ</a></li>
+            <li><a href="{{ site.base_path }}/guides/best-womens-gym-nz/">Best women's gym NZ</a></li>
+            <li><a href="{{ site.base_path }}/guides/yoga-pilates-nz-2026/">Yoga &amp; pilates NZ</a></li>
             <li><a href="{{ site.base_path }}/guides/gym-membership-tips/">Membership tips</a></li>
             <li><a href="{{ site.base_path }}/guides/cancel-gym-membership-nz/">How to cancel</a></li>
-            <li><a href="{{ site.base_path }}/guides/gym-contracts-nz/">Understanding contracts</a></li>
             <li><a href="{{ site.base_path }}/guides/classpass-review-nz/">ClassPass review NZ</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Free Diet Plans</strong>
+          <ul>
+            <li><a href="{{ site.base_path }}/diet/">All diet plans</a></li>
+            <li><a href="{{ site.base_path }}/diet/lose-weight-fast/">Lose weight fast</a></li>
+            <li><a href="{{ site.base_path }}/diet/lose-weight-healthy/">Lose weight healthy</a></li>
+            <li><a href="{{ site.base_path }}/diet/gain-muscle/">Gain muscle</a></li>
+            <li><a href="{{ site.base_path }}/diet/feel-healthier/">Feel healthier</a></li>
           </ul>
         </div>
       </div>

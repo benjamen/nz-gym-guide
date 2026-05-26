@@ -1,0 +1,117 @@
+{
+  "slug": "lose-weight-healthy",
+  "title": "How to Lose Weight the Healthy Way in NZ — Sustainable Fat Loss 2026",
+  "short_title": "Lose Weight Healthy",
+  "meta_desc": "Lose weight the healthy way — no restriction, no fads. Our sustainable NZ diet plan helps you drop 0.3–0.5 kg/week while feeling great and keeping it off.",
+  "intro": "The best diet is one you can maintain for life. This plan focuses on sustainable habits — no cutting out entire food groups, no misery, just steady progress that lasts.",
+  "updated": "May 2026",
+  "reading_time": 10,
+  "type": "diet",
+  "badge": "Recommended",
+  "goal": "weight-loss-healthy",
+  "hero_stats": [
+    {"value": "0.3–0.5 kg", "label": "Sustainable weekly loss"},
+    {"value": "300–500", "label": "Daily calorie deficit"},
+    {"value": "Lifelong", "label": "Results that stick"}
+  ],
+  "sections": [
+    {
+      "heading": "Why Slow and Steady Actually Wins",
+      "body": "<p>Studies consistently show that people who lose weight slowly (0.3–0.5 kg/week) keep it off longer than crash dieters. The reason: you don't lose muscle, your metabolism stays healthy, and you build habits instead of white-knuckling a temporary restriction.</p><p>A modest deficit of <strong>300–500 calories per day</strong> means you're barely hungry, you still eat foods you enjoy, and you can maintain the approach for months — not just weeks.</p>"
+    },
+    {
+      "heading": "The Healthy Weight Loss Plate — Every Meal",
+      "body": "<p>Use this visual guide for every meal. No calorie counting required — just portion control by plate composition:</p>",
+      "table": {
+        "headers": ["Section of Plate", "What Goes Here", "Portion", "Why"],
+        "rows": [
+          ["½ plate", "Non-starchy vegetables & salad", "Unlimited", "Fibre, volume, vitamins — very low calorie"],
+          ["¼ plate", "Lean protein", "Palm-sized", "Keeps you full, preserves muscle"],
+          ["¼ plate", "Complex carbs / healthy fats", "Cupped hand", "Energy, brain function, satisfaction"],
+          ["Drink", "Water or herbal tea", "1–2 glasses", "Zero calories, aids digestion"]
+        ]
+      }
+    },
+    {
+      "heading": "14-Day Sustainable Meal Plan (NZ Ingredients)",
+      "body": "<p><strong>Week 1</strong> — Building the habit. Simple, familiar meals. ~1,600 cal/day for women, ~1,900 cal/day for men.</p>",
+      "table": {
+        "headers": ["Day", "Breakfast", "Lunch", "Dinner"],
+        "rows": [
+          ["Mon", "Oats + milk + frozen berries", "Chicken & salad wrap", "Baked fish + kumara + broccoli"],
+          ["Tue", "2 eggs + spinach + toast", "Minestrone soup + grain bread", "Beef mince stir-fry + rice"],
+          ["Wed", "Yoghurt + granola + kiwifruit", "Tuna salad sandwich", "Chicken breast + veges + potato"],
+          ["Thu", "Banana smoothie + protein", "Leftover stir-fry + salad", "Lamb chops + roasted veges"],
+          ["Fri", "Overnight oats + apple", "Boiled egg + salad box", "Prawn & vege noodle soup"],
+          ["Sat", "Wholegrain pancakes + berries", "Lentil soup + bread", "Roast chicken + salad"],
+          ["Sun", "Veggie omelette", "Chickpea + pumpkin curry + rice", "Grilled salmon + greens + quinoa"]
+        ]
+      }
+    },
+    {
+      "heading": "The 5 Core Habits of Healthy Weight Loss",
+      "body": "<p>These habits matter more than any specific food or diet label:</p>",
+      "list": [
+        "🥗 <strong>Eat mostly whole foods</strong> — food your great-grandparents would recognise. If it has a long ingredients list, eat less of it.",
+        "💧 <strong>Drink 2–3 litres of water daily</strong> — often what feels like hunger is dehydration. Start every meal with a full glass.",
+        "🚶 <strong>Walk 7,000–10,000 steps daily</strong> — the single most underrated fat-loss tool. Burn 200–350 extra cal/day.",
+        "😴 <strong>Sleep 7–9 hours</strong> — poor sleep raises ghrelin (hunger hormone) by up to 24% and crushes willpower.",
+        "🍽️ <strong>Eat slowly, stop at 80% full</strong> — it takes 15–20 min for fullness to register. Put your fork down between bites."
+      ]
+    },
+    {
+      "heading": "Healthy Swaps That Cut Calories Without Sacrifice",
+      "table": {
+        "headers": ["Swap This", "For This", "Calories Saved", "Tip"],
+        "rows": [
+          ["White rice (1 cup)", "Cauliflower rice", "~150 cal", "Mix half/half at first"],
+          ["Full-fat sour cream", "Greek yoghurt", "~70 cal", "Tastes nearly identical in sauces"],
+          ["Flavoured yoghurt (small)", "Plain yoghurt + fresh fruit", "~50–80 cal", "Much less sugar too"],
+          ["Chips / crackers", "Carrot sticks + hummus", "~150–200 cal", "More fibre, more satisfying"],
+          ["Cheese on everything", "Nutritional yeast or smaller amount", "~80–120 cal", "Still get the flavour hit"],
+          ["Butter in cooking", "Spray oil + stock for sautéing", "~80–100 cal", "Identical result in most dishes"],
+          ["Large pasta serve", "Half pasta, half zucchini noodle", "~150 cal", "Add flavoursome sauce to compensate"],
+          ["Fruit juice (glass)", "Whole fruit", "~50–70 cal + fibre", "Whole fruit keeps you full, juice doesn't"]
+        ]
+      }
+    },
+    {
+      "heading": "Exercise for Sustainable Weight Loss",
+      "body": "<p>You don't need to live at the gym. Aim for this realistic weekly routine:</p>",
+      "list": [
+        "🏋️ <strong>2–3x strength training</strong> — weights preserve muscle, boost metabolism long-term. Even 2x 30-minute sessions helps.",
+        "🚶 <strong>Daily walking</strong> — non-negotiable. 30–60 min brisk walking burns 200–400 cal and is sustainable forever.",
+        "🧘 <strong>1x yoga or flexibility</strong> — reduces cortisol (stress hormone) which drives fat storage, especially around the belly.",
+        "🤸 <strong>1x fun movement</strong> — dancing, surfing, hiking, netball. Exercise you enjoy is exercise you'll do for years.",
+        "🛌 <strong>Rest days are not optional</strong> — 1–2 per week prevents overtraining and keeps motivation high."
+      ],
+      "cta": {
+        "text": "Find the right gym for your goals →",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "What to Do When the Scale Stalls",
+      "body": "<p>Plateaus are normal — your body adapts. If you've been stuck for 2+ weeks:</p>",
+      "list": [
+        "Track your food honestly for 1 week — most plateaus are caused by portion creep, not metabolism slowdown",
+        "Add 2,000 steps per day — a simple, painless increase to daily burn",
+        "Take a 1-week diet break — eating at maintenance restores leptin levels and often breaks plateaus",
+        "Check sleep — one week of poor sleep can stall weight loss entirely",
+        "Reassess your calorie target — as you lose weight you need fewer calories. Recalculate every 5–7 kg",
+        "Don't judge by the scale alone — measure your waist, take progress photos, note energy and clothing fit"
+      ]
+    },
+    {
+      "heading": "Free NZ Resources & Apps",
+      "list": [
+        "📱 <strong>MyFitnessPal (free)</strong> — best NZ food database for tracking calories",
+        "📱 <strong>Cronometer (free)</strong> — tracks micronutrients if you want detailed nutrition data",
+        "🏥 <strong>Healthify He Puna Waiora</strong> — free NZ dietitian service, funded for eligible New Zealanders",
+        "🌐 <strong>Heart Foundation NZ</strong> — heartfoundation.org.nz — free recipe library and meal plan guides",
+        "💬 <strong>Your GP or practice nurse</strong> — can refer you to a dietitian at no cost if you have a health condition"
+      ]
+    }
+  ]
+}

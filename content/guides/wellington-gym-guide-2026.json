@@ -1,105 +1,79 @@
 {
   "slug": "wellington-gym-guide-2026",
   "short_title": "Wellington Gyms",
-  "title": "Best Gyms in Wellington 2026 — CBD, Hutt Valley, and Kapiti",
-  "meta_desc": "Compare top gyms in Wellington, CBD, Hutt Valley, and Kapiti with prices from $15/week",
-  "intro": "Wellington's gym scene is thriving, with over 20 gyms in the city centre alone. With prices ranging from $15 to $50 per week, finding the best value gym can be overwhelming. In this guide, we'll compare top gyms in Wellington, including Les Mills, to help you make an informed decision.",
+  "title": "Best Gyms in Wellington 2026 — Honest Prices & Suburb Guide",
+  "meta_desc": "Find the best gym in Wellington NZ. Real 2026 prices for Les Mills, City Fitness, Jetts, Anytime Fitness, Orangetheory and boutique studios across the CBD, Newtown, Petone and Lower Hutt.",
+  "intro": "Wellington's compact geography is a genuine advantage for gym-goers — most people can reach multiple gyms within a 10-minute commute. The market is competitive: City Fitness undercuts everyone on price, Les Mills dominates on group fitness, and the boutique studio scene around the CBD is growing fast. Here's the honest guide to finding your best option.",
   "updated": "May 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Wellington Gym Landscape",
-      "body": "The Wellington gym landscape is dominated by Les Mills, Anytime Fitness, and Jetts, with multiple locations throughout the city. However, smaller boutique gyms and independent studios are also gaining popularity, offering unique workout experiences and personalized training."
+      "heading": "Wellington Gym Prices — 2026",
+      "table": {
+        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "rows": [
+          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
+          ["Jetts Wellington", "$14.95", "$0", "No lock-in", "Yes"],
+          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
+          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
+          ["Les Mills Wellington", "$17.99", "$49 (often waived)", "3 months", "No"],
+          ["YMCA Wellington", "$17.50", "$0", "6–12 months", "No"],
+          ["Contours Women's", "$9.99", "$0", "No lock-in", "No"],
+          ["Orangetheory Wellington", "$18.25", "$49", "Monthly", "No (class-based)"],
+          ["F45 Wellington", "$25.00", "$0", "Flexible", "No (class-based)"],
+          ["9Round", "$24.99", "$0", "Monthly", "No"],
+          ["ClassPass", "from $9.00", "$0", "Monthly", "No"]
+        ]
+      }
     },
     {
-      "heading": "City-Centre Options",
+      "heading": "Wellington CBD & Lambton Quay",
+      "body": "The CBD is Wellington's gym heartland. Les Mills on Lambton Quay is the premium choice — popular with office workers doing lunchtime and after-work classes. City Fitness CBD is the budget standout at $7.99/week with 24/7 access — perfect for early commuters or anyone who works non-standard hours near the train station. Orangetheory Wellington is in the CBD and consistently gets strong reviews for weight loss results."
+    },
+    {
+      "heading": "Thorndon & Te Aro",
+      "body": "These inner-city suburbs sit between the CBD and the southern suburbs. Several boutique studios operate here — yoga, pilates, and cycling — most accessible via ClassPass. Anytime Fitness has a convenient central location. Snap Fitness covers the 24/7 solo training market at a lower price point than Anytime Fitness."
+    },
+    {
+      "heading": "Newtown & Island Bay",
+      "body": "Newtown has a growing fitness scene that reflects its eclectic community. Independent yoga and boxing studios operate alongside chain options. YMCA Newtown is a genuine community facility with pool access. City Fitness has a Newtown presence. For residents in Island Bay and the southern suburbs, these gyms are the most practical — no need to drive into the CBD."
+    },
+    {
+      "heading": "Petone & Lower Hutt",
+      "body": "Across the harbour, Petone and Lower Hutt often deliver better value than Wellington city — larger clubs with free parking, at the same or lower prices. Anytime Fitness Lower Hutt is popular with families and shift workers. City Fitness and Snap Fitness both operate in Hutt Valley. For residents who work in the Hutt but want to avoid the CBD commute for gym sessions, this is the practical choice."
+    },
+    {
+      "heading": "Porirua & Upper Hutt",
+      "body": "Snap Fitness and Anytime Fitness serve these outer Wellington suburbs well for 24/7 access. Les Mills has a Porirua location. For those on the Kāpiti Coast, options are more limited — Snap Fitness Paraparaumu is the main 24/7 option."
+    },
+    {
+      "heading": "Wellington Gym Tips",
       "list": [
-        "Les Mills Wellington: $24.95/week, 12-month contract",
-        "Anytime Fitness Wellington: $19.95/week, no contract",
-        "Jetts Wellington: $15/week, 12-month contract"
+        "Wellington's gym market is competitive — always ask about joining fee waivers before paying. Les Mills and Anytime Fitness both run waiver promotions regularly",
+        "City Fitness Wellington is worth visiting in person — the 24/7 access combined with $7.99/week is hard to beat for budget-conscious Wellingtonians",
+        "Les Mills Lambton Quay gets extremely busy 12–1pm on weekdays — plan lunchtime sessions for 11:30am or 1:15pm to avoid the rush",
+        "ClassPass is particularly strong in Wellington — the city has a great selection of yoga, pilates, and cycling studios in the partner network",
+        "Jetts Wellington has no joining fee — good if you want to try 24/7 training without committing upfront costs",
+        "YMCA Wellington pool access is available to members — one of the few Wellington CBD pools"
       ]
     },
     {
-      "heading": "Les Mills vs Alternatives",
-      "table": {
-        "headers": [
-          "Gym",
-          "Price (weekly)",
-          "Contract Term"
-        ],
-        "rows": [
-          [
-            "Les Mills Wellington",
-            "$24.95",
-            "12 months"
-          ],
-          [
-            "Anytime Fitness Wellington",
-            "$19.95",
-            "No contract"
-          ],
-          [
-            "Jetts Wellington",
-            "$15",
-            "12 months"
-          ],
-          [
-            "CityFitness",
-            "$19.95",
-            "6 months"
-          ]
-        ]
-      }
+      "heading": "Wellington Gym Recommendations by Profile",
+      "list": [
+        "Best budget: City Fitness Basic ($7.99/wk, 24/7, no lock-in)",
+        "Best CBD office worker: Les Mills Lambton Quay ($17.99/wk, lunchtime classes, great facilities)",
+        "Best flexible: Jetts ($14.95/wk, no joining fee, no lock-in, 24/7)",
+        "Best for weight loss: Orangetheory ($18.25/wk, heart rate coaching every session)",
+        "Best for variety: ClassPass (from $9/wk, access Wellington's top studios on one plan)",
+        "Best women's gym: Contours ($9.99/wk, women-only, guided circuit)",
+        "Best for families: YMCA ($17.50/wk, pool, crèche, Newtown and other locations)"
+      ]
     },
     {
-      "heading": "Hutt Valley and Kapiti Options",
-      "body": "For those living in the Hutt Valley or Kapiti region, there are plenty of gym options available. Anytime Fitness has locations in Upper Hutt and Lower Hutt, while Jetts has a location in Paraparaumu. Les Mills also has a location in Lower Hutt."
-    },
-    {
-      "heading": "Price Comparison",
-      "table": {
-        "headers": [
-          "Gym",
-          "Price (monthly)",
-          "Contract Term"
-        ],
-        "rows": [
-          [
-            "Les Mills Wellington",
-            "$99.95",
-            "12 months"
-          ],
-          [
-            "Anytime Fitness Wellington",
-            "$79.95",
-            "No contract"
-          ],
-          [
-            "Jetts Wellington",
-            "$59.95",
-            "12 months"
-          ],
-          [
-            "CityFitness",
-            "$79.95",
-            "6 months"
-          ]
-        ]
-      }
-    },
-    {
-      "heading": "Get Started with Your Gym Journey",
+      "heading": "Compare All Wellington Gyms",
       "cta": {
-        "text": "Compare gyms in Wellington and find the best deal",
-        "url": "/compare/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Les Mills Wellington Gym Page",
-      "cta": {
-        "text": "View Les Mills Wellington gym page and pricing",
-        "url": "/gym/les-mills-wellington",
+        "text": "See full Wellington gym comparison →",
+        "url": "/gym/wellington/",
         "affiliate": false
       }
     }

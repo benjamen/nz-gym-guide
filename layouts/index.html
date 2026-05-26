@@ -1,6 +1,64 @@
 {% extends "base.html" %}
 
 {% block title %}NZ Gym Membership Comparison 2026 — Compare Prices & Contracts{% endblock %}
+{% block head_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the cheapest gym in NZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "City Fitness is the cheapest major gym chain in New Zealand, starting from $7.99/week on their Basic membership. Jetts offers no-lock-in memberships from around $14.95/week. Contours Women's Gym starts from $9.99/week for women."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which NZ gyms have no lock-in contracts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "City Fitness (4-week minimum), Jetts (cancel anytime), Contours (2-week notice), 9Round (monthly), F45 (most studios), and ClassPass (monthly subscription) all offer memberships with no long-term lock-in. Les Mills and Anytime Fitness typically require 3–12 month commitments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is ClassPass worth it in New Zealand?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ClassPass is excellent if you want variety — access to yoga, pilates, HIIT, cycling and more at hundreds of NZ studios on one membership. The Starter plan from $36/month suits occasional gym-goers; the Standard plan covers 6–8 classes. First month is free."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I cancel a gym membership early in NZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the Consumer Guarantees Act, you can cancel if the gym moves location, reduces services, or you have a medical reason. Otherwise most gyms require you to pay out remaining months or find a member to take over your contract."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What gym is best for beginners in NZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contours Women's Gym is excellent for beginners — guided 30-minute circuits with no intimidation. For mixed-gender options, City Fitness offers affordable no-pressure training. ClassPass lets you try different styles before committing to one gym."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which NZ gym is best for weight loss?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Orangetheory Fitness and F45 Training consistently deliver the best weight loss results through structured HIIT sessions with coached accountability. Orangetheory's heart rate monitor system ensures you're working in the fat-burning zone every session."
+      }
+    }
+  ]
+}
+</script>
+{% endblock %}
 {% block desc %}Compare NZ gym memberships side by side. Find the cheapest gym near you — prices, contracts, and honest reviews for Les Mills, City Fitness, Anytime Fitness, ClassPass and more.{% endblock %}
 {% block canonical %}{% endblock %}
 
@@ -10,13 +68,14 @@
     <h1>Compare NZ Gym Memberships — Find the Best Price</h1>
     <p class="hero-sub">Transparent pricing, honest reviews, and side-by-side comparisons for every major NZ gym chain. No sales pitch — just the facts.</p>
     <div class="hero-ctas">
-      <a href="#compare" class="btn btn-primary">Compare all gyms →</a>
-      <a href="/guides/cheapest-gym-nz/" class="btn btn-secondary">Find cheapest gym</a>
+      <a href="/quiz/" class="btn btn-primary">Find my gym — 60 sec quiz ✨</a>
+      <a href="#compare" class="btn btn-secondary">Compare all gyms →</a>
     </div>
     <div class="hero-stats">
-      <div class="hstat"><span>8</span> gyms compared</div>
-      <div class="hstat"><span>6</span> NZ cities</div>
+      <div class="hstat"><span>{{ gyms|length }}</span> gyms reviewed</div>
+      <div class="hstat"><span>{{ cities|length }}</span> NZ cities</div>
       <div class="hstat"><span>from $7.99</span>/week</div>
+      <div class="hstat"><span>{{ gyms|sum(attribute='review_count') | int | string | replace('000', 'k+') }}</span> member reviews</div>
     </div>
   </div>
 </section>
@@ -42,8 +101,18 @@
   <h2>NZ Gym Membership Prices Compared (2026)</h2>
   <p class="section-intro">All prices are weekly equivalents. Always confirm current pricing directly with the gym — franchise locations can vary.</p>
 
+  <div class="filter-bar">
+    <span class="filter-label">Filter by type:</span>
+    <button class="filter-btn active" data-filter="all">All gyms</button>
+    <button class="filter-btn" data-filter="Budget">Budget</button>
+    <button class="filter-btn" data-filter="Mid-range">Mid-range</button>
+    <button class="filter-btn" data-filter="Premium">Premium</button>
+    <button class="filter-btn" data-filter="Boutique">Boutique</button>
+    <button class="filter-btn" data-filter="Community">Community</button>
+  </div>
+
   <div class="table-wrap">
-    <table class="compare-table">
+    <table class="compare-table" id="gymTable">
       <thead>
         <tr>
           <th>Gym</th>
@@ -53,13 +122,13 @@
           <th>24/7</th>
           <th>Group classes</th>
           <th>Pool</th>
-          <th>Best for</th>
+          <th>Rating</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         {% for gym in gyms %}
-        <tr class="{% if gym.has_affiliate %}affiliate-row{% endif %}">
+        <tr class="{% if gym.has_affiliate %}affiliate-row{% endif %}" data-type="{{ gym.type }}">
           <td class="gym-name-cell">
             <a href="/gym/{{ gym.slug }}/">{{ gym.name }}</a>
             <span class="gym-type type-{{ gym.type|lower|replace(' ','-') }}">{{ gym.type }}</span>
@@ -70,7 +139,10 @@
           <td>{% if gym.features.open_247 %}✓{% else %}—{% endif %}</td>
           <td>{% if gym.features.group_fitness %}✓{% else %}—{% endif %}</td>
           <td>{% if gym.features.pool %}✓{% else %}—{% endif %}</td>
-          <td class="best-for-cell">{{ gym.best_for }}</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">{% for i in range(gym.rating|int) %}★{% endfor %}</span>
+            <span style="font-size:.82rem;color:#6b7280;">{{ gym.rating }}</span>
+          </td>
           <td>
             {% if gym.has_affiliate %}
             <a href="{{ site.affiliates[gym.affiliate_key].url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[gym.affiliate_key].cta }}</a>
@@ -83,8 +155,28 @@
       </tbody>
     </table>
   </div>
-  <p class="table-note">* Affiliate disclosure: we earn a commission on some referrals. This does not affect our rankings.</p>
+  <p class="table-note">* Affiliate disclosure: we earn a commission on some referrals. This does not affect our rankings or ratings.</p>
 </section>
+<script>
+(function(){
+  var btns = document.querySelectorAll('.filter-btn');
+  var rows = document.querySelectorAll('#gymTable tbody tr');
+  btns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      btns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filter = btn.dataset.filter;
+      rows.forEach(function(row){
+        if(filter === 'all' || row.dataset.type === filter){
+          row.classList.remove('hidden-row');
+        } else {
+          row.classList.add('hidden-row');
+        }
+      });
+    });
+  });
+})();
+</script>
 
 <!-- Gym cards -->
 <section class="section">
@@ -102,6 +194,11 @@
       <div class="gym-price-row">
         <span class="price-big">${{ gym.pricing.weekly_from }}<span class="per-week">/wk</span></span>
         <span class="price-note">{% if gym.pricing.contract_required %}{{ gym.pricing.minimum_term }} min{% else %}No lock-in{% endif %}</span>
+      </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">{% for i in range(gym.rating|int) %}★{% endfor %}{% if (gym.rating - gym.rating|int) >= 0.5 %}½{% endif %}</span>
+        <span class="star-score">{{ gym.rating }}</span>
+        <span class="star-count">({{ gym.review_count }})</span>
       </div>
       <div class="gym-features">
         {% if gym.features.open_247 %}<span class="feat">24/7</span>{% endif %}
@@ -139,29 +236,74 @@
   </div>
 </section>
 
+<!-- Explore guides strip -->
+<section class="section">
+  <h2>Gym Guides &amp; Resources</h2>
+  <div class="need-grid">
+    <div class="need-card">
+      <h3>🎯 Find My Gym — Quiz</h3>
+      <p>Answer 6 questions and get a personalised recommendation based on your budget, location, and goals. Free, instant, no sign-up.</p>
+      <a href="/quiz/" class="btn btn-primary btn-sm">Take the quiz →</a>
+    </div>
+    <div class="need-card">
+      <h3>💸 Cheapest Gym in NZ</h3>
+      <p>Verified 2026 prices for every budget gym — from $7.99/week. Includes tips to get joining fees waived.</p>
+      <a href="/guides/cheapest-gym-nz/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>⏰ Best 24/7 Gym NZ</h3>
+      <p>City Fitness, Jetts, Anytime Fitness, Snap Fitness — compared on price, locations, and who each suits best.</p>
+      <a href="/guides/best-247-gym-nz/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>💜 Best Women's Gym NZ</h3>
+      <p>Contours, Les Mills, ClassPass, YMCA — honest guide for women covering environment, price, and goals.</p>
+      <a href="/guides/best-womens-gym-nz/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>🧘 Yoga &amp; Pilates NZ</h3>
+      <p>Studio prices, reformer pilates costs, hot yoga, barre — and whether ClassPass is smarter than a studio membership.</p>
+      <a href="/guides/yoga-pilates-nz-2026/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>❌ How to Cancel a Gym</h3>
+      <p>Your rights under NZ consumer law, step-by-step cancellation, and how to avoid paying out your contract.</p>
+      <a href="/guides/cancel-gym-membership-nz/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+  </div>
+</section>
+
 <!-- FAQ -->
 <section class="section">
   <h2>Frequently Asked Questions</h2>
   <div class="faq-list">
     <details class="faq-item">
       <summary>What is the cheapest gym in NZ?</summary>
-      <p>City Fitness is the cheapest major gym chain in NZ, starting from <strong>$7.99/week</strong> on their Basic membership. Jetts offers no-lock-in memberships from around $14.95/week. See our <a href="/guides/cheapest-gym-nz/">cheapest gym guide</a> for a full breakdown.</p>
+      <p>City Fitness is the cheapest major gym chain in NZ, starting from <strong>$7.99/week</strong> on their Basic membership (24/7, no lock-in, $29 joining fee — often waived online). Contours Women's Gym is the cheapest for women at $9.99/week with no joining fee or lock-in. See our <a href="/guides/cheapest-gym-nz/">cheapest gym guide</a> for a full breakdown.</p>
     </details>
     <details class="faq-item">
-      <summary>Which NZ gyms have no contracts?</summary>
-      <p>City Fitness (4-week minimum), Jetts (cancel anytime), F45 (most studios), and ClassPass (monthly subscription) all offer flexible memberships with no long-term lock-in. Les Mills and Anytime Fitness typically require 3–12 month terms.</p>
+      <summary>Which NZ gyms have no lock-in contracts?</summary>
+      <p>City Fitness (4-week minimum), Jetts (2-week notice, no lock-in), Contours (2-week notice), 9Round (monthly), F45 (most studios), and ClassPass (monthly subscription) all offer memberships with no long-term lock-in. Les Mills and Anytime Fitness typically require 3–12 month commitments.</p>
     </details>
     <details class="faq-item">
-      <summary>Is ClassPass worth it in New Zealand?</summary>
-      <p>ClassPass is excellent if you like variety and don't want to commit to one gym. You get access to hundreds of NZ studios for yoga, HIIT, pilates, cycling and more. The Starter plan from $36/month suits occasional gym-goers; the Premium plan suits those doing 3+ sessions per week. <a href="/guides/classpass-review-nz/">Read our full ClassPass NZ review.</a></p>
+      <summary>What's the best gym for weight loss in NZ?</summary>
+      <p>Orangetheory Fitness and F45 Training consistently deliver the strongest weight loss results, due to coached HIIT sessions and built-in accountability. Orangetheory's heart rate monitoring system ensures every session targets the fat-burning zone. Both offer a free first class — try before you commit.</p>
     </details>
     <details class="faq-item">
-      <summary>Can I cancel a gym membership early in NZ?</summary>
-      <p>Under the Consumer Guarantees Act, you can cancel if the gym moves location, reduces services, or you have a medical reason. For other reasons, most gyms require you to pay out the remaining months or find a member to take over your contract. See our <a href="/guides/cancel-gym-membership-nz/">how to cancel guide</a>.</p>
+      <summary>Is ClassPass worth it for yoga and pilates in NZ?</summary>
+      <p>Yes — ClassPass is the most cost-effective way to access yoga, pilates, barre, and other studio classes in NZ. The Standard plan (~$80/month) covers 6–8 studio classes, which would cost $140–$200+ at casual rates. Partner studios include most major yoga and reformer pilates studios in Auckland, Wellington, and Christchurch. <a href="/guides/yoga-pilates-nz-2026/">Read our full yoga &amp; pilates guide.</a></p>
     </details>
     <details class="faq-item">
       <summary>What gym is best for beginners in NZ?</summary>
-      <p>ClassPass is great for beginners — try different styles before committing. For a permanent gym, City Fitness offers an affordable, low-pressure environment. F45 or Les Mills group classes are excellent if you want structure and coaching.</p>
+      <p>For women: <a href="/gym/contours/">Contours Women's Gym</a> — guided 30-min circuits, women-only, no intimidation, from $9.99/week. For mixed gyms: City Fitness is affordable and low-pressure, or use ClassPass to trial different styles before committing to one format. <a href="/quiz/">Take our quiz for a personalised recommendation.</a></p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I cancel a gym membership early in NZ?</summary>
+      <p>Under the Consumer Guarantees Act, you can cancel if the gym moves location, reduces services materially, or you have a medical reason. Otherwise most gyms require you to pay out remaining months or find a member to take over your contract. See our <a href="/guides/cancel-gym-membership-nz/">how to cancel guide</a> for city-specific advice.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Which NZ gym is best for 24/7 access?</summary>
+      <p>City Fitness ($7.99/wk), Jetts ($14.95/wk, no lock-in), Snap Fitness ($14.95/wk), and Anytime Fitness ($16.95/wk) are all 24/7. Anytime Fitness is the only chain with global 24/7 access — useful if you travel overseas. See our <a href="/guides/best-247-gym-nz/">24/7 gym guide</a> for a full comparison.</p>
     </details>
   </div>
 </section>

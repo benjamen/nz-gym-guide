@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Page Not Found — NZ Gym Guide{% endblock %}
+{% block desc %}Sorry, we couldn't find that page. Browse NZ gym comparisons, free diet plans, and our gym quiz.{% endblock %}
+{% block canonical %}404{% endblock %}
+
+{% block hero %}{% endblock %}
+
+{% block content %}
+<section class="section" style="text-align:center;padding:4rem 1rem;">
+  <div style="max-width:500px;margin:0 auto;">
+    <p style="font-size:4rem;margin:0;">🏋️</p>
+    <h1 style="font-size:2rem;margin:.5rem 0 .5rem;">Page Not Found</h1>
+    <p style="color:var(--gray-600);margin-bottom:2rem;">Looks like you've wandered into the weights section and can't find the door out. Let's get you back on track.</p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="/" class="btn btn-primary">Back to Home →</a>
+      <a href="/quiz/" class="btn btn-outline">Find My Gym →</a>
+      <a href="/compare/" class="btn btn-outline">Compare Gyms →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Popular Pages</h2>
+  <div class="need-grid">
+    <div class="need-card">
+      <h3>Cheapest Gym in NZ</h3>
+      <p>Real 2026 prices from $7.99/week and tips to get joining fees waived.</p>
+      <a href="/guides/cheapest-gym-nz/" class="btn btn-outline btn-sm">Read guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>Gym Quiz</h3>
+      <p>Answer 6 questions and get a personalised NZ gym recommendation in 60 seconds.</p>
+      <a href="/quiz/" class="btn btn-outline btn-sm">Take the quiz →</a>
+    </div>
+    <div class="need-card">
+      <h3>Free Diet Plans</h3>
+      <p>Lose weight, gain muscle, or feel healthier — NZ meal plans, no sign-up.</p>
+      <a href="/diet/" class="btn btn-outline btn-sm">Browse plans →</a>
+    </div>
+    <div class="need-card">
+      <h3>Compare All Gyms</h3>
+      <p>Side-by-side comparison of every major NZ gym chain — verified 2026 prices.</p>
+      <a href="/compare/" class="btn btn-outline btn-sm">Compare now →</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

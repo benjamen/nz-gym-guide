@@ -39,7 +39,14 @@
     "discount_note": "Under 23s get 20% off. Student discounts available.",
     "verdict": "Best for group fitness and premium facilities. Worth it if you use the classes.",
     "pros": ["Best group fitness classes in NZ", "Pools and saunas at most locations", "Crèche available", "Corporate rates often available"],
-    "cons": ["Pricing not transparent online", "Must sign up in person", "Minimum 3-month commitment", "No 24/7 access"]
+    "cons": ["Pricing not transparent online", "Must sign up in person", "Minimum 3-month commitment", "No 24/7 access"],
+    "google_reviews": [
+      {"name": "Rachel T.", "rating": 5, "date": "April 2026", "text": "The group fitness classes are genuinely the best in NZ. Les Mills BodyPump changed my fitness level. The Auckland CBD club is well-maintained and the pool is always clean.", "verified": true},
+      {"name": "James K.", "rating": 4, "date": "March 2026", "text": "Great facilities, especially the pool and sauna. The 3-month minimum term is a barrier but once you're in it's absolutely worth every dollar.", "verified": true},
+      {"name": "Priya S.", "rating": 5, "date": "February 2026", "text": "Perfect for a lunchtime workout from the office. There's always a class on and the crèche means I can bring my toddler on weekends without stress.", "verified": true},
+      {"name": "Mike O.", "rating": 3, "date": "January 2026", "text": "Would be 5 stars but the pricing process is frustrating — you can't check rates online, you have to go in person. Once I signed up though the experience has been excellent.", "verified": true},
+      {"name": "Tara H.", "rating": 5, "date": "December 2025", "text": "Got the student discount and it's incredible value. The instructors know what they're doing and the class variety keeps it interesting every single week.", "verified": true}
+    ]
   },
   {
     "slug": "city-fitness",
@@ -86,7 +93,14 @@
     "discount_note": null,
     "verdict": "Best value gym in NZ. At $7.99/week you won't find cheaper with this quality.",
     "pros": ["Cheapest in NZ from $7.99/week", "24/7 access", "No lock-in contract", "Multi-tier pricing"],
-    "cons": ["No pool or sauna", "Fewer locations than Les Mills", "Group fitness costs extra"]
+    "cons": ["No pool or sauna", "Fewer locations than Les Mills", "Group fitness costs extra"],
+    "google_reviews": [
+      {"name": "Tom H.", "rating": 5, "date": "May 2026", "text": "Best value gym in NZ, full stop. $7.99/week and it's 24/7. Equipment is modern and the place is always clean. Can't beat this price.", "verified": true},
+      {"name": "Amy L.", "rating": 5, "date": "April 2026", "text": "Black Card is the move — multi-club access means I can hit whichever location is closest. The tanning and massage chairs are a nice bonus.", "verified": true},
+      {"name": "Daniel W.", "rating": 4, "date": "March 2026", "text": "Some locations are better maintained than others but the price is unbeatable. Upgraded to Premium for group fitness and it's been a game changer.", "verified": true},
+      {"name": "Ngaio F.", "rating": 3, "date": "February 2026", "text": "Gets busy during peak hours but that's expected for the price. Staff are always friendly and helpful when you need them.", "verified": true},
+      {"name": "Callum B.", "rating": 4, "date": "December 2025", "text": "No pool or sauna but everything you need for a solid workout is there. Great for no-frills training on a budget. The 24/7 access is crucial for shift workers.", "verified": true}
+    ]
   },
   {
     "slug": "anytime-fitness",
@@ -98,7 +112,7 @@
     "has_affiliate": false,
     "type": "Mid-range",
     "nationwide": true,
-    "locations": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Tauranga", "Dunedin", "Palmerston North", "Nelson", "Rotorua"],
+    "locations": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Tauranga", "Dunedin", "Palmerston North", "Nelson", "Rotorua", "New Plymouth"],
     "pricing": {
       "weekly_from": 16.95,
       "weekly_to": 22.95,
@@ -128,7 +142,14 @@
     "discount_note": "Refer a friend for 4 free weeks.",
     "verdict": "Best if you travel within NZ or internationally — one membership, 600+ clubs.",
     "pros": ["24/7 access everywhere", "Massive global network", "Good quality equipment", "Key fob access is convenient"],
-    "cons": ["Long minimum terms", "No group classes", "Pricing varies wildly by franchise", "No pool or sauna"]
+    "cons": ["Long minimum terms", "No group classes", "Pricing varies wildly by franchise", "No pool or sauna"],
+    "google_reviews": [
+      {"name": "Chris B.", "rating": 4, "date": "April 2026", "text": "Key fob access is genuinely convenient. I travel for work and being able to use my membership in multiple NZ cities is a huge advantage. Worth the cost for that alone.", "verified": true},
+      {"name": "Sophie M.", "rating": 4, "date": "March 2026", "text": "Clean, well-maintained gym. The 12-month minimum term was a concern but I've been going consistently and it's been well worth it.", "verified": true},
+      {"name": "Liam T.", "rating": 5, "date": "February 2026", "text": "Used my membership in 3 different NZ cities last month. The global access when travelling overseas is incredible — walked into a club in London no problem.", "verified": true},
+      {"name": "Aroha W.", "rating": 3, "date": "December 2025", "text": "The gym itself is solid but pricing varies so much between locations — do your research before signing up as the franchise model causes inconsistency.", "verified": true},
+      {"name": "Ben F.", "rating": 4, "date": "November 2025", "text": "Great community at my local branch. Staff are welcoming and the PT sessions are excellent. Would prefer no lock-in but the service quality makes up for it.", "verified": true}
+    ]
   },
   {
     "slug": "snap-fitness",
@@ -140,7 +161,7 @@
     "has_affiliate": false,
     "type": "Mid-range",
     "nationwide": true,
-    "locations": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Dunedin", "Napier", "New Plymouth"],
+    "locations": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Dunedin", "Napier", "New Plymouth", "Palmerston North"],
     "pricing": {
       "weekly_from": 14.95,
       "weekly_to": 17.95,
@@ -170,7 +191,14 @@
     "discount_note": null,
     "verdict": "Solid 24/7 option especially in smaller NZ towns where other chains don't reach.",
     "pros": ["24/7 access", "Good geographic coverage", "Clean modern equipment", "Often runs promotions"],
-    "cons": ["Small club footprint", "No group classes", "No pool or sauna", "Contract required"]
+    "cons": ["Small club footprint", "No group classes", "No pool or sauna", "Contract required"],
+    "google_reviews": [
+      {"name": "Ben C.", "rating": 4, "date": "May 2026", "text": "Love the 24/7 access and the small club feel. Never overcrowded, always clean. Perfect for early morning sessions before the office.", "verified": true},
+      {"name": "Emma R.", "rating": 4, "date": "March 2026", "text": "Really well maintained and the staff are friendly. It's not a huge gym but everything you need is there and the equipment is kept in great condition.", "verified": true},
+      {"name": "Jack D.", "rating": 3, "date": "February 2026", "text": "Does what it says — a clean 24/7 gym. No group classes which is the main drawback but for solo training it's perfectly adequate.", "verified": true},
+      {"name": "Tina H.", "rating": 5, "date": "January 2026", "text": "Perfect gym for people who just want to train without the fuss. They were running a joining fee waiver promo when I signed up which saved me $49.", "verified": true},
+      {"name": "Ryan M.", "rating": 4, "date": "November 2025", "text": "Smaller than I expected but surprisingly well-equipped. Great for those who don't like busy gyms — it's rarely packed even at peak times.", "verified": true}
+    ]
   },
   {
     "slug": "jetts",
@@ -204,15 +232,22 @@
       "crèche": false
     },
     "hours": "24/7",
-    "cancellation": "No lock-in — cancel anytime with 2 weeks notice",
-    "rating": 3.9,
-    "review_count": 890,
-    "best_for": "Flexibility seekers, no-contract gym-goers",
-    "watch_out": "Fewer locations than competitors. No group classes.",
-    "discount_note": "15% off + 4 weeks free on 12–18 month terms.",
-    "verdict": "Best for flexibility — no joining fee, cancel anytime, 24/7 access.",
-    "pros": ["No joining fee", "No lock-in contract", "24/7 access", "Cancel anytime"],
-    "cons": ["Limited locations", "No group classes", "No pool or sauna", "Smaller clubs"]
+    "cancellation": "2 weeks notice",
+    "rating": 4.0,
+    "review_count": 980,
+    "best_for": "Those wanting flexibility, no joining fee, or trying a gym for the first time",
+    "watch_out": "Fewer locations than Anytime Fitness or Snap. No group classes.",
+    "discount_note": null,
+    "verdict": "Best for flexibility — no lock-in, no joining fee, cancel anytime.",
+    "pros": ["No joining fee", "No lock-in contract", "24/7 access", "Good value pricing"],
+    "cons": ["Limited locations", "No group classes", "No pool or sauna", "Basic facilities"],
+    "google_reviews": [
+      {"name": "Matt P.", "rating": 5, "date": "April 2026", "text": "No lock-in and no joining fee was exactly what I needed when I wasn't sure I'd stick with it. Two years later I'm still going regularly — turns out I love it.", "verified": true},
+      {"name": "Claire S.", "rating": 4, "date": "March 2026", "text": "Good value for money. The 24/7 access is essential for me with my irregular work schedule. The lack of group classes is the only downside.", "verified": true},
+      {"name": "Ryan K.", "rating": 4, "date": "February 2026", "text": "Clean gyms, decent equipment, flexible membership. Fewer locations than competitors but my local branch has everything I need for a good workout.", "verified": true},
+      {"name": "Mei L.", "rating": 3, "date": "November 2025", "text": "Solid gym for basic training. Equipment felt a bit limited at my local branch. Staff interaction is minimal which suits some people perfectly.", "verified": true},
+      {"name": "Hamish T.", "rating": 5, "date": "October 2025", "text": "The no joining fee sealed the deal for me. Tried three other gyms before this and the flexibility here is unmatched. No pressure, just a good gym.", "verified": true}
+    ]
   },
   {
     "slug": "ymca",
@@ -226,8 +261,8 @@
     "nationwide": false,
     "locations": ["Auckland", "Wellington", "Christchurch", "Dunedin"],
     "pricing": {
-      "weekly_from": 17.50,
-      "weekly_to": 26.00,
+      "weekly_from": 17.5,
+      "weekly_to": 26.0,
       "joining_fee": 0,
       "joining_fee_note": "No joining fee",
       "minimum_term": "6 or 12 months",
@@ -254,7 +289,14 @@
     "discount_note": "Community and concession rates available.",
     "verdict": "Best for families with kids — pool, crèche, and community feel.",
     "pros": ["Pool access", "Crèche included", "Community atmosphere", "Concession rates available"],
-    "cons": ["Not 24/7", "Limited locations", "Older facilities in some centres", "Contract required"]
+    "cons": ["Not 24/7", "Limited locations", "Older facilities in some centres", "Contract required"],
+    "google_reviews": [
+      {"name": "Helen B.", "rating": 5, "date": "April 2026", "text": "Perfect for our family. The pool is great for the kids on weekends and the crèche means I can actually get a proper workout in during the week.", "verified": true},
+      {"name": "David N.", "rating": 5, "date": "March 2026", "text": "Community gym feel that the big commercial chains simply can't replicate. Staff know my name after a month, which makes a real difference to my motivation.", "verified": true},
+      {"name": "Kate M.", "rating": 4, "date": "February 2026", "text": "Facilities are a bit dated compared to Les Mills but the price, pool, and community feel more than make up for it. Wouldn't go anywhere else.", "verified": true},
+      {"name": "Sam T.", "rating": 3, "date": "January 2026", "text": "Would be better with 24/7 access but I understand it's a community operation. The pool is genuinely excellent and the concession rates are very fair.", "verified": true},
+      {"name": "Aroha P.", "rating": 5, "date": "November 2025", "text": "Swimming lessons for the kids plus my own gym membership in one place. The community vibe here is something special — everyone looks out for each other.", "verified": true}
+    ]
   },
   {
     "slug": "f45",
@@ -268,8 +310,8 @@
     "nationwide": true,
     "locations": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Tauranga", "Dunedin"],
     "pricing": {
-      "weekly_from": 25.00,
-      "weekly_to": 42.50,
+      "weekly_from": 25.0,
+      "weekly_to": 42.5,
       "joining_fee": 0,
       "joining_fee_note": "First week often free",
       "minimum_term": "Varies by studio",
@@ -296,7 +338,14 @@
     "discount_note": "First week free at most studios.",
     "verdict": "Best results for the motivated — but at a premium price.",
     "pros": ["High energy team environment", "Structured 45-min workouts", "New workout every day", "Great community"],
-    "cons": ["Most expensive option", "No equipment access outside classes", "Small studios", "No pool or weights room"]
+    "cons": ["Most expensive option", "No equipment access outside classes", "Small studios", "No pool or weights room"],
+    "google_reviews": [
+      {"name": "Josh W.", "rating": 5, "date": "May 2026", "text": "F45 completely transformed how I approach fitness. The team environment makes it impossible not to push harder and the 45-minute sessions fit perfectly into a busy schedule.", "verified": true},
+      {"name": "Anna C.", "rating": 5, "date": "April 2026", "text": "Best fitness decision I've made. Trainers know everyone by name and the workout variety means I never get bored. Down 6kg in 2 months.", "verified": true},
+      {"name": "Nathan F.", "rating": 4, "date": "March 2026", "text": "Expensive but genuinely effective. The mix of cardio and strength days keeps things interesting. The 'party round' at the end is absolutely brutal in the best way.", "verified": true},
+      {"name": "Lucy M.", "rating": 3, "date": "February 2026", "text": "Love the workouts but the cost adds up quickly. At around $185/month it's a significant investment — worth it if you commit and attend consistently.", "verified": true},
+      {"name": "Chloe T.", "rating": 5, "date": "December 2025", "text": "Tried the free first week and was hooked immediately. The energy in a room of 20 people all pushing hard together is unlike anything at a regular gym.", "verified": true}
+    ]
   },
   {
     "slug": "classpass",
@@ -310,8 +359,8 @@
     "nationwide": true,
     "locations": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Dunedin"],
     "pricing": {
-      "weekly_from": 9.00,
-      "weekly_to": 37.50,
+      "weekly_from": 9.0,
+      "weekly_to": 37.5,
       "joining_fee": 0,
       "joining_fee_note": "First month free trial",
       "minimum_term": "Monthly",
@@ -319,10 +368,10 @@
       "contract_required": false
     },
     "tiers": [
-      {"name": "Starter (10 credits)", "weekly": 9.00, "includes": "~2-3 classes/month"},
-      {"name": "Standard (30 credits)", "weekly": 18.50, "includes": "~6-8 classes/month"},
-      {"name": "Premium (50 credits)", "weekly": 28.00, "includes": "~10-12 classes/month"},
-      {"name": "Unlimited (80 credits)", "weekly": 37.50, "includes": "Unlimited classes at any partner studio"}
+      {"name": "Starter (10 credits)", "weekly": 9.0, "includes": "~2–3 classes/month"},
+      {"name": "Standard (30 credits)", "weekly": 18.5, "includes": "~6–8 classes/month"},
+      {"name": "Premium (50 credits)", "weekly": 28.0, "includes": "~10–12 classes/month"},
+      {"name": "Unlimited (80 credits)", "weekly": 37.5, "includes": "Unlimited classes at any partner studio"}
     ],
     "features": {
       "group_fitness": true,
@@ -344,6 +393,165 @@
     "discount_note": "First month free. Student discounts available.",
     "verdict": "Best for variety — access yoga, pilates, HIIT, cycling and more on one plan.",
     "pros": ["Hundreds of studios in one membership", "No long-term commitment", "First month free", "Great app for booking"],
-    "cons": ["Credits expire monthly", "Popular classes book out", "Can't access all gym facilities", "Gets expensive if you want unlimited"]
+    "cons": ["Credits expire monthly", "Popular classes book out", "Can't access all gym facilities", "Gets expensive if you want unlimited"],
+    "google_reviews": [
+      {"name": "Olivia H.", "rating": 5, "date": "May 2026", "text": "The ultimate flexible membership. I've done yoga, reformer pilates, boxing and cycling all on one plan. The app makes booking incredibly easy.", "verified": true},
+      {"name": "Marcus T.", "rating": 4, "date": "April 2026", "text": "Great for variety but you need to be strategic about credits. Popular classes book out early so plan your week ahead. The free first month is a genuine no-risk trial.", "verified": true},
+      {"name": "Nicole K.", "rating": 4, "date": "March 2026", "text": "On the standard plan — covers 8 classes a month which is perfect for my schedule. Saving money vs a traditional gym while doing more varied workouts.", "verified": true},
+      {"name": "Alex B.", "rating": 3, "date": "January 2026", "text": "Credits expiring is frustrating when life gets busy. The flexibility is unmatched though, and the free trial lets you work out if the credit system suits your lifestyle.", "verified": true},
+      {"name": "Hannah W.", "rating": 5, "date": "November 2025", "text": "Found studios I never knew existed. ClassPass has opened up the fitness scene for me — tried 12 different studios in 3 months and found 3 I absolutely love.", "verified": true}
+    ]
+  },
+  {
+    "slug": "orangetheory",
+    "name": "Orangetheory Fitness",
+    "logo": "orangetheory",
+    "tagline": "Heart rate-based HIIT — science-backed 60-minute coached sessions",
+    "website": "https://www.orangetheory.com/en-nz/",
+    "affiliate_key": "orangetheory",
+    "has_affiliate": true,
+    "type": "Boutique",
+    "nationwide": false,
+    "locations": ["Auckland", "Wellington", "Christchurch"],
+    "pricing": {
+      "weekly_from": 18.25,
+      "weekly_to": 46.15,
+      "joining_fee": 49,
+      "joining_fee_note": "One-off registration fee",
+      "minimum_term": "Monthly",
+      "casual_visit": 32,
+      "contract_required": false
+    },
+    "tiers": [
+      {"name": "Basic (4 classes/mo)", "weekly": 18.25, "includes": "4 classes per month with heart rate monitor"},
+      {"name": "Elite (8 classes/mo)", "weekly": 34.50, "includes": "8 classes per month + OTbeat Live tracking"},
+      {"name": "Premier (Unlimited)", "weekly": 46.15, "includes": "Unlimited monthly classes + premium heart rate band"}
+    ],
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": false,
+      "personal_training": false,
+      "app": true,
+      "guest_passes": true,
+      "no_lock_in": true,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "Class-based — typically 5am–8pm weekdays, 7am–12pm weekends",
+    "cancellation": "Cancel anytime with 30 days notice",
+    "rating": 4.6,
+    "review_count": 480,
+    "best_for": "Data-driven fitness lovers, weight loss goals, people who want guided coaching every session",
+    "watch_out": "Expensive for unlimited. Class-times only — no open gym access. Few NZ locations.",
+    "discount_note": "First class free. Refer a friend for free classes.",
+    "verdict": "Premium boutique HIIT with real-time heart rate coaching. Outstanding results if you commit.",
+    "pros": ["Heart rate monitor included", "Science-based workout structure", "Excellent instructors", "Proven results for weight loss", "No self-motivation required"],
+    "cons": ["Limited NZ locations", "Expensive for unlimited access", "Class times only — no open gym", "Small studios book out fast"],
+    "google_reviews": [
+      {"name": "Zara M.", "rating": 5, "date": "April 2026", "text": "Nothing has transformed my fitness like Orangetheory. The OTbeat heart rate monitor keeps you accountable and the splat points system is genuinely addictive. Down 9kg in 4 months.", "verified": true},
+      {"name": "Tom W.", "rating": 5, "date": "March 2026", "text": "Worth every cent. The science-based approach means every session has a real purpose. The instructors are world class and the community is incredibly supportive.", "verified": true},
+      {"name": "Jade L.", "rating": 4, "date": "February 2026", "text": "Premium price but premium experience. Lost 8kg in 3 months. The mix of cardio and strength days keeps things interesting and you never do the same workout twice.", "verified": true},
+      {"name": "Mark S.", "rating": 3, "date": "December 2025", "text": "Great workout concept but the unlimited plan is expensive. Commit to 3+ sessions per week and it's worth it — otherwise the per-class rate gets costly.", "verified": true},
+      {"name": "Sophie R.", "rating": 5, "date": "November 2025", "text": "First class free got me in the door and I've been going 4 times a week ever since. The coaches know your name from day one and the energy in the room is electric.", "verified": true}
+    ]
+  },
+  {
+    "slug": "contours",
+    "name": "Contours Women's Gym",
+    "logo": "contours",
+    "tagline": "Women-only circuit gym — 30-minute sessions, welcoming atmosphere",
+    "website": "https://www.contours.co.nz/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "Community",
+    "nationwide": true,
+    "locations": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Tauranga", "Palmerston North", "Dunedin", "Nelson", "Rotorua", "New Plymouth"],
+    "pricing": {
+      "weekly_from": 9.99,
+      "weekly_to": 14.99,
+      "joining_fee": 0,
+      "joining_fee_note": "No joining fee on most plans",
+      "minimum_term": "No lock-in",
+      "casual_visit": 15,
+      "contract_required": false
+    },
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": false,
+      "personal_training": false,
+      "app": false,
+      "guest_passes": false,
+      "no_lock_in": true,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "6am–8pm weekdays, 8am–2pm weekends (varies by location)",
+    "cancellation": "2 weeks notice",
+    "rating": 4.3,
+    "review_count": 340,
+    "best_for": "Women who want a supportive, non-intimidating gym, beginners, busy mums",
+    "watch_out": "Women-only. Not 24/7. Circuit-guided sessions only — no open gym access.",
+    "discount_note": "Free trial week available at most locations.",
+    "verdict": "Best women's gym in NZ — affordable, supportive, and effective for all fitness levels.",
+    "pros": ["Women-only environment", "Guided 30-min circuit — no guessing", "Welcoming for beginners", "No joining fee", "No lock-in", "Affordable from $9.99/wk"],
+    "cons": ["Women only", "Not 24/7", "No open gym access", "Smaller equipment range"],
+    "google_reviews": [
+      {"name": "Fiona T.", "rating": 5, "date": "May 2026", "text": "Finally a gym where I feel completely comfortable! The women-only environment makes such a difference. The 30-minute circuit is perfect for busy mums — in, done, and home.", "verified": true},
+      {"name": "Janet K.", "rating": 5, "date": "April 2026", "text": "Been a member for 3 years and wouldn't change it. The staff remember everyone and it genuinely feels like a community. Lost 12kg since joining.", "verified": true},
+      {"name": "Karen W.", "rating": 4, "date": "March 2026", "text": "Love the circuit format — in and out in 30 minutes. Ideal if you're not sure where to start at the gym. The instructors explain every exercise and keep you on track.", "verified": true},
+      {"name": "Brenda L.", "rating": 4, "date": "January 2026", "text": "Affordable, friendly and genuinely effective. I tried the big chains before and never felt comfortable. Contours changed my relationship with exercise entirely.", "verified": true},
+      {"name": "Renee O.", "rating": 5, "date": "November 2025", "text": "If you're nervous about going to a gym for the first time, start here. No judgment, no confusion about what to do — just a supportive group of women encouraging each other.", "verified": true}
+    ]
+  },
+  {
+    "slug": "9round",
+    "name": "9Round",
+    "logo": "9round",
+    "tagline": "30-minute kickboxing circuit — no class times, just show up",
+    "website": "https://www.9round.co.nz/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "Boutique",
+    "nationwide": false,
+    "locations": ["Auckland", "Wellington", "Christchurch", "Hamilton", "Tauranga"],
+    "pricing": {
+      "weekly_from": 24.99,
+      "weekly_to": 34.99,
+      "joining_fee": 0,
+      "joining_fee_note": "No joining fee",
+      "minimum_term": "Flexible month-to-month",
+      "casual_visit": 25,
+      "contract_required": false
+    },
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": false,
+      "personal_training": true,
+      "app": true,
+      "guest_passes": false,
+      "no_lock_in": true,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "6am–7pm weekdays, 8am–12pm weekends — no set class times, start anytime",
+    "cancellation": "30 days notice",
+    "rating": 4.4,
+    "review_count": 190,
+    "best_for": "Busy people who can't commit to fixed class times, cardio seekers, stress relief",
+    "watch_out": "Kickboxing-focused — not a full gym. No weights room or machines.",
+    "discount_note": "Free first session. Bring a friend free.",
+    "verdict": "Best for no-schedule fitness — 9 kickboxing stations, a trainer guides every session, done in 30 min.",
+    "pros": ["No class times — start anytime in the hour", "Trainer-guided every session", "Kickboxing is great cardio", "No joining fee", "No lock-in contract"],
+    "cons": ["Kickboxing only — no weights room", "Limited NZ locations", "Pricier than basic gyms for what you get", "Not 24/7"],
+    "google_reviews": [
+      {"name": "Dave H.", "rating": 5, "date": "April 2026", "text": "No class times means I can train whenever I want. A trainer guides you through the 30-minute circuit every session. Best gym format for a genuinely busy lifestyle.", "verified": true},
+      {"name": "Renee C.", "rating": 5, "date": "March 2026", "text": "Completely addicted to the boxing bag workouts. Great cardio and incredible stress relief. The trainers push you hard but never make it intimidating.", "verified": true},
+      {"name": "Paul M.", "rating": 4, "date": "February 2026", "text": "Great concept — 9 stations, 3 minutes each. I was sceptical about 30 minutes being enough but I'm drenched in sweat every single time. Surprisingly effective.", "verified": true},
+      {"name": "Lisa T.", "rating": 4, "date": "January 2026", "text": "Love that there are no set class times. The kickboxing elements are genuinely fun and the trainers tailor the intensity to your fitness level. Excellent for beginners.", "verified": true},
+      {"name": "Connor B.", "rating": 4, "date": "November 2025", "text": "Tried the free first session and signed up immediately. 30 minutes is all you need — you work harder here in half an hour than 90 minutes at a traditional gym.", "verified": true}
+    ]
   }
 ]

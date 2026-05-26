@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+
+{% block title %}Free Diet Plans NZ 2026 — Lose Weight, Gain Muscle, Feel Healthier{% endblock %}
+{% block desc %}Free New Zealand diet plans for every goal — lose weight fast, sustainable fat loss, muscle gain, and feeling healthier. Evidence-based, NZ ingredients, no sign-up required.{% endblock %}
+{% block canonical %}diet/{% endblock %}
+{% block head_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Free Diet Plans NZ",
+  "description": "Free New Zealand diet plans for every goal — lose weight fast, sustainable fat loss, muscle gain, and feeling healthier.",
+  "url": "{{ site.base_url }}/diet/",
+  "hasPart": [
+    {% for dp in diet_plans %}
+    {"@type": "Article", "name": "{{ dp.title }}", "url": "{{ site.base_url }}/diet/{{ dp.slug }}/"}{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+<style>
+.diet-plan-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+.diet-plan-card { background: #fff; border-radius: var(--radius); box-shadow: 0 2px 12px rgba(0,0,0,.08); overflow: hidden; transition: transform .2s, box-shadow .2s; }
+.diet-plan-card:hover { transform: translateY(-3px); box-shadow: 0 6px 24px rgba(0,0,0,.13); }
+.diet-plan-card-img { height: 8px; }
+.diet-plan-card-img.fast   { background: linear-gradient(90deg, #f97316, #ef4444); }
+.diet-plan-card-img.healthy { background: linear-gradient(90deg, #22c55e, #16a34a); }
+.diet-plan-card-img.muscle  { background: linear-gradient(90deg, #6366f1, #4f46e5); }
+.diet-plan-card-img.wellness { background: linear-gradient(90deg, #06b6d4, #0ea5e9); }
+.diet-plan-card-body { padding: 1.4rem 1.5rem 1.6rem; }
+.diet-plan-card-badge { display: inline-block; font-size: .72rem; font-weight: 700; padding: .2em .6em; border-radius: 99px; margin-bottom: .7rem; text-transform: uppercase; letter-spacing: .05em; }
+.badge-fast    { background: #fee2e2; color: #b91c1c; }
+.badge-healthy { background: #dcfce7; color: #15803d; }
+.badge-muscle  { background: #ede9fe; color: #6d28d9; }
+.badge-wellness { background: #cffafe; color: #0e7490; }
+.diet-plan-card h3 { margin: 0 0 .5rem; font-size: 1.1rem; }
+.diet-plan-card p { color: var(--gray-600); font-size: .9rem; margin-bottom: 1rem; line-height: 1.5; }
+.diet-stats-row { display: flex; gap: .6rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.diet-mini-stat { background: var(--gray-50); border-radius: 6px; padding: .3rem .6rem; font-size: .78rem; color: var(--gray-600); }
+.diet-mini-stat strong { color: var(--gray-800); }
+</style>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero" style="background:linear-gradient(135deg,#ecfdf5 0%,#d1fae5 60%,#a7f3d0 100%)">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Free Diet Plans</div>
+    <h1>Free Diet Plans for New Zealanders</h1>
+    <p>Evidence-based meal plans for every goal — using NZ supermarket ingredients, with honest calorie guides and no sign-up required. Pick your goal below.</p>
+    <div class="hero-pills" style="margin-top:1rem;">
+      <span class="hero-pill">🆓 100% Free</span>
+      <span class="hero-pill">🇳🇿 NZ ingredients & prices</span>
+      <span class="hero-pill">📋 No sign-up required</span>
+      <span class="hero-pill">✅ Evidence-based</span>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<section class="section">
+  <h2>Choose Your Goal</h2>
+  <div class="diet-plan-cards">
+
+    <div class="diet-plan-card">
+      <div class="diet-plan-card-img fast"></div>
+      <div class="diet-plan-card-body">
+        <span class="diet-plan-card-badge badge-fast">⚡ Most Popular</span>
+        <h3>Lose Weight Fast</h3>
+        <p>Drop 0.5–1 kg per week with a 500–750 calorie deficit. 7-day kickstart plan, NZ supermarket staples, and the biggest calorie traps to cut first.</p>
+        <div class="diet-stats-row">
+          <span class="diet-mini-stat"><strong>0.5–1 kg</strong>/week</span>
+          <span class="diet-mini-stat"><strong>9 min</strong> read</span>
+        </div>
+        <a href="/diet/lose-weight-fast/" class="btn btn-primary btn-sm">Start the plan →</a>
+      </div>
+    </div>
+
+    <div class="diet-plan-card">
+      <div class="diet-plan-card-img healthy"></div>
+      <div class="diet-plan-card-body">
+        <span class="diet-plan-card-badge badge-healthy">🌿 Recommended</span>
+        <h3>Lose Weight the Healthy Way</h3>
+        <p>Sustainable fat loss that sticks — 14-day meal plan, the healthy plate method, calorie swaps, and habits that work for life without restriction.</p>
+        <div class="diet-stats-row">
+          <span class="diet-mini-stat"><strong>0.3–0.5 kg</strong>/week</span>
+          <span class="diet-mini-stat"><strong>10 min</strong> read</span>
+        </div>
+        <a href="/diet/lose-weight-healthy/" class="btn btn-primary btn-sm">Start the plan →</a>
+      </div>
+    </div>
+
+    <div class="diet-plan-card">
+      <div class="diet-plan-card-img muscle"></div>
+      <div class="diet-plan-card-body">
+        <span class="diet-plan-card-badge badge-muscle">💪 Complete Guide</span>
+        <h3>Gain Muscle</h3>
+        <p>Build real muscle with the right calorie surplus, protein targets by bodyweight, a 7-day meal plan, supplement guide, and a 3-day beginner training plan.</p>
+        <div class="diet-stats-row">
+          <span class="diet-mini-stat"><strong>0.5–1 kg</strong>/month</span>
+          <span class="diet-mini-stat"><strong>11 min</strong> read</span>
+        </div>
+        <a href="/diet/gain-muscle/" class="btn btn-primary btn-sm">Start the plan →</a>
+      </div>
+    </div>
+
+    <div class="diet-plan-card">
+      <div class="diet-plan-card-img wellness"></div>
+      <div class="diet-plan-card-body">
+        <span class="diet-plan-card-badge badge-wellness">✨ Wellness Focus</span>
+        <h3>Feel Healthier</h3>
+        <p>10 evidence-backed habits that transform energy and mood in 2–4 weeks. NZ-specific nutrient gaps, mental wellbeing levers, and a starter week plan.</p>
+        <div class="diet-stats-row">
+          <span class="diet-mini-stat"><strong>2–4 weeks</strong> to feel it</span>
+          <span class="diet-mini-stat"><strong>8 min</strong> read</span>
+        </div>
+        <a href="/diet/feel-healthier/" class="btn btn-primary btn-sm">Start the plan →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" style="background:var(--gray-50);border-radius:var(--radius);">
+  <h2>Why These Plans Work</h2>
+  <div class="need-grid">
+    <div class="need-card">
+      <h3>🇳🇿 Made for New Zealand</h3>
+      <p>All meal plans use ingredients from Pak'nSave, Countdown, and New World — with NZ prices. No obscure imports required.</p>
+    </div>
+    <div class="need-card">
+      <h3>🔬 Evidence-Based</h3>
+      <p>Every recommendation is backed by peer-reviewed research. We cite sports nutrition science, not fad diet books or influencer advice.</p>
+    </div>
+    <div class="need-card">
+      <h3>🆓 Completely Free</h3>
+      <p>No sign-up, no email required, no paywall. We earn from gym referrals — not by selling you diet plans.</p>
+    </div>
+    <div class="need-card">
+      <h3>🏋️ Gym-Paired</h3>
+      <p>Every plan includes specific gym recommendations to accelerate your results — we'll match you to the right gym for your goal.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="text-align:center;background:linear-gradient(135deg,#eff6ff,#dbeafe);border-radius:var(--radius);">
+  <div style="max-width:520px;margin:0 auto;">
+    <p style="font-size:1.5rem;margin-bottom:.4rem;">🎯</p>
+    <h2 style="margin-bottom:.5rem;">Not sure which plan is right for you?</h2>
+    <p style="color:var(--gray-600);margin-bottom:1rem;">Take our 60-second quiz — we'll match you to the right diet goal AND the perfect NZ gym to support it.</p>
+    <a href="/quiz/" class="btn btn-primary">Take the free quiz →</a>
+  </div>
+</section>
+
+{% endblock %}

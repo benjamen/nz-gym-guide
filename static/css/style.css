@@ -317,3 +317,227 @@ img { max-width: 100%; display: block; }
   .exnz-inner { flex-direction: column; align-items: flex-start; }
   .posts-grid { grid-template-columns: 1fr; }
 }
+
+/* === Mobile hamburger nav === */
+.nav-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: .5rem;
+  flex-direction: column;
+  gap: 5px;
+}
+.nav-hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--gray-800);
+  border-radius: 2px;
+  transition: all .2s;
+}
+.nav-mobile {
+  display: none;
+  flex-direction: column;
+  background: var(--white);
+  border-top: 1px solid var(--gray-200);
+  padding: .75rem 1rem;
+  gap: .1rem;
+}
+.nav-mobile a {
+  display: block;
+  padding: .6rem .5rem;
+  color: var(--gray-800);
+  font-weight: 500;
+  font-size: .95rem;
+  border-bottom: 1px solid var(--gray-100);
+}
+.nav-mobile a:last-child { border-bottom: none; }
+.nav-mobile a:hover { color: var(--brand); text-decoration: none; }
+.nav-mobile.is-open { display: flex; }
+
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .nav-hamburger { display: flex; }
+}
+
+/* === Star ratings === */
+.star-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+}
+.stars {
+  color: #f59e0b;
+  font-size: 1rem;
+  letter-spacing: .05em;
+  line-height: 1;
+}
+.star-score {
+  font-weight: 700;
+  color: var(--text);
+  font-size: .95rem;
+}
+.star-count {
+  font-size: .82rem;
+  color: var(--gray-400);
+}
+
+/* === Google Review cards === */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.review-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  box-shadow: var(--shadow);
+}
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+.review-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 700;
+  font-size: .95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.review-meta { flex: 1; }
+.review-name {
+  font-weight: 600;
+  font-size: .92rem;
+  color: var(--text);
+  display: block;
+}
+.review-date {
+  font-size: .78rem;
+  color: var(--gray-400);
+}
+.review-stars {
+  color: #f59e0b;
+  font-size: .9rem;
+  letter-spacing: .03em;
+}
+.review-text {
+  font-size: .88rem;
+  color: var(--gray-600);
+  line-height: 1.65;
+  flex: 1;
+}
+.review-google-badge {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .75rem;
+  color: var(--gray-400);
+  margin-top: .2rem;
+}
+.review-google-badge svg { flex-shrink: 0; }
+.reviews-source {
+  font-size: .8rem;
+  color: var(--gray-400);
+  margin-top: .75rem;
+}
+
+/* === Type filter buttons === */
+.filter-bar {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+  align-items: center;
+}
+.filter-label {
+  font-size: .85rem;
+  color: var(--gray-600);
+  font-weight: 600;
+  margin-right: .25rem;
+}
+.filter-btn {
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  border-radius: 20px;
+  padding: .3rem .85rem;
+  font-size: .82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s;
+  color: var(--gray-600);
+}
+.filter-btn:hover, .filter-btn.active {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+tr.hidden-row { display: none; }
+
+/* === Local gyms grid === */
+.local-gyms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.local-gym-card {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+.local-gym-area {
+  font-weight: 700;
+  font-size: .95rem;
+  color: var(--text);
+}
+.local-gym-desc {
+  font-size: .85rem;
+  color: var(--gray-600);
+  line-height: 1.5;
+  flex: 1;
+}
+.local-gym-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  font-size: .82rem;
+  color: var(--brand);
+  font-weight: 600;
+  margin-top: .2rem;
+}
+.local-gym-link:hover { text-decoration: underline; }
+
+/* === Verified stamp === */
+.verified-stamp {
+  margin-top: .75rem;
+  font-size: .8rem;
+  color: var(--gray-400);
+}
+.verified-stamp a { color: var(--gray-400); text-decoration: underline; }
+.verified-stamp a:hover { color: var(--brand); }
+
+/* === Women-only badge === */
+.badge-women { background: #fce7f3; color: #be185d; font-size: .78rem; padding: .15rem .5rem; border-radius: 20px; font-weight: 600; }
+.type-women-only { background: #fce7f3; color: #be185d; }
+
+/* === New badge === */
+.badge-new { background: #dbeafe; color: #1d4ed8; font-size: .72rem; padding: .12rem .5rem; border-radius: 20px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+

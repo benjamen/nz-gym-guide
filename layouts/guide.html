@@ -3,6 +3,19 @@
 {% block title %}{{ guide.title }}{% endblock %}
 {% block desc %}{{ guide.meta_desc }}{% endblock %}
 {% block canonical %}guides/{{ guide.slug }}/{% endblock %}
+{% block head_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ guide.title }}",
+  "description": "{{ guide.meta_desc }}",
+  "dateModified": "2026-05-26",
+  "author": {"@type": "Organization", "name": "NZ Gym Guide"},
+  "publisher": {"@type": "Organization", "name": "NZ Gym Guide", "url": "{{ site.base_url }}"}
+}
+</script>
+{% endblock %}
 
 {% block hero %}
 <section class="page-hero">
@@ -56,19 +69,56 @@
 </section>
 {% endfor %}
 
+<!-- Quiz prompt -->
+<section class="section" style="background:linear-gradient(135deg,#eff6ff,#dbeafe);border-radius:var(--radius);text-align:center;">
+  <div style="max-width:520px;margin:0 auto;">
+    <p style="font-size:1.5rem;margin-bottom:.4rem;">🎯</p>
+    <h2 style="margin-bottom:.5rem;">Not sure which gym is right for you?</h2>
+    <p style="color:var(--gray-600);margin-bottom:1rem;">Answer 6 quick questions — get a personalised NZ gym recommendation in under 60 seconds. Free, no sign-up required.</p>
+    <a href="/quiz/" class="btn btn-primary">Take the free quiz →</a>
+  </div>
+</section>
+
 <!-- Bottom affiliate CTA -->
 <section class="section spotlight">
   <h2>Ready to Join?</h2>
   <div class="spotlight-grid">
     <div class="spotlight-card">
-      <h3>ClassPass — Try 500+ Studios</h3>
-      <p>Not sure which gym to commit to? Try ClassPass for a month free — access yoga, HIIT, pilates and more across hundreds of NZ studios.</p>
-      <a href="{{ site.affiliates.classpass.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Start free →</a>
+      <h3>ClassPass — Try 500+ NZ Studios Free</h3>
+      <p>Not sure which gym to commit to? Try ClassPass for a month free — access yoga, HIIT, pilates, barre, cycling and more across hundreds of NZ studios.</p>
+      <a href="{{ site.affiliates.classpass.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Start free month →</a>
     </div>
     <div class="spotlight-card">
       <h3>Compare All NZ Gyms</h3>
-      <p>Side-by-side comparison of every major NZ gym chain — prices, contracts, features and honest ratings.</p>
+      <p>Side-by-side comparison of every major NZ gym chain — verified 2026 prices, contracts, features, and honest ratings.</p>
       <a href="/compare/" class="btn btn-outline">Compare gyms →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Related guides -->
+<section class="section">
+  <h2>More NZ Gym Guides</h2>
+  <div class="need-grid">
+    <div class="need-card">
+      <h3>Cheapest Gym in NZ</h3>
+      <p>Real 2026 prices from $7.99/week and tips to get joining fees waived.</p>
+      <a href="/guides/cheapest-gym-nz/" class="btn btn-outline btn-sm">Read guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>Best 24/7 Gym NZ</h3>
+      <p>City Fitness, Jetts, Anytime Fitness, Snap — compared by price and coverage.</p>
+      <a href="/guides/best-247-gym-nz/" class="btn btn-outline btn-sm">Read guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>Yoga &amp; Pilates NZ</h3>
+      <p>Studio prices, reformer costs, and whether ClassPass beats a studio membership.</p>
+      <a href="/guides/yoga-pilates-nz-2026/" class="btn btn-outline btn-sm">Read guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>How to Cancel a Gym NZ</h3>
+      <p>Your rights, step-by-step instructions, and how to avoid paying out your contract.</p>
+      <a href="/guides/cancel-gym-membership-nz/" class="btn btn-outline btn-sm">Read guide →</a>
     </div>
   </div>
 </section>

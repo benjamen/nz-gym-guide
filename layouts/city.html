@@ -124,6 +124,11 @@
         <span class="price-big">${{ gym.pricing.weekly_from }}<span class="per-week">/wk</span></span>
         <span class="price-note">{% if gym.pricing.contract_required %}{{ gym.pricing.minimum_term }} min{% else %}No lock-in{% endif %}</span>
       </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">{% for i in range(gym.rating|int) %}★{% endfor %}</span>
+        <span class="star-score">{{ gym.rating }}</span>
+        <span class="star-count">({{ gym.review_count }})</span>
+      </div>
       <div class="gym-features">
         {% if gym.features.open_247 %}<span class="feat">24/7</span>{% endif %}
         {% if gym.features.group_fitness %}<span class="feat">Classes</span>{% endif %}
@@ -153,6 +158,52 @@
     {% endfor %}
   </div>
   <p>Most major chains have multiple {{ city.name }} locations. Use each gym's website to find your nearest club.</p>
+</section>
+{% endif %}
+
+<!-- Local gyms by area -->
+{% if city.local_gyms %}
+<section class="section">
+  <h2>Local &amp; Independent Gyms in {{ city.name }}</h2>
+  <p class="section-intro">Beyond the main chains, {{ city.name }} has independent gyms, CrossFit boxes, boxing clubs, and community sport centres across most suburbs. Use Google Maps to find what's nearest to you.</p>
+  <div class="local-gyms-grid">
+    {% for lg in city.local_gyms %}
+    <div class="local-gym-card">
+      <span class="local-gym-area">📍 {{ lg.area }}</span>
+      <p class="local-gym-desc">{{ lg.description }}</p>
+      <a href="{{ lg.maps_url }}" class="local-gym-link" target="_blank" rel="nofollow noopener">
+        View on Google Maps →
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  <p style="margin-top:1rem;font-size:.85rem;color:#6b7280;">Tip: Search "gyms near me" on Google Maps for real-time availability, hours, and current member reviews in your specific suburb.</p>
+</section>
+{% endif %}
+
+<!-- Gym reviews highlight -->
+{% if city_gyms %}
+<section class="section">
+  <h2>Recent Member Reviews — {{ city.name }} Gyms</h2>
+  <div class="reviews-grid">
+    {% for gym in city_gyms[:3] %}
+    {% if gym.google_reviews %}
+    {% set rev = gym.google_reviews[0] %}
+    <div class="review-card">
+      <div class="review-header">
+        <div class="review-avatar">{{ rev.name[0] }}</div>
+        <div class="review-meta">
+          <span class="review-name">{{ rev.name }} <span style="font-weight:400;color:#6b7280;">on {{ gym.name }}</span></span>
+          <span class="review-date">{{ rev.date }}</span>
+        </div>
+      </div>
+      <div class="review-stars">{% for i in range(rev.rating) %}★{% endfor %}{% for i in range(5-rev.rating) %}☆{% endfor %}</div>
+      <p class="review-text">{{ rev.text }}</p>
+      <a href="/gym/{{ gym.slug }}/" class="post-read-more">Read full {{ gym.name }} review →</a>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 </section>
 {% endif %}
 

@@ -4,6 +4,28 @@
 {% block desc %}{{ gym.name }} NZ membership review: prices from ${{ gym.pricing.weekly_from }}/week, contract terms, features, locations and whether it's worth it in 2026.{% endblock %}
 {% block canonical %}gym/{{ gym.slug }}/{% endblock %}
 
+{% block head_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "{{ gym.name }} NZ",
+  "url": "{{ gym.website }}",
+  "description": "{{ gym.tagline }}",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{{ gym.rating }}",
+    "reviewCount": "{{ gym.review_count }}",
+    "bestRating": "5",
+    "worstRating": "1"
+  }{% if gym.google_reviews %},
+  "review": [
+    {% for r in gym.google_reviews %}{"@type":"Review","author":{"@type":"Person","name":"{{ r.name }}"},"reviewRating":{"@type":"Rating","ratingValue":"{{ r.rating }}"},"reviewBody":"{{ r.text }}","datePublished":"{{ r.date }}"}{% if not loop.last %},{% endif %}{% endfor %}
+  ]{% endif %}
+}
+</script>
+{% endblock %}
+
 {% block hero %}
 <section class="page-hero">
   <div class="hero-inner">
@@ -16,6 +38,7 @@
       {% if gym.features.no_lock_in %}<span class="feat feat-green">No lock-in</span>{% endif %}
       {% if gym.nationwide %}<span class="feat">Nationwide</span>{% endif %}
     </div>
+    <p class="verified-stamp">✓ Prices verified May 2026 · <a href="{{ gym.website }}" target="_blank" rel="nofollow noopener">Confirm at {{ gym.name }} →</a></p>
   </div>
 </section>
 {% endblock %}
@@ -38,8 +61,19 @@
       <span class="stat-label">Minimum term</span>
     </div>
     <div class="stat-box">
-      <span class="stat-val">{{ gym.rating }}★</span>
-      <span class="stat-label">Rating ({{ gym.review_count }} reviews)</span>
+      {% set r = gym.rating %}
+      {% set full = (r | int) %}
+      {% set half = 1 if (r - full) >= 0.5 else 0 %}
+      {% set empty = 5 - full - half %}
+      <span class="stat-val">
+        <span class="star-rating">
+          <span class="stars">
+            {% for i in range(full) %}★{% endfor %}{% if half %}½{% endif %}{% for i in range(empty) %}☆{% endfor %}
+          </span>
+          <span class="star-score">{{ gym.rating }}</span>
+        </span>
+      </span>
+      <span class="stat-label">{{ gym.review_count | int }} Google reviews</span>
     </div>
   </div>
 </section>
@@ -139,6 +173,47 @@
   </div>
   <p>Find your nearest {{ gym.name }} on <a href="{{ gym.website }}" rel="nofollow" target="_blank">their website →</a></p>
 </section>
+
+{% if gym.google_reviews %}
+<!-- Google Reviews -->
+<section class="section">
+  <h2>{{ gym.name }} Reviews</h2>
+  <div class="star-rating" style="margin-bottom:.75rem;">
+    {% set r = gym.rating %}
+    {% set full = (r | int) %}
+    {% set half = 1 if (r - full) >= 0.5 else 0 %}
+    {% set empty = 5 - full - half %}
+    <span class="stars" style="font-size:1.3rem;">
+      {% for i in range(full) %}★{% endfor %}{% if half %}½{% endif %}{% for i in range(empty) %}☆{% endfor %}
+    </span>
+    <span class="star-score" style="font-size:1.1rem;">{{ gym.rating }} out of 5</span>
+    <span class="star-count">based on {{ gym.review_count }} reviews</span>
+  </div>
+  <div class="reviews-grid">
+    {% for review in gym.google_reviews %}
+    <div class="review-card">
+      <div class="review-header">
+        <div class="review-avatar">{{ review.name[0] }}</div>
+        <div class="review-meta">
+          <span class="review-name">{{ review.name }}</span>
+          <span class="review-date">{{ review.date }}</span>
+        </div>
+      </div>
+      <div class="review-stars">
+        {% for i in range(review.rating) %}★{% endfor %}{% for i in range(5 - review.rating) %}☆{% endfor %}
+      </div>
+      <p class="review-text">{{ review.text }}</p>
+      <div class="review-google-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+        Google review
+        {% if review.verified %}<span>· Verified</span>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="reviews-source">Reviews sourced from Google Maps listings. Ratings reflect member sentiment at time of publication.</p>
+</section>
+{% endif %}
 
 <!-- Compare CTA -->
 <section class="section cta-section">

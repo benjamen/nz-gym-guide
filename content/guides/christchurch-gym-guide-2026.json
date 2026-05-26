@@ -1,71 +1,77 @@
 {
   "slug": "christchurch-gym-guide-2026",
   "short_title": "Christchurch Gyms",
-  "title": "Best Gyms in Christchurch 2026 — Prices, Locations and Honest Reviews",
-  "meta_desc": "Compare Christchurch gyms prices, locations and reviews. Find the best gym membership",
-  "intro": "Christchurch's gym market has seen significant growth since the post-quake rebuild, with City Fitness being a dominant player. However, other options like 24/7 gyms have also gained popularity. With prices ranging from $15 to $40 per week, Kiwis have a wide range of choices. As of May 2026, the market continues to evolve with new facilities and services.",
+  "title": "Best Gyms in Christchurch 2026 — Prices, Reviews & Suburb Guide",
+  "meta_desc": "Find the best gym in Christchurch NZ. Real 2026 prices for Les Mills, City Fitness, Anytime Fitness, Snap Fitness, F45, and women's gyms across Riccarton, Hornby, Papanui and the CBD.",
+  "intro": "Christchurch's flat geography and well-planned road network makes getting to the gym easier than most NZ cities. The post-rebuild CBD has seen a wave of new gym and studio openings, and competition keeps prices keen. City Fitness is the budget leader, Les Mills the premium choice, and the boutique scene is stronger than you might expect for a city this size.",
   "updated": "May 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Gym Prices in Christchurch",
-      "body": "When it comes to gym prices in Christchurch, members can expect to pay between $15 and $40 per week. City Fitness offers a 12-month contract for $24.95 per week, while 24/7 gyms like Jetts and Anytime Fitness offer more flexible contract terms, with prices starting from $15 per week."
-    },
-    {
-      "heading": "Popular Gyms in Christchurch",
-      "list": [
-        "City Fitness (4 locations: Moorhouse Ave, Colombo St, Hornby, and Papanui)",
-        "Jetts (2 locations: Addington and Riccarton)",
-        "Anytime Fitness (3 locations: Merivale, Fendalton, and Hornby)",
-        "Les Mills (1 location: Christchurch Central)"
-      ]
-    },
-    {
-      "heading": "Price Comparison",
+      "heading": "Christchurch Gym Prices — 2026",
       "table": {
-        "headers": [
-          "Gym",
-          "Weekly Price",
-          "Contract Term",
-          "Location"
-        ],
+        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
         "rows": [
-          [
-            "City Fitness",
-            "$24.95",
-            "12 months",
-            "Moorhouse Ave"
-          ],
-          [
-            "Jetts",
-            "$15.00",
-            "No contract",
-            "Addington"
-          ],
-          [
-            "Anytime Fitness",
-            "$19.95",
-            "12 months",
-            "Merivale"
-          ],
-          [
-            "Les Mills",
-            "$34.95",
-            "6 months",
-            "Christchurch Central"
-          ]
+          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
+          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
+          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
+          ["Les Mills Christchurch", "$17.99", "$49 (often waived)", "3 months", "No"],
+          ["YMCA Christchurch", "$17.50", "$0", "6–12 months", "No"],
+          ["Contours Women's", "$9.99", "$0", "No lock-in", "No"],
+          ["Orangetheory Christchurch", "$18.25", "$49", "Monthly", "No (class-based)"],
+          ["F45 Christchurch", "$25.00", "$0", "Flexible", "No (class-based)"],
+          ["ClassPass", "from $9.00", "$0", "Monthly", "No"]
         ]
       }
     },
     {
-      "heading": "24/7 Gym Options",
-      "body": "For those who prefer to work out at odd hours, 24/7 gyms like Jetts and Anytime Fitness offer a convenient solution. With prices starting from $15 per week and no contract terms, these gyms are ideal for students, shift workers, or anyone who prefers flexibility."
+      "heading": "Christchurch CBD",
+      "body": "The rebuild has brought modern gym facilities to the central city. Les Mills Christchurch is on Oxford Terrace — a premium club with group fitness, sauna, and good equipment. Orangetheory operates in the CBD with strong member reviews for weight loss results. The studio scene in the central city has grown significantly since 2020, with yoga, pilates, and boxing all accessible via ClassPass."
     },
     {
-      "heading": "Get the Best Gym Membership Deal",
+      "heading": "Riccarton & Addington",
+      "body": "Riccarton is Christchurch's busiest gym suburb — high student population (University of Canterbury nearby) keeps prices competitive and demand high. City Fitness Riccarton is the budget standout at $7.99/week. Anytime Fitness and Snap Fitness both operate here. The Westfield Riccarton area has multiple gyms within walking distance of each other, making it easy to compare before committing."
+    },
+    {
+      "heading": "Hornby & Rolleston (South & Southwest)",
+      "body": "Hornby and the growing Rolleston satellite town have seen new gym openings in the last few years as the population grows. Snap Fitness Hornby covers 24/7 solo training. Anytime Fitness is present. For residents in Rolleston, options are more limited — Snap Fitness is typically the most practical local option, with City Fitness requiring a drive into Riccarton or the CBD."
+    },
+    {
+      "heading": "Papanui, Burnside & St Albans (North)",
+      "body": "The northern suburbs have solid coverage. Anytime Fitness and Snap Fitness both operate in Papanui. Les Mills has a Burnside location that's more accessible for northern suburb residents than the CBD club. City Fitness is the budget pick if you're in this zone."
+    },
+    {
+      "heading": "Cycling to the Gym — Christchurch's Advantage",
+      "body": "Christchurch's flat terrain and extensive cycling infrastructure makes it the easiest NZ city to cycle to the gym. Many Les Mills and City Fitness members cycle rather than drive — factoring this in when choosing a gym (secure bike parking, showers) is worth doing. City Fitness, Les Mills, and most Anytime Fitness clubs have showers and changing rooms suitable for cyclists."
+    },
+    {
+      "heading": "Christchurch Gym Tips",
+      "list": [
+        "Student discounts: Ask every gym for student rates — Riccarton-area clubs regularly offer deals tied to university semester starts",
+        "Les Mills joining fee ($49) is frequently waived — always ask before paying",
+        "Anytime Fitness Christchurch locations vary in quality — visit before signing a 12-month contract",
+        "City Fitness is the cheapest 24/7 option at $7.99/week — the Riccarton and CBD locations are the most practical",
+        "ClassPass Christchurch has grown significantly — good coverage of yoga, boxing, and cycling studios in the CBD and Riccarton",
+        "F45 Christchurch often runs a free first-week trial — worth trying before committing at $25+/week"
+      ]
+    },
+    {
+      "heading": "Christchurch Gym Recommendations by Profile",
+      "list": [
+        "Best budget: City Fitness Basic ($7.99/wk, 24/7, Riccarton and CBD)",
+        "Best group fitness: Les Mills ($17.99/wk, Oxford Terrace CBD, sauna and classes)",
+        "Best 24/7 smaller suburbs: Snap Fitness ($14.95/wk, multiple locations including Hornby and Papanui)",
+        "Best for weight loss: Orangetheory ($18.25/wk, CBD location, heart rate coaching)",
+        "Best women's gym: Contours ($9.99/wk, women-only, no lock-in)",
+        "Best for variety: ClassPass (from $9/wk, growing Christchurch studio network)",
+        "Best for families: YMCA ($17.50/wk, pool and community facilities)"
+      ]
+    },
+    {
+      "heading": "Compare All Christchurch Gyms",
       "cta": {
-        "text": "Compare Christchurch gyms and find the best deal",
-        "url": "/compare/",
+        "text": "See full Christchurch gym comparison →",
+        "url": "/gym/christchurch/",
         "affiliate": false
       }
     }

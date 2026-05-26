@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}NZ Gym Guides 2026 — Expert Advice for New Zealand Gym-Goers{% endblock %}
+{% block desc %}Free New Zealand gym guides — cheapest gyms, 24/7 access, women's gyms, yoga & pilates, how to cancel, city guides and more. Updated May 2026.{% endblock %}
+{% block canonical %}guides/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Guides</div>
+    <h1>NZ Gym Guides</h1>
+    <p>Everything you need to make a smart gym decision in New Zealand — honest prices, local knowledge, no affiliate fluff.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <h2>All Guides</h2>
+  <div class="need-grid">
+    {% for guide in guides %}
+    <div class="need-card">
+      <h3>{{ guide.short_title }}</h3>
+      <p>{{ guide.meta_desc[:110] }}{% if guide.meta_desc|length > 110 %}…{% endif %}</p>
+      <div style="font-size:.8rem;color:var(--gray-500);margin-bottom:.7rem;">{{ guide.updated }} · {{ guide.reading_time }} min read</div>
+      <a href="/guides/{{ guide.slug }}/" class="btn btn-outline btn-sm">Read guide →</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" style="text-align:center;background:linear-gradient(135deg,#eff6ff,#dbeafe);border-radius:var(--radius);">
+  <div style="max-width:520px;margin:0 auto;">
+    <p style="font-size:1.5rem;margin-bottom:.4rem;">🎯</p>
+    <h2 style="margin-bottom:.5rem;">Still not sure which gym is right for you?</h2>
+    <p style="color:var(--gray-600);margin-bottom:1rem;">Take our 60-second quiz for a personalised NZ gym recommendation.</p>
+    <a href="/quiz/" class="btn btn-primary">Take the free quiz →</a>
+  </div>
+</section>
+{% endblock %}

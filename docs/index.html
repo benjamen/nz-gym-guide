@@ -7,28 +7,144 @@
   <meta name="description" content="Compare NZ gym memberships side by side. Find the cheapest gym near you — prices, contracts, and honest reviews for Les Mills, City Fitness, Anytime Fitness, ClassPass and more.">
   <link rel="canonical" href="https://nzgymguide.co.nz/">
   <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Favicon set -->
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="/static/img/favicon.svg">
+  <meta name="theme-color" content="#2563eb">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nzgymguide.co.nz/">
+  <meta property="og:title" content="NZ Gym Guide">
+  <meta property="og:description" content="Compare NZ gym memberships side by side. Find the cheapest gym near you, read honest reviews, and get the best deal on a membership in Auckland, Wellington, Christchurch and beyond.">
+  <meta property="og:image" content="https://nzgymguide.co.nz/static/img/og-image.svg">
+  <meta property="og:site_name" content="NZ Gym Guide">
+  <meta property="og:locale" content="en_NZ">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NZ Gym Guide">
+  <meta name="twitter:description" content="Compare NZ gym memberships side by side. Find the cheapest gym near you, read honest reviews, and get the best deal on a membership in Auckland, Wellington, Christchurch and beyond.">
+  <meta name="twitter:image" content="https://nzgymguide.co.nz/static/img/og-image.svg">
+
+  <!-- Extra SEO -->
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="NZ Gym Guide">
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
   
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz"}</script>
+  
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the cheapest gym in NZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "City Fitness is the cheapest major gym chain in New Zealand, starting from $7.99/week on their Basic membership. Jetts offers no-lock-in memberships from around $14.95/week. Contours Women's Gym starts from $9.99/week for women."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which NZ gyms have no lock-in contracts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "City Fitness (4-week minimum), Jetts (cancel anytime), Contours (2-week notice), 9Round (monthly), F45 (most studios), and ClassPass (monthly subscription) all offer memberships with no long-term lock-in. Les Mills and Anytime Fitness typically require 3–12 month commitments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is ClassPass worth it in New Zealand?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ClassPass is excellent if you want variety — access to yoga, pilates, HIIT, cycling and more at hundreds of NZ studios on one membership. The Starter plan from $36/month suits occasional gym-goers; the Standard plan covers 6–8 classes. First month is free."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I cancel a gym membership early in NZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the Consumer Guarantees Act, you can cancel if the gym moves location, reduces services, or you have a medical reason. Otherwise most gyms require you to pay out remaining months or find a member to take over your contract."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What gym is best for beginners in NZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contours Women's Gym is excellent for beginners — guided 30-minute circuits with no intimidation. For mixed-gender options, City Fitness offers affordable no-pressure training. ClassPass lets you try different styles before committing to one gym."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which NZ gym is best for weight loss?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Orangetheory Fitness and F45 Training consistently deliver the best weight loss results through structured HIIT sessions with coached accountability. Orangetheory's heart rate monitor system ensures you're working in the fat-burning zone every session."
+      }
+    }
+  ]
+}
+</script>
+
 </head>
 <body>
   <nav class="nav">
     <div class="nav-inner">
       <a href="/" class="nav-logo">🏋️ NZ Gym Guide</a>
       <div class="nav-links">
-        <a href="/compare/">Compare All</a>
+        <a href="/compare/">Compare</a>
+        <a href="/quiz/">Find My Gym ✨</a>
         <a href="/gym/auckland/">Auckland</a>
         <a href="/gym/wellington/">Wellington</a>
-        <a href="/gym/christchurch/">Christchurch</a>
-        <a href="/guides/cheapest-gym-nz/">Cheapest Gym</a>
+        <a href="/guides/cheapest-gym-nz/">Cheapest</a>
+        <a href="/diet/">Diet Plans</a>
         <a href="/deals/">Deals</a>
       </div>
+      <button class="nav-hamburger" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="/compare/">Compare All Gyms</a>
+      <a href="/gym/auckland/">Auckland Gyms</a>
+      <a href="/gym/wellington/">Wellington Gyms</a>
+      <a href="/gym/christchurch/">Christchurch Gyms</a>
+      <a href="/gym/hamilton/">Hamilton Gyms</a>
+      <a href="/gym/tauranga/">Tauranga Gyms</a>
+      <a href="/gym/dunedin/">Dunedin Gyms</a>
+      <a href="/gym/palmerston-north/">Palmerston North Gyms</a>
+      <a href="/guides/cheapest-gym-nz/">Cheapest Gym in NZ</a>
+      <a href="/diet/">Free Diet Plans</a>
+      <a href="/diet/lose-weight-fast/">Lose Weight Fast</a>
+      <a href="/diet/gain-muscle/">Gain Muscle</a>
+      <a href="/diet/feel-healthier/">Feel Healthier</a>
+      <a href="/deals/">Deals &amp; Reviews</a>
     </div>
   </nav>
+  <script>
+    (function(){
+      var btn = document.getElementById('navToggle');
+      var menu = document.getElementById('navMobile');
+      if(btn && menu){
+        btn.addEventListener('click', function(){
+          menu.classList.toggle('is-open');
+          btn.setAttribute('aria-expanded', menu.classList.contains('is-open'));
+        });
+      }
+    })();
+  </script>
 
   
 <section class="hero">
@@ -36,13 +152,14 @@
     <h1>Compare NZ Gym Memberships — Find the Best Price</h1>
     <p class="hero-sub">Transparent pricing, honest reviews, and side-by-side comparisons for every major NZ gym chain. No sales pitch — just the facts.</p>
     <div class="hero-ctas">
-      <a href="#compare" class="btn btn-primary">Compare all gyms →</a>
-      <a href="/guides/cheapest-gym-nz/" class="btn btn-secondary">Find cheapest gym</a>
+      <a href="/quiz/" class="btn btn-primary">Find my gym — 60 sec quiz ✨</a>
+      <a href="#compare" class="btn btn-secondary">Compare all gyms →</a>
     </div>
     <div class="hero-stats">
-      <div class="hstat"><span>8</span> gyms compared</div>
-      <div class="hstat"><span>6</span> NZ cities</div>
+      <div class="hstat"><span>11</span> gyms reviewed</div>
+      <div class="hstat"><span>9</span> NZ cities</div>
       <div class="hstat"><span>from $7.99</span>/week</div>
+      <div class="hstat"><span>15560</span> member reviews</div>
     </div>
   </div>
 </section>
@@ -58,32 +175,47 @@
     
     <a href="/gym/auckland/" class="city-card">
       <span class="city-name">Auckland</span>
-      <span class="city-count">8 gyms</span>
+      <span class="city-count">11 gyms</span>
     </a>
     
     <a href="/gym/wellington/" class="city-card">
       <span class="city-name">Wellington</span>
-      <span class="city-count">8 gyms</span>
+      <span class="city-count">11 gyms</span>
     </a>
     
     <a href="/gym/christchurch/" class="city-card">
       <span class="city-name">Christchurch</span>
-      <span class="city-count">7 gyms</span>
+      <span class="city-count">9 gyms</span>
     </a>
     
     <a href="/gym/hamilton/" class="city-card">
       <span class="city-name">Hamilton</span>
-      <span class="city-count">6 gyms</span>
+      <span class="city-count">8 gyms</span>
     </a>
     
     <a href="/gym/tauranga/" class="city-card">
       <span class="city-name">Tauranga</span>
-      <span class="city-count">5 gyms</span>
+      <span class="city-count">7 gyms</span>
     </a>
     
     <a href="/gym/dunedin/" class="city-card">
       <span class="city-name">Dunedin</span>
       <span class="city-count">5 gyms</span>
+    </a>
+    
+    <a href="/gym/palmerston-north/" class="city-card">
+      <span class="city-name">Palmerston North</span>
+      <span class="city-count">3 gyms</span>
+    </a>
+    
+    <a href="/gym/rotorua/" class="city-card">
+      <span class="city-name">Rotorua</span>
+      <span class="city-count">3 gyms</span>
+    </a>
+    
+    <a href="/gym/new-plymouth/" class="city-card">
+      <span class="city-name">New Plymouth</span>
+      <span class="city-count">3 gyms</span>
     </a>
     
   </div>
@@ -94,8 +226,18 @@
   <h2>NZ Gym Membership Prices Compared (2026)</h2>
   <p class="section-intro">All prices are weekly equivalents. Always confirm current pricing directly with the gym — franchise locations can vary.</p>
 
+  <div class="filter-bar">
+    <span class="filter-label">Filter by type:</span>
+    <button class="filter-btn active" data-filter="all">All gyms</button>
+    <button class="filter-btn" data-filter="Budget">Budget</button>
+    <button class="filter-btn" data-filter="Mid-range">Mid-range</button>
+    <button class="filter-btn" data-filter="Premium">Premium</button>
+    <button class="filter-btn" data-filter="Boutique">Boutique</button>
+    <button class="filter-btn" data-filter="Community">Community</button>
+  </div>
+
   <div class="table-wrap">
-    <table class="compare-table">
+    <table class="compare-table" id="gymTable">
       <thead>
         <tr>
           <th>Gym</th>
@@ -105,13 +247,13 @@
           <th>24/7</th>
           <th>Group classes</th>
           <th>Pool</th>
-          <th>Best for</th>
+          <th>Rating</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         
-        <tr class="affiliate-row">
+        <tr class="affiliate-row" data-type="Premium">
           <td class="gym-name-cell">
             <a href="/gym/les-mills/">Les Mills</a>
             <span class="gym-type type-premium">Premium</span>
@@ -122,7 +264,10 @@
           <td>—</td>
           <td>✓</td>
           <td>✓</td>
-          <td class="best-for-cell">Group fitness lovers, families, swimmers</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">4.1</span>
+          </td>
           <td>
             
             <a href="https://www.lesmills.co.nz/" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">View Les Mills memberships</a>
@@ -130,7 +275,7 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class="" data-type="Budget">
           <td class="gym-name-cell">
             <a href="/gym/city-fitness/">City Fitness</a>
             <span class="gym-type type-budget">Budget</span>
@@ -141,7 +286,10 @@
           <td>✓</td>
           <td>✓</td>
           <td>—</td>
-          <td class="best-for-cell">Budget-conscious members, early birds and night owls, multi-club users</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">4.0</span>
+          </td>
           <td>
             
             <a href="/gym/city-fitness/" class="btn btn-sm btn-outline">View details →</a>
@@ -149,7 +297,7 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class="" data-type="Mid-range">
           <td class="gym-name-cell">
             <a href="/gym/anytime-fitness/">Anytime Fitness</a>
             <span class="gym-type type-mid-range">Mid-range</span>
@@ -160,7 +308,10 @@
           <td>✓</td>
           <td>—</td>
           <td>—</td>
-          <td class="best-for-cell">Frequent travellers, shift workers, those wanting global access</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">3.9</span>
+          </td>
           <td>
             
             <a href="/gym/anytime-fitness/" class="btn btn-sm btn-outline">View details →</a>
@@ -168,7 +319,7 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class="" data-type="Mid-range">
           <td class="gym-name-cell">
             <a href="/gym/snap-fitness/">Snap Fitness</a>
             <span class="gym-type type-mid-range">Mid-range</span>
@@ -179,7 +330,10 @@
           <td>✓</td>
           <td>—</td>
           <td>—</td>
-          <td class="best-for-cell">Simple 24/7 gym access, small-town NZ locations</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">3.8</span>
+          </td>
           <td>
             
             <a href="/gym/snap-fitness/" class="btn btn-sm btn-outline">View details →</a>
@@ -187,7 +341,7 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class="" data-type="Budget">
           <td class="gym-name-cell">
             <a href="/gym/jetts/">Jetts</a>
             <span class="gym-type type-budget">Budget</span>
@@ -198,7 +352,10 @@
           <td>✓</td>
           <td>—</td>
           <td>—</td>
-          <td class="best-for-cell">Flexibility seekers, no-contract gym-goers</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">4.0</span>
+          </td>
           <td>
             
             <a href="/gym/jetts/" class="btn btn-sm btn-outline">View details →</a>
@@ -206,7 +363,7 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class="" data-type="Community">
           <td class="gym-name-cell">
             <a href="/gym/ymca/">YMCA</a>
             <span class="gym-type type-community">Community</span>
@@ -217,7 +374,10 @@
           <td>—</td>
           <td>✓</td>
           <td>✓</td>
-          <td class="best-for-cell">Families, swimmers, community-focused gym-goers</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">4.2</span>
+          </td>
           <td>
             
             <a href="/gym/ymca/" class="btn btn-sm btn-outline">View details →</a>
@@ -225,7 +385,7 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class="" data-type="Boutique">
           <td class="gym-name-cell">
             <a href="/gym/f45/">F45 Training</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -236,7 +396,10 @@
           <td>—</td>
           <td>✓</td>
           <td>—</td>
-          <td class="best-for-cell">HIIT lovers, people who need group motivation, fast results</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">4.5</span>
+          </td>
           <td>
             
             <a href="/gym/f45/" class="btn btn-sm btn-outline">View details →</a>
@@ -244,7 +407,7 @@
           </td>
         </tr>
         
-        <tr class="affiliate-row">
+        <tr class="affiliate-row" data-type="Multi-studio">
           <td class="gym-name-cell">
             <a href="/gym/classpass/">ClassPass</a>
             <span class="gym-type type-multi-studio">Multi-studio</span>
@@ -255,7 +418,10 @@
           <td>—</td>
           <td>✓</td>
           <td>✓</td>
-          <td class="best-for-cell">Variety seekers, travelers, trying different fitness styles</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">4.3</span>
+          </td>
           <td>
             
             <a href="https://classpass.com/nz" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Try ClassPass free</a>
@@ -263,11 +429,97 @@
           </td>
         </tr>
         
+        <tr class="affiliate-row" data-type="Boutique">
+          <td class="gym-name-cell">
+            <a href="/gym/orangetheory/">Orangetheory Fitness</a>
+            <span class="gym-type type-boutique">Boutique</span>
+          </td>
+          <td class="price-cell">$18.25</td>
+          <td>$49</td>
+          <td><span class="badge-green">No lock-in</span></td>
+          <td>—</td>
+          <td>✓</td>
+          <td>—</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">4.6</span>
+          </td>
+          <td>
+            
+            <a href="https://www.orangetheory.com/en-nz/" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Book a free class</a>
+            
+          </td>
+        </tr>
+        
+        <tr class="" data-type="Community">
+          <td class="gym-name-cell">
+            <a href="/gym/contours/">Contours Women's Gym</a>
+            <span class="gym-type type-community">Community</span>
+          </td>
+          <td class="price-cell">$9.99</td>
+          <td>$0 <span class="badge-green">Free</span></td>
+          <td><span class="badge-green">No lock-in</span></td>
+          <td>—</td>
+          <td>✓</td>
+          <td>—</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">4.3</span>
+          </td>
+          <td>
+            
+            <a href="/gym/contours/" class="btn btn-sm btn-outline">View details →</a>
+            
+          </td>
+        </tr>
+        
+        <tr class="" data-type="Boutique">
+          <td class="gym-name-cell">
+            <a href="/gym/9round/">9Round</a>
+            <span class="gym-type type-boutique">Boutique</span>
+          </td>
+          <td class="price-cell">$24.99</td>
+          <td>$0 <span class="badge-green">Free</span></td>
+          <td><span class="badge-green">No lock-in</span></td>
+          <td>—</td>
+          <td>✓</td>
+          <td>—</td>
+          <td>
+            <span style="color:#f59e0b;font-size:.9rem;">★★★★</span>
+            <span style="font-size:.82rem;color:#6b7280;">4.4</span>
+          </td>
+          <td>
+            
+            <a href="/gym/9round/" class="btn btn-sm btn-outline">View details →</a>
+            
+          </td>
+        </tr>
+        
       </tbody>
     </table>
   </div>
-  <p class="table-note">* Affiliate disclosure: we earn a commission on some referrals. This does not affect our rankings.</p>
+  <p class="table-note">* Affiliate disclosure: we earn a commission on some referrals. This does not affect our rankings or ratings.</p>
 </section>
+<script>
+(function(){
+  var btns = document.querySelectorAll('.filter-btn');
+  var rows = document.querySelectorAll('#gymTable tbody tr');
+  btns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      btns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filter = btn.dataset.filter;
+      rows.forEach(function(row){
+        if(filter === 'all' || row.dataset.type === filter){
+          row.classList.remove('hidden-row');
+        } else {
+          row.classList.add('hidden-row');
+        }
+      });
+    });
+  });
+})();
+</script>
 
 <!-- Gym cards -->
 <section class="section">
@@ -285,6 +537,11 @@
       <div class="gym-price-row">
         <span class="price-big">$17.99<span class="per-week">/wk</span></span>
         <span class="price-note">3 months min</span>
+      </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★★</span>
+        <span class="star-score">4.1</span>
+        <span class="star-count">(2840)</span>
       </div>
       <div class="gym-features">
         
@@ -314,6 +571,11 @@
         <span class="price-big">$7.99<span class="per-week">/wk</span></span>
         <span class="price-note">No lock-in</span>
       </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★★</span>
+        <span class="star-score">4.0</span>
+        <span class="star-count">(1920)</span>
+      </div>
       <div class="gym-features">
         <span class="feat">24/7</span>
         <span class="feat">Classes</span>
@@ -339,6 +601,11 @@
       <div class="gym-price-row">
         <span class="price-big">$16.95<span class="per-week">/wk</span></span>
         <span class="price-note">12 months (some locations 6) min</span>
+      </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★½</span>
+        <span class="star-score">3.9</span>
+        <span class="star-count">(3100)</span>
       </div>
       <div class="gym-features">
         <span class="feat">24/7</span>
@@ -366,6 +633,11 @@
         <span class="price-big">$14.95<span class="per-week">/wk</span></span>
         <span class="price-note">Location dependent min</span>
       </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★½</span>
+        <span class="star-score">3.8</span>
+        <span class="star-count">(1650)</span>
+      </div>
       <div class="gym-features">
         <span class="feat">24/7</span>
         
@@ -392,6 +664,11 @@
         <span class="price-big">$14.95<span class="per-week">/wk</span></span>
         <span class="price-note">No lock-in</span>
       </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★★</span>
+        <span class="star-score">4.0</span>
+        <span class="star-count">(980)</span>
+      </div>
       <div class="gym-features">
         <span class="feat">24/7</span>
         
@@ -399,7 +676,7 @@
         <span class="feat">No contract</span>
         
       </div>
-      <p class="gym-verdict">Best for flexibility — no joining fee, cancel anytime, 24/7 access.</p>
+      <p class="gym-verdict">Best for flexibility — no lock-in, no joining fee, cancel anytime.</p>
       <div class="gym-card-footer">
         <a href="/gym/jetts/" class="btn btn-outline btn-sm">Full review →</a>
         
@@ -417,6 +694,11 @@
       <div class="gym-price-row">
         <span class="price-big">$17.5<span class="per-week">/wk</span></span>
         <span class="price-note">6 or 12 months min</span>
+      </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★★</span>
+        <span class="star-score">4.2</span>
+        <span class="star-count">(720)</span>
       </div>
       <div class="gym-features">
         
@@ -444,6 +726,11 @@
         <span class="price-big">$25.0<span class="per-week">/wk</span></span>
         <span class="price-note">No lock-in</span>
       </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★★½</span>
+        <span class="star-score">4.5</span>
+        <span class="star-count">(1240)</span>
+      </div>
       <div class="gym-features">
         
         <span class="feat">Classes</span>
@@ -470,6 +757,11 @@
         <span class="price-big">$9.0<span class="per-week">/wk</span></span>
         <span class="price-note">No lock-in</span>
       </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★★</span>
+        <span class="star-score">4.3</span>
+        <span class="star-count">(2100)</span>
+      </div>
       <div class="gym-features">
         
         <span class="feat">Classes</span>
@@ -482,6 +774,101 @@
         <a href="/gym/classpass/" class="btn btn-outline btn-sm">Full review →</a>
         
         <a href="https://classpass.com/nz" class="btn btn-primary btn-sm" rel="sponsored" target="_blank">Try ClassPass free</a>
+        
+      </div>
+    </div>
+    
+    <div class="gym-card">
+      <div class="gym-card-header">
+        <div>
+          <h3><a href="/gym/orangetheory/">Orangetheory Fitness</a></h3>
+          <p class="gym-tagline">Heart rate-based HIIT — science-backed 60-minute coached sessions</p>
+        </div>
+        <span class="gym-type type-boutique">Boutique</span>
+      </div>
+      <div class="gym-price-row">
+        <span class="price-big">$18.25<span class="per-week">/wk</span></span>
+        <span class="price-note">No lock-in</span>
+      </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★★½</span>
+        <span class="star-score">4.6</span>
+        <span class="star-count">(480)</span>
+      </div>
+      <div class="gym-features">
+        
+        <span class="feat">Classes</span>
+        
+        <span class="feat">No contract</span>
+        
+      </div>
+      <p class="gym-verdict">Premium boutique HIIT with real-time heart rate coaching. Outstanding results if you commit.</p>
+      <div class="gym-card-footer">
+        <a href="/gym/orangetheory/" class="btn btn-outline btn-sm">Full review →</a>
+        
+        <a href="https://www.orangetheory.com/en-nz/" class="btn btn-primary btn-sm" rel="sponsored" target="_blank">Book a free class</a>
+        
+      </div>
+    </div>
+    
+    <div class="gym-card">
+      <div class="gym-card-header">
+        <div>
+          <h3><a href="/gym/contours/">Contours Women's Gym</a></h3>
+          <p class="gym-tagline">Women-only circuit gym — 30-minute sessions, welcoming atmosphere</p>
+        </div>
+        <span class="gym-type type-community">Community</span>
+      </div>
+      <div class="gym-price-row">
+        <span class="price-big">$9.99<span class="per-week">/wk</span></span>
+        <span class="price-note">No lock-in</span>
+      </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★★</span>
+        <span class="star-score">4.3</span>
+        <span class="star-count">(340)</span>
+      </div>
+      <div class="gym-features">
+        
+        <span class="feat">Classes</span>
+        
+        <span class="feat">No contract</span>
+        
+      </div>
+      <p class="gym-verdict">Best women's gym in NZ — affordable, supportive, and effective for all fitness levels.</p>
+      <div class="gym-card-footer">
+        <a href="/gym/contours/" class="btn btn-outline btn-sm">Full review →</a>
+        
+      </div>
+    </div>
+    
+    <div class="gym-card">
+      <div class="gym-card-header">
+        <div>
+          <h3><a href="/gym/9round/">9Round</a></h3>
+          <p class="gym-tagline">30-minute kickboxing circuit — no class times, just show up</p>
+        </div>
+        <span class="gym-type type-boutique">Boutique</span>
+      </div>
+      <div class="gym-price-row">
+        <span class="price-big">$24.99<span class="per-week">/wk</span></span>
+        <span class="price-note">No lock-in</span>
+      </div>
+      <div class="star-rating" style="font-size:.85rem;">
+        <span class="stars" style="font-size:.9rem;">★★★★</span>
+        <span class="star-score">4.4</span>
+        <span class="star-count">(190)</span>
+      </div>
+      <div class="gym-features">
+        
+        <span class="feat">Classes</span>
+        
+        <span class="feat">No contract</span>
+        
+      </div>
+      <p class="gym-verdict">Best for no-schedule fitness — 9 kickboxing stations, a trainer guides every session, done in 30 min.</p>
+      <div class="gym-card-footer">
+        <a href="/gym/9round/" class="btn btn-outline btn-sm">Full review →</a>
         
       </div>
     </div>
@@ -506,29 +893,74 @@
   </div>
 </section>
 
+<!-- Explore guides strip -->
+<section class="section">
+  <h2>Gym Guides &amp; Resources</h2>
+  <div class="need-grid">
+    <div class="need-card">
+      <h3>🎯 Find My Gym — Quiz</h3>
+      <p>Answer 6 questions and get a personalised recommendation based on your budget, location, and goals. Free, instant, no sign-up.</p>
+      <a href="/quiz/" class="btn btn-primary btn-sm">Take the quiz →</a>
+    </div>
+    <div class="need-card">
+      <h3>💸 Cheapest Gym in NZ</h3>
+      <p>Verified 2026 prices for every budget gym — from $7.99/week. Includes tips to get joining fees waived.</p>
+      <a href="/guides/cheapest-gym-nz/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>⏰ Best 24/7 Gym NZ</h3>
+      <p>City Fitness, Jetts, Anytime Fitness, Snap Fitness — compared on price, locations, and who each suits best.</p>
+      <a href="/guides/best-247-gym-nz/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>💜 Best Women's Gym NZ</h3>
+      <p>Contours, Les Mills, ClassPass, YMCA — honest guide for women covering environment, price, and goals.</p>
+      <a href="/guides/best-womens-gym-nz/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>🧘 Yoga &amp; Pilates NZ</h3>
+      <p>Studio prices, reformer pilates costs, hot yoga, barre — and whether ClassPass is smarter than a studio membership.</p>
+      <a href="/guides/yoga-pilates-nz-2026/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+    <div class="need-card">
+      <h3>❌ How to Cancel a Gym</h3>
+      <p>Your rights under NZ consumer law, step-by-step cancellation, and how to avoid paying out your contract.</p>
+      <a href="/guides/cancel-gym-membership-nz/" class="btn btn-outline btn-sm">View guide →</a>
+    </div>
+  </div>
+</section>
+
 <!-- FAQ -->
 <section class="section">
   <h2>Frequently Asked Questions</h2>
   <div class="faq-list">
     <details class="faq-item">
       <summary>What is the cheapest gym in NZ?</summary>
-      <p>City Fitness is the cheapest major gym chain in NZ, starting from <strong>$7.99/week</strong> on their Basic membership. Jetts offers no-lock-in memberships from around $14.95/week. See our <a href="/guides/cheapest-gym-nz/">cheapest gym guide</a> for a full breakdown.</p>
+      <p>City Fitness is the cheapest major gym chain in NZ, starting from <strong>$7.99/week</strong> on their Basic membership (24/7, no lock-in, $29 joining fee — often waived online). Contours Women's Gym is the cheapest for women at $9.99/week with no joining fee or lock-in. See our <a href="/guides/cheapest-gym-nz/">cheapest gym guide</a> for a full breakdown.</p>
     </details>
     <details class="faq-item">
-      <summary>Which NZ gyms have no contracts?</summary>
-      <p>City Fitness (4-week minimum), Jetts (cancel anytime), F45 (most studios), and ClassPass (monthly subscription) all offer flexible memberships with no long-term lock-in. Les Mills and Anytime Fitness typically require 3–12 month terms.</p>
+      <summary>Which NZ gyms have no lock-in contracts?</summary>
+      <p>City Fitness (4-week minimum), Jetts (2-week notice, no lock-in), Contours (2-week notice), 9Round (monthly), F45 (most studios), and ClassPass (monthly subscription) all offer memberships with no long-term lock-in. Les Mills and Anytime Fitness typically require 3–12 month commitments.</p>
     </details>
     <details class="faq-item">
-      <summary>Is ClassPass worth it in New Zealand?</summary>
-      <p>ClassPass is excellent if you like variety and don't want to commit to one gym. You get access to hundreds of NZ studios for yoga, HIIT, pilates, cycling and more. The Starter plan from $36/month suits occasional gym-goers; the Premium plan suits those doing 3+ sessions per week. <a href="/guides/classpass-review-nz/">Read our full ClassPass NZ review.</a></p>
+      <summary>What's the best gym for weight loss in NZ?</summary>
+      <p>Orangetheory Fitness and F45 Training consistently deliver the strongest weight loss results, due to coached HIIT sessions and built-in accountability. Orangetheory's heart rate monitoring system ensures every session targets the fat-burning zone. Both offer a free first class — try before you commit.</p>
     </details>
     <details class="faq-item">
-      <summary>Can I cancel a gym membership early in NZ?</summary>
-      <p>Under the Consumer Guarantees Act, you can cancel if the gym moves location, reduces services, or you have a medical reason. For other reasons, most gyms require you to pay out the remaining months or find a member to take over your contract. See our <a href="/guides/cancel-gym-membership-nz/">how to cancel guide</a>.</p>
+      <summary>Is ClassPass worth it for yoga and pilates in NZ?</summary>
+      <p>Yes — ClassPass is the most cost-effective way to access yoga, pilates, barre, and other studio classes in NZ. The Standard plan (~$80/month) covers 6–8 studio classes, which would cost $140–$200+ at casual rates. Partner studios include most major yoga and reformer pilates studios in Auckland, Wellington, and Christchurch. <a href="/guides/yoga-pilates-nz-2026/">Read our full yoga &amp; pilates guide.</a></p>
     </details>
     <details class="faq-item">
       <summary>What gym is best for beginners in NZ?</summary>
-      <p>ClassPass is great for beginners — try different styles before committing. For a permanent gym, City Fitness offers an affordable, low-pressure environment. F45 or Les Mills group classes are excellent if you want structure and coaching.</p>
+      <p>For women: <a href="/gym/contours/">Contours Women's Gym</a> — guided 30-min circuits, women-only, no intimidation, from $9.99/week. For mixed gyms: City Fitness is affordable and low-pressure, or use ClassPass to trial different styles before committing to one format. <a href="/quiz/">Take our quiz for a personalised recommendation.</a></p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I cancel a gym membership early in NZ?</summary>
+      <p>Under the Consumer Guarantees Act, you can cancel if the gym moves location, reduces services materially, or you have a medical reason. Otherwise most gyms require you to pay out remaining months or find a member to take over your contract. See our <a href="/guides/cancel-gym-membership-nz/">how to cancel guide</a> for city-specific advice.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Which NZ gym is best for 24/7 access?</summary>
+      <p>City Fitness ($7.99/wk), Jetts ($14.95/wk, no lock-in), Snap Fitness ($14.95/wk), and Anytime Fitness ($16.95/wk) are all 24/7. Anytime Fitness is the only chain with global 24/7 access — useful if you travel overseas. See our <a href="/guides/best-247-gym-nz/">24/7 gym guide</a> for a full comparison.</p>
     </details>
   </div>
 </section>
@@ -562,6 +994,12 @@
             
             <li><a href="/gym/classpass/">ClassPass</a></li>
             
+            <li><a href="/gym/orangetheory/">Orangetheory Fitness</a></li>
+            
+            <li><a href="/gym/contours/">Contours Women's Gym</a></li>
+            
+            <li><a href="/gym/9round/">9Round</a></li>
+            
           </ul>
         </div>
         <div>
@@ -580,16 +1018,35 @@
             
             <li><a href="/gym/dunedin/">Dunedin</a></li>
             
+            <li><a href="/gym/palmerston-north/">Palmerston North</a></li>
+            
+            <li><a href="/gym/rotorua/">Rotorua</a></li>
+            
+            <li><a href="/gym/new-plymouth/">New Plymouth</a></li>
+            
           </ul>
         </div>
         <div>
           <strong>Guides</strong>
           <ul>
+            <li><a href="/quiz/">Find my gym — quiz</a></li>
             <li><a href="/guides/cheapest-gym-nz/">Cheapest gym in NZ</a></li>
+            <li><a href="/guides/best-247-gym-nz/">Best 24/7 gym NZ</a></li>
+            <li><a href="/guides/best-womens-gym-nz/">Best women's gym NZ</a></li>
+            <li><a href="/guides/yoga-pilates-nz-2026/">Yoga &amp; pilates NZ</a></li>
             <li><a href="/guides/gym-membership-tips/">Membership tips</a></li>
             <li><a href="/guides/cancel-gym-membership-nz/">How to cancel</a></li>
-            <li><a href="/guides/gym-contracts-nz/">Understanding contracts</a></li>
             <li><a href="/guides/classpass-review-nz/">ClassPass review NZ</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Free Diet Plans</strong>
+          <ul>
+            <li><a href="/diet/">All diet plans</a></li>
+            <li><a href="/diet/lose-weight-fast/">Lose weight fast</a></li>
+            <li><a href="/diet/lose-weight-healthy/">Lose weight healthy</a></li>
+            <li><a href="/diet/gain-muscle/">Gain muscle</a></li>
+            <li><a href="/diet/feel-healthier/">Feel healthier</a></li>
           </ul>
         </div>
       </div>

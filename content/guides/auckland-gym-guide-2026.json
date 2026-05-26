@@ -1,82 +1,82 @@
 {
   "slug": "auckland-gym-guide-2026",
   "short_title": "Auckland Gyms",
-  "title": "Best Gyms in Auckland 2026 — City-by-City Guide with Prices",
-  "meta_desc": "Find the best gyms in Auckland with our city-by-city guide, including prices and contract terms from $15/week",
-  "intro": "Auckland offers a wide range of gym options, from budget-friendly to high-end, with prices starting from $15/week. With so many options, it can be overwhelming to choose the right one. This guide will help you navigate the best gyms in Auckland, including their prices and contract terms.",
+  "title": "Best Gyms in Auckland 2026 — Suburb-by-Suburb Guide with Real Prices",
+  "meta_desc": "Find the best gym in Auckland for your budget and suburb. Honest 2026 prices for Les Mills, City Fitness, Jetts, Anytime Fitness, F45, Orangetheory and more.",
+  "intro": "Auckland is the most competitive gym market in New Zealand — prices are sharp and there are genuine options for every budget. City Fitness starts at $7.99/week with clubs across the region. Les Mills has multiple premium CBD and suburban locations. And Auckland is the best NZ city for boutique options — Orangetheory, F45, and ClassPass studios are everywhere. This guide cuts through the noise.",
   "updated": "May 2026",
-  "reading_time": 7,
+  "reading_time": 8,
   "sections": [
     {
-      "heading": "Auckland Gym Options by Suburb",
-      "body": "Auckland has numerous suburbs with a variety of gym options. Some popular suburbs with gyms include the CBD, Ponsonby, and Newmarket. Each suburb has its unique atmosphere and range of gyms, from boutique studios to large chain gyms."
-    },
-    {
-      "heading": "Price Comparison of Auckland Gyms",
+      "heading": "Auckland Gym Prices — 2026",
       "table": {
-        "headers": [
-          "Gym",
-          "Weekly Price",
-          "Monthly Price",
-          "Contract Term"
-        ],
+        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
         "rows": [
-          [
-            "Anytime Fitness",
-            "$15.95",
-            "$69.95",
-            "12 months"
-          ],
-          [
-            "Jetts",
-            "$12.95",
-            "$59.95",
-            "12 months"
-          ],
-          [
-            "Les Mills",
-            "$24.99",
-            "$99.99",
-            "12 months"
-          ],
-          [
-            "City Fitness",
-            "$19.95",
-            "$79.95",
-            "6 months"
-          ]
+          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
+          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
+          ["Jetts", "$14.95", "$0", "No lock-in", "Yes"],
+          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
+          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
+          ["Les Mills", "$17.99", "$49 (often waived)", "3 months", "No"],
+          ["YMCA Auckland", "$17.50", "$0", "6–12 months", "No"],
+          ["Contours Women's", "$9.99", "$0", "No lock-in", "No"],
+          ["F45 Training", "$25.00", "$0", "Flexible", "No (class-based)"],
+          ["Orangetheory Auckland", "$18.25", "$49", "Monthly", "No (class-based)"],
+          ["ClassPass", "from $9.00", "$0", "Monthly", "No"]
         ]
       }
     },
     {
-      "heading": "Commuter Gyms in Auckland",
-      "body": "For those who work in the city, a commuter gym can be a convenient option. Some popular commuter gyms in Auckland include the 24/7 gyms like Anytime Fitness and Jetts, which have multiple locations throughout the city."
+      "heading": "Auckland CBD & Newmarket",
+      "body": "The highest concentration of gyms in NZ. Les Mills' flagship at 99 Graham Street is one of the best-equipped gyms in the country — pools, sauna, crèche, and an enormous group fitness timetable. City Fitness has a CBD location from $7.99/week. Orangetheory is in Britomart. F45 has multiple inner-city studios. For budget training close to work, City Fitness wins — 24/7, no lock-in, and the cheapest weekly rate in Auckland."
     },
     {
-      "heading": "CBD Gym Options",
+      "heading": "Ponsonby, Grey Lynn & Mt Eden",
+      "body": "A mix of premium boutique studios and chain gyms. This area has some of Auckland's best yoga and pilates studios, all accessible via ClassPass. City Fitness and Jetts serve the budget end well at under $15/week. The boutique scene here is exceptional for ClassPass subscribers — cycling, boxing, barre, and yoga all within 2km of each other."
+    },
+    {
+      "heading": "North Shore (Takapuna, Albany, Glenfield)",
+      "body": "Takapuna has Les Mills, City Fitness, and several boutique studios. Albany's North Harbour Les Mills is one of the best outside the CBD. Anytime Fitness has strong North Shore coverage across multiple locations. For families, YMCA North Shore has a pool and crèche. Albany is particularly convenient for members who commute via motorway."
+    },
+    {
+      "heading": "South Auckland (Manukau, Papatoetoe, Botany)",
+      "body": "South Auckland has improved significantly for gym access. City Fitness covers Manukau and Botany. Anytime Fitness and Snap Fitness serve shift workers well with 24/7 access — important given many South Auckland residents work in logistics, healthcare, and manufacturing. Les Mills Manukau serves the premium end. South Auckland clubs tend to be slightly cheaper than CBD equivalents."
+    },
+    {
+      "heading": "West Auckland (Henderson, New Lynn, Waitakere)",
+      "body": "City Fitness and Snap Fitness cover the west well. Henderson has a strong gym community including CrossFit boxes and independent clubs. West Auckland tends to be cheaper than the CBD, parking is rarely an issue, and traffic going out of the city in the evening is manageable. Good value for money overall."
+    },
+    {
+      "heading": "How to Get the Best Auckland Gym Deal",
       "list": [
-        "Anytime Fitness Auckland CBD ($15.95/week)",
-        "Jetts Auckland CBD ($12.95/week)",
-        "Les Mills Auckland CBD ($24.99/week)"
+        "City Fitness frequently waives the $29 joining fee during promo periods — check before you sign up",
+        "Les Mills joining fees ($49) are often waived in person — always ask before paying",
+        "Jetts has no joining fee at all — the genuinely lowest upfront cost in Auckland",
+        "Anytime Fitness prices vary by franchise — South Auckland clubs are often cheaper than CBD",
+        "F45 and Orangetheory both offer free first sessions — try before you commit",
+        "ClassPass first month free — a full month to try Auckland's studio scene at no cost",
+        "Les Mills under-23 discount: 20% off — always ask",
+        "Corporate rates: Les Mills and Anytime Fitness offer employer deals — check HR before signing up personally"
       ]
     },
     {
-      "heading": "Parking and Accessibility",
-      "body": "Parking and accessibility are important considerations when choosing a gym. Some gyms in Auckland offer free parking, while others may have limited parking options. It's essential to check the gym's website or visit in person to determine their parking and accessibility features."
+      "heading": "Auckland Gym Recommendations by Profile",
+      "list": [
+        "Best budget: City Fitness Basic ($7.99/wk, 24/7, no lock-in, multiple Auckland locations)",
+        "Best flexible: Jetts ($14.95/wk, no joining fee, no lock-in)",
+        "Best group fitness: Les Mills ($17.99/wk, pools, saunas, crèche, world-class classes)",
+        "Best for weight loss: Orangetheory ($18.25/wk, heart rate HIIT, coaches every session)",
+        "Best variety: ClassPass (from $9/wk, 50+ Auckland studios on one plan, first month free)",
+        "Best women's gym: Contours ($9.99/wk, women-only, guided circuit, no lock-in)",
+        "Best for families: YMCA ($17.50/wk, pool, crèche, community focus)",
+        "Best for travellers: Anytime Fitness ($16.95/wk, works globally at 600+ clubs)"
+      ]
     },
     {
-      "heading": "Compare Auckland Gyms",
+      "heading": "Compare All Auckland Gyms",
       "cta": {
-        "text": "Compare Auckland gym prices and contracts",
-        "url": "/compare/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Get Started with Your Gym Journey",
-      "cta": {
-        "text": "Join Anytime Fitness Auckland today",
-        "url": "/gym/anytime-fitness-auckland",
+        "text": "See full Auckland gym comparison with prices →",
+        "url": "/gym/auckland/",
         "affiliate": false
       }
     }

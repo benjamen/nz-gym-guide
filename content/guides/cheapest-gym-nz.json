@@ -2,73 +2,85 @@
   "slug": "cheapest-gym-nz",
   "short_title": "Cheapest Gym NZ",
   "title": "Cheapest Gym in NZ 2026 — Full Price Breakdown",
-  "meta_desc": "What is the cheapest gym in New Zealand? Full price comparison of City Fitness, Jetts, Snap Fitness, YMCA and more — weekly prices, joining fees, and no-contract options.",
-  "intro": "Finding the cheapest gym in New Zealand depends on your city, contract preference, and what features you actually need. Here's a no-nonsense breakdown of the most affordable options in 2026.",
+  "meta_desc": "What is the cheapest gym in New Zealand? Full price comparison of City Fitness, Jetts, Contours, Snap Fitness, and more — real 2026 weekly prices, joining fees, and no-contract options.",
+  "intro": "Finding the cheapest gym in New Zealand depends on your city, contract preference, and what features you actually need. Here's a no-nonsense breakdown of the most affordable options in 2026 — with accurate prices checked against each gym's current membership terms.",
   "updated": "May 2026",
   "reading_time": 6,
   "sections": [
     {
-      "heading": "The Cheapest NZ Gyms Ranked by Price",
-      "body": "City Fitness is the cheapest major gym chain in New Zealand, with Basic memberships starting from $7.99/week. Jetts comes in second for flexibility — no lock-in with prices from around $14.95/week. Here's how all major chains compare:",
+      "heading": "The Cheapest NZ Gyms Ranked by Price (2026)",
+      "body": "City Fitness is the cheapest major gym chain in New Zealand at $7.99/week. Contours Women's Gym is the cheapest for women at $9.99/week with no lock-in. Jetts is the cheapest no-lock-in mixed gym with 24/7 access at $14.95/week.",
       "table": {
         "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
         "rows": [
-          ["City Fitness", "$7.99", "$0–$49", "No (4-week min)", "No"],
-          ["YMCA", "$10–$14", "$25–$50", "No", "No"],
-          ["Jetts", "$14.95", "$0 (promo)", "No", "Yes"],
-          ["Snap Fitness", "$16.95", "$49", "No", "Yes"],
-          ["Anytime Fitness", "$18.95", "$99", "12 months", "Yes"],
-          ["Les Mills", "$22.50", "$99", "12 months", "No"],
-          ["F45", "$55", "$0", "Flexible", "No"],
-          ["ClassPass", "$36/mo", "$0", "Monthly", "No"]
+          ["City Fitness Basic", "$7.99", "$29 (often waived online)", "No (4-week min)", "Yes"],
+          ["Contours Women's Gym", "$9.99", "$0", "No lock-in", "No"],
+          ["Jetts", "$14.95", "$0", "No lock-in", "Yes"],
+          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies by location", "Yes"],
+          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
+          ["Anytime Fitness", "$16.95", "$49 (sometimes waived)", "12 months (some 6)", "Yes"],
+          ["Les Mills", "$17.99", "$49 (often waived)", "3 months", "No"],
+          ["YMCA", "$17.50", "$0", "6–12 months", "No"],
+          ["F45", "$25.00", "$0", "Flexible by studio", "No"],
+          ["ClassPass Starter", "$9/wk (~$39/mo)", "$0", "Monthly, cancel anytime", "No"]
         ]
       }
     },
     {
       "heading": "City Fitness — Cheapest Overall",
-      "body": "City Fitness runs a franchise model across Auckland, Wellington, Christchurch, Hamilton and more. Their Basic membership (from $7.99/week) covers unlimited access to your home club with weights, cardio, and locker rooms. The All-Access membership ($14.99/week) lets you use any City Fitness location nationwide. There's usually no joining fee with online signup — and their minimum term is just 4 weeks, making it one of the most flexible budget gyms in NZ.",
+      "body": "City Fitness is the cheapest major gym chain in New Zealand, with Basic memberships at $7.99/week — less than $35/month. The $29 joining fee is regularly waived for online signups. 24/7 access is included at all tiers. The minimum term is just 4 weeks, making it one of the most flexible budget gyms in NZ. Available in Auckland, Wellington, Hamilton, and Tauranga.",
       "cta": {
-        "text": "Read City Fitness full review →",
+        "text": "Read full City Fitness review →",
         "url": "/gym/city-fitness/",
         "affiliate": false
       }
     },
     {
-      "heading": "YMCA — Cheapest for Families and Beginners",
-      "body": "The YMCA charges between $10–$14/week for individual memberships and offers genuine family rates that undercut most chains. If you want a pool, sauna, and crèche at a budget price, the Y is hard to beat. Coverage is limited (mainly Auckland, Wellington, Christchurch and Dunedin) but where they operate, they offer exceptional value.",
+      "heading": "Contours — Cheapest Women's Gym",
+      "body": "For women, Contours is the best-value gym in NZ at $9.99/week with no joining fee and no lock-in. The 30-minute guided circuit format means no guessing — every session is structured. Available nationwide across all major NZ cities. Free trial week available at most locations.",
       "cta": {
-        "text": "Read YMCA full review →",
-        "url": "/gym/ymca/",
+        "text": "Read full Contours review →",
+        "url": "/gym/contours/",
         "affiliate": false
       }
     },
     {
-      "heading": "Jetts — Cheapest No-Lock-In Option",
-      "body": "If you want 24/7 access and no long-term contract, Jetts is your best bet in the budget category. They regularly run promotions with no joining fee. The monthly rate works out to roughly $14.95/week — more than City Fitness, but you can cancel anytime with no notice period penalty.",
+      "heading": "Jetts — Cheapest No-Lock-In 24/7 Gym",
+      "body": "If you want 24/7 access with no joining fee and no lock-in contract, Jetts is the best budget option at $14.95/week. Cancel with just 2 weeks notice. Available in Auckland, Wellington, Christchurch, Hamilton, and Tauranga.",
       "cta": {
-        "text": "Read Jetts full review →",
+        "text": "Read full Jetts review →",
         "url": "/gym/jetts/",
         "affiliate": false
       }
     },
     {
+      "heading": "ClassPass — Cheapest Way to Try Multiple Studios",
+      "body": "The ClassPass Starter plan is $39/month (~$9/week) and covers 10 credits — enough for 2–3 yoga, pilates, or HIIT classes at partner studios. The first month is free, making it the cheapest possible way to try different gym formats before committing to one. Not suitable as a full gym replacement unless you go 3+ times per week (the Standard plan at $80/month is better value then).",
+      "cta": {
+        "text": "Try ClassPass free — first month included →",
+        "url": "https://classpass.com/nz",
+        "affiliate": true
+      }
+    },
+    {
       "heading": "How to Get the Cheapest Gym Membership in NZ",
       "list": [
-        "Sign up online — most chains offer waived joining fees for online signups.",
-        "Ask about student, senior, or community rates — City Fitness and YMCA in particular offer discounts.",
-        "Look for January or June specials — gyms run promotions heavily in both months.",
-        "Consider a 12-month upfront payment — many gyms offer 2 free months if you pay annually.",
-        "Try ClassPass first — the first month is free, and you can trial several gyms before committing.",
-        "Avoid add-ons you won't use — personal training packages are the #1 upsell that blows budgets."
+        "Sign up online — City Fitness, Jetts, and Snap Fitness all offer joining fee waivers for online signups",
+        "Ask about student, under-23, senior, or community rates — Les Mills gives under-23s 20% off",
+        "January and June are promo-heavy months — gyms compete hard for New Year and mid-year joiners",
+        "Consider an annual upfront payment — some gyms give 1–2 months free for annual commitments",
+        "Use ClassPass free first month to trial several studios before deciding on a permanent gym",
+        "Corporate rates: check with your employer's HR — Les Mills and Anytime Fitness both offer employer discount schemes",
+        "Avoid paid PT packages until you've been going 3+ months — they're the #1 upsell that blows gym budgets"
       ]
     },
     {
-      "heading": "Not Sure Which Gym to Join?",
-      "body": "ClassPass lets you try hundreds of NZ studios — yoga, HIIT, pilates, swimming — for one monthly fee. The Starter plan is $36/month. First month is free. It's the smartest way to shop for a gym without committing.",
+      "heading": "Not Sure Which Gym? Take the Quiz",
+      "body": "Answer 6 quick questions and get a personalised NZ gym recommendation based on your budget, schedule, and goals. Free, no sign-up required.",
       "cta": {
-        "text": "Try ClassPass free for a month →",
-        "url": "https://classpass.com/nz",
-        "affiliate": true
+        "text": "Take the free 'Find My Gym' quiz →",
+        "url": "/quiz/",
+        "affiliate": false
       }
     }
   ]
