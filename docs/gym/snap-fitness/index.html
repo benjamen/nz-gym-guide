@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="/static/css/style.css">
 
   <!-- Favicon set -->
+  <link rel="icon" href="/static/img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
-  <link rel="alternate icon" href="/static/img/favicon.svg">
-  <link rel="apple-touch-icon" href="/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="/static/img/favicon.png">
   <meta name="theme-color" content="#2563eb">
 
   <!-- Open Graph / Facebook -->
@@ -34,31 +35,50 @@
   <meta name="author" content="NZ Gym Guide">
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz","inLanguage":"en-NZ",
+     "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nzgymguide.co.nz/compare/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+    {"@context":"https://schema.org","@type":"Organization","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz",
+     "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512},
+     "contactPoint":{"@type":"ContactPoint","email":"instituteofbba@gmail.com","contactType":"customer service"},
+     "sameAs":["https://www.facebook.com/nzgymguide"]}
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SportsActivityLocation",
-  "name": "Snap Fitness NZ",
-  "url": "https://www.snapfitness.com/nz/",
-  "description": "24/7 boutique gym — compact, clean, no frills",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "3.8",
-    "reviewCount": "1650",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "review": [
-    {"@type":"Review","author":{"@type":"Person","name":"Ben C."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Love the 24/7 access and the small club feel. Never overcrowded, always clean. Perfect for early morning sessions before the office.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Emma R."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Really well maintained and the staff are friendly. It's not a huge gym but everything you need is there and the equipment is kept in great condition.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Jack D."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Does what it says — a clean 24/7 gym. No group classes which is the main drawback but for solo training it's perfectly adequate.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Tina H."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Perfect gym for people who just want to train without the fuss. They were running a joining fee waiver promo when I signed up which saved me $49.","datePublished":"January 2026"},{"@type":"Review","author":{"@type":"Person","name":"Ryan M."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Smaller than I expected but surprisingly well-equipped. Great for those who don't like busy gyms — it's rarely packed even at peak times.","datePublished":"November 2025"}
-  ]
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://nzgymguide.co.nz/"},
+    {"@type":"ListItem","position":2,"name":"Compare Gyms","item":"https://nzgymguide.co.nz/compare/"},
+    {"@type":"ListItem","position":3,"name":"Snap Fitness","item":"https://nzgymguide.co.nz/gym/snap-fitness/"}
+  ]},
+  {"@type":"SportsActivityLocation",
+   "@id":"https://nzgymguide.co.nz/gym/snap-fitness/",
+   "name":"Snap Fitness NZ",
+   "url":"https://www.snapfitness.com/nz/",
+   "description":"24/7 boutique gym — compact, clean, no frills",
+   "inLanguage":"en-NZ",
+   "offers":{"@type":"Offer","price":"14.95","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"14.95","priceCurrency":"NZD","unitText":"per week"}},
+   "aggregateRating":{
+     "@type":"AggregateRating",
+     "ratingValue":"3.8",
+     "reviewCount":"1650",
+     "bestRating":"5",
+     "worstRating":"1"
+   },
+   "review":[
+     {"@type":"Review","author":{"@type":"Person","name":"Ben C."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Love the 24/7 access and the small club feel. Never overcrowded, always clean. Perfect for early morning sessions before the office.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Emma R."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Really well maintained and the staff are friendly. It's not a huge gym but everything you need is there and the equipment is kept in great condition.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Jack D."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Does what it says — a clean 24/7 gym. No group classes which is the main drawback but for solo training it's perfectly adequate.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Tina H."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Perfect gym for people who just want to train without the fuss. They were running a joining fee waiver promo when I signed up which saved me $49.","datePublished":"January 2026"},{"@type":"Review","author":{"@type":"Person","name":"Ryan M."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Smaller than I expected but surprisingly well-equipped. Great for those who don't like busy gyms — it's rarely packed even at peak times.","datePublished":"November 2025"}
+   ]
+  }
+]}
 </script>
 
 </head>

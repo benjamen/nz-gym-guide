@@ -3,6 +3,28 @@
 {% block desc %}Daily NZ gym deals, membership reviews, Exercise NZ subsidy guides, and money-saving tips for every city. Updated every day.{% endblock %}
 {% block canonical %}deals/{% endblock %}
 
+{% block head_extra %}
+<script type="application/ld+json">
+[
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
+    {"@type":"ListItem","position":2,"name":"NZ Gym Deals & Tips","item":"{{ site.base_url }}/deals/"}
+  ]},
+  {"@context":"https://schema.org","@type":"CollectionPage",
+   "name":"NZ Gym Deals & Tips",
+   "description":"Daily NZ gym deals, membership reviews, Exercise NZ subsidy guides, and money-saving tips.",
+   "url":"{{ site.base_url }}/deals/",
+   "publisher":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}",
+     "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.svg","width":512,"height":512}},
+   "hasPart":[
+     {% for post in posts %}
+     {"@type":"Article","name":"{{ post.title }}","url":"{{ site.base_url }}/deals/{{ post.slug }}/"}{% if not loop.last %},{% endif %}
+     {% endfor %}
+   ]}
+]
+</script>
+{% endblock %}
+
 {% block hero %}
 <section class="page-hero">
   <div class="hero-inner">

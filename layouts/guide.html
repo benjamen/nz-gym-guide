@@ -5,15 +5,23 @@
 {% block canonical %}guides/{{ guide.slug }}/{% endblock %}
 {% block head_extra %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "{{ guide.title }}",
-  "description": "{{ guide.meta_desc }}",
-  "dateModified": "2026-05-26",
-  "author": {"@type": "Organization", "name": "NZ Gym Guide"},
-  "publisher": {"@type": "Organization", "name": "NZ Gym Guide", "url": "{{ site.base_url }}"}
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
+    {"@type":"ListItem","position":2,"name":"Gym Guides","item":"{{ site.base_url }}/guides/"},
+    {"@type":"ListItem","position":3,"name":"{{ guide.short_title }}","item":"{{ site.base_url }}/guides/{{ guide.slug }}/"}
+  ]},
+  {"@type":"Article",
+   "headline":"{{ guide.title }}",
+   "description":"{{ guide.meta_desc }}",
+   "dateModified":"{{ guide.updated }}",
+   "inLanguage":"en-NZ",
+   "url":"{{ site.base_url }}/guides/{{ guide.slug }}/",
+   "author":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}"},
+   "publisher":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}",
+     "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.svg","width":512,"height":512}}
+  }
+]}
 </script>
 {% endblock %}
 

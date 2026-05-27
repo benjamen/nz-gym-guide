@@ -4,6 +4,27 @@
 {% block desc %}Full side-by-side comparison of every major NZ gym: Les Mills, City Fitness, Anytime Fitness, Snap Fitness, Jetts, YMCA, F45 and ClassPass. Prices, contracts, features and honest ratings.{% endblock %}
 {% block canonical %}compare/{% endblock %}
 
+{% block head_extra %}
+<script type="application/ld+json">
+[
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
+    {"@type":"ListItem","position":2,"name":"Compare All NZ Gyms","item":"{{ site.base_url }}/compare/"}
+  ]},
+  {"@context":"https://schema.org","@type":"ItemList",
+   "name":"Compare All NZ Gym Memberships 2026",
+   "description":"Side-by-side prices, contracts and features for every major NZ gym chain",
+   "url":"{{ site.base_url }}/compare/",
+   "numberOfItems":{{ gyms | length }},
+   "itemListElement":[
+     {% for gym in gyms %}
+     {"@type":"ListItem","position":{{ loop.index }},"name":"{{ gym.name }}","url":"{{ site.base_url }}/gym/{{ gym.slug }}/"}{% if not loop.last %},{% endif %}
+     {% endfor %}
+   ]}
+]
+</script>
+{% endblock %}
+
 {% block hero %}
 <section class="page-hero">
   <div class="hero-inner">

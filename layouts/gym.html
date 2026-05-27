@@ -6,23 +6,31 @@
 
 {% block head_extra %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SportsActivityLocation",
-  "name": "{{ gym.name }} NZ",
-  "url": "{{ gym.website }}",
-  "description": "{{ gym.tagline }}",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "{{ gym.rating }}",
-    "reviewCount": "{{ gym.review_count }}",
-    "bestRating": "5",
-    "worstRating": "1"
-  }{% if gym.google_reviews %},
-  "review": [
-    {% for r in gym.google_reviews %}{"@type":"Review","author":{"@type":"Person","name":"{{ r.name }}"},"reviewRating":{"@type":"Rating","ratingValue":"{{ r.rating }}"},"reviewBody":"{{ r.text }}","datePublished":"{{ r.date }}"}{% if not loop.last %},{% endif %}{% endfor %}
-  ]{% endif %}
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
+    {"@type":"ListItem","position":2,"name":"Compare Gyms","item":"{{ site.base_url }}/compare/"},
+    {"@type":"ListItem","position":3,"name":"{{ gym.name }}","item":"{{ site.base_url }}/gym/{{ gym.slug }}/"}
+  ]},
+  {"@type":"SportsActivityLocation",
+   "@id":"{{ site.base_url }}/gym/{{ gym.slug }}/",
+   "name":"{{ gym.name }} NZ",
+   "url":"{{ gym.website }}",
+   "description":"{{ gym.tagline }}",
+   "inLanguage":"en-NZ",
+   "offers":{"@type":"Offer","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","unitText":"per week"}},
+   "aggregateRating":{
+     "@type":"AggregateRating",
+     "ratingValue":"{{ gym.rating }}",
+     "reviewCount":"{{ gym.review_count }}",
+     "bestRating":"5",
+     "worstRating":"1"
+   }{% if gym.google_reviews %},
+   "review":[
+     {% for r in gym.google_reviews %}{"@type":"Review","author":{"@type":"Person","name":"{{ r.name }}"},"reviewRating":{"@type":"Rating","ratingValue":"{{ r.rating }}"},"reviewBody":"{{ r.text }}","datePublished":"{{ r.date }}"}{% if not loop.last %},{% endif %}{% endfor %}
+   ]{% endif %}
+  }
+]}
 </script>
 {% endblock %}
 

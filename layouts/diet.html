@@ -5,15 +5,23 @@
 {% block canonical %}diet/{{ plan.slug }}/{% endblock %}
 {% block head_extra %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "{{ plan.title }}",
-  "description": "{{ plan.meta_desc }}",
-  "dateModified": "2026-05-26",
-  "author": {"@type": "Organization", "name": "NZ Gym Guide"},
-  "publisher": {"@type": "Organization", "name": "NZ Gym Guide", "url": "{{ site.base_url }}"}
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
+    {"@type":"ListItem","position":2,"name":"Free Diet Plans NZ","item":"{{ site.base_url }}/diet/"},
+    {"@type":"ListItem","position":3,"name":"{{ plan.title }}","item":"{{ site.base_url }}/diet/{{ plan.slug }}/"}
+  ]},
+  {"@type":"Article",
+   "headline":"{{ plan.title }}",
+   "description":"{{ plan.meta_desc }}",
+   "dateModified":"2026-05-26",
+   "inLanguage":"en-NZ",
+   "url":"{{ site.base_url }}/diet/{{ plan.slug }}/",
+   "author":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}"},
+   "publisher":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}",
+     "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.svg","width":512,"height":512}}
+  }
+]}
 </script>
 <style>
 .diet-hero { background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 50%, #6ee7b7 100%); }

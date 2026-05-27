@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="{{ site.base_path }}/static/css/style.css">
 
   <!-- Favicon set -->
+  <link rel="icon" href="{{ site.base_path }}/static/img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="{{ site.base_path }}/static/img/favicon.png" type="image/png" sizes="32x32">
   <link rel="icon" href="{{ site.base_path }}/static/img/favicon.svg" type="image/svg+xml">
-  <link rel="alternate icon" href="{{ site.base_path }}/static/img/favicon.svg">
-  <link rel="apple-touch-icon" href="{{ site.base_path }}/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="{{ site.base_path }}/static/img/favicon.png">
   <meta name="theme-color" content="#2563eb">
 
   <!-- Open Graph / Facebook -->
@@ -34,12 +35,23 @@
   <meta name="author" content="NZ Gym Guide">
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   {% if site.ga_id %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.ga_id }}');</script>
   {% endif %}
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{ site.title }}","url":"{{ site.base_url }}"}</script>
+  <script type="application/ld+json">
+  [
+    {"@context":"https://schema.org","@type":"WebSite","name":"{{ site.title }}","url":"{{ site.base_url }}","inLanguage":"en-NZ",
+     "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"{{ site.base_url }}/compare/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+    {"@context":"https://schema.org","@type":"Organization","name":"{{ site.title }}","url":"{{ site.base_url }}",
+     "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.svg","width":512,"height":512},
+     "contactPoint":{"@type":"ContactPoint","email":"{{ site.contact_email }}","contactType":"customer service"},
+     "sameAs":["https://www.facebook.com/nzgymguide"]}
+  ]
+  </script>
   {% block head_extra %}{% endblock %}
 </head>
 <body>

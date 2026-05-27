@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="/static/css/style.css">
 
   <!-- Favicon set -->
+  <link rel="icon" href="/static/img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
-  <link rel="alternate icon" href="/static/img/favicon.svg">
-  <link rel="apple-touch-icon" href="/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="/static/img/favicon.png">
   <meta name="theme-color" content="#2563eb">
 
   <!-- Open Graph / Facebook -->
@@ -34,31 +35,50 @@
   <meta name="author" content="NZ Gym Guide">
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz","inLanguage":"en-NZ",
+     "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nzgymguide.co.nz/compare/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+    {"@context":"https://schema.org","@type":"Organization","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz",
+     "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512},
+     "contactPoint":{"@type":"ContactPoint","email":"instituteofbba@gmail.com","contactType":"customer service"},
+     "sameAs":["https://www.facebook.com/nzgymguide"]}
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SportsActivityLocation",
-  "name": "City Fitness NZ",
-  "url": "https://www.cityfitness.co.nz/",
-  "description": "NZ's most affordable 24/7 gym — three membership tiers",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.0",
-    "reviewCount": "1920",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "review": [
-    {"@type":"Review","author":{"@type":"Person","name":"Tom H."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Best value gym in NZ, full stop. $7.99/week and it's 24/7. Equipment is modern and the place is always clean. Can't beat this price.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Amy L."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Black Card is the move — multi-club access means I can hit whichever location is closest. The tanning and massage chairs are a nice bonus.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Daniel W."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Some locations are better maintained than others but the price is unbeatable. Upgraded to Premium for group fitness and it's been a game changer.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Ngaio F."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Gets busy during peak hours but that's expected for the price. Staff are always friendly and helpful when you need them.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Callum B."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"No pool or sauna but everything you need for a solid workout is there. Great for no-frills training on a budget. The 24/7 access is crucial for shift workers.","datePublished":"December 2025"}
-  ]
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://nzgymguide.co.nz/"},
+    {"@type":"ListItem","position":2,"name":"Compare Gyms","item":"https://nzgymguide.co.nz/compare/"},
+    {"@type":"ListItem","position":3,"name":"City Fitness","item":"https://nzgymguide.co.nz/gym/city-fitness/"}
+  ]},
+  {"@type":"SportsActivityLocation",
+   "@id":"https://nzgymguide.co.nz/gym/city-fitness/",
+   "name":"City Fitness NZ",
+   "url":"https://www.cityfitness.co.nz/",
+   "description":"NZ's most affordable 24/7 gym — three membership tiers",
+   "inLanguage":"en-NZ",
+   "offers":{"@type":"Offer","price":"7.99","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"7.99","priceCurrency":"NZD","unitText":"per week"}},
+   "aggregateRating":{
+     "@type":"AggregateRating",
+     "ratingValue":"4.0",
+     "reviewCount":"1920",
+     "bestRating":"5",
+     "worstRating":"1"
+   },
+   "review":[
+     {"@type":"Review","author":{"@type":"Person","name":"Tom H."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Best value gym in NZ, full stop. $7.99/week and it's 24/7. Equipment is modern and the place is always clean. Can't beat this price.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Amy L."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Black Card is the move — multi-club access means I can hit whichever location is closest. The tanning and massage chairs are a nice bonus.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Daniel W."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Some locations are better maintained than others but the price is unbeatable. Upgraded to Premium for group fitness and it's been a game changer.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Ngaio F."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Gets busy during peak hours but that's expected for the price. Staff are always friendly and helpful when you need them.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Callum B."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"No pool or sauna but everything you need for a solid workout is there. Great for no-frills training on a budget. The 24/7 access is crucial for shift workers.","datePublished":"December 2025"}
+   ]
+  }
+]}
 </script>
 
 </head>

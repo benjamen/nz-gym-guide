@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="/static/css/style.css">
 
   <!-- Favicon set -->
+  <link rel="icon" href="/static/img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
-  <link rel="alternate icon" href="/static/img/favicon.svg">
-  <link rel="apple-touch-icon" href="/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="/static/img/favicon.png">
   <meta name="theme-color" content="#2563eb">
 
   <!-- Open Graph / Facebook -->
@@ -34,31 +35,50 @@
   <meta name="author" content="NZ Gym Guide">
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz","inLanguage":"en-NZ",
+     "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nzgymguide.co.nz/compare/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+    {"@context":"https://schema.org","@type":"Organization","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz",
+     "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512},
+     "contactPoint":{"@type":"ContactPoint","email":"instituteofbba@gmail.com","contactType":"customer service"},
+     "sameAs":["https://www.facebook.com/nzgymguide"]}
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SportsActivityLocation",
-  "name": "F45 Training NZ",
-  "url": "https://f45training.co.nz/",
-  "description": "Team-based HIIT — 45-minute functional fitness sessions",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.5",
-    "reviewCount": "1240",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "review": [
-    {"@type":"Review","author":{"@type":"Person","name":"Josh W."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"F45 completely transformed how I approach fitness. The team environment makes it impossible not to push harder and the 45-minute sessions fit perfectly into a busy schedule.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Anna C."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Best fitness decision I've made. Trainers know everyone by name and the workout variety means I never get bored. Down 6kg in 2 months.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Nathan F."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Expensive but genuinely effective. The mix of cardio and strength days keeps things interesting. The 'party round' at the end is absolutely brutal in the best way.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Lucy M."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Love the workouts but the cost adds up quickly. At around $185/month it's a significant investment — worth it if you commit and attend consistently.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Chloe T."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Tried the free first week and was hooked immediately. The energy in a room of 20 people all pushing hard together is unlike anything at a regular gym.","datePublished":"December 2025"}
-  ]
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://nzgymguide.co.nz/"},
+    {"@type":"ListItem","position":2,"name":"Compare Gyms","item":"https://nzgymguide.co.nz/compare/"},
+    {"@type":"ListItem","position":3,"name":"F45 Training","item":"https://nzgymguide.co.nz/gym/f45/"}
+  ]},
+  {"@type":"SportsActivityLocation",
+   "@id":"https://nzgymguide.co.nz/gym/f45/",
+   "name":"F45 Training NZ",
+   "url":"https://f45training.co.nz/",
+   "description":"Team-based HIIT — 45-minute functional fitness sessions",
+   "inLanguage":"en-NZ",
+   "offers":{"@type":"Offer","price":"25.0","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"25.0","priceCurrency":"NZD","unitText":"per week"}},
+   "aggregateRating":{
+     "@type":"AggregateRating",
+     "ratingValue":"4.5",
+     "reviewCount":"1240",
+     "bestRating":"5",
+     "worstRating":"1"
+   },
+   "review":[
+     {"@type":"Review","author":{"@type":"Person","name":"Josh W."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"F45 completely transformed how I approach fitness. The team environment makes it impossible not to push harder and the 45-minute sessions fit perfectly into a busy schedule.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Anna C."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Best fitness decision I've made. Trainers know everyone by name and the workout variety means I never get bored. Down 6kg in 2 months.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Nathan F."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Expensive but genuinely effective. The mix of cardio and strength days keeps things interesting. The 'party round' at the end is absolutely brutal in the best way.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Lucy M."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Love the workouts but the cost adds up quickly. At around $185/month it's a significant investment — worth it if you commit and attend consistently.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Chloe T."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Tried the free first week and was hooked immediately. The energy in a room of 20 people all pushing hard together is unlike anything at a regular gym.","datePublished":"December 2025"}
+   ]
+  }
+]}
 </script>
 
 </head>

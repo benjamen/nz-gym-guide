@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="/static/css/style.css">
 
   <!-- Favicon set -->
+  <link rel="icon" href="/static/img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
-  <link rel="alternate icon" href="/static/img/favicon.svg">
-  <link rel="apple-touch-icon" href="/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="/static/img/favicon.png">
   <meta name="theme-color" content="#2563eb">
 
   <!-- Open Graph / Facebook -->
@@ -34,31 +35,50 @@
   <meta name="author" content="NZ Gym Guide">
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz","inLanguage":"en-NZ",
+     "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nzgymguide.co.nz/compare/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+    {"@context":"https://schema.org","@type":"Organization","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz",
+     "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512},
+     "contactPoint":{"@type":"ContactPoint","email":"instituteofbba@gmail.com","contactType":"customer service"},
+     "sameAs":["https://www.facebook.com/nzgymguide"]}
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SportsActivityLocation",
-  "name": "Orangetheory Fitness NZ",
-  "url": "https://www.orangetheory.com/en-nz/",
-  "description": "Heart rate-based HIIT — science-backed 60-minute coached sessions",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.6",
-    "reviewCount": "480",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "review": [
-    {"@type":"Review","author":{"@type":"Person","name":"Zara M."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Nothing has transformed my fitness like Orangetheory. The OTbeat heart rate monitor keeps you accountable and the splat points system is genuinely addictive. Down 9kg in 4 months.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Tom W."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Worth every cent. The science-based approach means every session has a real purpose. The instructors are world class and the community is incredibly supportive.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Jade L."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Premium price but premium experience. Lost 8kg in 3 months. The mix of cardio and strength days keeps things interesting and you never do the same workout twice.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Mark S."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Great workout concept but the unlimited plan is expensive. Commit to 3+ sessions per week and it's worth it — otherwise the per-class rate gets costly.","datePublished":"December 2025"},{"@type":"Review","author":{"@type":"Person","name":"Sophie R."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"First class free got me in the door and I've been going 4 times a week ever since. The coaches know your name from day one and the energy in the room is electric.","datePublished":"November 2025"}
-  ]
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://nzgymguide.co.nz/"},
+    {"@type":"ListItem","position":2,"name":"Compare Gyms","item":"https://nzgymguide.co.nz/compare/"},
+    {"@type":"ListItem","position":3,"name":"Orangetheory Fitness","item":"https://nzgymguide.co.nz/gym/orangetheory/"}
+  ]},
+  {"@type":"SportsActivityLocation",
+   "@id":"https://nzgymguide.co.nz/gym/orangetheory/",
+   "name":"Orangetheory Fitness NZ",
+   "url":"https://www.orangetheory.com/en-nz/",
+   "description":"Heart rate-based HIIT — science-backed 60-minute coached sessions",
+   "inLanguage":"en-NZ",
+   "offers":{"@type":"Offer","price":"18.25","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"18.25","priceCurrency":"NZD","unitText":"per week"}},
+   "aggregateRating":{
+     "@type":"AggregateRating",
+     "ratingValue":"4.6",
+     "reviewCount":"480",
+     "bestRating":"5",
+     "worstRating":"1"
+   },
+   "review":[
+     {"@type":"Review","author":{"@type":"Person","name":"Zara M."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Nothing has transformed my fitness like Orangetheory. The OTbeat heart rate monitor keeps you accountable and the splat points system is genuinely addictive. Down 9kg in 4 months.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Tom W."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Worth every cent. The science-based approach means every session has a real purpose. The instructors are world class and the community is incredibly supportive.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Jade L."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Premium price but premium experience. Lost 8kg in 3 months. The mix of cardio and strength days keeps things interesting and you never do the same workout twice.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Mark S."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Great workout concept but the unlimited plan is expensive. Commit to 3+ sessions per week and it's worth it — otherwise the per-class rate gets costly.","datePublished":"December 2025"},{"@type":"Review","author":{"@type":"Person","name":"Sophie R."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"First class free got me in the door and I've been going 4 times a week ever since. The coaches know your name from day one and the energy in the room is electric.","datePublished":"November 2025"}
+   ]
+  }
+]}
 </script>
 
 </head>

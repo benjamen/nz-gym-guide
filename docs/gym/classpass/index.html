@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="/static/css/style.css">
 
   <!-- Favicon set -->
+  <link rel="icon" href="/static/img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
-  <link rel="alternate icon" href="/static/img/favicon.svg">
-  <link rel="apple-touch-icon" href="/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="/static/img/favicon.png">
   <meta name="theme-color" content="#2563eb">
 
   <!-- Open Graph / Facebook -->
@@ -34,31 +35,50 @@
   <meta name="author" content="NZ Gym Guide">
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz","inLanguage":"en-NZ",
+     "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nzgymguide.co.nz/compare/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+    {"@context":"https://schema.org","@type":"Organization","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz",
+     "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512},
+     "contactPoint":{"@type":"ContactPoint","email":"instituteofbba@gmail.com","contactType":"customer service"},
+     "sameAs":["https://www.facebook.com/nzgymguide"]}
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SportsActivityLocation",
-  "name": "ClassPass NZ",
-  "url": "https://classpass.com/nz",
-  "description": "Access hundreds of NZ gyms and studios on one membership",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.3",
-    "reviewCount": "2100",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "review": [
-    {"@type":"Review","author":{"@type":"Person","name":"Olivia H."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"The ultimate flexible membership. I've done yoga, reformer pilates, boxing and cycling all on one plan. The app makes booking incredibly easy.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Marcus T."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Great for variety but you need to be strategic about credits. Popular classes book out early so plan your week ahead. The free first month is a genuine no-risk trial.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Nicole K."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"On the standard plan — covers 8 classes a month which is perfect for my schedule. Saving money vs a traditional gym while doing more varied workouts.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Alex B."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Credits expiring is frustrating when life gets busy. The flexibility is unmatched though, and the free trial lets you work out if the credit system suits your lifestyle.","datePublished":"January 2026"},{"@type":"Review","author":{"@type":"Person","name":"Hannah W."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Found studios I never knew existed. ClassPass has opened up the fitness scene for me — tried 12 different studios in 3 months and found 3 I absolutely love.","datePublished":"November 2025"}
-  ]
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://nzgymguide.co.nz/"},
+    {"@type":"ListItem","position":2,"name":"Compare Gyms","item":"https://nzgymguide.co.nz/compare/"},
+    {"@type":"ListItem","position":3,"name":"ClassPass","item":"https://nzgymguide.co.nz/gym/classpass/"}
+  ]},
+  {"@type":"SportsActivityLocation",
+   "@id":"https://nzgymguide.co.nz/gym/classpass/",
+   "name":"ClassPass NZ",
+   "url":"https://classpass.com/nz",
+   "description":"Access hundreds of NZ gyms and studios on one membership",
+   "inLanguage":"en-NZ",
+   "offers":{"@type":"Offer","price":"9.0","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"9.0","priceCurrency":"NZD","unitText":"per week"}},
+   "aggregateRating":{
+     "@type":"AggregateRating",
+     "ratingValue":"4.3",
+     "reviewCount":"2100",
+     "bestRating":"5",
+     "worstRating":"1"
+   },
+   "review":[
+     {"@type":"Review","author":{"@type":"Person","name":"Olivia H."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"The ultimate flexible membership. I've done yoga, reformer pilates, boxing and cycling all on one plan. The app makes booking incredibly easy.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Marcus T."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Great for variety but you need to be strategic about credits. Popular classes book out early so plan your week ahead. The free first month is a genuine no-risk trial.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Nicole K."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"On the standard plan — covers 8 classes a month which is perfect for my schedule. Saving money vs a traditional gym while doing more varied workouts.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Alex B."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Credits expiring is frustrating when life gets busy. The flexibility is unmatched though, and the free trial lets you work out if the credit system suits your lifestyle.","datePublished":"January 2026"},{"@type":"Review","author":{"@type":"Person","name":"Hannah W."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Found studios I never knew existed. ClassPass has opened up the fitness scene for me — tried 12 different studios in 3 months and found 3 I absolutely love.","datePublished":"November 2025"}
+   ]
+  }
+]}
 </script>
 
 </head>

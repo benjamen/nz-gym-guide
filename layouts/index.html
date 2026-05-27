@@ -3,6 +3,20 @@
 {% block title %}NZ Gym Membership Comparison 2026 — Compare Prices & Contracts{% endblock %}
 {% block head_extra %}
 <script type="application/ld+json">
+[
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "NZ Gym Membership Comparison 2026",
+  "description": "All major New Zealand gym chains compared by price, contract and features",
+  "url": "{{ site.base_url }}/",
+  "numberOfItems": {{ gyms | length }},
+  "itemListElement": [
+    {% for gym in gyms %}
+    {"@type": "ListItem", "position": {{ loop.index }}, "name": "{{ gym.name }}", "url": "{{ site.base_url }}/gym/{{ gym.slug }}/"}{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+},
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -57,6 +71,7 @@
     }
   ]
 }
+]
 </script>
 {% endblock %}
 {% block desc %}Compare NZ gym memberships side by side. Find the cheapest gym near you — prices, contracts, and honest reviews for Les Mills, City Fitness, Anytime Fitness, ClassPass and more.{% endblock %}

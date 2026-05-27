@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="/static/css/style.css">
 
   <!-- Favicon set -->
+  <link rel="icon" href="/static/img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
-  <link rel="alternate icon" href="/static/img/favicon.svg">
-  <link rel="apple-touch-icon" href="/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="/static/img/favicon.png">
   <meta name="theme-color" content="#2563eb">
 
   <!-- Open Graph / Facebook -->
@@ -34,31 +35,50 @@
   <meta name="author" content="NZ Gym Guide">
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz","inLanguage":"en-NZ",
+     "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nzgymguide.co.nz/compare/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+    {"@context":"https://schema.org","@type":"Organization","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz",
+     "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512},
+     "contactPoint":{"@type":"ContactPoint","email":"instituteofbba@gmail.com","contactType":"customer service"},
+     "sameAs":["https://www.facebook.com/nzgymguide"]}
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SportsActivityLocation",
-  "name": "Les Mills NZ",
-  "url": "https://www.lesmills.co.nz/",
-  "description": "NZ's biggest gym chain — group fitness, premium facilities",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.1",
-    "reviewCount": "2840",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "review": [
-    {"@type":"Review","author":{"@type":"Person","name":"Rachel T."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"The group fitness classes are genuinely the best in NZ. Les Mills BodyPump changed my fitness level. The Auckland CBD club is well-maintained and the pool is always clean.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"James K."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Great facilities, especially the pool and sauna. The 3-month minimum term is a barrier but once you're in it's absolutely worth every dollar.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Priya S."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Perfect for a lunchtime workout from the office. There's always a class on and the crèche means I can bring my toddler on weekends without stress.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Mike O."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Would be 5 stars but the pricing process is frustrating — you can't check rates online, you have to go in person. Once I signed up though the experience has been excellent.","datePublished":"January 2026"},{"@type":"Review","author":{"@type":"Person","name":"Tara H."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Got the student discount and it's incredible value. The instructors know what they're doing and the class variety keeps it interesting every single week.","datePublished":"December 2025"}
-  ]
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://nzgymguide.co.nz/"},
+    {"@type":"ListItem","position":2,"name":"Compare Gyms","item":"https://nzgymguide.co.nz/compare/"},
+    {"@type":"ListItem","position":3,"name":"Les Mills","item":"https://nzgymguide.co.nz/gym/les-mills/"}
+  ]},
+  {"@type":"SportsActivityLocation",
+   "@id":"https://nzgymguide.co.nz/gym/les-mills/",
+   "name":"Les Mills NZ",
+   "url":"https://www.lesmills.co.nz/",
+   "description":"NZ's biggest gym chain — group fitness, premium facilities",
+   "inLanguage":"en-NZ",
+   "offers":{"@type":"Offer","price":"17.99","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"17.99","priceCurrency":"NZD","unitText":"per week"}},
+   "aggregateRating":{
+     "@type":"AggregateRating",
+     "ratingValue":"4.1",
+     "reviewCount":"2840",
+     "bestRating":"5",
+     "worstRating":"1"
+   },
+   "review":[
+     {"@type":"Review","author":{"@type":"Person","name":"Rachel T."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"The group fitness classes are genuinely the best in NZ. Les Mills BodyPump changed my fitness level. The Auckland CBD club is well-maintained and the pool is always clean.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"James K."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Great facilities, especially the pool and sauna. The 3-month minimum term is a barrier but once you're in it's absolutely worth every dollar.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Priya S."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Perfect for a lunchtime workout from the office. There's always a class on and the crèche means I can bring my toddler on weekends without stress.","datePublished":"February 2026"},{"@type":"Review","author":{"@type":"Person","name":"Mike O."},"reviewRating":{"@type":"Rating","ratingValue":"3"},"reviewBody":"Would be 5 stars but the pricing process is frustrating — you can't check rates online, you have to go in person. Once I signed up though the experience has been excellent.","datePublished":"January 2026"},{"@type":"Review","author":{"@type":"Person","name":"Tara H."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Got the student discount and it's incredible value. The instructors know what they're doing and the class variety keeps it interesting every single week.","datePublished":"December 2025"}
+   ]
+  }
+]}
 </script>
 
 </head>

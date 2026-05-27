@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="/static/css/style.css">
 
   <!-- Favicon set -->
+  <link rel="icon" href="/static/img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
-  <link rel="alternate icon" href="/static/img/favicon.svg">
-  <link rel="apple-touch-icon" href="/static/img/favicon.svg">
+  <link rel="apple-touch-icon" href="/static/img/favicon.png">
   <meta name="theme-color" content="#2563eb">
 
   <!-- Open Graph / Facebook -->
@@ -34,31 +35,50 @@
   <meta name="author" content="NZ Gym Guide">
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
   <meta name="impact-site-verification" value="380423f4-afdc-46d1-aee3-d9b53d0fd3c3">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {"@context":"https://schema.org","@type":"WebSite","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz","inLanguage":"en-NZ",
+     "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nzgymguide.co.nz/compare/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+    {"@context":"https://schema.org","@type":"Organization","name":"NZ Gym Guide","url":"https://nzgymguide.co.nz",
+     "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512},
+     "contactPoint":{"@type":"ContactPoint","email":"instituteofbba@gmail.com","contactType":"customer service"},
+     "sameAs":["https://www.facebook.com/nzgymguide"]}
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SportsActivityLocation",
-  "name": "Contours Women's Gym NZ",
-  "url": "https://www.contours.co.nz/",
-  "description": "Women-only circuit gym — 30-minute sessions, welcoming atmosphere",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.3",
-    "reviewCount": "340",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "review": [
-    {"@type":"Review","author":{"@type":"Person","name":"Fiona T."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Finally a gym where I feel completely comfortable! The women-only environment makes such a difference. The 30-minute circuit is perfect for busy mums — in, done, and home.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Janet K."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Been a member for 3 years and wouldn't change it. The staff remember everyone and it genuinely feels like a community. Lost 12kg since joining.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Karen W."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Love the circuit format — in and out in 30 minutes. Ideal if you're not sure where to start at the gym. The instructors explain every exercise and keep you on track.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Brenda L."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Affordable, friendly and genuinely effective. I tried the big chains before and never felt comfortable. Contours changed my relationship with exercise entirely.","datePublished":"January 2026"},{"@type":"Review","author":{"@type":"Person","name":"Renee O."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"If you're nervous about going to a gym for the first time, start here. No judgment, no confusion about what to do — just a supportive group of women encouraging each other.","datePublished":"November 2025"}
-  ]
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://nzgymguide.co.nz/"},
+    {"@type":"ListItem","position":2,"name":"Compare Gyms","item":"https://nzgymguide.co.nz/compare/"},
+    {"@type":"ListItem","position":3,"name":"Contours Women's Gym","item":"https://nzgymguide.co.nz/gym/contours/"}
+  ]},
+  {"@type":"SportsActivityLocation",
+   "@id":"https://nzgymguide.co.nz/gym/contours/",
+   "name":"Contours Women's Gym NZ",
+   "url":"https://www.contours.co.nz/",
+   "description":"Women-only circuit gym — 30-minute sessions, welcoming atmosphere",
+   "inLanguage":"en-NZ",
+   "offers":{"@type":"Offer","price":"9.99","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"9.99","priceCurrency":"NZD","unitText":"per week"}},
+   "aggregateRating":{
+     "@type":"AggregateRating",
+     "ratingValue":"4.3",
+     "reviewCount":"340",
+     "bestRating":"5",
+     "worstRating":"1"
+   },
+   "review":[
+     {"@type":"Review","author":{"@type":"Person","name":"Fiona T."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Finally a gym where I feel completely comfortable! The women-only environment makes such a difference. The 30-minute circuit is perfect for busy mums — in, done, and home.","datePublished":"May 2026"},{"@type":"Review","author":{"@type":"Person","name":"Janet K."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"Been a member for 3 years and wouldn't change it. The staff remember everyone and it genuinely feels like a community. Lost 12kg since joining.","datePublished":"April 2026"},{"@type":"Review","author":{"@type":"Person","name":"Karen W."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Love the circuit format — in and out in 30 minutes. Ideal if you're not sure where to start at the gym. The instructors explain every exercise and keep you on track.","datePublished":"March 2026"},{"@type":"Review","author":{"@type":"Person","name":"Brenda L."},"reviewRating":{"@type":"Rating","ratingValue":"4"},"reviewBody":"Affordable, friendly and genuinely effective. I tried the big chains before and never felt comfortable. Contours changed my relationship with exercise entirely.","datePublished":"January 2026"},{"@type":"Review","author":{"@type":"Person","name":"Renee O."},"reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"If you're nervous about going to a gym for the first time, start here. No judgment, no confusion about what to do — just a supportive group of women encouraging each other.","datePublished":"November 2025"}
+   ]
+  }
+]}
 </script>
 
 </head>

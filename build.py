@@ -134,17 +134,19 @@ def build():
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("compare", "0.9", "weekly")
     sitemap += sm_url("quiz", "0.8", "monthly")
-    for g in gyms:
-        sitemap += sm_url(f"gym/{g['slug']}", "0.8", "monthly")
-    for c in cities:
-        sitemap += sm_url(f"gym/{c['slug']}", "0.7", "monthly")
-    for g in guides:
-        sitemap += sm_url(f"guides/{g['slug']}", "0.7", "monthly")
+    sitemap += sm_url("guides", "0.7", "monthly")
+    sitemap += sm_url("diet", "0.8", "monthly")
     if posts:
         sitemap += sm_url("deals", "0.8", "daily")
+    for g in gyms:
+        sitemap += sm_url(f"gym/{g['slug']}", "0.85", "monthly")
+    for c in cities:
+        sitemap += sm_url(f"gym/{c['slug']}", "0.8", "monthly")
+    for g in guides:
+        sitemap += sm_url(f"guides/{g['slug']}", "0.75", "monthly")
+    if posts:
         for p in posts:
             sitemap += sm_url(f"deals/{p['slug']}", "0.8", "weekly")
-    sitemap += sm_url("diet", "0.8", "monthly")
     for dp in diet_plans:
         sitemap += sm_url(f"diet/{dp['slug']}", "0.8", "monthly")
     sitemap += sm_url("guides", "0.7", "monthly")
