@@ -1,0 +1,50 @@
+{
+  "title": "NZ Supplement Guide",
+  "short_title": "Supplements",
+  "meta_desc": "Discover the truth about gym supplements in NZ, including creatine, caffeine, and protein powder, and learn how to save money without compromising results",
+  "intro": "With over 70% of New Zealanders not meeting the recommended physical activity levels, many are turning to supplements to enhance their gym performance. However, with so many options available, it can be difficult to know what works and what doesn't. In this guide, we'll explore the most effective supplements for gym-goers in NZ, including creatine, caffeine, and protein powder.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What Works: Evidence-Based Supplements",
+      "body": "Research has shown that certain supplements can be beneficial for gym-goers. Creatine, for example, has been consistently shown to increase muscle strength and endurance. Caffeine can also improve performance, particularly in high-intensity activities. Protein powder, meanwhile, can help with muscle recovery and growth. However, it's essential to choose a reputable brand and follow the recommended dosage.",
+      "list": [
+        "Creatine: increases muscle strength and endurance",
+        "Caffeine: improves performance in high-intensity activities",
+        "Protein powder: aids in muscle recovery and growth"
+      ]
+    },
+    {
+      "heading": "NZ Supplement Brands: What to Look For",
+      "body": "When choosing a supplement brand in NZ, it's crucial to look for products that are made with high-quality ingredients and are free from contaminants. Some popular NZ supplement brands include NOW Foods, Musashi, and Balance Sports Nutrition. Additionally, consider brands that are accredited by organisations such as the NZ Ministry of Health or the Australian Institute of Sport.",
+      "list": [
+        "NOW Foods",
+        "Musashi",
+        "Balance Sports Nutrition"
+      ]
+    },
+    {
+      "heading": "Saving Money vs Results: Getting the Best Value",
+      "body": "By combining a gym membership with a balanced diet and effective supplements, you can achieve your fitness goals without breaking the bank. Many gyms in NZ also offer free consultations with personal trainers or nutritionists, who can help you create a personalized fitness plan.",
+      "cta": {
+        "text": "Find a gym near you and start saving",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "In conclusion, while supplements can be beneficial for gym-goers in NZ, it's essential to choose the right products and use them effectively. By following the evidence-based advice outlined in this guide, you can achieve your fitness goals without wasting money on ineffective supplements. Remember to always consult with a healthcare professional before starting any new supplement regimen.",
+      "cta": {
+        "text": "Take our fitness quiz to get started",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "supplements-gym-nz-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-28",
+  "post_type": "health_info"
+}

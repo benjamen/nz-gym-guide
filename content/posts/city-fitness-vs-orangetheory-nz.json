@@ -1,0 +1,67 @@
+{
+  "title": "City Fitness vs Orangetheory NZ",
+  "short_title": "City Fitness vs OTF",
+  "meta_desc": "Compare City Fitness and Orangetheory Fitness NZ on price, contract, facilities and overall value to choose the best gym for your needs.",
+  "intro": "City Fitness and Orangetheory Fitness NZ are two popular gym options in New Zealand, catering to different fitness needs and budgets. City Fitness is a budget-friendly option, while Orangetheory Fitness NZ is a boutique gym with a focus on high-intensity interval training. In this article, we will compare the two gyms to help you decide which one is best for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Price Comparison",
+      "body": "The price per week is a significant factor in choosing a gym. City Fitness offers a range of membership options, starting from $7.99 per week, while Orangetheory Fitness NZ starts at $18.25 per week. City Fitness also has a one-off joining fee of $29, whereas Orangetheory Fitness NZ has a registration fee of $49.",
+      "list": [
+        "City Fitness: $7.99-$18.99/week",
+        "Orangetheory Fitness NZ: $18.25-$46.15/week"
+      ]
+    },
+    {
+      "heading": "Contract and Cancellation",
+      "body": "City Fitness has a month-to-month membership option, allowing members to cancel at any time with no penalties. Orangetheory Fitness NZ also offers a flexible membership option, but it's crucial to check the specific cancellation terms before joining."
+    },
+    {
+      "heading": "Facilities and Locations",
+      "body": "In terms of locations, City Fitness has a wider presence across New Zealand, while Orangetheory Fitness NZ has a more limited number of locations.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per week",
+          "Contract length",
+          "Facilities",
+          "Locations",
+          "24/7 access"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$7.99-$18.99",
+            "No lock-in",
+            "Group fitness, personal training",
+            "Selected cities nationwide",
+            "Yes"
+          ],
+          [
+            "Orangetheory Fitness NZ",
+            "$18.25-$46.15",
+            "No lock-in",
+            "High-intensity interval training",
+            "Selected cities",
+            "Class times only"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "We recommend City Fitness for budget-conscious members, early birds and night owls, and those who want a full-service gym experience. Orangetheory Fitness NZ is suitable for data-driven fitness lovers, those with weight loss goals, and individuals who prefer guided coaching every session. Don't forget to check if you're eligible for the Exercise NZ subsidy, which can provide 40-70% off gym memberships for new or inactive members.",
+      "cta": {
+        "text": "Check your eligibility for the Exercise NZ subsidy",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "city-fitness-vs-orangetheory-nz",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-28",
+  "post_type": "comparison"
+}
