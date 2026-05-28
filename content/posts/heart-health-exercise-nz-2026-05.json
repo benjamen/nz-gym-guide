@@ -1,0 +1,60 @@
+{
+  "title": "Heart Health NZ",
+  "short_title": "Heart Health",
+  "meta_desc": "Learn how exercise improves heart health, NZ heart disease stats, and find a gym to support your fitness journey with nzgymguide.co.nz",
+  "intro": "Heart disease is a leading cause of death in New Zealand, with the Ministry of Health reporting over 160 deaths per 100,000 people annually. Regular exercise, particularly cardio training, is a proven way to reduce the risk of heart disease. A well-structured gym programme can help you achieve your heart health goals.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ Heart Disease Statistics",
+      "body": "According to the Ministry of Health, cardiovascular disease is responsible for over 30% of deaths in New Zealand. The risk factors for heart disease include high blood pressure, high cholesterol, smoking, and physical inactivity. Engaging in regular physical activity can significantly reduce these risk factors and improve overall heart health. Research suggests that at least 150 minutes of moderate-intensity aerobic exercise per week can lower the risk of heart disease by up to 30%.",
+      "list": [
+        "High blood pressure",
+        "High cholesterol",
+        "Smoking",
+        "Physical inactivity"
+      ]
+    },
+    {
+      "heading": "How Cardio Training Improves Heart Health",
+      "body": "Cardio training, such as running, cycling, or swimming, is an effective way to improve heart health. It does so by strengthening the heart, improving circulation, and increasing the efficiency of oxygen delivery to the muscles. Regular cardio exercise can also lower resting heart rate and improve overall cardiovascular function. The American Heart Association recommends at least 150 minutes of moderate-intensity aerobic exercise per week, which can be achieved through a combination of gym sessions and outdoor activities.",
+      "list": [
+        "Strengthening the heart",
+        "Improving circulation",
+        "Increasing oxygen delivery efficiency"
+      ]
+    },
+    {
+      "heading": "Target Heart Rate Zones",
+      "body": "To get the most out of your cardio training, it's essential to understand target heart rate zones. The American College of Sports Medicine recommends the following zones: 50-60% of maximum heart rate for low-intensity exercise, 60-70% for moderate-intensity exercise, and 70-85% for high-intensity exercise. A well-structured gym programme can help you identify and work within these zones to achieve optimal heart health benefits.",
+      "list": [
+        "50-60%: low-intensity exercise",
+        "60-70%: moderate-intensity exercise",
+        "70-85%: high-intensity exercise"
+      ]
+    },
+    {
+      "heading": "Gym Options in NZ",
+      "body": "Fortunately, there are many gym options available in New Zealand that can support your heart health journey. Many gyms offer cardio equipment, group fitness classes, and personal training sessions. Additionally, Exercise NZ's subsidised gym scheme offers discounts of up to 70% off gym memberships for eligible individuals. You can find a list of participating gyms on the Exercise NZ website.",
+      "list": [
+        "Cardio equipment",
+        "Group fitness classes",
+        "Personal training sessions"
+      ]
+    },
+    {
+      "heading": "Take the First Step",
+      "body": "Improving heart health through exercise is a journey that requires commitment and dedication. By understanding the benefits of cardio training, target heart rate zones, and gym options available in NZ, you can take the first step towards a healthier heart. Consider visiting nzgymguide.co.nz to compare gym memberships and find a programme that suits your needs.",
+      "cta": {
+        "text": "Compare Gyms or Take Our Quiz",
+        "url": "https://nzgymguide.co.nz/compare/ or https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "heart-health-exercise-nz-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-29",
+  "post_type": "health_info"
+}

@@ -1,0 +1,68 @@
+{
+  "title": "Anytime Fitness vs Jetts NZ",
+  "short_title": "Gym Comparison",
+  "meta_desc": "Compare Anytime Fitness and Jetts NZ prices, contracts, and facilities to find the best gym for your needs in New Zealand.",
+  "intro": "Anytime Fitness and Jetts NZ are two popular gym options in New Zealand, offering 24/7 access and flexible membership plans. However, they differ in price, contract length, and facilities. In this article, we will compare these two gyms to help you decide which one is best for you. Both gyms are also eligible for Exercise NZ's subsidised gym scheme, which offers 40-70% off for new or inactive members.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Price Comparison",
+      "body": "Anytime Fitness and Jetts NZ have different pricing structures. Anytime Fitness costs between $16.95 and $22.95 per week, while Jetts NZ costs between $14.95 and $19.95 per week. Additionally, Anytime Fitness often charges a $49 joining fee, although this can be waived at some locations. Jetts NZ, on the other hand, has no joining fee.",
+      "list": [
+        "Anytime Fitness: $16.95-$22.95/week",
+        "Jetts NZ: $14.95-$19.95/week"
+      ]
+    },
+    {
+      "heading": "Contract and Cancellation",
+      "body": "Anytime Fitness typically requires a 12-month contract, while Jetts NZ offers no lock-in contracts, allowing you to cancel anytime. This flexibility makes Jetts NZ a more attractive option for those who want to try out a gym without committing to a long-term contract.",
+      "list": [
+        "Anytime Fitness: 12-month contract",
+        "Jetts NZ: No lock-in contract"
+      ]
+    },
+    {
+      "heading": "Facilities and Locations",
+      "body": "Both gyms offer 24/7 access and personal training, but they differ in the number of locations and global access. Anytime Fitness has over 600 clubs worldwide, making it a great option for frequent travellers. Jetts NZ, on the other hand, has fewer locations, but is still a good choice for those who want flexibility and no joining fee.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price/Week",
+          "Contract Length",
+          "Locations",
+          "24/7 Access"
+        ],
+        "rows": [
+          [
+            "Anytime Fitness",
+            "$16.95-$22.95",
+            "12 months",
+            "Nationwide",
+            "Yes"
+          ],
+          [
+            "Jetts NZ",
+            "$14.95-$19.95",
+            "No lock-in",
+            "Selected cities",
+            "Yes"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on the comparison, we recommend Anytime Fitness for frequent travellers or those who want global access to gyms. Jetts NZ is a better option for those who want flexibility, no joining fee, and no lock-in contracts. Ultimately, the choice between Anytime Fitness and Jetts NZ depends on your individual needs and preferences. Don't forget to check if you're eligible for Exercise NZ's subsidised gym scheme, which can offer significant discounts on membership prices.",
+      "cta": {
+        "text": "Check Exercise NZ's subsidised gym scheme",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "anytime-fitness-vs-jetts-nz",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-29",
+  "post_type": "comparison"
+}
