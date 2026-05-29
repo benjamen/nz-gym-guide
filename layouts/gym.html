@@ -27,9 +27,23 @@
      "worstRating":"1"
    }{% if gym.google_reviews %},
    "review":[
-     {% for r in gym.google_reviews %}{"@type":"Review","author":{"@type":"Person","name":"{{ r.name }}"},"reviewRating":{"@type":"Rating","ratingValue":"{{ r.rating }}"},"reviewBody":"{{ r.text }}","datePublished":"{{ r.date }}"}{% if not loop.last %},{% endif %}{% endfor %}
+     {% for r in gym.google_reviews %}{"@type":"Review","author":{"@type":"Person","name":"{{ r.name }}"},"reviewRating":{"@type":"Rating","ratingValue":"{{ r.rating }}"},"reviewBody":{{ r.text | tojson }},"datePublished":"{{ r.date }}"}{% if not loop.last %},{% endif %}{% endfor %}
    ]{% endif %}
-  }
+  },
+  {"@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":{{ ("How much does " ~ gym.name ~ " cost per week in NZ?") | tojson }},
+     "acceptedAnswer":{"@type":"Answer","text":{{ (gym.name ~ " membership costs from $" ~ gym.pricing.weekly_from ~ " to $" ~ gym.pricing.weekly_to ~ " per week. Joining fee: $" ~ gym.pricing.joining_fee ~ ". " ~ (gym.pricing.joining_fee_note or "")) | tojson }}
+    }},
+    {"@type":"Question","name":{{ ("Does " ~ gym.name ~ " require a contract in NZ?") | tojson }},
+     "acceptedAnswer":{"@type":"Answer","text":{{ (("No lock-in contract — you can cancel anytime." if gym.features.no_lock_in else "Minimum term of " ~ gym.pricing.minimum_term ~ " required. " ~ gym.cancellation) | truncate(300)) | tojson }}
+    }},
+    {"@type":"Question","name":{{ ("Is " ~ gym.name ~ " open 24/7?") | tojson }},
+     "acceptedAnswer":{"@type":"Answer","text":{{ (("Yes, " ~ gym.name ~ " locations are open 24/7 with key fob access.") if gym.features.open_247 else (gym.name ~ " is not 24/7. Check individual locations for opening hours.")) | tojson }}
+    }},
+    {"@type":"Question","name":{{ ("Is " ~ gym.name ~ " worth it in NZ?") | tojson }},
+     "acceptedAnswer":{"@type":"Answer","text":{{ gym.verdict | tojson }}
+    }}
+  ]}
 ]}
 </script>
 {% endblock %}
