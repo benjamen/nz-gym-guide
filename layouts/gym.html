@@ -110,14 +110,12 @@
 </div>
 {% endif %}
 
-<!-- Verdict -->
+<!-- Quick answer block — AI extractable summary -->
 <section class="section">
-  <h2>Our Verdict</h2>
-  <div class="verdict-box">
-    <p>{{ gym.verdict }}</p>
-    <p><strong>Best for:</strong> {{ gym.best_for }}</p>
-    <p><strong>Watch out for:</strong> {{ gym.watch_out }}</p>
-    {% if gym.discount_note %}<p><strong>Discounts:</strong> {{ gym.discount_note }}</p>{% endif %}
+  <div class="quick-answer-box">
+    <h2>Is {{ gym.name }} Worth It? Quick Answer</h2>
+    <p>{{ gym.verdict }} <strong>Best for:</strong> {{ gym.best_for }}. <strong>Watch out for:</strong> {{ gym.watch_out }}.</p>
+    <p><strong>Cost:</strong> ${{ gym.pricing.weekly_from }}–${{ gym.pricing.weekly_to }}/week. Joining fee: ${{ gym.pricing.joining_fee }}{% if gym.pricing.joining_fee_note %} ({{ gym.pricing.joining_fee_note }}){% endif %}.</p>
   </div>
 </section>
 

@@ -1,0 +1,28 @@
+# NZ Gym Guide
+
+NZ Gym Guide is an independent gym comparison site for New Zealand.
+We compare gym memberships, prices, contracts, and features across major NZ gym chains.
+
+## What We Cover
+
+- Side-by-side gym membership comparisons (price, contract, features)
+- City guides: Auckland, Wellington, Christchurch, Hamilton, Tauranga, Dunedin
+- Gym reviews for Anytime Fitness, Les Mills, Jetts, Snap Fitness, Gym Society, and more
+- Free 'Find My Gym' quiz to match users to the best gym for their needs
+- Cheapest gym guides and 24/7 gym guides for NZ
+- Free diet plans (lose weight, gain muscle, feel healthier)
+- Current gym deals and promotions
+
+## Key Pages
+
+- Compare all gyms: https://nzgymguide.co.nz/compare/
+- Find My Gym quiz: https://nzgymguide.co.nz/quiz/
+- Auckland gyms: https://nzgymguide.co.nz/gym/auckland/
+- Wellington gyms: https://nzgymguide.co.nz/gym/wellington/
+- Cheapest gym NZ: https://nzgymguide.co.nz/guides/cheapest-gym-nz/
+- Best 24/7 gym NZ: https://nzgymguide.co.nz/guides/best-247-gym-nz/
+
+## About
+
+Independent, unsponsored gym comparisons. Pricing data is updated regularly.
+Contact: instituteofbba@gmail.com

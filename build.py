@@ -169,9 +169,43 @@ def build():
     sitemap += "</urlset>"
     (OUT / "sitemap.xml").write_text(sitemap)
 
-    # robots.txt
+    # robots.txt — allow all AI search/citation bots, block training-only scrapers
     (OUT / "robots.txt").write_text(
-        f"User-agent: *\nAllow: /\nSitemap: {site['base_url']}/sitemap.xml\n"
+        f"User-agent: *\nAllow: /\n\n"
+        "User-agent: GPTBot\nAllow: /\n\n"
+        "User-agent: ChatGPT-User\nAllow: /\n\n"
+        "User-agent: PerplexityBot\nAllow: /\n\n"
+        "User-agent: ClaudeBot\nAllow: /\n\n"
+        "User-agent: anthropic-ai\nAllow: /\n\n"
+        "User-agent: Google-Extended\nAllow: /\n\n"
+        "User-agent: Bingbot\nAllow: /\n\n"
+        "User-agent: CCBot\nDisallow: /\n\n"
+        f"Sitemap: {site['base_url']}/sitemap.xml\n"
+    )
+
+    # llms.txt — context file for AI systems
+    (OUT / "llms.txt").write_text(
+        "# NZ Gym Guide\n\n"
+        "NZ Gym Guide is an independent gym comparison site for New Zealand.\n"
+        "We compare gym memberships, prices, contracts, and features across major NZ gym chains.\n\n"
+        "## What We Cover\n\n"
+        "- Side-by-side gym membership comparisons (price, contract, features)\n"
+        "- City guides: Auckland, Wellington, Christchurch, Hamilton, Tauranga, Dunedin\n"
+        "- Gym reviews for Anytime Fitness, Les Mills, Jetts, Snap Fitness, Gym Society, and more\n"
+        "- Free 'Find My Gym' quiz to match users to the best gym for their needs\n"
+        "- Cheapest gym guides and 24/7 gym guides for NZ\n"
+        "- Free diet plans (lose weight, gain muscle, feel healthier)\n"
+        "- Current gym deals and promotions\n\n"
+        "## Key Pages\n\n"
+        f"- Compare all gyms: {site['base_url']}/compare/\n"
+        f"- Find My Gym quiz: {site['base_url']}/quiz/\n"
+        f"- Auckland gyms: {site['base_url']}/gym/auckland/\n"
+        f"- Wellington gyms: {site['base_url']}/gym/wellington/\n"
+        f"- Cheapest gym NZ: {site['base_url']}/guides/cheapest-gym-nz/\n"
+        f"- Best 24/7 gym NZ: {site['base_url']}/guides/best-247-gym-nz/\n\n"
+        "## About\n\n"
+        "Independent, unsponsored gym comparisons. Pricing data is updated regularly.\n"
+        f"Contact: {site['contact_email']}\n"
     )
 
     # CNAME for GitHub Pages
