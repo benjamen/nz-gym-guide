@@ -63,5 +63,11 @@
   "updated": "May 2026",
   "auto_generated": true,
   "generated_date": "2026-05-28",
-  "post_type": "comparison"
+  "post_type": "comparison",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gym_01_16k_%E2%80%93_Panorama_%28Sergej_Majboroda_via_Poly_Haven%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gym_01_16k_%E2%80%93_Panorama_%28Sergej_Majboroda_via_Poly_Haven%29.jpg",
+    "alt": "Modern fitness gym panorama with equipment",
+    "credit": "Wikimedia Commons"
+  }
 }

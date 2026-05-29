@@ -68,5 +68,11 @@
   "slug": "tauranga-gym-deals-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-25"
+  "generated_date": "2026-05-25",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Mount_Maunganui%2C_Tauranga%2C_New_Zealand_%28Unsplash_2FFh56Q9jWs%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Mount_Maunganui%2C_Tauranga%2C_New_Zealand_%28Unsplash_2FFh56Q9jWs%29.jpg",
+    "alt": "Mount Maunganui beach and volcanic cone, Tauranga",
+    "credit": "Wikimedia Commons"
+  }
 }

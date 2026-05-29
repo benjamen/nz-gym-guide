@@ -71,5 +71,11 @@
   "slug": "cheapest-gyms-dunedin-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-25"
+  "generated_date": "2026-05-25",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Dunedin-Nueva_Zelanda04.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/68/Dunedin-Nueva_Zelanda04.JPG",
+    "alt": "Dunedin Railway Station, New Zealand",
+    "credit": "Wikimedia Commons"
+  }
 }

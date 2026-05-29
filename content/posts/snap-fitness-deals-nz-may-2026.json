@@ -50,5 +50,11 @@
   "slug": "snap-fitness-deals-nz-may-2026",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-25"
+  "generated_date": "2026-05-25",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gym_01_16k_%E2%80%93_Panorama_%28Sergej_Majboroda_via_Poly_Haven%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gym_01_16k_%E2%80%93_Panorama_%28Sergej_Majboroda_via_Poly_Haven%29.jpg",
+    "alt": "Snap Fitness gym — 24/7 gym deals New Zealand",
+    "credit": "Wikimedia Commons"
+  }
 }

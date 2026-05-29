@@ -64,5 +64,11 @@
   "updated": "May 2026",
   "auto_generated": true,
   "generated_date": "2026-05-29",
-  "post_type": "comparison"
+  "post_type": "comparison",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Health_club_in_Gothenburg_Sweden_in_March_2025.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Health_club_in_Gothenburg_Sweden_in_March_2025.jpg",
+    "alt": "NZ gym membership comparison — equipment and weights area",
+    "credit": "Wikimedia Commons"
+  }
 }

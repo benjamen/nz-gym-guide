@@ -54,5 +54,11 @@
   "slug": "snap-fitness-vs-jetts-nz",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-25"
+  "generated_date": "2026-05-25",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Attractive_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/14/Attractive_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg",
+    "alt": "Comparing Snap Fitness vs Jetts gym membership NZ",
+    "credit": "Wikimedia Commons"
+  }
 }

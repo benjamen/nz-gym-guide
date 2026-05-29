@@ -50,5 +50,11 @@
   "slug": "jetts-review-nz-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-26"
+  "generated_date": "2026-05-26",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Health_club_in_Gothenburg_Sweden_in_March_2025.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Health_club_in_Gothenburg_Sweden_in_March_2025.jpg",
+    "alt": "Jetts gym interior — 24/7 fitness club NZ",
+    "credit": "Wikimedia Commons"
+  }
 }

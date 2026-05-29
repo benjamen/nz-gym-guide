@@ -79,5 +79,11 @@
   "slug": "hamilton-gym-deals-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-26"
+  "generated_date": "2026-05-26",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Waikato_river_750px.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Waikato_river_750px.jpg",
+    "alt": "Waikato River flowing through Hamilton, New Zealand",
+    "credit": "Wikimedia Commons"
+  }
 }

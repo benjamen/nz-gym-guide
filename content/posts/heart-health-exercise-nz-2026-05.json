@@ -56,5 +56,11 @@
   "updated": "May 2026",
   "auto_generated": true,
   "generated_date": "2026-05-29",
-  "post_type": "health_info"
+  "post_type": "health_info",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Young_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Young_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg",
+    "alt": "Exercise for heart health — cardio and weights",
+    "credit": "Wikimedia Commons"
+  }
 }

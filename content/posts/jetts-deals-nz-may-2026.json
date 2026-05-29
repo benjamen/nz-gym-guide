@@ -60,5 +60,11 @@
   "slug": "jetts-deals-nz-may-2026",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-26"
+  "generated_date": "2026-05-26",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gym_01_16k_%E2%80%93_Panorama_%28Sergej_Majboroda_via_Poly_Haven%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gym_01_16k_%E2%80%93_Panorama_%28Sergej_Majboroda_via_Poly_Haven%29.jpg",
+    "alt": "Jetts 24/7 gym — open access gym in New Zealand",
+    "credit": "Wikimedia Commons"
+  }
 }
