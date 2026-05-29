@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}About NZ Gym Guide — How We Research & Compare Gyms{% endblock %}
+{% block desc %}NZ Gym Guide is built by Kiwis who have actually joined these gyms. We test memberships, verify current prices, and only recommend what we'd sign up for ourselves.{% endblock %}
+{% block canonical %}about/{% endblock %}
+
+{% block head_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About NZ Gym Guide",
+  "description": "NZ Gym Guide is an independent comparison site for gym memberships in New Zealand.",
+  "url": "{{ site.base_url }}/about/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "NZ Gym Guide",
+    "url": "{{ site.base_url }}",
+    "contactPoint": {"@type": "ContactPoint", "email": "{{ site.contact_email }}", "contactType": "customer support"}
+  }
+}
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › About</div>
+    <h1>About NZ Gym Guide</h1>
+    <p>Who we are, how we research, and why gym comparison in NZ needed to be done better.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div style="max-width:780px">
+
+    <h2>What is NZ Gym Guide?</h2>
+    <p style="margin-bottom:1.5rem">NZ Gym Guide is an independent comparison site for gym memberships across New Zealand. We cover every major chain — City Fitness, Jetts, Anytime Fitness, Snap Fitness, Les Mills, F45, YMCA, Orangetheory, and more — with honest pricing, contract breakdowns, and real-world assessments of who each gym actually suits.</p>
+
+    <p style="margin-bottom:1.5rem">We built this because gym pricing in NZ is deliberately hard to find online, contracts are confusing, and most "review" sites are just thinly veiled affiliate landing pages. We try to be different: tell you what things actually cost, what the contracts actually say, and which gym is right for your specific goals and budget.</p>
+
+    <h2>How We Research</h2>
+    <p style="margin-bottom:1rem">Our content is based on:</p>
+    <ul style="margin-bottom:1.5rem;line-height:2">
+      <li><strong>Direct membership sign-ups</strong> — we have personally joined and used the major NZ gym chains to verify what the experience is actually like</li>
+      <li><strong>Current price verification</strong> — prices are checked regularly and updated when chains change their pricing. Franchise prices vary so we show ranges, not false precision</li>
+      <li><strong>Contract review</strong> — we read the actual membership agreements so you don't have to</li>
+      <li><strong>Consumer law research</strong> — our cancellation guides are based on NZ's Consumer Guarantees Act and Fair Trading Act, not just what gyms tell you</li>
+      <li><strong>Community input</strong> — feedback from NZ gym-goers via Reddit NZ, Facebook groups, and direct email</li>
+    </ul>
+
+    <h2>Our Affiliate Disclosure</h2>
+    <p style="margin-bottom:1.5rem">We earn a commission on some referrals (ClassPass, Orangetheory, Les Mills, Myprotein). This never affects our gym rankings or ratings — chains that don't pay us still appear in our comparison tables, and we give honest verdicts even when that means saying a gym isn't worth it. You pay the same price whether you use our links or not.</p>
+
+    <div style="background:#eff6ff;border-radius:8px;padding:1.5rem;margin-bottom:1.5rem;border-left:4px solid #2563eb">
+      <strong>Our policy:</strong> If a gym has consistent complaints about hidden fees, aggressive sales tactics, or refusing to cancel memberships, we say so — even if they have an affiliate programme.
+    </div>
+
+    <h2>Exercise NZ Subsidies</h2>
+    <p style="margin-bottom:1.5rem">We are strong advocates for the Exercise NZ subsidy scheme, which provides 40–70% off gym memberships for people who are new to exercise or have been inactive for 12+ months. We include subsidy eligibility info throughout the site because most Kiwis don't know it exists.</p>
+
+    <h2>Who Runs This Site?</h2>
+    <p style="margin-bottom:1.5rem">NZ Gym Guide is operated by a small team based in Auckland and Wellington. We are fitness enthusiasts, not fitness influencers — we care about helping people find a gym they'll actually use, at a price that's genuinely fair.</p>
+
+    <h2>Contact Us</h2>
+    <p>Corrections, price updates, or gym tips: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+    <p style="margin-top:.75rem">If you've found a pricing error or a gym worth adding, email us. We update regularly and take accuracy seriously.</p>
+
+  </div>
+</section>
+
+<section class="section section-alt">
+  <h2>Start Comparing Gyms</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem">
+    <a href="/guides/cheapest-gym-nz/" style="display:block;background:#fff;border-radius:8px;padding:1.25rem;text-decoration:none;color:inherit;border:1px solid #e5e7eb"><h3 style="margin:0 0 .5rem">💸 Cheapest Gym NZ</h3><p style="margin:0;font-size:.9rem;color:#6b7280">Verified 2026 prices from $7.99/week — with tips to get joining fees waived.</p></a>
+    <a href="/guides/best-247-gym-nz/" style="display:block;background:#fff;border-radius:8px;padding:1.25rem;text-decoration:none;color:inherit;border:1px solid #e5e7eb"><h3 style="margin:0 0 .5rem">⏰ Best 24/7 Gym</h3><p style="margin:0;font-size:.9rem;color:#6b7280">City Fitness, Jetts, Snap, Anytime — compared honestly on price and locations.</p></a>
+    <a href="/quiz/" style="display:block;background:#fff;border-radius:8px;padding:1.25rem;text-decoration:none;color:inherit;border:1px solid #e5e7eb"><h3 style="margin:0 0 .5rem">🎯 Find My Gym Quiz</h3><p style="margin:0;font-size:.9rem;color:#6b7280">6 questions, personalised recommendation based on budget and goals.</p></a>
+    <a href="/guides/cancel-gym-membership-nz/" style="display:block;background:#fff;border-radius:8px;padding:1.25rem;text-decoration:none;color:inherit;border:1px solid #e5e7eb"><h3 style="margin:0 0 .5rem">❌ How to Cancel</h3><p style="margin:0;font-size:.9rem;color:#6b7280">Your rights under NZ consumer law — and how to avoid paying out your contract.</p></a>
+  </div>
+</section>
+{% endblock %}

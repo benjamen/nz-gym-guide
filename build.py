@@ -92,6 +92,10 @@ def build():
             render("guide.html", f"deals/{post['slug']}/index.html",
                    guide=post, **ctx)
 
+    # About and Privacy pages
+    render("about.html", "about/index.html", **ctx)
+    render("privacy.html", "privacy/index.html", **ctx)
+
     # Quiz page
     render("quiz.html", "quiz/index.html", **ctx)
 
@@ -134,6 +138,8 @@ def build():
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("compare", "0.9", "weekly")
     sitemap += sm_url("quiz", "0.8", "monthly")
+    sitemap += sm_url("about", "0.5", "yearly")
+    sitemap += sm_url("privacy", "0.3", "yearly")
     sitemap += sm_url("guides", "0.7", "monthly")
     sitemap += sm_url("diet", "0.8", "monthly")
     if posts:

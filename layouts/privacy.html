@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy — NZ Gym Guide{% endblock %}
+{% block desc %}NZ Gym Guide privacy policy: what data we collect, how we use it, affiliate disclosures, and your rights under NZ privacy law.{% endblock %}
+{% block canonical %}privacy/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Privacy Policy</div>
+    <h1>Privacy Policy</h1>
+    <p>Last updated: May 2026</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div style="max-width:780px;line-height:1.8">
+
+    <h2>Overview</h2>
+    <p>NZ Gym Guide (nzgymguide.co.nz) is committed to protecting your privacy. This policy explains what information we collect, how we use it, and your rights under the New Zealand Privacy Act 2020.</p>
+
+    <h2>Information We Collect</h2>
+    <h3>Automatically collected</h3>
+    <ul style="margin-bottom:1rem">
+      <li><strong>Analytics data</strong> — we use Google Analytics 4 to understand how visitors use the site (pages visited, time on site, approximate location). This data is anonymised and does not identify you personally.</li>
+      <li><strong>Server logs</strong> — standard web server logs including IP addresses, browser type, and pages requested. Logs are retained for up to 30 days.</li>
+    </ul>
+    <h3>Information you provide</h3>
+    <ul style="margin-bottom:1.5rem">
+      <li><strong>Email contact</strong> — if you email us at {{ site.contact_email }}, we retain your email address to respond to your query. We do not add you to any mailing list.</li>
+    </ul>
+
+    <h2>Cookies</h2>
+    <p style="margin-bottom:1rem">We use the following cookies:</p>
+    <ul style="margin-bottom:1.5rem">
+      <li><strong>Google Analytics</strong> — analytics cookies (_ga, _gid) to measure site traffic. You can opt out via Google's opt-out tool.</li>
+      <li><strong>Affiliate tracking</strong> — if you click an affiliate link (ClassPass, Orangetheory, Les Mills, Myprotein), the destination site may set tracking cookies. We do not control these.</li>
+    </ul>
+
+    <h2>Affiliate Disclosure</h2>
+    <p style="margin-bottom:1.5rem">NZ Gym Guide earns commission from some referrals. Affiliate relationships include ClassPass (Impact), Orangetheory (Impact), Les Mills (Awin), and Myprotein (Awin). Affiliate links do not cost you anything extra. Our gym rankings and editorial content are not influenced by commercial relationships — gyms that don't pay us still appear in our comparisons.</p>
+
+    <h2>Third-Party Services</h2>
+    <ul style="margin-bottom:1.5rem">
+      <li><strong>Google Analytics 4</strong> — governed by <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a></li>
+      <li><strong>GitHub Pages</strong> — this site is hosted on GitHub Pages. GitHub may collect basic request logs per their privacy policy.</li>
+    </ul>
+
+    <h2>Your Rights (NZ Privacy Act 2020)</h2>
+    <p style="margin-bottom:1rem">Under the Privacy Act 2020, you have the right to:</p>
+    <ul style="margin-bottom:1.5rem">
+      <li>Request access to any personal information we hold about you</li>
+      <li>Request correction of inaccurate personal information</li>
+      <li>Request deletion of personal information we hold about you</li>
+    </ul>
+    <p style="margin-bottom:1.5rem">To exercise these rights, email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>. We will respond within 20 working days.</p>
+
+    <h2>Contact</h2>
+    <p>Privacy queries: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+
+  </div>
+</section>
+{% endblock %}
