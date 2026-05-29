@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+
+{% block title %}{{ gym.name }} {{ city.name }} — Membership Prices & Locations 2026{% endblock %}
+{% block desc %}{{ gym.name }} {{ city.name }} membership from ${{ gym.pricing.weekly_from }}/week. Real 2026 prices, contract terms, locations across {{ city.name }}, and how it compares to other {{ city.name }} gyms.{% endblock %}
+{% block canonical %}gym/{{ gym.slug }}/{{ city.slug }}/{% endblock %}
+
+{% block head_extra %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
+    {"@type":"ListItem","position":2,"name":"Compare Gyms","item":"{{ site.base_url }}/compare/"},
+    {"@type":"ListItem","position":3,"name":"{{ gym.name }}","item":"{{ site.base_url }}/gym/{{ gym.slug }}/"},
+    {"@type":"ListItem","position":4,"name":"{{ city.name }}","item":"{{ site.base_url }}/gym/{{ gym.slug }}/{{ city.slug }}/"}
+  ]},
+  {"@type":["SportsActivityLocation","LocalBusiness"],
+   "name":"{{ gym.name }} {{ city.name }}",
+   "description":"{{ gym.name }} membership in {{ city.name }} from ${{ gym.pricing.weekly_from }}/week. {{ gym.tagline }}",
+   "url":"{{ site.base_url }}/gym/{{ gym.slug }}/{{ city.slug }}/",
+   "areaServed":{"@type":"City","name":"{{ city.name }}","containedInPlace":{"@type":"Country","name":"New Zealand"}},
+   "offers":{"@type":"Offer","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","unitText":"per week"}}},
+  {"@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":{{ ("How much does " ~ gym.name ~ " cost in " ~ city.name ~ "?") | tojson }},
+     "acceptedAnswer":{"@type":"Answer","text":{{ (gym.name ~ " " ~ city.name ~ " membership costs from $" ~ gym.pricing.weekly_from ~ " to $" ~ gym.pricing.weekly_to ~ " per week. Joining fee is $" ~ gym.pricing.joining_fee ~ ((" (" ~ gym.pricing.joining_fee_note ~ ")") if gym.pricing.joining_fee_note else "") ~ ".") | tojson }}},
+    {"@type":"Question","name":{{ ("Where are " ~ gym.name ~ " locations in " ~ city.name ~ "?") | tojson }},
+     "acceptedAnswer":{"@type":"Answer","text":{{ (gym.name ~ " has multiple locations across " ~ city.name ~ ". Use their website or app to find the nearest club to you.") | tojson }}},
+    {"@type":"Question","name":{{ ("Is " ~ gym.name ~ " the cheapest gym in " ~ city.name ~ "?") | tojson }},
+     "acceptedAnswer":{"@type":"Answer","text":{{ ("The cheapest gym in " ~ city.name ~ " is " ~ (city.cheapest_option | replace("-", " ") | title) ~ ". " ~ gym.name ~ " starts from $" ~ gym.pricing.weekly_from ~ "/week and is classified as " ~ gym.type ~ ".") | tojson }}},
+    {"@type":"Question","name":{{ ("Does " ~ gym.name ~ " have a contract in " ~ city.name ~ "?") | tojson }},
+     "acceptedAnswer":{"@type":"Answer","text":{{ ((gym.name ~ " in " ~ city.name ~ " requires a minimum term of " ~ gym.pricing.minimum_term ~ ".") if not gym.features.no_lock_in else (gym.name ~ " in " ~ city.name ~ " has no lock-in contract — you can cancel anytime.")) | tojson }}}
+  ]}
+]}
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/compare/">Compare</a> › <a href="/gym/{{ gym.slug }}/">{{ gym.name }}</a> › {{ city.name }}</div>
+    <h1>{{ gym.name }} {{ city.name }} — Membership Guide 2026</h1>
+    <p>{{ gym.name }} membership in {{ city.name }} from ${{ gym.pricing.weekly_from }}/week. Real prices, contract terms, and how it compares to other {{ city.name }} gyms.</p>
+    <div class="gym-badges">
+      <span class="gym-type type-{{ gym.type|lower|replace(' ','-') }}">{{ gym.type }}</span>
+      {% if gym.features.open_247 %}<span class="feat">24/7 access</span>{% endif %}
+      {% if gym.features.no_lock_in %}<span class="feat feat-green">No lock-in</span>{% endif %}
+      {% if gym.nationwide %}<span class="feat">Nationwide</span>{% endif %}
+    </div>
+    <p class="verified-stamp">✓ Prices verified May 2026 · <a href="{{ gym.website }}" target="_blank" rel="nofollow noopener">Confirm at {{ gym.name }} →</a></p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<!-- Quick answer block -->
+<section class="section">
+  <div class="quick-answer-box">
+    <h2>{{ gym.name }} {{ city.name }} — Quick Answer</h2>
+    <p>{{ gym.name }} {{ city.name }} costs <strong>${{ gym.pricing.weekly_from }}–${{ gym.pricing.weekly_to }}/week</strong> with a ${{ gym.pricing.joining_fee }} joining fee{% if gym.pricing.joining_fee_note %} ({{ gym.pricing.joining_fee_note }}){% endif %}. {{ "No lock-in contract." if gym.features.no_lock_in else ("Minimum term: " ~ gym.pricing.minimum_term ~ ".") }} {{ "24/7 access." if gym.features.open_247 else "" }}</p>
+    <p>In {{ city.name }}, the cheapest gym is <a href="/gym/{{ city.cheapest_option }}/">{{ city.cheapest_option | replace("-", " ") | title }}</a>. The best value pick is <a href="/gym/{{ city.best_value }}/">{{ city.best_value | replace("-", " ") | title }}</a>.</p>
+  </div>
+</section>
+
+<!-- Key stats -->
+<section class="section">
+  <div class="stats-grid">
+    <div class="stat-box">
+      <span class="stat-val">${{ gym.pricing.weekly_from }}–${{ gym.pricing.weekly_to }}</span>
+      <span class="stat-label">Per week</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-val">${{ gym.pricing.joining_fee }}</span>
+      <span class="stat-label">Joining fee</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-val">{{ gym.pricing.minimum_term }}</span>
+      <span class="stat-label">Min. term</span>
+    </div>
+  </div>
+</section>
+
+{% if gym.has_affiliate %}
+<div class="affiliate-banner">
+  <div>
+    <strong>{{ site.affiliates[gym.affiliate_key].cta }}</strong>
+  </div>
+  <a href="{{ site.affiliates[gym.affiliate_key].url }}" class="btn btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[gym.affiliate_key].cta }} →</a>
+</div>
+{% endif %}
+
+<!-- Pros & cons -->
+<section class="section">
+  <h2>{{ gym.name }} {{ city.name }} — Pros & Cons</h2>
+  <div class="pros-cons-grid">
+    <div class="pros-box">
+      <h3>✓ Pros</h3>
+      <ul>{% for p in gym.pros %}<li>{{ p }}</li>{% endfor %}</ul>
+    </div>
+    <div class="cons-box">
+      <h3>✗ Cons</h3>
+      <ul>{% for c in gym.cons %}<li>{{ c }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="section">
+  <h2>{{ gym.name }} {{ city.name }} — Features & Facilities</h2>
+  <div class="feature-grid">
+    <div class="feat-item {% if gym.features.open_247 %}feat-yes{% else %}feat-no{% endif %}">{{ "✓" if gym.features.open_247 else "✗" }} 24/7 Access</div>
+    <div class="feat-item {% if gym.features.group_fitness %}feat-yes{% else %}feat-no{% endif %}">{{ "✓" if gym.features.group_fitness else "✗" }} Group Fitness</div>
+    <div class="feat-item {% if gym.features.pool %}feat-yes{% else %}feat-no{% endif %}">{{ "✓" if gym.features.pool else "✗" }} Pool</div>
+    <div class="feat-item {% if gym.features.sauna %}feat-yes{% else %}feat-no{% endif %}">{{ "✓" if gym.features.sauna else "✗" }} Sauna</div>
+    <div class="feat-item {% if gym.features.personal_training %}feat-yes{% else %}feat-no{% endif %}">{{ "✓" if gym.features.personal_training else "✗" }} Personal Training</div>
+    <div class="feat-item {% if gym.features.no_lock_in %}feat-yes{% else %}feat-no{% endif %}">{{ "✓" if gym.features.no_lock_in else "✗" }} No Lock-in</div>
+    <div class="feat-item {% if gym.features.creche %}feat-yes{% else %}feat-no{% endif %}">{{ "✓" if gym.features.creche else "✗" }} Crèche</div>
+    <div class="feat-item {% if gym.features.app %}feat-yes{% else %}feat-no{% endif %}">{{ "✓" if gym.features.app else "✗" }} Member App</div>
+  </div>
+</section>
+
+<!-- City context -->
+<section class="section">
+  <h2>Gyms in {{ city.name }} — How {{ gym.name }} Compares</h2>
+  <p>{{ city.intro }}</p>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead><tr><th>Category</th><th>Best pick in {{ city.name }}</th></tr></thead>
+      <tbody>
+        <tr><td>Cheapest</td><td><a href="/gym/{{ city.cheapest_option }}/">{{ city.cheapest_option | replace("-", " ") | title }}</a></td></tr>
+        <tr><td>Best value</td><td><a href="/gym/{{ city.best_value }}/">{{ city.best_value | replace("-", " ") | title }}</a></td></tr>
+        <tr><td>Premium</td><td><a href="/gym/{{ city.premium_pick }}/">{{ city.premium_pick | replace("-", " ") | title }}</a></td></tr>
+        <tr><td>No contract</td><td><a href="/gym/{{ city.no_contract_pick }}/">{{ city.no_contract_pick | replace("-", " ") | title }}</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>All gyms in {{ city.name }}: {% for gs in city.gyms_available %}<a href="/gym/{{ gs }}/">{{ gs | replace("-", " ") | title }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
+</section>
+
+{% if city.local_gyms %}
+<!-- Local area breakdown -->
+<section class="section">
+  <h2>{{ gym.name }} Locations by Area in {{ city.name }}</h2>
+  {% for area in city.local_gyms %}
+  <div class="local-area-block">
+    <h3>{{ area.area }}</h3>
+    <p>{{ area.description }} <a href="{{ area.maps_url }}" target="_blank" rel="nofollow noopener">Find gyms on Google Maps →</a></p>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+<!-- Bottom CTA -->
+<section class="section">
+  <h2>Compare All {{ city.name }} Gyms</h2>
+  <p>Not sure if {{ gym.name }} is right for you in {{ city.name }}? Compare every gym chain available in {{ city.name }} side by side.</p>
+  <a href="/gym/{{ city.slug }}/" class="btn btn-primary">See all {{ city.name }} gyms →</a>
+  <a href="/compare/" class="btn btn-outline" style="margin-left:0.75rem">Full comparison table →</a>
+</section>
+
+{% endblock %}

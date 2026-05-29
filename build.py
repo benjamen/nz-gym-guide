@@ -79,6 +79,14 @@ def build():
         render("city.html", f"gym/{city['slug']}/index.html",
                city=city, city_gyms=city_gyms, **ctx)
 
+    # Gym×city intersection pages — programmatic pSEO
+    for gym in gyms:
+        gym_city_names = [c.lower() for c in gym.get("locations", [])]
+        for city in cities:
+            if city["name"].lower() in gym_city_names and gym["slug"] in city.get("gyms_available", []):
+                render("gym-city.html", f"gym/{gym['slug']}/{city['slug']}/index.html",
+                       gym=gym, city=city, **ctx)
+
     # Guide pages — load all guides dynamically from content/guides/
     guides_dir = CONTENT / "guides"
     guides = []
@@ -158,6 +166,12 @@ def build():
         sitemap += sm_url(f"gym/{g['slug']}", "0.85", "monthly")
     for c in cities:
         sitemap += sm_url(f"gym/{c['slug']}", "0.8", "monthly")
+    # Gym×city intersection pages
+    for gym in gyms:
+        gym_city_names = [lc.lower() for lc in gym.get("locations", [])]
+        for city in cities:
+            if city["name"].lower() in gym_city_names and gym["slug"] in city.get("gyms_available", []):
+                sitemap += sm_url(f"gym/{gym['slug']}/{city['slug']}", "0.75", "monthly")
     for g in guides:
         sitemap += sm_url(f"guides/{g['slug']}", "0.75", "monthly")
     if posts:
