@@ -55,7 +55,7 @@
      "description":"{{ site.description }}",
      "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.png","width":512,"height":512},
      "contactPoint":{"@type":"ContactPoint","email":"{{ site.contact_email }}","contactType":"customer service"},
-     "sameAs":["https://www.facebook.com/nzgymguide","https://www.instagram.com/nzgymguide","https://twitter.com/nzgymguide"]}
+     "sameAs":{{ site.same_as | default([]) | tojson }}}
   ]
   </script>
   {% block head_extra %}{% endblock %}

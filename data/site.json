@@ -6,6 +6,11 @@
   "base_path": "",
   "contact_email": "instituteofbba@gmail.com",
   "ga_id": "G-4R8CXM89FV",
+  "same_as": [
+    "https://www.facebook.com/nzgymguide",
+    "https://www.instagram.com/nzgymguide",
+    "https://twitter.com/nzgymguide"
+  ],
   "affiliates": {
     "les_mills": {
       "name": "Les Mills NZ",
