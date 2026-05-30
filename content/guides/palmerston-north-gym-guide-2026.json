@@ -1,0 +1,80 @@
+{
+  "slug": "palmerston-north-gym-guide-2026",
+  "short_title": "Palmerston North Gyms",
+  "title": "Best Gyms in Palmerston North 2026 — Prices, Student Deals and Reviews",
+  "meta_desc": "Best gyms in Palmerston North 2026. Prices and honest reviews for City Fitness, Anytime Fitness, Les Mills, Snap Fitness and student options near Massey University.",
+  "intro": "Palmerston North has a good gym market, boosted by the presence of Massey University and NZDF bases which create a large, active population with real training needs. City Fitness and Les Mills both operate here, giving residents the full range from budget 24/7 to premium group fitness. Student discounts are available at several clubs. If you live in Palmy, you're well-served.",
+  "updated": "May 2026",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Palmerston North Gym Prices — 2026",
+      "table": {
+        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "rows": [
+          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
+          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
+          ["Jetts Palmerston North", "$14.95", "$0", "No lock-in", "Yes"],
+          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
+          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
+          ["Les Mills Palmerston North", "$17.99", "$49 (often waived)", "3 months", "No"],
+          ["Massey University Recreation Centre (students)", "~$10/week (semester)", "$0", "Semester", "No"],
+          ["F45", "$25.00", "$0", "Flexible", "No (class-based)"]
+        ]
+      }
+    },
+    {
+      "heading": "City Fitness Palmerston North",
+      "body": "City Fitness Palmerston North is the budget leader at $7.99/week — 24/7 access, no long-term contract, full equipment suite. For anyone who just wants to train affordably without committing to a 12-month deal, this is the clear answer. Joining fees are regularly waived. The Black Card ($14.99/week) adds multi-club access if you travel to Auckland, Wellington, or other cities regularly."
+    },
+    {
+      "heading": "Massey University Recreation Centre",
+      "body": "Massey University students have access to the Massey Recreation Centre on campus, which offers gym, pool, and court facilities at student-discounted rates. The semester membership works out to approximately $10/week — very competitive against commercial alternatives. If you're a Massey student, this is almost certainly your best option, especially with the pool and court access included."
+    },
+    {
+      "heading": "Les Mills Palmerston North",
+      "body": "Les Mills Palmerston North is the city's premium gym — a full club with the complete LM group fitness timetable. The instructors are good and the equipment standard is strong. At $17.99/week with a 3-month minimum, it's more expensive than City Fitness but the class quality and gym environment are markedly better. The 20% under-23 discount makes it much more competitive for younger members — always ask when signing up."
+    },
+    {
+      "heading": "Anytime Fitness Palmerston North",
+      "body": "Anytime Fitness has good coverage in Palmerston North. The 24/7 access and reciprocal rights across all NZ Anytime clubs are the main draw. At $16.95/week on a 12-month contract, it's a middle-ground option — more expensive than City Fitness but cheaper than Les Mills. Popular with NZDF personnel and shift workers who need reliable access at non-standard hours."
+    },
+    {
+      "heading": "Jetts and Snap Fitness",
+      "body": "Jetts offers the best flexibility at $14.95/week with no joining fee and no lock-in — useful for Massey students who don't want a 12-month commitment. Snap Fitness operates at a similar price point with 24/7 access. Both are solid alternatives if you want 24/7 access without committing to a year."
+    },
+    {
+      "heading": "Best Palmerston North Gym Deals",
+      "list": [
+        "City Fitness joining fee ($29) is frequently waived — check before you pay",
+        "Jetts has no joining fee — genuinely zero upfront cost",
+        "Les Mills under-23 discount: 20% off — ask when signing up",
+        "Massey Recreation Centre semester rates are competitive with commercial gyms",
+        "F45 first session free — try before committing",
+        "Corporate and government rates: Anytime Fitness has employer deals — check with HR or NZDF welfare"
+      ]
+    },
+    {
+      "heading": "Which Palmerston North Gym Is Right for You?",
+      "body": "Students: Massey Recreation Centre is the best value, especially with pool access. Non-students wanting the cheapest option: City Fitness at $7.99/week is hard to beat. For group fitness with a full class timetable, Les Mills is the pick. For zero upfront cost and maximum flexibility, Jetts (no joining fee, no lock-in) is the easiest start. For 24/7 access with nationwide club rights, Anytime Fitness is worth the extra cost."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the cheapest gym in Palmerston North?",
+      "answer": "For students, Massey University Recreation Centre offers semester rates around $10/week. For non-students, City Fitness Basic is cheapest at $7.99/week with 24/7 access and no lock-in."
+    },
+    {
+      "question": "Is there a Les Mills gym in Palmerston North?",
+      "answer": "Yes — Les Mills Palmerston North is a full club with group fitness classes. Memberships start at $17.99/week with a 3-month minimum. Under-23 discount of 20% is available."
+    },
+    {
+      "question": "Are there 24/7 gyms in Palmerston North?",
+      "answer": "Yes — City Fitness, Jetts, Snap Fitness, and Anytime Fitness all offer 24/7 access in Palmerston North."
+    },
+    {
+      "question": "Is there a gym near Massey University Palmerston North?",
+      "answer": "Yes — Massey University has an on-campus Recreation Centre with student-discounted semester memberships. For students, this is usually the best value option in the city."
+    }
+  ]
+}

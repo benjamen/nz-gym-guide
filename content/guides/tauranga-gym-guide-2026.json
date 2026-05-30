@@ -1,0 +1,76 @@
+{
+  "slug": "tauranga-gym-guide-2026",
+  "short_title": "Tauranga Gyms",
+  "title": "Best Gyms in Tauranga 2026 — Prices, Reviews and What to Know",
+  "meta_desc": "The best gyms in Tauranga in 2026. Honest prices for City Fitness, Anytime Fitness, Les Mills, Snap Fitness, F45 and more in Tauranga and Mt Maunganui.",
+  "intro": "Tauranga and Mt Maunganui offer a solid range of gym options spread across the wider Bay of Plenty region. City Fitness provides budget 24/7 access. Les Mills Tauranga is one of the better-equipped regional Les Mills clubs. And Mt Maunganui has a strong boutique fitness scene with F45 and a growing number of independent studios. Whether you're in the CBD, the Mount, or Papamoa, there's a gym within easy reach.",
+  "updated": "May 2026",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Tauranga Gym Prices — 2026",
+      "table": {
+        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "rows": [
+          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
+          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
+          ["Jetts Tauranga", "$14.95", "$0", "No lock-in", "Yes"],
+          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
+          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
+          ["Les Mills Tauranga", "$17.99", "$49 (often waived)", "3 months", "No"],
+          ["F45 Mt Maunganui", "$25.00", "$0", "Flexible", "No (class-based)"],
+          ["Orangetheory Tauranga", "$18.25", "$49", "Monthly", "No (class-based)"]
+        ]
+      }
+    },
+    {
+      "heading": "Tauranga CBD",
+      "body": "The Tauranga CBD has City Fitness, Anytime Fitness, and Snap Fitness within easy reach. City Fitness is the value pick at $7.99/week — open 24/7 and no long-term lock-in. Les Mills is the premium option with a strong group fitness schedule. For people who work in the CBD, the combination of choice and competitive pricing makes Tauranga a good gym city."
+    },
+    {
+      "heading": "Mt Maunganui",
+      "body": "Mt Maunganui has a strong fitness culture, driven in part by the beach lifestyle and the sports clubs in the area. F45 Mt Maunganui is popular and well-run. Snap Fitness and Anytime Fitness cover the 24/7 market. Independent gyms and CrossFit boxes offer genuine alternatives for people who want a more community-driven environment. ClassPass is available and useful for trying the Mount's yoga and pilates studios."
+    },
+    {
+      "heading": "Papamoa and Eastern Suburbs",
+      "body": "Papamoa and the eastern Tauranga suburbs are growing fast. Anytime Fitness and Snap Fitness have moved into the area to serve the expanding population. If you live in Papamoa, the closest 24/7 option is likely Snap Fitness or Anytime Fitness — both open at all hours and neither requires a long commute to the CBD."
+    },
+    {
+      "heading": "Les Mills Tauranga",
+      "body": "Les Mills Tauranga is a well-regarded club with a good group fitness timetable. The equipment standard is solid and the instructors are generally high quality. At $17.99/week with a 3-month minimum, it's a step up in price from the budget clubs but the class variety and gym atmosphere are noticeably better. The under-23 discount (20% off) applies here — ask when signing up."
+    },
+    {
+      "heading": "Best Gym Deals in Tauranga",
+      "list": [
+        "City Fitness joining fee ($29) is frequently waived — check before you pay",
+        "Jetts has no joining fee — $0 upfront is a genuine deal",
+        "Les Mills Tauranga joining fees of $49 are often waived in person — always ask",
+        "Anytime Fitness 12-month contracts lock in the weekly rate — good if prices are rising",
+        "F45 and Orangetheory offer free first sessions — try before you commit",
+        "Corporate rates: both Anytime Fitness and Les Mills offer employer deals in Tauranga"
+      ]
+    },
+    {
+      "heading": "Which Tauranga Gym Is Right for You?",
+      "body": "City Fitness Basic at $7.99/week is the best value in Tauranga — no lock-in, 24/7, cheap. For group fitness with an active class schedule, Les Mills Tauranga is the top pick. If you're in Mt Maunganui and want high-intensity coaching, F45 is excellent. For maximum flexibility without a long-term commitment, Jetts (no joining fee, no lock-in) is the easiest entry point."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the cheapest gym in Tauranga?",
+      "answer": "City Fitness Basic is the cheapest gym in Tauranga at $7.99/week with no lock-in and 24/7 access. Jetts is competitive at $14.95/week with no joining fee and no lock-in."
+    },
+    {
+      "question": "Is there a Les Mills gym in Tauranga?",
+      "answer": "Yes — Les Mills Tauranga is a full Les Mills club with group fitness classes including BodyPump, RPM, and BODYCOMBAT. Memberships start from $17.99/week with a 3-month minimum."
+    },
+    {
+      "question": "Are there 24/7 gyms in Tauranga?",
+      "answer": "Yes — City Fitness, Jetts, Snap Fitness, and Anytime Fitness all offer 24/7 access in Tauranga. Les Mills, F45, and Orangetheory operate on staffed class/hours schedules."
+    },
+    {
+      "question": "Are there good gyms in Mt Maunganui?",
+      "answer": "Yes. Mt Maunganui has F45, Snap Fitness, Anytime Fitness, and a strong independent studio scene. ClassPass is also useful for exploring the Mount's boutique fitness options."
+    }
+  ]
+}

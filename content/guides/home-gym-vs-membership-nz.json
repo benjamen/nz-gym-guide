@@ -1,0 +1,70 @@
+{
+  "slug": "home-gym-vs-membership-nz",
+  "short_title": "Home Gym vs Gym",
+  "title": "Home Gym vs Gym Membership in NZ — Full Cost Comparison 2026",
+  "meta_desc": "Compare home gym costs with NZ gym membership prices, contract terms and benefits",
+  "intro": "With an average monthly gym membership cost of $40-$80, many Kiwis are considering a home gym setup. However, upfront equipment costs can be steep, with a decent home gym setup costing between $1,000-$3,000. But what are the ongoing costs and benefits of each option?",
+  "updated": "May 2026",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Upfront Equipment Costs",
+      "body": "When setting up a home gym, the initial equipment costs can be significant. A basic home gym setup with a bench, weights, and a treadmill can cost around $1,500, while a more advanced setup with a multi-gym machine and a range of free weights can cost upwards of $3,500. In contrast, joining a gym like Anytime Fitness or Jetts typically requires a $0-$100 joining fee."
+    },
+    {
+      "heading": "Ongoing Costs",
+      "body": "Ongoing costs for a home gym are generally low, with no monthly subscription fees. In contrast, gym memberships can range from $20 per week for a basic membership at a gym like Jetts, to $60 per week for a premium membership at a gym like Les Mills. A price comparison table is shown below.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Weekly Price",
+          "Contract Term"
+        ],
+        "rows": [
+          [
+            "Jetts",
+            "$20",
+            "No contract"
+          ],
+          [
+            "Anytime Fitness",
+            "$30",
+            "12 months"
+          ],
+          [
+            "Les Mills",
+            "$40",
+            "12 months"
+          ],
+          [
+            "CityFitness",
+            "$35",
+            "6 months"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What You Actually Use",
+      "body": "When considering a gym membership, it's essential to think about what facilities and equipment you will actually use. If you're a casual gym-goer who only uses the treadmill and weights, a basic membership at a gym like Jetts may be sufficient. However, if you're a more serious athlete who uses a range of equipment and facilities, a premium membership at a gym like Les Mills may be more suitable.",
+      "cta": {
+        "text": "Compare gym memberships and prices",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Motivational Factors",
+      "body": "For many people, the motivation to exercise comes from the social aspect of going to the gym. Being around others who are also working out can be a great motivator, and many gyms offer group fitness classes and personal training sessions to help keep you motivated. In contrast, working out at home can be isolating, and it may be harder to stay motivated without the support of others."
+    },
+    {
+      "heading": "Conclusion",
+      "body": "Ultimately, the decision between a home gym and a gym membership in NZ comes down to your individual needs and preferences. If you're a serious athlete who wants a range of equipment and facilities, a gym membership may be the best option. However, if you're a casual gym-goer who only uses a few pieces of equipment, a home gym setup may be more cost-effective.",
+      "cta": {
+        "text": "Learn more about Anytime Fitness",
+        "url": "/gym/anytime-fitness/",
+        "affiliate": false
+      }
+    }
+  ]
+}

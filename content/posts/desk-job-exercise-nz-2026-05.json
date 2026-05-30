@@ -1,0 +1,67 @@
+{
+  "title": "Desk Worker Fitness",
+  "short_title": "Gym Tips",
+  "meta_desc": "NZ gym guide for desk workers: reduce sedentary job health risks with exercise and gym membership, including lunchtime gym options and Exercise NZ's subsidised scheme",
+  "intro": "As a desk worker in New Zealand, you're likely to spend a significant amount of time sitting, which can increase your risk of developing chronic diseases like diabetes and heart disease. According to the Ministry of Health, approximately 40% of NZ adults have a sedentary job. Regular exercise can help counteract these risks. In this article, we'll explore the best exercises to counteract desk posture and how a gym membership can help.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Sitting Health Risks",
+      "body": "Prolonged sitting has been linked to a range of health problems, including obesity, cardiovascular disease, and type 2 diabetes. Research has shown that even regular exercise may not be enough to offset the negative effects of prolonged sitting. The good news is that incorporating physical activity into your daily routine can help mitigate these risks. As a desk worker in NZ, it's essential to take regular breaks to stand up, stretch, and move around.",
+      "list": [
+        "Take a short walk during your lunch break",
+        "Use a standing desk or adjustable desk",
+        "Do chair squats or leg raises while sitting"
+      ]
+    },
+    {
+      "heading": "Exercises to Counteract Desk Posture",
+      "body": "Desk workers often develop poor posture, which can lead to back and neck pain. Exercises that strengthen the core and improve flexibility can help counteract this. Some effective exercises include shoulder rolls, chest stretches, and neck stretches. You can also try incorporating exercises that target the muscles in your back, such as rows and lat pulldowns.",
+      "list": [
+        "Shoulder rolls: 10-15 reps, 2-3 sets",
+        "Chest stretches: 30 seconds per side, 2-3 sets",
+        "Neck stretches: 30 seconds per side, 2-3 sets"
+      ]
+    },
+    {
+      "heading": "Best Gym Visits for Office Workers",
+      "body": "As a desk worker, it can be challenging to find time to go to the gym. However, many gyms in NZ offer flexible membership options and classes that can fit around your work schedule. Consider visiting the gym during your lunch break or early in the morning before work. Exercise NZ's subsidised gym scheme can also help make gym memberships more affordable, with discounts of 40-70% off.",
+      "list": [
+        "Lunchtime gym sessions: 30-45 minutes, 2-3 times per week",
+        "Early morning gym sessions: 45-60 minutes, 2-3 times per week"
+      ]
+    },
+    {
+      "heading": "Lunchtime Gym Options",
+      "body": "Many gyms in NZ offer lunchtime classes and sessions that are specifically designed for office workers. These classes are usually shorter and more intense, making them perfect for fitting in a workout during your lunch break. Some popular lunchtime gym options include express classes, circuit training, and high-intensity interval training (HIIT).",
+      "list": [
+        "Express classes: 30-45 minutes, 2-3 times per week",
+        "Circuit training: 30-45 minutes, 2-3 times per week",
+        "HIIT: 20-30 minutes, 2-3 times per week"
+      ]
+    },
+    {
+      "heading": "Get Started with a Gym Membership",
+      "body": "Incorporating regular exercise into your routine can have a significant impact on your overall health and wellbeing. A gym membership can provide you with access to a range of equipment, classes, and personal training options. To find a gym that suits your needs and budget, compare gym memberships and prices on our website.",
+      "cta": {
+        "text": "Compare gym memberships and prices",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Take the First Step",
+      "body": "If you're not sure where to start, take our quiz to find out which gym membership is best for you. Our quiz will ask you a series of questions about your fitness goals, budget, and preferences, and provide you with a personalized recommendation.",
+      "cta": {
+        "text": "Take our quiz",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "desk-job-exercise-nz-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-30",
+  "post_type": "health_info"
+}

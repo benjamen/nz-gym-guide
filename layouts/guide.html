@@ -24,7 +24,7 @@
      "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.svg","width":512,"height":512}}
   }{% if guide.faq %},
   {"@type":"FAQPage","mainEntity":[
-    {% for q in guide.faq %}{"@type":"Question","name":{{ q.q | tojson }},"acceptedAnswer":{"@type":"Answer","text":{{ q.a | tojson }}}}{% if not loop.last %},{% endif %}{% endfor %}
+    {% for q in guide.faq %}{"@type":"Question","name":{{ (q.question or q.q) | tojson }},"acceptedAnswer":{"@type":"Answer","text":{{ (q.answer or q.a) | tojson }}}}{% if not loop.last %},{% endif %}{% endfor %}
   ]}{% endif %}
 ]}
 </script>

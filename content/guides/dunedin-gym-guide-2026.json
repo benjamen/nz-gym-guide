@@ -1,0 +1,80 @@
+{
+  "slug": "dunedin-gym-guide-2026",
+  "short_title": "Dunedin Gyms",
+  "title": "Best Gyms in Dunedin 2026 — Prices, Student Discounts and Honest Reviews",
+  "meta_desc": "Best gyms in Dunedin in 2026. Prices, student discounts, and honest reviews for City Fitness, Anytime Fitness, Les Mills, Jetts and University of Otago gym options.",
+  "intro": "Dunedin has a gym market shaped in part by its large student population — prices are competitive and student discounts are common. City Fitness Dunedin is one of the cheapest ways to train in New Zealand at $7.99/week. The University of Otago gym (Recreation Centre) offers excellent student rates. Les Mills and Anytime Fitness serve the non-student market well. This guide covers everything worth knowing about training in Dunedin.",
+  "updated": "May 2026",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Dunedin Gym Prices — 2026",
+      "table": {
+        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "rows": [
+          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
+          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
+          ["Jetts Dunedin", "$14.95", "$0", "No lock-in", "Yes"],
+          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
+          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
+          ["Les Mills Dunedin", "$17.99", "$49 (often waived)", "3 months", "No"],
+          ["Otago Uni Recreation Centre (students)", "~$9/week (semester rate)", "$0", "Semester", "No"],
+          ["F45 Dunedin", "$25.00", "$0", "Flexible", "No (class-based)"]
+        ]
+      }
+    },
+    {
+      "heading": "City Fitness Dunedin",
+      "body": "City Fitness Dunedin is the cheapest commercial gym in the city at $7.99/week for Basic membership — open 24/7 with no long-term lock-in (just a 4-week minimum). This is particularly popular with non-student adults who want a no-frills 24/7 option without the student-centric environment of the university gym. The Black Card upgrade at $14.99/week adds access to all City Fitness clubs nationwide."
+    },
+    {
+      "heading": "University of Otago Recreation Centre",
+      "body": "For Otago University students, the University Recreation Centre (Edgar Centre precinct) is one of the best-value gym options in Dunedin. Semester-based memberships work out to approximately $9/week for full gym and pool access. The student gym environment is energetic and the facilities are well-maintained. Staff memberships are also available for university employees. If you're a student, this is almost certainly your best option."
+    },
+    {
+      "heading": "Les Mills Dunedin",
+      "body": "Les Mills Dunedin is the premium commercial option in the city. Located in the CBD, it has the full Les Mills class timetable and solid equipment. At $17.99/week with a 3-month minimum, it's a step up from budget options but the class quality and instructor standard are genuinely better. The 20% under-23 discount makes it considerably more attractive for younger members. Joining fees are often waived when signing up in person."
+    },
+    {
+      "heading": "Anytime Fitness Dunedin",
+      "body": "Anytime Fitness has strong Dunedin coverage with clubs in the CBD and suburbs. The 24/7 access and reciprocal club rights across all NZ Anytime clubs make it good for people who travel. At $16.95/week with a 12-month contract, it sits between City Fitness and Les Mills on price. Popular with working professionals who want reliable 24/7 access without the student-heavy atmosphere of the university rec centre."
+    },
+    {
+      "heading": "Jetts and Snap Fitness",
+      "body": "Jetts Dunedin offers 24/7 access with no joining fee and no lock-in at $14.95/week — the best flexibility in the market. Snap Fitness also operates in Dunedin at a similar price point with 24/7 access. Both are good alternatives if you want to avoid the 12-month commitment that Anytime Fitness requires."
+    },
+    {
+      "heading": "Student Gym Deals in Dunedin",
+      "list": [
+        "University of Otago Recreation Centre semester rate is around $9/week — beats most commercial options",
+        "Les Mills offers a 20% under-23 discount — ask when signing up",
+        "City Fitness sometimes waives the $29 joining fee — always check promotions",
+        "Jetts has no joining fee at all — best upfront deal for students",
+        "ClassPass monthly plan ($9–$37/week) lets students try different studios each month",
+        "Anytime Fitness off-peak memberships are occasionally available for a lower weekly rate"
+      ]
+    },
+    {
+      "heading": "Which Dunedin Gym Is Right for You?",
+      "body": "Students: start with the Otago University Recreation Centre — it's the best value by a significant margin. For non-students wanting budget 24/7 access, City Fitness at $7.99/week is unbeatable. For a premium group fitness experience, Les Mills Dunedin is the pick. For maximum flexibility with no joining fee and no contract, Jetts is the easiest entry point."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the cheapest gym in Dunedin?",
+      "answer": "For students, the University of Otago Recreation Centre is the cheapest at around $9/week on a semester membership. For non-students, City Fitness Basic at $7.99/week is the cheapest commercial option with 24/7 access and no long-term lock-in."
+    },
+    {
+      "question": "Is there a student gym discount in Dunedin?",
+      "answer": "Yes. The University of Otago Recreation Centre offers student semester memberships at very competitive rates. Les Mills Dunedin offers a 20% discount for under-23s. City Fitness and Jetts don't have formal student discounts but their base prices are low."
+    },
+    {
+      "question": "Are there 24/7 gyms in Dunedin?",
+      "answer": "Yes — City Fitness, Jetts, Snap Fitness, and Anytime Fitness all offer 24/7 access in Dunedin. The university gym and Les Mills operate on staffed hours."
+    },
+    {
+      "question": "Does Dunedin have an Anytime Fitness?",
+      "answer": "Yes — Anytime Fitness has multiple clubs in Dunedin. Memberships start at $16.95/week with a 12-month contract. The 24/7 access and reciprocal club rights are useful for those who travel."
+    }
+  ]
+}

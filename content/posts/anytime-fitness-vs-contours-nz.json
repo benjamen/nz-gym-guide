@@ -1,0 +1,61 @@
+{
+  "title": "Anytime Fitness vs Contours",
+  "short_title": "Gym Comparison",
+  "meta_desc": "Compare Anytime Fitness and Contours Women's Gym NZ prices, contracts, facilities, and value to choose the best gym for your needs.",
+  "intro": "Anytime Fitness and Contours Women's Gym NZ are two popular gym options in New Zealand, catering to different needs and preferences. Anytime Fitness is a mid-range gym with 24/7 access, while Contours Women's Gym NZ is a community-focused women's gym with a supportive environment. In this comparison, we'll help you decide which gym is best for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Overview of Both Gyms",
+      "body": "Anytime Fitness is a mid-range gym with a wide range of facilities and services, including personal training, an app, and guest passes. It's ideal for frequent travellers and shift workers due to its 24/7 access and global network of over 600 clubs. Contours Women's Gym NZ, on the other hand, is a community-focused women's gym with a supportive environment, group fitness classes, and no lock-in contracts. It's perfect for women who want a non-intimidating space to work out and achieve their fitness goals."
+    },
+    {
+      "heading": "Price and Contract Comparison",
+      "body": "Anytime Fitness prices range from $16.95 to $22.95 per week, with a $49 joining fee that may be waived at some locations. Most locations require a 12-month contract. Contours Women's Gym NZ prices range from $9.99 to $14.99 per week, with no joining fee on most plans and no lock-in contracts. Consider your budget and commitment level when choosing between these two gyms.",
+      "list": [
+        "Anytime Fitness: $16.95 - $22.95/week, 12-month contract",
+        "Contours Women's Gym NZ: $9.99 - $14.99/week, no lock-in contract"
+      ]
+    },
+    {
+      "heading": "Facilities and Services Comparison",
+      "body": "Both gyms offer unique facilities and services. Anytime Fitness has 24/7 access, personal training, and a global network of clubs. Contours Women's Gym NZ offers group fitness classes, a supportive community, and circuit-guided sessions. Consider what features are most important to you when deciding between these two gyms.",
+      "table": {
+        "headers": [
+          "Gym",
+          "24/7 Access",
+          "Personal Training",
+          "Group Fitness"
+        ],
+        "rows": [
+          [
+            "Anytime Fitness",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          [
+            "Contours Women's Gym NZ",
+            "No",
+            "No",
+            "Yes"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on the comparison, we recommend Anytime Fitness for frequent travellers, shift workers, and those who want 24/7 access and a global network of clubs. Contours Women's Gym NZ is ideal for women who want a supportive, non-intimidating gym environment with group fitness classes and no lock-in contracts. Don't forget to check if you're eligible for Exercise NZ's subsidised gym scheme, which offers 40-70% off for eligible members. Consider your individual needs and preferences when choosing the best gym for you.",
+      "cta": {
+        "text": "Compare all NZ gym memberships →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "anytime-fitness-vs-contours-nz",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-30",
+  "post_type": "comparison"
+}
