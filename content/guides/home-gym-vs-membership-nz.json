@@ -1,52 +1,67 @@
 {
   "slug": "home-gym-vs-membership-nz",
-  "short_title": "Home Gym vs Gym",
+  "short_title": "Home Gym Showdown",
   "title": "Home Gym vs Gym Membership in NZ — Full Cost Comparison 2026",
-  "meta_desc": "Compare home gym costs with NZ gym membership prices, contract terms and benefits",
-  "intro": "With an average monthly gym membership cost of $40-$80, many Kiwis are considering a home gym setup. However, upfront equipment costs can be steep, with a decent home gym setup costing between $1,000-$3,000. But what are the ongoing costs and benefits of each option?",
+  "meta_desc": "Home gym vs gym membership in NZ: compare costs, contract terms, and find the best value for your fitness goals",
+  "intro": "With over 500 gyms across New Zealand, including popular franchises like Anytime Fitness and Les Mills, Kiwis have more options than ever to get fit. However, the initial cost of gym equipment can be a significant barrier to setting up a home gym. In this guide, we'll compare the costs of a home gym versus a traditional gym membership in NZ.",
   "updated": "May 2026",
-  "reading_time": 7,
+  "reading_time": 8,
   "sections": [
     {
       "heading": "Upfront Equipment Costs",
-      "body": "When setting up a home gym, the initial equipment costs can be significant. A basic home gym setup with a bench, weights, and a treadmill can cost around $1,500, while a more advanced setup with a multi-gym machine and a range of free weights can cost upwards of $3,500. In contrast, joining a gym like Anytime Fitness or Jetts typically requires a $0-$100 joining fee."
+      "body": "When setting up a home gym, the initial cost of equipment can range from a few hundred to several thousand dollars. For example, a basic weight set can cost around $200-$500, while a treadmill or exercise bike can cost upwards of $1,000-$2,000."
     },
     {
       "heading": "Ongoing Costs",
-      "body": "Ongoing costs for a home gym are generally low, with no monthly subscription fees. In contrast, gym memberships can range from $20 per week for a basic membership at a gym like Jetts, to $60 per week for a premium membership at a gym like Les Mills. A price comparison table is shown below.",
+      "body": "In contrast, traditional gym memberships often come with ongoing weekly or monthly fees. In NZ, these fees can range from $15-$30 per week for a basic membership, with some premium gyms charging upwards of $50-$60 per week. Popular gyms like Jetts Fitness and City Fitness charge around $20-$25 per week for a standard membership."
+    },
+    {
+      "heading": "Cost Comparison",
       "table": {
         "headers": [
-          "Gym",
-          "Weekly Price",
-          "Contract Term"
+          "Option",
+          "Upfront Cost",
+          "Ongoing Cost",
+          "Total Cost (1 year)"
         ],
         "rows": [
           [
-            "Jetts",
-            "$20",
-            "No contract"
+            "Home Gym (basic)",
+            "$500-$1,000",
+            "$0",
+            "$500-$1,000"
           ],
           [
-            "Anytime Fitness",
-            "$30",
-            "12 months"
+            "Home Gym (premium)",
+            "$2,000-$5,000",
+            "$0",
+            "$2,000-$5,000"
           ],
           [
-            "Les Mills",
-            "$40",
-            "12 months"
+            "Gym Membership (basic)",
+            "$0",
+            "$20-$30/week",
+            "$1,040-$1,560/year"
           ],
           [
-            "CityFitness",
-            "$35",
-            "6 months"
+            "Gym Membership (premium)",
+            "$0",
+            "$50-$60/week",
+            "$2,600-$3,120/year"
           ]
         ]
       }
     },
     {
       "heading": "What You Actually Use",
-      "body": "When considering a gym membership, it's essential to think about what facilities and equipment you will actually use. If you're a casual gym-goer who only uses the treadmill and weights, a basic membership at a gym like Jetts may be sufficient. However, if you're a more serious athlete who uses a range of equipment and facilities, a premium membership at a gym like Les Mills may be more suitable.",
+      "body": "When considering a gym membership, it's essential to think about what equipment and facilities you'll actually use. If you're a casual gym-goer who only uses the treadmill or free weights, a home gym might be a more cost-effective option. However, if you enjoy group fitness classes or require access to specialized equipment like rowing machines or spin bikes, a traditional gym membership might be a better fit."
+    },
+    {
+      "heading": "Motivational Factors",
+      "body": "Another crucial aspect to consider is motivation. Some people find that exercising at home can be isolating and demotivating, while others prefer the accountability and social atmosphere of a traditional gym. Popular gyms like Anytime Fitness and Les Mills offer a range of group fitness classes and personalized training programs to help keep you motivated and engaged."
+    },
+    {
+      "heading": "Get Started with the Right Gym",
       "cta": {
         "text": "Compare gym memberships and prices",
         "url": "/compare/",
@@ -54,14 +69,10 @@
       }
     },
     {
-      "heading": "Motivational Factors",
-      "body": "For many people, the motivation to exercise comes from the social aspect of going to the gym. Being around others who are also working out can be a great motivator, and many gyms offer group fitness classes and personal training sessions to help keep you motivated. In contrast, working out at home can be isolating, and it may be harder to stay motivated without the support of others."
-    },
-    {
-      "heading": "Conclusion",
-      "body": "Ultimately, the decision between a home gym and a gym membership in NZ comes down to your individual needs and preferences. If you're a serious athlete who wants a range of equipment and facilities, a gym membership may be the best option. However, if you're a casual gym-goer who only uses a few pieces of equipment, a home gym setup may be more cost-effective.",
+      "heading": "Find Your Local Gym",
+      "body": "With over 500 gyms across NZ, there's sure to be one near you. Check out our gym directory to find your local Anytime Fitness, Jetts Fitness, or City Fitness, and start your fitness journey today.",
       "cta": {
-        "text": "Learn more about Anytime Fitness",
+        "text": "Visit the Anytime Fitness page",
         "url": "/gym/anytime-fitness/",
         "affiliate": false
       }
