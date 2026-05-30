@@ -1,0 +1,70 @@
+{
+  "title": "Les Mills vs PRJCT",
+  "short_title": "Gym Comparison",
+  "meta_desc": "Compare Les Mills and PRJCT CrossFit NZ gym memberships, including price, contract length, facilities, and overall value to find the best gym for you",
+  "intro": "Les Mills and PRJCT CrossFit NZ are two popular gym options in New Zealand, catering to different fitness needs and preferences. Les Mills is a premium gym with a wide range of facilities and group fitness classes, while PRJCT CrossFit NZ is a boutique gym specialising in CrossFit training. In this comparison, we'll help you decide which gym is best for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Overview of Les Mills and PRJCT CrossFit NZ",
+      "body": "Les Mills is a premium gym with multiple locations across New Zealand, offering a variety of facilities including group fitness classes, pool, sauna, and personal training. PRJCT CrossFit NZ, on the other hand, is a boutique gym with a focus on CrossFit training and a community-driven approach. Both gyms have their unique features and benefits, but they also have some key differences that may make one more suitable for your needs than the other.",
+      "list": [
+        "Les Mills: group fitness classes, pool, sauna, personal training",
+        "PRJCT CrossFit NZ: CrossFit training, community-driven approach"
+      ]
+    },
+    {
+      "heading": "Comparison of Key Features",
+      "body": "When it comes to pricing, Les Mills offers a more affordable option with prices starting from $17.99 per week, while PRJCT CrossFit NZ is priced from $45.00 per week. Les Mills also has a joining fee of $49, which is often waived in promotions. In terms of contract length, Les Mills requires a minimum term, while PRJCT CrossFit NZ has no lock-in contract.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per Week",
+          "Contract Length",
+          "Cancellation",
+          "Facilities",
+          "Locations",
+          "24/7 Access"
+        ],
+        "rows": [
+          [
+            "Les Mills",
+            "$17.99-$29.99",
+            "Minimum term",
+            "Notice period applies",
+            "Group fitness, pool, sauna, personal training",
+            "Nationwide",
+            "No"
+          ],
+          [
+            "PRJCT CrossFit NZ",
+            "$45.00-$65.00",
+            "No lock-in",
+            "Notice period applies",
+            "CrossFit training, group fitness",
+            "Selected cities",
+            "No"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on our comparison, Les Mills is the better option for those who value a wide range of facilities and group fitness classes, while PRJCT CrossFit NZ is ideal for CrossFit enthusiasts who prefer a community-driven approach. It's also worth considering the Exercise NZ subsidised gym scheme, which offers 40-70% off for eligible members. Ultimately, the choice between Les Mills and PRJCT CrossFit NZ depends on your individual fitness goals and preferences.",
+      "list": [
+        "Les Mills: best for group fitness and premium facilities",
+        "PRJCT CrossFit NZ: best for CrossFit enthusiasts and community-driven approach"
+      ],
+      "cta": {
+        "text": "Compare all NZ gym memberships →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "les-mills-vs-prjct-crossfit-nz",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-31",
+  "post_type": "comparison"
+}
