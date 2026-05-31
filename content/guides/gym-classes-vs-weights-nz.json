@@ -1,0 +1,74 @@
+{
+  "slug": "gym-classes-vs-weights-nz",
+  "short_title": "Gym Classes",
+  "title": "Group Classes vs Weights — Which Gym Type Is Right for You in NZ?",
+  "meta_desc": "Group classes or weights in NZ? Compare gym prices, contract terms and find the best fit",
+  "intro": "When it comes to choosing a gym in New Zealand, the decision between group classes and weights often comes down to personality type and fitness goals. For those who thrive in social environments, group classes at gyms like Les Mills or Jetts may be the way to go, with prices starting from $15 per week. On the other hand, weightlifting enthusiasts may prefer the solitude of a traditional gym like Anytime Fitness, with membership options from $20 per week.",
+  "updated": "June 2026",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Personality Types and Fitness Goals",
+      "body": "If you're a social butterfly who enjoys the energy of a group workout, classes like BodyPump or Zumba may be perfect for you. However, if you're more introverted and prefer to focus on your own fitness journey, a weights-based gym could be a better fit. Consider your goals: are you looking to lose weight, build muscle, or improve overall health? Different gyms cater to different objectives, so it's essential to choose one that aligns with your aspirations."
+    },
+    {
+      "heading": "Cost Per Session",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per Week",
+          "Price per Month",
+          "Contract Term"
+        ],
+        "rows": [
+          [
+            "Les Mills",
+            "$15",
+            "$60",
+            "12 months"
+          ],
+          [
+            "Jetts",
+            "$10",
+            "$40",
+            "6 months"
+          ],
+          [
+            "Anytime Fitness",
+            "$20",
+            "$80",
+            "12 months"
+          ],
+          [
+            "CityFitness",
+            "$25",
+            "$100",
+            "6 months"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "ClassPass as a Hybrid Solution",
+      "body": "For those who can't decide between group classes and weights, ClassPass offers a flexible solution. With a ClassPass membership, you can attend classes at various gyms and studios across NZ, including Les Mills, Jetts, and independent studios, from $30 per week. This option allows you to mix and match your workout routine, trying out different classes and gyms without committing to a single contract.",
+      "cta": {
+        "text": "Compare ClassPass prices and options",
+        "url": "/guides/classpass-nz",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Real NZ Gym Prices and Contract Terms",
+      "body": "When comparing gym prices, it's essential to consider the contract terms and any additional fees. For example, some gyms may charge extra for group classes or personal training sessions. Be sure to read the fine print and ask about any promotions or discounts available. With gyms like Snap Fitness offering no-contract memberships from $15 per week, it's easier than ever to find a gym that fits your budget and lifestyle."
+    },
+    {
+      "heading": "Finding the Best Gym for You",
+      "body": "Ultimately, the decision between group classes and weights comes down to your individual preferences and goals. Consider visiting gyms in person, trying out classes or sessions, and speaking with staff and members to get a feel for the community. With over 200 gyms across NZ, including Les Mills, Jetts, and Anytime Fitness, you're sure to find a gym that suits your needs.",
+      "cta": {
+        "text": "Compare gym prices and find your perfect match",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ]
+}
