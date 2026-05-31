@@ -1,0 +1,78 @@
+{
+  "title": "Cheapest Gyms Palmy",
+  "short_title": "Palmy Gyms",
+  "meta_desc": "Find the cheapest gyms in Palmerston North with no contract options and prices. Compare gym memberships and get up to 70% off with Exercise NZ subsidy.",
+  "intro": "Palmerston North has a range of affordable gym options, including no-contract memberships. The cheapest gym option in Palmerston North is Snap Fitness, with prices starting from $10.95 per week. Eligible members can also get up to 70% off with the Exercise NZ subsidy programme.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Most Affordable Options",
+      "body": "The most affordable gym options in Palmerston North include Snap Fitness, with prices starting from $10.95 per week, and Contours, which offers a no-contract membership option. Anytime Fitness is also a popular choice, but it is priced higher than Snap Fitness. Les Mills and City Fitness are not available in Palmerston North, but their prices are included in the comparison table for reference.",
+      "list": [
+        "Snap Fitness: $10.95/week",
+        "Contours: no-contract option available",
+        "Anytime Fitness: $20-$30/week"
+      ]
+    },
+    {
+      "heading": "No-Contract Alternatives",
+      "body": "Contours is a great option for those who want a no-contract gym membership in Palmerston North. This flexibility is ideal for students or those who are unsure about their gym routine. The Exercise NZ subsidy programme also offers discounted memberships for eligible members, with up to 70% off the regular price.",
+      "list": [
+        "Contours: no-contract option available",
+        "Exercise NZ subsidy: up to 70% off"
+      ]
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "The following table compares the prices of gyms available in Palmerston North. Please note that prices may vary depending on the membership type and promotions.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price (per week)",
+          "Contract Length"
+        ],
+        "rows": [
+          [
+            "Snap Fitness",
+            "$10.95",
+            "No contract"
+          ],
+          [
+            "Contours",
+            "$15-$25",
+            "No contract"
+          ],
+          [
+            "Anytime Fitness",
+            "$20-$30",
+            "12-24 months"
+          ],
+          [
+            "Studio Rubix",
+            "$20-$30",
+            "No contract"
+          ],
+          [
+            "Urban Core Wellness",
+            "$20-$30",
+            "No contract"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Getting the Best Deal",
+      "body": "To get the best deal on a gym membership in Palmerston North, consider the following options: take advantage of the Exercise NZ subsidy programme, look for promotions and discounts, and choose a no-contract membership option. Snap Fitness is currently offering 6 weeks free, and Contours has a no-contract option available.",
+      "cta": {
+        "text": "Check your eligibility for the Exercise NZ subsidy programme",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "cheapest-gyms-palmerston-north-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-01",
+  "post_type": "budget_guide"
+}
