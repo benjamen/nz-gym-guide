@@ -3,19 +3,29 @@
     "slug": "auckland",
     "name": "Auckland",
     "population": 1700000,
-    "intro": "Auckland has the widest selection of gyms in NZ — from budget 24/7 clubs in the suburbs to premium facilities in the CBD. City Fitness and Les Mills dominate, with strong presence from Anytime Fitness, F45, Orangetheory, and ClassPass across the region.",
+    "intro": "Auckland has the widest selection of gyms in NZ \u2014 from budget 24/7 clubs in the suburbs to premium facilities in the CBD. City Fitness and Les Mills dominate, with strong presence from Anytime Fitness, F45, Orangetheory, and ClassPass across the region.",
     "gyms_available": [
-      "les-mills",
-      "city-fitness",
+      "9round",
       "anytime-fitness",
-      "snap-fitness",
-      "jetts",
-      "ymca",
-      "f45",
+      "chill-wellness-auckland",
+      "city-fitness",
       "classpass",
-      "orangetheory",
+      "cobalt-club-auckland",
       "contours",
-      "9round"
+      "crossfit-akl",
+      "eastwest-yoga-auckland",
+      "f45",
+      "jetts",
+      "les-mills",
+      "o-studio-auckland",
+      "orangetheory",
+      "p3-recovery-nz",
+      "reform-fitness-auckland",
+      "sala-studio-auckland",
+      "snap-fitness",
+      "studio-red-auckland",
+      "sweat-yoga-auckland",
+      "ymca"
     ],
     "cheapest_option": "city-fitness",
     "best_value": "city-fitness",
@@ -86,7 +96,23 @@
       "reform-fitness-wellington",
       "soul-pilates-wellington",
       "club-pilates-wellington",
-      "physique-studio-karori"
+      "physique-studio-karori",
+      "instinct-fitness-wellington",
+      "urban-fitness-wellington",
+      "swet-wellington",
+      "mti-wellington",
+      "mma-wellington",
+      "mai-dojo-wellington",
+      "wellington-boxing-gym",
+      "wrac-wellington",
+      "freyberg-pool-wellington",
+      "247-fitness-wellington",
+      "float-well-wellington",
+      "recovery-hub-lower-hutt",
+      "run-poneke-wellington",
+      "eddy-wellington",
+      "wellyfit-wellington",
+      "o-studio-wellington"
     ],
     "cheapest_option": "city-fitness",
     "best_value": "city-fitness",
@@ -105,12 +131,12 @@
     "local_gyms": [
       {
         "area": "Wellington CBD / Lambton Quay",
-        "description": "High density of gyms per capita — chains and independents within walking distance of most offices",
+        "description": "High density of gyms per capita \u2014 chains and independents within walking distance of most offices",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Wellington+CBD+NZ"
       },
       {
         "area": "Lower Hutt",
-        "description": "Good range of value gyms and community sport centres — often cheaper than city equivalents",
+        "description": "Good range of value gyms and community sport centres \u2014 often cheaper than city equivalents",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Lower+Hutt+Wellington"
       },
       {
@@ -126,15 +152,22 @@
     "population": 400000,
     "intro": "Christchurch has strong gym coverage with competitive pricing. The flat city means cycling to the gym is easy. Les Mills has a well-equipped facility in the CBD, City Fitness offers strong budget options, and the boutique scene has grown significantly post-rebuild.",
     "gyms_available": [
-      "les-mills",
-      "city-fitness",
+      "affinity-fitness-christchurch",
       "anytime-fitness",
-      "snap-fitness",
-      "ymca",
-      "f45",
+      "bodyfix-gym-christchurch",
+      "city-fitness",
       "classpass",
+      "contours",
+      "crossfit-christchurch",
+      "f45",
+      "flow-yoga-christchurch",
+      "les-mills",
+      "o-studio-christchurch",
       "orangetheory",
-      "contours"
+      "parakiore-christchurch",
+      "snap-fitness",
+      "the-well-studios-christchurch",
+      "ymca"
     ],
     "cheapest_option": "city-fitness",
     "best_value": "city-fitness",
@@ -152,12 +185,12 @@
     "local_gyms": [
       {
         "area": "Christchurch CBD",
-        "description": "Rebuilt gym scene with modern facilities — several new boutique studios opened post-2020",
+        "description": "Rebuilt gym scene with modern facilities \u2014 several new boutique studios opened post-2020",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Christchurch+CBD+NZ"
       },
       {
         "area": "Riccarton",
-        "description": "High density of gyms near the university — good value options aimed at students",
+        "description": "High density of gyms near the university \u2014 good value options aimed at students",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Riccarton+Christchurch"
       },
       {
@@ -173,14 +206,19 @@
     "population": 180000,
     "intro": "Hamilton's gym scene has grown significantly. City Fitness and Les Mills both operate here, and several boutique studios have opened in recent years. Good value for money compared to the main centres, with Contours and 9Round adding options beyond the big chains.",
     "gyms_available": [
-      "les-mills",
-      "city-fitness",
+      "9round",
       "anytime-fitness",
-      "snap-fitness",
-      "jetts",
-      "f45",
+      "city-fitness",
       "contours",
-      "9round"
+      "f45",
+      "fastlane-fitness-hamilton",
+      "jetts",
+      "les-mills",
+      "lifted-pilates-hamilton",
+      "o-studio-hamilton",
+      "pure-fitness-hamilton",
+      "snap-fitness",
+      "waterworld-hamilton"
     ],
     "cheapest_option": "city-fitness",
     "best_value": "city-fitness",
@@ -213,13 +251,17 @@
     "population": 155000,
     "intro": "Tauranga's sunny lifestyle means gym culture is strong. City Fitness has several locations across the Bay of Plenty, and the area has a growing boutique fitness scene including F45, Contours, and 9Round.",
     "gyms_available": [
-      "les-mills",
-      "city-fitness",
+      "9round",
       "anytime-fitness",
-      "snap-fitness",
-      "f45",
+      "city-fitness",
       "contours",
-      "9round"
+      "encore-pilates-tauranga",
+      "f45",
+      "les-mills",
+      "mount-crossfit-tauranga",
+      "redefined-tauranga",
+      "snap-fitness",
+      "thirty-one-ten-crossfit"
     ],
     "cheapest_option": "city-fitness",
     "best_value": "city-fitness",
@@ -235,7 +277,7 @@
     "local_gyms": [
       {
         "area": "Mount Maunganui",
-        "description": "Beachside suburb with a strong fitness culture — boutique studios and PT options alongside the main chains",
+        "description": "Beachside suburb with a strong fitness culture \u2014 boutique studios and PT options alongside the main chains",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Mount+Maunganui+Tauranga"
       },
       {
@@ -256,11 +298,16 @@
     "population": 130000,
     "intro": "Dunedin has a solid gym scene anchored by the University of Otago student population. Good value memberships available, with strong Les Mills and YMCA options, plus several independent gyms. One of the best student gym deals in NZ.",
     "gyms_available": [
-      "les-mills",
       "anytime-fitness",
+      "barre-base-dunedin",
+      "classpass",
+      "elevate-crossfit-dunedin",
+      "les-mills",
+      "on-form-studio-dunedin",
+      "reform-fitness-dunedin",
       "snap-fitness",
-      "ymca",
-      "classpass"
+      "studio-pilates-dunedin",
+      "ymca"
     ],
     "cheapest_option": "ymca",
     "best_value": "ymca",
@@ -276,7 +323,7 @@
     "local_gyms": [
       {
         "area": "Dunedin CBD / North Dunedin",
-        "description": "University area gyms with strong student rates — ask about student discounts at all clubs",
+        "description": "University area gyms with strong student rates \u2014 ask about student discounts at all clubs",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Dunedin+CBD+NZ"
       },
       {
@@ -290,11 +337,13 @@
     "slug": "palmerston-north",
     "name": "Palmerston North",
     "population": 90000,
-    "intro": "Palmerston North (Palmy) has a solid gym scene serving both the Massey University student population and the wider Manawatū community. Good value memberships, a growing boutique scene, and all the major chains well represented.",
+    "intro": "Palmerston North (Palmy) has a solid gym scene serving both the Massey University student population and the wider Manawat\u016b community. Good value memberships, a growing boutique scene, and all the major chains well represented.",
     "gyms_available": [
       "anytime-fitness",
+      "contours",
       "snap-fitness",
-      "contours"
+      "studio-rubix-palmerston-north",
+      "urban-core-wellness-pn"
     ],
     "cheapest_option": "snap-fitness",
     "best_value": "snap-fitness",
@@ -311,17 +360,17 @@
     "local_gyms": [
       {
         "area": "Palmy CBD",
-        "description": "All major chains in a compact area — easy to shop around before committing",
+        "description": "All major chains in a compact area \u2014 easy to shop around before committing",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Palmerston+North+CBD+NZ"
       },
       {
         "area": "Hokowhitu / Fitzherbert",
-        "description": "Near Massey University — look for student rates and term-time deals",
+        "description": "Near Massey University \u2014 look for student rates and term-time deals",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Hokowhitu+Palmerston+North"
       },
       {
         "area": "Kelvin Grove / Highbury",
-        "description": "Suburban gyms with free parking — often cheaper than CBD equivalents",
+        "description": "Suburban gyms with free parking \u2014 often cheaper than CBD equivalents",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Kelvin+Grove+Palmerston+North"
       }
     ]
@@ -333,8 +382,9 @@
     "intro": "Rotorua's gym scene is surprisingly active for its size, with the tourism economy and active outdoor culture driving demand. You'll find all the essential chains plus community sport centres offering great value. Anytime Fitness and Contours are the strongest options here.",
     "gyms_available": [
       "anytime-fitness",
-      "snap-fitness",
-      "contours"
+      "contours",
+      "crossfit-rotorua",
+      "snap-fitness"
     ],
     "cheapest_option": "contours",
     "best_value": "contours",
@@ -343,14 +393,14 @@
     "suburbs": [
       "CBD",
       "Fenton Park",
-      "Ngongotahā",
+      "Ngongotah\u0101",
       "Holdens Bay",
       "Koutu"
     ],
     "local_gyms": [
       {
         "area": "Rotorua CBD",
-        "description": "Central gyms with easy access — look for seasonal deals tied to the tourist calendar",
+        "description": "Central gyms with easy access \u2014 look for seasonal deals tied to the tourist calendar",
         "maps_url": "https://www.google.com/maps/search/gyms+in+Rotorua+CBD+NZ"
       },
       {
@@ -359,9 +409,9 @@
         "maps_url": "https://www.google.com/maps/search/gyms+in+Fenton+Park+Rotorua"
       },
       {
-        "area": "Ngongotahā",
+        "area": "Ngongotah\u0101",
         "description": "Community sport centres serving the local residential area",
-        "maps_url": "https://www.google.com/maps/search/gyms+in+Ngongotahā+Rotorua"
+        "maps_url": "https://www.google.com/maps/search/gyms+in+Ngongotah\u0101+Rotorua"
       }
     ]
   },
@@ -372,8 +422,9 @@
     "intro": "New Plymouth has an active fitness culture fuelled by the outdoor lifestyle and Taranaki's adventure-loving community. Snap Fitness and Anytime Fitness serve the 24/7 crowd, while Contours provides an excellent option for women. A tight-knit gym community with genuine value.",
     "gyms_available": [
       "anytime-fitness",
-      "snap-fitness",
-      "contours"
+      "contours",
+      "flex-fitness-new-plymouth",
+      "snap-fitness"
     ],
     "cheapest_option": "contours",
     "best_value": "snap-fitness",

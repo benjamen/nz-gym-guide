@@ -149,7 +149,7 @@ def build():
     today = _date.today().isoformat()
 
     def sm_url(path, priority="0.6", changefreq="monthly"):
-        loc = f"{site['base_url']}/{path}" if path else site['base_url']
+        loc = f"{site['base_url']}/{path}/" if path else f"{site['base_url']}/"
         return f'  <url><loc>{loc}</loc><lastmod>{today}</lastmod><changefreq>{changefreq}</changefreq><priority>{priority}</priority></url>\n'
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

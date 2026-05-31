@@ -1,8 +1,8 @@
 {
   "slug": "best-247-gym-nz",
   "short_title": "Best 24/7 Gym NZ",
-  "title": "Best 24/7 Gyms in New Zealand 2026 — Always Open, Honest Review",
-  "meta_desc": "Which NZ gym is open 24/7? Compare City Fitness, Jetts, Anytime Fitness, and Snap Fitness — prices, locations, and which is best for shift workers and early risers.",
+  "title": "Best 24/7 Gym NZ 2026 — Always Open, Honest Comparison",
+  "meta_desc": "Best 24/7 gyms in NZ compared: City Fitness, Jetts, Anytime Fitness & Snap Fitness — prices from $8/wk, locations, and which is best for shift workers. ✓",
   "intro": "Not everyone can train between 9am and 6pm. Whether you're a shift worker, an early morning person, or just someone who needs flexibility, a 24/7 gym is essential. This guide covers every major 24/7 gym option in New Zealand — price, locations, and who each one suits best.",
   "updated": "May 2026",
   "reading_time": 6,
@@ -14,12 +14,42 @@
     {
       "heading": "24/7 NZ Gym Comparison",
       "table": {
-        "headers": ["Gym", "Price from", "Joining fee", "Lock-in", "Locations"],
+        "headers": [
+          "Gym",
+          "Price from",
+          "Joining fee",
+          "Lock-in",
+          "Locations"
+        ],
         "rows": [
-          ["City Fitness", "$7.99/week", "$29", "No (4 weeks min)", "Auckland, Wellington, Hamilton, Tauranga"],
-          ["Jetts", "$14.95/week", "$0", "No lock-in", "Auckland, Wellington, Christchurch, Hamilton, Tauranga"],
-          ["Snap Fitness", "$14.95/week", "$49 (often waived)", "Varies by location", "Nationwide"],
-          ["Anytime Fitness", "$16.95/week", "$49 (sometimes waived)", "12 months (some 6)", "Nationwide + global"]
+          [
+            "City Fitness",
+            "$7.99/week",
+            "$29",
+            "No (4 weeks min)",
+            "Auckland, Wellington, Hamilton, Tauranga"
+          ],
+          [
+            "Jetts",
+            "$14.95/week",
+            "$0",
+            "No lock-in",
+            "Auckland, Wellington, Christchurch, Hamilton, Tauranga"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95/week",
+            "$49 (often waived)",
+            "Varies by location",
+            "Nationwide"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95/week",
+            "$49 (sometimes waived)",
+            "12 months (some 6)",
+            "Nationwide + global"
+          ]
         ]
       }
     },
