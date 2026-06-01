@@ -1,15 +1,17 @@
 {% extends "base.html" %}
+{% set _section = guide_section if guide_section is defined else 'guides' %}
+{% set _section_label = guide_section_label if guide_section_label is defined else 'Gym Guides' %}
 
 {% block title %}{{ guide.title }}{% endblock %}
 {% block desc %}{{ guide.meta_desc }}{% endblock %}
-{% block canonical %}guides/{{ guide.slug }}/{% endblock %}
+{% block canonical %}{{ _section }}/{{ guide.slug }}/{% endblock %}
 {% block head_extra %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
   {"@type":"BreadcrumbList","itemListElement":[
     {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
-    {"@type":"ListItem","position":2,"name":"Gym Guides","item":"{{ site.base_url }}/guides/"},
-    {"@type":"ListItem","position":3,"name":"{{ guide.short_title }}","item":"{{ site.base_url }}/guides/{{ guide.slug }}/"}
+    {"@type":"ListItem","position":2,"name":"{{ _section_label }}","item":"{{ site.base_url }}/{{ _section }}/"},
+    {"@type":"ListItem","position":3,"name":"{{ guide.short_title }}","item":"{{ site.base_url }}/{{ _section }}/{{ guide.slug }}/"}
   ]},
   {"@type":"Article",
    "headline":{{ guide.title | tojson }},
@@ -18,7 +20,7 @@
    "dateModified":"{{ guide.updated | to_iso_date }}",
    "image":{"@type":"ImageObject","url":"{{ guide.hero_image.url if guide.hero_image else 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80' }}","width":1200,"height":630},
    "inLanguage":"en-NZ",
-   "url":"{{ site.base_url }}/guides/{{ guide.slug }}/",
+   "url":"{{ site.base_url }}/{{ _section }}/{{ guide.slug }}/",
    "author":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}"},
    "publisher":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}",
      "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.svg","width":512,"height":512}}
@@ -33,7 +35,7 @@
 {% block hero %}
 <section class="page-hero">
   <div class="hero-inner">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/guides/">Guides</a> › {{ guide.short_title }}</div>
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/{{ _section }}/">{{ _section_label }}</a> › {{ guide.short_title }}</div>
     <h1>{{ guide.title }}</h1>
     <p>{{ guide.intro }}</p>
     <div class="guide-meta">

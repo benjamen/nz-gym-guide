@@ -108,7 +108,7 @@ def build():
         render("posts.html", "deals/index.html", posts=posts, **ctx)
         for post in posts:
             render("guide.html", f"deals/{post['slug']}/index.html",
-                   guide=post, **ctx)
+                   guide=post, guide_section='deals', guide_section_label='Gym Deals', **ctx)
 
     # About and Privacy pages
     render("about.html", "about/index.html", **ctx)
