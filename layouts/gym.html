@@ -235,6 +235,158 @@
 </section>
 {% endif %}
 
+{% if gym.monthly_cost %}
+<!-- Monthly cost breakdown -->
+<section class="section">
+  <h2>{{ gym.name }} NZ — Monthly & Annual Cost Breakdown</h2>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead><tr><th>Plan</th><th>Weekly rate</th><th>Per 4-week billing</th><th>Monthly equiv.</th><th>Annual cost</th></tr></thead>
+      <tbody>
+        {% for plan, costs in gym.monthly_cost.items() %}
+        {% if plan != 'notes' %}
+        <tr>
+          <td><strong>{{ plan | replace('_', ' ') | title }}</strong></td>
+          <td>${{ costs.weekly }}</td>
+          <td>${{ costs.monthly_4week }}</td>
+          <td>${{ costs.monthly_52_12 }}</td>
+          <td>${{ costs.annual }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% if gym.monthly_cost.notes %}<p style="font-size:.82rem;color:#64748b">{{ gym.monthly_cost.notes }}</p>{% endif %}
+</section>
+{% endif %}
+
+{% if gym.equipment %}
+<!-- Equipment list -->
+<section class="section">
+  <h2>{{ gym.name }} Equipment — What's Available</h2>
+  <ul>
+    {% for item in gym.equipment %}<li>{{ item }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if gym.city_guide %}
+<!-- City guide -->
+<section class="section">
+  <h2>{{ gym.name }} Locations — City-by-City Guide</h2>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead><tr><th>City</th><th>Clubs</th><th>Notes</th></tr></thead>
+      <tbody>
+        {% for entry in gym.city_guide %}
+        <tr>
+          <td><strong>{{ entry.city }}</strong></td>
+          <td>{{ entry.clubs }}</td>
+          <td>{{ entry.notes }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endif %}
+
+{% if gym.extended_review %}
+<!-- Extended long-form review -->
+<section class="section">
+  <div class="guide-body">{{ gym.extended_review }}</div>
+</section>
+{% endif %}
+
+{% if gym.pricing_history %}
+<!-- Pricing history table -->
+<section class="section">
+  <h2>{{ gym.name }} Price History (NZ)</h2>
+  <p>How {{ gym.name }} membership costs have changed year-on-year:</p>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead><tr><th>Year</th><th>Weekly from</th><th>Joining fee</th><th>Note</th></tr></thead>
+      <tbody>
+        {% for y in gym.pricing_history %}
+        <tr>
+          <td>{{ y.year }}</td>
+          <td>${{ y.weekly_from }}</td>
+          <td>${{ y.joining_fee }}</td>
+          <td>{{ y.note }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endif %}
+
+{% if gym.compare %}
+<!-- Head-to-head comparison table -->
+<section class="section">
+  <h2>{{ gym.name }} vs Competitors — NZ Comparison 2026</h2>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead><tr>{% for h in gym.compare.headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+      <tbody>
+        {% for row in gym.compare.rows %}
+        <tr {% if row[0] == gym.name %}style="background:#eff6ff;font-weight:600"{% endif %}>
+          {% for cell in row %}<td>{{ cell }}</td>{% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endif %}
+
+{% if gym.classes %}
+<!-- Group fitness classes -->
+<section class="section">
+  <h2>{{ gym.name }} Group Fitness Classes</h2>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead><tr><th>Class</th><th>Type</th><th>Duration</th><th>Level</th><th>What is it?</th></tr></thead>
+      <tbody>
+        {% for c in gym.classes %}
+        <tr>
+          <td><strong>{{ c.name }}</strong></td>
+          <td>{{ c.type }}</td>
+          <td>{{ c.duration }}</td>
+          <td>{{ c.level }}</td>
+          <td>{{ c.description }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endif %}
+
+{% if gym.review_summary %}
+<!-- Review summary -->
+<section class="section">
+  <h2>What Members Say — {{ gym.name }} Review Summary</h2>
+  <p>{{ gym.review_summary }}</p>
+</section>
+{% endif %}
+
+{% if gym.faqs %}
+<!-- Extended FAQs -->
+<section class="section">
+  <h2>{{ gym.name }} NZ — Frequently Asked Questions</h2>
+  <div class="faq-list">
+    {% for faq in gym.faqs %}
+    <details class="faq-item">
+      <summary>{{ faq.q }}</summary>
+      <p>{{ faq.a }}</p>
+    </details>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 <!-- Compare CTA -->
 <section class="section cta-section">
   <h2>How Does {{ gym.name }} Compare?</h2>

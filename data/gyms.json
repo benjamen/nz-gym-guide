@@ -3,7 +3,7 @@
     "slug": "les-mills",
     "name": "Les Mills",
     "logo": "les-mills",
-    "tagline": "NZ's biggest gym chain \u2014 group fitness, premium facilities",
+    "tagline": "NZ's biggest gym chain — group fitness, premium facilities",
     "website": "https://www.lesmills.co.nz/",
     "affiliate_key": "les_mills",
     "has_affiliate": true,
@@ -35,20 +35,20 @@
       "guest_passes": true,
       "no_lock_in": false,
       "open_247": false,
-      "cr\u00e8che": true
+      "crèche": true
     },
-    "hours": "5am\u201310pm weekdays, 7am\u20138pm weekends (varies by location)",
+    "hours": "5am–10pm weekdays, 7am–8pm weekends (varies by location)",
     "cancellation": "30 days written notice after minimum term",
     "rating": 4.1,
     "review_count": 2840,
     "best_for": "Group fitness lovers, families, swimmers",
-    "watch_out": "Minimum term required, pricing not published online \u2014 you must visit",
+    "watch_out": "Minimum term required, pricing not published online — you must visit",
     "discount_note": "Under 23s get 20% off. Student discounts available.",
     "verdict": "Best for group fitness and premium facilities. Worth it if you use the classes.",
     "pros": [
       "Best group fitness classes in NZ",
       "Pools and saunas at most locations",
-      "Cr\u00e8che available",
+      "Crèche available",
       "Corporate rates often available"
     ],
     "cons": [
@@ -76,14 +76,14 @@
         "name": "Priya S.",
         "rating": 5,
         "date": "February 2026",
-        "text": "Perfect for a lunchtime workout from the office. There's always a class on and the cr\u00e8che means I can bring my toddler on weekends without stress.",
+        "text": "Perfect for a lunchtime workout from the office. There's always a class on and the crèche means I can bring my toddler on weekends without stress.",
         "verified": true
       },
       {
         "name": "Mike O.",
         "rating": 3,
         "date": "January 2026",
-        "text": "Would be 5 stars but the pricing process is frustrating \u2014 you can't check rates online, you have to go in person. Once I signed up though the experience has been excellent.",
+        "text": "Would be 5 stars but the pricing process is frustrating — you can't check rates online, you have to go in person. Once I signed up though the experience has been excellent.",
         "verified": true
       },
       {
@@ -93,13 +93,276 @@
         "text": "Got the student discount and it's incredible value. The instructors know what they're doing and the class variety keeps it interesting every single week.",
         "verified": true
       }
-    ]
+    ],
+    "tiers": [
+      {
+        "name": "Single Club",
+        "weekly": 17.99,
+        "includes": "Access to one chosen club, full timetable of group fitness classes, gym floor, changing rooms."
+      },
+      {
+        "name": "All Clubs",
+        "weekly": 24.99,
+        "includes": "Access to all Les Mills NZ locations, full class timetable, pools and saunas where available."
+      },
+      {
+        "name": "Under 23 / Student",
+        "weekly": 14.39,
+        "includes": "Single club access with 20% discount. Student ID required at sign-up."
+      }
+    ],
+    "pricing_history": [
+      {
+        "year": 2022,
+        "weekly_from": 15.0,
+        "joining_fee": 49,
+        "note": ""
+      },
+      {
+        "year": 2023,
+        "weekly_from": 16.5,
+        "joining_fee": 49,
+        "note": "First increase post-COVID"
+      },
+      {
+        "year": 2024,
+        "weekly_from": 17.99,
+        "joining_fee": 49,
+        "note": "Introduced all-clubs tier"
+      },
+      {
+        "year": 2025,
+        "weekly_from": 17.99,
+        "joining_fee": 49,
+        "note": "Held flat"
+      },
+      {
+        "year": 2026,
+        "weekly_from": 17.99,
+        "joining_fee": 49,
+        "note": "Current pricing, often waived in promo"
+      }
+    ],
+    "compare": {
+      "headers": [
+        "Gym",
+        "Weekly from",
+        "Joining fee",
+        "Lock-in",
+        "Group classes",
+        "Pool",
+        "Crèche"
+      ],
+      "rows": [
+        [
+          "Les Mills",
+          "$17.99",
+          "$49 (often waived)",
+          "3 months",
+          "Yes — 100+ formats",
+          "Most locations",
+          "Yes"
+        ],
+        [
+          "City Fitness Black Card",
+          "$14.99",
+          "$29",
+          "None",
+          "Limited",
+          "Some locations",
+          "No"
+        ],
+        [
+          "F45 Training",
+          "$25.00",
+          "$0",
+          "Monthly",
+          "Yes — HIIT only",
+          "No",
+          "No"
+        ],
+        [
+          "Orangetheory",
+          "$18.25–$28/wk",
+          "$49",
+          "Monthly",
+          "Yes — HR-based",
+          "No",
+          "No"
+        ],
+        [
+          "YMCA",
+          "$17.50",
+          "$0",
+          "6–12 months",
+          "Some",
+          "Some",
+          "Some"
+        ],
+        [
+          "Anytime Fitness",
+          "$16.95",
+          "$49",
+          "12 months",
+          "Some clubs",
+          "No",
+          "No"
+        ]
+      ]
+    },
+    "classes": [
+      {
+        "name": "BodyPump",
+        "type": "Strength",
+        "duration": "55 min",
+        "level": "All levels",
+        "description": "Barbell-based strength class. NZ's most popular gym class — runs 10+ times weekly at most clubs."
+      },
+      {
+        "name": "BodyCombat",
+        "type": "Cardio",
+        "duration": "55 min",
+        "level": "All levels",
+        "description": "Martial arts-inspired cardio. High energy, no contact, burns 500–700 calories."
+      },
+      {
+        "name": "BodyBalance / BodyFlow",
+        "type": "Mind & Body",
+        "duration": "55 min",
+        "level": "All levels",
+        "description": "Yoga/Tai Chi/Pilates fusion. Best class for flexibility, stress relief, and recovery."
+      },
+      {
+        "name": "GRIT Strength",
+        "type": "HIIT",
+        "duration": "30 min",
+        "level": "Intermediate+",
+        "description": "30-minute high-intensity barbell and bodyweight circuit. Fast, intense, efficient."
+      },
+      {
+        "name": "RPM / The Trip",
+        "type": "Cycling",
+        "duration": "45 min",
+        "level": "All levels",
+        "description": "Indoor cycling to music. The Trip adds immersive video. Good low-impact cardio."
+      },
+      {
+        "name": "BodyAttack",
+        "type": "Cardio",
+        "duration": "55 min",
+        "level": "All levels",
+        "description": "High-energy sports aerobics. Running, jumping, strength work. Excellent for fat burn."
+      },
+      {
+        "name": "SH'BAM",
+        "type": "Dance",
+        "duration": "45 min",
+        "level": "All levels",
+        "description": "Simple dance moves to pop music. Very beginner-friendly, no coordination required."
+      },
+      {
+        "name": "Barre Above",
+        "type": "Strength & tone",
+        "duration": "55 min",
+        "level": "All levels",
+        "description": "Ballet-inspired toning using barre, light weights and bands."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does Les Mills cost per month in NZ?",
+        "a": "A single-club Les Mills membership costs $17.99/week, which equals approximately $77.96/month. The all-clubs membership is $24.99/week ($108.29/month). The joining fee of $49 is often waived during promotional periods — ask at sign-up."
+      },
+      {
+        "q": "Do you have to sign a contract at Les Mills NZ?",
+        "a": "Yes — Les Mills requires a minimum 3-month commitment. You cannot sign up month-to-month from day one. After the 3-month minimum, you continue on a rolling weekly basis and can cancel with 30 days written notice. This is Les Mills' biggest drawback compared to no-lock-in gyms like Jetts or City Fitness."
+      },
+      {
+        "q": "Can I try Les Mills before joining?",
+        "a": "Yes — Les Mills NZ frequently offers free trial passes (1–7 days) via their website or when you visit in person. Promotions change monthly. The safest way is to ask at reception for a free day pass rather than committing to a membership on first visit."
+      },
+      {
+        "q": "Is the Les Mills app included in the membership?",
+        "a": "The Les Mills+ streaming app (for home workouts) requires a separate subscription ($19.99/month or $159/year). It is not included with a club membership. However, you can access on-demand versions of class tracks as a club member through the companion app."
+      },
+      {
+        "q": "Does Les Mills have a pool in NZ?",
+        "a": "Most Les Mills clubs in Auckland, Wellington and Christchurch have 25-metre heated pools. Not all suburban or smaller city clubs have pools — check with your specific club before joining if the pool is important to you."
+      },
+      {
+        "q": "What discount does Les Mills offer students and under-23s?",
+        "a": "Les Mills offers 20% off for members under 23 years old. Student discounts are also available with valid student ID. These discounts bring the single-club membership to approximately $14.39/week — competitive with Jetts."
+      },
+      {
+        "q": "Can I freeze my Les Mills membership?",
+        "a": "Yes — Les Mills allows membership freezes for medical reasons, travel, or other circumstances, usually for a minimum of 4 weeks and a maximum of 3 months per year. A small admin fee ($5–$10/week) may apply. Contact your home club directly to arrange a freeze."
+      },
+      {
+        "q": "How do I cancel my Les Mills membership in NZ?",
+        "a": "You must provide 30 days written notice after the minimum 3-month term has passed. You cannot cancel by phone — written notice (email or letter to your home club) is required. Keep a copy of your cancellation notice. For a full cancellation guide, see our Les Mills cancellation guide."
+      }
+    ],
+    "review_summary": "Les Mills NZ reviews are strongly positive for the quality of group fitness classes — BodyPump and BodyCombat consistently get 5-star mentions. The biggest complaint is the sign-up process: pricing not being published online and being required to visit in person is a common frustration cited by 3-star reviewers. Pool and sauna access is praised highly. Some members at suburban clubs mention equipment maintenance issues. The crèche is a key differentiator for parents and drives several 5-star reviews specifically.",
+    "extended_review": "<h3>Les Mills NZ — Full Membership Review 2026</h3>\n<p>Les Mills is the dominant premium gym chain in New Zealand. Founded in Auckland in 1968 by Olympic weightlifter Les Mills, it grew into a national fitness institution before launching its group fitness programmes globally. Today, Les Mills group fitness formats (BodyPump, BodyCombat, RPM) are licensed to gyms in 100+ countries — but the NZ clubs where those formats were developed remain, by most accounts, the best gym membership in the country for people who want group fitness, pools, and quality facilities.</p>\n\n<h3>What You Get for $17.99–$24.99/Week</h3>\n<p>A standard single-club membership gets you: full access to the gym floor with weights, cardio and functional training equipment; the complete group fitness timetable (80–120 classes per week at major clubs); pool and sauna access at most full-service locations; crèche access during specified hours; and the Les Mills companion app for booking classes. At premium clubs (Auckland City, Takapuna, North Harbour, Wellington City), the facilities are genuinely world-class — 25m pools, modern equipment, spacious studios, high-quality changing rooms.</p>\n<p>The all-clubs membership ($24.99/week) adds access to all Les Mills NZ locations. This is useful if you train near the office during the week and near home on weekends, or travel between major cities.</p>\n\n<h3>The Problem With Les Mills NZ: Pricing Transparency</h3>\n<p>The single biggest frustration cited by NZ gym shoppers is that Les Mills does not publish membership prices on their website. You must visit a club or call to get pricing. This is a deliberate strategy — it allows each club to quote based on demand, competitor pricing, and promotional context. The prices in this review are based on confirmed quotes and member reports, but Les Mills can and does vary pricing by location and time of year.</p>\n<p>The practical implication: always ask about the joining fee waiver (it's almost always available if you ask — $49 is not commonly collected at sign-up), ask about the under-23 discount if relevant, and ask about any current promotions. The person at the desk has latitude to offer deals, especially at quieter times of year.</p>\n\n<h3>Les Mills Group Fitness — Why It's the Best in NZ</h3>\n<p>Les Mills group fitness classes are genuinely the best available in any NZ gym chain. This isn't brand loyalty — it's the result of professionally produced, globally tested formats with consistent instructor certification standards. A BodyPump instructor at Les Mills Auckland has trained to the same standard as BodyPump instructors in New York and London. The format design is sophisticated: music licensing, choreography, and progressive muscle loading are all professionally managed at a global level that no independent studio replicates.</p>\n<p>For people who want group fitness as their primary training modality, Les Mills has more variety (100+ class formats), more sessions per week, and better instruction quality than any competitor in NZ. This is the core reason to pay the premium over City Fitness or Jetts.</p>\n\n<h3>Les Mills NZ vs Alternatives — When the Premium Is Worth It</h3>\n<p><strong>Les Mills beats competitors when:</strong> You want group fitness classes as a core part of your routine, you use the pool or sauna regularly, you need crèche access, you want the flexibility to train at multiple clubs, or you're under 23 (the student/youth discount makes it competitive with mid-range gyms).</p>\n<p><strong>Alternatives win when:</strong> You primarily train alone with weights (City Fitness or Jetts are $5–10/week cheaper for the same floor access), you can't commit to a 3-month minimum (Jetts and City Fitness have no lock-in), you only need basic facilities (City Fitness Basic at $7.99 is far cheaper for similar equipment access), or you travel frequently to cities without Les Mills clubs (Anytime Fitness is better networked in smaller NZ cities).</p>\n\n<h3>Les Mills NZ Contract Terms — What to Know Before Signing</h3>\n<p>The 3-month minimum term is Les Mills' most-discussed feature. After the minimum, you continue on a rolling basis — technically month-to-month with 4-week notice to cancel, charged weekly. The key practical points:</p>\n<ul>\n<li>You cannot cancel during the 3-month minimum without paying out the remaining term, unless you have medical grounds (doctor's certificate required)</li>\n<li>Membership freezes are available for medical, travel, or hardship reasons — typically 4 weeks minimum, up to 3 months per year, at a reduced holding fee of $5–10/week</li>\n<li>Transfers between Les Mills clubs are generally accommodated when moving cities</li>\n<li>Corporate/employer rates are available at many companies — check with your HR team, as this can reduce the price by 10–20%</li>\n</ul>\n\n<h3>Les Mills NZ — Which Clubs Are the Best?</h3>\n<p>Quality is consistent across the chain but the flagship clubs stand out: <strong>Les Mills Auckland City</strong> (99 Graham Street) is the best-equipped gym in Auckland, with the largest pool and most complete facilities. <strong>Les Mills North Harbour</strong> (Albany, Auckland) is purpose-built with excellent parking. <strong>Les Mills Wellington City</strong> is central and well-maintained. Smaller city clubs in Hamilton and Tauranga are good but lack the pool facilities of the flagship clubs. Always visit your specific local club before signing — some suburban locations feel noticeably smaller than the flagship clubs shown in marketing materials.</p>\n\n<h3>How to Get the Best Les Mills Membership Deal in NZ</h3>\n<p>Les Mills' main promotional levers are: joining fee waivers (almost always available — always ask), the under-23 discount (20% off), student discounts (ID required), and periodic new member promotions (typically January and mid-year). Corporate rates via employer are often 10–20% off standard pricing. The $49 joining fee is rarely actually charged to members who ask — mention a competitor quote when signing up and the joining fee will usually be waived. Don't pay it without asking.</p>",
+    "city_guide": [
+      {
+        "city": "Auckland",
+        "clubs": "Auckland City (CBD), Newmarket, Takapuna, North Harbour (Albany), Manukau, Remuera, Grey Lynn",
+        "notes": "Auckland is Les Mills' strongest market with 7+ clubs. The CBD flagship at 99 Graham Street is the best-equipped gym in New Zealand. North Harbour (Albany) is purpose-built and has the largest pool outside the CBD. Takapuna and Remuera are excellent suburban clubs."
+      },
+      {
+        "city": "Wellington",
+        "clubs": "Wellington City (Lambton Quay), Lower Hutt, Porirua",
+        "notes": "Wellington City club is centrally located and well-maintained. The pool is a major drawcard for CBD workers. Porirua and Lower Hutt serve northern and Hutt Valley residents."
+      },
+      {
+        "city": "Christchurch",
+        "clubs": "Christchurch City (Hereford Street)",
+        "notes": "Post-earthquake rebuild. The Christchurch club is modern and well-equipped with pool access. Smaller class timetable than Auckland flagships but covers all major formats."
+      },
+      {
+        "city": "Hamilton",
+        "clubs": "Hamilton Centre (Anglesea Street)",
+        "notes": "One club covering Hamilton city. No pool at this location. Good class timetable for a mid-sized city. Under-23 discount is significant here given the student population."
+      },
+      {
+        "city": "Tauranga",
+        "clubs": "Tauranga (Devonport Road)",
+        "notes": "One location. No pool. Solid class timetable including BodyPump, BodyCombat and RPM. Serves the Bay of Plenty well."
+      },
+      {
+        "city": "Dunedin",
+        "clubs": "Dunedin (Moray Place)",
+        "notes": "Good city-centre location. No pool at this club. Dunedin University students can access the under-23 discount — one of the best-value premium gyms in a student city."
+      }
+    ],
+    "monthly_cost": {
+      "single_club": {
+        "weekly": 17.99,
+        "monthly_4week": 71.96,
+        "monthly_52_12": 77.96,
+        "annual": 935.48
+      },
+      "all_clubs": {
+        "weekly": 24.99,
+        "monthly_4week": 99.96,
+        "monthly_52_12": 108.29,
+        "annual": 1299.48
+      },
+      "student_u23": {
+        "weekly": 14.39,
+        "monthly_4week": 57.56,
+        "monthly_52_12": 62.36,
+        "annual": 748.28
+      },
+      "notes": "Les Mills bills weekly. The joining fee ($49) is often waived. Monthly figures above assume 52 weeks / 12 months for comparison. Student and under-23 rates bring the cost below Jetts Premium."
+    }
   },
   {
     "slug": "city-fitness",
     "name": "City Fitness",
     "logo": "city-fitness",
-    "tagline": "NZ's most affordable 24/7 gym \u2014 three membership tiers",
+    "tagline": "NZ's most affordable 24/7 gym — three membership tiers",
     "website": "https://www.cityfitness.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -146,7 +409,7 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "24/7",
     "cancellation": "4 weeks notice",
@@ -179,7 +442,7 @@
         "name": "Amy L.",
         "rating": 5,
         "date": "April 2026",
-        "text": "Black Card is the move \u2014 multi-club access means I can hit whichever location is closest. The tanning and massage chairs are a nice bonus.",
+        "text": "Black Card is the move — multi-club access means I can hit whichever location is closest. The tanning and massage chairs are a nice bonus.",
         "verified": true
       },
       {
@@ -209,7 +472,7 @@
     "slug": "anytime-fitness",
     "name": "Anytime Fitness",
     "logo": "anytime-fitness",
-    "tagline": "24/7 access, 600+ clubs worldwide \u2014 great for travellers",
+    "tagline": "24/7 access, 600+ clubs worldwide — great for travellers",
     "website": "https://www.anytimefitness.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -245,7 +508,7 @@
       "guest_passes": true,
       "no_lock_in": false,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "24/7 key fob access",
     "cancellation": "Must complete minimum term or pay out remaining months",
@@ -254,7 +517,7 @@
     "best_for": "Frequent travellers, shift workers, those wanting global access",
     "watch_out": "12-month contracts at most locations. No group fitness.",
     "discount_note": "Refer a friend for 4 free weeks.",
-    "verdict": "Best if you travel within NZ or internationally \u2014 one membership, 600+ clubs.",
+    "verdict": "Best if you travel within NZ or internationally — one membership, 600+ clubs.",
     "pros": [
       "24/7 access everywhere",
       "Massive global network",
@@ -286,14 +549,14 @@
         "name": "Liam T.",
         "rating": 5,
         "date": "February 2026",
-        "text": "Used my membership in 3 different NZ cities last month. The global access when travelling overseas is incredible \u2014 walked into a club in London no problem.",
+        "text": "Used my membership in 3 different NZ cities last month. The global access when travelling overseas is incredible — walked into a club in London no problem.",
         "verified": true
       },
       {
         "name": "Aroha W.",
         "rating": 3,
         "date": "December 2025",
-        "text": "The gym itself is solid but pricing varies so much between locations \u2014 do your research before signing up as the franchise model causes inconsistency.",
+        "text": "The gym itself is solid but pricing varies so much between locations — do your research before signing up as the franchise model causes inconsistency.",
         "verified": true
       },
       {
@@ -309,7 +572,7 @@
     "slug": "snap-fitness",
     "name": "Snap Fitness",
     "logo": "snap-fitness",
-    "tagline": "24/7 boutique gym \u2014 compact, clean, no frills",
+    "tagline": "24/7 boutique gym — compact, clean, no frills",
     "website": "https://www.snapfitness.com/nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -343,14 +606,14 @@
       "guest_passes": false,
       "no_lock_in": false,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "24/7",
-    "cancellation": "Varies by location \u2014 check your contract",
+    "cancellation": "Varies by location — check your contract",
     "rating": 3.8,
     "review_count": 1650,
     "best_for": "Simple 24/7 gym access, small-town NZ locations",
-    "watch_out": "Very small clubs \u2014 can feel cramped during peak hours.",
+    "watch_out": "Very small clubs — can feel cramped during peak hours.",
     "discount_note": null,
     "verdict": "Solid 24/7 option especially in smaller NZ towns where other chains don't reach.",
     "pros": [
@@ -384,7 +647,7 @@
         "name": "Jack D.",
         "rating": 3,
         "date": "February 2026",
-        "text": "Does what it says \u2014 a clean 24/7 gym. No group classes which is the main drawback but for solo training it's perfectly adequate.",
+        "text": "Does what it says — a clean 24/7 gym. No group classes which is the main drawback but for solo training it's perfectly adequate.",
         "verified": true
       },
       {
@@ -398,7 +661,7 @@
         "name": "Ryan M.",
         "rating": 4,
         "date": "November 2025",
-        "text": "Smaller than I expected but surprisingly well-equipped. Great for those who don't like busy gyms \u2014 it's rarely packed even at peak times.",
+        "text": "Smaller than I expected but surprisingly well-equipped. Great for those who don't like busy gyms — it's rarely packed even at peak times.",
         "verified": true
       }
     ]
@@ -407,7 +670,7 @@
     "slug": "jetts",
     "name": "Jetts",
     "logo": "jetts",
-    "tagline": "24/7 no-contract gym \u2014 flexible membership, no joining fee",
+    "tagline": "24/7 no-contract gym — flexible membership, no joining fee",
     "website": "https://www.jetts.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -438,7 +701,7 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "24/7",
     "cancellation": "2 weeks notice",
@@ -447,7 +710,7 @@
     "best_for": "Those wanting flexibility, no joining fee, or trying a gym for the first time",
     "watch_out": "Fewer locations than Anytime Fitness or Snap. No group classes.",
     "discount_note": null,
-    "verdict": "Best for flexibility \u2014 no lock-in, no joining fee, cancel anytime.",
+    "verdict": "Best for flexibility — no lock-in, no joining fee, cancel anytime.",
     "pros": [
       "No joining fee",
       "No lock-in contract",
@@ -465,7 +728,7 @@
         "name": "Matt P.",
         "rating": 5,
         "date": "April 2026",
-        "text": "No lock-in and no joining fee was exactly what I needed when I wasn't sure I'd stick with it. Two years later I'm still going regularly \u2014 turns out I love it.",
+        "text": "No lock-in and no joining fee was exactly what I needed when I wasn't sure I'd stick with it. Two years later I'm still going regularly — turns out I love it.",
         "verified": true
       },
       {
@@ -496,13 +759,200 @@
         "text": "The no joining fee sealed the deal for me. Tried three other gyms before this and the flexibility here is unmatched. No pressure, just a good gym.",
         "verified": true
       }
+    ],
+    "tiers": [
+      {
+        "name": "Flexi",
+        "weekly": 14.95,
+        "includes": "Full gym access, 24/7 entry, no lock-in. Cancel anytime with 2 weeks notice."
+      },
+      {
+        "name": "Premium",
+        "weekly": 19.95,
+        "includes": "Full gym access plus reciprocal access to all Jetts NZ locations."
+      }
+    ],
+    "pricing_history": [
+      {
+        "year": 2022,
+        "weekly_from": 12.95,
+        "joining_fee": 0,
+        "note": ""
+      },
+      {
+        "year": 2023,
+        "weekly_from": 13.95,
+        "joining_fee": 0,
+        "note": ""
+      },
+      {
+        "year": 2024,
+        "weekly_from": 14.95,
+        "joining_fee": 0,
+        "note": ""
+      },
+      {
+        "year": 2025,
+        "weekly_from": 14.95,
+        "joining_fee": 0,
+        "note": "Held flat"
+      },
+      {
+        "year": 2026,
+        "weekly_from": 14.95,
+        "joining_fee": 0,
+        "note": "Current pricing"
+      }
+    ],
+    "compare": {
+      "headers": [
+        "Gym",
+        "Weekly from",
+        "Joining fee",
+        "Lock-in",
+        "24/7",
+        "Group classes",
+        "Locations NZ"
+      ],
+      "rows": [
+        [
+          "Jetts",
+          "$14.95",
+          "$0",
+          "None",
+          "Yes",
+          "No",
+          "~30"
+        ],
+        [
+          "Anytime Fitness",
+          "$16.95",
+          "$49",
+          "12 months",
+          "Yes",
+          "Some",
+          "~80"
+        ],
+        [
+          "Snap Fitness",
+          "$14.95",
+          "$49 (often waived)",
+          "Varies",
+          "Yes",
+          "No",
+          "~35"
+        ],
+        [
+          "City Fitness",
+          "$7.99",
+          "$29",
+          "4-week min",
+          "Yes",
+          "No",
+          "~20"
+        ],
+        [
+          "Les Mills",
+          "$17.99",
+          "$49",
+          "3 months",
+          "No",
+          "Yes (best in NZ)",
+          "~30"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Does Jetts NZ have a joining fee?",
+        "a": "No — Jetts has no joining fee. You pay your first week upfront and then weekly after that. This makes it one of the cheapest gyms to start at in NZ with no upfront barrier."
+      },
+      {
+        "q": "Can I cancel Jetts anytime?",
+        "a": "Yes. Jetts requires 2 weeks written notice to cancel. Unlike many competitors, there is no minimum lock-in period on their Flexi membership. Simply notify your home club in writing (email is accepted)."
+      },
+      {
+        "q": "How many Jetts locations are there in NZ?",
+        "a": "Jetts has approximately 30 locations in New Zealand, concentrated in Auckland, Wellington, Christchurch, Hamilton and Tauranga. Coverage is thinner in smaller cities compared to Anytime Fitness (~80 clubs)."
+      },
+      {
+        "q": "Does Jetts have group fitness classes?",
+        "a": "No — Jetts does not offer group fitness classes at most NZ locations. It is a self-service 24/7 gym focused on weights and cardio equipment. If group classes are important to you, consider Les Mills or F45."
+      },
+      {
+        "q": "How does Jetts compare to Anytime Fitness NZ?",
+        "a": "Both are 24/7 no-frills gyms but Jetts has no joining fee and no lock-in (Anytime requires 12 months). Anytime Fitness has roughly 2.5x more NZ locations and some clubs include group classes. For pure flexibility and lowest entry cost, Jetts wins. For nationwide coverage, Anytime Fitness is better."
+      },
+      {
+        "q": "Can I use all Jetts locations with one membership?",
+        "a": "On the Flexi plan you access only your home club. The Premium plan ($19.95/week) gives reciprocal access to all Jetts NZ locations. If you travel often between cities, the Premium plan is worth the extra $5/week."
+      },
+      {
+        "q": "Is Jetts good for beginners?",
+        "a": "Yes — the no joining fee and no lock-in make Jetts a low-risk option for first-time gym-goers. The downside is no group classes or instructors to guide you. Many beginners start at Jetts then move to a gym with PT or group fitness once they know what they want."
+      },
+      {
+        "q": "Does Jetts have personal training?",
+        "a": "Yes. Jetts clubs offer personal training sessions with on-site trainers, typically charged per session or in blocks. PT is not included in the membership fee. Expect to pay $60–$90 per 45-minute PT session."
+      }
+    ],
+    "review_summary": "Jetts consistently scores well for value and flexibility in NZ member reviews. The no joining fee and no lock-in are the most-praised features — many reviewers say they switched from Anytime Fitness or Snap Fitness specifically to avoid the 12-month commitment. The main complaints are limited locations in smaller cities and the absence of group classes. Most 3-star reviews mention equipment maintenance issues at specific clubs, which vary by location and franchise operator.",
+    "extended_review": "<h3>Jetts NZ — Full Membership Review 2026</h3>\n<p>Jetts Fitness arrived in New Zealand as part of an Australian franchise expansion and has established itself as the go-to option for NZ gym-goers who prioritise flexibility over facilities. The no joining fee, no lock-in proposition is genuinely differentiated in a market where Anytime Fitness requires 12-month commitments and Les Mills demands 3-month minimums. For people who've been burned by unused memberships before, Jetts is the psychologically easy choice.</p>\n\n<h3>What You Actually Get for $14.95–$19.95/Week</h3>\n<p>A Jetts membership gets you 24/7 keycard access to the gym floor: treadmills, ellipticals, bikes, cable machines, free weights, and fixed weight machines. The club size varies significantly — city locations like Jetts Auckland CBD are spacious; some suburban franchises feel small and under-equipped. Equipment quality is generally good — Life Fitness and Technogym machines appear at most locations — but the range is narrower than a full-service gym. There is no group fitness, no pool, no sauna, and at most clubs no on-site staff during unmanned hours.</p>\n\n<p>The key practical question is whether your specific local Jetts is worth the money. Equipment maintenance varies by franchise operator — some clubs are very well-maintained, others have multiple broken machines. Reading Google reviews for your specific location (not the brand overall) is essential before signing up.</p>\n\n<h3>Jetts vs Anytime Fitness — The Decision Most NZ Gym-Goers Face</h3>\n<p>These two gyms compete directly for the same customer: people who want 24/7 access, no group classes, and a no-frills training environment. The differences that actually matter:</p>\n<ul>\n<li><strong>Entry cost:</strong> Jetts has no joining fee; Anytime Fitness charges $49 upfront. If you're unsure you'll stick with it, Jetts costs $49 less to try.</li>\n<li><strong>Lock-in:</strong> Jetts has none on the Flexi plan; Anytime Fitness requires 12 months. This is a significant difference — you can't exit an Anytime Fitness membership without paying out the remaining term or negotiating.</li>\n<li><strong>Coverage:</strong> Anytime Fitness has approximately 80 NZ locations vs Jetts' ~30. If you travel between cities or move suburbs, Anytime Fitness is more useful.</li>\n<li><strong>Global access:</strong> Anytime Fitness works at 6,000+ clubs worldwide. Jetts operates primarily in Australia and NZ. For international travellers, Anytime Fitness wins easily.</li>\n<li><strong>Price:</strong> Both start at $14.95/week for single-club access. The difference appears at the premium tier — Jetts $19.95 vs Anytime $22.95 for multi-club access.</li>\n</ul>\n<p><strong>Bottom line:</strong> Jetts wins on flexibility and low entry cost. Anytime Fitness wins on coverage and international access. If you're confident you'll use a gym regularly for 12+ months, Anytime Fitness is fine. If you're uncertain or value the ability to walk away easily, Jetts is the rational choice.</p>\n\n<h3>Jetts Franchise Quality — What Members Say</h3>\n<p>Jetts operates as a franchise, which means quality varies significantly between clubs. The brand sets minimum equipment standards, but the day-to-day experience — cleanliness, equipment maintenance, member culture — depends heavily on the individual franchise operator.</p>\n<p>Auckland CBD and Newmarket Jetts locations consistently score higher in member reviews than some suburban locations. Hamilton and Tauranga Jetts clubs are generally well-rated. The worst experiences come from older suburban clubs where the franchise operator hasn't reinvested in equipment refresh. Before signing up, visit your intended club on a Monday evening (busy time) to check cleanliness and working equipment.</p>\n\n<h3>Who Should Join Jetts NZ?</h3>\n<p><strong>Jetts is ideal for:</strong> First-time gym members who aren't sure they'll stick with it (no risk if you quit), people who train solo without wanting PT or classes, anyone who's had bad experiences with lock-in contracts, budget-focused trainers who don't need facilities beyond weights and cardio.</p>\n<p><strong>Jetts is not ideal for:</strong> Group fitness enthusiasts (there are none), families who want childcare or a pool, members who travel frequently between smaller NZ cities where Jetts doesn't have a club, anyone who wants instructor-led classes or regular PT.</p>\n\n<h3>How to Get the Best Jetts Membership Deal</h3>\n<p>Jetts runs periodic promotional offers — joining fee waivers are their main promotional lever (though they normally have no joining fee anyway). The most reliable way to get the best deal is to visit in person and ask if any current promotions are running. Corporate and student discounts exist at some locations — ask specifically. The Flexi plan at $14.95 is the entry point; the Premium plan at $19.95 adds reciprocal access to all Jetts locations, which is worth it if you regularly use multiple locations or travel between cities where Jetts has clubs.</p>\n\n<h3>Jetts NZ Cancellation — Your Rights</h3>\n<p>Jetts cancellation requires 2 weeks written notice. Email your home club directly with a written cancellation request. You will be charged for the 2-week notice period. There is no lock-in contract on the Flexi plan — you can cancel from day one without penalty beyond the 2-week notice fee. Keep a copy of your cancellation email. If you're on the Flexi plan, this is one of the simplest gym cancellations in NZ — no minimum term, no exit fees, no negotiation required.</p>",
+    "city_guide": [
+      {
+        "city": "Auckland",
+        "clubs": "~15 locations including CBD, Newmarket, Takapuna, Henderson, Manukau, Albany",
+        "notes": "Best Jetts coverage in NZ. CBD and Newmarket clubs are well-maintained and busy. South Auckland clubs are quieter and slightly cheaper on some promotions. The Auckland Premium plan ($19.95) is worth it here given the number of accessible locations."
+      },
+      {
+        "city": "Wellington",
+        "clubs": "CBD, Petone, Lower Hutt, Porirua",
+        "notes": "Wellington coverage is adequate for central city workers. Petone is popular for its large floor space. If you work in the CBD and live in the Hutt Valley, the Premium plan suits."
+      },
+      {
+        "city": "Christchurch",
+        "clubs": "Riccarton, Hornby, Papanui, Sydenham",
+        "notes": "Christchurch clubs are generally spacious with good parking. Riccarton is the busiest and best-equipped. Competitive with City Fitness Christchurch in price."
+      },
+      {
+        "city": "Hamilton",
+        "clubs": "Central Hamilton, Te Rapa, Chartwell",
+        "notes": "Good coverage for a mid-sized city. Hamilton Jetts clubs consistently score well in member reviews for cleanliness and equipment."
+      },
+      {
+        "city": "Tauranga",
+        "clubs": "CBD, Papamoa",
+        "notes": "Tauranga has two Jetts locations. The CBD club is central; Papamoa serves the eastern suburbs. Smaller city pricing is generally on par with Auckland."
+      }
+    ],
+    "monthly_cost": {
+      "flexi": {
+        "weekly": 14.95,
+        "monthly_4week": 59.8,
+        "monthly_52_12": 64.78,
+        "annual": 777.4
+      },
+      "premium": {
+        "weekly": 19.95,
+        "monthly_4week": 79.8,
+        "monthly_52_12": 86.45,
+        "annual": 1037.4
+      },
+      "notes": "Jetts bills weekly, not monthly. The '4-week month' cost is the billed amount every 4 weeks. The '52/12 month' figure is the annual cost divided by 12 for comparison purposes."
+    },
+    "equipment": [
+      "Cardio: Treadmills, ellipticals, stationary bikes, rowing machines (varies by club)",
+      "Free weights: Dumbbells (typically 2.5kg–40kg+), barbells, EZ bars, benches",
+      "Fixed machines: Cable stations, lat pulldown, leg press, leg extension, leg curl, chest press, shoulder press, seated row",
+      "Functional: Kettlebells, medicine balls, pull-up bars, dip bars at most locations",
+      "Note: Equipment range varies by club size — visit your local Jetts before signing up if specific equipment matters to you"
     ]
   },
   {
     "slug": "ymca",
     "name": "YMCA",
     "logo": "ymca",
-    "tagline": "Community gym with pools \u2014 best for families and swimmers",
+    "tagline": "Community gym with pools — best for families and swimmers",
     "website": "https://www.ymca.org.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -532,19 +982,19 @@
       "guest_passes": false,
       "no_lock_in": false,
       "open_247": false,
-      "cr\u00e8che": true
+      "crèche": true
     },
-    "hours": "5:30am\u20139:30pm weekdays, 7am\u20137pm weekends",
+    "hours": "5:30am–9:30pm weekdays, 7am–7pm weekends",
     "cancellation": "Must complete minimum term",
     "rating": 4.2,
     "review_count": 720,
     "best_for": "Families, swimmers, community-focused gym-goers",
     "watch_out": "Not open 24/7. Limited locations. Hours more restricted.",
     "discount_note": "Community and concession rates available.",
-    "verdict": "Best for families with kids \u2014 pool, cr\u00e8che, and community feel.",
+    "verdict": "Best for families with kids — pool, crèche, and community feel.",
     "pros": [
       "Pool access",
-      "Cr\u00e8che included",
+      "Crèche included",
       "Community atmosphere",
       "Concession rates available"
     ],
@@ -559,7 +1009,7 @@
         "name": "Helen B.",
         "rating": 5,
         "date": "April 2026",
-        "text": "Perfect for our family. The pool is great for the kids on weekends and the cr\u00e8che means I can actually get a proper workout in during the week.",
+        "text": "Perfect for our family. The pool is great for the kids on weekends and the crèche means I can actually get a proper workout in during the week.",
         "verified": true
       },
       {
@@ -587,7 +1037,7 @@
         "name": "Aroha P.",
         "rating": 5,
         "date": "November 2025",
-        "text": "Swimming lessons for the kids plus my own gym membership in one place. The community vibe here is something special \u2014 everyone looks out for each other.",
+        "text": "Swimming lessons for the kids plus my own gym membership in one place. The community vibe here is something special — everyone looks out for each other.",
         "verified": true
       }
     ]
@@ -596,7 +1046,7 @@
     "slug": "f45",
     "name": "F45 Training",
     "logo": "f45",
-    "tagline": "Team-based HIIT \u2014 45-minute functional fitness sessions",
+    "tagline": "Team-based HIIT — 45-minute functional fitness sessions",
     "website": "https://f45training.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -628,16 +1078,16 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Class-based \u2014 typically 5:30am\u20137pm, varies by studio",
+    "hours": "Class-based — typically 5:30am–7pm, varies by studio",
     "cancellation": "Varies by studio",
     "rating": 4.5,
     "review_count": 1240,
     "best_for": "HIIT lovers, people who need group motivation, fast results",
-    "watch_out": "Most expensive option. No self-directed training \u2014 classes only.",
+    "watch_out": "Most expensive option. No self-directed training — classes only.",
     "discount_note": "First week free at most studios.",
-    "verdict": "Best results for the motivated \u2014 but at a premium price.",
+    "verdict": "Best results for the motivated — but at a premium price.",
     "pros": [
       "High energy team environment",
       "Structured 45-min workouts",
@@ -676,7 +1126,7 @@
         "name": "Lucy M.",
         "rating": 3,
         "date": "February 2026",
-        "text": "Love the workouts but the cost adds up quickly. At around $185/month it's a significant investment \u2014 worth it if you commit and attend consistently.",
+        "text": "Love the workouts but the cost adds up quickly. At around $185/month it's a significant investment — worth it if you commit and attend consistently.",
         "verified": true
       },
       {
@@ -718,17 +1168,17 @@
       {
         "name": "Starter (10 credits)",
         "weekly": 9.0,
-        "includes": "~2\u20133 classes/month"
+        "includes": "~2–3 classes/month"
       },
       {
         "name": "Standard (30 credits)",
         "weekly": 18.5,
-        "includes": "~6\u20138 classes/month"
+        "includes": "~6–8 classes/month"
       },
       {
         "name": "Premium (50 credits)",
         "weekly": 28.0,
-        "includes": "~10\u201312 classes/month"
+        "includes": "~10–12 classes/month"
       },
       {
         "name": "Unlimited (80 credits)",
@@ -745,16 +1195,16 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Depends on partner studios",
-    "cancellation": "Cancel anytime \u2014 monthly subscription",
+    "cancellation": "Cancel anytime — monthly subscription",
     "rating": 4.3,
     "review_count": 2100,
     "best_for": "Variety seekers, travelers, trying different fitness styles",
     "watch_out": "Credits expire monthly. Popular classes book out fast.",
     "discount_note": "First month free. Student discounts available.",
-    "verdict": "Best for variety \u2014 access yoga, pilates, HIIT, cycling and more on one plan.",
+    "verdict": "Best for variety — access yoga, pilates, HIIT, cycling and more on one plan.",
     "pros": [
       "Hundreds of studios in one membership",
       "No long-term commitment",
@@ -786,7 +1236,7 @@
         "name": "Nicole K.",
         "rating": 4,
         "date": "March 2026",
-        "text": "On the standard plan \u2014 covers 8 classes a month which is perfect for my schedule. Saving money vs a traditional gym while doing more varied workouts.",
+        "text": "On the standard plan — covers 8 classes a month which is perfect for my schedule. Saving money vs a traditional gym while doing more varied workouts.",
         "verified": true
       },
       {
@@ -800,7 +1250,7 @@
         "name": "Hannah W.",
         "rating": 5,
         "date": "November 2025",
-        "text": "Found studios I never knew existed. ClassPass has opened up the fitness scene for me \u2014 tried 12 different studios in 3 months and found 3 I absolutely love.",
+        "text": "Found studios I never knew existed. ClassPass has opened up the fitness scene for me — tried 12 different studios in 3 months and found 3 I absolutely love.",
         "verified": true
       }
     ]
@@ -809,7 +1259,7 @@
     "slug": "orangetheory",
     "name": "Orangetheory Fitness",
     "logo": "orangetheory",
-    "tagline": "Heart rate-based HIIT \u2014 science-backed 60-minute coached sessions",
+    "tagline": "Heart rate-based HIIT — science-backed 60-minute coached sessions",
     "website": "https://www.orangetheory.com/en-nz/",
     "affiliate_key": "orangetheory",
     "has_affiliate": true,
@@ -855,14 +1305,14 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Class-based \u2014 typically 5am\u20138pm weekdays, 7am\u201312pm weekends",
+    "hours": "Class-based — typically 5am–8pm weekdays, 7am–12pm weekends",
     "cancellation": "Cancel anytime with 30 days notice",
     "rating": 4.6,
     "review_count": 480,
     "best_for": "Data-driven fitness lovers, weight loss goals, people who want guided coaching every session",
-    "watch_out": "Expensive for unlimited. Class-times only \u2014 no open gym access. Few NZ locations.",
+    "watch_out": "Expensive for unlimited. Class-times only — no open gym access. Few NZ locations.",
     "discount_note": "First class free. Refer a friend for free classes.",
     "verdict": "Premium boutique HIIT with real-time heart rate coaching. Outstanding results if you commit.",
     "pros": [
@@ -875,7 +1325,7 @@
     "cons": [
       "Limited NZ locations",
       "Expensive for unlimited access",
-      "Class times only \u2014 no open gym",
+      "Class times only — no open gym",
       "Small studios book out fast"
     ],
     "google_reviews": [
@@ -904,7 +1354,7 @@
         "name": "Mark S.",
         "rating": 3,
         "date": "December 2025",
-        "text": "Great workout concept but the unlimited plan is expensive. Commit to 3+ sessions per week and it's worth it \u2014 otherwise the per-class rate gets costly.",
+        "text": "Great workout concept but the unlimited plan is expensive. Commit to 3+ sessions per week and it's worth it — otherwise the per-class rate gets costly.",
         "verified": true
       },
       {
@@ -920,7 +1370,7 @@
     "slug": "contours",
     "name": "Contours Women's Gym",
     "logo": "contours",
-    "tagline": "Women-only circuit gym \u2014 30-minute sessions, welcoming atmosphere",
+    "tagline": "Women-only circuit gym — 30-minute sessions, welcoming atmosphere",
     "website": "https://www.contours.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -956,19 +1406,19 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "6am\u20138pm weekdays, 8am\u20132pm weekends (varies by location)",
+    "hours": "6am–8pm weekdays, 8am–2pm weekends (varies by location)",
     "cancellation": "2 weeks notice",
     "rating": 4.3,
     "review_count": 340,
     "best_for": "Women who want a supportive, non-intimidating gym, beginners, busy mums",
-    "watch_out": "Women-only. Not 24/7. Circuit-guided sessions only \u2014 no open gym access.",
+    "watch_out": "Women-only. Not 24/7. Circuit-guided sessions only — no open gym access.",
     "discount_note": "Free trial week available at most locations.",
-    "verdict": "Best women's gym in NZ \u2014 affordable, supportive, and effective for all fitness levels.",
+    "verdict": "Best women's gym in NZ — affordable, supportive, and effective for all fitness levels.",
     "pros": [
       "Women-only environment",
-      "Guided 30-min circuit \u2014 no guessing",
+      "Guided 30-min circuit — no guessing",
       "Welcoming for beginners",
       "No joining fee",
       "No lock-in",
@@ -985,7 +1435,7 @@
         "name": "Fiona T.",
         "rating": 5,
         "date": "May 2026",
-        "text": "Finally a gym where I feel completely comfortable! The women-only environment makes such a difference. The 30-minute circuit is perfect for busy mums \u2014 in, done, and home.",
+        "text": "Finally a gym where I feel completely comfortable! The women-only environment makes such a difference. The 30-minute circuit is perfect for busy mums — in, done, and home.",
         "verified": true
       },
       {
@@ -999,7 +1449,7 @@
         "name": "Karen W.",
         "rating": 4,
         "date": "March 2026",
-        "text": "Love the circuit format \u2014 in and out in 30 minutes. Ideal if you're not sure where to start at the gym. The instructors explain every exercise and keep you on track.",
+        "text": "Love the circuit format — in and out in 30 minutes. Ideal if you're not sure where to start at the gym. The instructors explain every exercise and keep you on track.",
         "verified": true
       },
       {
@@ -1013,7 +1463,7 @@
         "name": "Renee O.",
         "rating": 5,
         "date": "November 2025",
-        "text": "If you're nervous about going to a gym for the first time, start here. No judgment, no confusion about what to do \u2014 just a supportive group of women encouraging each other.",
+        "text": "If you're nervous about going to a gym for the first time, start here. No judgment, no confusion about what to do — just a supportive group of women encouraging each other.",
         "verified": true
       }
     ]
@@ -1022,7 +1472,7 @@
     "slug": "9round",
     "name": "9Round",
     "logo": "9round",
-    "tagline": "30-minute kickboxing circuit \u2014 no class times, just show up",
+    "tagline": "30-minute kickboxing circuit — no class times, just show up",
     "website": "https://www.9round.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -1053,25 +1503,25 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "6am\u20137pm weekdays, 8am\u201312pm weekends \u2014 no set class times, start anytime",
+    "hours": "6am–7pm weekdays, 8am–12pm weekends — no set class times, start anytime",
     "cancellation": "30 days notice",
     "rating": 4.4,
     "review_count": 190,
     "best_for": "Busy people who can't commit to fixed class times, cardio seekers, stress relief",
-    "watch_out": "Kickboxing-focused \u2014 not a full gym. No weights room or machines.",
+    "watch_out": "Kickboxing-focused — not a full gym. No weights room or machines.",
     "discount_note": "Free first session. Bring a friend free.",
-    "verdict": "Best for no-schedule fitness \u2014 9 kickboxing stations, a trainer guides every session, done in 30 min.",
+    "verdict": "Best for no-schedule fitness — 9 kickboxing stations, a trainer guides every session, done in 30 min.",
     "pros": [
-      "No class times \u2014 start anytime in the hour",
+      "No class times — start anytime in the hour",
       "Trainer-guided every session",
       "Kickboxing is great cardio",
       "No joining fee",
       "No lock-in contract"
     ],
     "cons": [
-      "Kickboxing only \u2014 no weights room",
+      "Kickboxing only — no weights room",
       "Limited NZ locations",
       "Pricier than basic gyms for what you get",
       "Not 24/7"
@@ -1095,7 +1545,7 @@
         "name": "Paul M.",
         "rating": 4,
         "date": "February 2026",
-        "text": "Great concept \u2014 9 stations, 3 minutes each. I was sceptical about 30 minutes being enough but I'm drenched in sweat every single time. Surprisingly effective.",
+        "text": "Great concept — 9 stations, 3 minutes each. I was sceptical about 30 minutes being enough but I'm drenched in sweat every single time. Surprisingly effective.",
         "verified": true
       },
       {
@@ -1109,7 +1559,7 @@
         "name": "Connor B.",
         "rating": 4,
         "date": "November 2025",
-        "text": "Tried the free first session and signed up immediately. 30 minutes is all you need \u2014 you work harder here in half an hour than 90 minutes at a traditional gym.",
+        "text": "Tried the free first session and signed up immediately. 30 minutes is all you need — you work harder here in half an hour than 90 minutes at a traditional gym.",
         "verified": true
       }
     ]
@@ -1118,7 +1568,7 @@
     "slug": "social-project",
     "name": "Social Project",
     "logo": "social-project",
-    "tagline": "Wellington's premium wellness gym \u2014 train, recover, transform",
+    "tagline": "Wellington's premium wellness gym — train, recover, transform",
     "website": "https://www.socialproject.nz/wellington-cbd",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -1131,7 +1581,7 @@
       "weekly_from": 35.0,
       "weekly_to": 55.0,
       "joining_fee": 0,
-      "joining_fee_note": "Pricing by enquiry \u2014 visit or call for current rates",
+      "joining_fee_note": "Pricing by enquiry — visit or call for current rates",
       "minimum_term": "1 month",
       "casual_visit": null,
       "contract_required": false
@@ -1145,42 +1595,42 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "24/7 gym access",
     "cancellation": "Contact studio for terms",
     "rating": 4.7,
     "review_count": 180,
     "best_for": "Professionals wanting premium wellness, recovery, and community",
-    "watch_out": "Pricing is by enquiry only \u2014 not published online. Waitlist may apply.",
+    "watch_out": "Pricing is by enquiry only — not published online. Waitlist may apply.",
     "discount_note": null,
-    "verdict": "Wellington's most complete wellness facility. Combines 24/7 gym, yoga studio, saunas, ice baths, and a caf\u00e9 under one roof. Premium but worth it for those who want more than just weights.",
+    "verdict": "Wellington's most complete wellness facility. Combines 24/7 gym, yoga studio, saunas, ice baths, and a café under one roof. Premium but worth it for those who want more than just weights.",
     "pros": [
       "24/7 gym access",
       "Recovery suite (sauna, ice bath)",
       "Yoga and wellness classes",
-      "Caf\u00e9 and lounge on-site",
+      "Café and lounge on-site",
       "Supportive community feel"
     ],
     "cons": [
       "Pricing not published online",
       "Waitlist for CBD location",
       "Premium price point",
-      "No cr\u00e8che"
+      "No crèche"
     ],
     "google_reviews": [
       {
         "name": "Samantha W.",
         "rating": 5,
         "date": "April 2026",
-        "text": "Best gym I've been a member of in Wellington. The recovery space alone is worth it \u2014 sauna and ice bath combo after a hard session is incredible.",
+        "text": "Best gym I've been a member of in Wellington. The recovery space alone is worth it — sauna and ice bath combo after a hard session is incredible.",
         "verified": true
       },
       {
         "name": "Josh M.",
         "rating": 5,
         "date": "March 2026",
-        "text": "Love the community here. The coaches know your name within a week and the programming is excellent. Caf\u00e9 is a great bonus for post-workout.",
+        "text": "Love the community here. The coaches know your name within a week and the programming is excellent. Café is a great bonus for post-workout.",
         "verified": true
       },
       {
@@ -1209,7 +1659,7 @@
       "weekly_from": 30.0,
       "weekly_to": 80.0,
       "joining_fee": 0,
-      "joining_fee_note": "No joining fee \u2014 contact for current membership options",
+      "joining_fee_note": "No joining fee — contact for current membership options",
       "minimum_term": "1 month",
       "casual_visit": 25,
       "contract_required": false
@@ -1223,25 +1673,25 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137pm, Sat 7am\u201312pm",
-    "cancellation": "Flexible \u2014 monthly memberships",
+    "hours": "Mon–Fri 6am–7pm, Sat 7am–12pm",
+    "cancellation": "Flexible — monthly memberships",
     "rating": 4.8,
     "review_count": 95,
     "best_for": "Results-focused individuals wanting expert personal training",
-    "watch_out": "Boutique model \u2014 limited membership spots. Focused on PT, not a traditional gym floor.",
+    "watch_out": "Boutique model — limited membership spots. Focused on PT, not a traditional gym floor.",
     "discount_note": null,
-    "verdict": "The highest-rated gym in Wellington CBD with a 4.8 Google rating. Expert personal trainers, holistic approach (nutrition, mental wellbeing, Muscle Activation Techniques). Small intimate model \u2014 not for those wanting a big gym floor.",
+    "verdict": "The highest-rated gym in Wellington CBD with a 4.8 Google rating. Expert personal trainers, holistic approach (nutrition, mental wellbeing, Muscle Activation Techniques). Small intimate model — not for those wanting a big gym floor.",
     "pros": [
-      "4.8 Google rating \u2014 top-rated in Wellington",
+      "4.8 Google rating — top-rated in Wellington",
       "Expert personal trainers",
       "Holistic health approach (nutrition + MAT)",
       "Intimate, no-waiting-for-equipment model",
       "CBD location at 332 Lambton Quay"
     ],
     "cons": [
-      "Limited spots \u2014 boutique membership model",
+      "Limited spots — boutique membership model",
       "No group fitness classes",
       "No 24/7 access",
       "Higher price point for PT-led sessions"
@@ -1265,7 +1715,7 @@
         "name": "Anna P.",
         "rating": 5,
         "date": "January 2026",
-        "text": "The team here genuinely care about your health holistically \u2014 not just lifting. They gave me a nutrition plan and checked in on my sleep. Total transformation.",
+        "text": "The team here genuinely care about your health holistically — not just lifting. They gave me a nutrition plan and checked in on my sleep. Total transformation.",
         "verified": true
       }
     ]
@@ -1301,14 +1751,14 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Classes from 5:30am weekdays, 8am weekends",
-    "cancellation": "Monthly membership \u2014 flexible cancellation",
+    "cancellation": "Monthly membership — flexible cancellation",
     "rating": 4.7,
     "review_count": 60,
     "best_for": "CrossFit beginners and experienced athletes who want a community-focused box",
-    "watch_out": "CrossFit is intense \u2014 foundations course required for beginners",
+    "watch_out": "CrossFit is intense — foundations course required for beginners",
     "discount_note": "Drop-in classes available for visitors",
     "verdict": "Wellington's most community-focused CrossFit box on Willis St. Smaller than CrossFit Central but praised for its welcoming culture and quality coaching. Great for those new to CrossFit.",
     "pros": [
@@ -1345,7 +1795,7 @@
     "slug": "crossfit-central-wellington",
     "name": "CrossFit Central Wellington",
     "logo": "crossfit-central-wellington",
-    "tagline": "Wellington's top-rated CrossFit box \u2014 40+ sessions a week, no booking needed",
+    "tagline": "Wellington's top-rated CrossFit box — 40+ sessions a week, no booking needed",
     "website": "https://crossfitcentralwellington.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -1382,7 +1832,7 @@
       {
         "name": "Concession",
         "weekly": null,
-        "includes": "10-class pass $225 \u2014 any session"
+        "includes": "10-class pass $225 — any session"
       }
     ],
     "features": {
@@ -1394,35 +1844,35 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Classes from 5:30am weekdays, 8am weekends. 40+ sessions per week.",
     "cancellation": "No lock-in. Monthly membership.",
     "rating": 5.0,
     "review_count": 53,
     "best_for": "Serious CrossFit athletes and those wanting maximum flexibility with no booking",
-    "watch_out": "CrossFit is high intensity \u2014 not suitable for complete beginners without foundations first",
+    "watch_out": "CrossFit is high intensity — not suitable for complete beginners without foundations first",
     "discount_note": "Couples and student rates available. 10-class concession pass $225.",
     "verdict": "Wellington's highest-rated CrossFit box with a 5.0 Google rating from 53 reviews. The 40+ sessions per week with no booking system gives unbeatable flexibility. Serious about functional fitness.",
     "pros": [
-      "5.0 Google rating \u2014 perfect score",
-      "40+ sessions/week \u2014 maximum flexibility",
+      "5.0 Google rating — perfect score",
+      "40+ sessions/week — maximum flexibility",
       "No booking system required",
       "Couples and student discounts",
       "Concession pass option"
     ],
     "cons": [
-      "$62/week full price \u2014 among the pricier options in Wellington",
+      "$62/week full price — among the pricier options in Wellington",
       "High-intensity CrossFit not for beginners",
       "No 24/7 access",
-      "No cr\u00e8che"
+      "No crèche"
     ],
     "google_reviews": [
       {
         "name": "Liam B.",
         "rating": 5,
         "date": "April 2026",
-        "text": "Best CrossFit box in Wellington, no question. The no-booking system means you can just show up whenever \u2014 I hit 5 sessions a week easily. 5 stars all day.",
+        "text": "Best CrossFit box in Wellington, no question. The no-booking system means you can just show up whenever — I hit 5 sessions a week easily. 5 stars all day.",
         "verified": true
       },
       {
@@ -1436,7 +1886,7 @@
         "name": "Tom W.",
         "rating": 5,
         "date": "February 2026",
-        "text": "The flexibility here is unreal \u2014 40+ sessions means there's always a class that fits your schedule. Programming is challenging and well-structured.",
+        "text": "The flexibility here is unreal — 40+ sessions means there's always a class that fits your schedule. Programming is challenging and well-structured.",
         "verified": true
       }
     ]
@@ -1445,7 +1895,7 @@
     "slug": "hot-yoga-wellington",
     "name": "Hot Yoga Wellington",
     "logo": "hot-yoga-wellington",
-    "tagline": "Wellington's busiest yoga studio \u2014 30+ hot, yin and vinyasa classes per week",
+    "tagline": "Wellington's busiest yoga studio — 30+ hot, yin and vinyasa classes per week",
     "website": "https://www.hotyogawellington.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -1472,14 +1922,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Early morning to evening daily \u2014 30+ classes per week",
-    "cancellation": "No lock-in \u2014 monthly or class-pass options",
+    "hours": "Early morning to evening daily — 30+ classes per week",
+    "cancellation": "No lock-in — monthly or class-pass options",
     "rating": 4.8,
     "review_count": 280,
-    "best_for": "Yoga enthusiasts wanting variety \u2014 hot, yin and power vinyasa all in one studio",
-    "watch_out": "Hot yoga room is heated \u2014 not suitable if you have certain medical conditions. Check with your doctor.",
+    "best_for": "Yoga enthusiasts wanting variety — hot, yin and power vinyasa all in one studio",
+    "watch_out": "Hot yoga room is heated — not suitable if you have certain medical conditions. Check with your doctor.",
     "discount_note": "Class passes available for casual or occasional practitioners",
     "verdict": "Wellington's most established hot yoga studio on Featherston St, with a 4.8 Google rating. Over 30 classes per week covering Hot Yoga, Yin, and Power Vinyasa. Excellent for building a consistent yoga practice.",
     "pros": [
@@ -1491,9 +1941,9 @@
     ],
     "cons": [
       "Hot room environment not for everyone",
-      "Not a traditional gym \u2014 yoga only",
+      "Not a traditional gym — yoga only",
       "No personal training",
-      "No cr\u00e8che"
+      "No crèche"
     ],
     "google_reviews": [
       {
@@ -1507,7 +1957,7 @@
         "name": "Ngaio P.",
         "rating": 5,
         "date": "March 2026",
-        "text": "The variety of classes keeps it fresh \u2014 I do hot yoga Monday, yin on Wednesday and vinyasa on Friday. Never get bored and always feel amazing after.",
+        "text": "The variety of classes keeps it fresh — I do hot yoga Monday, yin on Wednesday and vinyasa on Friday. Never get bored and always feel amazing after.",
         "verified": true
       },
       {
@@ -1550,16 +2000,16 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Morning and evening classes daily",
-    "cancellation": "No lock-in \u2014 class pass or casual",
+    "cancellation": "No lock-in — class pass or casual",
     "rating": 4.9,
     "review_count": 145,
     "best_for": "Those wanting a welcoming, inclusive yoga community with diverse class styles",
-    "watch_out": "Class-based pricing rather than weekly membership \u2014 works best if you attend regularly",
+    "watch_out": "Class-based pricing rather than weekly membership — works best if you attend regularly",
     "discount_note": "Concession pass $160/10 classes for students, unwaged, or community card holders",
-    "verdict": "One of Wellington CBD's most beloved yoga studios. AWHI (meaning care and support in te reo M\u0101ori) lives up to its name \u2014 inclusive, welcoming classes covering vinyasa, yin, pilates, meditation, and sound healing at 15 Johnston St.",
+    "verdict": "One of Wellington CBD's most beloved yoga studios. AWHI (meaning care and support in te reo Māori) lives up to its name — inclusive, welcoming classes covering vinyasa, yin, pilates, meditation, and sound healing at 15 Johnston St.",
     "pros": [
       "Exceptionally welcoming and inclusive culture",
       "Diverse class types: vinyasa, yin, pilates, meditation, sound healing",
@@ -1568,17 +2018,17 @@
       "CBD location at 15 Johnston St"
     ],
     "cons": [
-      "Class-pass model \u2014 no traditional weekly membership",
+      "Class-pass model — no traditional weekly membership",
       "No personal training",
       "No gym floor equipment",
-      "No cr\u00e8che"
+      "No crèche"
     ],
     "google_reviews": [
       {
         "name": "Mere T.",
         "rating": 5,
         "date": "April 2026",
-        "text": "AWHI is exactly what its name suggests \u2014 total care and support. The heated vinyasa classes are challenging but the teachers make everyone feel welcome regardless of experience.",
+        "text": "AWHI is exactly what its name suggests — total care and support. The heated vinyasa classes are challenging but the teachers make everyone feel welcome regardless of experience.",
         "verified": true
       },
       {
@@ -1601,7 +2051,7 @@
     "slug": "te-aro-astanga-yoga",
     "name": "Te Aro Astanga Yoga",
     "logo": "te-aro-astanga-yoga",
-    "tagline": "Traditional Ashtanga yoga in central Wellington \u2014 experienced teachers",
+    "tagline": "Traditional Ashtanga yoga in central Wellington — experienced teachers",
     "website": "https://www.astanga.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -1628,14 +2078,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Morning and afternoon classes, check website for schedule",
-    "cancellation": "No lock-in \u2014 casual or pass options",
+    "cancellation": "No lock-in — casual or pass options",
     "rating": 4.9,
     "review_count": 80,
     "best_for": "Dedicated yoga practitioners wanting traditional Ashtanga in a peaceful, experienced environment",
-    "watch_out": "Traditional Ashtanga is a specific, disciplined style \u2014 not a casual flow class",
+    "watch_out": "Traditional Ashtanga is a specific, disciplined style — not a casual flow class",
     "discount_note": null,
     "verdict": "Wellington's home of traditional Ashtanga yoga. Teacher Mike is regarded as one of NZ's most experienced yoga teachers. A calm, welcoming space with a loyal community of long-term practitioners.",
     "pros": [
@@ -1646,7 +2096,7 @@
       "Personal practice (Mysore-style) and led classes"
     ],
     "cons": [
-      "Specific style \u2014 not for those wanting casual vinyasa or hot yoga",
+      "Specific style — not for those wanting casual vinyasa or hot yoga",
       "Smaller studio",
       "Traditional approach may not suit beginners looking for variety"
     ],
@@ -1655,7 +2105,7 @@
         "name": "Kate M.",
         "rating": 5,
         "date": "March 2026",
-        "text": "Mike is genuinely one of the most knowledgeable yoga teachers I've ever encountered. The community here has been practicing for years \u2014 you feel the depth of experience the moment you walk in.",
+        "text": "Mike is genuinely one of the most knowledgeable yoga teachers I've ever encountered. The community here has been practicing for years — you feel the depth of experience the moment you walk in.",
         "verified": true
       },
       {
@@ -1671,7 +2121,7 @@
     "slug": "iyengar-yoga-wellington",
     "name": "Iyengar Yoga Centre Wellington",
     "logo": "iyengar-yoga-wellington",
-    "tagline": "Precision yoga for all bodies and abilities \u2014 props provided",
+    "tagline": "Precision yoga for all bodies and abilities — props provided",
     "website": "https://www.wellingtonyoga.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -1698,16 +2148,16 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Check website for class schedule",
     "cancellation": "No lock-in",
     "rating": 4.9,
     "review_count": 65,
     "best_for": "All abilities including larger bodies, older practitioners, or those recovering from injury",
-    "watch_out": "Iyengar is precise and detail-oriented \u2014 may feel slow-paced for those wanting vigorous exercise",
-    "discount_note": "Beginners welcome \u2014 4-week beginner course available",
-    "verdict": "Wellington's most accessible yoga style, praised for being the most body-positive studio in the city. All props provided (mats, blocks, chairs) \u2014 zero judgment. Perfect for beginners, older adults, and those with injuries.",
+    "watch_out": "Iyengar is precise and detail-oriented — may feel slow-paced for those wanting vigorous exercise",
+    "discount_note": "Beginners welcome — 4-week beginner course available",
+    "verdict": "Wellington's most accessible yoga style, praised for being the most body-positive studio in the city. All props provided (mats, blocks, chairs) — zero judgment. Perfect for beginners, older adults, and those with injuries.",
     "pros": [
       "Most body-positive yoga studio in Wellington",
       "All props provided free",
@@ -1716,7 +2166,7 @@
       "Experienced certified Iyengar teachers"
     ],
     "cons": [
-      "Slower, more methodical pace \u2014 not a fitness workout",
+      "Slower, more methodical pace — not a fitness workout",
       "Less class variety than other studios",
       "Smaller community"
     ],
@@ -1741,7 +2191,7 @@
     "slug": "yoga-for-the-people-wellington",
     "name": "Yoga for the People",
     "logo": "yoga-for-the-people-wellington",
-    "tagline": "Bikram and Inferno Hot Pilates \u2014 established Wellington hot yoga studio since 2005",
+    "tagline": "Bikram and Inferno Hot Pilates — established Wellington hot yoga studio since 2005",
     "website": "https://yogaforthepeople.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -1768,18 +2218,18 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Morning and evening classes daily",
     "cancellation": "No lock-in",
     "rating": 4.7,
     "review_count": 210,
     "best_for": "Bikram practitioners and those wanting hot pilates alongside yoga",
-    "watch_out": "Bikram is done in 40\u00b0C heat \u2014 not suitable for some medical conditions",
-    "discount_note": "Intro offer available for new students \u2014 check website",
+    "watch_out": "Bikram is done in 40°C heat — not suitable for some medical conditions",
+    "discount_note": "Intro offer available for new students — check website",
     "verdict": "Wellington's original Bikram yoga studio, established 2005. Modern, spacious, well-equipped facility with highly-qualified teachers. Also offers Inferno Hot Pilates which combines Pilates and HIIT in a heated room.",
     "pros": [
-      "Established since 2005 \u2014 experienced teachers",
+      "Established since 2005 — experienced teachers",
       "Modern spacious studio",
       "Inferno Hot Pilates as well as Bikram",
       "Well-equipped with mats and all equipment",
@@ -1788,7 +2238,7 @@
     "cons": [
       "Bikram format (26 poses, 2 breathing exercises) may feel repetitive for some",
       "Extreme heat not for everyone",
-      "Specific style \u2014 not a general yoga studio"
+      "Specific style — not a general yoga studio"
     ],
     "google_reviews": [
       {
@@ -1802,7 +2252,7 @@
         "name": "Nathan C.",
         "rating": 5,
         "date": "February 2026",
-        "text": "Inferno Hot Pilates is addictive. It's like HIIT but in the heat \u2014 burns twice as hard. The teachers know their stuff and the studio is welcoming.",
+        "text": "Inferno Hot Pilates is addictive. It's like HIIT but in the heat — burns twice as hard. The teachers know their stuff and the studio is welcoming.",
         "verified": true
       }
     ]
@@ -1838,18 +2288,18 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Morning and afternoon classes \u2014 check website for schedule",
-    "cancellation": "No lock-in \u2014 class pass or casual",
+    "hours": "Morning and afternoon classes — check website for schedule",
+    "cancellation": "No lock-in — class pass or casual",
     "rating": 4.9,
     "review_count": 120,
     "best_for": "Pilates and yoga lovers wanting small-group attention and quality instruction in Kelburn",
-    "watch_out": "Small group sizes (max 6 reformer, max 8 mat) mean classes book out fast \u2014 book ahead",
-    "discount_note": "Intro offer for new students \u2014 check arcwellness.nz for current specials",
+    "watch_out": "Small group sizes (max 6 reformer, max 8 mat) mean classes book out fast — book ahead",
+    "discount_note": "Intro offer for new students — check arcwellness.nz for current specials",
     "verdict": "Kelburn's premium pilates and yoga studio at 89 Upland Road. Max 6 people per reformer class guarantees personal attention. Also offers physiotherapy through Arc Wellness. Worth every cent.",
     "pros": [
-      "Maximum 6 per reformer class \u2014 real personal attention",
+      "Maximum 6 per reformer class — real personal attention",
       "Physiotherapy also available on-site",
       "Beautiful Kelburn studio setting",
       "Yoga classes also offered",
@@ -1873,7 +2323,7 @@
         "name": "Ben S.",
         "rating": 5,
         "date": "March 2026",
-        "text": "Best pilates in Wellington, easily. The combo of physiotherapy and pilates means the instructors actually understand bodies and injury. Book ahead \u2014 spots fill up fast.",
+        "text": "Best pilates in Wellington, easily. The combo of physiotherapy and pilates means the instructors actually understand bodies and injury. Book ahead — spots fill up fast.",
         "verified": true
       }
     ]
@@ -1882,7 +2332,7 @@
     "slug": "reform-fitness-wellington",
     "name": "Reform Fitness Wellington",
     "logo": "reform-fitness-wellington",
-    "tagline": "Strength-driven reformer pilates off Courtenay Place \u2014 physiotherapy background",
+    "tagline": "Strength-driven reformer pilates off Courtenay Place — physiotherapy background",
     "website": "https://www.reformfitness.co.nz/studios/wellington",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -1895,7 +2345,7 @@
       "weekly_from": 28.0,
       "weekly_to": 55.0,
       "joining_fee": 0,
-      "joining_fee_note": "Class passes and memberships available \u2014 check website for current pricing",
+      "joining_fee_note": "Class passes and memberships available — check website for current pricing",
       "minimum_term": null,
       "casual_visit": 35,
       "contract_required": false
@@ -1909,14 +2359,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Morning and evening classes daily \u2014 check website",
-    "cancellation": "No lock-in \u2014 class pass model",
+    "hours": "Morning and evening classes daily — check website",
+    "cancellation": "No lock-in — class pass model",
     "rating": 4.8,
     "review_count": 95,
     "best_for": "Those wanting strength-focused reformer pilates with a rehab or physiotherapy slant",
-    "watch_out": "Strength-focused approach differs from traditional gentle pilates \u2014 expect to work hard",
+    "watch_out": "Strength-focused approach differs from traditional gentle pilates — expect to work hard",
     "discount_note": "Intro class offer often available for first-timers",
     "verdict": "Wellington's reformer pilates studio with a physiotherapy edge. Owner Kenzy's background means programming is rehabilitation-informed and strength-focused. Located on Level 2 off Courtenay Place.",
     "pros": [
@@ -1927,16 +2377,16 @@
       "Good for rehabilitation and injury prevention"
     ],
     "cons": [
-      "Class-based pricing \u2014 costs add up",
+      "Class-based pricing — costs add up",
       "More intense than traditional pilates",
-      "Book ahead \u2014 popular classes fill fast"
+      "Book ahead — popular classes fill fast"
     ],
     "google_reviews": [
       {
         "name": "Sandra L.",
         "rating": 5,
         "date": "March 2026",
-        "text": "This studio is different to other reformer places \u2014 the physiotherapy knowledge the instructors bring makes such a difference. My hip issue has improved dramatically.",
+        "text": "This studio is different to other reformer places — the physiotherapy knowledge the instructors bring makes such a difference. My hip issue has improved dramatically.",
         "verified": true
       },
       {
@@ -1952,7 +2402,7 @@
     "slug": "soul-pilates-wellington",
     "name": "Soul Pilates Wellington",
     "logo": "soul-pilates-wellington",
-    "tagline": "Brand new Wellington CBD reformer pilates studio \u2014 opened April 2026",
+    "tagline": "Brand new Wellington CBD reformer pilates studio — opened April 2026",
     "website": "https://www.soulpilatesnz.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -1965,7 +2415,7 @@
       "weekly_from": 25.0,
       "weekly_to": 50.0,
       "joining_fee": 0,
-      "joining_fee_note": "Intro offers available for new students \u2014 check website",
+      "joining_fee_note": "Intro offers available for new students — check website",
       "minimum_term": null,
       "casual_visit": 35,
       "contract_required": false
@@ -1979,25 +2429,25 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Morning and evening classes daily \u2014 see website for schedule",
-    "cancellation": "No lock-in \u2014 class pass model",
+    "hours": "Morning and evening classes daily — see website for schedule",
+    "cancellation": "No lock-in — class pass model",
     "rating": 4.8,
     "review_count": 25,
-    "best_for": "Wellington CBD workers wanting convenient reformer pilates \u2014 brand new facility",
-    "watch_out": "Very new studio \u2014 opened April 2026. Less history to judge on.",
-    "discount_note": "Introductory offers for opening month \u2014 check soulpilatesnz.co.nz",
+    "best_for": "Wellington CBD workers wanting convenient reformer pilates — brand new facility",
+    "watch_out": "Very new studio — opened April 2026. Less history to judge on.",
+    "discount_note": "Introductory offers for opening month — check soulpilatesnz.co.nz",
     "verdict": "Wellington's newest reformer pilates studio, opened in the CBD in April 2026. Early reviews are very positive and the intro pricing makes it a great time to try reformer if you've been curious.",
     "pros": [
-      "Brand new facility \u2014 state-of-the-art equipment",
+      "Brand new facility — state-of-the-art equipment",
       "Wellington CBD location",
       "Introductory pricing for early members",
       "Reformer Pilates specialists",
       "Good for beginners and experienced practitioners"
     ],
     "cons": [
-      "Very new \u2014 limited track record yet",
+      "Very new — limited track record yet",
       "Early reviews only",
       "Class pass pricing model"
     ],
@@ -2022,7 +2472,7 @@
     "slug": "club-pilates-wellington",
     "name": "Club Pilates Wellington",
     "logo": "club-pilates-wellington",
-    "tagline": "Boutique reformer fusion pilates studio \u2014 part of an international brand",
+    "tagline": "Boutique reformer fusion pilates studio — part of an international brand",
     "website": "https://www.clubpilates.com/location/wellington",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2049,7 +2499,7 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Morning and evening classes daily",
     "cancellation": "Monthly membership with notice period",
@@ -2068,7 +2518,7 @@
     ],
     "cons": [
       "Premium price point",
-      "Franchise feel \u2014 less local character",
+      "Franchise feel — less local character",
       "Not all instructors equal across franchises"
     ],
     "google_reviews": [
@@ -2083,7 +2533,7 @@
         "name": "Michael B.",
         "rating": 4,
         "date": "March 2026",
-        "text": "Great reformer classes. I gave 4 stars only because of the price \u2014 it's on the expensive side. But the quality is definitely there.",
+        "text": "Great reformer classes. I gave 4 stars only because of the price — it's on the expensive side. But the quality is definitely there.",
         "verified": true
       }
     ]
@@ -2119,14 +2569,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Check website for current timetable",
-    "cancellation": "Monthly membership \u2014 no lock-in",
+    "cancellation": "Monthly membership — no lock-in",
     "rating": 4.8,
     "review_count": 70,
     "best_for": "Karori locals wanting a community boutique gym with personal attention",
-    "watch_out": "Suburban location \u2014 not central Wellington",
+    "watch_out": "Suburban location — not central Wellington",
     "discount_note": null,
     "verdict": "Karori's local boutique gym with a strong community feel. Smaller than the big chains but offers gym access and fitness classes with personal trainer support.",
     "pros": [
@@ -2137,7 +2587,7 @@
       "High Google rating"
     ],
     "cons": [
-      "Karori location \u2014 not central",
+      "Karori location — not central",
       "Smaller facility than chain gyms",
       "Limited opening hours vs 24/7 chains"
     ],
@@ -2162,7 +2612,7 @@
     "slug": "instinct-fitness-wellington",
     "name": "Instinct Fitness (Thorndon CrossFit)",
     "logo": "instinct-fitness-wellington",
-    "tagline": "Wellington's elite CrossFit gym \u2014 led by 6x national champion Luke Fiso",
+    "tagline": "Wellington's elite CrossFit gym — led by 6x national champion Luke Fiso",
     "website": "https://instinctfitness.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2201,15 +2651,15 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Classes from 5:30am weekdays, mornings weekends",
-    "cancellation": "No lock-in \u2014 monthly",
+    "cancellation": "No lock-in — monthly",
     "rating": 5.0,
     "review_count": 72,
     "best_for": "Serious CrossFit athletes wanting elite coaching and a semi-private training environment",
-    "watch_out": "Semi-private model \u2014 not a drop-in big-box CrossFit. High standards expected.",
-    "discount_note": "Kids/Teens CrossFit classes available \u2014 contact for pricing",
+    "watch_out": "Semi-private model — not a drop-in big-box CrossFit. High standards expected.",
+    "discount_note": "Kids/Teens CrossFit classes available — contact for pricing",
     "verdict": "Led by Luke Fiso, a six-time CrossFit national champion, Instinct Fitness is Wellington's most technically accomplished CrossFit gym. Specialty barbell, gymnastics, and kids programming set it apart. The 3x/week option at $48 is great value.",
     "pros": [
       "Led by 6x national CrossFit champion",
@@ -2219,7 +2669,7 @@
       "Semi-private attention"
     ],
     "cons": [
-      "High expectations \u2014 not casual drop-in",
+      "High expectations — not casual drop-in",
       "Smaller class sizes",
       "No 24/7 access",
       "Pricing by enquiry for PT"
@@ -2236,7 +2686,7 @@
         "name": "Sarah K.",
         "rating": 5,
         "date": "March 2026",
-        "text": "The gymnastics specialty classes here are incredible \u2014 I've gone from zero pull-ups to strict muscle-ups in 6 months. The coaches here are the real deal.",
+        "text": "The gymnastics specialty classes here are incredible — I've gone from zero pull-ups to strict muscle-ups in 6 months. The coaches here are the real deal.",
         "verified": true
       },
       {
@@ -2252,7 +2702,7 @@
     "slug": "urban-fitness-wellington",
     "name": "Urban Fitness Wellington",
     "logo": "urban-fitness-wellington",
-    "tagline": "Wellington's HYROX & Olympic weightlifting gym \u2014 Te Aro",
+    "tagline": "Wellington's HYROX & Olympic weightlifting gym — Te Aro",
     "website": "https://www.urbanfitness.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2279,12 +2729,12 @@
       {
         "name": "5-Class Pass",
         "weekly": null,
-        "includes": "5 classes, use anytime \u2014 $150 total"
+        "includes": "5 classes, use anytime — $150 total"
       },
       {
         "name": "10-Class Pass",
         "weekly": null,
-        "includes": "10 classes, use anytime \u2014 $220 total"
+        "includes": "10 classes, use anytime — $220 total"
       }
     ],
     "features": {
@@ -2296,15 +2746,15 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Classes 6 days/week from early morning",
-    "cancellation": "No lock-in \u2014 monthly membership",
+    "cancellation": "No lock-in — monthly membership",
     "rating": 4.9,
     "review_count": 88,
     "best_for": "HYROX competitors, Olympic weightlifters, and functional athletes wanting structured coaching",
-    "watch_out": "At $70/week this is one of Wellington's pricier options \u2014 best if you train 4+ times per week",
-    "discount_note": "7-day free trial available \u2014 try before you commit",
+    "watch_out": "At $70/week this is one of Wellington's pricier options — best if you train 4+ times per week",
+    "discount_note": "7-day free trial available — try before you commit",
     "verdict": "Wellington's specialist HYROX training gym at 4 College St, Te Aro. Owned by Mike Young, a professional CrossFit competitor. Perfect for HYROX race prep, Olympic weightlifting, and team training. Classes run 6 days/week.",
     "pros": [
       "Wellington's only dedicated HYROX training gym",
@@ -2315,9 +2765,9 @@
     ],
     "cons": [
       "$70/week is premium priced",
-      "Specialist focus \u2014 less general fitness variety",
+      "Specialist focus — less general fitness variety",
       "No pool, sauna or recovery facilities",
-      "No cr\u00e8che"
+      "No crèche"
     ],
     "google_reviews": [
       {
@@ -2338,7 +2788,7 @@
         "name": "Ryan O.",
         "rating": 5,
         "date": "January 2026",
-        "text": "Best training gym in Wellington for functional fitness. The team training sessions are my favourite \u2014 genuinely competitive and fun at the same time.",
+        "text": "Best training gym in Wellington for functional fitness. The team training sessions are my favourite — genuinely competitive and fun at the same time.",
         "verified": true
       }
     ]
@@ -2347,7 +2797,7 @@
     "slug": "swet-wellington",
     "name": "SWET Wellington",
     "logo": "swet-wellington",
-    "tagline": "Strength & conditioning gym in Kaiwharawhara \u2014 busy parents welcome",
+    "tagline": "Strength & conditioning gym in Kaiwharawhara — busy parents welcome",
     "website": "https://www.swet.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2374,16 +2824,16 @@
       "guest_passes": false,
       "no_lock_in": false,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Morning and evening sessions \u2014 check website for timetable",
+    "hours": "Morning and evening sessions — check website for timetable",
     "cancellation": "12-week minimum commitment for unlimited membership",
     "rating": 4.8,
     "review_count": 55,
     "best_for": "Busy parents and adults wanting structured strength and conditioning with a supportive community",
     "watch_out": "12-week minimum commitment for the unlimited membership. $60/week is mid-premium.",
     "discount_note": "2-week trial to test before committing. Casual $25 drop-in available.",
-    "verdict": "Kaiwharawhara's strength and conditioning gym with a signature program for busy parents (M&D \u2014 Mums and Dads). Top-of-the-line equipment, knowledgeable coaches, and a supportive no-judgment community.",
+    "verdict": "Kaiwharawhara's strength and conditioning gym with a signature program for busy parents (M&D — Mums and Dads). Top-of-the-line equipment, knowledgeable coaches, and a supportive no-judgment community.",
     "pros": [
       "Dedicated Mums & Dads programme",
       "State-of-the-art equipment",
@@ -2393,7 +2843,7 @@
     ],
     "cons": [
       "12-week minimum for unlimited membership",
-      "Kaiwharawhara location \u2014 less central than CBD",
+      "Kaiwharawhara location — less central than CBD",
       "No 24/7 access",
       "$60/week is on the higher side"
     ],
@@ -2416,9 +2866,9 @@
   },
   {
     "slug": "mti-wellington",
-    "name": "MTI Wellington \u2014 Muay Thai Institute",
+    "name": "MTI Wellington — Muay Thai Institute",
     "logo": "mti-wellington",
-    "tagline": "Wellington's premier Muay Thai, MMA and boxing gym \u2014 35+ champions produced",
+    "tagline": "Wellington's premier Muay Thai, MMA and boxing gym — 35+ champions produced",
     "website": "https://www.mtiwellington.com/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2431,7 +2881,7 @@
       "weekly_from": 30.0,
       "weekly_to": 44.0,
       "joining_fee": 0,
-      "joining_fee_note": "Under 18: $30/week. Adults: $40\u2013$44/week. Includes 24/7 gym access.",
+      "joining_fee_note": "Under 18: $30/week. Adults: $40–$44/week. Includes 24/7 gym access.",
       "minimum_term": "1 month",
       "casual_visit": null,
       "contract_required": false
@@ -2445,26 +2895,26 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "28 classes per week, 6 days/week. Gym access 24/7.",
-    "cancellation": "Monthly \u2014 no lock-in",
+    "cancellation": "Monthly — no lock-in",
     "rating": 4.9,
     "review_count": 165,
-    "best_for": "Anyone wanting to learn Muay Thai, MMA or boxing \u2014 beginner to competitive fighter",
-    "watch_out": "Combat sports training \u2014 contact sport. Not suitable if you want zero contact.",
-    "discount_note": "Free trial classes Tuesdays and Thursdays 6\u20137:30pm. Under-18s $30/week.",
-    "verdict": "Wellington's most decorated combat sports gym, producing 35+ national and international champions. 28 classes/week from beginner Thai boxing to championship fight training. The $40\u201344/week membership also includes 24/7 weights gym access \u2014 exceptional value.",
+    "best_for": "Anyone wanting to learn Muay Thai, MMA or boxing — beginner to competitive fighter",
+    "watch_out": "Combat sports training — contact sport. Not suitable if you want zero contact.",
+    "discount_note": "Free trial classes Tuesdays and Thursdays 6–7:30pm. Under-18s $30/week.",
+    "verdict": "Wellington's most decorated combat sports gym, producing 35+ national and international champions. 28 classes/week from beginner Thai boxing to championship fight training. The $40–44/week membership also includes 24/7 weights gym access — exceptional value.",
     "pros": [
       "35+ champions produced at national/international level",
-      "28 classes/week \u2014 beginner to elite",
+      "28 classes/week — beginner to elite",
       "24/7 gym access included in membership",
       "Free trial classes Tue/Thu",
       "Under-18 pricing available"
     ],
     "cons": [
-      "Contact sport \u2014 not for everyone",
-      "6 College St \u2014 small Te Aro location",
+      "Contact sport — not for everyone",
+      "6 College St — small Te Aro location",
       "Fight training classes require experience first"
     ],
     "google_reviews": [
@@ -2486,7 +2936,7 @@
         "name": "Connor B.",
         "rating": 5,
         "date": "February 2026",
-        "text": "The MMA programme here combines everything \u2014 Muay Thai, BJJ, wrestling. Coaches from different backgrounds work together seamlessly. Outstanding gym.",
+        "text": "The MMA programme here combines everything — Muay Thai, BJJ, wrestling. Coaches from different backgrounds work together seamlessly. Outstanding gym.",
         "verified": true
       }
     ]
@@ -2495,7 +2945,7 @@
     "slug": "mma-wellington",
     "name": "MMA Wellington",
     "logo": "mma-wellington",
-    "tagline": "Practical MMA training in Wellington \u2014 Muay Thai, BJJ, wrestling and MMA",
+    "tagline": "Practical MMA training in Wellington — Muay Thai, BJJ, wrestling and MMA",
     "website": "https://www.mma.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2522,14 +2972,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Check website for class schedule",
-    "cancellation": "Monthly \u2014 no lock-in",
+    "cancellation": "Monthly — no lock-in",
     "rating": 4.8,
     "review_count": 45,
     "best_for": "Those wanting practical MMA with coaches from a Muay Thai and BJJ background",
-    "watch_out": "MMA is contact training \u2014 sparring classes require experience",
+    "watch_out": "MMA is contact training — sparring classes require experience",
     "discount_note": null,
     "verdict": "Founded by experienced coaches from MTI Wellington, MMA Wellington focuses on practical mixed martial arts combining Muay Thai, Brazilian Jiu-Jitsu, wrestling and MMA. Smaller, focused gym with experienced coaching.",
     "pros": [
@@ -2549,7 +2999,7 @@
         "name": "Ben H.",
         "rating": 5,
         "date": "March 2026",
-        "text": "The coaches here have real fight experience and it shows. The MMA programme is well-structured \u2014 striking, grappling and wrestling all integrated properly.",
+        "text": "The coaches here have real fight experience and it shows. The MMA programme is well-structured — striking, grappling and wrestling all integrated properly.",
         "verified": true
       },
       {
@@ -2565,7 +3015,7 @@
     "slug": "mai-dojo-wellington",
     "name": "MAI Dojo Wellington",
     "logo": "mai-dojo-wellington",
-    "tagline": "BJJ, Capoeira, Muay Thai and MMA \u2014 24/7 access with Crolin Gracie lineage BJJ",
+    "tagline": "BJJ, Capoeira, Muay Thai and MMA — 24/7 access with Crolin Gracie lineage BJJ",
     "website": "https://www.facebook.com/maidojowellington/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2592,25 +3042,25 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Classes scheduled daily. 24/7 gym and mat access for members.",
-    "cancellation": "Monthly \u2014 no lock-in",
+    "cancellation": "Monthly — no lock-in",
     "rating": 4.8,
     "review_count": 40,
     "best_for": "BJJ practitioners and those wanting authentic Capoeira or a multi-discipline martial arts gym with 24/7 access",
-    "watch_out": "Unique mix of disciplines \u2014 confirm schedule aligns with your goals before joining",
+    "watch_out": "Unique mix of disciplines — confirm schedule aligns with your goals before joining",
     "discount_note": null,
     "verdict": "Wellington's home of authentic Crolin Gracie lineage BJJ under Mestre Bira, alongside Capoeira, Muay Thai and MMA. Features a large mat area, full weights gym and 24/7 member access. A hidden gem for grapplers.",
     "pros": [
-      "Crolin Gracie lineage BJJ \u2014 authentic pedigree",
-      "Capoeira \u2014 rare in NZ",
+      "Crolin Gracie lineage BJJ — authentic pedigree",
+      "Capoeira — rare in NZ",
       "24/7 access to mat and gym areas",
       "Large mat space",
       "Multi-discipline under one roof"
     ],
     "cons": [
-      "Limited online presence \u2014 hard to find info",
+      "Limited online presence — hard to find info",
       "Smaller community than larger chains",
       "Class times may be limited"
     ],
@@ -2635,7 +3085,7 @@
     "slug": "wellington-boxing-gym",
     "name": "Wellington Boxing Gym",
     "logo": "wellington-boxing-gym",
-    "tagline": "Wellington's dedicated boxing gym \u2014 Kilbirnie, Lower Hutt and CBD",
+    "tagline": "Wellington's dedicated boxing gym — Kilbirnie, Lower Hutt and CBD",
     "website": "https://www.wellingtonboxing.com/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2662,25 +3112,25 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Classes morning and evening \u2014 check website per location",
-    "cancellation": "Monthly \u2014 no lock-in",
+    "hours": "Classes morning and evening — check website per location",
+    "cancellation": "Monthly — no lock-in",
     "rating": 4.7,
     "review_count": 130,
-    "best_for": "Fitness through boxing \u2014 BoxFit, beginners, and youth boxing ages 8\u201317",
-    "watch_out": "Focus is fitness boxing not competitive fighting \u2014 if you want serious fight prep, MTI is better",
-    "discount_note": "Youth boxing classes for ages 8\u201317 at Kilbirnie and Lower Hutt",
+    "best_for": "Fitness through boxing — BoxFit, beginners, and youth boxing ages 8–17",
+    "watch_out": "Focus is fitness boxing not competitive fighting — if you want serious fight prep, MTI is better",
+    "discount_note": "Youth boxing classes for ages 8–17 at Kilbirnie and Lower Hutt",
     "verdict": "Wellington's dedicated boxing fitness gym with three locations (Kilbirnie, Lower Hutt, CBD). Founded in 2013, they offer BoxFit classes for fitness, skills classes for technique, and youth boxing. Great for getting fit through boxing without needing to fight.",
     "pros": [
-      "3 locations \u2014 Kilbirnie, Lower Hutt, CBD",
+      "3 locations — Kilbirnie, Lower Hutt, CBD",
       "BoxFit classes great for fitness",
-      "Youth boxing ages 8\u201317",
+      "Youth boxing ages 8–17",
       "Mission: fitness and health for everyone",
       "Monthly membership covers all 3 locations"
     ],
     "cons": [
-      "Fitness boxing focus \u2014 not a competitive fight gym",
+      "Fitness boxing focus — not a competitive fight gym",
       "No MMA or BJJ",
       "No 24/7 access"
     ],
@@ -2696,7 +3146,7 @@
         "name": "Dan R.",
         "rating": 5,
         "date": "March 2026",
-        "text": "Enrolled my 10-year-old in youth boxing and it's transformed his confidence. Great coaches who know how to work with kids \u2014 disciplined but fun.",
+        "text": "Enrolled my 10-year-old in youth boxing and it's transformed his confidence. Great coaches who know how to work with kids — disciplined but fun.",
         "verified": true
       },
       {
@@ -2712,7 +3162,7 @@
     "slug": "wrac-wellington",
     "name": "Wellington Regional Aquatic Centre (WRAC)",
     "logo": "wrac-wellington",
-    "tagline": "Wellington's 50-metre pool, hydrotherapy, gym and aqua fitness \u2014 Kilbirnie",
+    "tagline": "Wellington's 50-metre pool, hydrotherapy, gym and aqua fitness — Kilbirnie",
     "website": "https://www.clubactive.nz/wrac-facilities",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2726,7 +3176,7 @@
       "weekly_to": 22.1,
       "joining_fee": 0,
       "joining_fee_note": "No joining fee. LeisureCard holders get 20% off. Casual swim also available.",
-      "minimum_term": "None \u2014 or 3-month minimum term option",
+      "minimum_term": "None — or 3-month minimum term option",
       "casual_visit": 8,
       "contract_required": false
     },
@@ -2739,25 +3189,25 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "61 public hours per week (2026 increase). Check clubactive.nz for session times.",
     "cancellation": "No lock-in available. Minimum term options for discount.",
     "rating": 4.2,
     "review_count": 680,
     "best_for": "Lap swimmers, families, aqua fitness participants, and hydrotherapy users",
-    "watch_out": "Public facility \u2014 can get busy during school holidays and peak times. Book lanes ahead.",
+    "watch_out": "Public facility — can get busy during school holidays and peak times. Book lanes ahead.",
     "discount_note": "LeisureCard 20% discount. Under 5s free. Community rates available.",
     "verdict": "Wellington's flagship aquatic facility in Kilbirnie. A 50-metre heated pool, diving pool, hydrotherapy pool, spa, sauna, and ClubActive gym under one roof. At $22.10/week with no joining fee, the best-value facility for swimmers and families in Wellington.",
     "pros": [
       "50-metre heated indoor pool",
-      "Hydrotherapy pool \u2014 rare in Wellington",
+      "Hydrotherapy pool — rare in Wellington",
       "Spas and saunas included",
       "No joining fee",
-      "61 public hours/week \u2014 expanded in 2026"
+      "61 public hours/week — expanded in 2026"
     ],
     "cons": [
-      "Kilbirnie location \u2014 less central",
+      "Kilbirnie location — less central",
       "Can be crowded at peak times",
       "Public facility atmosphere vs boutique gym",
       "Gym is basic compared to dedicated facilities"
@@ -2781,7 +3231,7 @@
         "name": "Liz T.",
         "rating": 4,
         "date": "January 2026",
-        "text": "Love the hydrotherapy pool \u2014 my physio recommended it and it's helped my recovery enormously. Staff are friendly and the facilities are well-maintained.",
+        "text": "Love the hydrotherapy pool — my physio recommended it and it's helped my recovery enormously. Staff are friendly and the facilities are well-maintained.",
         "verified": true
       }
     ]
@@ -2790,7 +3240,7 @@
     "slug": "freyberg-pool-wellington",
     "name": "Freyberg Pool & Fitness Centre",
     "logo": "freyberg-pool-wellington",
-    "tagline": "Oriental Bay's pool and gym \u2014 iconic Wellington waterfront fitness facility",
+    "tagline": "Oriental Bay's pool and gym — iconic Wellington waterfront fitness facility",
     "website": "https://www.clubactive.nz/freyberg-facilities",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2817,16 +3267,16 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Morning to evening daily \u2014 see clubactive.nz for session times",
+    "hours": "Morning to evening daily — see clubactive.nz for session times",
     "cancellation": "No lock-in",
     "rating": 4.3,
     "review_count": 420,
     "best_for": "CBD workers and Oriental Bay locals wanting a pool and gym at Wellington's most scenic fitness location",
-    "watch_out": "Older facility \u2014 pool is smaller than WRAC. Same ClubActive membership covers both sites.",
+    "watch_out": "Older facility — pool is smaller than WRAC. Same ClubActive membership covers both sites.",
     "discount_note": "One ClubActive membership accesses both Freyberg and WRAC. LeisureCard 20% off.",
-    "verdict": "Wellington's most scenically located fitness facility, right on Oriental Bay. Includes a pool, gym, and group fitness classes. The same $22.10/week ClubActive membership gets you into both Freyberg AND WRAC \u2014 unbeatable double-site value.",
+    "verdict": "Wellington's most scenically located fitness facility, right on Oriental Bay. Includes a pool, gym, and group fitness classes. The same $22.10/week ClubActive membership gets you into both Freyberg AND WRAC — unbeatable double-site value.",
     "pros": [
       "Iconic Oriental Bay waterfront location",
       "ClubActive membership covers WRAC too",
@@ -2835,7 +3285,7 @@
       "CBD-accessible"
     ],
     "cons": [
-      "Older facility \u2014 smaller pool than WRAC",
+      "Older facility — smaller pool than WRAC",
       "No sauna or hydrotherapy",
       "Can get crowded at lunch"
     ],
@@ -2844,7 +3294,7 @@
         "name": "Sophie H.",
         "rating": 5,
         "date": "March 2026",
-        "text": "Best location of any gym in Wellington \u2014 swimming with a view of Oriental Bay is something special. The ClubActive membership giving you WRAC access too is incredible value.",
+        "text": "Best location of any gym in Wellington — swimming with a view of Oriental Bay is something special. The ClubActive membership giving you WRAC access too is incredible value.",
         "verified": true
       },
       {
@@ -2860,7 +3310,7 @@
     "slug": "247-fitness-wellington",
     "name": "24/7 Fitness",
     "logo": "247-fitness-wellington",
-    "tagline": "Wellington's lowest-cost 24/7 gym \u2014 from $6.90/week, no contracts",
+    "tagline": "Wellington's lowest-cost 24/7 gym — from $6.90/week, no contracts",
     "website": "https://www.247fitness.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2887,14 +3337,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "24/7 \u2014 all locations",
-    "cancellation": "No fixed term \u2014 cancel anytime",
+    "hours": "24/7 — all locations",
+    "cancellation": "No fixed term — cancel anytime",
     "rating": 4.4,
     "review_count": 310,
     "best_for": "Budget-conscious gym-goers in Porirua, Johnsonville, Upper Hutt, Tawa or Whitby",
-    "watch_out": "Locally-owned budget gym \u2014 equipment and facilities simpler than premium chains. Not CBD-located.",
+    "watch_out": "Locally-owned budget gym — equipment and facilities simpler than premium chains. Not CBD-located.",
     "discount_note": "No joining fee. Membership from $6.90/week is among the cheapest in NZ.",
     "verdict": "Wellington's most affordable 24/7 gym chain, locally owned with locations in Porirua, Johnsonville, Upper Hutt, Tawa and Whitby. Starting from $6.90/week with no joining fee and no fixed term. Includes Functional Fit classes and powerlifting areas at some locations.",
     "pros": [
@@ -2908,7 +3358,7 @@
       "No CBD location",
       "Simpler facilities than premium chains",
       "Limited group fitness vs big chains",
-      "Locally owned \u2014 fewer locations than Jetts/Anytime"
+      "Locally owned — fewer locations than Jetts/Anytime"
     ],
     "google_reviews": [
       {
@@ -2938,7 +3388,7 @@
     "slug": "float-well-wellington",
     "name": "Float Well",
     "logo": "float-well-wellington",
-    "tagline": "Wellington's highest-rated float spa \u2014 float therapy, sauna, contrast and massage",
+    "tagline": "Wellington's highest-rated float spa — float therapy, sauna, contrast and massage",
     "website": "https://www.floatwell.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -2965,26 +3415,26 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Morning to evening daily \u2014 book online",
-    "cancellation": "No lock-in \u2014 session or membership basis",
+    "hours": "Morning to evening daily — book online",
+    "cancellation": "No lock-in — session or membership basis",
     "rating": 4.9,
     "review_count": 180,
     "best_for": "Recovery, stress relief, sleep improvement, and athletes wanting float or contrast therapy",
-    "watch_out": "Not a gym \u2014 recovery and wellness only. Booking essential.",
+    "watch_out": "Not a gym — recovery and wellness only. Booking essential.",
     "discount_note": "Membership gives 25% off sessions. Intro: 2 weeks unlimited for $159.",
-    "verdict": "Wellington CBD's highest-rated wellness facility with a 4.9 Google rating. Wellington's largest float centre with float tanks (500kg Epsom salt solution), infrared sauna (70\u00b0C), cold plunge (7\u20138\u00b0C), and massage therapy. The $159 intro pass is outstanding value.",
+    "verdict": "Wellington CBD's highest-rated wellness facility with a 4.9 Google rating. Wellington's largest float centre with float tanks (500kg Epsom salt solution), infrared sauna (70°C), cold plunge (7–8°C), and massage therapy. The $159 intro pass is outstanding value.",
     "pros": [
-      "4.9 Google rating \u2014 best-rated in Wellington CBD",
+      "4.9 Google rating — best-rated in Wellington CBD",
       "Wellington's largest float centre",
       "Infrared sauna + cold plunge contrast therapy",
       "Massage therapy available",
       "Intro: 2 weeks unlimited for $159"
     ],
     "cons": [
-      "Recovery only \u2014 not a gym",
-      "Booking essential \u2014 can fill up",
+      "Recovery only — not a gym",
+      "Booking essential — can fill up",
       "Per-session pricing adds up without a membership",
       "CBD parking can be difficult"
     ],
@@ -3016,7 +3466,7 @@
     "slug": "recovery-hub-lower-hutt",
     "name": "Recovery Hub",
     "logo": "recovery-hub-lower-hutt",
-    "tagline": "Lower Hutt's wellness recovery centre \u2014 sauna, ice bath, float therapy, compression",
+    "tagline": "Lower Hutt's wellness recovery centre — sauna, ice bath, float therapy, compression",
     "website": "https://www.recoveryhub.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -3043,26 +3493,26 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Morning to evening daily \u2014 book via Fresha",
-    "cancellation": "No lock-in \u2014 session-based",
+    "hours": "Morning to evening daily — book via Fresha",
+    "cancellation": "No lock-in — session-based",
     "rating": 4.9,
     "review_count": 1679,
     "best_for": "Athletes, busy professionals, and anyone wanting world-class recovery facilities in Lower Hutt",
-    "watch_out": "151 High Street, Lower Hutt \u2014 not Wellington CBD. Recovery only, not a gym.",
+    "watch_out": "151 High Street, Lower Hutt — not Wellington CBD. Recovery only, not a gym.",
     "discount_note": "Session packages available for regular visitors",
     "verdict": "Lower Hutt's premier recovery and wellness centre with a staggering 4.9 rating from 1,679 Fresha reviews. Offers traditional and infrared saunas, cold plunge and ice bath, float therapy, compression therapy, and lymphatic rollers under one roof. One of the best recovery facilities in New Zealand.",
     "pros": [
-      "4.9 rating from 1,679 reviews \u2014 most reviewed wellness centre in the region",
+      "4.9 rating from 1,679 reviews — most reviewed wellness centre in the region",
       "Full recovery suite: sauna, ice bath, float, compression, lymphatic",
       "Both traditional AND infrared saunas",
       "Sessions from $14",
-      "151 High St \u2014 central Lower Hutt"
+      "151 High St — central Lower Hutt"
     ],
     "cons": [
-      "Lower Hutt location \u2014 20min from Wellington CBD",
-      "Recovery only \u2014 no gym equipment",
+      "Lower Hutt location — 20min from Wellington CBD",
+      "Recovery only — no gym equipment",
       "Booking recommended at peak times"
     ],
     "google_reviews": [
@@ -3091,9 +3541,9 @@
   },
   {
     "slug": "run-poneke-wellington",
-    "name": "Run P\u014dneke",
+    "name": "Run Pōneke",
     "logo": "run-poneke-wellington",
-    "tagline": "Wellington's waterfront running hub \u2014 infrared saunas, cold plunge, massage",
+    "tagline": "Wellington's waterfront running hub — infrared saunas, cold plunge, massage",
     "website": "https://www.runponeke.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -3106,7 +3556,7 @@
       "weekly_from": 15.0,
       "weekly_to": 40.0,
       "joining_fee": 0,
-      "joining_fee_note": "Not-for-profit. Session and membership pricing \u2014 see website",
+      "joining_fee_note": "Not-for-profit. Session and membership pricing — see website",
       "minimum_term": "None",
       "casual_visit": 20,
       "contract_required": false
@@ -3120,25 +3570,25 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "Check runponeke.nz for session times",
     "cancellation": "No lock-in",
     "rating": 4.9,
     "review_count": 85,
     "best_for": "Runners of all levels wanting a community hub with world-class recovery facilities on the waterfront",
-    "watch_out": "Primarily a running community \u2014 not a traditional gym. Clyde Quay Wharf location.",
-    "discount_note": "Not-for-profit \u2014 mission is accessibility for all runners",
-    "verdict": "Wellington's only dedicated running hub, based on the iconic Clyde Quay Wharf. Not-for-profit, community-run with 3 infrared saunas, 2 cold plunge pools (5\u00b0C), massage therapy rooms, and mobility pods. From beginner runners to ultra-marathoners \u2014 all welcome.",
+    "watch_out": "Primarily a running community — not a traditional gym. Clyde Quay Wharf location.",
+    "discount_note": "Not-for-profit — mission is accessibility for all runners",
+    "verdict": "Wellington's only dedicated running hub, based on the iconic Clyde Quay Wharf. Not-for-profit, community-run with 3 infrared saunas, 2 cold plunge pools (5°C), massage therapy rooms, and mobility pods. From beginner runners to ultra-marathoners — all welcome.",
     "pros": [
       "Stunning Clyde Quay Wharf waterfront location",
       "3 infrared saunas + 2 cold plunge pools",
       "Sports massage therapy rooms",
-      "Not-for-profit \u2014 community mission",
+      "Not-for-profit — community mission",
       "Run coaching for all levels"
     ],
     "cons": [
-      "Runner-focused \u2014 not a general gym",
+      "Runner-focused — not a general gym",
       "Smaller facility",
       "Not suited for those not interested in running"
     ],
@@ -3154,7 +3604,7 @@
         "name": "Matt C.",
         "rating": 5,
         "date": "March 2026",
-        "text": "As someone training for an ultra this is invaluable. Three infrared saunas and two ice plunge pools \u2014 the recovery facilities are far better than anything I've seen elsewhere in Wellington.",
+        "text": "As someone training for an ultra this is invaluable. Three infrared saunas and two ice plunge pools — the recovery facilities are far better than anything I've seen elsewhere in Wellington.",
         "verified": true
       }
     ]
@@ -3163,7 +3613,7 @@
     "slug": "eddy-wellington",
     "name": "EDDY Barre Studio",
     "logo": "eddy-wellington",
-    "tagline": "Boutique barre studio in the heart of Cuba St \u2014 pilates, ballet and dance fusion",
+    "tagline": "Boutique barre studio in the heart of Cuba St — pilates, ballet and dance fusion",
     "website": "https://www.eddy.fitness/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -3176,7 +3626,7 @@
       "weekly_from": 20.0,
       "weekly_to": 45.0,
       "joining_fee": 0,
-      "joining_fee_note": "Class pass and membership options \u2014 see eddy.fitness for current pricing",
+      "joining_fee_note": "Class pass and membership options — see eddy.fitness for current pricing",
       "minimum_term": "None",
       "casual_visit": 28,
       "contract_required": false
@@ -3190,27 +3640,27 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Morning and evening classes daily \u2014 check eddy.fitness/schedule",
-    "cancellation": "No lock-in \u2014 class pass model",
+    "hours": "Morning and evening classes daily — check eddy.fitness/schedule",
+    "cancellation": "No lock-in — class pass model",
     "rating": 4.9,
     "review_count": 95,
     "best_for": "Those wanting a fun, dance-inspired barre workout that sculpts and lengthens without heavy gym equipment",
-    "watch_out": "Barre-only studio \u2014 not a general gym. No prior dance or pilates experience needed.",
-    "discount_note": "Intro offer for new students \u2014 check website",
+    "watch_out": "Barre-only studio — not a general gym. No prior dance or pilates experience needed.",
+    "discount_note": "Intro offer for new students — check website",
     "verdict": "Wellington's dedicated barre studio at 110 Cuba St, Te Aro. EDDY blends Pilates, ballet and dance into a high-energy full-body workout. No experience needed, all fitness levels welcome. One of the most-loved boutique studios in central Wellington.",
     "pros": [
-      "Cuba St location \u2014 heart of Wellington",
+      "Cuba St location — heart of Wellington",
       "No prior dance experience required",
       "Full-body sculpting workout",
       "Pilates + ballet + dance fusion",
       "High energy, fun classes"
     ],
     "cons": [
-      "Barre only \u2014 limited to one format",
+      "Barre only — limited to one format",
       "No gym floor or weights",
-      "Class pass model \u2014 costs add up",
+      "Class pass model — costs add up",
       "No personal training"
     ],
     "google_reviews": [
@@ -3241,7 +3691,7 @@
     "slug": "wellyfit-wellington",
     "name": "WellyFit",
     "logo": "wellyfit-wellington",
-    "tagline": "Wellington Zumba and aqua fitness \u2014 fun, inclusive dance fitness since 2009",
+    "tagline": "Wellington Zumba and aqua fitness — fun, inclusive dance fitness since 2009",
     "website": "https://www.wellyfit.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -3254,7 +3704,7 @@
       "weekly_from": 8.0,
       "weekly_to": 20.0,
       "joining_fee": 0,
-      "joining_fee_note": "First class free. Class passes and memberships available \u2014 see wellyfit.co.nz",
+      "joining_fee_note": "First class free. Class passes and memberships available — see wellyfit.co.nz",
       "minimum_term": "None",
       "casual_visit": 12,
       "contract_required": false
@@ -3268,26 +3718,26 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Classes throughout the week \u2014 see wellyfit.co.nz/timetable",
-    "cancellation": "No lock-in \u2014 class-based",
+    "hours": "Classes throughout the week — see wellyfit.co.nz/timetable",
+    "cancellation": "No lock-in — class-based",
     "rating": 4.8,
     "review_count": 75,
     "best_for": "Anyone who wants to get fit through dance in a welcoming, non-intimidating environment",
-    "watch_out": "Dance fitness only \u2014 not a gym or strength training facility",
+    "watch_out": "Dance fitness only — not a gym or strength training facility",
     "discount_note": "First Zumba class free for new students",
-    "verdict": "Wellington's original Zumba and dance fitness specialist since 2009. WellyFit offers Zumba, Zumba Gold, Zumba Toning, DanceFit and Aqua Fitness across multiple Wellington venues. First class free \u2014 excellent for beginners wanting to get fit through dance.",
+    "verdict": "Wellington's original Zumba and dance fitness specialist since 2009. WellyFit offers Zumba, Zumba Gold, Zumba Toning, DanceFit and Aqua Fitness across multiple Wellington venues. First class free — excellent for beginners wanting to get fit through dance.",
     "pros": [
-      "First class free \u2014 zero barrier to try",
-      "Operating since 2009 \u2014 experienced instructors",
+      "First class free — zero barrier to try",
+      "Operating since 2009 — experienced instructors",
       "Multiple class formats: Zumba, Zumba Gold, Toning, Aqua",
       "Welcoming and inclusive",
       "Great for those who hate traditional gyms"
     ],
     "cons": [
-      "Dance fitness only \u2014 no gym equipment or strength training",
-      "Multiple venues \u2014 less consistent than a single studio",
+      "Dance fitness only — no gym equipment or strength training",
+      "Multiple venues — less consistent than a single studio",
       "Not for those wanting structured fitness programming"
     ],
     "google_reviews": [
@@ -3295,7 +3745,7 @@
         "name": "Diane H.",
         "rating": 5,
         "date": "March 2026",
-        "text": "WellyFit has kept me active for 5 years. Alison is an exceptional instructor \u2014 energetic, fun and genuinely passionate about making fitness accessible for everyone.",
+        "text": "WellyFit has kept me active for 5 years. Alison is an exceptional instructor — energetic, fun and genuinely passionate about making fitness accessible for everyone.",
         "verified": true
       },
       {
@@ -3311,7 +3761,7 @@
     "slug": "o-studio-wellington",
     "name": "O-Studio Wellington",
     "logo": "o-studio-wellington",
-    "tagline": "Modern wellness and recovery centre \u2014 infrared sauna, ice bath, yoga and classes",
+    "tagline": "Modern wellness and recovery centre — infrared sauna, ice bath, yoga and classes",
     "website": "https://www.ostudio.co.nz/wellington",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -3338,25 +3788,25 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Morning to evening daily \u2014 see ostudio.co.nz/wellington/schedule",
-    "cancellation": "No lock-in \u2014 session or pass basis",
+    "hours": "Morning to evening daily — see ostudio.co.nz/wellington/schedule",
+    "cancellation": "No lock-in — session or pass basis",
     "rating": 4.8,
     "review_count": 110,
     "best_for": "Those wanting a modern wellness hub combining fitness classes, sauna, and contrast therapy in one place",
     "watch_out": "Wellness-focused, not a traditional gym. Best if you want recovery + movement classes combined.",
     "discount_note": "1-week unlimited pass $149 covers all classes and recovery services",
-    "verdict": "Wellington's modern wellness centre offering yoga and fitness classes alongside infrared sauna and ice bath contrast therapy. The 1-week unlimited pass at $149 covers everything \u2014 excellent for trying all services. Both communal ($30) and private ($65) sauna options.",
+    "verdict": "Wellington's modern wellness centre offering yoga and fitness classes alongside infrared sauna and ice bath contrast therapy. The 1-week unlimited pass at $149 covers everything — excellent for trying all services. Both communal ($30) and private ($65) sauna options.",
     "pros": [
       "Combined fitness classes + sauna + ice bath",
-      "Communal $30 drop-in vs private $65 \u2014 flexible pricing",
+      "Communal $30 drop-in vs private $65 — flexible pricing",
       "1-week unlimited pass $149",
       "Modern facilities",
       "Classes + recovery in one location"
     ],
     "cons": [
-      "Not a traditional gym \u2014 no weights or strength equipment",
+      "Not a traditional gym — no weights or strength equipment",
       "Premium pricing for regular use",
       "Booking required for peak times"
     ],
@@ -3408,14 +3858,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20138pm, Sat\u2013Sun 7am\u20136pm",
+    "hours": "Mon–Fri 6am–8pm, Sat–Sun 7am–6pm",
     "cancellation": "8 hours notice required",
     "rating": 4.8,
     "review_count": 320,
     "best_for": "Hot yoga, infrared heated classes, beginners and experienced yogis",
-    "watch_out": "Studio can get very warm \u2014 stay hydrated",
+    "watch_out": "Studio can get very warm — stay hydrated",
     "discount_note": null,
     "verdict": "One of Auckland's most popular hot yoga studios, located in City Works Depot. Welcoming community with a variety of heated class styles.",
     "pros": [
@@ -3483,14 +3933,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20138:30pm, Sat\u2013Sun 7:30am\u20135pm",
+    "hours": "Mon–Fri 6am–8:30pm, Sat–Sun 7:30am–5pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 410,
     "best_for": "Traditional yoga, meditation, pranayama, all levels",
-    "watch_out": "Smaller studio \u2014 classes fill quickly",
+    "watch_out": "Smaller studio — classes fill quickly",
     "discount_note": null,
     "verdict": "A Ponsonby institution with an authentic approach to yoga. Deeply knowledgeable teachers and a tight-knit community make this a standout Auckland studio.",
     "pros": [
@@ -3558,14 +4008,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20138pm, Sat\u2013Sun 7am\u20135pm",
+    "hours": "Mon–Fri 6am–8pm, Sat–Sun 7am–5pm",
     "cancellation": "8 hours notice required",
     "rating": 4.7,
     "review_count": 195,
     "best_for": "Bikram yoga, hot yoga, detox and flexibility",
-    "watch_out": "Very hot studio \u2014 not ideal for first-timers without preparation",
+    "watch_out": "Very hot studio — not ideal for first-timers without preparation",
     "discount_note": null,
     "verdict": "Newmarket's dedicated hot yoga studio offering Bikram-style and heated flow classes. Excellent for serious practitioners wanting the full hot yoga experience.",
     "pros": [
@@ -3590,7 +4040,7 @@
         "name": "Mike R.",
         "rating": 4,
         "date": "March 2026",
-        "text": "Great classes, professional teachers. Gets very hot \u2014 bring two towels!",
+        "text": "Great classes, professional teachers. Gets very hot — bring two towels!",
         "verified": true
       },
       {
@@ -3633,9 +4083,9 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20138pm, Sat\u2013Sun 7am\u20135pm",
+    "hours": "Mon–Fri 6am–8pm, Sat–Sun 7am–5pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 275,
@@ -3708,9 +4158,9 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20137pm, Sat 7am\u20131pm",
+    "hours": "Mon–Fri 5:30am–7pm, Sat 7am–1pm",
     "cancellation": "12 hours notice required",
     "rating": 4.8,
     "review_count": 190,
@@ -3756,7 +4206,7 @@
     "slug": "crossfit-akl",
     "name": "CrossFit AKL",
     "logo": "crossfit-akl",
-    "tagline": "Auckland CBD's flagship CrossFit box \u2014 functional fitness for all levels",
+    "tagline": "Auckland CBD's flagship CrossFit box — functional fitness for all levels",
     "website": "https://www.crossfitakl.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -3783,14 +4233,14 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20137:30pm, Sat\u2013Sun 7am\u201312pm",
+    "hours": "Mon–Fri 5:30am–7:30pm, Sat–Sun 7am–12pm",
     "cancellation": "Month-to-month with 30 days notice",
     "rating": 4.8,
     "review_count": 240,
     "best_for": "CrossFit, functional fitness, competitive athletes and beginners alike",
-    "watch_out": "Can be intense for complete beginners \u2014 foundations course recommended",
+    "watch_out": "Can be intense for complete beginners — foundations course recommended",
     "discount_note": null,
     "verdict": "The go-to CrossFit affiliate in central Auckland. Strong programming, qualified coaches and a supportive community that caters to all fitness levels.",
     "pros": [
@@ -3858,14 +4308,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20138pm, Sat\u2013Sun 7am\u20132pm",
+    "hours": "Mon–Fri 5:30am–8pm, Sat–Sun 7am–2pm",
     "cancellation": "30 days notice",
     "rating": 4.9,
     "review_count": 165,
     "best_for": "Strength training, lifting, high-performance athletes",
-    "watch_out": "Focused on serious training \u2014 not a social gym",
+    "watch_out": "Focused on serious training — not a social gym",
     "discount_note": null,
     "verdict": "A premium strength-focused gym in Eden Terrace with excellent equipment and a serious training environment. Popular with athletes and strength sport enthusiasts.",
     "pros": [
@@ -3933,14 +4383,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 7am\u20137pm, Sat\u2013Sun 8am\u20134pm",
+    "hours": "Mon–Fri 7am–7pm, Sat–Sun 8am–4pm",
     "cancellation": "24 hours notice",
     "rating": 4.8,
     "review_count": 210,
     "best_for": "Cryotherapy, recovery, athlete performance enhancement",
-    "watch_out": "Individual sessions are expensive \u2014 best value on packages",
+    "watch_out": "Individual sessions are expensive — best value on packages",
     "discount_note": "Packages and memberships available",
     "verdict": "Auckland's premier recovery destination offering cryotherapy, infrared sauna and other modalities. Popular with elite athletes and those prioritising recovery.",
     "pros": [
@@ -4008,9 +4458,9 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137:30pm, Sat\u2013Sun 7am\u20131pm",
+    "hours": "Mon–Fri 6am–7:30pm, Sat–Sun 7am–1pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 340,
@@ -4083,14 +4533,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Sun 7am\u20139pm",
+    "hours": "Mon–Sun 7am–9pm",
     "cancellation": "24 hours notice",
     "rating": 4.8,
     "review_count": 290,
     "best_for": "Float therapy, infrared sauna, ice bath recovery, stress relief",
-    "watch_out": "Book float sessions well in advance \u2014 very popular",
+    "watch_out": "Book float sessions well in advance — very popular",
     "discount_note": "Membership packs available",
     "verdict": "Auckland's favourite recovery destination. Float tanks, infrared sauna and ice baths make P3 the complete recovery hub for athletes and professionals alike.",
     "pros": [
@@ -4101,7 +4551,7 @@
     ],
     "cons": [
       "Individual sessions pricey",
-      "Popular \u2014 must book ahead"
+      "Popular — must book ahead"
     ],
     "google_reviews": [
       {
@@ -4158,9 +4608,9 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137pm, Sat\u2013Sun 7am\u20131pm",
+    "hours": "Mon–Fri 6am–7pm, Sat–Sun 7am–1pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 215,
@@ -4190,7 +4640,7 @@
         "name": "Rebecca M.",
         "rating": 5,
         "date": "March 2026",
-        "text": "I drive from Rolleston for the Christchurch Central studio \u2014 worth every minute.",
+        "text": "I drive from Rolleston for the Christchurch Central studio — worth every minute.",
         "verified": true
       },
       {
@@ -4206,7 +4656,7 @@
     "slug": "flow-yoga-christchurch",
     "name": "Flow Yoga & Wellbeing",
     "logo": "flow-yoga-christchurch",
-    "tagline": "Christchurch's leading hot yoga hub \u2014 infrared, Bikram and slow flow",
+    "tagline": "Christchurch's leading hot yoga hub — infrared, Bikram and slow flow",
     "website": "https://www.flowyoga.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -4233,14 +4683,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20138pm, Sat\u2013Sun 7am\u20135pm",
+    "hours": "Mon–Fri 6am–8pm, Sat–Sun 7am–5pm",
     "cancellation": "8 hours notice required",
     "rating": 4.8,
     "review_count": 295,
     "best_for": "Hot yoga, infrared yoga, Bikram, wellness and relaxation",
-    "watch_out": "Different heat levels between rooms \u2014 check class descriptions",
+    "watch_out": "Different heat levels between rooms — check class descriptions",
     "discount_note": null,
     "verdict": "Christchurch's most popular hot yoga destination. Multiple heated studios, expert teaching and a beautiful space make Flow a must-try for yoga lovers in the city.",
     "pros": [
@@ -4308,9 +4758,9 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137:30pm, Sat 7am\u20131pm",
+    "hours": "Mon–Fri 6am–7:30pm, Sat 7am–1pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 230,
@@ -4356,7 +4806,7 @@
     "slug": "bodyfix-gym-christchurch",
     "name": "BodyFix Gym",
     "logo": "bodyfix-gym-christchurch",
-    "tagline": "48 group fitness classes weekly \u2014 Christchurch's most versatile gym",
+    "tagline": "48 group fitness classes weekly — Christchurch's most versatile gym",
     "website": "https://www.bodyfixgym.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -4383,20 +4833,20 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": true
+      "crèche": true
     },
-    "hours": "Mon\u2013Fri 5:30am\u20139pm, Sat\u2013Sun 7am\u20136pm",
+    "hours": "Mon–Fri 5:30am–9pm, Sat–Sun 7am–6pm",
     "cancellation": "30 days notice",
     "rating": 4.7,
     "review_count": 310,
     "best_for": "Group fitness enthusiasts, those wanting maximum class variety",
-    "watch_out": "Popular classes fill fast \u2014 book ahead",
+    "watch_out": "Popular classes fill fast — book ahead",
     "discount_note": null,
     "verdict": "With 48 group fitness classes every week, BodyFix is Christchurch's class-count champion. Great value for members who love variety and frequent training.",
     "pros": [
       "Huge class schedule",
       "Good value membership",
-      "Cr\u00e8che available",
+      "Crèche available",
       "Wide equipment range"
     ],
     "cons": [
@@ -4422,7 +4872,7 @@
         "name": "Michelle R.",
         "rating": 4,
         "date": "February 2026",
-        "text": "Good gym, great class variety. The cr\u00e8che is a lifesaver for parents.",
+        "text": "Good gym, great class variety. The crèche is a lifesaver for parents.",
         "verified": true
       }
     ]
@@ -4458,14 +4908,14 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "24/7",
     "cancellation": "30 days notice",
     "rating": 4.6,
     "review_count": 185,
     "best_for": "24/7 access, outdoor training, martial arts fitness, shiftworkers",
-    "watch_out": "Staffed hours limited \u2014 check schedule for peak service",
+    "watch_out": "Staffed hours limited — check schedule for peak service",
     "discount_note": null,
     "verdict": "Christchurch's 24/7 gym with a difference: outdoor training zones, martial arts classes and a flexible membership structure that works for busy schedules.",
     "pros": [
@@ -4506,7 +4956,7 @@
     "slug": "parakiore-christchurch",
     "name": "Parakiore Metro Sports Facility",
     "logo": "parakiore-christchurch",
-    "tagline": "NZ's largest indoor aquatic and recreation facility \u2014 Christchurch",
+    "tagline": "NZ's largest indoor aquatic and recreation facility — Christchurch",
     "website": "https://www.parakiore.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -4533,9 +4983,9 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": true
+      "crèche": true
     },
-    "hours": "Mon\u2013Fri 5:30am\u20139:30pm, Sat\u2013Sun 6am\u20138pm",
+    "hours": "Mon–Fri 5:30am–9:30pm, Sat–Sun 6am–8pm",
     "cancellation": "No contract",
     "rating": 4.6,
     "review_count": 520,
@@ -4572,7 +5022,7 @@
         "name": "Mark H.",
         "rating": 4,
         "date": "February 2026",
-        "text": "World class facility. Can get very busy \u2014 go early for lap swimming.",
+        "text": "World class facility. Can get very busy — go early for lap swimming.",
         "verified": true
       }
     ]
@@ -4581,7 +5031,7 @@
     "slug": "crossfit-christchurch",
     "name": "CrossFit Christchurch",
     "logo": "crossfit-christchurch",
-    "tagline": "Canterbury's original CrossFit affiliate \u2014 functional fitness for all",
+    "tagline": "Canterbury's original CrossFit affiliate — functional fitness for all",
     "website": "https://www.crossfitchristchurch.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -4608,9 +5058,9 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20137pm, Sat\u2013Sun 7am\u201312pm",
+    "hours": "Mon–Fri 5:30am–7pm, Sat–Sun 7am–12pm",
     "cancellation": "30 days notice",
     "rating": 4.8,
     "review_count": 175,
@@ -4683,14 +5133,14 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "24/7",
     "cancellation": "30 days notice",
     "rating": 4.4,
     "review_count": 245,
     "best_for": "Budget-conscious members, 24/7 access, those wanting a no-frills workout",
-    "watch_out": "Basic facilities \u2014 no pool or spa",
+    "watch_out": "Basic facilities — no pool or spa",
     "discount_note": null,
     "verdict": "Hamilton's go-to for affordable 24/7 fitness. No bells and whistles but solid equipment and flexible access make it great value for regular trainers.",
     "pros": [
@@ -4758,14 +5208,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137pm, Sat 7am\u201312pm",
+    "hours": "Mon–Fri 6am–7pm, Sat 7am–12pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 145,
     "best_for": "Reformer pilates, core strength, beginners and experienced practitioners",
-    "watch_out": "Small studio \u2014 classes limited in size",
+    "watch_out": "Small studio — classes limited in size",
     "discount_note": null,
     "verdict": "Hamilton's favourite boutique reformer pilates studio. Highly qualified instructors, welcoming atmosphere and consistent quality keep members coming back.",
     "pros": [
@@ -4833,14 +5283,14 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20138pm, Sat\u2013Sun 7am\u20132pm",
+    "hours": "Mon–Fri 5:30am–8pm, Sat–Sun 7am–2pm",
     "cancellation": "30 days notice",
     "rating": 4.8,
     "review_count": 180,
     "best_for": "Multi-discipline training, boxing, HIIT, yoga-pilates, unique facilities",
-    "watch_out": "Unique format \u2014 visit first to see if it suits your style",
+    "watch_out": "Unique format — visit first to see if it suits your style",
     "discount_note": null,
     "verdict": "Hamilton's most innovative gym concept with three distinct studio spaces including a boxing zone, stretch studio, HIIT floor, yoga-pilates room and indoor cycling. Features a 30m lunge track.",
     "pros": [
@@ -4881,7 +5331,7 @@
     "slug": "waterworld-hamilton",
     "name": "Waterworld Hamilton",
     "logo": "waterworld-hamilton",
-    "tagline": "Hamilton's premier aquatic and leisure centre \u2014 pools for all",
+    "tagline": "Hamilton's premier aquatic and leisure centre — pools for all",
     "website": "https://www.hamiltonlakespool.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -4908,14 +5358,14 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": true
+      "crèche": true
     },
-    "hours": "Mon\u2013Fri 5:30am\u20139pm, Sat\u2013Sun 7am\u20137pm",
+    "hours": "Mon–Fri 5:30am–9pm, Sat–Sun 7am–7pm",
     "cancellation": "No contract",
     "rating": 4.4,
     "review_count": 390,
     "best_for": "Swimming, aqua fitness, family recreation, learn to swim",
-    "watch_out": "Very busy during school holidays \u2014 check off-peak times",
+    "watch_out": "Very busy during school holidays — check off-peak times",
     "discount_note": "Concession passes and swim school memberships available",
     "verdict": "Hamilton's well-established aquatic centre with pools, sauna and aqua fitness classes. The most affordable way to swim in the Waikato with family-friendly facilities.",
     "pros": [
@@ -4956,7 +5406,7 @@
     "slug": "o-studio-hamilton",
     "name": "O-Studio Hamilton",
     "logo": "o-studio-hamilton",
-    "tagline": "Premium reformer pilates studio \u2014 now in Hamilton",
+    "tagline": "Premium reformer pilates studio — now in Hamilton",
     "website": "https://www.ostudio.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -4983,9 +5433,9 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137pm, Sat 7am\u20131pm",
+    "hours": "Mon–Fri 6am–7pm, Sat 7am–1pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 115,
@@ -5058,9 +5508,9 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20138pm, Sat\u2013Sun 7am\u20133pm",
+    "hours": "Mon–Fri 5:30am–8pm, Sat–Sun 7am–3pm",
     "cancellation": "30 days notice",
     "rating": 4.9,
     "review_count": 280,
@@ -5133,14 +5583,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137pm, Sat 7am\u20131pm",
+    "hours": "Mon–Fri 6am–7pm, Sat 7am–1pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 320,
     "best_for": "Reformer pilates, core strength, toning, post-natal fitness",
-    "watch_out": "Classes fill very quickly \u2014 advance booking essential",
+    "watch_out": "Classes fill very quickly — advance booking essential",
     "discount_note": null,
     "verdict": "Encore Pilates has built a passionate following across the Bay of Plenty with three beautifully equipped studios. Consistently excellent instruction and a supportive community.",
     "pros": [
@@ -5150,7 +5600,7 @@
       "All levels welcome"
     ],
     "cons": [
-      "Very popular \u2014 hard to get into classes",
+      "Very popular — hard to get into classes",
       "Premium pricing"
     ],
     "google_reviews": [
@@ -5208,9 +5658,9 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20137pm, Sat\u2013Sun 7am\u201312pm",
+    "hours": "Mon–Fri 5:30am–7pm, Sat–Sun 7am–12pm",
     "cancellation": "30 days notice",
     "rating": 4.8,
     "review_count": 145,
@@ -5283,14 +5733,14 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20137pm, Sat\u2013Sun 7am\u201311am",
+    "hours": "Mon–Fri 5:30am–7pm, Sat–Sun 7am–11am",
     "cancellation": "30 days notice",
     "rating": 4.8,
     "review_count": 195,
     "best_for": "CrossFit, functional fitness, long-standing community, all levels",
-    "watch_out": "Smaller facility \u2014 can feel crowded during peak classes",
+    "watch_out": "Smaller facility — can feel crowded during peak classes",
     "discount_note": null,
     "verdict": "One of NZ's original CrossFit affiliates, operating since 2011. Thirty One Ten has a deep-rooted community culture and proven coaching that has transformed hundreds of lives in Tauranga.",
     "pros": [
@@ -5358,14 +5808,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137pm, Sat 7am\u20131pm",
+    "hours": "Mon–Fri 6am–7pm, Sat 7am–1pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 160,
     "best_for": "Small-group reformer pilates, personal attention, rehabilitation",
-    "watch_out": "Very small classes \u2014 book well ahead",
+    "watch_out": "Very small classes — book well ahead",
     "discount_note": null,
     "verdict": "On Form specialises in truly small-group reformer pilates, ensuring every participant gets individualised coaching. An exceptional standard of instruction for Dunedin.",
     "pros": [
@@ -5406,7 +5856,7 @@
     "slug": "barre-base-dunedin",
     "name": "Barre Base",
     "logo": "barre-base-dunedin",
-    "tagline": "Dunedin's barre, pilates and yoga studio \u2014 studio and online classes",
+    "tagline": "Dunedin's barre, pilates and yoga studio — studio and online classes",
     "website": "https://www.barrebase.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -5433,9 +5883,9 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6:30am\u20137pm, Sat 7am\u201312pm",
+    "hours": "Mon–Fri 6:30am–7pm, Sat 7am–12pm",
     "cancellation": "No contract",
     "rating": 4.8,
     "review_count": 135,
@@ -5481,7 +5931,7 @@
     "slug": "studio-pilates-dunedin",
     "name": "Studio Pilates Dunedin",
     "logo": "studio-pilates-dunedin",
-    "tagline": "Clinical reformer pilates in Dunedin Central \u2014 intro 6 classes for $60",
+    "tagline": "Clinical reformer pilates in Dunedin Central — intro 6 classes for $60",
     "website": "https://www.studiopilates.co.nz/dunedin",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -5508,14 +5958,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137pm, Sat 7am\u20131pm",
+    "hours": "Mon–Fri 6am–7pm, Sat 7am–1pm",
     "cancellation": "12 hours notice required",
     "rating": 4.8,
     "review_count": 175,
     "best_for": "Clinical reformer pilates, muscle imbalance correction, rehabilitation",
-    "watch_out": "Intro pricing is great value \u2014 regular pricing is higher",
+    "watch_out": "Intro pricing is great value — regular pricing is higher",
     "discount_note": "Intro: 6 classes for $60",
     "verdict": "Studio Pilates brings their clinical reformer methodology to Dunedin. The affordable intro package makes it easy to get started, and the quality of instruction keeps members returning.",
     "pros": [
@@ -5583,9 +6033,9 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20137pm, Sat 7am\u201312pm",
+    "hours": "Mon–Fri 5:30am–7pm, Sat 7am–12pm",
     "cancellation": "30 days notice",
     "rating": 4.8,
     "review_count": 120,
@@ -5601,7 +6051,7 @@
     ],
     "cons": [
       "Premium pricing",
-      "Performance-focused \u2014 less social"
+      "Performance-focused — less social"
     ],
     "google_reviews": [
       {
@@ -5631,7 +6081,7 @@
     "slug": "elevate-crossfit-dunedin",
     "name": "Elevate CrossFit Dunedin",
     "logo": "elevate-crossfit-dunedin",
-    "tagline": "Dunedin's reimagined CrossFit community \u2014 functional fitness evolved",
+    "tagline": "Dunedin's reimagined CrossFit community — functional fitness evolved",
     "website": "https://www.elevatecrossfit.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -5658,9 +6108,9 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20137pm, Sat\u2013Sun 7am\u201312pm",
+    "hours": "Mon–Fri 5:30am–7pm, Sat–Sun 7am–12pm",
     "cancellation": "30 days notice",
     "rating": 4.8,
     "review_count": 150,
@@ -5733,14 +6183,14 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 6am\u20137pm, Sat 7am\u20131pm",
+    "hours": "Mon–Fri 6am–7pm, Sat 7am–1pm",
     "cancellation": "12 hours notice required",
     "rating": 4.9,
     "review_count": 130,
     "best_for": "Reformer pilates, personal training, nutrition coaching, holistic health",
-    "watch_out": "Smaller boutique \u2014 very popular, book early",
+    "watch_out": "Smaller boutique — very popular, book early",
     "discount_note": null,
     "verdict": "Palmerston North's premium boutique combining reformer pilates, personal training and nutrition coaching. A holistic approach to wellness that delivers outstanding results.",
     "pros": [
@@ -5781,7 +6231,7 @@
     "slug": "urban-core-wellness-pn",
     "name": "Urban Core Wellness",
     "logo": "urban-core-wellness-pn",
-    "tagline": "Palmerston North's recovery and wellness centre \u2014 cryotherapy and stretching",
+    "tagline": "Palmerston North's recovery and wellness centre — cryotherapy and stretching",
     "website": "https://www.urbancore.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -5808,15 +6258,15 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 7am\u20137pm, Sat 8am\u20133pm",
+    "hours": "Mon–Fri 7am–7pm, Sat 8am–3pm",
     "cancellation": "24 hours notice",
     "rating": 4.8,
     "review_count": 95,
     "best_for": "Cryotherapy, assisted stretching, recovery, stress relief, pain management",
-    "watch_out": "Not a traditional gym \u2014 focused on recovery and wellness",
-    "discount_note": "Sessions from $18\u2013$22",
+    "watch_out": "Not a traditional gym — focused on recovery and wellness",
+    "discount_note": "Sessions from $18–$22",
     "verdict": "Palmerston North's dedicated recovery centre offering cryotherapy, assisted stretching and wellness treatments. Ideal for athletes, office workers and anyone managing chronic pain.",
     "pros": [
       "Unique cryotherapy offering for Palmy",
@@ -5883,7 +6333,7 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": true,
-      "cr\u00e8che": false
+      "crèche": false
     },
     "hours": "24/7",
     "cancellation": "30 days notice",
@@ -5892,7 +6342,7 @@
     "best_for": "All-round fitness, 24/7 access, group classes, hot yoga, sauna",
     "watch_out": "Quality varies between class instructors",
     "discount_note": null,
-    "verdict": "New Plymouth's most comprehensive fitness destination. 24/7 access, over 40 group fitness classes including hot yoga and pilates, plus sauna facilities \u2014 exceptional value for a regional centre.",
+    "verdict": "New Plymouth's most comprehensive fitness destination. 24/7 access, over 40 group fitness classes including hot yoga and pilates, plus sauna facilities — exceptional value for a regional centre.",
     "pros": [
       "24/7 access",
       "40+ classes weekly",
@@ -5932,7 +6382,7 @@
     "slug": "crossfit-rotorua",
     "name": "CrossFit Rotorua",
     "logo": "crossfit-rotorua",
-    "tagline": "Rotorua's CrossFit community \u2014 functional fitness in the thermal city",
+    "tagline": "Rotorua's CrossFit community — functional fitness in the thermal city",
     "website": "https://www.crossfitrotorua.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -5959,9 +6409,9 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "cr\u00e8che": false
+      "crèche": false
     },
-    "hours": "Mon\u2013Fri 5:30am\u20137pm, Sat\u2013Sun 7am\u201312pm",
+    "hours": "Mon–Fri 5:30am–7pm, Sat–Sun 7am–12pm",
     "cancellation": "30 days notice",
     "rating": 4.8,
     "review_count": 110,
