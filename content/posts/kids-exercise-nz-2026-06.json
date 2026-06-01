@@ -1,0 +1,59 @@
+{
+  "title": "Kids' Fitness",
+  "short_title": "Kids' Fitness",
+  "meta_desc": "Find out about physical activity guidelines for NZ kids, family-friendly gyms, and holiday programmes to keep your children active and healthy.",
+  "intro": "Regular physical activity is essential for children's health and development. According to the World Health Organisation, kids should aim for at least 60 minutes of moderate to vigorous physical activity daily. In New Zealand, many gyms offer family-friendly facilities and programmes to support this goal.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ Guidelines for Kids' Activity",
+      "body": "The Ministry of Health recommends that children aged 5-18 years old engage in at least 60 minutes of moderate to vigorous physical activity every day. This can include activities like running, swimming, cycling, or team sports. Research shows that regular physical activity can help kids develop strong bones and muscles, improve their sleep, and reduce the risk of obesity and other health problems.",
+      "list": [
+        "At least 60 minutes of moderate to vigorous physical activity daily",
+        "Include activities like running, swimming, cycling, or team sports",
+        "Aim for a variety of activities to develop different skills and interests"
+      ]
+    },
+    {
+      "heading": "Family-Friendly Gyms in NZ",
+      "body": "Many gyms in New Zealand offer family-friendly facilities and programmes, including crèche services, kids' classes, and holiday programmes. Some popular options include YMCA, Les Mills, and City Fitness. These gyms often provide a safe and supportive environment for kids to engage in physical activity and develop a lifelong love of exercise. Exercise NZ's subsidised gym scheme can also help make gym memberships more affordable for families, with discounts of 40-70% off.",
+      "list": [
+        "YMCA: swimming lessons, crèche services, and holiday programmes",
+        "Les Mills: kids' fitness classes and family-friendly facilities",
+        "City Fitness: crèche services and family memberships"
+      ]
+    },
+    {
+      "heading": "YMCA Swimming and Crèche Services",
+      "body": "The YMCA is a great option for families, with swimming lessons, crèche services, and holiday programmes available at many of their locations. Their swimming lessons are designed for kids of all ages and skill levels, from beginner to advanced. The YMCA also offers crèche services, providing a safe and supervised environment for younger children while their parents work out.",
+      "list": [
+        "Swimming lessons for kids of all ages and skill levels",
+        "Crèche services for younger children",
+        "Holiday programmes with activities like sports, crafts, and games"
+      ]
+    },
+    {
+      "heading": "Holiday Programmes for Kids",
+      "body": "Holiday programmes can be a great way to keep kids active and engaged during school breaks. Many gyms and recreation centres offer programmes with activities like sports, crafts, and games. These programmes can help kids develop new skills, make friends, and have fun while staying active. Some popular options include the YMCA, local sports clubs, and council-run recreation centres.",
+      "list": [
+        "YMCA holiday programmes: sports, crafts, and games",
+        "Local sports clubs: sports-specific training and games",
+        "Council-run recreation centres: activities like swimming, climbing, and trampolining"
+      ]
+    },
+    {
+      "heading": "Get Your Kids Moving",
+      "body": "Encouraging kids to engage in regular physical activity can have a significant impact on their health and wellbeing. By finding a family-friendly gym or recreation centre, and taking advantage of holiday programmes and other activities, you can help your kids develop a lifelong love of exercise and set them up for a healthy, happy life. To find a gym that suits your family's needs, take our quiz or compare gyms now.",
+      "cta": {
+        "text": "Take our quiz or compare gyms now",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "kids-exercise-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-02",
+  "post_type": "health_info"
+}

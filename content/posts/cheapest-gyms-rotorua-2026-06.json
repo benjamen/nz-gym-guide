@@ -1,0 +1,74 @@
+{
+  "title": "Cheapest Gyms Rotorua",
+  "short_title": "Rotorua Gym Deals",
+  "meta_desc": "Find the cheapest gym options in Rotorua with no contract, including Contours, Snap Fitness, and Anytime Fitness, plus Exercise NZ subsidy details.",
+  "intro": "Rotorua's gym scene offers great value with various options, including no-contract memberships. Contours is the cheapest and best value gym, while Anytime Fitness provides premium services. The Exercise NZ subsidised gym scheme offers 40-70% off for eligible members, making it an attractive option for those on a budget.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Most Affordable Options",
+      "body": "Contours is the cheapest gym option in Rotorua, with competitive pricing and no-contract memberships available. Snap Fitness also offers a no-contract option, with 6 weeks free. Anytime Fitness provides 24/7 access to over 5,000 clubs worldwide, but at a higher price point. The Exercise NZ subsidy is available for eligible members, offering discounts of 40-70% off.",
+      "list": [
+        "Contours: cheapest option with no contract",
+        "Snap Fitness: 6 weeks free, no contract",
+        "Anytime Fitness: premium option with 24/7 access"
+      ]
+    },
+    {
+      "heading": "No-Contract Alternatives",
+      "body": "For those who prefer flexibility, Contours and Snap Fitness offer no-contract memberships. This allows members to cancel their membership at any time without incurring penalties. Anytime Fitness also offers a no-contract option, but at a higher price point. The Exercise NZ subsidy can be used with these no-contract options, providing significant discounts for eligible members."
+    },
+    {
+      "heading": "Exercise NZ Subsidy",
+      "body": "The Exercise NZ subsidised gym scheme offers discounts of 40-70% off for eligible members. This scheme is available for new members or those who have been inactive for 12 months or more. The subsidy can be used with various gyms in Rotorua, including Contours, Snap Fitness, and Anytime Fitness. To be eligible, members must meet certain criteria, such as being a New Zealand resident and meeting income thresholds.",
+      "list": [
+        "40-70% off for eligible members",
+        "Available for new members or those inactive for 12+ months",
+        "Can be used with various gyms in Rotorua"
+      ]
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "The following table compares the prices of various gyms in Rotorua, including Contours, Snap Fitness, and Anytime Fitness. The Exercise NZ subsidy is also included, with discounts of 40-70% off for eligible members.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price (per week)",
+          "Contract Length"
+        ],
+        "rows": [
+          [
+            "Contours",
+            "$15-$20",
+            "No contract"
+          ],
+          [
+            "Snap Fitness",
+            "$20-$25",
+            "No contract"
+          ],
+          [
+            "Anytime Fitness",
+            "$25-$30",
+            "No contract"
+          ],
+          [
+            "Exercise NZ Subsidy",
+            "40-70% off",
+            "N/A"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "cheapest-gyms-rotorua-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-02",
+  "post_type": "budget_guide"
+}
