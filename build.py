@@ -179,7 +179,6 @@ def build():
             sitemap += sm_url(f"deals/{p['slug']}", "0.8", "weekly")
     for dp in diet_plans:
         sitemap += sm_url(f"diet/{dp['slug']}", "0.8", "monthly")
-    sitemap += sm_url("guides", "0.7", "monthly")
     sitemap += "</urlset>"
     (OUT / "sitemap.xml").write_text(sitemap)
 
