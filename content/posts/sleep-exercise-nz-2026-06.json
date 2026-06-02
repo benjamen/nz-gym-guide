@@ -1,0 +1,49 @@
+{
+  "title": "Sleep and Gym",
+  "short_title": "Sleep Better",
+  "meta_desc": "Discover how a gym routine can improve your sleep, reset your circadian rhythm, and boost overall wellbeing with evidence-based advice from NZ gym experts.",
+  "intro": "Sleep is essential for physical and mental health, with the Ministry of Health stating that 1 in 5 New Zealanders experience sleep problems. Regular exercise is a key factor in achieving quality sleep. In this article, we explore the connection between sleep and exercise, and how a gym membership can help. Exercise NZ's subsidised gym scheme can make it more affordable, with discounts of 40-70% off.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "The Connection Between Sleep and Exercise",
+      "body": "Research has shown that regular physical activity can improve sleep quality, duration, and depth. Exercise can help regulate the body's circadian rhythm, which is essential for a good night's sleep. In New Zealand, where 1 in 3 adults do not get enough physical activity, incorporating exercise into your daily routine can have a significant impact on sleep. The Ministry of Health recommends at least 150 minutes of moderate-intensity exercise or 75 minutes of vigorous-intensity exercise per week.",
+      "list": [
+        "Improved sleep quality",
+        "Increased sleep duration",
+        "Deeper sleep"
+      ]
+    },
+    {
+      "heading": "Best Time to Work Out for Sleep",
+      "body": "Morning workouts can be beneficial for sleep, as they can help regulate the body's circadian rhythm and increase alertness during the day. However, it's essential to listen to your body and find a routine that works best for you."
+    },
+    {
+      "heading": "How a Gym Routine Resets Your Circadian Rhythm",
+      "body": "Exercise NZ's subsidised gym scheme can help make it more affordable to join a gym and start a routine. With discounts of 40-70% off, you can find a gym that suits your needs and budget."
+    },
+    {
+      "heading": "Practical Steps to Improve Sleep with Exercise",
+      "body": "Incorporating physical activity into your daily routine can be simple. Start by scheduling a 30-minute workout into your daily planner, and aim to do it at the same time every day. You can also try activities like walking, jogging, or cycling, which can be done outdoors or at home.",
+      "list": [
+        "Schedule a daily workout",
+        "Try outdoor activities like walking or jogging",
+        "Incorporate strength training into your routine"
+      ]
+    },
+    {
+      "heading": "Take the First Step Towards Better Sleep",
+      "body": "Improving sleep with exercise is achievable, and it starts with taking the first step. Whether it's joining a gym or starting a home workout routine, the most important thing is to find an activity that you enjoy and can stick to.",
+      "cta": {
+        "text": "Take our quiz to find the perfect gym for your needs",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "sleep-exercise-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-03",
+  "post_type": "health_info"
+}

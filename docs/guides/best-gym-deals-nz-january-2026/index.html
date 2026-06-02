@@ -260,6 +260,9 @@ These offers are time-limited — usually January only — and the best ones go 
 </section>
 
 
+<!-- Email capture (if defined in guide) -->
+
+
 <!-- Quiz prompt -->
 <section class="section" style="background:linear-gradient(135deg,#eff6ff,#dbeafe);border-radius:var(--radius);text-align:center;">
   <div style="max-width:520px;margin:0 auto;">
@@ -535,5 +538,20 @@ These offers are time-limited — usually January only — and the best ones go 
       </div>
     </div>
   </footer>
+
+  <!-- MailerLite Email Capture Script -->
+  <script>
+    (function() {
+      // MailerLite form embed — inject forms with data-mailerlite-form attribute
+      var script = document.createElement('script');
+      script.src = 'https://assets.mailerlite.com/js/form-embed.min.js';
+      script.onload = function() {
+        if (window.mailerlite && window.mailerlite.load) {
+          window.mailerlite.load();
+        }
+      };
+      document.body.appendChild(script);
+    })();
+  </script>
 </body>
 </html>

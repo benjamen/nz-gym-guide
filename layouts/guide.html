@@ -24,7 +24,7 @@
    "author":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}"},
    "publisher":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}",
      "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.svg","width":512,"height":512}}
-  }{% if guide.faq %},
+  }{% if guide.faq and guide.faq|length > 0 %},
   {"@type":"FAQPage","mainEntity":[
     {% for q in guide.faq %}{"@type":"Question","name":{{ (q.question or q.q) | tojson }},"acceptedAnswer":{"@type":"Answer","text":{{ (q.answer or q.a) | tojson }}}}{% if not loop.last %},{% endif %}{% endfor %}
   ]}{% endif %}
@@ -83,6 +83,17 @@
   {% endif %}
 </section>
 {% endfor %}
+
+<!-- Email capture (if defined in guide) -->
+{% if guide.email_capture %}
+<section class="section" style="background:linear-gradient(135deg,#f3e8ff,#e9d5ff);border-radius:var(--radius);">
+  <div style="max-width:640px;margin:0 auto;text-align:center;">
+    <h2 style="margin-bottom:.5rem;">{{ guide.email_capture.heading }}</h2>
+    <p style="color:var(--gray-600);margin-bottom:1.5rem;">{{ guide.email_capture.body }}</p>
+    <div data-mailerlite-form="{{ guide.email_capture.mailerlite_form_id }}" style="max-width:400px;margin:0 auto;"></div>
+  </div>
+</section>
+{% endif %}
 
 <!-- Quiz prompt -->
 <section class="section" style="background:linear-gradient(135deg,#eff6ff,#dbeafe);border-radius:var(--radius);text-align:center;">

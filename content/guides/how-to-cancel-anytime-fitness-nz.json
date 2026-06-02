@@ -10,14 +10,35 @@
     {
       "heading": "Anytime Fitness NZ Cancellation — Quick Summary",
       "table": {
-        "headers": ["Factor", "Details"],
+        "headers": [
+          "Factor",
+          "Details"
+        ],
         "rows": [
-          ["Minimum contract", "12 months"],
-          ["Notice period", "Typically 30 days written notice"],
-          ["How to cancel", "In person at your club or in writing"],
-          ["Early exit fee", "Remaining contract payments (varies)"],
-          ["Cancellation after contract", "Cancel any time with notice period"],
-          ["Direct debit", "Cancel after confirmation from the club — not before"]
+          [
+            "Minimum contract",
+            "12 months"
+          ],
+          [
+            "Notice period",
+            "Typically 30 days written notice"
+          ],
+          [
+            "How to cancel",
+            "In person at your club or in writing"
+          ],
+          [
+            "Early exit fee",
+            "Remaining contract payments (varies)"
+          ],
+          [
+            "Cancellation after contract",
+            "Cancel any time with notice period"
+          ],
+          [
+            "Direct debit",
+            "Cancel after confirmation from the club — not before"
+          ]
         ]
       }
     },
@@ -52,6 +73,14 @@
       ]
     },
     {
+      "heading": "Your Rights Under NZ Consumer Law",
+      "body": "<p>Anytime Fitness memberships are covered by the Consumer Guarantees Act 1993 and Fair Trading Act 1986. Key rights:</p><ul><li>All fees and terms must have been clearly disclosed at signup. If they weren't, you may be able to cancel without penalty.</li><li>Early exit fees must be a genuine estimate of loss — not a punitive charge. Excessive fees may be challengeable at the Disputes Tribunal.</li><li>Automatic contract renewal clauses require clear notice. If your contract renewed without explicit notification, this may be a Fair Trading Act breach.</li></ul><p>If you're facing a dispute, contact the NZ Commerce Commission at <a href='https://comcom.govt.nz' rel='noopener' target='_blank'>comcom.govt.nz</a> or use the Disputes Tribunal for claims under $30,000.</p>"
+    },
+    {
+      "heading": "Use This Cancellation Email Template",
+      "body": "<p>Copy and paste — fill in the [brackets]:</p><div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation Request — [Your Full Name]\n\nTo: [Club email]\n\nHi [Club] team,\n\nI am writing to formally request cancellation of my Anytime Fitness membership.\n\nFull name: [Name]\nMembership number: [If known]\nHome club: [Club]\nRequested cancellation date: [30 days from today]\n\nPlease confirm my membership end date and final direct debit date.\n\nThank you,\n[Name]\n[Phone]</div>"
+    },
+    {
       "heading": "If You Have a Problem",
       "body": "If your club isn't processing your cancellation correctly, escalate in writing. Contact the Anytime Fitness NZ head office if your club isn't responding. If you believe you're being charged incorrectly after a legitimate cancellation, raise a dispute with your bank (credit card dispute or direct debit reversal) and lodge a complaint with the Commerce Commission or Consumer NZ."
     }
@@ -68,6 +97,18 @@
     {
       "question": "Can I cancel Anytime Fitness online or via the app?",
       "answer": "Anytime Fitness recommends cancelling in person or in writing to your home club. App cancellations may not be processed reliably — always follow up with written confirmation from the club."
+    },
+    {
+      "q": "Can I cancel Anytime Fitness online in NZ?",
+      "a": "No — Anytime Fitness NZ does not offer online cancellation. You must submit written notice directly to your home club by email or in person."
+    },
+    {
+      "q": "What if my Anytime Fitness club has closed?",
+      "a": "If your home club closes, you have the right to cancel without penalty. Contact Anytime Fitness NZ head office directly and request written confirmation of cancellation with no further charges."
+    },
+    {
+      "q": "Does Anytime Fitness work if I move cities?",
+      "a": "Anytime Fitness memberships are home-club based. If you move to a different city, contact your home club to arrange a transfer. A new 12-month term may be required at the new location."
     }
   ]
 }

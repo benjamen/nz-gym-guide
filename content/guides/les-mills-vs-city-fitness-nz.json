@@ -1,78 +1,95 @@
 {
   "slug": "les-mills-vs-city-fitness-nz",
-  "short_title": "Les Mills Comparison",
-  "title": "Les Mills vs City Fitness NZ — Which Is Better Value in 2026?",
-  "meta_desc": "Les Mills vs City Fitness NZ: Compare prices, facilities, classes and contracts",
-  "intro": "When it comes to choosing a gym in New Zealand, two popular options are Les Mills and City Fitness NZ. With Les Mills offering a weekly membership from $24.95 and City Fitness NZ from $16.99, the decision can be difficult. In this article, we will explore the key differences between Les Mills and City Fitness NZ to help you make an informed decision.",
-  "updated": "May 2026",
-  "reading_time": 8,
+  "short_title": "Les Mills vs City Fitness",
+  "title": "Les Mills vs City Fitness — Which NZ Gym Is Worth Your Money?",
+  "meta_desc": "Les Mills vs City Fitness: price, contracts, 24/7 access, classes, facilities. Which gym offers better value in NZ 2026?",
+  "intro": "Les Mills and City Fitness are New Zealand's most contrasting gym chains. Les Mills is premium, class-focused, and locked-in. City Fitness is budget, flexible, and available 24/7. If you want group fitness in a premium environment, Les Mills wins. If you want maximum flexibility, 24/7 access, and lowest cost, City Fitness is unbeatable.",
+  "updated": "June 2026",
+  "reading_time": 7,
   "sections": [
     {
-      "heading": "Price Comparison",
+      "heading": "Les Mills vs City Fitness — Quick Comparison",
       "table": {
-        "headers": [
-          "Gym",
-          "Weekly Membership",
-          "Monthly Membership",
-          "Contract Term"
-        ],
+        "headers": ["Factor", "Les Mills", "City Fitness"],
         "rows": [
-          [
-            "Les Mills",
-            "$24.95",
-            "$99.80",
-            "12 months"
-          ],
-          [
-            "City Fitness NZ",
-            "$16.99",
-            "$69.99",
-            "12 months"
-          ],
-          [
-            "Les Mills (off-peak)",
-            "$19.95",
-            "$79.80",
-            "12 months"
-          ],
-          [
-            "City Fitness NZ (student)",
-            "$14.99",
-            "$59.99",
-            "12 months"
-          ]
+          ["Price (from)", "$17.99/week", "$7.99/week"],
+          ["Joining fee", "$49 (often waived)", "$29"],
+          ["Contract", "3 months minimum", "4 weeks or no lock-in"],
+          ["24/7 access", "No — staffed hours", "Yes — 24/7"],
+          ["Group fitness classes", "Extensive LM timetable", "Yes, basic selection"],
+          ["Pool / sauna", "Yes (most locations)", "No"],
+          ["NZ locations", "25+ clubs", "20+ clubs"],
+          ["Under-23 discount", "20% off", "No specific discount"],
+          ["Personal training", "Yes", "Yes"],
+          ["Crèche", "Yes (select clubs)", "No"]
         ]
       }
     },
     {
-      "heading": "Facilities and Classes",
-      "body": "Both Les Mills and City Fitness NZ offer a range of facilities and classes, including cardio equipment, free weights, and group fitness classes. However, Les Mills is known for its high-quality group fitness classes, with over 100 classes per week at some locations. City Fitness NZ also offers a range of classes, but with around 50 classes per week at most locations."
+      "heading": "Price Comparison: Budget vs Premium",
+      "body": "City Fitness starts at $7.99/week, making it NZ's cheapest mainstream gym. Les Mills starts at $17.99/week — over double the price. Over 3 months, City Fitness costs roughly $107 (with $29 joining fee = $136 total), while Les Mills costs around $237 plus joining fee = $286. City Fitness is significantly cheaper, but you're paying for flexibility and 24/7 access, not premium facilities or premium classes. Les Mills' higher price reflects pool, sauna, and professional group fitness instruction."
     },
     {
-      "heading": "Contract Terms",
-      "body": "Both Les Mills and City Fitness NZ offer 12-month contracts, with the option to cancel with 30 days' notice. However, Les Mills also offers a no-contract option for an additional $5 per week, while City Fitness NZ does not offer a no-contract option."
+      "heading": "Contracts and Flexibility",
+      "body": "City Fitness offers multiple options: 4-week minimum commitment or true no-lock-in ($9.99/week). Les Mills requires 3 months minimum. If you're testing a gym, City Fitness is lower-risk — you can commit for just 4 weeks. If you hate Les Mills after 3 months, you're locked in. City Fitness wins on flexibility; Les Mills wins if you know you'll commit longer."
     },
     {
-      "heading": "Locations",
-      "body": "Les Mills has locations in major cities across New Zealand, including Auckland, Wellington, and Christchurch. City Fitness NZ also has locations in major cities, including Auckland, Hamilton, and Wellington, but with fewer locations overall than Les Mills.",
-      "cta": {
-        "text": "Compare gym locations near you",
-        "url": "/compare/",
-        "affiliate": false
-      }
+      "heading": "24/7 Access vs Staffed Hours",
+      "body": "City Fitness is 24/7. You can train at midnight, 5am, Christmas Day, or during a power cut. Les Mills operates around 5:30am–10pm weekdays with reduced weekend hours. If you're a shift worker, night owl, or early bird, City Fitness is the only viable option. Les Mills members must fit training into staffed hours — no exceptions."
     },
     {
-      "heading": "Group Fitness Quality",
-      "body": "Les Mills is known for its high-quality group fitness classes, with experienced instructors and a range of classes to choose from. City Fitness NZ also offers group fitness classes, but with less variety and less experienced instructors at some locations."
+      "heading": "Group Fitness Classes",
+      "body": "Les Mills' entire offering is built around group fitness — BodyPump, RPM, BODYATTACK, BODYCOMBAT, BodyBalance, GRIT, and more. Classes are high-production, music-licensed, and instructor-certified to a global standard. City Fitness offers group fitness classes but with less production value and fewer timetable slots. If group fitness is your primary motivation, Les Mills is incomparably better. If you prefer solo training with occasional group options, City Fitness is sufficient."
     },
     {
-      "heading": "Conclusion",
-      "body": "Ultimately, the decision between Les Mills and City Fitness NZ will depend on your individual needs and preferences. If you prioritize high-quality group fitness classes and are willing to pay a premium, Les Mills may be the better option. However, if you are on a budget and want a basic gym membership with no frills, City Fitness NZ may be the better value.",
-      "cta": {
-        "text": "Visit the Les Mills gym page for more info",
-        "url": "/gym/les-mills/",
-        "affiliate": false
-      }
+      "heading": "Facilities: Pools, Saunas, Crèches",
+      "body": "Les Mills includes pools and saunas at most locations, plus crèches at select clubs — ideal for families and swimmers. City Fitness doesn't offer pools, saunas, or crèches. This is the main amenity gap. If you swim or need childcare while you train, Les Mills is necessary. If you just need equipment and classes, City Fitness is adequate."
+    },
+    {
+      "heading": "Best For Shift Workers and Night Owls",
+      "body": "City Fitness owns this category completely. Shift workers, night-shift nurses, overnight security, and anyone who trains outside 6am–9pm will find Les Mills unsuitable. City Fitness is the only mainstream chain offering 24/7 access with affordability."
+    },
+    {
+      "heading": "Who Should Choose City Fitness?",
+      "list": [
+        "Anyone on a tight budget (under $10/week)",
+        "Shift workers and night owls (24/7 access non-negotiable)",
+        "People who want complete flexibility to cancel after 4 weeks",
+        "Members who don't need pools, saunas, or professional group fitness",
+        "Those wanting multiple club access on a low budget"
+      ]
+    },
+    {
+      "heading": "Who Should Choose Les Mills?",
+      "list": [
+        "Group fitness lovers who rely on classes for motivation",
+        "Swimmers who need pool access",
+        "Families needing crèche support while training",
+        "Anyone under 23 (20% discount makes it more affordable)",
+        "People willing to pay for premium facilities and professional instruction"
+      ]
+    },
+    {
+      "heading": "The Verdict",
+      "body": "City Fitness is better for budget-conscious members, shift workers, and anyone wanting no-lock-in flexibility. Les Mills is better for group fitness lovers, swimmers, and families who can commit to premium pricing. These aren't competitors in the same market — City Fitness is the no-frills budget workhorse; Les Mills is the premium class-focused choice. Your decision should be based on priorities: is 24/7 access and price your priority, or premium classes and facilities?"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is City Fitness cheaper than Les Mills in NZ?",
+      "answer": "Significantly — City Fitness starts at $7.99/week vs Les Mills at $17.99/week. Over 12 months, City Fitness costs $416–$520 vs Les Mills at $936–$1,560. City Fitness is 55–70% cheaper."
+    },
+    {
+      "question": "Does City Fitness have pools like Les Mills?",
+      "answer": "No — City Fitness has no pools, saunas, or premium facilities. Les Mills includes pools and saunas at most locations, which justifies much of the price difference."
+    },
+    {
+      "question": "Can I train 24/7 at Les Mills?",
+      "answer": "No — Les Mills is staffed hours only, typically 5:30am–10pm weekdays and 7am–8pm weekends. City Fitness is 24/7 with keyfob access."
+    },
+    {
+      "question": "Which gym has better group fitness classes?",
+      "answer": "Les Mills — it specialises in professional group fitness (BodyPump, RPM, etc.). City Fitness offers classes but with less production value. If group fitness matters, Les Mills is unquestionably better."
     }
   ]
 }

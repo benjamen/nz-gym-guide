@@ -10,14 +10,35 @@
     {
       "heading": "Snap Fitness NZ Cancellation — Quick Summary",
       "table": {
-        "headers": ["Factor", "Details"],
+        "headers": [
+          "Factor",
+          "Details"
+        ],
         "rows": [
-          ["Minimum contract", "Varies — 3–12 months depending on your club"],
-          ["Notice period", "Typically 30 days written notice"],
-          ["How to cancel", "In person at your club or written notice to the franchise owner"],
-          ["Early exit fee", "Remaining contract payments (check your agreement)"],
-          ["After contract ends", "Cancel any time with notice period"],
-          ["Direct debit", "Cancel after written confirmation only"]
+          [
+            "Minimum contract",
+            "Varies — 3–12 months depending on your club"
+          ],
+          [
+            "Notice period",
+            "Typically 30 days written notice"
+          ],
+          [
+            "How to cancel",
+            "In person at your club or written notice to the franchise owner"
+          ],
+          [
+            "Early exit fee",
+            "Remaining contract payments (check your agreement)"
+          ],
+          [
+            "After contract ends",
+            "Cancel any time with notice period"
+          ],
+          [
+            "Direct debit",
+            "Cancel after written confirmation only"
+          ]
         ]
       }
     },
@@ -46,6 +67,14 @@
       "body": "If your club isn't processing your cancellation or is charging you incorrectly after a confirmed cancellation, escalate in writing. Contact the Snap Fitness Australia/NZ support team if the club doesn't resolve it. If the issue persists, raise a complaint with Consumer NZ or the Commerce Commission, or lodge a credit card or direct debit dispute with your bank."
     },
     {
+      "heading": "Your Rights Under NZ Consumer Law",
+      "body": "<p>Because Snap Fitness is a franchise, your contract is with the individual club operator — not Snap Fitness globally. This means:</p><ul><li>Terms can vary significantly between clubs</li><li>All fees and minimum periods must have been disclosed at signup</li><li>If your club closes, you can cancel immediately without penalty</li><li>The Commerce Commission has previously investigated gym contract practices in NZ — excessive or unclear cancellation fees may be challengeable</li></ul>"
+    },
+    {
+      "heading": "Use This Cancellation Email Template",
+      "body": "<div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Name]\n\nHi Snap Fitness [Club],\n\nI am cancelling my membership as per the notice period in my agreement.\n\nName: [Name] | Club: [Club]\nCancellation date: [As per contract]\n\nPlease confirm my end date and final charge in writing.\n\nRegards, [Name]</div>"
+    },
+    {
       "heading": "Common Mistakes",
       "list": [
         "Stopping your direct debit without formal cancellation — this creates a debt balance",
@@ -68,6 +97,14 @@
     {
       "question": "Can I cancel Snap Fitness NZ online?",
       "answer": "Snap Fitness NZ clubs are franchised and policies vary. Most require in-person or written (email) notice rather than an online cancellation. Contact your home club directly to confirm their process."
+    },
+    {
+      "q": "My Snap Fitness club won't respond to my cancellation email — what do I do?",
+      "a": "Send a follow-up email with a read receipt. If still no response after 5 business days, escalate to Snap Fitness NZ's head office. If charges continue after your cancellation request, contact your bank to dispute them."
+    },
+    {
+      "q": "Can I cancel Snap Fitness if I move to a city without a Snap club?",
+      "a": "If you move to an area without a reasonably accessible Snap Fitness, this may constitute grounds for cancellation without penalty. Contact your club in writing and cite the change in circumstances."
     }
   ]
 }

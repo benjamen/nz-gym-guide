@@ -1,0 +1,67 @@
+{
+  "title": "Cheapest Tauranga Gyms",
+  "short_title": "Tauranga Gym Deals",
+  "meta_desc": "Discover the most affordable gyms in Tauranga with no-contract options and prices, including the Exercise NZ subsidy for eligible members, and compare prices across popular chains like City Fitness and Les Mills.",
+  "intro": "Tauranga's fitness scene is thriving, with a range of affordable gym options available. City Fitness offers the best value, with a month-to-month membership for $18.99/week. For those looking for no-contract alternatives, Anytime Fitness provides 24/7 access to over 5,000 clubs worldwide. The Exercise NZ subsidy programme also offers 40-70% off for eligible members, making it the biggest discount available for New Zealanders.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Most Affordable Options",
+      "body": "For budget-conscious individuals, City Fitness is the cheapest option in Tauranga, with a month-to-month membership for $18.99/week. This membership includes access to a full-service gym with a range of equipment and group fitness classes. Another affordable option is Anytime Fitness, which offers 24/7 access to over 5,000 clubs worldwide, with no lock-in contract.",
+      "list": [
+        "City Fitness: $18.99/week (month-to-month)",
+        "Anytime Fitness: prices vary (no lock-in contract)"
+      ]
+    },
+    {
+      "heading": "No-Contract Alternatives",
+      "body": "Anytime Fitness is a popular choice for those who want the flexibility of a no-contract membership. With 24/7 access to over 5,000 clubs worldwide, members can work out at any time that suits them. Les Mills also offers a Flexi Membership with no lock-in contract, providing access to a range of group fitness classes and equipment.",
+      "list": [
+        "Anytime Fitness: 24/7 access, no lock-in contract",
+        "Les Mills: Flexi Membership, no lock-in contract"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy",
+      "body": "Eligible members can apply for the subsidy through the Exercise NZ website, and once approved, can redeem their discount at participating gyms, including City Fitness and Anytime Fitness."
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "The following table compares the prices of popular gym chains in Tauranga, including City Fitness, Anytime Fitness, and Les Mills.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Membership Type",
+          "Price (per week)"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "Month-to-Month",
+            "$18.99"
+          ],
+          [
+            "Anytime Fitness",
+            "No Lock-in Contract",
+            "prices vary"
+          ],
+          [
+            "Les Mills",
+            "Flexi Membership",
+            "prices vary"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "cheapest-gyms-tauranga-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-03",
+  "post_type": "budget_guide"
+}

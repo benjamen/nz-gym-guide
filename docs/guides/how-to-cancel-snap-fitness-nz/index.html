@@ -79,7 +79,7 @@
      "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512}}
   },
   {"@type":"FAQPage","mainEntity":[
-    {"@type":"Question","name":"How do I cancel Snap Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"Submit written cancellation notice to your home club in person or by email. The notice period is typically 30 days. Get written confirmation before cancelling your direct debit."}},{"@type":"Question","name":"What is Snap Fitness NZ's cancellation fee?","acceptedAnswer":{"@type":"Answer","text":"Early cancellation fees are the remaining payments on your contract. Contract lengths vary by franchise (3–12 months). Medical, relocation, or hardship grounds may allow early exit without penalty."}},{"@type":"Question","name":"Can I cancel Snap Fitness NZ online?","acceptedAnswer":{"@type":"Answer","text":"Snap Fitness NZ clubs are franchised and policies vary. Most require in-person or written (email) notice rather than an online cancellation. Contact your home club directly to confirm their process."}}
+    {"@type":"Question","name":"How do I cancel Snap Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"Submit written cancellation notice to your home club in person or by email. The notice period is typically 30 days. Get written confirmation before cancelling your direct debit."}},{"@type":"Question","name":"What is Snap Fitness NZ's cancellation fee?","acceptedAnswer":{"@type":"Answer","text":"Early cancellation fees are the remaining payments on your contract. Contract lengths vary by franchise (3–12 months). Medical, relocation, or hardship grounds may allow early exit without penalty."}},{"@type":"Question","name":"Can I cancel Snap Fitness NZ online?","acceptedAnswer":{"@type":"Answer","text":"Snap Fitness NZ clubs are franchised and policies vary. Most require in-person or written (email) notice rather than an online cancellation. Contact your home club directly to confirm their process."}},{"@type":"Question","name":"My Snap Fitness club won't respond to my cancellation email — what do I do?","acceptedAnswer":{"@type":"Answer","text":"Send a follow-up email with a read receipt. If still no response after 5 business days, escalate to Snap Fitness NZ's head office. If charges continue after your cancellation request, contact your bank to dispute them."}},{"@type":"Question","name":"Can I cancel Snap Fitness if I move to a city without a Snap club?","acceptedAnswer":{"@type":"Answer","text":"If you move to an area without a reasonably accessible Snap Fitness, this may constitute grounds for cancellation without penalty. Contact your club in writing and cite the change in circumstances."}}
   ]}
 ]}
 </script>
@@ -267,6 +267,43 @@ If you don't meet any of these criteria, you'll typically be required to pay out
 </section>
 
 <section class="section">
+  <h2>Your Rights Under NZ Consumer Law</h2>
+  
+  <div class="guide-body"><p>Because Snap Fitness is a franchise, your contract is with the individual club operator — not Snap Fitness globally. This means:</p><ul><li>Terms can vary significantly between clubs</li><li>All fees and minimum periods must have been disclosed at signup</li><li>If your club closes, you can cancel immediately without penalty</li><li>The Commerce Commission has previously investigated gym contract practices in NZ — excessive or unclear cancellation fees may be challengeable</li></ul></div>
+  
+
+  
+
+  
+
+  
+</section>
+
+<section class="section">
+  <h2>Use This Cancellation Email Template</h2>
+  
+  <div class="guide-body"><div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Name]
+
+Hi Snap Fitness [Club],
+
+I am cancelling my membership as per the notice period in my agreement.
+
+Name: [Name] | Club: [Club]
+Cancellation date: [As per contract]
+
+Please confirm my end date and final charge in writing.
+
+Regards, [Name]</div></div>
+  
+
+  
+
+  
+
+  
+</section>
+
+<section class="section">
   <h2>Common Mistakes</h2>
   
 
@@ -290,6 +327,9 @@ If you don't meet any of these criteria, you'll typically be required to pay out
 
   
 </section>
+
+
+<!-- Email capture (if defined in guide) -->
 
 
 <!-- Quiz prompt -->
@@ -567,5 +607,20 @@ If you don't meet any of these criteria, you'll typically be required to pay out
       </div>
     </div>
   </footer>
+
+  <!-- MailerLite Email Capture Script -->
+  <script>
+    (function() {
+      // MailerLite form embed — inject forms with data-mailerlite-form attribute
+      var script = document.createElement('script');
+      script.src = 'https://assets.mailerlite.com/js/form-embed.min.js';
+      script.onload = function() {
+        if (window.mailerlite && window.mailerlite.load) {
+          window.mailerlite.load();
+        }
+      };
+      document.body.appendChild(script);
+    })();
+  </script>
 </body>
 </html>

@@ -79,7 +79,7 @@
      "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512}}
   },
   {"@type":"FAQPage","mainEntity":[
-    {"@type":"Question","name":"How do I cancel Jetts NZ?","acceptedAnswer":{"@type":"Answer","text":"Log into the Jetts member portal and submit a cancellation, or visit your club in person. There's no lock-in contract, so you just serve the notice period (typically 10–14 days) and your membership ends."}},{"@type":"Question","name":"Is there a cancellation fee for Jetts NZ?","acceptedAnswer":{"@type":"Answer","text":"No — Jetts NZ has no lock-in contract and no exit fees. You just need to give the required notice period."}},{"@type":"Question","name":"How much notice do you need to cancel Jetts NZ?","acceptedAnswer":{"@type":"Answer","text":"Typically 10–14 days written notice. Check your membership agreement for the exact period at your club."}}
+    {"@type":"Question","name":"How do I cancel Jetts NZ?","acceptedAnswer":{"@type":"Answer","text":"Log into the Jetts member portal and submit a cancellation, or visit your club in person. There's no lock-in contract, so you just serve the notice period (typically 10–14 days) and your membership ends."}},{"@type":"Question","name":"Is there a cancellation fee for Jetts NZ?","acceptedAnswer":{"@type":"Answer","text":"No — Jetts NZ has no lock-in contract and no exit fees. You just need to give the required notice period."}},{"@type":"Question","name":"How much notice do you need to cancel Jetts NZ?","acceptedAnswer":{"@type":"Answer","text":"Typically 10–14 days written notice. Check your membership agreement for the exact period at your club."}},{"@type":"Question","name":"Does Jetts NZ require you to cancel in person?","acceptedAnswer":{"@type":"Answer","text":"No — Jetts accepts written cancellation by email. You do not need to visit the club in person. Email your home club directly and request written confirmation."}},{"@type":"Question","name":"Can I cancel Jetts before the 2 weeks is up?","acceptedAnswer":{"@type":"Answer","text":"The 2-week notice period is the minimum required. You cannot end your membership sooner than 2 weeks after giving notice, as you'll be charged for that period regardless of whether you attend."}}
   ]}
 ]}
 </script>
@@ -226,6 +226,42 @@
 </section>
 
 <section class="section">
+  <h2>Your Rights Under NZ Consumer Law</h2>
+  
+  <div class="guide-body"><p>Jetts is one of the most consumer-friendly gym contracts in NZ. The no-lock-in Flexi plan means you can cancel at any time with just 2 weeks written notice. Key points:</p><ul><li>No early exit fees apply on the Flexi plan</li><li>Jetts cannot charge you beyond the 2-week notice period</li><li>If you have been charged after your confirmed cancellation date, you are entitled to a refund of those charges</li></ul></div>
+  
+
+  
+
+  
+
+  
+</section>
+
+<section class="section">
+  <h2>Use This Cancellation Email Template</h2>
+  
+  <div class="guide-body"><div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Name]
+
+Hi Jetts [Club],
+
+I am cancelling my Jetts Flexi membership effective [two weeks from today].
+
+Name: [Name] | Club: [Club name]
+
+Please confirm my end date and final charge.
+
+Thanks, [Name]</div></div>
+  
+
+  
+
+  
+
+  
+</section>
+
+<section class="section">
   <h2>If You Have a Problem</h2>
   
   <div class="guide-body">Jetts cancellations are generally smooth, but if you encounter issues:
@@ -241,6 +277,9 @@
 
   
 </section>
+
+
+<!-- Email capture (if defined in guide) -->
 
 
 <!-- Quiz prompt -->
@@ -518,5 +557,20 @@
       </div>
     </div>
   </footer>
+
+  <!-- MailerLite Email Capture Script -->
+  <script>
+    (function() {
+      // MailerLite form embed — inject forms with data-mailerlite-form attribute
+      var script = document.createElement('script');
+      script.src = 'https://assets.mailerlite.com/js/form-embed.min.js';
+      script.onload = function() {
+        if (window.mailerlite && window.mailerlite.load) {
+          window.mailerlite.load();
+        }
+      };
+      document.body.appendChild(script);
+    })();
+  </script>
 </body>
 </html>

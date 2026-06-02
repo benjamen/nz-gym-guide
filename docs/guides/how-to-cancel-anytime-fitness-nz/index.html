@@ -79,7 +79,7 @@
      "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512}}
   },
   {"@type":"FAQPage","mainEntity":[
-    {"@type":"Question","name":"How do I cancel Anytime Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"Submit a written cancellation request to your home club in person or by email. Give the required notice period (typically 30 days). Get written confirmation, then cancel your direct debit after all payments are settled."}},{"@type":"Question","name":"What is the cancellation fee for Anytime Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"Anytime Fitness NZ clubs require a 12-month minimum contract. Cancelling before the end of your term usually means paying the remaining months. Contact your home club directly for the exact early exit fee, as it varies by franchise."}},{"@type":"Question","name":"Can I cancel Anytime Fitness online or via the app?","acceptedAnswer":{"@type":"Answer","text":"Anytime Fitness recommends cancelling in person or in writing to your home club. App cancellations may not be processed reliably — always follow up with written confirmation from the club."}}
+    {"@type":"Question","name":"How do I cancel Anytime Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"Submit a written cancellation request to your home club in person or by email. Give the required notice period (typically 30 days). Get written confirmation, then cancel your direct debit after all payments are settled."}},{"@type":"Question","name":"What is the cancellation fee for Anytime Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"Anytime Fitness NZ clubs require a 12-month minimum contract. Cancelling before the end of your term usually means paying the remaining months. Contact your home club directly for the exact early exit fee, as it varies by franchise."}},{"@type":"Question","name":"Can I cancel Anytime Fitness online or via the app?","acceptedAnswer":{"@type":"Answer","text":"Anytime Fitness recommends cancelling in person or in writing to your home club. App cancellations may not be processed reliably — always follow up with written confirmation from the club."}},{"@type":"Question","name":"Can I cancel Anytime Fitness online in NZ?","acceptedAnswer":{"@type":"Answer","text":"No — Anytime Fitness NZ does not offer online cancellation. You must submit written notice directly to your home club by email or in person."}},{"@type":"Question","name":"What if my Anytime Fitness club has closed?","acceptedAnswer":{"@type":"Answer","text":"If your home club closes, you have the right to cancel without penalty. Contact Anytime Fitness NZ head office directly and request written confirmation of cancellation with no further charges."}},{"@type":"Question","name":"Does Anytime Fitness work if I move cities?","acceptedAnswer":{"@type":"Answer","text":"Anytime Fitness memberships are home-club based. If you move to a different city, contact your home club to arrange a transfer. A new 12-month term may be required at the new location."}}
   ]}
 ]}
 </script>
@@ -278,6 +278,49 @@
 </section>
 
 <section class="section">
+  <h2>Your Rights Under NZ Consumer Law</h2>
+  
+  <div class="guide-body"><p>Anytime Fitness memberships are covered by the Consumer Guarantees Act 1993 and Fair Trading Act 1986. Key rights:</p><ul><li>All fees and terms must have been clearly disclosed at signup. If they weren't, you may be able to cancel without penalty.</li><li>Early exit fees must be a genuine estimate of loss — not a punitive charge. Excessive fees may be challengeable at the Disputes Tribunal.</li><li>Automatic contract renewal clauses require clear notice. If your contract renewed without explicit notification, this may be a Fair Trading Act breach.</li></ul><p>If you're facing a dispute, contact the NZ Commerce Commission at <a href='https://comcom.govt.nz' rel='noopener' target='_blank'>comcom.govt.nz</a> or use the Disputes Tribunal for claims under $30,000.</p></div>
+  
+
+  
+
+  
+
+  
+</section>
+
+<section class="section">
+  <h2>Use This Cancellation Email Template</h2>
+  
+  <div class="guide-body"><p>Copy and paste — fill in the [brackets]:</p><div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation Request — [Your Full Name]
+
+To: [Club email]
+
+Hi [Club] team,
+
+I am writing to formally request cancellation of my Anytime Fitness membership.
+
+Full name: [Name]
+Membership number: [If known]
+Home club: [Club]
+Requested cancellation date: [30 days from today]
+
+Please confirm my membership end date and final direct debit date.
+
+Thank you,
+[Name]
+[Phone]</div></div>
+  
+
+  
+
+  
+
+  
+</section>
+
+<section class="section">
   <h2>If You Have a Problem</h2>
   
   <div class="guide-body">If your club isn't processing your cancellation correctly, escalate in writing. Contact the Anytime Fitness NZ head office if your club isn't responding. If you believe you're being charged incorrectly after a legitimate cancellation, raise a dispute with your bank (credit card dispute or direct debit reversal) and lodge a complaint with the Commerce Commission or Consumer NZ.</div>
@@ -289,6 +332,9 @@
 
   
 </section>
+
+
+<!-- Email capture (if defined in guide) -->
 
 
 <!-- Quiz prompt -->
@@ -566,5 +612,20 @@
       </div>
     </div>
   </footer>
+
+  <!-- MailerLite Email Capture Script -->
+  <script>
+    (function() {
+      // MailerLite form embed — inject forms with data-mailerlite-form attribute
+      var script = document.createElement('script');
+      script.src = 'https://assets.mailerlite.com/js/form-embed.min.js';
+      script.onload = function() {
+        if (window.mailerlite && window.mailerlite.load) {
+          window.mailerlite.load();
+        }
+      };
+      document.body.appendChild(script);
+    })();
+  </script>
 </body>
 </html>

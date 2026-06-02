@@ -79,7 +79,7 @@
      "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/favicon.svg","width":512,"height":512}}
   },
   {"@type":"FAQPage","mainEntity":[
-    {"@type":"Question","name":"How do I cancel City Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"Visit your home City Fitness club and complete a cancellation form in person, or send a written request by email. Give the required notice period (typically 2–4 weeks) and get written confirmation of your final payment date."}},{"@type":"Question","name":"Is there a cancellation fee for City Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"No — City Fitness has no long-term lock-in contract and no exit fees after the 4-week minimum period. You just need to give the required notice."}},{"@type":"Question","name":"Can I cancel City Fitness NZ online?","acceptedAnswer":{"@type":"Answer","text":"City Fitness recommends cancelling in person at your home club. Some clubs accept written email notice but in-person cancellation with a form is the most reliable method."}}
+    {"@type":"Question","name":"How do I cancel City Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"Visit your home City Fitness club and complete a cancellation form in person, or send a written request by email. Give the required notice period (typically 2–4 weeks) and get written confirmation of your final payment date."}},{"@type":"Question","name":"Is there a cancellation fee for City Fitness NZ?","acceptedAnswer":{"@type":"Answer","text":"No — City Fitness has no long-term lock-in contract and no exit fees after the 4-week minimum period. You just need to give the required notice."}},{"@type":"Question","name":"Can I cancel City Fitness NZ online?","acceptedAnswer":{"@type":"Answer","text":"City Fitness recommends cancelling in person at your home club. Some clubs accept written email notice but in-person cancellation with a form is the most reliable method."}},{"@type":"Question","name":"Can I cancel City Fitness online?","acceptedAnswer":{"@type":"Answer","text":"City Fitness does not have a centralised online cancellation system. Email your home branch directly and keep a copy of your cancellation email."}},{"@type":"Question","name":"Does the City Fitness Black Card have different cancellation terms?","acceptedAnswer":{"@type":"Answer","text":"No — Black Card and Basic memberships both have the same 4-week notice requirement with no lock-in. The cancellation process is identical for both."}}
   ]}
 ]}
 </script>
@@ -227,6 +227,42 @@
 </section>
 
 <section class="section">
+  <h2>Your Rights Under NZ Consumer Law</h2>
+  
+  <div class="guide-body"><p>City Fitness is one of NZ's most consumer-friendly gym contracts — no lock-in beyond the initial 4-week minimum. Key rights:</p><ul><li>You can cancel at any time with 4 weeks written notice</li><li>No early exit fees on standard memberships</li><li>City Fitness cannot charge you beyond the 4-week notice period</li><li>The $29 joining fee is non-refundable even if you cancel shortly after joining</li></ul></div>
+  
+
+  
+
+  
+
+  
+</section>
+
+<section class="section">
+  <h2>Use This Cancellation Email Template</h2>
+  
+  <div class="guide-body"><div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Name]
+
+Hi City Fitness [Branch],
+
+I am cancelling my City Fitness membership effective [4 weeks from today].
+
+Name: [Name] | Branch: [Branch]
+
+Please confirm my end date and final charge.
+
+Thanks, [Name]</div></div>
+  
+
+  
+
+  
+
+  
+</section>
+
+<section class="section">
   <h2>Tips for a Smooth Cancellation</h2>
   
 
@@ -250,6 +286,9 @@
 
   
 </section>
+
+
+<!-- Email capture (if defined in guide) -->
 
 
 <!-- Quiz prompt -->
@@ -527,5 +566,20 @@
       </div>
     </div>
   </footer>
+
+  <!-- MailerLite Email Capture Script -->
+  <script>
+    (function() {
+      // MailerLite form embed — inject forms with data-mailerlite-form attribute
+      var script = document.createElement('script');
+      script.src = 'https://assets.mailerlite.com/js/form-embed.min.js';
+      script.onload = function() {
+        if (window.mailerlite && window.mailerlite.load) {
+          window.mailerlite.load();
+        }
+      };
+      document.body.appendChild(script);
+    })();
+  </script>
 </body>
 </html>
