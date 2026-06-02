@@ -1,6 +1,6 @@
 {
   "title": "NZ Gym Guide",
-  "tagline": "Compare gym memberships across New Zealand — prices, contracts, locations",
+  "tagline": "Compare gym memberships across New Zealand \u2014 prices, contracts, locations",
   "description": "Compare NZ gym memberships side by side. Find the cheapest gym near you, read honest reviews, and get the best deal on a membership in Auckland, Wellington, Christchurch and beyond.",
   "base_url": "https://nzgymguide.co.nz",
   "base_path": "",
@@ -53,6 +53,25 @@
       "network": "Direct",
       "commission": "varies",
       "cta": "Shop gym equipment NZ"
+    },
+    "iherb": {
+      "name": "iHerb",
+      "url": "https://www.iherb.com/?rcode=PENDING_IHERB_CODE",
+      "url_protein": "https://www.iherb.com/c/protein?rcode=PENDING_IHERB_CODE",
+      "url_creatine": "https://www.iherb.com/c/creatine?rcode=PENDING_IHERB_CODE",
+      "url_preworkout": "https://www.iherb.com/c/pre-workout?rcode=PENDING_IHERB_CODE",
+      "commission": "5-10% per order",
+      "network": "iHerb Associates",
+      "cta": "Shop Supplements at iHerb",
+      "status": "PENDING_SIGNUP"
+    },
+    "gymshark": {
+      "name": "Gymshark",
+      "url": "https://www.gymshark.com/?utm_source=nzgymguide&utm_medium=affiliate",
+      "commission": "7-10%",
+      "network": "Awin",
+      "cta": "Shop Gymshark NZ",
+      "status": "PENDING_AWIN"
     }
   }
 }
