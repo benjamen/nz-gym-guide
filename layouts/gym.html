@@ -51,6 +51,13 @@
 {% block hero %}
 <section class="page-hero">
   <div class="hero-inner">
+    {% if gym.logo_file %}
+    <div class="gym-logo-wrap" style="margin-bottom:1rem">
+      <img src="{{ gym.logo_file }}" alt="{{ gym.name }} logo" width="160" height="64"
+           style="object-fit:contain;max-height:64px;background:#fff;border-radius:6px;padding:6px 12px"
+           loading="eager">
+    </div>
+    {% endif %}
     <div class="breadcrumb"><a href="/">Home</a> › <a href="/compare/">Compare</a> › {{ gym.name }}</div>
     <h1>{{ gym.name }} NZ — Membership Review 2026</h1>
     <p>{{ gym.tagline }}</p>

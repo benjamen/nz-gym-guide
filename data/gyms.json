@@ -356,7 +356,8 @@
         "annual": 748.28
       },
       "notes": "Les Mills bills weekly. The joining fee ($49) is often waived. Monthly figures above assume 52 weeks / 12 months for comparison. Student and under-23 rates bring the cost below Jetts Premium."
-    }
+    },
+    "logo_file": "/static/img/logos/les-mills.jpg"
   },
   {
     "slug": "city-fitness",
@@ -466,7 +467,8 @@
         "text": "No pool or sauna but everything you need for a solid workout is there. Great for no-frills training on a budget. The 24/7 access is crucial for shift workers.",
         "verified": true
       }
-    ]
+    ],
+    "logo_file": "/static/img/logos/city-fitness.webp"
   },
   {
     "slug": "anytime-fitness",
@@ -566,7 +568,8 @@
         "text": "Great community at my local branch. Staff are welcoming and the PT sessions are excellent. Would prefer no lock-in but the service quality makes up for it.",
         "verified": true
       }
-    ]
+    ],
+    "logo_file": "/static/img/logos/anytime-fitness.png"
   },
   {
     "slug": "snap-fitness",
@@ -664,7 +667,8 @@
         "text": "Smaller than I expected but surprisingly well-equipped. Great for those who don't like busy gyms — it's rarely packed even at peak times.",
         "verified": true
       }
-    ]
+    ],
+    "logo_file": "/static/img/logos/snap-fitness.png"
   },
   {
     "slug": "jetts",
@@ -946,7 +950,8 @@
       "Fixed machines: Cable stations, lat pulldown, leg press, leg extension, leg curl, chest press, shoulder press, seated row",
       "Functional: Kettlebells, medicine balls, pull-up bars, dip bars at most locations",
       "Note: Equipment range varies by club size — visit your local Jetts before signing up if specific equipment matters to you"
-    ]
+    ],
+    "logo_file": "/static/img/logos/jetts.jpg"
   },
   {
     "slug": "ymca",
@@ -1136,7 +1141,8 @@
         "text": "Tried the free first week and was hooked immediately. The energy in a room of 20 people all pushing hard together is unlike anything at a regular gym.",
         "verified": true
       }
-    ]
+    ],
+    "logo_file": "/static/img/logos/f45.jpg"
   },
   {
     "slug": "classpass",
@@ -1364,7 +1370,8 @@
         "text": "First class free got me in the door and I've been going 4 times a week ever since. The coaches know your name from day one and the energy in the room is electric.",
         "verified": true
       }
-    ]
+    ],
+    "logo_file": "/static/img/logos/orangetheory.jpg"
   },
   {
     "slug": "contours",
@@ -1466,7 +1473,8 @@
         "text": "If you're nervous about going to a gym for the first time, start here. No judgment, no confusion about what to do — just a supportive group of women encouraging each other.",
         "verified": true
       }
-    ]
+    ],
+    "logo_file": "/static/img/logos/contours.jpg"
   },
   {
     "slug": "9round",
