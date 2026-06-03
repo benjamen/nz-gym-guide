@@ -1,0 +1,77 @@
+{
+  "title": "Dunedin's Cheapest Gyms",
+  "short_title": "Dunedin Gyms",
+  "meta_desc": "Discover the most affordable gym options in Dunedin, including no-contract alternatives and Exercise NZ subsidy details, to help you achieve your fitness goals without breaking the bank",
+  "intro": "Dunedin boasts a range of gym options catering to different budgets and preferences. The city's gym scene is particularly appealing to students, with the YMCA offering one of the best student gym deals in New Zealand. For those seeking affordability without long-term commitments, several no-contract options are available.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Most Affordable Options in Dunedin",
+      "body": "The YMCA stands out as the cheapest option, providing a cost-effective way to stay fit. Prices start from around $15 per week for a basic membership, although prices can vary depending on the time of year and membership type. Another affordable option is Snap Fitness, which occasionally offers promotions like 6 weeks free. Anytime Fitness is a good choice for those who prefer a no-contract arrangement, with 24/7 access to facilities.",
+      "list": [
+        "YMCA: from $15/week",
+        "Snap Fitness: 6 weeks free",
+        "Anytime Fitness: no-contract, 24/7 access"
+      ]
+    },
+    {
+      "heading": "No-Contract Alternatives",
+      "body": "For individuals who prefer the flexibility of not being locked into a long-term contract, Dunedin has several options. Anytime Fitness is a prominent choice, offering access to over 5,000 clubs worldwide with no lock-in contract. Les Mills also provides a Flexi Membership with no lock-in contract, although it might be pricier than some other options. The Exercise NZ subsidy programme can significantly reduce membership costs for eligible members, making these options even more affordable.",
+      "list": [
+        "Anytime Fitness: 24/7 access, no contract",
+        "Les Mills: Flexi Membership, no lock-in contract"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy",
+      "body": "The Exercise NZ subsidy programme offers the most significant discount available for gym memberships in Dunedin, with savings of 40-70% off regular membership prices for eligible members. This subsidy is particularly beneficial for those who are new to gym memberships or have been inactive for over 12 months. It's worth checking eligibility for this programme before committing to any gym membership.",
+      "list": [
+        "Savings: 40-70% off regular prices",
+        "Eligibility: new members or inactive for 12+ months"
+      ]
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "To make an informed decision, it's essential to compare the prices of different gyms in Dunedin. The table below outlines the current prices and promotions for major gym chains in the area.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price",
+          "Promotion"
+        ],
+        "rows": [
+          [
+            "YMCA",
+            "from $15/week",
+            "Sliding scale pricing"
+          ],
+          [
+            "Anytime Fitness",
+            "varies",
+            "24/7 access, no contract"
+          ],
+          [
+            "Les Mills",
+            "varies",
+            "Flexi Membership, no lock-in contract"
+          ],
+          [
+            "Snap Fitness",
+            "varies",
+            "6 weeks free"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "cheapest-gyms-dunedin-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-04",
+  "post_type": "budget_guide"
+}
