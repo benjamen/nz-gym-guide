@@ -1,0 +1,73 @@
+{
+  "title": "Cheapest Gyms Hamilton",
+  "short_title": "Hamilton Gym Deals",
+  "meta_desc": "Find the most affordable gym options in Hamilton, NZ. Compare prices, no-contract alternatives, and discover how to get 40-70% off with Exercise NZ subsidy.",
+  "intro": "Hamilton's gym scene has grown significantly, offering good value for money compared to main centres. City Fitness and Les Mills operate here, along with several boutique studios. We've rounded up the cheapest gym options in Hamilton, including no-contract alternatives and the Exercise NZ subsidy programme.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Most Affordable Options",
+      "body": "The most affordable gym option in Hamilton is City Fitness, with a month-to-month membership for $18.99/week. Other budget-friendly options include Jetts, with a no-contract membership and a current promotion of 15% off + 4 weeks free, and Snap Fitness, offering 6 weeks free. The Exercise NZ subsidy programme provides the biggest discount available, with 40-70% off for eligible members.",
+      "list": [
+        "City Fitness: $18.99/week (month-to-month)",
+        "Jetts: no-contract membership with 15% off + 4 weeks free",
+        "Snap Fitness: 6 weeks free"
+      ]
+    },
+    {
+      "heading": "No-Contract Alternatives",
+      "body": "For those who prefer flexibility, Jetts offers a no-contract membership. Les Mills also has a Flexi Membership with no lock-in contract. These options provide the freedom to cancel or change memberships without being tied to a long-term contract.",
+      "list": [
+        "Jetts: no-contract membership",
+        "Les Mills: Flexi Membership (no lock-in contract)"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy Programme",
+      "body": "The Exercise NZ subsidy programme is a great way to make gym memberships more affordable. With the subsidy, members can enjoy significant discounts on their gym membership, making it more accessible to those who may not have been able to afford it otherwise."
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "Here's a price comparison table of the major gym chains available in Hamilton:",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price (per week)",
+          "Contract Length"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$18.99",
+            "Month-to-month"
+          ],
+          [
+            "Jetts",
+            "varies",
+            "No contract"
+          ],
+          [
+            "Les Mills",
+            "varies",
+            "Flexi Membership (no lock-in contract)"
+          ],
+          [
+            "Snap Fitness",
+            "varies",
+            "Month-to-month"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "cheapest-gyms-hamilton-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-05",
+  "post_type": "budget_guide"
+}
