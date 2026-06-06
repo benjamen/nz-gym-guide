@@ -1,0 +1,59 @@
+{
+  "title": "Stick to the Gym",
+  "short_title": "Gym Habits",
+  "meta_desc": "Research-backed tips to help you stick to the gym, including habit formation, accountability, and tracking, with advice tailored to NZ gyms and gym-goers",
+  "intro": "Forming a gym habit can be tough, but with the right strategies, you can set yourself up for success. NZ research shows that accountability, tracking, and finding a workout time that suits you are key. In this guide, we'll explore how to make the gym a sustainable part of your routine. With many NZ gyms, including City Fitness and Les Mills, offering flexible membership options, there's never been a better time to get started.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Habit Formation",
+      "body": "The first step to sticking to the gym is to form a habit. This means creating a routine that you can realistically stick to, even on days when you don't feel like it. NZ research suggests that it takes around 66 days to form a new habit, so it's essential to be consistent. Try to schedule your gym sessions at the same time each day or week, so it becomes a non-negotiable part of your routine. Many NZ gyms, such as Jetts and Anytime Fitness, offer 24/7 access, making it easier to find a time that suits you.",
+      "list": [
+        "Schedule your gym sessions in your calendar",
+        "Start with small, achievable goals (e.g., 2-3 times per week)",
+        "Find a workout routine that you enjoy"
+      ]
+    },
+    {
+      "heading": "Accountability",
+      "body": "Having someone to hold you accountable can be a powerful motivator. This could be a friend, family member, or personal trainer. Many NZ gyms offer group fitness classes, which can be a great way to meet new people and find workout buddies. City Fitness, for example, offers a range of group classes, including spin and yoga. You can also join online fitness communities or find a workout buddy through social media.",
+      "list": [
+        "Find a workout buddy or accountability partner",
+        "Join a group fitness class or online community",
+        "Share your fitness goals with a friend or family member"
+      ]
+    },
+    {
+      "heading": "Tracking Progress",
+      "body": "Tracking your progress is essential to staying motivated. This could be as simple as taking progress photos, measuring your weight or body fat percentage, or using a fitness tracker to monitor your workouts. Many NZ gyms offer free fitness assessments and tracking tools, such as Les Mills' group fitness classes, which include tracking and monitoring as part of the programme. You can also use apps like MyFitnessPal or Strava to track your workouts and nutrition.",
+      "list": [
+        "Use a fitness tracker or app to monitor your workouts",
+        "Take progress photos or measurements",
+        "Set realistic goals and track your progress"
+      ]
+    },
+    {
+      "heading": "When to Go: Morning vs Evening",
+      "body": "The best time to go to the gym depends on your personal preferences and schedule. Some people prefer to go in the morning, as it helps them feel more alert and energized throughout the day. Others prefer to go in the evening, as it helps them unwind after work. NZ gyms, such as Anytime Fitness, are often busiest during peak hours (5-7 pm), so it's worth considering going at off-peak times if you prefer a quieter gym.",
+      "list": [
+        "Experiment with different times to find what works best for you",
+        "Consider going during off-peak hours for a quieter gym",
+        "Schedule your gym sessions around your work and personal commitments"
+      ]
+    },
+    {
+      "heading": "Get Started with a Supported Gym Programme",
+      "body": "Many NZ gyms offer supported programmes, such as Exercise NZ's subsidised gym scheme, which can help you get started with your fitness journey. This scheme offers 40-70% off gym memberships for eligible participants. You can also check out our gym comparison tool to find a gym that suits your needs and budget.",
+      "cta": {
+        "text": "Compare gyms and find a supported programme",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "staying-motivated-gym-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-07",
+  "post_type": "exercise_tips"
+}

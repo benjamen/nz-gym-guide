@@ -1,0 +1,58 @@
+{
+  "title": "Hydration & Exercise",
+  "short_title": "Stay Hydrated",
+  "meta_desc": "Discover how much water you need during exercise in NZ's climate, signs of dehydration, and what gyms offer. Get hydrated and boost your fitness with our expert advice.",
+  "intro": "Staying hydrated is crucial for exercise, especially in New Zealand's climate. With our hot summers and high levels of UV radiation, it's easy to become dehydrated. According to the New Zealand Health Organisation, dehydration can lead to decreased athletic performance and increased risk of heat-related illnesses. In this article, we'll explore how much water you really need, signs of dehydration, and what's on offer at NZ gym water stations.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Understanding NZ Climate Considerations",
+      "body": "New Zealand's climate can be quite varied, with hot summers and mild winters. However, this variation can make it challenging to stay hydrated, especially when exercising outdoors. Research suggests that athletes exercising in hot and humid environments need to drink more water to replace lost fluids. Additionally, NZ's high UV radiation levels can lead to increased fluid loss through sweating. To stay hydrated, it's essential to drink water regularly, especially during and after exercise.",
+      "list": [
+        "Drink water regularly throughout the day",
+        "Monitor urine colour to ensure it's pale yellow",
+        "Avoid exercising during peak sun hours"
+      ]
+    },
+    {
+      "heading": "Signs of Dehydration",
+      "body": "Dehydration can be a serious issue, especially during exercise. Signs of dehydration include dark yellow or brown urine, dizziness, headaches, and fatigue. If left untreated, dehydration can lead to heat-related illnesses, such as heat exhaustion or heat stroke. According to the NZ Health Organisation, heat-related illnesses are a significant concern for athletes and individuals who work outdoors. To avoid dehydration, it's crucial to drink enough water and monitor your body's signs of dehydration.",
+      "list": [
+        "Dark yellow or brown urine",
+        "Dizziness or lightheadedness",
+        "Headaches or fatigue"
+      ]
+    },
+    {
+      "heading": "Electrolytes and Hydration",
+      "body": "Electrolytes, such as sodium and potassium, play a crucial role in maintaining proper hydration levels. When we sweat, we lose electrolytes, which can disrupt our body's balance. Research suggests that consuming electrolyte-rich drinks or foods can help replenish lost electrolytes and maintain hydration levels. Many NZ gyms offer electrolyte-rich drinks at their water stations, making it easier to stay hydrated during and after exercise.",
+      "list": [
+        "Consume electrolyte-rich drinks or foods",
+        "Monitor electrolyte levels, especially during intense exercise"
+      ]
+    },
+    {
+      "heading": "NZ Gym Water Stations vs Bringing Your Own",
+      "body": "Many NZ gyms offer water stations with filtered water and electrolyte-rich drinks. However, some gyms may not offer these amenities, or you may prefer to bring your own water bottle. Bringing your own water bottle can be a cost-effective and environmentally friendly option. Additionally, Exercise NZ's subsidised gym scheme can help make gym memberships more affordable, with discounts of 40-70% off. With a gym membership, you can access a range of amenities, including water stations, and stay hydrated during and after exercise.",
+      "list": [
+        "Check with your gym to see what water stations they offer",
+        "Consider bringing your own water bottle",
+        "Look into Exercise NZ's subsidised gym scheme for discounts"
+      ]
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "Staying hydrated is essential for exercise, especially in New Zealand's climate. By understanding the signs of dehydration, consuming electrolyte-rich drinks, and accessing NZ gym water stations, you can stay hydrated and boost your fitness. To learn more about NZ gyms and their amenities, take our quiz or compare gyms today.",
+      "cta": {
+        "text": "Take our quiz or compare gyms",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "hydration-exercise-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-07",
+  "post_type": "health_info"
+}
