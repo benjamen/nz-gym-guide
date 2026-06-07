@@ -1,0 +1,69 @@
+{
+  "title": "Tauranga Gym Savings",
+  "short_title": "Gym Discounts",
+  "meta_desc": "Get 40-70% off your gym membership in Tauranga with Exercise NZ's subsidised gym scheme, available at select gyms like City Fitness and Les Mills.",
+  "intro": "Tauranga's fitness enthusiasts can now save big on their gym memberships thanks to Exercise NZ's subsidised gym scheme. This programme offers discounts of 40-70% off regular prices at participating gyms. To learn more, visit exercise.org.nz.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is the Exercise NZ Subsidised Gym Scheme?",
+      "body": "The Exercise NZ subsidised gym scheme is a programme designed to make gym memberships more affordable for New Zealanders. By partnering with various gyms across the country, Exercise NZ aims to increase physical activity and promote a healthier lifestyle. The scheme is available to individuals who meet certain eligibility criteria, which can be found on the Exercise NZ website at exercise.org.nz."
+    },
+    {
+      "heading": "Who is Eligible for the Scheme?",
+      "body": "To be eligible for the Exercise NZ subsidised gym scheme, you must meet specific requirements. These may include being a New Zealand resident, meeting certain income thresholds, or belonging to a specific demographic group. For the most up-to-date information on eligibility, please visit exercise.org.nz.",
+      "list": [
+        "New Zealand resident",
+        "Meet income thresholds",
+        "Belong to a specific demographic group"
+      ]
+    },
+    {
+      "heading": "How to Claim Your Discount",
+      "body": "Here's a step-by-step guide: check eligibility on exercise.org.nz, find a participating gym, sign up for the scheme, and start saving on your gym membership.",
+      "list": [
+        "Visit exercise.org.nz to check eligibility",
+        "Find a participating gym in Tauranga",
+        "Sign up for the scheme",
+        "Start saving on your gym membership"
+      ]
+    },
+    {
+      "heading": "Participating Gyms in Tauranga and Potential Savings",
+      "body": "Several gyms in Tauranga participate in the Exercise NZ subsidised gym scheme, including City Fitness and Les Mills. By joining one of these gyms through the scheme, you could save between 40-70% off the regular membership price. For example, if a gym membership normally costs $50 per week, you could pay as little as $15-$30 per week with the subsidy.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Regular Price",
+          "Subsidised Price"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$50/week",
+            "$15-$30/week"
+          ],
+          [
+            "Les Mills",
+            "$60/week",
+            "$18-$36/week"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Getting Started",
+      "body": "To get started with the Exercise NZ subsidised gym scheme and begin saving on your gym membership, visit exercise.org.nz. There, you can find all the information you need to check your eligibility, find participating gyms in Tauranga, and sign up for the scheme.",
+      "cta": {
+        "text": "Visit exercise.org.nz to learn more and sign up",
+        "url": "https://exercise.org.nz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-nz-subsidy-tauranga-2026",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-08",
+  "post_type": "exercise_nz"
+}
