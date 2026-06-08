@@ -1,0 +1,56 @@
+{
+  "title": "Gym Deals for NZ Students",
+  "short_title": "Student Gym Deals",
+  "meta_desc": "Discover affordable gym membership options for NZ students, including discounts and subsidies to help you stay active and healthy.",
+  "intro": "Regular exercise is essential for both physical and mental wellbeing, yet many NZ students struggle to afford gym memberships. Fortunately, several major NZ gym chains, university recreation centres, and organisations offer discounted rates and subsidies to students. According to the Ministry of Health, regular physical activity can help reduce the risk of chronic diseases, such as diabetes and heart disease, which affect around 1 in 5 New Zealanders.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Student Discounts at Major NZ Gym Chains",
+      "body": "Many major NZ gym chains offer discounted membership rates for students. For example, Les Mills and Jetts offer student discounts with prices starting from around $15-$20 per week. These discounts can provide students with access to a range of fitness equipment, group classes, and personal training sessions. Research has shown that exercising with others can enhance motivation and overall fitness outcomes, making gym memberships a great option for students looking to stay active and social.",
+      "list": [
+        "Les Mills: $15-$20 per week",
+        "Jetts: $15-$20 per week"
+      ]
+    },
+    {
+      "heading": "University Recreation Centres and Exercise NZ Subsidy",
+      "body": "University recreation centres often provide affordable membership options for students, with prices starting from around $10-$15 per week. Additionally, Exercise NZ offers a subsidised gym membership scheme, which can provide students with discounts of up to 70% off regular membership prices. This subsidy programme is available to students who meet certain eligibility criteria, such as receiving a student allowance or being a low-income earner. By taking advantage of these options, students can stay active and healthy without breaking the bank.",
+      "list": [
+        "University recreation centres: $10-$15 per week",
+        "Exercise NZ subsidy: up to 70% off regular membership prices"
+      ]
+    },
+    {
+      "heading": "ClassPass Student Rate and Other Options",
+      "body": "ClassPass, a fitness class booking platform, offers a discounted student rate, starting from around $10 per class. This can be a great option for students who prefer to try out different classes and workouts without committing to a full gym membership. Other options, such as outdoor fitness groups and community centres, can also provide affordable and social ways for students to stay active and engaged in physical activity.",
+      "list": [
+        "ClassPass student rate: $10 per class",
+        "Outdoor fitness groups and community centres: prices vary"
+      ]
+    },
+    {
+      "heading": "Taking the First Step",
+      "body": "With so many affordable gym membership options available, there's never been a better time for NZ students to get active and healthy. By taking advantage of student discounts, subsidies, and other affordable fitness options, students can improve their physical and mental wellbeing, enhance their academic performance, and set themselves up for a lifetime of healthy habits. To find the best gym membership option for your needs and budget, start by comparing prices and facilities at different gyms, and don't hesitate to reach out to Exercise NZ or your university recreation centre for more information on subsidised membership schemes.",
+      "cta": {
+        "text": "Compare gym memberships and find the best deal for you",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Get Started with Your Fitness Journey",
+      "body": "Don't let cost hold you back from achieving your fitness goals. With the right gym membership and a bit of motivation, you can stay active, healthy, and happy throughout your student years and beyond. Take the first step today by comparing gym memberships, exploring subsidised options, and finding a fitness routine that works for you.",
+      "cta": {
+        "text": "Take our quiz to find your perfect gym match",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "student-gym-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-09",
+  "post_type": "health_info"
+}
