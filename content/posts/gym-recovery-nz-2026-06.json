@@ -1,0 +1,59 @@
+{
+  "title": "Gym Recovery Guide",
+  "short_title": "Recovery",
+  "meta_desc": "Learn how rest days and active recovery techniques like sauna, pool, and yoga can boost your fitness. Discover the science behind muscle repair and DOMS, and find NZ gyms that support recovery training.",
+  "intro": "When it comes to getting fitter, many of us focus on the exercise itself, but recovery is just as important. In fact, rest days are crucial for muscle repair and growth. In this guide, we'll explore the science behind recovery, and provide practical tips on how to incorporate active recovery techniques into your routine. Whether you're a beginner or a seasoned gym-goer, learning how to recover effectively can take your fitness to the next level.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "The Science of Muscle Repair",
+      "body": "When you exercise, you cause micro-tears in your muscles. This damage triggers an immune response, which leads to inflammation and soreness, known as delayed onset muscle soreness (DOMS). However, as your body repairs these tears, your muscles become stronger and more resilient. This process is facilitated by rest and recovery. Adequate sleep, nutrition, and hydration are essential for muscle repair, as they provide the necessary building blocks for growth and repair.",
+      "list": [
+        "Get 7-9 hours of sleep per night",
+        "Eat a balanced diet that includes protein, complex carbohydrates, and healthy fats",
+        "Stay hydrated by drinking plenty of water"
+      ]
+    },
+    {
+      "heading": "Active Recovery Techniques",
+      "body": "While rest is important, active recovery techniques can also be beneficial. These techniques can help reduce muscle soreness, improve circulation, and promote relaxation. Many NZ gyms offer facilities that are perfect for active recovery, such as saunas, pools, and yoga studios. For example, City Fitness and Les Mills offer yoga classes, while Jetts and Anytime Fitness have saunas and pools.",
+      "list": [
+        "Try yoga or Pilates to improve flexibility and reduce muscle tension",
+        "Use the sauna or steam room to relax and reduce inflammation",
+        "Go for a gentle swim or water-based workout to promote circulation"
+      ]
+    },
+    {
+      "heading": "NZ Gyms that Support Recovery Training",
+      "body": "Some NZ gyms are more supportive of recovery training than others. Look for gyms that offer facilities like saunas, pools, and yoga studios, as well as classes and workshops focused on recovery and relaxation. Exercise NZ's subsidised gym scheme can also help make recovery training more affordable, with discounts of 40-70% off gym memberships.",
+      "list": [
+        "City Fitness: offers yoga classes and has saunas and pools at many locations",
+        "Les Mills: offers yoga and Pilates classes, as well as access to saunas and pools",
+        "Jetts: has saunas and pools at many locations, and offers a range of group fitness classes"
+      ]
+    },
+    {
+      "heading": "Putting it all Together",
+      "body": "Incorporating recovery techniques into your routine can be simple. Start by scheduling rest days into your training programme, and try out active recovery techniques like yoga or sauna use. Don't forget to prioritize sleep, nutrition, and hydration, as these are essential for muscle repair and growth. By taking a holistic approach to fitness, you can improve your overall health and wellbeing, and achieve your fitness goals.",
+      "cta": {
+        "text": "Compare NZ gyms and find one that supports your recovery training",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Get Started with Recovery Training",
+      "body": "Ready to start prioritizing recovery in your fitness routine? Take our quiz to find out which NZ gym is best for you, and start achieving your fitness goals today.",
+      "cta": {
+        "text": "Take the quiz and find your perfect gym match",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "gym-recovery-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-10",
+  "post_type": "exercise_tips"
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Exercise NZ Gym Savings",
+  "short_title": "Gym Savings",
+  "meta_desc": "Get 40-70% off your gym membership in Wellington with Exercise NZ's subsidised gym scheme, available to eligible individuals and organisations, visit exercise.org.nz",
+  "intro": "Wellington residents can save on gym memberships through Exercise NZ's subsidised gym scheme. This programme offers discounts to eligible individuals and organisations. To learn more, visit exercise.org.nz",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is the Exercise NZ Subsidised Gym Scheme?",
+      "body": "The Exercise NZ subsidised gym scheme is a programme that provides discounted gym memberships to eligible individuals and organisations. The scheme aims to increase physical activity and improve the health and wellbeing of New Zealanders. With discounts ranging from 40-70% off regular gym membership prices, it's an attractive option for those looking to get fit without breaking the bank.",
+      "list": [
+        "Eligible individuals include students, seniors, and community service card holders",
+        "Eligible organisations include non-profit groups, charities, and healthcare providers"
+      ]
+    },
+    {
+      "heading": "How to Claim Your Discount",
+      "body": "To claim your discount, follow these steps: check your eligibility on the Exercise NZ website, choose a participating gym in Wellington, and register for the subsidised gym scheme on exercise.org.nz. You will need to provide proof of eligibility and pay the discounted membership fee.",
+      "list": [
+        "Check eligibility on exercise.org.nz",
+        "Choose a participating gym in Wellington",
+        "Register for the subsidised gym scheme"
+      ]
+    },
+    {
+      "heading": "Participating Gyms in Wellington",
+      "body": "Several gyms in Wellington participate in the Exercise NZ subsidised gym scheme, including City Fitness, Les Mills, and Jetts. You can find a full list of participating gyms on the Exercise NZ website.",
+      "list": [
+        "City Fitness",
+        "Les Mills",
+        "Jetts"
+      ]
+    },
+    {
+      "heading": "How Much You Could Save",
+      "body": "The amount you could save with the Exercise NZ subsidised gym scheme varies depending on the gym and membership type. However, with discounts ranging from 40-70% off regular prices, you could save hundreds of dollars per year. For example, a membership that normally costs $100 per month could be reduced to $30-60 per month.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Regular Price",
+          "Discounted Price"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$100/month",
+            "$30-60/month"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Visit exercise.org.nz to learn more and register",
+        "url": "https://exercise.org.nz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-nz-subsidy-wellington-2026",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-10",
+  "post_type": "exercise_nz"
+}

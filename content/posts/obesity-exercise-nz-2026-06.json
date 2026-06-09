@@ -1,0 +1,59 @@
+{
+  "title": "Exercise for Weight Management",
+  "short_title": "Weight Management",
+  "meta_desc": "New Zealand obesity rates are high, learn how exercise and calorie deficit can help with weight management, including gym formats that burn the most calories.",
+  "intro": "New Zealand has one of the highest obesity rates among OECD countries, with approximately 30% of adults being obese. Exercise plays a crucial role in weight management, but it's essential to understand how it works in conjunction with a calorie deficit. In this article, we'll explore the most effective ways to manage weight through exercise and provide practical steps to get you started.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Understanding Weight Management",
+      "body": "To manage weight effectively, it's essential to create a calorie deficit, which means burning more calories than you consume. Exercise is a crucial component of this process, as it not only burns calories during physical activity but also builds muscle mass, which can further increase metabolism. However, relying solely on exercise for weight loss can be unrealistic, as it's often difficult to burn enough calories through physical activity alone to achieve significant weight loss.",
+      "list": [
+        "Create a calorie deficit through a combination of diet and exercise",
+        "Incorporate both cardio and strength training exercises",
+        "Aim for at least 150 minutes of moderate-intensity exercise per week"
+      ]
+    },
+    {
+      "heading": "Gym Formats that Burn the Most Calories",
+      "body": "Certain gym formats are more effective at burning calories than others. High-Intensity Interval Training (HIIT) and strength training are particularly effective, as they not only burn calories during exercise but also increase excess post-exercise oxygen consumption (EPOC), which can lead to increased calorie burn after exercise. Group fitness classes, such as spin classes and boot camps, can also be effective, as they often incorporate HIIT principles and provide a motivating environment.",
+      "list": [
+        "HIIT: 400-600 calories per 30-minute session",
+        "Strength training: 200-400 calories per 30-minute session",
+        "Group fitness classes: 300-500 calories per 30-minute session"
+      ]
+    },
+    {
+      "heading": "Realistic Expectations and Support",
+      "body": "It's essential to have realistic expectations when it comes to weight management through exercise. Aiming to lose 0.5-1 kg per week is a sustainable and achievable goal. Additionally, having a support system in place can make a significant difference. Exercise NZ's subsidised gym scheme, which offers 40-70% off gym memberships, can provide an affordable and motivating environment to achieve your weight management goals.",
+      "cta": {
+        "text": "Find out if you're eligible for Exercise NZ's subsidised gym scheme",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Getting Started with a Gym Membership",
+      "body": "A gym membership can provide access to a variety of equipment, classes, and personal training options, making it easier to incorporate exercise into your routine. With many gyms offering flexible membership options and affordable prices, it's never been easier to get started. Exercise NZ's subsidised gym scheme can also help make gym memberships more affordable.",
+      "list": [
+        "Research local gyms and their membership options",
+        "Consider group fitness classes or personal training sessions",
+        "Take advantage of Exercise NZ's subsidised gym scheme"
+      ]
+    },
+    {
+      "heading": "Next Steps",
+      "body": "Now that you have a better understanding of how exercise can contribute to weight management, it's time to take action. Whether you're looking to join a gym or start exercising at home, having a clear plan and support system in place can make all the difference.",
+      "cta": {
+        "text": "Take our quiz to find the best gym for your needs or compare gym prices and options",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "obesity-exercise-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-10",
+  "post_type": "health_info"
+}
