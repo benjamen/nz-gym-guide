@@ -1,0 +1,40 @@
+{
+  "title": "Auckland Gym Savings",
+  "short_title": "Gym Savings",
+  "meta_desc": "Get 40-70% off your Auckland gym membership with Exercise NZ's subsidised gym scheme. Learn how to claim and save with participating gyms.",
+  "intro": "Auckland has numerous gyms to choose from, but membership costs can be steep. Fortunately, Exercise NZ offers a subsidised gym scheme, providing 40-70% off membership fees for eligible individuals. Visit exercise.org.nz to learn more about this programme.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is the Exercise NZ Subsidised Gym Scheme?",
+      "body": "The Exercise NZ subsidised gym scheme is a programme designed to make gym memberships more affordable for New Zealanders. The scheme offers discounted membership rates to eligible individuals, with savings ranging from 40-70% off regular prices. This initiative aims to promote regular exercise and a healthier lifestyle among Kiwis."
+    },
+    {
+      "heading": "Who is Eligible for the Subsidised Gym Scheme?",
+      "body": "The subsidised gym scheme is available to individuals who meet specific criteria, such as community service card holders, students, and seniors. To check your eligibility, visit the Exercise NZ website at exercise.org.nz and review the programme's terms and conditions.",
+      "list": [
+        "Community service card holders",
+        "Students",
+        "Seniors"
+      ]
+    },
+    {
+      "heading": "How to Claim Your Subsidised Gym Membership",
+      "body": "Some participating gyms in Auckland include City Fitness, Les Mills, and Jetts. Visit exercise.org.nz to view the full list of participating gyms and to learn more about the subsidised gym scheme."
+    },
+    {
+      "heading": "How Much Can You Save with the Subsidised Gym Scheme?",
+      "body": "The amount you can save with the subsidised gym scheme varies depending on the gym and membership type. However, with savings of 40-70% off regular prices, you can significantly reduce your gym membership costs. For example, a membership that normally costs $100 per month could be discounted to $30-60 per month with the subsidised gym scheme.",
+      "cta": {
+        "text": "Visit Exercise NZ to Learn More",
+        "url": "https://exercise.org.nz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-nz-subsidy-auckland-2026",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-11",
+  "post_type": "exercise_nz"
+}
