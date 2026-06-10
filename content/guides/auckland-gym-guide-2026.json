@@ -2,22 +2,14 @@
   "slug": "auckland-gym-guide-2026",
   "short_title": "Auckland Gyms",
   "title": "Best Gyms in Auckland 2026 — City-by-City Guide with Prices",
-  "meta_desc": "Compare Auckland gym prices and find the best gym membership for your fitness needs in 2026",
-  "intro": "Auckland has numerous gym options across its suburbs, with prices ranging from $10 to $50 per week. From CBD gyms to commuter-friendly options, we've got you covered. In this guide, we'll explore the best gyms in Auckland, including their prices, contract terms, and amenities.",
+  "meta_desc": "Find the best gyms in Auckland with our city-by-city guide. Compare prices and contract terms",
+  "intro": "Auckland's gym scene is thriving, with numerous options to suit every fitness enthusiast. From commuter gyms to CBD-based clubs, we've got you covered. In this guide, we'll explore the best gyms in Auckland, including their prices and contract terms.",
   "updated": "June 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Auckland CBD Gyms",
-      "body": "The Auckland CBD has a high concentration of gyms, including Snap Fitness, Anytime Fitness, and City Fitness. These gyms offer a range of equipment, group classes, and personal training services."
-    },
-    {
-      "heading": "Commuter Gyms in Auckland",
-      "list": [
-        "Jetts Fitness in Newmarket ($14.95/week, no contract)",
-        "F45 Training in Ponsonby ($45/week, 3-month contract)",
-        "Les Mills in Auckland CBD ($29.95/week, 12-month contract)"
-      ]
+      "heading": "Auckland Gym Options by Suburb",
+      "body": "Auckland is a vast city, and its suburbs offer a wide range of gym options. Some popular suburbs for gyms include the CBD, Ponsonby, and Newmarket. Each suburb has its unique character, and the gyms reflect this. For example, the CBD is home to several high-end gyms, while Ponsonby has a more boutique feel."
     },
     {
       "heading": "Price Comparison of Auckland Gyms",
@@ -25,62 +17,69 @@
         "headers": [
           "Gym",
           "Weekly Price",
+          "Monthly Price",
           "Contract Term"
         ],
         "rows": [
           [
-            "Snap Fitness",
-            "$15.95",
-            "No contract"
-          ],
-          [
             "Anytime Fitness",
+            "$21.95",
+            "$89.95",
+            "12 months"
+          ],
+          [
+            "CityFitness",
             "$19.95",
-            "12-month contract"
+            "$79.95",
+            "6 months"
           ],
           [
-            "Jetts Fitness",
+            "Jetts",
             "$14.95",
+            "$59.95",
             "No contract"
-          ],
-          [
-            "F45 Training",
-            "$45",
-            "3-month contract"
           ],
           [
             "Les Mills",
             "$29.95",
-            "12-month contract"
+            "$129.95",
+            "12 months"
           ]
         ]
       }
     },
     {
-      "heading": "Gyms in North Auckland",
-      "body": "North Auckland has several gym options, including Fitness First in Albany and Jetts Fitness in Takapuna. These gyms offer a range of equipment, group classes, and personal training services, with prices starting from $14.95 per week."
-    },
-    {
-      "heading": "Gyms in South Auckland",
-      "list": [
-        "Fitness First in Manukau ($24.95/week, 12-month contract)",
-        "Jetts Fitness in Papakura ($14.95/week, no contract)",
-        "Anytime Fitness in Otahuhu ($19.95/week, 12-month contract)"
-      ]
-    },
-    {
-      "heading": "Get the Best Gym Membership for Your Needs",
+      "heading": "Commuter Gyms in Auckland",
+      "body": "For those who want to squeeze in a workout during their daily commute, there are several gym options in Auckland that cater to this need. Gyms like CityFitness and Anytime Fitness have multiple locations throughout the city, making it easy to find one near your workplace or on your route home.",
       "cta": {
-        "text": "Compare Auckland gyms and find the best membership for you",
-        "url": "/compare/",
+        "text": "Compare commuter gym prices",
+        "url": "/compare/commuter-gyms",
         "affiliate": false
       }
     },
     {
-      "heading": "Read Our In-Depth Gym Reviews",
+      "heading": "CBD Gym Options",
+      "list": [
+        "Les Mills Auckland City: $29.95/week, 12-month contract",
+        "CityFitness Auckland CBD: $19.95/week, 6-month contract",
+        "Anytime Fitness Auckland CBD: $21.95/week, 12-month contract"
+      ]
+    },
+    {
+      "heading": "Parking and Accessibility",
+      "body": "Parking can be a challenge in Auckland, especially in the CBD. However, many gyms offer convenient parking options for their members. For example, Les Mills Auckland City has a dedicated car park, while CityFitness Auckland CBD offers discounted parking rates at a nearby car park.",
       "cta": {
-        "text": "Read our review of Les Mills Auckland",
-        "url": "/gym/les-mills-auckland",
+        "text": "Learn more about Les Mills Auckland City",
+        "url": "/gym/les-mills-auckland-city",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion",
+      "body": "Finding the right gym in Auckland can be overwhelming, but with this guide, you're one step closer to making an informed decision. Remember to consider factors like price, contract term, and location when choosing a gym. And don't forget to compare prices and contract terms before signing up.",
+      "cta": {
+        "text": "Compare Auckland gym prices now",
+        "url": "/compare/auckland-gyms",
         "affiliate": false
       }
     }
