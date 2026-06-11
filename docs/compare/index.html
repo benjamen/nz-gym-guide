@@ -235,6 +235,7 @@
       <a href="/" class="nav-logo">🏋️ NZ Gym Guide</a>
       <div class="nav-links">
         <a href="/compare/">Compare</a>
+        <a href="/free-gym-trial/">Free Trials</a>
         <a href="/quiz/">Find My Gym ✨</a>
         <a href="/gym/auckland/">Auckland</a>
         <a href="/gym/wellington/">Wellington</a>
@@ -248,6 +249,7 @@
     </div>
     <div class="nav-mobile" id="navMobile">
       <a href="/compare/">Compare All Gyms</a>
+      <a href="/free-gym-trial/">Free Gym Trials NZ</a>
       <a href="/gym/auckland/">Auckland Gyms</a>
       <a href="/gym/wellington/">Wellington Gyms</a>
       <a href="/gym/christchurch/">Christchurch Gyms</a>
@@ -292,8 +294,21 @@
 <section class="section">
   <p class="section-intro">All prices are weekly equivalents and indicative — always confirm with your local club before signing. Franchise pricing can vary by location.</p>
 
+  <div class="amenity-filters" id="amenityFilters">
+    <span class="amenity-filters-label">Filter by amenity:</span>
+    <label><input type="checkbox" data-feat="pool"> Has pool</label>
+    <label><input type="checkbox" data-feat="sauna"> Has sauna</label>
+    <label><input type="checkbox" data-feat="crèche"> Has crèche</label>
+    <label><input type="checkbox" data-feat="parking"> Has parking</label>
+    <label><input type="checkbox" data-feat="free_weights"> Free weights</label>
+    <label><input type="checkbox" data-feat="open_247"> 24/7 access</label>
+    <label><input type="checkbox" data-feat="no_contract"> No contract</label>
+    <button type="button" class="btn btn-sm btn-outline" id="amenityClear">Clear</button>
+    <span class="amenity-count" id="amenityCount"></span>
+  </div>
+
   <div class="table-wrap">
-    <table class="compare-table compare-table-full">
+    <table class="compare-table compare-table-full" id="compareTable">
       <thead>
         <tr>
           <th>Gym</th>
@@ -315,7 +330,14 @@
       </thead>
       <tbody>
         
-        <tr class="affiliate-row">
+        <tr class="affiliate-row"
+            data-pool="1"
+            data-sauna="1"
+            data-creche="1"
+            data-parking="1"
+            data-free_weights="1"
+            data-open_247="0"
+            data-no_contract="0">
           <td class="gym-name-cell">
             <a href="/gym/les-mills/">Les Mills</a>
             <span class="gym-type type-premium">Premium</span>
@@ -347,7 +369,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="1"
+            data-free_weights="1"
+            data-open_247="1"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/city-fitness/">City Fitness</a>
             <span class="gym-type type-budget">Budget</span>
@@ -379,7 +408,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="1"
+            data-free_weights="1"
+            data-open_247="1"
+            data-no_contract="0">
           <td class="gym-name-cell">
             <a href="/gym/anytime-fitness/">Anytime Fitness</a>
             <span class="gym-type type-mid-range">Mid-range</span>
@@ -411,7 +447,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="1"
+            data-free_weights="1"
+            data-open_247="1"
+            data-no_contract="0">
           <td class="gym-name-cell">
             <a href="/gym/snap-fitness/">Snap Fitness</a>
             <span class="gym-type type-mid-range">Mid-range</span>
@@ -443,7 +486,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="1"
+            data-free_weights="1"
+            data-open_247="1"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/jetts/">Jetts</a>
             <span class="gym-type type-budget">Budget</span>
@@ -475,7 +525,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="1"
+            data-sauna="0"
+            data-creche="1"
+            data-parking="1"
+            data-free_weights="1"
+            data-open_247="0"
+            data-no_contract="0">
           <td class="gym-name-cell">
             <a href="/gym/ymca/">YMCA</a>
             <span class="gym-type type-community">Community</span>
@@ -507,7 +564,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/f45/">F45 Training</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -539,7 +603,14 @@
           </td>
         </tr>
         
-        <tr class="affiliate-row">
+        <tr class="affiliate-row"
+            data-pool="1"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="1"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/classpass/">ClassPass</a>
             <span class="gym-type type-multi-studio">Multi-studio</span>
@@ -571,7 +642,14 @@
           </td>
         </tr>
         
-        <tr class="affiliate-row">
+        <tr class="affiliate-row"
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="1"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/orangetheory/">Orangetheory Fitness</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -603,7 +681,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="1"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/contours/">Contours Women's Gym</a>
             <span class="gym-type type-community">Community</span>
@@ -635,7 +720,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/9round/">9Round</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -667,7 +759,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="1"
+            data-open_247="1"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/social-project/">Social Project</a>
             <span class="gym-type type-premium">Premium</span>
@@ -699,7 +798,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="1"
+            data-free_weights="1"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/studio41/">Studio41</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -731,7 +837,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="1"
+            data-free_weights="1"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/prjct-crossfit/">PRJCT CrossFit</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -763,7 +876,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="1"
+            data-free_weights="1"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/crossfit-central-wellington/">CrossFit Central Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -795,7 +915,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/hot-yoga-wellington/">Hot Yoga Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -827,7 +954,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/awhi-yoga-wellington/">AWHI Yoga & Wellbeing</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -859,7 +993,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/te-aro-astanga-yoga/">Te Aro Astanga Yoga</a>
             <span class="gym-type type-community">Community</span>
@@ -891,7 +1032,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/iyengar-yoga-wellington/">Iyengar Yoga Centre Wellington</a>
             <span class="gym-type type-community">Community</span>
@@ -923,7 +1071,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/yoga-for-the-people-wellington/">Yoga for the People</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -955,7 +1110,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/arc-movement-studios/">Arc Movement Studios</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -987,7 +1149,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/reform-fitness-wellington/">Reform Fitness Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1019,7 +1188,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/soul-pilates-wellington/">Soul Pilates Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1051,7 +1227,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/club-pilates-wellington/">Club Pilates Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1083,7 +1266,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/physique-studio-karori/">Physique Studio</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1115,7 +1305,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/instinct-fitness-wellington/">Instinct Fitness (Thorndon CrossFit)</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1147,7 +1344,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/urban-fitness-wellington/">Urban Fitness Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1179,7 +1383,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/swet-wellington/">SWET Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1211,7 +1422,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="1"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/mti-wellington/">MTI Wellington — Muay Thai Institute</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1243,7 +1461,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/mma-wellington/">MMA Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1275,7 +1500,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="1"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/mai-dojo-wellington/">MAI Dojo Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1307,7 +1539,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/wellington-boxing-gym/">Wellington Boxing Gym</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1339,7 +1578,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="1"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/wrac-wellington/">Wellington Regional Aquatic Centre (WRAC)</a>
             <span class="gym-type type-community">Community</span>
@@ -1371,7 +1617,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="1"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/freyberg-pool-wellington/">Freyberg Pool & Fitness Centre</a>
             <span class="gym-type type-community">Community</span>
@@ -1403,7 +1656,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="1"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/247-fitness-wellington/">24/7 Fitness</a>
             <span class="gym-type type-budget">Budget</span>
@@ -1435,7 +1695,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/float-well-wellington/">Float Well</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1467,7 +1734,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/recovery-hub-lower-hutt/">Recovery Hub</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1499,7 +1773,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/run-poneke-wellington/">Run Pōneke</a>
             <span class="gym-type type-community">Community</span>
@@ -1531,7 +1812,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/eddy-wellington/">EDDY Barre Studio</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1563,7 +1851,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/wellyfit-wellington/">WellyFit</a>
             <span class="gym-type type-community">Community</span>
@@ -1595,7 +1890,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/o-studio-wellington/">O-Studio Wellington</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1627,7 +1929,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/studio-red-auckland/">Studio Red Auckland</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1659,7 +1968,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/eastwest-yoga-auckland/">Eastwest Yoga</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1691,7 +2007,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/sweat-yoga-auckland/">Sweat Yoga Auckland</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1723,7 +2046,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/sala-studio-auckland/">Sala Studio</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1755,7 +2085,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/reform-fitness-auckland/">Reform Fitness Auckland</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1787,7 +2124,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/crossfit-akl/">CrossFit AKL</a>
             <span class="gym-type type-crossfit">CrossFit</span>
@@ -1819,7 +2163,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/cobalt-club-auckland/">Cobalt Club</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1851,7 +2202,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/chill-wellness-auckland/">Chill Wellness</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1883,7 +2241,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/o-studio-auckland/">O-Studio Auckland</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1915,7 +2280,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/p3-recovery-nz/">P3 Recovery NZ</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1947,7 +2319,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/o-studio-christchurch/">O-Studio Christchurch</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -1979,7 +2358,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/flow-yoga-christchurch/">Flow Yoga & Wellbeing</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2011,7 +2397,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/the-well-studios-christchurch/">The Well Studios</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2043,7 +2436,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="1"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/bodyfix-gym-christchurch/">BodyFix Gym</a>
             <span class="gym-type type-gym">Gym</span>
@@ -2075,7 +2475,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="1"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/affinity-fitness-christchurch/">Affinity Fitness</a>
             <span class="gym-type type-gym">Gym</span>
@@ -2107,7 +2514,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="1"
+            data-sauna="1"
+            data-creche="1"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/parakiore-christchurch/">Parakiore Metro Sports Facility</a>
             <span class="gym-type type-aquatic">Aquatic</span>
@@ -2139,7 +2553,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/crossfit-christchurch/">CrossFit Christchurch</a>
             <span class="gym-type type-crossfit">CrossFit</span>
@@ -2171,7 +2592,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="1"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/pure-fitness-hamilton/">Pure Fitness Hamilton</a>
             <span class="gym-type type-gym">Gym</span>
@@ -2203,7 +2631,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/lifted-pilates-hamilton/">Lifted Pilates</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2235,7 +2670,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/fastlane-fitness-hamilton/">Fastlane Fitness</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2267,7 +2709,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="1"
+            data-sauna="1"
+            data-creche="1"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/waterworld-hamilton/">Waterworld Hamilton</a>
             <span class="gym-type type-aquatic">Aquatic</span>
@@ -2299,7 +2748,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/o-studio-hamilton/">O-Studio Hamilton</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2331,7 +2787,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/redefined-tauranga/">ReDefined</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2363,7 +2826,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/encore-pilates-tauranga/">Encore Pilates</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2395,7 +2865,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/mount-crossfit-tauranga/">Mount CrossFit</a>
             <span class="gym-type type-crossfit">CrossFit</span>
@@ -2427,7 +2904,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/thirty-one-ten-crossfit/">Thirty One Ten CrossFit</a>
             <span class="gym-type type-crossfit">CrossFit</span>
@@ -2459,7 +2943,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/on-form-studio-dunedin/">On Form Studio</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2491,7 +2982,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/barre-base-dunedin/">Barre Base</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2523,7 +3021,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/studio-pilates-dunedin/">Studio Pilates Dunedin</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2555,7 +3060,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/reform-fitness-dunedin/">Reform Fitness Dunedin</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2587,7 +3099,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/elevate-crossfit-dunedin/">Elevate CrossFit Dunedin</a>
             <span class="gym-type type-crossfit">CrossFit</span>
@@ -2619,7 +3138,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/studio-rubix-palmerston-north/">Studio Rubix</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2651,7 +3177,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/urban-core-wellness-pn/">Urban Core Wellness</a>
             <span class="gym-type type-boutique">Boutique</span>
@@ -2683,7 +3216,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="1"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="1"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/flex-fitness-new-plymouth/">Flex Fitness New Plymouth</a>
             <span class="gym-type type-gym">Gym</span>
@@ -2715,7 +3255,14 @@
           </td>
         </tr>
         
-        <tr class="">
+        <tr class=""
+            data-pool="0"
+            data-sauna="0"
+            data-creche="0"
+            data-parking="0"
+            data-free_weights="0"
+            data-open_247="0"
+            data-no_contract="1">
           <td class="gym-name-cell">
             <a href="/gym/crossfit-rotorua/">CrossFit Rotorua</a>
             <span class="gym-type type-crossfit">CrossFit</span>
@@ -2752,6 +3299,42 @@
   </div>
   <p class="table-note">* Affiliate disclosure: we earn a commission on some referrals. This does not affect our rankings or ratings.</p>
 </section>
+
+<script>
+(function(){
+  var filters = document.getElementById('amenityFilters');
+  var table = document.getElementById('compareTable');
+  if(!filters || !table) return;
+  var boxes = filters.querySelectorAll('input[type="checkbox"]');
+  var rows = table.querySelectorAll('tbody tr');
+  var countEl = document.getElementById('amenityCount');
+  var clearBtn = document.getElementById('amenityClear');
+
+  function attrFor(feat){ return feat === 'crèche' ? 'creche' : feat; }
+
+  function apply(){
+    var active = [];
+    boxes.forEach(function(b){ if(b.checked) active.push(attrFor(b.getAttribute('data-feat'))); });
+    var shown = 0;
+    rows.forEach(function(row){
+      var ok = active.every(function(a){ return row.getAttribute('data-' + a) === '1'; });
+      row.style.display = ok ? '' : 'none';
+      if(ok) shown++;
+    });
+    if(countEl){
+      countEl.textContent = active.length ? (shown + ' of ' + rows.length + ' gyms match') : '';
+    }
+  }
+
+  boxes.forEach(function(b){ b.addEventListener('change', apply); });
+  if(clearBtn){
+    clearBtn.addEventListener('click', function(){
+      boxes.forEach(function(b){ b.checked = false; });
+      apply();
+    });
+  }
+})();
+</script>
 
 <!-- By need -->
 <section class="section">

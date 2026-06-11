@@ -40,8 +40,21 @@
 <section class="section">
   <p class="section-intro">All prices are weekly equivalents and indicative — always confirm with your local club before signing. Franchise pricing can vary by location.</p>
 
+  <div class="amenity-filters" id="amenityFilters">
+    <span class="amenity-filters-label">Filter by amenity:</span>
+    <label><input type="checkbox" data-feat="pool"> Has pool</label>
+    <label><input type="checkbox" data-feat="sauna"> Has sauna</label>
+    <label><input type="checkbox" data-feat="crèche"> Has crèche</label>
+    <label><input type="checkbox" data-feat="parking"> Has parking</label>
+    <label><input type="checkbox" data-feat="free_weights"> Free weights</label>
+    <label><input type="checkbox" data-feat="open_247"> 24/7 access</label>
+    <label><input type="checkbox" data-feat="no_contract"> No contract</label>
+    <button type="button" class="btn btn-sm btn-outline" id="amenityClear">Clear</button>
+    <span class="amenity-count" id="amenityCount"></span>
+  </div>
+
   <div class="table-wrap">
-    <table class="compare-table compare-table-full">
+    <table class="compare-table compare-table-full" id="compareTable">
       <thead>
         <tr>
           <th>Gym</th>
@@ -63,7 +76,14 @@
       </thead>
       <tbody>
         {% for gym in gyms %}
-        <tr class="{% if gym.has_affiliate %}affiliate-row{% endif %}">
+        <tr class="{% if gym.has_affiliate %}affiliate-row{% endif %}"
+            data-pool="{{ 1 if gym.features.pool else 0 }}"
+            data-sauna="{{ 1 if gym.features.sauna else 0 }}"
+            data-creche="{{ 1 if gym.features['crèche'] else 0 }}"
+            data-parking="{{ 1 if gym.features.parking else 0 }}"
+            data-free_weights="{{ 1 if gym.features.free_weights else 0 }}"
+            data-open_247="{{ 1 if gym.features.open_247 else 0 }}"
+            data-no_contract="{{ 1 if (gym.features.no_contract if gym.features.no_contract is defined else not gym.pricing.contract_required) else 0 }}">
           <td class="gym-name-cell">
             <a href="/gym/{{ gym.slug }}/">{{ gym.name }}</a>
             <span class="gym-type type-{{ gym.type|lower|replace(' ','-') }}">{{ gym.type }}</span>
@@ -104,6 +124,42 @@
   </div>
   <p class="table-note">* Affiliate disclosure: we earn a commission on some referrals. This does not affect our rankings or ratings.</p>
 </section>
+
+<script>
+(function(){
+  var filters = document.getElementById('amenityFilters');
+  var table = document.getElementById('compareTable');
+  if(!filters || !table) return;
+  var boxes = filters.querySelectorAll('input[type="checkbox"]');
+  var rows = table.querySelectorAll('tbody tr');
+  var countEl = document.getElementById('amenityCount');
+  var clearBtn = document.getElementById('amenityClear');
+
+  function attrFor(feat){ return feat === 'crèche' ? 'creche' : feat; }
+
+  function apply(){
+    var active = [];
+    boxes.forEach(function(b){ if(b.checked) active.push(attrFor(b.getAttribute('data-feat'))); });
+    var shown = 0;
+    rows.forEach(function(row){
+      var ok = active.every(function(a){ return row.getAttribute('data-' + a) === '1'; });
+      row.style.display = ok ? '' : 'none';
+      if(ok) shown++;
+    });
+    if(countEl){
+      countEl.textContent = active.length ? (shown + ' of ' + rows.length + ' gyms match') : '';
+    }
+  }
+
+  boxes.forEach(function(b){ b.addEventListener('change', apply); });
+  if(clearBtn){
+    clearBtn.addEventListener('click', function(){
+      boxes.forEach(function(b){ b.checked = false; });
+      apply();
+    });
+  }
+})();
+</script>
 
 <!-- By need -->
 <section class="section">

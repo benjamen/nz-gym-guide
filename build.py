@@ -68,6 +68,9 @@ def build():
     # Compare all page
     render("compare.html", "compare/index.html", **ctx)
 
+    # Free gym trials & day passes aggregator page
+    render("free-trial.html", "free-gym-trial/index.html", **ctx)
+
     # Individual gym pages
     for gym in gyms:
         render("gym.html", f"gym/{gym['slug']}/index.html",
@@ -155,6 +158,7 @@ def build():
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("compare", "0.9", "weekly")
+    sitemap += sm_url("free-gym-trial", "0.9", "weekly")
     sitemap += sm_url("quiz", "0.8", "monthly")
     sitemap += sm_url("about", "0.5", "yearly")
     sitemap += sm_url("privacy", "0.3", "yearly")

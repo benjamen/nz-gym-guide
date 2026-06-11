@@ -1,0 +1,63 @@
+{
+  "title": "Hamilton Gym Savings",
+  "short_title": "Gym Savings",
+  "meta_desc": "Get 40-70% off your gym membership in Hamilton with Exercise NZ's subsidised gym scheme. Learn how to claim and save on your fitness programme.",
+  "intro": "Hamilton's gym scene has grown significantly, with various options available. Exercise NZ offers a subsidised gym scheme, providing discounts of 40-70% off gym memberships. This scheme is available to individuals who meet specific eligibility criteria.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is the Exercise NZ Subsidised Gym Scheme?",
+      "body": "The Exercise NZ subsidised gym scheme is a programme designed to make gym memberships more affordable for individuals who may not have been able to access them otherwise. The scheme is available to individuals who meet specific eligibility criteria, such as those with a community services card or those who are experiencing financial hardship.",
+      "list": [
+        "Community services card holders",
+        "Individuals experiencing financial hardship",
+        "Those who are unable to afford a standard gym membership"
+      ]
+    },
+    {
+      "heading": "How to Claim Your Discount",
+      "body": "Once approved, you can sign up with a participating gym in Hamilton, such as City Fitness or Les Mills, and start enjoying your discounted gym membership.",
+      "cta": {
+        "text": "Visit Exercise NZ website",
+        "url": "https://www.exercise.org.nz/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Participating Gyms in Hamilton",
+      "body": "Several gyms in Hamilton participate in the Exercise NZ subsidised gym scheme, including City Fitness and Les Mills. These gyms offer a range of fitness classes and facilities, and with the subsidised scheme, you can enjoy significant savings on your gym membership.",
+      "list": [
+        "City Fitness",
+        "Les Mills"
+      ]
+    },
+    {
+      "heading": "Potential Savings",
+      "body": "The amount you can save with the Exercise NZ subsidised gym scheme varies depending on the gym and the membership type. However, with discounts of 40-70% off, you can potentially save hundreds of dollars per year on your gym membership. For example, a standard gym membership at City Fitness could cost around $60 per week, but with the subsidised scheme, you could pay as little as $18 per week.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Standard Price",
+          "Subsidised Price"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$60/week",
+            "$18/week"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-nz-subsidy-hamilton-2026",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-12",
+  "post_type": "exercise_nz"
+}

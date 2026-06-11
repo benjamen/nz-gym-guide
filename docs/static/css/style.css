@@ -541,3 +541,13 @@ tr.hidden-row { display: none; }
 /* === New badge === */
 .badge-new { background: #dbeafe; color: #1d4ed8; font-size: .72rem; padding: .12rem .5rem; border-radius: 20px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
 
+
+/* Amenity filters (compare page) */
+.amenity-filters { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; padding: 1rem 1.25rem; margin-bottom: 1.25rem; background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: var(--radius); }
+.amenity-filters-label { font-weight: 700; font-size: .9rem; }
+.amenity-filters label { display: inline-flex; align-items: center; gap: .4rem; font-size: .9rem; cursor: pointer; user-select: none; }
+.amenity-filters input[type="checkbox"] { width: 1rem; height: 1rem; cursor: pointer; }
+.amenity-count { font-size: .85rem; color: var(--gray-600); font-weight: 600; }
+
+/* Free trial badge (gym hero) */
+.feat-trial { background: #16a34a; color: #fff; font-weight: 700; }

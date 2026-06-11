@@ -30,6 +30,20 @@
      {% for r in gym.google_reviews %}{"@type":"Review","author":{"@type":"Person","name":"{{ r.name }}"},"reviewRating":{"@type":"Rating","ratingValue":"{{ r.rating }}"},"reviewBody":{{ r.text | tojson }},"datePublished":"{{ r.date }}"}{% if not loop.last %},{% endif %}{% endfor %}
    ]{% endif %}
   },
+  {% if gym.address %}
+  {"@type":"LocalBusiness",
+   "@id":"{{ site.base_url }}/gym/{{ gym.slug }}/#localbusiness",
+   "name":{{ (gym.name ~ " " ~ (gym.locality or "")) | trim | tojson }},
+   "url":"{{ gym.website }}",
+   "description":{{ gym.tagline | tojson }},
+   "address":{"@type":"PostalAddress","streetAddress":{{ gym.address | tojson }},"addressLocality":{{ (gym.locality or "New Zealand") | tojson }},"addressCountry":"NZ"},
+   {% if gym.phone %}"telephone":{{ gym.phone | tojson }},{% endif %}
+   {% if gym.opening_hours %}"openingHours":{{ gym.opening_hours | tojson }},{% endif %}
+   {% if gym.lat and gym.lng %}"geo":{"@type":"GeoCoordinates","latitude":"{{ gym.lat }}","longitude":"{{ gym.lng }}"},{% endif %}
+   "priceRange":"${{ gym.pricing.weekly_from }}-${{ gym.pricing.weekly_to }} per week",
+   "aggregateRating":{"@type":"AggregateRating","ratingValue":"{{ gym.rating }}","reviewCount":"{{ gym.review_count }}","bestRating":"5","worstRating":"1"}
+  },
+  {% endif %}
   {"@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":{{ ("How much does " ~ gym.name ~ " cost per week in NZ?") | tojson }},
      "acceptedAnswer":{"@type":"Answer","text":{{ (gym.name ~ " membership costs from $" ~ gym.pricing.weekly_from ~ " to $" ~ gym.pricing.weekly_to ~ " per week. Joining fee: $" ~ gym.pricing.joining_fee ~ ". " ~ (gym.pricing.joining_fee_note or "")) | tojson }}
@@ -63,6 +77,7 @@
     <p>{{ gym.tagline }}</p>
     <div class="gym-badges">
       <span class="gym-type type-{{ gym.type|lower|replace(' ','-') }}">{{ gym.type }}</span>
+      {% if gym.free_trial %}<span class="feat feat-trial">✓ Free Trial Available{% if gym.trial_duration %} — {{ gym.trial_duration }}{% endif %}</span>{% endif %}
       {% if gym.features.open_247 %}<span class="feat">24/7 access</span>{% endif %}
       {% if gym.features.no_lock_in %}<span class="feat feat-green">No lock-in</span>{% endif %}
       {% if gym.nationwide %}<span class="feat">Nationwide</span>{% endif %}
@@ -115,6 +130,17 @@
   </div>
   <a href="{{ site.affiliates[gym.affiliate_key].url }}" class="btn btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[gym.affiliate_key].cta }} →</a>
 </div>
+{% endif %}
+
+{% if gym.free_trial %}
+<!-- Free trial callout -->
+<section class="section">
+  <div class="quick-answer-box" style="border-left:4px solid #16a34a;">
+    <h2>✓ {{ gym.name }} Free Trial</h2>
+    <p><strong>Trial length:</strong> {{ gym.trial_duration or "Available — contact club" }}.{% if gym.trial_notes %} {{ gym.trial_notes }}.{% endif %}</p>
+    <p>See how it compares on our <a href="/free-gym-trial/">NZ free gym trials &amp; day passes</a> page.</p>
+  </div>
+</section>
 {% endif %}
 
 <!-- Quick answer block — AI extractable summary -->
@@ -193,6 +219,17 @@
 <!-- Locations -->
 <section class="section">
   <h2>{{ gym.name }} Locations in NZ</h2>
+  {% if gym.address %}
+  <div class="contact-card">
+    <h3 style="margin-top:0">Flagship club{% if gym.locality %} — {{ gym.locality }}{% endif %}</h3>
+    <ul class="contact-list">
+      <li><strong>Address:</strong> {{ gym.address }}</li>
+      {% if gym.phone %}<li><strong>Phone:</strong> <a href="tel:{{ gym.phone | replace(' ','') }}">{{ gym.phone }}</a></li>{% endif %}
+      {% if gym.opening_hours %}<li><strong>Hours:</strong> {{ gym.opening_hours }}</li>{% endif %}
+    </ul>
+    {% if gym.lat and gym.lng %}<p style="margin:.5rem 0 0"><a href="https://www.google.com/maps/search/?api=1&query={{ gym.lat }},{{ gym.lng }}" target="_blank" rel="nofollow noopener">View on Google Maps →</a></p>{% endif %}
+  </div>
+  {% endif %}
   <div class="location-tags">
     {% for loc in gym.locations %}
     <span class="location-tag">{{ loc }}</span>

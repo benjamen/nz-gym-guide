@@ -1,0 +1,186 @@
+{% extends "base.html" %}
+
+{% block title %}NZ Free Gym Trials & Day Passes 2026 — Every Free Trial Compared{% endblock %}
+{% block desc %}The only NZ page that aggregates every free gym trial and day pass: Jetts, Anytime Fitness, Snap Fitness, Les Mills, YMCA and more. Trial lengths, restrictions and how to get them — 2026.{% endblock %}
+{% block canonical %}free-gym-trial/{% endblock %}
+
+{% set trials = [
+  {"gym":"Jetts Fitness","slug":"jetts","length":"7-day free trial","paid":"Free","restrictions":"No credit card required. One trial per person. Photo ID needed at sign-in.","cta_url":"https://www.jetts.co.nz/","affiliate":false},
+  {"gym":"Anytime Fitness","slug":"anytime-fitness","length":"7-day free pass","paid":"Free","restrictions":"Book via club website. 18+ (or with guardian). One pass per person.","cta_url":"https://www.anytimefitness.co.nz/","affiliate":false},
+  {"gym":"Snap Fitness","slug":"snap-fitness","length":"7-day free trial","paid":"Free","restrictions":"Sign up online for a guest pass. 24/7 access during trial varies by club.","cta_url":"https://www.snapfitness.co.nz/","affiliate":false},
+  {"gym":"Les Mills","slug":"les-mills","length":"Free intro class / casual visit","paid":"Free intro","restrictions":"Free first group fitness class at most clubs. Les Mills+ app: 30-day free trial (at-home, not gym access).","cta_url":"https://www.lesmills.co.nz/","affiliate":true,"affiliate_key":"les_mills"},
+  {"gym":"YMCA NZ","slug":"ymca","length":"Day pass / casual visit","paid":"Paid (casual)","restrictions":"Varies by centre. Many offer a free trial visit or casual day rate ~$10–20. Call your local Y.","cta_url":"https://www.ymca.org.nz/","affiliate":false},
+  {"gym":"City Fitness","slug":"city-fitness","length":"Free trial — contact club","paid":"Free","restrictions":"Trial offers run regularly. Ask in-club or via the website. 24/7 access on most plans.","cta_url":"https://www.cityfitness.co.nz/","affiliate":false},
+  {"gym":"Orangetheory","slug":"orangetheory","length":"Free intro class","paid":"Free","restrictions":"One free heart-rate-based class. No credit card, no commitment. Book ahead online.","cta_url":site.affiliates.orangetheory.url,"affiliate":true,"affiliate_key":"orangetheory"},
+  {"gym":"ClassPass","slug":"classpass","length":"Free trial month","paid":"Free trial","restrictions":"Access 500+ NZ studios on one subscription. Card required; cancel before trial ends.","cta_url":site.affiliates.classpass.url,"affiliate":true,"affiliate_key":"classpass"},
+  {"gym":"F45 Training","slug":"f45","length":"2-week free trial (varies)","paid":"Free","restrictions":"Most studios run a free trial week or fortnight. Confirm with your local studio.","cta_url":"https://f45training.co.nz/","affiliate":false},
+  {"gym":"Curves","slug":"contours","length":"Free trial workout","paid":"Free","restrictions":"Women-only circuit. Free trial session, book by phone or online.","cta_url":"https://www.curves.com.au/","affiliate":false},
+  {"gym":"Council / community pools","slug":"","length":"Casual visit","paid":"Paid ($3–8)","restrictions":"Public gyms and pools at council leisure centres. Casual entry typically $3–8 (gym), $3–7 (pool).","cta_url":"","affiliate":false}
+] %}
+
+{% block head_extra %}
+<script type="application/ld+json">
+[
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
+    {"@type":"ListItem","position":2,"name":"Free Gym Trials NZ","item":"{{ site.base_url }}/free-gym-trial/"}
+  ]},
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Which NZ gyms offer a free trial?","acceptedAnswer":{"@type":"Answer","text":"Jetts, Anytime Fitness, Snap Fitness and City Fitness all offer 7-day free trials. Les Mills and Orangetheory offer a free intro class, and ClassPass offers a free trial month across 500+ NZ studios. Many F45 studios offer a free trial week."}},
+    {"@type":"Question","name":"Can I get a free gym trial with no credit card in NZ?","acceptedAnswer":{"@type":"Answer","text":"Yes. Jetts' 7-day trial requires no credit card. Free intro classes at Les Mills and Orangetheory also need no card. ClassPass requires a card for its free trial month."}},
+    {"@type":"Question","name":"How much is a casual gym visit in NZ?","acceptedAnswer":{"@type":"Answer","text":"Casual gym visits in NZ typically cost $15–25 at chain gyms. Council and community leisure centres are cheaper at around $3–8 for a casual gym or pool entry."}}
+  ]}
+]
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Free Gym Trials</div>
+    <h1>NZ Free Gym Trials &amp; Day Passes 2026</h1>
+    <p>The only NZ guide that aggregates every current free gym trial and day pass in one place. Try before you commit — most major chains let you train free for a week.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<section class="section">
+  <p class="section-intro">Trial offers and restrictions change often and can vary by club — always confirm with your local gym before turning up. Last reviewed June 2026.</p>
+
+  <div class="table-wrap">
+    <table class="compare-table compare-table-full">
+      <thead>
+        <tr>
+          <th>Gym</th>
+          <th>Trial / Pass</th>
+          <th>Free or Paid</th>
+          <th>Restrictions</th>
+          <th>Get Trial</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for t in trials %}
+        <tr class="{% if t.affiliate %}affiliate-row{% endif %}">
+          <td class="gym-name-cell">
+            {% if t.slug %}<a href="/gym/{{ t.slug }}/">{{ t.gym }}</a>{% else %}{{ t.gym }}{% endif %}
+          </td>
+          <td><strong>{{ t.length }}</strong></td>
+          <td>
+            {% if t.paid.startswith('Free') %}<span class="badge-green">{{ t.paid }}</span>{% else %}<span class="badge-amber">{{ t.paid }}</span>{% endif %}
+          </td>
+          <td class="small-cell">{{ t.restrictions }}</td>
+          <td>
+            {% if t.cta_url %}
+            <a href="{{ t.cta_url }}" class="btn btn-sm btn-primary" {% if t.affiliate %}rel="sponsored"{% else %}rel="nofollow"{% endif %} target="_blank">Get trial →</a>
+            {% elif t.slug %}
+            <a href="/gym/{{ t.slug }}/" class="btn btn-sm btn-outline">Review →</a>
+            {% else %}
+            <span class="small-cell">Local council site</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="table-note">* Affiliate disclosure: we earn a commission on some referrals. This never affects what we list or how we rank gyms.</p>
+</section>
+
+<section class="section">
+  <h2>How to Get a Free Gym Trial in NZ</h2>
+  <div class="guide-body">
+    <p>Getting a free trial at a New Zealand gym is straightforward — most major chains actively want you to try the gym before you sign up. Here's how to do it:</p>
+  </div>
+  <ul class="guide-list">
+    <li><strong>Book online first.</strong> Jetts, Anytime Fitness, Snap Fitness and City Fitness all have a "free trial" or "guest pass" form on their websites. Fill it in and you'll usually get a pass within minutes.</li>
+    <li><strong>Bring photo ID.</strong> Almost every gym requires ID to activate a trial pass — it stops people claiming repeat trials.</li>
+    <li><strong>No credit card needed (mostly).</strong> Jetts is explicit about no card required. ClassPass is the exception — it asks for a card for its free trial month, so set a reminder to cancel before it ends.</li>
+    <li><strong>One trial per person.</strong> You generally can't trial the same chain twice, but you can trial several different chains back-to-back to compare them for free.</li>
+    <li><strong>Ask about joining-fee waivers.</strong> If you join right after a trial, many clubs will waive the joining fee — always ask.</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Best Casual Visit &amp; Day Pass Rates in NZ</h2>
+  <p>If you only need a one-off workout rather than a free trial, casual visits are the way to go. Rates vary widely:</p>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead><tr><th>Where</th><th>Typical casual rate</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Council leisure centres</strong></td><td>$3–8</td><td>Cheapest option. Gym + pool access at many centres.</td></tr>
+        <tr><td><strong>YMCA centres</strong></td><td>$10–20</td><td>Often includes pool and group classes.</td></tr>
+        <tr><td><strong>Chain gyms (casual)</strong></td><td>$15–25</td><td>Les Mills, City Fitness etc. — confirm at the club.</td></tr>
+        <tr><td><strong>Boutique / HIIT studios</strong></td><td>$20–35</td><td>F45, Orangetheory, CrossFit drop-in rates.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="price-note">Council pool and gym casual rates are the cheapest way to train occasionally in NZ — check your local council leisure centre.</p>
+</section>
+
+<section class="section">
+  <h2>Tips for Using Free Trial Passes</h2>
+  <ul class="guide-list">
+    <li><strong>Go at your real workout time.</strong> Trial during the hours you'd actually train — a gym that's empty at 11am can be packed at 6pm.</li>
+    <li><strong>Try the classes.</strong> A free trial usually includes group fitness — use it to test whether the class timetable suits you.</li>
+    <li><strong>Test the commute.</strong> The best gym is the one you'll actually get to. Use the trial to see how the trip home from work feels.</li>
+    <li><strong>Stack your trials.</strong> Trial two or three nearby gyms in the same week, then sign up to the one that fits — all for free.</li>
+    <li><strong>Don't sign on the spot.</strong> Take the trial, sleep on it, then negotiate. Sales staff often have room to waive fees if you don't rush.</li>
+  </ul>
+</section>
+
+<section class="section" style="background:linear-gradient(135deg,#eff6ff,#dbeafe);border-radius:var(--radius);text-align:center;">
+  <div style="max-width:520px;margin:0 auto;">
+    <p style="font-size:1.5rem;margin-bottom:.4rem;">🎯</p>
+    <h2 style="margin-bottom:.5rem;">Not sure which gym to trial first?</h2>
+    <p style="color:var(--gray-600);margin-bottom:1rem;">Answer 6 quick questions and get a personalised NZ gym recommendation in under 60 seconds. Free, no sign-up.</p>
+    <a href="/quiz/" class="btn btn-primary">Take the free quiz →</a>
+  </div>
+</section>
+
+<section class="section spotlight">
+  <h2>Try the Most Before You Commit</h2>
+  <div class="spotlight-grid">
+    <div class="spotlight-card">
+      <h3>ClassPass — Free Trial Month</h3>
+      <p>One subscription, 500+ NZ studios. The widest "try everything" trial in NZ — yoga, HIIT, pilates, cycling and boxing. Cancel before the trial ends.</p>
+      <a href="{{ site.affiliates.classpass.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Start free month →</a>
+    </div>
+    <div class="spotlight-card">
+      <h3>Orangetheory — Free Intro Class</h3>
+      <p>Heart-rate-based group training. Book one free class — no credit card, no commitment.</p>
+      <a href="{{ site.affiliates.orangetheory.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Book free class →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Free Gym Trials NZ — FAQ</h2>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary>Which NZ gyms offer a free trial?</summary>
+      <p>Jetts, Anytime Fitness, Snap Fitness and City Fitness all offer 7-day free trials. Les Mills and Orangetheory offer a free intro class, and ClassPass offers a free trial month across 500+ NZ studios. Many F45 studios offer a free trial week.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I get a free gym trial with no credit card in NZ?</summary>
+      <p>Yes. Jetts' 7-day trial requires no credit card, and free intro classes at Les Mills and Orangetheory need no card either. ClassPass is the main exception — it requires a card for its free trial month.</p>
+    </details>
+    <details class="faq-item">
+      <summary>How much is a casual gym visit in NZ?</summary>
+      <p>Casual visits at chain gyms typically cost $15–25. Council and community leisure centres are much cheaper at around $3–8 for casual gym or pool entry.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I do more than one free trial?</summary>
+      <p>You usually can't trial the same chain twice, but you can trial several different gyms one after another — a great way to compare gyms in your area for free before committing.</p>
+    </details>
+  </div>
+</section>
+
+<section class="section cta-section">
+  <h2>Compare Every NZ Gym Side by Side</h2>
+  <p>Once you've trialled a few, compare them all on price, contract and features in one table.</p>
+  <a href="/compare/" class="btn btn-primary">Compare all NZ gyms →</a>
+</section>
+
+{% endblock %}

@@ -1,0 +1,58 @@
+{
+  "title": "Gym Nutrition",
+  "short_title": "Gym Food",
+  "meta_desc": "Discover what to eat before and after the gym with our NZ guide, covering meal timing, hydration, and simple pre and post workout foods available in New Zealand.",
+  "intro": "As a gym-goer in New Zealand, understanding what to eat before and after your workout is crucial for optimal performance and recovery. With many NZ gym chains like City Fitness, Les Mills, and Jetts offering a range of facilities, it's essential to fuel your body correctly. In this guide, we'll explore the best foods to eat before and after the gym, as well as hydration tips for the NZ climate.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Timing Your Meals",
+      "body": "When it comes to working out, timing your meals is essential. Aim to eat a balanced meal with complex carbohydrates, protein, and healthy fats 1-3 hours before your gym session. This allows for proper digestion and energy release. After your workout, consume a mix of carbohydrates and protein within 30-60 minutes to aid in recovery and muscle repair. Many NZ gyms, such as Les Mills and City Fitness, offer convenient locations and hours, making it easier to plan your meals around your workouts.",
+      "list": [
+        "1-3 hours before: complex carbohydrates, protein, and healthy fats",
+        "30-60 minutes after: carbohydrates and protein"
+      ]
+    },
+    {
+      "heading": "Pre-Workout Foods",
+      "body": "Choosing the right pre-workout foods can be challenging, but there are many simple and nutritious options available in New Zealand. Bananas, oats, and whole-grain toast with avocado are all great choices. You can also consider a protein smoothie with Greek yoghurt, spinach, and berries. These foods provide sustained energy and are easy to prepare.",
+      "list": [
+        "Bananas",
+        "Oats",
+        "Whole-grain toast with avocado",
+        "Protein smoothie with Greek yoghurt, spinach, and berries"
+      ]
+    },
+    {
+      "heading": "Post-Workout Foods",
+      "body": "After your workout, it's essential to refuel with a mix of carbohydrates and protein. Some excellent post-workout food options in New Zealand include chicken and sweet potato, fish and brown rice, or a protein shake with milk and fruit. These foods help to repair and rebuild muscle tissue, reducing muscle soreness and improving recovery.",
+      "list": [
+        "Chicken and sweet potato",
+        "Fish and brown rice",
+        "Protein shake with milk and fruit"
+      ]
+    },
+    {
+      "heading": "Hydration in the NZ Climate",
+      "body": "Staying hydrated is crucial, especially in New Zealand's climate. Aim to drink at least 8-10 glasses of water per day, and make sure to drink water before, during, and after your workout. You can also consider electrolyte-rich drinks or coconut water to help replace lost salts. Many NZ gyms, such as Jetts and Anytime Fitness, offer water fountains and hydration stations, making it easy to stay hydrated during your workout.",
+      "list": [
+        "8-10 glasses of water per day",
+        "Electrolyte-rich drinks or coconut water"
+      ]
+    },
+    {
+      "heading": "Get Started with a Gym Programme",
+      "body": "Now that you know what to eat before and after the gym, it's time to get started with a gym programme. Consider joining a gym like City Fitness or Les Mills, which offer a range of facilities and group fitness classes. You can also look into Exercise NZ's subsidised gym scheme, which provides 40-70% off gym memberships for eligible individuals. With the right nutrition and a supportive gym community, you'll be on your way to achieving your fitness goals.",
+      "cta": {
+        "text": "Compare gym memberships and find the best deal for you",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "pre-workout-nutrition-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-12",
+  "post_type": "exercise_tips"
+}

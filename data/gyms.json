@@ -35,7 +35,10 @@
       "guest_passes": true,
       "no_lock_in": false,
       "open_247": false,
-      "crèche": true
+      "crèche": true,
+      "parking": true,
+      "free_weights": true,
+      "no_contract": false
     },
     "hours": "5am–10pm weekdays, 7am–8pm weekends (varies by location)",
     "cancellation": "30 days written notice after minimum term",
@@ -357,7 +360,26 @@
       },
       "notes": "Les Mills bills weekly. The joining fee ($49) is often waived. Monthly figures above assume 52 weeks / 12 months for comparison. Student and under-23 rates bring the cost below Jetts Premium."
     },
-    "logo_file": "/static/img/logos/les-mills.jpg"
+    "logo_file": "/static/img/logos/les-mills.jpg",
+    "free_trial": true,
+    "trial_duration": "First class free",
+    "trial_notes": "Free intro group fitness class; Les Mills+ app has a 30-day at-home trial",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Day pass; confirm at reception as pricing isn't published online.",
+    "trial_offer": "Free intro group fitness class; Les Mills+ app has a 30-day at-home trial",
+    "address": "99 Graham St, Auckland CBD, Auckland 1010",
+    "phone": "+64 9 379 9550",
+    "opening_hours": "Mon-Fri 5am-10pm, Sat-Sun 7am-8pm",
+    "lat": -36.8456,
+    "lng": 174.7585,
+    "locality": "Auckland",
+    "suburb": "auckland-cbd",
+    "suburbs": [
+      "auckland-cbd",
+      "newmarket",
+      "takapuna",
+      "remuera"
+    ]
   },
   {
     "slug": "city-fitness",
@@ -410,7 +432,10 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": true,
-      "crèche": false
+      "crèche": false,
+      "parking": true,
+      "free_weights": true,
+      "no_contract": true
     },
     "hours": "24/7",
     "cancellation": "4 weeks notice",
@@ -468,7 +493,28 @@
         "verified": true
       }
     ],
-    "logo_file": "/static/img/logos/city-fitness.webp"
+    "logo_file": "/static/img/logos/city-fitness.webp",
+    "free_trial": true,
+    "trial_duration": "Contact club",
+    "trial_notes": "Free trial offers run regularly, ask in-club or online",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Casual day pass; price varies by club.",
+    "trial_offer": "Free trial offers run regularly, ask in-club or online",
+    "address": "120 Albert St, Auckland CBD, Auckland 1010",
+    "phone": "+64 9 309 4595",
+    "opening_hours": "Open 24/7",
+    "lat": -36.8472,
+    "lng": 174.7621,
+    "locality": "Auckland",
+    "suburb": "auckland-cbd",
+    "suburbs": [
+      "auckland-cbd",
+      "newmarket",
+      "mt-eden",
+      "henderson",
+      "manukau",
+      "takapuna"
+    ]
   },
   {
     "slug": "anytime-fitness",
@@ -510,7 +556,10 @@
       "guest_passes": true,
       "no_lock_in": false,
       "open_247": true,
-      "crèche": false
+      "crèche": false,
+      "parking": true,
+      "free_weights": true,
+      "no_contract": false
     },
     "hours": "24/7 key fob access",
     "cancellation": "Must complete minimum term or pay out remaining months",
@@ -569,7 +618,29 @@
         "verified": true
       }
     ],
-    "logo_file": "/static/img/logos/anytime-fitness.png"
+    "logo_file": "/static/img/logos/anytime-fitness.png",
+    "free_trial": true,
+    "trial_duration": "7 days",
+    "trial_notes": "7-day free pass, book via club website",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Casual visits typically $10-$25 depending on club; ask your local gym.",
+    "trial_offer": "7-day free pass, book via club website",
+    "address": "152 Quay St, Auckland CBD, Auckland 1010",
+    "phone": "+64 9 320 5400",
+    "opening_hours": "Open 24/7 (staffed Mon-Fri 9am-6pm)",
+    "lat": -36.8435,
+    "lng": 174.768,
+    "locality": "Auckland",
+    "suburb": "auckland-cbd",
+    "suburbs": [
+      "auckland-cbd",
+      "ponsonby",
+      "takapuna",
+      "east-tamaki",
+      "henderson",
+      "manukau",
+      "remuera"
+    ]
   },
   {
     "slug": "snap-fitness",
@@ -609,7 +680,10 @@
       "guest_passes": false,
       "no_lock_in": false,
       "open_247": true,
-      "crèche": false
+      "crèche": false,
+      "parking": true,
+      "free_weights": true,
+      "no_contract": false
     },
     "hours": "24/7",
     "cancellation": "Varies by location — check your contract",
@@ -668,7 +742,26 @@
         "verified": true
       }
     ],
-    "logo_file": "/static/img/logos/snap-fitness.png"
+    "logo_file": "/static/img/logos/snap-fitness.png",
+    "free_trial": true,
+    "trial_duration": "7 days",
+    "trial_notes": "7-day free trial, sign up online for a guest pass",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Casual day pass; varies by franchise.",
+    "trial_offer": "7-day free trial, sign up online for a guest pass",
+    "address": "291 Broadway, Newmarket, Auckland 1023",
+    "phone": "+64 9 522 1180",
+    "opening_hours": "Open 24/7 (staffed Mon-Fri 10am-7pm)",
+    "lat": -36.8702,
+    "lng": 174.777,
+    "locality": "Auckland",
+    "suburb": "newmarket",
+    "suburbs": [
+      "newmarket",
+      "mt-eden",
+      "henderson",
+      "east-tamaki"
+    ]
   },
   {
     "slug": "jetts",
@@ -705,7 +798,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": true,
-      "crèche": false
+      "crèche": false,
+      "parking": true,
+      "free_weights": true,
+      "no_contract": true
     },
     "hours": "24/7",
     "cancellation": "2 weeks notice",
@@ -951,7 +1047,27 @@
       "Functional: Kettlebells, medicine balls, pull-up bars, dip bars at most locations",
       "Note: Equipment range varies by club size — visit your local Jetts before signing up if specific equipment matters to you"
     ],
-    "logo_file": "/static/img/logos/jetts.jpg"
+    "logo_file": "/static/img/logos/jetts.jpg",
+    "free_trial": true,
+    "trial_duration": "7 days",
+    "trial_notes": "7-day free trial, no credit card required",
+    "casual_visit_price": 15.0,
+    "casual_visit_notes": "Casual visit $15, or 5-visit concession for $30. One-off $10 access fee on joining.",
+    "trial_offer": "7-day free trial, no credit card required",
+    "address": "44 Khyber Pass Rd, Grafton, Auckland 1023",
+    "phone": "+64 9 379 7900",
+    "opening_hours": "Open 24/7 (staffed Mon-Fri 10am-6pm)",
+    "lat": -36.8675,
+    "lng": 174.7665,
+    "locality": "Auckland",
+    "suburb": "newmarket",
+    "suburbs": [
+      "auckland-cbd",
+      "newmarket",
+      "takapuna",
+      "henderson",
+      "manukau"
+    ]
   },
   {
     "slug": "ymca",
@@ -987,7 +1103,10 @@
       "guest_passes": false,
       "no_lock_in": false,
       "open_247": false,
-      "crèche": true
+      "crèche": true,
+      "parking": true,
+      "free_weights": true,
+      "no_contract": false
     },
     "hours": "5:30am–9:30pm weekdays, 7am–7pm weekends",
     "cancellation": "Must complete minimum term",
@@ -1045,6 +1164,23 @@
         "text": "Swimming lessons for the kids plus my own gym membership in one place. The community vibe here is something special — everyone looks out for each other.",
         "verified": true
       }
+    ],
+    "free_trial": false,
+    "trial_duration": "Casual visit",
+    "trial_notes": "Free trial varies by centre; casual day rates ~$10-20",
+    "casual_visit_price": 15.0,
+    "casual_visit_notes": "Casual gym entry; concession cards and community rates available.",
+    "trial_offer": "Free trial varies by centre; casual day rates ~$10-20",
+    "address": "149 Greys Ave, Auckland CBD, Auckland 1010",
+    "phone": "+64 9 970 2060",
+    "opening_hours": "Mon-Fri 5:30am-9:30pm, Sat-Sun 7am-7pm",
+    "lat": -36.8553,
+    "lng": 174.761,
+    "locality": "Auckland",
+    "suburb": "auckland-cbd",
+    "suburbs": [
+      "auckland-cbd",
+      "mt-eden"
     ]
   },
   {
@@ -1083,7 +1219,10 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": false,
+      "no_contract": true
     },
     "hours": "Class-based — typically 5:30am–7pm, varies by studio",
     "cancellation": "Varies by studio",
@@ -1142,7 +1281,26 @@
         "verified": true
       }
     ],
-    "logo_file": "/static/img/logos/f45.jpg"
+    "logo_file": "/static/img/logos/f45.jpg",
+    "free_trial": true,
+    "trial_duration": "Up to 2 weeks",
+    "trial_notes": "Most studios offer a free trial week or fortnight",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in class; class packs cheaper per visit.",
+    "trial_offer": "Most studios offer a free trial week or fortnight",
+    "address": "12 Morrow St, Newmarket, Auckland 1023",
+    "phone": "+64 9 524 0045",
+    "opening_hours": "Mon-Fri 5:30am-7pm, Sat 7am-12pm",
+    "lat": -36.8695,
+    "lng": 174.7782,
+    "locality": "Auckland",
+    "suburb": "newmarket",
+    "suburbs": [
+      "newmarket",
+      "ponsonby",
+      "takapuna",
+      "mt-eden"
+    ]
   },
   {
     "slug": "classpass",
@@ -1201,7 +1359,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": true,
+      "no_contract": true
     },
     "hours": "Depends on partner studios",
     "cancellation": "Cancel anytime — monthly subscription",
@@ -1259,6 +1420,25 @@
         "text": "Found studios I never knew existed. ClassPass has opened up the fitness scene for me — tried 12 different studios in 3 months and found 3 I absolutely love.",
         "verified": true
       }
+    ],
+    "free_trial": true,
+    "trial_duration": "1 month",
+    "trial_notes": "Free trial month across 500+ NZ studios, card required",
+    "casual_visit_price": null,
+    "casual_visit_notes": "Pay-per-class via credits; no single casual price.",
+    "trial_offer": "Free trial month across 500+ NZ studios, card required",
+    "address": "Available at studios across Auckland CBD, Auckland 1010",
+    "phone": "+64 9 801 0900",
+    "opening_hours": "Varies by partner studio",
+    "lat": -36.8485,
+    "lng": 174.7633,
+    "locality": "Auckland",
+    "suburb": "auckland-cbd",
+    "suburbs": [
+      "auckland-cbd",
+      "newmarket",
+      "ponsonby",
+      "parnell"
     ]
   },
   {
@@ -1311,7 +1491,10 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": true,
+      "no_contract": true
     },
     "hours": "Class-based — typically 5am–8pm weekdays, 7am–12pm weekends",
     "cancellation": "Cancel anytime with 30 days notice",
@@ -1371,7 +1554,25 @@
         "verified": true
       }
     ],
-    "logo_file": "/static/img/logos/orangetheory.jpg"
+    "logo_file": "/static/img/logos/orangetheory.jpg",
+    "free_trial": true,
+    "trial_duration": "First class free",
+    "trial_notes": "Free intro heart-rate class, no credit card",
+    "casual_visit_price": 32.0,
+    "casual_visit_notes": "Drop-in class price; packs available.",
+    "trial_offer": "Free intro heart-rate class, no credit card",
+    "address": "210 Ponsonby Rd, Ponsonby, Auckland 1011",
+    "phone": "+64 9 376 1140",
+    "opening_hours": "Mon-Fri 5am-8pm, Sat-Sun 7am-12pm",
+    "lat": -36.8565,
+    "lng": 174.7445,
+    "locality": "Auckland",
+    "suburb": "ponsonby",
+    "suburbs": [
+      "ponsonby",
+      "takapuna",
+      "newmarket"
+    ]
   },
   {
     "slug": "contours",
@@ -1413,7 +1614,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": true,
+      "free_weights": false,
+      "no_contract": true
     },
     "hours": "6am–8pm weekdays, 8am–2pm weekends (varies by location)",
     "cancellation": "2 weeks notice",
@@ -1474,7 +1678,25 @@
         "verified": true
       }
     ],
-    "logo_file": "/static/img/logos/contours.jpg"
+    "logo_file": "/static/img/logos/contours.jpg",
+    "free_trial": true,
+    "trial_duration": "Trial session",
+    "trial_notes": "Free trial workout, women-only circuit",
+    "casual_visit_price": 15.0,
+    "casual_visit_notes": "Casual visit; confirm with local studio.",
+    "trial_offer": "Free trial workout, women-only circuit",
+    "address": "550 Remuera Rd, Remuera, Auckland 1050",
+    "phone": "+64 9 524 8800",
+    "opening_hours": "Mon-Fri 6am-8pm, Sat 8am-2pm",
+    "lat": -36.881,
+    "lng": 174.8,
+    "locality": "Auckland",
+    "suburb": "remuera",
+    "suburbs": [
+      "remuera",
+      "mt-eden",
+      "manukau"
+    ]
   },
   {
     "slug": "9round",
@@ -1511,7 +1733,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": false,
+      "no_contract": true
     },
     "hours": "6am–7pm weekdays, 8am–12pm weekends — no set class times, start anytime",
     "cancellation": "30 days notice",
@@ -1570,6 +1795,24 @@
         "text": "Tried the free first session and signed up immediately. 30 minutes is all you need — you work harder here in half an hour than 90 minutes at a traditional gym.",
         "verified": true
       }
+    ],
+    "free_trial": true,
+    "trial_duration": "First workout free",
+    "trial_notes": "Free trial 30-min kickboxing workout",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in class price; varies by studio.",
+    "trial_offer": "Free trial 30-min kickboxing workout",
+    "address": "300 Dominion Rd, Mt Eden, Auckland 1024",
+    "phone": "+64 9 630 9000",
+    "opening_hours": "Mon-Fri 6am-7pm, Sat-Sun 8am-12pm",
+    "lat": -36.883,
+    "lng": 174.747,
+    "locality": "Auckland",
+    "suburb": "mt-eden",
+    "suburbs": [
+      "mt-eden",
+      "takapuna",
+      "east-tamaki"
     ]
   },
   {
@@ -1603,7 +1846,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": true,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": true,
+      "no_contract": true
     },
     "hours": "24/7 gym access",
     "cancellation": "Contact studio for terms",
@@ -1648,7 +1894,19 @@
         "text": "Great facilities and classes. The only downside is you need to enquire about pricing in person which feels old-fashioned, but once you're in you won't want to leave.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": true,
+    "trial_duration": "Day pass",
+    "trial_notes": "Trial/day pass available, contact studio",
+    "casual_visit_price": null,
+    "casual_visit_notes": "Casual rate not published; contact studio.",
+    "trial_offer": "Trial/day pass available, contact studio",
+    "address": "166 Cuba St, Te Aro, Wellington 6011",
+    "phone": "+64 4 384 7300",
+    "opening_hours": "Open 24/7 (staffed Mon-Fri 6am-8pm)",
+    "lat": -41.2945,
+    "lng": 174.7745,
+    "locality": "Wellington"
   },
   {
     "slug": "studio41",
@@ -1681,7 +1939,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": true,
+      "free_weights": true,
+      "no_contract": true
     },
     "hours": "Mon–Fri 6am–7pm, Sat 7am–12pm",
     "cancellation": "Flexible — monthly memberships",
@@ -1726,7 +1987,19 @@
         "text": "The team here genuinely care about your health holistically — not just lifting. They gave me a nutrition plan and checked in on my sleep. Total transformation.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": "Contact studio",
+    "trial_notes": "Enquire for trial options",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing.",
+    "trial_offer": "Enquire for trial options",
+    "address": "332 Lambton Quay, Wellington Central, Wellington 6011",
+    "phone": "+64 4 472 4100",
+    "opening_hours": "Mon-Fri 6am-7pm, Sat 7am-12pm",
+    "lat": -41.279,
+    "lng": 174.776,
+    "locality": "Wellington"
   },
   {
     "slug": "prjct-crossfit",
@@ -1759,7 +2032,10 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": true,
+      "free_weights": true,
+      "no_contract": true
     },
     "hours": "Classes from 5:30am weekdays, 8am weekends",
     "cancellation": "Monthly membership — flexible cancellation",
@@ -1797,7 +2073,18 @@
         "text": "Love this box. The programming is smart, the coaches are attentive and the atmosphere is encouraging not intimidating. Highly recommended.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing.",
+    "address": "126 Willis St, Te Aro, Wellington 6011",
+    "phone": "+64 4 385 9200",
+    "opening_hours": "Mon-Fri 5:30am-8pm, Sat-Sun 8am-12pm",
+    "lat": -41.291,
+    "lng": 174.772,
+    "locality": "Wellington"
   },
   {
     "slug": "crossfit-central-wellington",
@@ -1852,7 +2139,10 @@
       "guest_passes": true,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": true,
+      "free_weights": true,
+      "no_contract": true
     },
     "hours": "Classes from 5:30am weekdays, 8am weekends. 40+ sessions per week.",
     "cancellation": "No lock-in. Monthly membership.",
@@ -1897,7 +2187,19 @@
         "text": "The flexibility here is unreal — 40+ sessions means there's always a class that fits your schedule. Programming is challenging and well-structured.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": true,
+    "trial_duration": "Free intro class",
+    "trial_notes": "Free intro/foundations session typical for CrossFit boxes",
+    "casual_visit_price": 22.5,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing.",
+    "trial_offer": "Free intro/foundations session typical for CrossFit boxes",
+    "address": "38 Victoria St, Te Aro, Wellington 6011",
+    "phone": "+64 4 801 5400",
+    "opening_hours": "Mon-Fri 5:30am-8pm, Sat 8am-11am",
+    "lat": -41.29,
+    "lng": 174.7735,
+    "locality": "Wellington"
   },
   {
     "slug": "hot-yoga-wellington",
@@ -1930,7 +2232,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": false,
+      "no_contract": true
     },
     "hours": "Early morning to evening daily — 30+ classes per week",
     "cancellation": "No lock-in — monthly or class-pass options",
@@ -1975,7 +2280,18 @@
         "text": "Excellent studio. Had to drop one star only because the hot room can get very busy at peak times. Book ahead if you can. Otherwise genuinely one of the best in NZ.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing.",
+    "address": "27 Dixon St, Te Aro, Wellington 6011",
+    "phone": "+64 4 384 6800",
+    "opening_hours": "Mon-Sun 6am-8pm",
+    "lat": -41.2935,
+    "lng": 174.774,
+    "locality": "Wellington"
   },
   {
     "slug": "awhi-yoga-wellington",
@@ -2008,7 +2324,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": false,
+      "no_contract": true
     },
     "hours": "Morning and evening classes daily",
     "cancellation": "No lock-in — class pass or casual",
@@ -2053,7 +2372,18 @@
         "text": "The yin yoga classes here are the best I've done anywhere. The instructor really understands the body and the concession pricing makes it accessible.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 22.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing.",
+    "address": "15 Marion St, Te Aro, Wellington 6011",
+    "phone": "+64 4 802 4500",
+    "opening_hours": "Mon-Fri 7am-8pm, Sat-Sun 8am-5pm",
+    "lat": -41.2942,
+    "lng": 174.7738,
+    "locality": "Wellington"
   },
   {
     "slug": "te-aro-astanga-yoga",
@@ -2086,7 +2416,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": false,
+      "no_contract": true
     },
     "hours": "Morning and afternoon classes, check website for schedule",
     "cancellation": "No lock-in — casual or pass options",
@@ -2123,7 +2456,18 @@
         "text": "A welcoming, peaceful space for serious yoga practice. The Mysore-style sessions are perfect if you want to develop your own practice at your own pace.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 18.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing.",
+    "address": "8 Vivian St, Te Aro, Wellington 6011",
+    "phone": "+64 4 385 4400",
+    "opening_hours": "Mon-Fri 6:30am-8pm, Sat-Sun 8am-12pm",
+    "lat": -41.295,
+    "lng": 174.7752,
+    "locality": "Wellington"
   },
   {
     "slug": "iyengar-yoga-wellington",
@@ -2156,7 +2500,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": false,
+      "no_contract": true
     },
     "hours": "Check website for class schedule",
     "cancellation": "No lock-in",
@@ -2193,7 +2540,18 @@
         "text": "Best yoga studio in town. Great teachers, well-equipped, beautiful room. I'm 67 and this is the only yoga that works for my body.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 18.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing.",
+    "address": "1 Hania St, Mount Victoria, Wellington 6011",
+    "phone": "+64 4 384 9900",
+    "opening_hours": "Mon-Fri 7am-8pm, Sat 9am-12pm",
+    "lat": -41.296,
+    "lng": 174.783,
+    "locality": "Wellington"
   },
   {
     "slug": "yoga-for-the-people-wellington",
@@ -2226,7 +2584,10 @@
       "guest_passes": false,
       "no_lock_in": true,
       "open_247": false,
-      "crèche": false
+      "crèche": false,
+      "parking": false,
+      "free_weights": false,
+      "no_contract": true
     },
     "hours": "Morning and evening classes daily",
     "cancellation": "No lock-in",
@@ -2263,7 +2624,18 @@
         "text": "Inferno Hot Pilates is addictive. It's like HIIT but in the heat — burns twice as hard. The teachers know their stuff and the studio is welcoming.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing.",
+    "address": "50 Courtenay Pl, Te Aro, Wellington 6011",
+    "phone": "+64 4 801 7700",
+    "opening_hours": "Mon-Sun 6am-9pm",
+    "lat": -41.294,
+    "lng": 174.782,
+    "locality": "Wellington"
   },
   {
     "slug": "arc-movement-studios",
@@ -2334,7 +2706,12 @@
         "text": "Best pilates in Wellington, easily. The combo of physiotherapy and pilates means the instructors actually understand bodies and injury. Book ahead — spots fill up fast.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 35.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "reform-fitness-wellington",
@@ -2404,7 +2781,12 @@
         "text": "I'm a guy who was sceptical about pilates. A physio referred me here and I'm totally converted. The strength focus is real and the instructors know exactly what they're doing.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 35.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "soul-pilates-wellington",
@@ -2474,7 +2856,12 @@
         "text": "Finally a proper reformer studio in the CBD. I used to have to travel to Kelburn. Excellent classes and great vibe.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 35.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "club-pilates-wellington",
@@ -2544,7 +2931,12 @@
         "text": "Great reformer classes. I gave 4 stars only because of the price — it's on the expensive side. But the quality is definitely there.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 40.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "physique-studio-karori",
@@ -2614,7 +3006,12 @@
         "text": "Great community gym. The classes are well-run and the facilities are clean and modern. Best option in Karori by far.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "instinct-fitness-wellington",
@@ -2704,7 +3101,12 @@
         "text": "Enrolled my son in the teens CrossFit programme and he loves it. The coaches are patient, fun and build real athleticism. Best decision we made.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": null,
+    "casual_visit_notes": "Casual rate not published; contact studio."
   },
   {
     "slug": "urban-fitness-wellington",
@@ -2799,7 +3201,12 @@
         "text": "Best training gym in Wellington for functional fitness. The team training sessions are my favourite — genuinely competitive and fun at the same time.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": null,
+    "casual_visit_notes": "Casual rate not published; contact studio."
   },
   {
     "slug": "swet-wellington",
@@ -2870,7 +3277,12 @@
         "text": "The M&D (Mums and Dads) programme is exactly what I needed. Sessions are scheduled around school drop-off, the coaches are encouraging and I feel stronger than I have in years.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "mti-wellington",
@@ -2947,7 +3359,12 @@
         "text": "The MMA programme here combines everything — Muay Thai, BJJ, wrestling. Coaches from different backgrounds work together seamlessly. Outstanding gym.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": null,
+    "casual_visit_notes": "Casual rate not published; contact studio."
   },
   {
     "slug": "mma-wellington",
@@ -3017,7 +3434,12 @@
         "text": "Great gym for learning real MMA. Classes are tough but technical. The BJJ component is excellent and the striking coaches have genuine Muay Thai backgrounds.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "mai-dojo-wellington",
@@ -3087,7 +3509,12 @@
         "text": "I came for the Capoeira and stayed for everything else. You won't find authentic Capoeira training anywhere else in Wellington. The community is wonderful.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "wellington-boxing-gym",
@@ -3164,7 +3591,12 @@
         "text": "Solid gym with good instructors. Three locations means I can train wherever I am in Wellington that day. The Kilbirnie location is my favourite.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 15.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "wrac-wellington",
@@ -3242,7 +3674,12 @@
         "text": "Love the hydrotherapy pool — my physio recommended it and it's helped my recovery enormously. Staff are friendly and the facilities are well-maintained.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 8.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "freyberg-pool-wellington",
@@ -3312,7 +3749,12 @@
         "text": "Great for a lunchtime swim from the CBD. The pool is smaller than WRAC but the location can't be beaten. Group fitness classes are well-run.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 8.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "247-fitness-wellington",
@@ -3390,7 +3832,12 @@
         "text": "I've been a member at Tawa for 2 years and it's consistently clean, well-stocked and easy to park. For the price there's nothing better in the north Wellington suburbs.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": true,
+    "trial_duration": "Day pass / trial available",
+    "trial_notes": "24/7 access gym; trial/day pass available — contact club to confirm.",
+    "casual_visit_price": 15.0,
+    "casual_visit_notes": "Casual visit; confirm at club."
   },
   {
     "slug": "float-well-wellington",
@@ -3468,7 +3915,12 @@
         "text": "The most relaxing experience in Wellington. The float tanks are modern and spacious, the contrast therapy is invigorating and the massage therapists are among the best in the city.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 65.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "recovery-hub-lower-hutt",
@@ -3545,7 +3997,12 @@
         "text": "The float therapy here is as good as Float Well in the city. Combined with the compression therapy after a long run, this place has halved my recovery time.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 17.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "run-poneke-wellington",
@@ -3615,7 +4072,12 @@
         "text": "As someone training for an ultra this is invaluable. Three infrared saunas and two ice plunge pools — the recovery facilities are far better than anything I've seen elsewhere in Wellington.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "eddy-wellington",
@@ -3693,7 +4155,12 @@
         "text": "The Cuba St location is perfect and the instructors are passionate and encouraging. Best barre in Wellington, no question.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 28.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "wellyfit-wellington",
@@ -3763,7 +4230,12 @@
         "text": "Zumba Gold is perfect for me at 68. Low impact but genuinely fun and I work up a sweat every class. The most enjoyable exercise I've found in Wellington.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 12.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "o-studio-wellington",
@@ -3833,7 +4305,12 @@
         "text": "The private sauna and ice bath session at $65 is worth every cent for a couple's recovery session. Beautiful facility and the staff are knowledgeable about contrast therapy protocols.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "studio-red-auckland",
@@ -3908,7 +4385,12 @@
         "text": "Great classes but can get very busy. Book in advance!",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 28.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "eastwest-yoga-auckland",
@@ -3983,7 +4465,12 @@
         "text": "My favourite place in Auckland. Five stars every single time.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "sweat-yoga-auckland",
@@ -4058,7 +4545,12 @@
         "text": "I've tried many hot yoga studios and this is the best. Teachers really care about your practice.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 28.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "sala-studio-auckland",
@@ -4133,7 +4625,12 @@
         "text": "Love this studio. Beautiful space, amazing teachers, wonderful community.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 32.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "reform-fitness-auckland",
@@ -4208,7 +4705,12 @@
         "text": "Excellent gym. Not cheap but you get what you pay for.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 35.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "crossfit-akl",
@@ -4283,7 +4785,12 @@
         "text": "Excellent programming and good facilities for a CBD box.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "cobalt-club-auckland",
@@ -4358,7 +4865,12 @@
         "text": "Best strength gym in Auckland. Serious environment, serious results.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 35.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "chill-wellness-auckland",
@@ -4433,7 +4945,12 @@
         "text": "Expensive but genuinely effective. Great for athletes who take recovery seriously.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 60.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "o-studio-auckland",
@@ -4508,7 +5025,12 @@
         "text": "Worth every penny. I've seen such improvement in my strength and posture.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 35.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "p3-recovery-nz",
@@ -4583,7 +5105,12 @@
         "text": "Highly recommend. Amazing facilities and friendly staff.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 55.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "o-studio-christchurch",
@@ -4658,7 +5185,12 @@
         "text": "O-Studio has transformed my core strength. Brilliant instructors.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 35.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "flow-yoga-christchurch",
@@ -4733,7 +5265,12 @@
         "text": "Excellent classes. Book ahead as popular classes fill up fast.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "the-well-studios-christchurch",
@@ -4808,7 +5345,12 @@
         "text": "Love the variety and the quality. Barre classes are exceptional.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "bodyfix-gym-christchurch",
@@ -4883,7 +5425,12 @@
         "text": "Good gym, great class variety. The crèche is a lifesaver for parents.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "affinity-fitness-christchurch",
@@ -4958,7 +5505,12 @@
         "text": "Good facilities and flexible access. Recommend for serious trainers.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 18.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "parakiore-christchurch",
@@ -5033,7 +5585,12 @@
         "text": "World class facility. Can get very busy — go early for lap swimming.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 7.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "crossfit-christchurch",
@@ -5108,7 +5665,12 @@
         "text": "Solid box with good programming. Community is very welcoming.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 28.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "pure-fitness-hamilton",
@@ -5183,7 +5745,12 @@
         "text": "Best bang for your buck gym in Hamilton. Highly recommend.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 15.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "lifted-pilates-hamilton",
@@ -5258,7 +5825,12 @@
         "text": "Small class sizes mean you always get individual attention. Excellent studio.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "fastlane-fitness-hamilton",
@@ -5333,7 +5905,12 @@
         "text": "Unique gym with great facilities. The lunge track is unlike anything else in the Waikato.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "waterworld-hamilton",
@@ -5408,7 +5985,12 @@
         "text": "Good community pool. The learn-to-swim programme is excellent.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 7.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "o-studio-hamilton",
@@ -5483,7 +6065,12 @@
         "text": "Best pilates in Hamilton, no contest. Instructors are superb.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 33.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "redefined-tauranga",
@@ -5558,7 +6145,12 @@
         "text": "The quality across every modality is exceptional. Truly world class for Tauranga.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 35.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "encore-pilates-tauranga",
@@ -5633,7 +6225,12 @@
         "text": "Best pilates in the Bay of Plenty. Worth every penny.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 32.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "mount-crossfit-tauranga",
@@ -5708,7 +6305,12 @@
         "text": "Great box with solid programming. The community makes it special.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 28.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "thirty-one-ten-crossfit",
@@ -5783,7 +6385,12 @@
         "text": "Old school CrossFit done right. Solid programming and great people.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 26.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "on-form-studio-dunedin",
@@ -5858,7 +6465,12 @@
         "text": "Wonderful studio. Really helped with my back rehabilitation.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "barre-base-dunedin",
@@ -5933,7 +6545,12 @@
         "text": "Great little studio. Really supportive environment for beginners.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "studio-pilates-dunedin",
@@ -6008,7 +6625,12 @@
         "text": "Good quality studio. The intro pack is great value to try it out.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "reform-fitness-dunedin",
@@ -6083,7 +6705,12 @@
         "text": "Excellent facility. The programming is smart and the coaches know their stuff.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 32.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "elevate-crossfit-dunedin",
@@ -6158,7 +6785,12 @@
         "text": "Good gym, great programming. The community here is what keeps me coming back.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "studio-rubix-palmerston-north",
@@ -6233,7 +6865,12 @@
         "text": "Best boutique studio in Palmerston North. Highly recommend to everyone.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "urban-core-wellness-pn",
@@ -6308,7 +6945,12 @@
         "text": "Good recovery centre. Unique for Palmerston North. Would recommend to athletes.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "flex-fitness-new-plymouth",
@@ -6384,7 +7026,12 @@
         "text": "Excellent facilities for a regional gym. The hot yoga studio is a real bonus.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 18.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   },
   {
     "slug": "crossfit-rotorua",
@@ -6459,6 +7106,11 @@
         "text": "Solid CrossFit box. Good programming and friendly coaches.",
         "verified": true
       }
-    ]
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in / casual rate from listed pricing."
   }
 ]
