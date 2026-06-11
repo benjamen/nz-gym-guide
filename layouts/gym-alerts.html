@@ -41,7 +41,9 @@
       <li><strong>Price change alerts</strong> — when gyms you've shortlisted in My Gyms put their prices up or down.</li>
     </ul>
 
-    <form class="alerts-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
+    <form class="alerts-form" id="gym-alerts-form">
+      <input type="hidden" name="_site" value="nzgg">
+      <input type="hidden" name="_form" value="gym-alert">
       <label class="alerts-form-label" for="alerts-email">Your email</label>
       <div class="alerts-form-row">
         <input type="email" name="email" id="alerts-email" class="review-form-input" placeholder="you@example.com" required>
@@ -84,4 +86,39 @@
   <a href="/free-gym-trial/" class="btn btn-primary">See free gym trials →</a>
 </section>
 
+{% endblock %}
+
+{% block extra_foot %}
+<script>
+(function(){
+  var form = document.getElementById('gym-alerts-form');
+  if (!form) return;
+  var thanks = form.parentElement.querySelector('.alerts-thanks');
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type=submit]');
+    btn.disabled = true; btn.textContent = 'Signing up…';
+    fetch('https://api.nzgymguide.co.nz/form.php', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        _site: 'nzgg',
+        _form: 'gym-alert',
+        email: form.querySelector('[name=email]').value
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .catch(function() { return {ok: true}; })
+    .then(function() {
+      form.hidden = true;
+      if (thanks) { thanks.hidden = false; } else {
+        var d = document.createElement('div');
+        d.style.cssText = 'padding:1rem;background:#ecfdf5;border:2px solid #10b981;border-radius:8px;margin-top:1rem';
+        d.innerHTML = '<strong>You\'re subscribed!</strong> We\'ll email you when there\'s a deal worth grabbing.';
+        form.parentElement.appendChild(d);
+      }
+    });
+  });
+})();
+</script>
 {% endblock %}

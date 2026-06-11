@@ -433,8 +433,10 @@
 
   <div class="review-form-wrap">
     <h3>Write a Review</h3>
-    <form class="review-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
-      <input type="hidden" name="gym" value="studio41">
+    <form class="review-form" id="gym-review-form">
+      <input type="hidden" name="_site" value="nzgg">
+      <input type="hidden" name="_form" value="review">
+      <input type="hidden" name="_page" value="studio41">
       <label class="review-form-label">Your rating</label>
       <div class="star-input" role="radiogroup" aria-label="Star rating">
         <button type="button" class="star-input-star" data-value="1" aria-label="1 star">★</button>
@@ -448,6 +450,9 @@
       <textarea name="review" class="review-form-input" placeholder="Your experience — facilities, staff, value for money..." required rows="4"></textarea>
       <button type="submit" class="btn btn-primary">Submit Review</button>
     </form>
+    <div id="gym-review-thanks" hidden style="padding:1rem;background:#ecfdf5;border:2px solid #10b981;border-radius:8px;margin-top:1rem">
+      <strong>Thank you!</strong> Your review has been submitted.
+    </div>
   </div>
 </section>
 

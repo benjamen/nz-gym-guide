@@ -150,7 +150,9 @@
       <li><strong>Price change alerts</strong> — when gyms you've shortlisted in My Gyms put their prices up or down.</li>
     </ul>
 
-    <form class="alerts-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
+    <form class="alerts-form" id="gym-alerts-form">
+      <input type="hidden" name="_site" value="nzgg">
+      <input type="hidden" name="_form" value="gym-alert">
       <label class="alerts-form-label" for="alerts-email">Your email</label>
       <div class="alerts-form-row">
         <input type="email" name="email" id="alerts-email" class="review-form-input" placeholder="you@example.com" required>
