@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}Gym Deal Alerts NZ — Free Trials, Promos & Price Drops by Email{% endblock %}
+{% block desc %}Get free email alerts when NZ gyms drop prices, launch free trials, or run joining-fee promos. One short email when there's a deal worth knowing — no spam, unsubscribe anytime.{% endblock %}
+{% block canonical %}gym-alerts/{% endblock %}
+
+{% block head_extra %}
+<script type="application/ld+json">
+[
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
+    {"@type":"ListItem","position":2,"name":"Gym Deal Alerts","item":"{{ site.base_url }}/gym-alerts/"}
+  ]},
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"How often will I get gym deal alerts?","acceptedAnswer":{"@type":"Answer","text":"Only when there's a deal worth knowing about — typically a few times a month. We don't send filler emails."}},
+    {"@type":"Question","name":"Is the gym deal alert service free?","acceptedAnswer":{"@type":"Answer","text":"Yes, it's completely free. You can unsubscribe at any time with one click."}}
+  ]}
+]
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Deal Alerts</div>
+    <h1>🔔 NZ Gym Deal Alerts</h1>
+    <p>Be first to know when gyms drop prices, launch free trials, or waive joining fees. Free email alerts — no spam, unsubscribe anytime.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<section class="section">
+  <div class="alerts-signup">
+    <h2>Get notified when there's a deal worth grabbing</h2>
+    <p>We watch every major NZ gym so you don't have to. Sign up and we'll email you when:</p>
+    <ul class="guide-list">
+      <li><strong>New deals &amp; promotions</strong> — joining-fee waivers, discounted weeks, member offers.</li>
+      <li><strong>Free trial updates</strong> — when a chain launches or extends a free trial or day pass.</li>
+      <li><strong>Price change alerts</strong> — when gyms you've shortlisted in My Gyms put their prices up or down.</li>
+    </ul>
+
+    <form class="alerts-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
+      <label class="alerts-form-label" for="alerts-email">Your email</label>
+      <div class="alerts-form-row">
+        <input type="email" name="email" id="alerts-email" class="review-form-input" placeholder="you@example.com" required>
+        <button type="submit" class="btn btn-primary">Get deal alerts →</button>
+      </div>
+      <p class="price-note">Free forever. We never share your email. Unsubscribe in one click.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Why use gym deal alerts?</h2>
+  <div class="guide-body">
+    <p>NZ gym deals come and go fast — a joining-fee waiver or a discounted-week promo might only run for a fortnight. Unless you're checking every gym's website constantly, it's easy to miss the moment that saves you $50–100 on signing up.</p>
+    <p>Deal Alerts does the watching for you. We track price and promo changes across every gym in our comparison, and email you only when something genuinely changes — not a marketing drip.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Deal Alerts — FAQ</h2>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary>How often will I get emails?</summary>
+      <p>Only when there's a real deal — usually a few times a month. We don't pad your inbox with filler.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Is it free?</summary>
+      <p>Completely free, and it always will be. Unsubscribe any time with one click.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I get alerts only for specific gyms?</summary>
+      <p>Save gyms to your <a href="/my-gyms/">My Gyms</a> shortlist and we'll prioritise price-change alerts for those chains.</p>
+    </details>
+  </div>
+</section>
+
+<section class="section cta-section">
+  <h2>Looking for a free trial right now?</h2>
+  <p>While you wait for the next deal, see every current NZ free gym trial and day pass in one place.</p>
+  <a href="/free-gym-trial/" class="btn btn-primary">See free gym trials →</a>
+</section>
+
+{% endblock %}

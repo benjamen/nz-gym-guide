@@ -104,7 +104,10 @@
       <div class="nav-links">
         <a href="/compare/">Compare</a>
         <a href="/free-gym-trial/">Free Trials</a>
+        <a href="/gym-alerts/">🔔 Deal Alerts</a>
+        <a href="/my-gyms/" class="nav-mygyms">♥ My Gyms <span id="mygyms-badge" hidden>0</span></a>
         <a href="/quiz/">Find My Gym ✨</a>
+        <a href="/personal-trainers/auckland/">Trainers</a>
         <a href="/gym/auckland/">Auckland</a>
         <a href="/gym/wellington/">Wellington</a>
         <a href="/guides/cheapest-gym-nz/">Cheapest</a>
@@ -118,6 +121,8 @@
     <div class="nav-mobile" id="navMobile">
       <a href="/compare/">Compare All Gyms</a>
       <a href="/free-gym-trial/">Free Gym Trials NZ</a>
+      <a href="/gym-alerts/">🔔 Gym Deal Alerts</a>
+      <a href="/personal-trainers/auckland/">Personal Trainers Auckland</a>
       <a href="/gym/auckland/">Auckland Gyms</a>
       <a href="/gym/wellington/">Wellington Gyms</a>
       <a href="/gym/christchurch/">Christchurch Gyms</a>
@@ -784,6 +789,66 @@
       </div>
     </div>
   </footer>
+
+  <!-- Star rating input -->
+  <script>
+    (function(){
+      var group = document.querySelector('.star-input');
+      if(!group) return;
+      var stars = group.querySelectorAll('.star-input-star');
+      var input = document.getElementById('gym-rating');
+      function paint(val){
+        stars.forEach(function(s){
+          s.classList.toggle('is-on', parseInt(s.dataset.value, 10) <= val);
+        });
+      }
+      stars.forEach(function(star){
+        star.addEventListener('mouseenter', function(){ paint(parseInt(star.dataset.value, 10)); });
+        star.addEventListener('click', function(){
+          var val = parseInt(star.dataset.value, 10);
+          if(input) input.value = val;
+          group.dataset.selected = val;
+          paint(val);
+        });
+      });
+      group.addEventListener('mouseleave', function(){
+        paint(parseInt(group.dataset.selected || 0, 10));
+      });
+    })();
+  </script>
+
+  <!-- My Gyms shortlist (localStorage) -->
+  <script>
+    (function(){
+      var KEY = 'nzgg_saved';
+      function getSaved(){ try{ return JSON.parse(localStorage.getItem(KEY)||'[]'); }catch(e){ return []; } }
+      function setSaved(arr){ localStorage.setItem(KEY, JSON.stringify(arr)); }
+      function updateBadge(){
+        var b = document.getElementById('mygyms-badge');
+        var n = getSaved().length;
+        if(b){ b.textContent = n; b.hidden = n === 0; }
+      }
+      function initSaveBtns(){
+        document.querySelectorAll('.gym-save-btn').forEach(function(btn){
+          var slug = btn.dataset.slug;
+          var saved = getSaved().some(function(g){ return g.slug === slug; });
+          btn.setAttribute('aria-pressed', saved);
+          btn.querySelector('.save-icon').textContent = saved ? '♥' : '♡';
+          btn.addEventListener('click', function(){
+            var arr = getSaved();
+            var idx = arr.findIndex(function(g){ return g.slug === slug; });
+            if(idx > -1){ arr.splice(idx, 1); }
+            else { arr.push({slug:slug, name:btn.dataset.name, url:btn.dataset.url}); }
+            setSaved(arr);
+            btn.setAttribute('aria-pressed', idx === -1);
+            btn.querySelector('.save-icon').textContent = idx === -1 ? '♥' : '♡';
+            updateBadge();
+          });
+        });
+      }
+      document.addEventListener('DOMContentLoaded', function(){ initSaveBtns(); updateBadge(); });
+    })();
+  </script>
 
   <!-- MailerLite Email Capture Script -->
   <script>

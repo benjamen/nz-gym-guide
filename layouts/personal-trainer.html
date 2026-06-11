@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block title %}{{ pt.name }} — Personal Trainer in {{ pt.suburb }}, Auckland | NZ Gym Guide{% endblock %}
+{% block desc %}{{ pt.name }} is a {{ pt.speciality|lower }} personal trainer in {{ pt.suburb }}, Auckland. ${{ pt.price_per_hour }}/hr.{% if pt.gym_affiliation %} Based at {{ pt.gym_affiliation }}.{% endif %} View certifications and contact details.{% endblock %}
+{% block canonical %}personal-trainers/{{ pt.slug }}/{% endblock %}
+
+{% block head_extra %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person",
+ "name":{{ pt.name | tojson }},
+ "jobTitle":"Personal Trainer",
+ "description":{{ pt.bio | tojson }},
+ "address":{"@type":"PostalAddress","addressLocality":{{ pt.suburb | tojson }},"addressRegion":"Auckland","addressCountry":"NZ"}{% if pt.gym_affiliation %},
+ "worksFor":{"@type":"Organization","name":{{ pt.gym_affiliation | tojson }}}{% endif %}{% if pt.instagram %},
+ "sameAs":["https://instagram.com/{{ pt.instagram }}"]{% endif %}
+}
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/personal-trainers/auckland/">Personal Trainers</a> › {{ pt.name }}</div>
+    <h1>{{ pt.name }}</h1>
+    <p>{{ pt.speciality }} personal trainer in {{ pt.suburb }}, Auckland</p>
+    <div class="gym-badges">
+      <span class="gym-type">{{ pt.speciality }}</span>
+      {% if pt.available %}<span class="feat feat-green">Taking clients</span>{% else %}<span class="feat">Waitlist only</span>{% endif %}
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="stats-grid">
+    <div class="stat-box">
+      <span class="stat-val">${{ pt.price_per_hour }}</span>
+      <span class="stat-label">Per hour</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-val">{{ pt.suburb }}</span>
+      <span class="stat-label">Location</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-val">{{ pt.speciality }}</span>
+      <span class="stat-label">Speciality</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>About {{ pt.name }}</h2>
+  <p>{{ pt.bio }}</p>
+</section>
+
+{% if pt.gym_affiliation %}
+<section class="section">
+  <h2>Where to train</h2>
+  <div class="contact-card">
+    <ul class="contact-list">
+      <li><strong>Based at:</strong> {{ pt.gym_affiliation }}</li>
+      <li><strong>Suburb:</strong> {{ pt.suburb }}, Auckland</li>
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if pt.certifications %}
+<section class="section">
+  <h2>Certifications</h2>
+  <ul>
+    {% for cert in pt.certifications %}<li>{{ cert }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<section class="section">
+  <h2>Get in touch</h2>
+  <div class="contact-card">
+    <ul class="contact-list">
+      {% if pt.contact_email %}<li><strong>Email:</strong> <a href="mailto:{{ pt.contact_email }}">{{ pt.contact_email }}</a></li>{% endif %}
+      {% if pt.instagram %}<li><strong>Instagram:</strong> <a href="https://instagram.com/{{ pt.instagram }}" target="_blank" rel="nofollow noopener">@{{ pt.instagram }}</a></li>{% endif %}
+      {% if not pt.contact_email and not pt.instagram %}<li>Contact details available on request — reach out via the trainer's gym.</li>{% endif %}
+    </ul>
+  </div>
+</section>
+
+<section class="section cta-section">
+  <h2>Browse more Auckland trainers</h2>
+  <p>Compare personal trainers across Auckland by suburb, speciality and price.</p>
+  <a href="/personal-trainers/auckland/" class="btn btn-primary">View all trainers →</a>
+</section>
+{% endblock %}

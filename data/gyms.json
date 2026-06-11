@@ -379,7 +379,90 @@
       "newmarket",
       "takapuna",
       "remuera"
-    ]
+    ],
+    "reviews": [
+      {
+        "name": "Aria",
+        "rating": 5,
+        "date": "April 2026",
+        "text": "Best classes in Auckland hands down. The RPM and BodyPump instructors are world class and the facilities are always spotless. Worth every cent for me."
+      },
+      {
+        "name": "Daniel",
+        "rating": 4,
+        "date": "March 2026",
+        "text": "Great equipment and atmosphere, but it can get really busy at peak times after 5pm. Membership is on the pricier side but the class variety justifies it."
+      },
+      {
+        "name": "Priya",
+        "rating": 3,
+        "date": "February 2026",
+        "text": "Love the group fitness but found the joining process and contract terms a bit confusing. Staff were helpful once I asked though."
+      }
+    ],
+    "facility_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+        "alt": "Les Mills gym floor with weights and equipment",
+        "caption": "Main gym floor"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80",
+        "alt": "Les Mills group fitness class",
+        "caption": "Group fitness classes included"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=800&q=80",
+        "alt": "Les Mills pool and aquatics",
+        "caption": "Swimming pool (selected locations)"
+      }
+    ],
+    "weekly_timetable": {
+      "Monday": [
+        "6:00am BodyPump",
+        "9:15am BodyBalance",
+        "12:10pm RPM",
+        "5:30pm BodyAttack",
+        "6:30pm BodyCombat"
+      ],
+      "Tuesday": [
+        "6:00am RPM",
+        "9:15am BodyPump",
+        "12:10pm CXWORX",
+        "5:30pm BodyBalance",
+        "6:30pm Sh'Bam"
+      ],
+      "Wednesday": [
+        "6:00am BodyAttack",
+        "9:15am BodyPump",
+        "12:10pm RPM",
+        "5:30pm BodyCombat",
+        "6:30pm BodyBalance"
+      ],
+      "Thursday": [
+        "6:00am BodyCombat",
+        "9:15am BodyBalance",
+        "12:10pm CXWORX",
+        "5:30pm BodyPump",
+        "6:30pm RPM"
+      ],
+      "Friday": [
+        "6:00am BodyPump",
+        "9:15am RPM",
+        "12:10pm BodyAttack",
+        "5:30pm BodyBalance"
+      ],
+      "Saturday": [
+        "8:00am BodyPump",
+        "9:15am BodyCombat",
+        "10:30am BodyBalance"
+      ],
+      "Sunday": [
+        "9:00am BodyBalance",
+        "10:15am RPM",
+        "11:30am BodyPump"
+      ]
+    }
   },
   {
     "slug": "city-fitness",
@@ -514,7 +597,84 @@
       "henderson",
       "manukau",
       "takapuna"
-    ]
+    ],
+    "reviews": [
+      {
+        "name": "Jordan",
+        "rating": 4,
+        "date": "April 2026",
+        "text": "Solid value for a 24/7 gym. Good range of machines and rarely have to wait. The app for booking classes works well most of the time."
+      },
+      {
+        "name": "Mel",
+        "rating": 5,
+        "date": "March 2026",
+        "text": "Friendly staff and a no-pressure vibe. I'm a beginner and never felt out of place. Open 24/7 which suits my shift work perfectly."
+      },
+      {
+        "name": "Sam",
+        "rating": 2,
+        "date": "January 2026",
+        "text": "Equipment is decent but my local branch was understaffed and a couple of machines were out of order for weeks. Cancelling took longer than expected."
+      }
+    ],
+    "facility_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&q=80",
+        "alt": "City Fitness gym equipment",
+        "caption": "Modern equipment at City Fitness"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&q=80",
+        "alt": "City Fitness cardio floor",
+        "caption": "Cardio and weights area"
+      }
+    ],
+    "weekly_timetable": {
+      "Monday": [
+        "6:00am Spin",
+        "9:30am Les Mills BodyPump",
+        "12:15pm HIIT",
+        "5:30pm Boxing",
+        "6:30pm Yoga"
+      ],
+      "Tuesday": [
+        "6:00am HIIT",
+        "9:30am Pilates",
+        "12:15pm Spin",
+        "5:30pm BodyPump",
+        "6:30pm Zumba"
+      ],
+      "Wednesday": [
+        "6:00am Boxing",
+        "9:30am Spin",
+        "12:15pm Core",
+        "5:30pm HIIT",
+        "6:30pm Yoga"
+      ],
+      "Thursday": [
+        "6:00am BodyPump",
+        "9:30am Yoga",
+        "12:15pm Spin",
+        "5:30pm Boxing",
+        "6:30pm Pilates"
+      ],
+      "Friday": [
+        "6:00am HIIT",
+        "9:30am Spin",
+        "12:15pm BodyPump",
+        "5:30pm Zumba"
+      ],
+      "Saturday": [
+        "8:00am Spin",
+        "9:15am HIIT",
+        "10:30am Yoga"
+      ],
+      "Sunday": [
+        "9:00am Yoga",
+        "10:15am Pilates"
+      ]
+    }
   },
   {
     "slug": "anytime-fitness",
@@ -640,6 +800,38 @@
       "henderson",
       "manukau",
       "remuera"
+    ],
+    "reviews": [
+      {
+        "name": "Tane",
+        "rating": 5,
+        "date": "April 2026",
+        "text": "Being able to use any location nationwide is a game changer when I travel for work. Clean, well-maintained and the 24/7 access is reliable."
+      },
+      {
+        "name": "Hannah",
+        "rating": 4,
+        "date": "February 2026",
+        "text": "Good honest gym. Not flashy but everything you need is there. Smaller sites can feel cramped at peak hours but generally a great experience."
+      },
+      {
+        "name": "Chris",
+        "rating": 3,
+        "date": "December 2025",
+        "text": "Convenient and the staff are nice, but the weekly cost crept up over time. Still reasonable value if you use the multi-club access."
+      }
+    ],
+    "facility_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+        "alt": "Anytime Fitness 24/7 gym floor",
+        "caption": "24/7 access at all locations"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=800&q=80",
+        "alt": "Anytime Fitness free weights area",
+        "caption": "Free weights and strength equipment"
+      }
     ]
   },
   {
@@ -761,6 +953,38 @@
       "mt-eden",
       "henderson",
       "east-tamaki"
+    ],
+    "reviews": [
+      {
+        "name": "Liana",
+        "rating": 4,
+        "date": "March 2026",
+        "text": "Compact gym but never overcrowded near me. The 24/7 access and security make late-night sessions feel safe. Good for a straightforward workout."
+      },
+      {
+        "name": "Ben",
+        "rating": 5,
+        "date": "February 2026",
+        "text": "No-frills and affordable. I don't need classes or a pool, just weights and cardio, and Snap delivers exactly that. Easy sign-up too."
+      },
+      {
+        "name": "Aroha",
+        "rating": 3,
+        "date": "January 2026",
+        "text": "Decent gym for the price. Wish there were more squat racks at busy times. Staff hours are limited so it's mostly self-service."
+      }
+    ],
+    "facility_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1637666062717-1c6bcfa4a4df?w=800&q=80",
+        "alt": "Snap Fitness gym interior",
+        "caption": "Snap Fitness club floor"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80",
+        "alt": "Snap Fitness cardio machines",
+        "caption": "Cardio zone"
+      }
     ]
   },
   {
@@ -1067,6 +1291,38 @@
       "takapuna",
       "henderson",
       "manukau"
+    ],
+    "reviews": [
+      {
+        "name": "Marcus",
+        "rating": 4,
+        "date": "April 2026",
+        "text": "No lock-in contract was the deciding factor for me. Clean facilities and good cardio equipment. Friendly enough team when they're around."
+      },
+      {
+        "name": "Sophie",
+        "rating": 5,
+        "date": "March 2026",
+        "text": "Love that I can cancel anytime — no stress. The 24/7 access is great and the gym is always tidy. Perfect for my routine."
+      },
+      {
+        "name": "Reuben",
+        "rating": 3,
+        "date": "December 2025",
+        "text": "Good value and flexible membership, but the free-weights area is a bit small. Fine for general fitness rather than serious lifting."
+      }
+    ],
+    "facility_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=800&q=80",
+        "alt": "Jetts Fitness 24/7 gym",
+        "caption": "Jetts 24/7 access gym"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&q=80",
+        "alt": "Jetts weights and equipment",
+        "caption": "Full range of weights"
+      }
     ]
   },
   {
@@ -1300,7 +1556,57 @@
       "ponsonby",
       "takapuna",
       "mt-eden"
-    ]
+    ],
+    "weekly_timetable": {
+      "Monday": [
+        "5:00am Foxtrot",
+        "6:00am Foxtrot",
+        "9:15am Brixton",
+        "12:00pm Brixton",
+        "5:30pm Romans",
+        "6:30pm Romans"
+      ],
+      "Tuesday": [
+        "5:00am Athletica",
+        "6:00am Athletica",
+        "9:15am Hollywood",
+        "12:00pm Hollywood",
+        "5:30pm Renegade",
+        "6:30pm Renegade"
+      ],
+      "Wednesday": [
+        "5:00am Bears",
+        "6:00am Bears",
+        "9:15am Empire",
+        "12:00pm Empire",
+        "5:30pm MK1",
+        "6:30pm MK1"
+      ],
+      "Thursday": [
+        "5:00am Panthers",
+        "6:00am Panthers",
+        "9:15am Firestorm",
+        "12:00pm Firestorm",
+        "5:30pm Gravity",
+        "6:30pm Gravity"
+      ],
+      "Friday": [
+        "5:00am Hollywood",
+        "6:00am Hollywood",
+        "9:15am Brixton",
+        "12:00pm Brixton",
+        "5:30pm Romans"
+      ],
+      "Saturday": [
+        "7:00am Hollywood",
+        "8:00am Hollywood",
+        "9:00am Mavericks"
+      ],
+      "Sunday": [
+        "8:00am Mavericks",
+        "9:00am Mavericks"
+      ]
+    }
   },
   {
     "slug": "classpass",

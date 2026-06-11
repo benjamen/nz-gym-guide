@@ -123,7 +123,10 @@
       <div class="nav-links">
         <a href="/compare/">Compare</a>
         <a href="/free-gym-trial/">Free Trials</a>
+        <a href="/gym-alerts/">🔔 Deal Alerts</a>
+        <a href="/my-gyms/" class="nav-mygyms">♥ My Gyms <span id="mygyms-badge" hidden>0</span></a>
         <a href="/quiz/">Find My Gym ✨</a>
+        <a href="/personal-trainers/auckland/">Trainers</a>
         <a href="/gym/auckland/">Auckland</a>
         <a href="/gym/wellington/">Wellington</a>
         <a href="/guides/cheapest-gym-nz/">Cheapest</a>
@@ -137,6 +140,8 @@
     <div class="nav-mobile" id="navMobile">
       <a href="/compare/">Compare All Gyms</a>
       <a href="/free-gym-trial/">Free Gym Trials NZ</a>
+      <a href="/gym-alerts/">🔔 Gym Deal Alerts</a>
+      <a href="/personal-trainers/auckland/">Personal Trainers Auckland</a>
       <a href="/gym/auckland/">Auckland Gyms</a>
       <a href="/gym/wellington/">Wellington Gyms</a>
       <a href="/gym/christchurch/">Christchurch Gyms</a>
@@ -180,6 +185,7 @@
       
     </div>
     <p class="verified-stamp">✓ Prices verified May 2026 · <a href="https://www.wellingtonyoga.co.nz/" target="_blank" rel="nofollow noopener">Confirm at Iyengar Yoga Centre Wellington →</a></p>
+    <button class="gym-save-btn" data-slug="iyengar-yoga-wellington" data-name="Iyengar Yoga Centre Wellington" data-url="/gym/iyengar-yoga-wellington/" aria-pressed="false" style="margin-top:.75rem;background:none;border:1.5px solid #fff;color:#fff;border-radius:20px;padding:.35rem .9rem;cursor:pointer;font-size:.9rem"><span class="save-icon">♡</span> Save</button>
   </div>
 </section>
 
@@ -397,6 +403,37 @@
   </div>
   <p class="reviews-source">Reviews sourced from Google Maps listings. Ratings reflect member sentiment at time of publication.</p>
 </section>
+
+
+<!-- User-submitted reviews -->
+<section class="section">
+  <h2>Member Reviews — Iyengar Yoga Centre Wellington</h2>
+  
+  <p>No member reviews yet — be the first to share your experience at Iyengar Yoga Centre Wellington.</p>
+  
+
+  <div class="review-form-wrap">
+    <h3>Write a Review</h3>
+    <form class="review-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
+      <input type="hidden" name="gym" value="iyengar-yoga-wellington">
+      <label class="review-form-label">Your rating</label>
+      <div class="star-input" role="radiogroup" aria-label="Star rating">
+        <button type="button" class="star-input-star" data-value="1" aria-label="1 star">★</button>
+        <button type="button" class="star-input-star" data-value="2" aria-label="2 stars">★</button>
+        <button type="button" class="star-input-star" data-value="3" aria-label="3 stars">★</button>
+        <button type="button" class="star-input-star" data-value="4" aria-label="4 stars">★</button>
+        <button type="button" class="star-input-star" data-value="5" aria-label="5 stars">★</button>
+      </div>
+      <input type="hidden" name="rating" id="gym-rating" required>
+      <input type="text" name="name" class="review-form-input" placeholder="First name (optional)">
+      <textarea name="review" class="review-form-input" placeholder="Your experience — facilities, staff, value for money..." required rows="4"></textarea>
+      <button type="submit" class="btn btn-primary">Submit Review</button>
+    </form>
+  </div>
+</section>
+
+
+
 
 
 
@@ -645,6 +682,66 @@
       </div>
     </div>
   </footer>
+
+  <!-- Star rating input -->
+  <script>
+    (function(){
+      var group = document.querySelector('.star-input');
+      if(!group) return;
+      var stars = group.querySelectorAll('.star-input-star');
+      var input = document.getElementById('gym-rating');
+      function paint(val){
+        stars.forEach(function(s){
+          s.classList.toggle('is-on', parseInt(s.dataset.value, 10) <= val);
+        });
+      }
+      stars.forEach(function(star){
+        star.addEventListener('mouseenter', function(){ paint(parseInt(star.dataset.value, 10)); });
+        star.addEventListener('click', function(){
+          var val = parseInt(star.dataset.value, 10);
+          if(input) input.value = val;
+          group.dataset.selected = val;
+          paint(val);
+        });
+      });
+      group.addEventListener('mouseleave', function(){
+        paint(parseInt(group.dataset.selected || 0, 10));
+      });
+    })();
+  </script>
+
+  <!-- My Gyms shortlist (localStorage) -->
+  <script>
+    (function(){
+      var KEY = 'nzgg_saved';
+      function getSaved(){ try{ return JSON.parse(localStorage.getItem(KEY)||'[]'); }catch(e){ return []; } }
+      function setSaved(arr){ localStorage.setItem(KEY, JSON.stringify(arr)); }
+      function updateBadge(){
+        var b = document.getElementById('mygyms-badge');
+        var n = getSaved().length;
+        if(b){ b.textContent = n; b.hidden = n === 0; }
+      }
+      function initSaveBtns(){
+        document.querySelectorAll('.gym-save-btn').forEach(function(btn){
+          var slug = btn.dataset.slug;
+          var saved = getSaved().some(function(g){ return g.slug === slug; });
+          btn.setAttribute('aria-pressed', saved);
+          btn.querySelector('.save-icon').textContent = saved ? '♥' : '♡';
+          btn.addEventListener('click', function(){
+            var arr = getSaved();
+            var idx = arr.findIndex(function(g){ return g.slug === slug; });
+            if(idx > -1){ arr.splice(idx, 1); }
+            else { arr.push({slug:slug, name:btn.dataset.name, url:btn.dataset.url}); }
+            setSaved(arr);
+            btn.setAttribute('aria-pressed', idx === -1);
+            btn.querySelector('.save-icon').textContent = idx === -1 ? '♥' : '♡';
+            updateBadge();
+          });
+        });
+      }
+      document.addEventListener('DOMContentLoaded', function(){ initSaveBtns(); updateBadge(); });
+    })();
+  </script>
 
   <!-- MailerLite Email Capture Script -->
   <script>

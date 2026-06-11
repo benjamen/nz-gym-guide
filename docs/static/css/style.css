@@ -154,6 +154,22 @@ img { max-width: 100%; display: block; }
 .feat-no { background: var(--gray-50); color: var(--gray-400); }
 .feat-yes span:first-child { font-weight: 700; }
 
+/* === Deal alerts signup === */
+.alerts-signup { background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 1.5rem; }
+.alerts-form { margin-top: 1.25rem; }
+.alerts-form-label { display: block; font-weight: 600; font-size: .9rem; margin-bottom: .4rem; }
+.alerts-form-row { display: flex; gap: .5rem; flex-wrap: wrap; }
+.alerts-form-row .review-form-input { flex: 1 1 240px; }
+.alerts-form-row .btn { white-space: nowrap; }
+
+/* === Weekly timetable === */
+.timetable-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); gap: .75rem; }
+.timetable-day { border: 1px solid var(--gray-200); border-radius: var(--radius); overflow: hidden; }
+.timetable-day h3 { background: var(--brand); color: #fff; font-size: .85rem; font-weight: 600; padding: .5rem .75rem; margin: 0; }
+.timetable-day ul { list-style: none; margin: 0; padding: 0; }
+.timetable-day li { font-size: .82rem; padding: .45rem .75rem; border-top: 1px solid var(--gray-100); color: var(--gray-600); }
+.timetable-day li:first-child { border-top: none; }
+
 /* === Location tags === */
 .location-tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
 .location-tag { background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: 20px; padding: .25rem .75rem; font-size: .85rem; }
@@ -454,6 +470,119 @@ img { max-width: 100%; display: block; }
   color: var(--gray-400);
   margin-top: .75rem;
 }
+
+/* === Review form & star input === */
+.review-form-wrap {
+  margin-top: 1.75rem;
+  padding: 1.5rem;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  max-width: 560px;
+}
+.review-form-wrap h3 { margin: 0 0 1rem; }
+.review-form { display: flex; flex-direction: column; gap: .85rem; }
+.review-form-label { font-weight: 600; font-size: .9rem; }
+.star-input { display: inline-flex; gap: .15rem; }
+.star-input-star {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--gray-200);
+  transition: color .1s ease;
+}
+.star-input-star.is-on { color: #f59e0b; }
+.review-form-input {
+  width: 100%;
+  padding: .7rem .85rem;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  font: inherit;
+  font-size: .92rem;
+  background: var(--white);
+}
+.review-form-input:focus {
+  outline: none;
+  border-color: var(--brand);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, .15);
+}
+.review-form .btn { align-self: flex-start; }
+
+/* === Personal trainer directory === */
+.amenity-filters select {
+  padding: .35rem .5rem;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  font: inherit;
+  font-size: .88rem;
+  background: var(--white);
+  margin-left: .35rem;
+}
+.pt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+.pt-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  box-shadow: var(--shadow);
+}
+.pt-card-head { display: flex; align-items: center; gap: .8rem; }
+.pt-avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.pt-name { font-size: 1.1rem; margin: 0; }
+.pt-name a { color: var(--text); }
+.pt-suburb { font-size: .82rem; color: var(--gray-400); }
+.pt-badge {
+  margin-left: auto;
+  font-size: .7rem;
+  font-weight: 700;
+  padding: .2rem .5rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+.pt-badge-full { background: var(--gray-100); color: var(--gray-600); }
+.pt-speciality {
+  align-self: flex-start;
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--brand-dk);
+  background: #eff6ff;
+  padding: .25rem .6rem;
+  border-radius: 999px;
+}
+.pt-bio { font-size: .9rem; color: var(--gray-600); line-height: 1.6; flex: 1; }
+.pt-card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--gray-100);
+  padding-top: .85rem;
+}
+.pt-price { font-size: 1.3rem; font-weight: 700; color: var(--text); }
+.pt-price span { font-size: .8rem; font-weight: 500; color: var(--gray-400); }
+.pt-empty { margin-top: 1.25rem; color: var(--gray-600); }
 
 /* === Type filter buttons === */
 .filter-bar {

@@ -57,6 +57,7 @@ def build():
     site  = load("site")
     gyms  = load("gyms")
     cities = load("cities")
+    pts   = load("personal-trainers")
 
     ctx = dict(site=site, gyms=gyms, cities=cities)
 
@@ -70,6 +71,9 @@ def build():
 
     # Free gym trials & day passes aggregator page
     render("free-trial.html", "free-gym-trial/index.html", **ctx)
+
+    # Gym deal alerts email signup page
+    render("gym-alerts.html", "gym-alerts/index.html", **ctx)
 
     # Individual gym pages
     for gym in gyms:
@@ -89,6 +93,26 @@ def build():
             if city["name"].lower() in gym_city_names and gym["slug"] in city.get("gyms_available", []):
                 render("gym-city.html", f"gym/{gym['slug']}/{city['slug']}/index.html",
                        gym=gym, city=city, **ctx)
+
+    # Auckland suburb pages — capture "[suburb] gym" local search
+    akl = next((c for c in cities if c["slug"] == "auckland"), None)
+    if akl:
+        akl_gyms = [gym_by_slug(gyms, s) for s in akl["gyms_available"] if gym_by_slug(gyms, s)]
+        for suburb in akl.get("suburbs", []):
+            suburb_slug = suburb.lower().replace(" ", "-").replace("&", "and")
+            render("gym-suburb.html", f"gym/auckland/{suburb_slug}/index.html",
+                   suburb_name=suburb, suburb_slug=suburb_slug,
+                   suburb_gyms=akl_gyms, city=akl, **ctx)
+
+    # My Gyms shortlist page
+    render("my-gyms.html", "my-gyms/index.html", **ctx)
+
+    # Personal trainer directory (Auckland)
+    render("personal-trainers.html", "personal-trainers/auckland/index.html",
+           pts=pts, **ctx)
+    for pt in pts:
+        render("personal-trainer.html", f"personal-trainers/{pt['slug']}/index.html",
+               pt=pt, **ctx)
 
     # Guide pages — load all guides dynamically from content/guides/
     guides_dir = CONTENT / "guides"
@@ -159,6 +183,7 @@ def build():
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("compare", "0.9", "weekly")
     sitemap += sm_url("free-gym-trial", "0.9", "weekly")
+    sitemap += sm_url("gym-alerts", "0.7", "weekly")
     sitemap += sm_url("quiz", "0.8", "monthly")
     sitemap += sm_url("about", "0.5", "yearly")
     sitemap += sm_url("privacy", "0.3", "yearly")
@@ -176,6 +201,9 @@ def build():
         for city in cities:
             if city["name"].lower() in gym_city_names and gym["slug"] in city.get("gyms_available", []):
                 sitemap += sm_url(f"gym/{gym['slug']}/{city['slug']}", "0.75", "monthly")
+    sitemap += sm_url("personal-trainers/auckland", "0.8", "weekly")
+    for pt in pts:
+        sitemap += sm_url(f"personal-trainers/{pt['slug']}", "0.7", "monthly")
     for g in guides:
         sitemap += sm_url(f"guides/{g['slug']}", "0.75", "monthly")
     if posts:

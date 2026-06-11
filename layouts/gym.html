@@ -83,6 +83,7 @@
       {% if gym.nationwide %}<span class="feat">Nationwide</span>{% endif %}
     </div>
     <p class="verified-stamp">✓ Prices verified May 2026 · <a href="{{ gym.website }}" target="_blank" rel="nofollow noopener">Confirm at {{ gym.name }} →</a></p>
+    <button class="gym-save-btn" data-slug="{{ gym.slug }}" data-name="{{ gym.name }}" data-url="/gym/{{ gym.slug }}/" aria-pressed="false" style="margin-top:.75rem;background:none;border:1.5px solid #fff;color:#fff;border-radius:20px;padding:.35rem .9rem;cursor:pointer;font-size:.9rem"><span class="save-icon">♡</span> Save</button>
   </div>
 </section>
 {% endblock %}
@@ -279,6 +280,51 @@
 </section>
 {% endif %}
 
+<!-- User-submitted reviews -->
+<section class="section">
+  <h2>Member Reviews — {{ gym.name }}</h2>
+  {% if gym.reviews %}
+  <div class="reviews-grid">
+    {% for review in gym.reviews %}
+    <div class="review-card">
+      <div class="review-header">
+        <div class="review-avatar">{{ (review.name or "A")[0] | upper }}</div>
+        <div class="review-meta">
+          <span class="review-name">{{ review.name or "Anonymous" }}</span>
+          <span class="review-date">{{ review.date }}</span>
+        </div>
+      </div>
+      <div class="review-stars">
+        {% for i in range(review.rating | int) %}★{% endfor %}{% for i in range(5 - (review.rating | int)) %}☆{% endfor %}
+      </div>
+      <p class="review-text">{{ review.text }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>No member reviews yet — be the first to share your experience at {{ gym.name }}.</p>
+  {% endif %}
+
+  <div class="review-form-wrap">
+    <h3>Write a Review</h3>
+    <form class="review-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
+      <input type="hidden" name="gym" value="{{ gym.slug }}">
+      <label class="review-form-label">Your rating</label>
+      <div class="star-input" role="radiogroup" aria-label="Star rating">
+        <button type="button" class="star-input-star" data-value="1" aria-label="1 star">★</button>
+        <button type="button" class="star-input-star" data-value="2" aria-label="2 stars">★</button>
+        <button type="button" class="star-input-star" data-value="3" aria-label="3 stars">★</button>
+        <button type="button" class="star-input-star" data-value="4" aria-label="4 stars">★</button>
+        <button type="button" class="star-input-star" data-value="5" aria-label="5 stars">★</button>
+      </div>
+      <input type="hidden" name="rating" id="gym-rating" required>
+      <input type="text" name="name" class="review-form-input" placeholder="First name (optional)">
+      <textarea name="review" class="review-form-input" placeholder="Your experience — facilities, staff, value for money..." required rows="4"></textarea>
+      <button type="submit" class="btn btn-primary">Submit Review</button>
+    </form>
+  </div>
+</section>
+
 {% if gym.monthly_cost %}
 <!-- Monthly cost breakdown -->
 <section class="section">
@@ -408,6 +454,24 @@
 </section>
 {% endif %}
 
+{% if gym.weekly_timetable %}
+<!-- Weekly class timetable -->
+<section class="section">
+  <h2>{{ gym.name }} Weekly Class Timetable</h2>
+  <p class="section-intro">A typical week of group fitness classes. Timetables vary by club and change seasonally — confirm with your local {{ gym.name }} before turning up.</p>
+  <div class="timetable-grid">
+    {% for day, classes in gym.weekly_timetable.items() %}
+    <div class="timetable-day">
+      <h3>{{ day }}</h3>
+      <ul>
+        {% for cls in classes %}<li>{{ cls }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {% if gym.review_summary %}
 <!-- Review summary -->
 <section class="section">
@@ -426,6 +490,21 @@
       <summary>{{ faq.q }}</summary>
       <p>{{ faq.a }}</p>
     </details>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if gym.facility_images %}
+<!-- Facility photos -->
+<section class="section">
+  <h2>{{ gym.name }} Facilities</h2>
+  <div class="facility-gallery" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;margin-top:1rem">
+    {% for img in gym.facility_images %}
+    <figure style="margin:0;border-radius:8px;overflow:hidden;border:1px solid #e5e7eb">
+      <img src="{{ img.url }}" alt="{{ img.alt | default(gym.name ~ ' facility') }}" loading="lazy" style="width:100%;height:200px;object-fit:cover;display:block">
+      {% if img.caption %}<figcaption style="padding:.5rem .75rem;font-size:.8rem;color:#6b7280;background:#f9fafb">{{ img.caption }}</figcaption>{% endif %}
+    </figure>
     {% endfor %}
   </div>
 </section>

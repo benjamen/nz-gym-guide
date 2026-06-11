@@ -123,7 +123,10 @@
       <div class="nav-links">
         <a href="/compare/">Compare</a>
         <a href="/free-gym-trial/">Free Trials</a>
+        <a href="/gym-alerts/">🔔 Deal Alerts</a>
+        <a href="/my-gyms/" class="nav-mygyms">♥ My Gyms <span id="mygyms-badge" hidden>0</span></a>
         <a href="/quiz/">Find My Gym ✨</a>
+        <a href="/personal-trainers/auckland/">Trainers</a>
         <a href="/gym/auckland/">Auckland</a>
         <a href="/gym/wellington/">Wellington</a>
         <a href="/guides/cheapest-gym-nz/">Cheapest</a>
@@ -137,6 +140,8 @@
     <div class="nav-mobile" id="navMobile">
       <a href="/compare/">Compare All Gyms</a>
       <a href="/free-gym-trial/">Free Gym Trials NZ</a>
+      <a href="/gym-alerts/">🔔 Gym Deal Alerts</a>
+      <a href="/personal-trainers/auckland/">Personal Trainers Auckland</a>
       <a href="/gym/auckland/">Auckland Gyms</a>
       <a href="/gym/wellington/">Wellington Gyms</a>
       <a href="/gym/christchurch/">Christchurch Gyms</a>
@@ -186,6 +191,7 @@
       <span class="feat">Nationwide</span>
     </div>
     <p class="verified-stamp">✓ Prices verified May 2026 · <a href="https://f45training.co.nz/" target="_blank" rel="nofollow noopener">Confirm at F45 Training →</a></p>
+    <button class="gym-save-btn" data-slug="f45" data-name="F45 Training" data-url="/gym/f45/" aria-pressed="false" style="margin-top:.75rem;background:none;border:1.5px solid #fff;color:#fff;border-radius:20px;padding:.35rem .9rem;cursor:pointer;font-size:.9rem"><span class="save-icon">♡</span> Save</button>
   </div>
 </section>
 
@@ -481,6 +487,32 @@
 </section>
 
 
+<!-- User-submitted reviews -->
+<section class="section">
+  <h2>Member Reviews — F45 Training</h2>
+  
+  <p>No member reviews yet — be the first to share your experience at F45 Training.</p>
+  
+
+  <div class="review-form-wrap">
+    <h3>Write a Review</h3>
+    <form class="review-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
+      <input type="hidden" name="gym" value="f45">
+      <label class="review-form-label">Your rating</label>
+      <div class="star-input" role="radiogroup" aria-label="Star rating">
+        <button type="button" class="star-input-star" data-value="1" aria-label="1 star">★</button>
+        <button type="button" class="star-input-star" data-value="2" aria-label="2 stars">★</button>
+        <button type="button" class="star-input-star" data-value="3" aria-label="3 stars">★</button>
+        <button type="button" class="star-input-star" data-value="4" aria-label="4 stars">★</button>
+        <button type="button" class="star-input-star" data-value="5" aria-label="5 stars">★</button>
+      </div>
+      <input type="hidden" name="rating" id="gym-rating" required>
+      <input type="text" name="name" class="review-form-input" placeholder="First name (optional)">
+      <textarea name="review" class="review-form-input" placeholder="Your experience — facilities, staff, value for money..." required rows="4"></textarea>
+      <button type="submit" class="btn btn-primary">Submit Review</button>
+    </form>
+  </div>
+</section>
 
 
 
@@ -491,6 +523,69 @@
 
 
 
+
+
+
+
+
+
+<!-- Weekly class timetable -->
+<section class="section">
+  <h2>F45 Training Weekly Class Timetable</h2>
+  <p class="section-intro">A typical week of group fitness classes. Timetables vary by club and change seasonally — confirm with your local F45 Training before turning up.</p>
+  <div class="timetable-grid">
+    
+    <div class="timetable-day">
+      <h3>Monday</h3>
+      <ul>
+        <li>5:00am Foxtrot</li><li>6:00am Foxtrot</li><li>9:15am Brixton</li><li>12:00pm Brixton</li><li>5:30pm Romans</li><li>6:30pm Romans</li>
+      </ul>
+    </div>
+    
+    <div class="timetable-day">
+      <h3>Tuesday</h3>
+      <ul>
+        <li>5:00am Athletica</li><li>6:00am Athletica</li><li>9:15am Hollywood</li><li>12:00pm Hollywood</li><li>5:30pm Renegade</li><li>6:30pm Renegade</li>
+      </ul>
+    </div>
+    
+    <div class="timetable-day">
+      <h3>Wednesday</h3>
+      <ul>
+        <li>5:00am Bears</li><li>6:00am Bears</li><li>9:15am Empire</li><li>12:00pm Empire</li><li>5:30pm MK1</li><li>6:30pm MK1</li>
+      </ul>
+    </div>
+    
+    <div class="timetable-day">
+      <h3>Thursday</h3>
+      <ul>
+        <li>5:00am Panthers</li><li>6:00am Panthers</li><li>9:15am Firestorm</li><li>12:00pm Firestorm</li><li>5:30pm Gravity</li><li>6:30pm Gravity</li>
+      </ul>
+    </div>
+    
+    <div class="timetable-day">
+      <h3>Friday</h3>
+      <ul>
+        <li>5:00am Hollywood</li><li>6:00am Hollywood</li><li>9:15am Brixton</li><li>12:00pm Brixton</li><li>5:30pm Romans</li>
+      </ul>
+    </div>
+    
+    <div class="timetable-day">
+      <h3>Saturday</h3>
+      <ul>
+        <li>7:00am Hollywood</li><li>8:00am Hollywood</li><li>9:00am Mavericks</li>
+      </ul>
+    </div>
+    
+    <div class="timetable-day">
+      <h3>Sunday</h3>
+      <ul>
+        <li>8:00am Mavericks</li><li>9:00am Mavericks</li>
+      </ul>
+    </div>
+    
+  </div>
+</section>
 
 
 
@@ -727,6 +822,66 @@
       </div>
     </div>
   </footer>
+
+  <!-- Star rating input -->
+  <script>
+    (function(){
+      var group = document.querySelector('.star-input');
+      if(!group) return;
+      var stars = group.querySelectorAll('.star-input-star');
+      var input = document.getElementById('gym-rating');
+      function paint(val){
+        stars.forEach(function(s){
+          s.classList.toggle('is-on', parseInt(s.dataset.value, 10) <= val);
+        });
+      }
+      stars.forEach(function(star){
+        star.addEventListener('mouseenter', function(){ paint(parseInt(star.dataset.value, 10)); });
+        star.addEventListener('click', function(){
+          var val = parseInt(star.dataset.value, 10);
+          if(input) input.value = val;
+          group.dataset.selected = val;
+          paint(val);
+        });
+      });
+      group.addEventListener('mouseleave', function(){
+        paint(parseInt(group.dataset.selected || 0, 10));
+      });
+    })();
+  </script>
+
+  <!-- My Gyms shortlist (localStorage) -->
+  <script>
+    (function(){
+      var KEY = 'nzgg_saved';
+      function getSaved(){ try{ return JSON.parse(localStorage.getItem(KEY)||'[]'); }catch(e){ return []; } }
+      function setSaved(arr){ localStorage.setItem(KEY, JSON.stringify(arr)); }
+      function updateBadge(){
+        var b = document.getElementById('mygyms-badge');
+        var n = getSaved().length;
+        if(b){ b.textContent = n; b.hidden = n === 0; }
+      }
+      function initSaveBtns(){
+        document.querySelectorAll('.gym-save-btn').forEach(function(btn){
+          var slug = btn.dataset.slug;
+          var saved = getSaved().some(function(g){ return g.slug === slug; });
+          btn.setAttribute('aria-pressed', saved);
+          btn.querySelector('.save-icon').textContent = saved ? '♥' : '♡';
+          btn.addEventListener('click', function(){
+            var arr = getSaved();
+            var idx = arr.findIndex(function(g){ return g.slug === slug; });
+            if(idx > -1){ arr.splice(idx, 1); }
+            else { arr.push({slug:slug, name:btn.dataset.name, url:btn.dataset.url}); }
+            setSaved(arr);
+            btn.setAttribute('aria-pressed', idx === -1);
+            btn.querySelector('.save-icon').textContent = idx === -1 ? '♥' : '♡';
+            updateBadge();
+          });
+        });
+      }
+      document.addEventListener('DOMContentLoaded', function(){ initSaveBtns(); updateBadge(); });
+    })();
+  </script>
 
   <!-- MailerLite Email Capture Script -->
   <script>

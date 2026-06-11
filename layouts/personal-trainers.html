@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}Personal Trainers in Auckland — Directory & Prices 2026 | NZ Gym Guide{% endblock %}
+{% block desc %}Find a personal trainer in Auckland. Browse {{ pts|length }} trainers by suburb and speciality — weight loss, strength, sports performance, prenatal and more. Prices from ${{ (pts|map(attribute='price_per_hour')|min) }}/hr.{% endblock %}
+{% block canonical %}personal-trainers/auckland/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Personal Trainers</div>
+    <h1>Personal Trainers in Auckland 2026</h1>
+    <p>Browse independent and gym-affiliated personal trainers across Auckland. Filter by suburb and speciality to find the right coach for your goals.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="amenity-filters">
+    <span class="amenity-filters-label">Filter:</span>
+    <label>Suburb
+      <select id="pt-filter-suburb">
+        <option value="">All suburbs</option>
+        {% for s in pts|map(attribute='suburb')|unique|sort %}
+        <option value="{{ s }}">{{ s }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Speciality
+      <select id="pt-filter-speciality">
+        <option value="">All specialities</option>
+        {% for s in pts|map(attribute='speciality')|unique|sort %}
+        <option value="{{ s }}">{{ s }}</option>
+        {% endfor %}
+      </select>
+    </label>
+  </div>
+
+  <div class="pt-grid" id="pt-grid">
+    {% for pt in pts %}
+    <article class="pt-card" data-suburb="{{ pt.suburb }}" data-speciality="{{ pt.speciality }}">
+      <div class="pt-card-head">
+        <div class="pt-avatar">{{ pt.name[0] | upper }}</div>
+        <div>
+          <h2 class="pt-name"><a href="/personal-trainers/{{ pt.slug }}/">{{ pt.name }}</a></h2>
+          <span class="pt-suburb">{{ pt.suburb }}, Auckland</span>
+        </div>
+        {% if not pt.available %}<span class="pt-badge pt-badge-full">Waitlist</span>{% endif %}
+      </div>
+      <span class="pt-speciality">{{ pt.speciality }}</span>
+      <p class="pt-bio">{{ pt.bio }}</p>
+      <div class="pt-card-foot">
+        <span class="pt-price">${{ pt.price_per_hour }}<span>/hr</span></span>
+        <a href="/personal-trainers/{{ pt.slug }}/" class="btn btn-sm">View profile →</a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <p class="pt-empty" id="pt-empty" hidden>No trainers match those filters. Try widening your search.</p>
+
+  <p class="reviews-source" style="margin-top:1.5rem">Trainer listings are independent. NZ Gym Guide does not take a commission on bookings — contact trainers directly to arrange sessions.</p>
+</section>
+
+<script>
+  (function(){
+    var suburbSel = document.getElementById('pt-filter-suburb');
+    var specSel = document.getElementById('pt-filter-speciality');
+    var cards = Array.prototype.slice.call(document.querySelectorAll('#pt-grid .pt-card'));
+    var empty = document.getElementById('pt-empty');
+    function apply(){
+      var sub = suburbSel.value, spec = specSel.value, shown = 0;
+      cards.forEach(function(c){
+        var ok = (!sub || c.dataset.suburb === sub) && (!spec || c.dataset.speciality === spec);
+        c.hidden = !ok;
+        if(ok) shown++;
+      });
+      empty.hidden = shown !== 0;
+    }
+    suburbSel.addEventListener('change', apply);
+    specSel.addEventListener('change', apply);
+  })();
+</script>
+{% endblock %}

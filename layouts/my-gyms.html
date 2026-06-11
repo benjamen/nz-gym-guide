@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}My Saved Gyms — NZ Gym Guide{% endblock %}
+{% block desc %}Your shortlisted NZ gyms. Compare saved gyms side by side and find your perfect membership.{% endblock %}
+{% block canonical %}my-gyms/{% endblock %}
+{% block content %}
+<div class="section" style="max-width:860px;margin:0 auto;padding:2rem 1.25rem">
+  <h1>♥ My Saved Gyms</h1>
+  <p style="color:#6b7280;margin-bottom:1.5rem">Gyms you've shortlisted. Saved in your browser — no account needed.</p>
+  <div id="saved-list"></div>
+  <p id="empty-state" style="color:#9ca3af;text-align:center;padding:3rem 0">
+    You haven't saved any gyms yet.<br>
+    Hit ♡ Save on any gym page to add it here.
+  </p>
+  <a href="/compare/" style="display:inline-block;margin-top:1rem;font-weight:600">← Browse all gyms</a>
+</div>
+<script>
+(function(){
+  var KEY='nzgg_saved';
+  function getSaved(){try{return JSON.parse(localStorage.getItem(KEY)||'[]');}catch(e){return[];}}
+  var saved=getSaved();
+  var el=document.getElementById('saved-list');
+  var empty=document.getElementById('empty-state');
+  if(!saved.length){empty.hidden=false;return;}
+  empty.hidden=true;
+  var html='<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem">';
+  saved.forEach(function(g){
+    html+='<div style="border:1px solid #e5e7eb;border-radius:10px;padding:1rem;background:#fff">'
+      +'<strong><a href="'+g.url+'">'+g.name+'</a></strong>'
+      +'<br><button onclick="remove(\''+g.slug+'\')" style="margin-top:.5rem;font-size:.8rem;color:#ef4444;background:none;border:none;cursor:pointer">Remove</button>'
+      +'</div>';
+  });
+  html+='</div>';
+  el.innerHTML=html;
+  window.remove=function(slug){
+    var arr=getSaved().filter(function(g){return g.slug!==slug;});
+    localStorage.setItem(KEY,JSON.stringify(arr));
+    location.reload();
+  };
+})();
+</script>
+{% endblock %}
