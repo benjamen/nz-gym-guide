@@ -98,7 +98,7 @@
     e.preventDefault();
     var btn = form.querySelector('button[type=submit]');
     btn.disabled = true; btn.textContent = 'Signing up…';
-    fetch('https://api.nzgymguide.co.nz/form.php', {
+    fetch('https://nzgymguide.co.nz/api/form.php', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
