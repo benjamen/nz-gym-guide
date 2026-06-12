@@ -748,6 +748,36 @@
     })();
   </script>
 
+  
+<script>
+(function(){
+  var form = document.getElementById('gym-review-form');
+  var thanks = document.getElementById('gym-review-thanks');
+  if (!form) return;
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type=submit]');
+    btn.disabled = true; btn.textContent = 'Submitting…';
+    var fd = new FormData(form);
+    var body = {};
+    fd.forEach(function(v, k) { body[k] = v; });
+    fetch('https://forms.optified.nz/form', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(body)
+    })
+    .then(function(r) { return r.json(); })
+    .catch(function() { return {ok: true}; })
+    .then(function() {
+      form.hidden = true;
+      thanks.hidden = false;
+      thanks.scrollIntoView({behavior: 'smooth'});
+    });
+  });
+})();
+</script>
+
+
   <!-- MailerLite Email Capture Script -->
   <script>
     (function() {
