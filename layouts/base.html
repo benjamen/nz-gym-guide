@@ -17,7 +17,7 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.base_url }}/{% block og_canonical %}{% block og_canonical2 %}{% endblock %}{% endblock %}">
+  <meta property="og:url" content="{{ site.base_url }}/{{ self.canonical() }}">
   <meta property="og:title" content="{% block og_title %}{% block og_title2 %}{{ site.title }}{% endblock %}{% endblock %}">
   <meta property="og:description" content="{% block og_desc %}{% block og_desc2 %}{{ site.description }}{% endblock %}{% endblock %}">
   <meta property="og:image" content="{{ site.base_url }}/static/img/og-image.svg">
