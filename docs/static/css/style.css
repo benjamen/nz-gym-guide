@@ -50,8 +50,8 @@ img { max-width: 100%; display: block; }
   height: 60px;
 }
 .nav-logo { font-weight: 700; font-size: 1.1rem; color: var(--text); }
-.nav-links { display: flex; gap: 1.5rem; }
-.nav-links a { color: var(--gray-600); font-size: .9rem; }
+.nav-links { display: flex; gap: 1.5rem; flex-wrap: nowrap; align-items: center; }
+.nav-links a { color: var(--gray-600); font-size: .9rem; white-space: nowrap; }
 .nav-links a:hover { color: var(--brand); text-decoration: none; }
 
 /* === Hero === */
