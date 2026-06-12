@@ -537,7 +537,7 @@
     var fd = new FormData(form);
     var body = {};
     fd.forEach(function(v, k) { body[k] = v; });
-    fetch('https://nzgymguide.co.nz/api/form.php', {
+    fetch('https://forms.optified.nz/form', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(body)
