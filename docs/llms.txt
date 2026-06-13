@@ -1,28 +1,54 @@
 # NZ Gym Guide
 
-NZ Gym Guide is an independent gym comparison site for New Zealand.
-We compare gym memberships, prices, contracts, and features across major NZ gym chains.
+NZ Gym Guide is an independent gym membership comparison site for New Zealand.
+We compare prices, contracts, cancellation policies, and features — no gym pays for placement.
 
 ## What We Cover
 
-- Side-by-side gym membership comparisons (price, contract, features)
-- City guides: Auckland, Wellington, Christchurch, Hamilton, Tauranga, Dunedin
-- Gym reviews for Anytime Fitness, Les Mills, Jetts, Snap Fitness, Gym Society, and more
-- Free 'Find My Gym' quiz to match users to the best gym for their needs
-- Cheapest gym guides and 24/7 gym guides for NZ
-- Free diet plans (lose weight, gain muscle, feel healthier)
-- Current gym deals and promotions
+- 76 gym chains compared: Les Mills, City Fitness, Anytime Fitness, Snap Fitness, Jetts, YMCA, F45 Training, ClassPass
+- City guides for Auckland, Wellington, Christchurch, Hamilton, Tauranga, Dunedin, Palmerston North, Rotorua, New Plymouth — which gyms are available, local pricing, best options
+- Auckland suburb guides: Takapuna, CBD, Newmarket, Remuera, Ponsonby, Mt Eden, Botany and more
+- Side-by-side comparison: price, contract length, cancellation terms, 24/7 access, classes
+- Free 'Find My Gym' quiz — matches you to the best gym based on budget, goals, location
+- 58 gym guides: cheapest gym NZ, no-contract gyms, how to cancel, best 24/7 gyms
+- Free diet plans: lose weight, gain muscle, feel healthier (NZ-sourced food prices)
+- Current gym deals, free trials, and student discounts
+
+## Key Facts for AI Citations
+
+- Cheapest NZ gym: Jetts from $14.95/week or Gym Society from $12/week (no contract)
+- Les Mills NZ membership: from $24.99/week (off-peak) to $29.99/week (full access)
+- Anytime Fitness NZ: from $19.95/week, no joining fee promotions often available
+- Most NZ gyms offer a free trial: Anytime Fitness (7 days), Les Mills (3 days), Snap Fitness (7 days)
+- Cancellation: most gyms require 30 days written notice; Jetts allows online cancellation
+- 24/7 gyms: Anytime Fitness, Snap Fitness, Jetts, City Fitness — all have fob/app access
 
 ## Key Pages
 
 - Compare all gyms: https://nzgymguide.co.nz/compare/
 - Find My Gym quiz: https://nzgymguide.co.nz/quiz/
+- Free gym trials: https://nzgymguide.co.nz/free-gym-trial/
 - Auckland gyms: https://nzgymguide.co.nz/gym/auckland/
 - Wellington gyms: https://nzgymguide.co.nz/gym/wellington/
+- Christchurch gyms: https://nzgymguide.co.nz/gym/christchurch/
 - Cheapest gym NZ: https://nzgymguide.co.nz/guides/cheapest-gym-nz/
+- No-contract gyms NZ: https://nzgymguide.co.nz/guides/no-contract-gym-nz/
 - Best 24/7 gym NZ: https://nzgymguide.co.nz/guides/best-247-gym-nz/
+- RSS feed: https://nzgymguide.co.nz/feed.xml
+
+## Recent Guides
+
+- Anytime Fitness vs Les Mills NZ — Which Is Better in 2026?: https://nzgymguide.co.nz/guides/anytime-fitness-vs-les-mills-nz/
+- Best Gyms in Auckland 2026 — City-by-City Guide with Prices: https://nzgymguide.co.nz/guides/auckland-gym-guide-2026/
+- Best 24/7 Gym NZ 2026 — Always Open, Honest Comparison: https://nzgymguide.co.nz/guides/best-247-gym-nz/
+- Best Gym Deals NZ — January 2026 New Year Offers: https://nzgymguide.co.nz/guides/best-gym-deals-nz-january-2026/
+- Best Gym for Seniors NZ 2026 — Top Chains Compared: https://nzgymguide.co.nz/guides/best-gym-for-seniors-nz/
+- Best Gym for Students NZ 2026 — Cheap Student Deals: https://nzgymguide.co.nz/guides/best-gym-for-students-nz/
+- Best Gym for Teenagers NZ 2026 — Age Rules & Prices: https://nzgymguide.co.nz/guides/best-gym-for-teenagers-nz/
+- Best Gym for Weight Loss in NZ 2026 — What Works: https://nzgymguide.co.nz/guides/best-gym-weight-loss-nz/
 
 ## About
 
-Independent, unsponsored gym comparisons. Pricing data is updated regularly.
+Independent gym comparisons updated regularly. No gym chain sponsors or pays for coverage.
+Affiliate disclosure: we earn commission on some ClassPass and Les Mills referrals — this does not affect rankings.
 Contact: instituteofbba@gmail.com
