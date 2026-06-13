@@ -1,6 +1,6 @@
 {
   "slug": "feel-healthier",
-  "title": "How to Feel Healthier in NZ — Simple Habits That Actually Work in 2026",
+  "title": "How to Feel Healthier in NZ — Habits That Actually Work",
   "short_title": "Feel Healthier",
   "meta_desc": "Want to feel healthier without a strict diet? Our NZ wellness guide covers the 10 habits that make the biggest difference to energy, mood, and long-term health.",
   "intro": "You don't need a perfect diet to feel dramatically better. These evidence-backed habits — most of them free — transform how you feel within 2–4 weeks. No expensive supplements, no extreme diets required.",
@@ -10,9 +10,18 @@
   "badge": "Wellness Focus",
   "goal": "feel-healthier",
   "hero_stats": [
-    {"value": "2–4 weeks", "label": "To feel the difference"},
-    {"value": "10 habits", "label": "Evidence-backed changes"},
-    {"value": "Free–low cost", "label": "Most are completely free"}
+    {
+      "value": "2–4 weeks",
+      "label": "To feel the difference"
+    },
+    {
+      "value": "10 habits",
+      "label": "Evidence-backed changes"
+    },
+    {
+      "value": "Free–low cost",
+      "label": "Most are completely free"
+    }
   ],
   "sections": [
     {
@@ -23,18 +32,73 @@
       "heading": "The 10 Habits That Change How You Feel",
       "body": "<p>Ranked by evidence strength and ease of implementation:</p>",
       "table": {
-        "headers": ["Habit", "Time Required", "Impact", "Start With"],
+        "headers": [
+          "Habit",
+          "Time Required",
+          "Impact",
+          "Start With"
+        ],
         "rows": [
-          ["Sleep 7–9 hours", "Free — just prioritise it", "★★★★★", "Set a consistent wake time, even weekends"],
-          ["Walk 7,000–10,000 steps daily", "30–45 min/day", "★★★★★", "Walk 15 min after each meal"],
-          ["Eat vegetables at every meal", "5 min meal prep", "★★★★☆", "Add frozen veges to whatever you're making"],
-          ["Drink 2–3L water daily", "Free", "★★★★☆", "Fill a 1L bottle before breakfast"],
-          ["Reduce ultra-processed food by 50%", "Minimal effort", "★★★★☆", "Cook one extra meal at home per week"],
-          ["Get morning sunlight (10–20 min)", "Free — go outside", "★★★★☆", "Walk without sunglasses, face the sun"],
-          ["Strength train 2–3x/week", "45–60 min, 3x/wk", "★★★★☆", "Start with bodyweight at home or gym"],
-          ["Reduce alcohol", "Free", "★★★☆☆", "Try 2–3 alcohol-free days per week"],
-          ["Eat protein at breakfast", "5 min change", "★★★☆☆", "Add eggs, yoghurt, or protein powder"],
-          ["Limit screen time before bed", "Free — willpower", "★★★☆☆", "No phone in bed — charge it in another room"]
+          [
+            "Sleep 7–9 hours",
+            "Free — just prioritise it",
+            "★★★★★",
+            "Set a consistent wake time, even weekends"
+          ],
+          [
+            "Walk 7,000–10,000 steps daily",
+            "30–45 min/day",
+            "★★★★★",
+            "Walk 15 min after each meal"
+          ],
+          [
+            "Eat vegetables at every meal",
+            "5 min meal prep",
+            "★★★★☆",
+            "Add frozen veges to whatever you're making"
+          ],
+          [
+            "Drink 2–3L water daily",
+            "Free",
+            "★★★★☆",
+            "Fill a 1L bottle before breakfast"
+          ],
+          [
+            "Reduce ultra-processed food by 50%",
+            "Minimal effort",
+            "★★★★☆",
+            "Cook one extra meal at home per week"
+          ],
+          [
+            "Get morning sunlight (10–20 min)",
+            "Free — go outside",
+            "★★★★☆",
+            "Walk without sunglasses, face the sun"
+          ],
+          [
+            "Strength train 2–3x/week",
+            "45–60 min, 3x/wk",
+            "★★★★☆",
+            "Start with bodyweight at home or gym"
+          ],
+          [
+            "Reduce alcohol",
+            "Free",
+            "★★★☆☆",
+            "Try 2–3 alcohol-free days per week"
+          ],
+          [
+            "Eat protein at breakfast",
+            "5 min change",
+            "★★★☆☆",
+            "Add eggs, yoghurt, or protein powder"
+          ],
+          [
+            "Limit screen time before bed",
+            "Free — willpower",
+            "★★★☆☆",
+            "No phone in bed — charge it in another room"
+          ]
         ]
       }
     },
@@ -54,14 +118,49 @@
       "heading": "The NZ-Specific Nutrition Gaps to Know About",
       "body": "<p>These deficiencies are particularly common in New Zealand due to diet patterns, geography, and lifestyle:</p>",
       "table": {
-        "headers": ["Nutrient", "Why NZ is Affected", "Best Food Sources", "Consider Supplementing?"],
+        "headers": [
+          "Nutrient",
+          "Why NZ is Affected",
+          "Best Food Sources",
+          "Consider Supplementing?"
+        ],
         "rows": [
-          ["Vitamin D", "Long winters, indoor work, sun protection", "Oily fish, eggs; mainly from sun", "Yes — especially May–Aug, $10–20/month"],
-          ["Iron", "High female athlete population, low red meat intake", "Red meat, lentils, spinach, fortified cereals", "Only if blood test confirms deficiency"],
-          ["Iodine", "NZ soils are iodine-poor; less salt used", "Seafood, iodised salt, dairy, eggs", "Most bread is iodised — usually sufficient"],
-          ["Vitamin B12", "Rising vegan/vegetarian rates", "Meat, eggs, dairy, fortified foods", "Essential if plant-based — $15–25/month"],
-          ["Folate", "Pre-conception & pregnancy critical", "Leafy greens, legumes, fortified foods", "Supplement 0.8mg if pregnant/trying"],
-          ["Calcium", "Declining dairy consumption", "Dairy, canned fish (with bones), tofu, almonds", "Usually not needed if eating dairy"]
+          [
+            "Vitamin D",
+            "Long winters, indoor work, sun protection",
+            "Oily fish, eggs; mainly from sun",
+            "Yes — especially May–Aug, $10–20/month"
+          ],
+          [
+            "Iron",
+            "High female athlete population, low red meat intake",
+            "Red meat, lentils, spinach, fortified cereals",
+            "Only if blood test confirms deficiency"
+          ],
+          [
+            "Iodine",
+            "NZ soils are iodine-poor; less salt used",
+            "Seafood, iodised salt, dairy, eggs",
+            "Most bread is iodised — usually sufficient"
+          ],
+          [
+            "Vitamin B12",
+            "Rising vegan/vegetarian rates",
+            "Meat, eggs, dairy, fortified foods",
+            "Essential if plant-based — $15–25/month"
+          ],
+          [
+            "Folate",
+            "Pre-conception & pregnancy critical",
+            "Leafy greens, legumes, fortified foods",
+            "Supplement 0.8mg if pregnant/trying"
+          ],
+          [
+            "Calcium",
+            "Declining dairy consumption",
+            "Dairy, canned fish (with bones), tofu, almonds",
+            "Usually not needed if eating dairy"
+          ]
         ]
       }
     },

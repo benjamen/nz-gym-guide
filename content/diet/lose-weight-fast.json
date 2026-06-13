@@ -1,6 +1,6 @@
 {
   "slug": "lose-weight-fast",
-  "title": "How to Lose Weight Fast in NZ — Safe, Proven Methods for 2026",
+  "title": "How to Lose Weight Fast in NZ — Safe Methods for 2026",
   "short_title": "Lose Weight Fast",
   "meta_desc": "Want to lose weight fast in NZ? Our science-backed plan shows you how to drop 0.5–1 kg per week safely — without starving, without gimmicks.",
   "intro": "Fast weight loss is possible — but only if done right. Crash diets backfire. This plan uses proven methods to help you lose 0.5–1 kg per week while keeping muscle and energy.",
@@ -10,9 +10,18 @@
   "badge": "Most Popular",
   "goal": "weight-loss-fast",
   "hero_stats": [
-    {"value": "0.5–1 kg", "label": "Safe loss per week"},
-    {"value": "500–750", "label": "Daily calorie deficit"},
-    {"value": "4–8 weeks", "label": "To see real results"}
+    {
+      "value": "0.5–1 kg",
+      "label": "Safe loss per week"
+    },
+    {
+      "value": "500–750",
+      "label": "Daily calorie deficit"
+    },
+    {
+      "value": "4–8 weeks",
+      "label": "To see real results"
+    }
   ],
   "sections": [
     {
@@ -23,15 +32,63 @@
       "heading": "Fast Weight Loss — 7-Day Kickstart Plan",
       "body": "<p>This plan targets 1,400–1,600 calories/day for most women, 1,600–1,900 for most men. Adjust up or down by 100–200 cal if you're very active or petite.</p>",
       "table": {
-        "headers": ["Day", "Breakfast", "Lunch", "Dinner", "Snack"],
+        "headers": [
+          "Day",
+          "Breakfast",
+          "Lunch",
+          "Dinner",
+          "Snack"
+        ],
         "rows": [
-          ["Monday", "Greek yoghurt + berries + flaxseed", "Chicken salad wrap (wholegrain)", "Salmon + broccoli + brown rice", "Apple + 10 almonds"],
-          ["Tuesday", "2 eggs scrambled + spinach + 1 slice toast", "Lentil soup + rye bread", "Beef stir-fry + veges + noodles", "Cottage cheese + cucumber"],
-          ["Wednesday", "Oats + banana + protein powder", "Tuna salad + crackers", "Chicken breast + kumara + salad", "Carrot sticks + hummus"],
-          ["Thursday", "Smoothie: spinach, banana, protein, almond milk", "Leftover chicken + rice + veges", "Lamb chops + green beans + potato", "Greek yoghurt + 1 tsp honey"],
-          ["Friday", "Overnight oats + kiwifruit", "Egg salad on wholegrain bread", "Prawn stir-fry + rice + bokchoy", "Rice cakes + peanut butter"],
-          ["Saturday", "Veggie omelette (3 eggs)", "Homemade chicken soup + bread", "Grilled fish + salad + sweet potato", "Mixed nuts (small handful)"],
-          ["Sunday", "Pancakes (protein recipe, 3 ingredients)", "Chickpea + vege curry + brown rice", "Roast chicken + veges (no gravy)", "Fruit salad"]
+          [
+            "Monday",
+            "Greek yoghurt + berries + flaxseed",
+            "Chicken salad wrap (wholegrain)",
+            "Salmon + broccoli + brown rice",
+            "Apple + 10 almonds"
+          ],
+          [
+            "Tuesday",
+            "2 eggs scrambled + spinach + 1 slice toast",
+            "Lentil soup + rye bread",
+            "Beef stir-fry + veges + noodles",
+            "Cottage cheese + cucumber"
+          ],
+          [
+            "Wednesday",
+            "Oats + banana + protein powder",
+            "Tuna salad + crackers",
+            "Chicken breast + kumara + salad",
+            "Carrot sticks + hummus"
+          ],
+          [
+            "Thursday",
+            "Smoothie: spinach, banana, protein, almond milk",
+            "Leftover chicken + rice + veges",
+            "Lamb chops + green beans + potato",
+            "Greek yoghurt + 1 tsp honey"
+          ],
+          [
+            "Friday",
+            "Overnight oats + kiwifruit",
+            "Egg salad on wholegrain bread",
+            "Prawn stir-fry + rice + bokchoy",
+            "Rice cakes + peanut butter"
+          ],
+          [
+            "Saturday",
+            "Veggie omelette (3 eggs)",
+            "Homemade chicken soup + bread",
+            "Grilled fish + salad + sweet potato",
+            "Mixed nuts (small handful)"
+          ],
+          [
+            "Sunday",
+            "Pancakes (protein recipe, 3 ingredients)",
+            "Chickpea + vege curry + brown rice",
+            "Roast chicken + veges (no gravy)",
+            "Fruit salad"
+          ]
         ]
       }
     },
@@ -53,14 +110,49 @@
       "heading": "Exercise Accelerators — Add 250–500 Cal Burn/Day",
       "body": "<p>You don't need to run marathons. These three activities have the best calorie-burn-to-effort ratio:</p>",
       "table": {
-        "headers": ["Activity", "Duration", "Cal Burned", "Difficulty"],
+        "headers": [
+          "Activity",
+          "Duration",
+          "Cal Burned",
+          "Difficulty"
+        ],
         "rows": [
-          ["Brisk walking", "45 min", "~200–280 cal", "Easy"],
-          ["Gym weight training", "45 min", "~250–350 cal", "Moderate"],
-          ["HIIT class (F45, Les Mills)", "45 min", "~400–600 cal", "Hard"],
-          ["Swimming", "30 min", "~300–400 cal", "Moderate"],
-          ["Cycling (moderate)", "60 min", "~400–500 cal", "Moderate"],
-          ["Jump rope", "20 min", "~250–350 cal", "Hard"]
+          [
+            "Brisk walking",
+            "45 min",
+            "~200–280 cal",
+            "Easy"
+          ],
+          [
+            "Gym weight training",
+            "45 min",
+            "~250–350 cal",
+            "Moderate"
+          ],
+          [
+            "HIIT class (F45, Les Mills)",
+            "45 min",
+            "~400–600 cal",
+            "Hard"
+          ],
+          [
+            "Swimming",
+            "30 min",
+            "~300–400 cal",
+            "Moderate"
+          ],
+          [
+            "Cycling (moderate)",
+            "60 min",
+            "~400–500 cal",
+            "Moderate"
+          ],
+          [
+            "Jump rope",
+            "20 min",
+            "~250–350 cal",
+            "Hard"
+          ]
         ]
       },
       "cta": {
@@ -84,14 +176,42 @@
       "heading": "Weight Loss Supplements: What's Worth It in NZ?",
       "body": "<p>Save your money on most supplements. Here's the honest breakdown:</p>",
       "table": {
-        "headers": ["Supplement", "Does It Work?", "Verdict"],
+        "headers": [
+          "Supplement",
+          "Does It Work?",
+          "Verdict"
+        ],
         "rows": [
-          ["Protein powder (whey/pea)", "Yes — helps you hit protein goals easily", "✅ Worth it — $30–60/kg at Pak'nSave or Chemist Warehouse"],
-          ["Creatine", "Not for fat loss, but preserves muscle in deficit", "✅ Optional — $20–40/month"],
-          ["Fat burners / thermogenics", "Marginal effect, mostly caffeine", "❌ Skip — just have a coffee"],
-          ["Detox teas", "No evidence, can cause diarrhoea", "❌ Waste of money"],
-          ["Meal replacement shakes", "Work if they create a deficit", "⚠️ Use short-term only, not long-term"],
-          ["Fibre supplements (psyllium)", "Helps fullness and gut health", "✅ Cheap and useful — $10/month"]
+          [
+            "Protein powder (whey/pea)",
+            "Yes — helps you hit protein goals easily",
+            "✅ Worth it — $30–60/kg at Pak'nSave or Chemist Warehouse"
+          ],
+          [
+            "Creatine",
+            "Not for fat loss, but preserves muscle in deficit",
+            "✅ Optional — $20–40/month"
+          ],
+          [
+            "Fat burners / thermogenics",
+            "Marginal effect, mostly caffeine",
+            "❌ Skip — just have a coffee"
+          ],
+          [
+            "Detox teas",
+            "No evidence, can cause diarrhoea",
+            "❌ Waste of money"
+          ],
+          [
+            "Meal replacement shakes",
+            "Work if they create a deficit",
+            "⚠️ Use short-term only, not long-term"
+          ],
+          [
+            "Fibre supplements (psyllium)",
+            "Helps fullness and gut health",
+            "✅ Cheap and useful — $10/month"
+          ]
         ]
       }
     },

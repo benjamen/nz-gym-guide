@@ -1,6 +1,6 @@
 {
   "slug": "gain-muscle",
-  "title": "How to Gain Muscle in NZ — Beginner's Nutrition & Training Plan 2026",
+  "title": "How to Gain Muscle in NZ — Beginner's Nutrition & Training",
   "short_title": "Gain Muscle",
   "meta_desc": "Want to build muscle in NZ? Our complete guide covers exactly how much protein you need, what to eat, when to eat it, and the best NZ gyms for muscle gain.",
   "intro": "Building muscle requires two things: enough of the right food, and the right training. This guide gives you both — with NZ prices, NZ supermarket staples, and practical advice that actually works.",
@@ -10,9 +10,18 @@
   "badge": "Complete Guide",
   "goal": "muscle-gain",
   "hero_stats": [
-    {"value": "0.5–1 kg", "label": "Muscle gain/month (realistic)"},
-    {"value": "1.6–2.2g", "label": "Protein per kg bodyweight"},
-    {"value": "250–500", "label": "Daily calorie surplus"}
+    {
+      "value": "0.5–1 kg",
+      "label": "Muscle gain/month (realistic)"
+    },
+    {
+      "value": "1.6–2.2g",
+      "label": "Protein per kg bodyweight"
+    },
+    {
+      "value": "250–500",
+      "label": "Daily calorie surplus"
+    }
   ],
   "sections": [
     {
@@ -23,13 +32,43 @@
       "heading": "How Many Calories to Eat to Gain Muscle",
       "body": "<p>Use this table to find your starting calorie target. Adjust by 100 cal after 2 weeks if not gaining:</p>",
       "table": {
-        "headers": ["Bodyweight", "Sedentary + training 3x/wk", "Active + training 4–5x/wk", "Very active athlete"],
+        "headers": [
+          "Bodyweight",
+          "Sedentary + training 3x/wk",
+          "Active + training 4–5x/wk",
+          "Very active athlete"
+        ],
         "rows": [
-          ["60 kg", "2,200–2,400 cal", "2,500–2,700 cal", "2,800–3,100 cal"],
-          ["70 kg", "2,500–2,700 cal", "2,800–3,100 cal", "3,200–3,500 cal"],
-          ["80 kg", "2,800–3,000 cal", "3,200–3,500 cal", "3,600–3,900 cal"],
-          ["90 kg", "3,100–3,300 cal", "3,600–3,900 cal", "4,000–4,300 cal"],
-          ["100 kg", "3,400–3,700 cal", "4,000–4,300 cal", "4,400–4,700 cal"]
+          [
+            "60 kg",
+            "2,200–2,400 cal",
+            "2,500–2,700 cal",
+            "2,800–3,100 cal"
+          ],
+          [
+            "70 kg",
+            "2,500–2,700 cal",
+            "2,800–3,100 cal",
+            "3,200–3,500 cal"
+          ],
+          [
+            "80 kg",
+            "2,800–3,000 cal",
+            "3,200–3,500 cal",
+            "3,600–3,900 cal"
+          ],
+          [
+            "90 kg",
+            "3,100–3,300 cal",
+            "3,600–3,900 cal",
+            "4,000–4,300 cal"
+          ],
+          [
+            "100 kg",
+            "3,400–3,700 cal",
+            "4,000–4,300 cal",
+            "4,400–4,700 cal"
+          ]
         ]
       }
     },
@@ -37,18 +76,73 @@
       "heading": "Protein — The Most Important Macro for Muscle",
       "body": "<p>Aim for your protein target FIRST. Fill remaining calories with carbs and fats. Best NZ protein sources:</p>",
       "table": {
-        "headers": ["Food", "Protein per 100g", "Cost (NZ)", "Best For"],
+        "headers": [
+          "Food",
+          "Protein per 100g",
+          "Cost (NZ)",
+          "Best For"
+        ],
         "rows": [
-          ["Chicken breast", "31g", "$8–12/kg", "Daily staple, very lean"],
-          ["Eggs (2 large)", "12g", "$0.80–1.20", "Breakfast, snacks"],
-          ["Greek yoghurt", "10g", "$4–7/500g", "Snacks, post-workout"],
-          ["Canned tuna", "25g", "$1.50–3/can", "Lunch, cheap, convenient"],
-          ["Lean beef mince", "21g", "$9–14/kg", "Dinner meals, iron"],
-          ["Salmon fillet", "25g", "$14–22/kg", "Omega-3s + protein"],
-          ["Cottage cheese", "11g", "$3–5/250g", "Slow-digesting protein (casein)"],
-          ["Whey protein", "70–80g/100g", "$25–50/kg", "Convenient after gym"],
-          ["Tofu (firm)", "8g", "$3–5/300g", "Plant-based option"],
-          ["Lentils (cooked)", "9g", "$1.50–2/can", "Cheap plant protein + carbs"]
+          [
+            "Chicken breast",
+            "31g",
+            "$8–12/kg",
+            "Daily staple, very lean"
+          ],
+          [
+            "Eggs (2 large)",
+            "12g",
+            "$0.80–1.20",
+            "Breakfast, snacks"
+          ],
+          [
+            "Greek yoghurt",
+            "10g",
+            "$4–7/500g",
+            "Snacks, post-workout"
+          ],
+          [
+            "Canned tuna",
+            "25g",
+            "$1.50–3/can",
+            "Lunch, cheap, convenient"
+          ],
+          [
+            "Lean beef mince",
+            "21g",
+            "$9–14/kg",
+            "Dinner meals, iron"
+          ],
+          [
+            "Salmon fillet",
+            "25g",
+            "$14–22/kg",
+            "Omega-3s + protein"
+          ],
+          [
+            "Cottage cheese",
+            "11g",
+            "$3–5/250g",
+            "Slow-digesting protein (casein)"
+          ],
+          [
+            "Whey protein",
+            "70–80g/100g",
+            "$25–50/kg",
+            "Convenient after gym"
+          ],
+          [
+            "Tofu (firm)",
+            "8g",
+            "$3–5/300g",
+            "Plant-based option"
+          ],
+          [
+            "Lentils (cooked)",
+            "9g",
+            "$1.50–2/can",
+            "Cheap plant protein + carbs"
+          ]
         ]
       }
     },
@@ -56,15 +150,63 @@
       "heading": "Sample 7-Day Muscle-Building Meal Plan",
       "body": "<p>Targeting ~2,800 calories and 170g protein/day (for an 80 kg person training 4x/week). Scale portions up or down.</p>",
       "table": {
-        "headers": ["Day", "Breakfast", "Lunch", "Dinner", "Snacks"],
+        "headers": [
+          "Day",
+          "Breakfast",
+          "Lunch",
+          "Dinner",
+          "Snacks"
+        ],
         "rows": [
-          ["Mon", "3 eggs + oats + banana", "Chicken wrap x2 + salad", "Beef stir-fry + rice + veges", "Protein shake + apple"],
-          ["Tue", "Greek yoghurt + granola + berries", "Tuna salad + 2 slices grain bread", "Salmon + kumara + broccoli", "Cottage cheese + nuts"],
-          ["Wed", "Protein smoothie (2 scoops + oats + milk)", "Chicken & rice bowl + slaw", "Lamb mince bolognese + pasta", "2 boiled eggs + fruit"],
-          ["Thu", "Omelette (3 eggs + veges + cheese)", "Leftover bolognese + bread", "Chicken thighs + roasted veges", "Protein shake + banana"],
-          ["Fri", "Overnight oats + protein + chia seeds", "Chicken wrap + yoghurt", "Lean beef burger (wholegrain bun + salad)", "Almonds + Greek yoghurt"],
-          ["Sat", "Big brekky: eggs, toast, tomatoes, mushrooms, bacon", "Chicken fried rice", "Barramundi + salad + potato", "Protein shake"],
-          ["Sun", "Pancakes (protein recipe)", "Roast chicken + veges + gravy", "Chickpea curry + naan + rice", "Cottage cheese + berries"]
+          [
+            "Mon",
+            "3 eggs + oats + banana",
+            "Chicken wrap x2 + salad",
+            "Beef stir-fry + rice + veges",
+            "Protein shake + apple"
+          ],
+          [
+            "Tue",
+            "Greek yoghurt + granola + berries",
+            "Tuna salad + 2 slices grain bread",
+            "Salmon + kumara + broccoli",
+            "Cottage cheese + nuts"
+          ],
+          [
+            "Wed",
+            "Protein smoothie (2 scoops + oats + milk)",
+            "Chicken & rice bowl + slaw",
+            "Lamb mince bolognese + pasta",
+            "2 boiled eggs + fruit"
+          ],
+          [
+            "Thu",
+            "Omelette (3 eggs + veges + cheese)",
+            "Leftover bolognese + bread",
+            "Chicken thighs + roasted veges",
+            "Protein shake + banana"
+          ],
+          [
+            "Fri",
+            "Overnight oats + protein + chia seeds",
+            "Chicken wrap + yoghurt",
+            "Lean beef burger (wholegrain bun + salad)",
+            "Almonds + Greek yoghurt"
+          ],
+          [
+            "Sat",
+            "Big brekky: eggs, toast, tomatoes, mushrooms, bacon",
+            "Chicken fried rice",
+            "Barramundi + salad + potato",
+            "Protein shake"
+          ],
+          [
+            "Sun",
+            "Pancakes (protein recipe)",
+            "Roast chicken + veges + gravy",
+            "Chickpea curry + naan + rice",
+            "Cottage cheese + berries"
+          ]
         ]
       }
     },
@@ -83,11 +225,31 @@
       "heading": "The Muscle-Building Training Plan (3 days/week minimum)",
       "body": "<p>Nutrition feeds muscle — but you still need to lift. Here's a simple, proven beginner programme:</p>",
       "table": {
-        "headers": ["Day", "Workout", "Key Exercises", "Sets × Reps"],
+        "headers": [
+          "Day",
+          "Workout",
+          "Key Exercises",
+          "Sets × Reps"
+        ],
         "rows": [
-          ["Day A (e.g. Mon)", "Push", "Bench press, shoulder press, tricep dips", "3–4 × 8–12"],
-          ["Day B (e.g. Wed)", "Pull", "Pull-ups/lat pulldown, rows, bicep curls", "3–4 × 8–12"],
-          ["Day C (e.g. Fri)", "Legs + Core", "Squats, deadlifts, lunges, plank", "3–4 × 8–12"]
+          [
+            "Day A (e.g. Mon)",
+            "Push",
+            "Bench press, shoulder press, tricep dips",
+            "3–4 × 8–12"
+          ],
+          [
+            "Day B (e.g. Wed)",
+            "Pull",
+            "Pull-ups/lat pulldown, rows, bicep curls",
+            "3–4 × 8–12"
+          ],
+          [
+            "Day C (e.g. Fri)",
+            "Legs + Core",
+            "Squats, deadlifts, lunges, plank",
+            "3–4 × 8–12"
+          ]
         ]
       },
       "cta": {
