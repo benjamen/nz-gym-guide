@@ -2,7 +2,7 @@
   "slug": "jetts-vs-anytime-fitness-nz",
   "short_title": "Jetts vs Anytime Fitness",
   "title": "Jetts vs Anytime Fitness — Which Budget Gym Is Best in NZ?",
-  "meta_desc": "Jetts vs Anytime Fitness: compare pricing, 24/7 access, contracts, and facilities. Which budget gym is right for you in 2026?",
+  "meta_desc": "Compare Jetts & Anytime Fitness: pricing, 24/7 access & contracts. Find the best budget gym in NZ for you, join now and start saving",
   "intro": "Jetts and Anytime Fitness are two of New Zealand's most accessible 24/7 gyms, and both offer budget-friendly memberships. The key difference is flexibility: Jetts has no joining fee and no lock-in contract, while Anytime Fitness charges $49 upfront and requires a 12-month commitment. If you want to try a gym risk-free, Jetts wins. If you're confident in your commitment and want the global Anytime Fitness network, Anytime is the choice.",
   "updated": "June 2026",
   "reading_time": 6,
@@ -10,18 +10,62 @@
     {
       "heading": "Jetts vs Anytime Fitness — Quick Comparison",
       "table": {
-        "headers": ["Factor", "Jetts", "Anytime Fitness"],
+        "headers": [
+          "Factor",
+          "Jetts",
+          "Anytime Fitness"
+        ],
         "rows": [
-          ["Price (from)", "$14.95/week", "$16.95/week"],
-          ["Joining fee", "$0 — no charge", "$49"],
-          ["Contract", "No lock-in, cancel anytime", "12 months (some locations 6)"],
-          ["24/7 access", "Yes", "Yes"],
-          ["Group fitness classes", "No", "Limited (varies by location)"],
-          ["Pool / sauna", "No", "No"],
-          ["NZ locations", "20+ clubs", "100+"],
-          ["Global access", "NZ only", "Worldwide Anytime network"],
-          ["Personal training", "Yes", "Yes"],
-          ["Casual visit cost", "N/A", "N/A"]
+          [
+            "Price (from)",
+            "$14.95/week",
+            "$16.95/week"
+          ],
+          [
+            "Joining fee",
+            "$0 — no charge",
+            "$49"
+          ],
+          [
+            "Contract",
+            "No lock-in, cancel anytime",
+            "12 months (some locations 6)"
+          ],
+          [
+            "24/7 access",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Group fitness classes",
+            "No",
+            "Limited (varies by location)"
+          ],
+          [
+            "Pool / sauna",
+            "No",
+            "No"
+          ],
+          [
+            "NZ locations",
+            "20+ clubs",
+            "100+"
+          ],
+          [
+            "Global access",
+            "NZ only",
+            "Worldwide Anytime network"
+          ],
+          [
+            "Personal training",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Casual visit cost",
+            "N/A",
+            "N/A"
+          ]
         ]
       }
     },
