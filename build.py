@@ -236,12 +236,31 @@ def build():
     )
 
     # RSS feed
+    def to_rfc822(date_str):
+        from email.utils import format_datetime
+        from datetime import datetime
+        import re
+        if not date_str:
+            return format_datetime(datetime.now())
+        m = re.match(r'(\w+)\s+(\d{4})', str(date_str))
+        if m:
+            try:
+                dt = datetime.strptime(f"01 {m.group(1)} {m.group(2)}", "%d %B %Y")
+                return format_datetime(dt)
+            except ValueError:
+                pass
+        m2 = re.match(r'(\d{4}-\d{2}-\d{2})', str(date_str))
+        if m2:
+            dt = datetime.strptime(m2.group(1), "%Y-%m-%d")
+            return format_datetime(dt)
+        return format_datetime(datetime.now())
+
     rss_posts = sorted(guides + posts, key=lambda x: x.get("updated", x.get("date", "")), reverse=True)[:40]
     rss_items_gg = []
     for item in rss_posts:
         slug = item["slug"]
         title = item.get("title", slug)
-        desc = item.get("meta_description", item.get("description", item.get("meta_desc", "")))
+        desc = item.get("meta_desc", item.get("meta_description", item.get("description", "")))
         date_str = item.get("updated", item.get("date", today))
         section = "deals" if item in posts else "guides"
         rss_items_gg.append(
@@ -249,7 +268,7 @@ def build():
             f"      <title><![CDATA[{title}]]></title>\n"
             f"      <link>{site['base_url']}/{section}/{slug}/</link>\n"
             f"      <guid isPermaLink='true'>{site['base_url']}/{section}/{slug}/</guid>\n"
-            f"      <pubDate>{date_str}</pubDate>\n"
+            f"      <pubDate>{to_rfc822(date_str)}</pubDate>\n"
             f"      <description><![CDATA[{desc}]]></description>\n"
             f"    </item>"
         )
