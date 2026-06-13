@@ -1,8 +1,8 @@
 {
   "slug": "best-gym-for-seniors-nz",
   "short_title": "Best Gym for Seniors NZ",
-  "title": "Best Gym for Seniors NZ 2026 — What to Look For and Which Chains Deliver",
-  "meta_desc": "Best gyms in New Zealand for seniors in 2026. Which chains have senior-friendly programmes, good instructors, pools, and the right environment for older members.",
+  "title": "Best Gym for Seniors NZ 2026 — Top Chains Compared",
+  "meta_desc": "Best gyms in NZ for seniors in 2026. Which chains have senior-friendly programmes, good instructors, pools and the right environment for older members.",
   "intro": "Choosing a gym as a senior requires different criteria than a 25-year-old looking for the cheapest 24/7 option. Pool access, low-impact class options, supportive instructors, and a welcoming environment matter more than price alone. Here's an honest look at which NZ gym chains work best for members over 55.",
   "updated": "May 2026",
   "reading_time": 7,
@@ -22,14 +22,56 @@
     {
       "heading": "Best Gym Chains for Seniors in NZ",
       "table": {
-        "headers": ["Gym", "Senior-Friendly Rating", "Pool", "Low-Impact Classes", "Senior Discount"],
+        "headers": [
+          "Gym",
+          "Senior-Friendly Rating",
+          "Pool",
+          "Low-Impact Classes",
+          "Senior Discount"
+        ],
         "rows": [
-          ["YMCA", "★★★★★", "Yes (most clubs)", "Aqua aerobics, yoga, gentle fitness", "Yes — 60+ rates"],
-          ["Les Mills", "★★★★☆", "Selected clubs", "BodyBalance, yoga, gentle programmes", "No (under-23 only)"],
-          ["Contours", "★★★★☆", "No", "Women-only, supportive format", "No"],
-          ["Anytime Fitness", "★★★☆☆", "No", "Varies by club", "No"],
-          ["City Fitness", "★★☆☆☆", "No", "Very limited", "No"],
-          ["F45", "★★☆☆☆", "No", "High-intensity — not typically senior-focused", "No"]
+          [
+            "YMCA",
+            "★★★★★",
+            "Yes (most clubs)",
+            "Aqua aerobics, yoga, gentle fitness",
+            "Yes — 60+ rates"
+          ],
+          [
+            "Les Mills",
+            "★★★★☆",
+            "Selected clubs",
+            "BodyBalance, yoga, gentle programmes",
+            "No (under-23 only)"
+          ],
+          [
+            "Contours",
+            "★★★★☆",
+            "No",
+            "Women-only, supportive format",
+            "No"
+          ],
+          [
+            "Anytime Fitness",
+            "★★★☆☆",
+            "No",
+            "Varies by club",
+            "No"
+          ],
+          [
+            "City Fitness",
+            "★★☆☆☆",
+            "No",
+            "Very limited",
+            "No"
+          ],
+          [
+            "F45",
+            "★★☆☆☆",
+            "No",
+            "High-intensity — not typically senior-focused",
+            "No"
+          ]
         ]
       }
     },

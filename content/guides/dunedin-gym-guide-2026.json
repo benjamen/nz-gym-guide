@@ -1,8 +1,8 @@
 {
   "slug": "dunedin-gym-guide-2026",
   "short_title": "Dunedin Gyms",
-  "title": "Best Gyms in Dunedin 2026 — Prices, Student Discounts and Honest Reviews",
-  "meta_desc": "Best gyms in Dunedin in 2026. Prices, student discounts, and honest reviews for City Fitness, Anytime Fitness, Les Mills, Jetts and University of Otago gym options.",
+  "title": "Best Gyms in Dunedin 2026 — Prices & Student Deals",
+  "meta_desc": "Best gyms in Dunedin in 2026. Prices, student discounts and honest reviews for City Fitness, Anytime Fitness, Les Mills, Jetts and Otago Uni options.",
   "intro": "Dunedin has a gym market shaped in part by its large student population — prices are competitive and student discounts are common. City Fitness Dunedin is one of the cheapest ways to train in New Zealand at $7.99/week. The University of Otago gym (Recreation Centre) offers excellent student rates. Les Mills and Anytime Fitness serve the non-student market well. This guide covers everything worth knowing about training in Dunedin.",
   "updated": "May 2026",
   "reading_time": 7,
@@ -10,16 +10,70 @@
     {
       "heading": "Dunedin Gym Prices — 2026",
       "table": {
-        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "headers": [
+          "Gym",
+          "From (weekly)",
+          "Joining fee",
+          "Lock-in?",
+          "24/7?"
+        ],
         "rows": [
-          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
-          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
-          ["Jetts Dunedin", "$14.95", "$0", "No lock-in", "Yes"],
-          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
-          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
-          ["Les Mills Dunedin", "$17.99", "$49 (often waived)", "3 months", "No"],
-          ["Otago Uni Recreation Centre (students)", "~$9/week (semester rate)", "$0", "Semester", "No"],
-          ["F45 Dunedin", "$25.00", "$0", "Flexible", "No (class-based)"]
+          [
+            "City Fitness Basic",
+            "$7.99",
+            "$29",
+            "No (4-week min)",
+            "Yes"
+          ],
+          [
+            "City Fitness Black Card",
+            "$14.99",
+            "$29",
+            "No",
+            "Yes"
+          ],
+          [
+            "Jetts Dunedin",
+            "$14.95",
+            "$0",
+            "No lock-in",
+            "Yes"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95",
+            "$49 (often waived)",
+            "Varies",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95",
+            "$49",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Les Mills Dunedin",
+            "$17.99",
+            "$49 (often waived)",
+            "3 months",
+            "No"
+          ],
+          [
+            "Otago Uni Recreation Centre (students)",
+            "~$9/week (semester rate)",
+            "$0",
+            "Semester",
+            "No"
+          ],
+          [
+            "F45 Dunedin",
+            "$25.00",
+            "$0",
+            "Flexible",
+            "No (class-based)"
+          ]
         ]
       }
     },

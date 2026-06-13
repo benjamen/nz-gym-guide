@@ -1,8 +1,8 @@
 {
   "slug": "palmerston-north-gym-guide-2026",
   "short_title": "Palmerston North Gyms",
-  "title": "Best Gyms in Palmerston North 2026 — Prices, Student Deals and Reviews",
-  "meta_desc": "Best gyms in Palmerston North 2026. Prices and honest reviews for City Fitness, Anytime Fitness, Les Mills, Snap Fitness and student options near Massey University.",
+  "title": "Best Gyms in Palmerston North 2026 — Prices & Reviews",
+  "meta_desc": "Best gyms in Palmerston North 2026. Prices and honest reviews for City Fitness, Anytime Fitness, Les Mills, Snap and student options near Massey.",
   "intro": "Palmerston North has a good gym market, boosted by the presence of Massey University and NZDF bases which create a large, active population with real training needs. City Fitness and Les Mills both operate here, giving residents the full range from budget 24/7 to premium group fitness. Student discounts are available at several clubs. If you live in Palmy, you're well-served.",
   "updated": "May 2026",
   "reading_time": 7,
@@ -10,16 +10,70 @@
     {
       "heading": "Palmerston North Gym Prices — 2026",
       "table": {
-        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "headers": [
+          "Gym",
+          "From (weekly)",
+          "Joining fee",
+          "Lock-in?",
+          "24/7?"
+        ],
         "rows": [
-          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
-          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
-          ["Jetts Palmerston North", "$14.95", "$0", "No lock-in", "Yes"],
-          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
-          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
-          ["Les Mills Palmerston North", "$17.99", "$49 (often waived)", "3 months", "No"],
-          ["Massey University Recreation Centre (students)", "~$10/week (semester)", "$0", "Semester", "No"],
-          ["F45", "$25.00", "$0", "Flexible", "No (class-based)"]
+          [
+            "City Fitness Basic",
+            "$7.99",
+            "$29",
+            "No (4-week min)",
+            "Yes"
+          ],
+          [
+            "City Fitness Black Card",
+            "$14.99",
+            "$29",
+            "No",
+            "Yes"
+          ],
+          [
+            "Jetts Palmerston North",
+            "$14.95",
+            "$0",
+            "No lock-in",
+            "Yes"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95",
+            "$49 (often waived)",
+            "Varies",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95",
+            "$49",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Les Mills Palmerston North",
+            "$17.99",
+            "$49 (often waived)",
+            "3 months",
+            "No"
+          ],
+          [
+            "Massey University Recreation Centre (students)",
+            "~$10/week (semester)",
+            "$0",
+            "Semester",
+            "No"
+          ],
+          [
+            "F45",
+            "$25.00",
+            "$0",
+            "Flexible",
+            "No (class-based)"
+          ]
         ]
       }
     },

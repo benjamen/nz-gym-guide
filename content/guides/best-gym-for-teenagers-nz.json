@@ -1,7 +1,7 @@
 {
   "slug": "best-gym-for-teenagers-nz",
   "short_title": "Best Gym for Teenagers NZ",
-  "title": "Best Gym for Teenagers NZ 2026 — Age Rules, Prices, and Which Chains Accept Under 18s",
+  "title": "Best Gym for Teenagers NZ 2026 — Age Rules & Prices",
   "meta_desc": "Best gyms for teenagers in New Zealand 2026. Age restrictions, parental consent rules, prices, and which chains are best for 14–17 year-olds.",
   "intro": "Finding the right gym for a teenager in New Zealand requires navigating age restrictions — most chains have minimum age rules and some require parental consent. This guide covers the rules at each major chain, which gyms are genuinely welcoming for teens, and how to get the best value.",
   "updated": "May 2026",
@@ -10,15 +10,55 @@
     {
       "heading": "Teen Gym Age Rules — NZ Chains 2026",
       "table": {
-        "headers": ["Gym", "Minimum Age", "Parental Consent Required?", "Under-18 Price"],
+        "headers": [
+          "Gym",
+          "Minimum Age",
+          "Parental Consent Required?",
+          "Under-18 Price"
+        ],
         "rows": [
-          ["Les Mills", "14+", "Yes (under 18)", "20% off (under-23 discount)"],
-          ["YMCA", "No minimum (varies by club)", "Yes (under 18)", "Youth/student rates available"],
-          ["Anytime Fitness", "16+ (varies by franchise)", "Yes (under 18)", "Standard rate"],
-          ["Jetts", "16+", "Yes (under 18)", "Standard rate"],
-          ["City Fitness", "16+", "Yes (under 18)", "Standard rate"],
-          ["Snap Fitness", "16+ (varies)", "Yes (under 18)", "Standard rate"],
-          ["F45", "14+ (varies by studio)", "Yes (under 18)", "Standard rate"]
+          [
+            "Les Mills",
+            "14+",
+            "Yes (under 18)",
+            "20% off (under-23 discount)"
+          ],
+          [
+            "YMCA",
+            "No minimum (varies by club)",
+            "Yes (under 18)",
+            "Youth/student rates available"
+          ],
+          [
+            "Anytime Fitness",
+            "16+ (varies by franchise)",
+            "Yes (under 18)",
+            "Standard rate"
+          ],
+          [
+            "Jetts",
+            "16+",
+            "Yes (under 18)",
+            "Standard rate"
+          ],
+          [
+            "City Fitness",
+            "16+",
+            "Yes (under 18)",
+            "Standard rate"
+          ],
+          [
+            "Snap Fitness",
+            "16+ (varies)",
+            "Yes (under 18)",
+            "Standard rate"
+          ],
+          [
+            "F45",
+            "14+ (varies by studio)",
+            "Yes (under 18)",
+            "Standard rate"
+          ]
         ]
       }
     },

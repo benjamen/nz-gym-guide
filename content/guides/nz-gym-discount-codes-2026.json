@@ -1,7 +1,7 @@
 {
   "slug": "nz-gym-discount-codes-2026",
   "short_title": "NZ Gym Discount Codes 2026",
-  "title": "All Current NZ Gym Deals & Discount Codes June 2026 — Active Offers",
+  "title": "NZ Gym Discount Codes June 2026 — Active Deals",
   "meta_desc": "Current gym discount codes and deals in NZ (June 2026) — Les Mills, City Fitness, Jetts, Anytime Fitness, F45, Orangetheory. Updated weekly with working codes.",
   "intro": "This page tracks every active gym deal, promotion, and discount code in New Zealand. All offers are verified and updated weekly. Most NZ gyms don't advertise discounts online — you have to ask in person or call — so we've compiled the current offers that actually work. Save this page and check before you sign up.",
   "last_updated": "June 2, 2026 at 5:00pm NZT",
@@ -13,16 +13,79 @@
       "heading": "Quick Discount Summary Table (All Chains)",
       "body": "Active discounts across major NZ gym chains as of June 2, 2026. Most offers require in-person sign-up or a phone call to claim.",
       "table": {
-        "headers": ["Gym Chain", "Current Offer", "Discount %", "How to Claim", "Valid Until", "Link"],
+        "headers": [
+          "Gym Chain",
+          "Current Offer",
+          "Discount %",
+          "How to Claim",
+          "Valid Until",
+          "Link"
+        ],
         "rows": [
-          ["City Fitness", "Joining fee waived + no lock-in option", "Save $29–49", "Visit any location or call 0800 123 456", "Rolling (always available)", "https://www.cityfitness.co.nz/join"],
-          ["Les Mills", "Joining fee waived (New Year special extending into June)", "Save $49", "Visit location or call 0800 LESMILLS", "Mid-June 2026 (check online)", "https://www.lesmills.co.nz/join"],
-          ["Jetts", "No joining fee (standard, always $0) + free week", "No upfront cost", "Sign up online at site or visit location", "Ongoing", "https://www.jetts.co.nz"],
-          ["Anytime Fitness", "Joining fee waived + free personal training session", "Save $49 + PT value", "Call location or visit in person", "June 30, 2026", "https://www.anytimefitness.co.nz"],
-          ["Snap Fitness", "Reduced joining fee ($19 instead of $29)", "Save $10 + negotiable first month", "Visit location (in-person best deals)", "Ongoing", "https://www.snapfitness.co.nz"],
-          ["F45", "Free week trial + reduced first month", "5–10% off first month", "Book free trial online", "Ongoing", "https://www.f45training.co.nz"],
-          ["Orangetheory", "First class free + founding member rate (if location new)", "Free first session", "Book online or visit location", "Ongoing", "https://www.orangetheory.co.nz"],
-          ["YMCA", "Concession rates for students/seniors + no joining fee in June", "Up to 30% off for eligible members", "Bring student/senior ID to any location", "June 30, 2026", "https://www.ymca.org.nz"]
+          [
+            "City Fitness",
+            "Joining fee waived + no lock-in option",
+            "Save $29–49",
+            "Visit any location or call 0800 123 456",
+            "Rolling (always available)",
+            "https://www.cityfitness.co.nz/join"
+          ],
+          [
+            "Les Mills",
+            "Joining fee waived (New Year special extending into June)",
+            "Save $49",
+            "Visit location or call 0800 LESMILLS",
+            "Mid-June 2026 (check online)",
+            "https://www.lesmills.co.nz/join"
+          ],
+          [
+            "Jetts",
+            "No joining fee (standard, always $0) + free week",
+            "No upfront cost",
+            "Sign up online at site or visit location",
+            "Ongoing",
+            "https://www.jetts.co.nz"
+          ],
+          [
+            "Anytime Fitness",
+            "Joining fee waived + free personal training session",
+            "Save $49 + PT value",
+            "Call location or visit in person",
+            "June 30, 2026",
+            "https://www.anytimefitness.co.nz"
+          ],
+          [
+            "Snap Fitness",
+            "Reduced joining fee ($19 instead of $29)",
+            "Save $10 + negotiable first month",
+            "Visit location (in-person best deals)",
+            "Ongoing",
+            "https://www.snapfitness.co.nz"
+          ],
+          [
+            "F45",
+            "Free week trial + reduced first month",
+            "5–10% off first month",
+            "Book free trial online",
+            "Ongoing",
+            "https://www.f45training.co.nz"
+          ],
+          [
+            "Orangetheory",
+            "First class free + founding member rate (if location new)",
+            "Free first session",
+            "Book online or visit location",
+            "Ongoing",
+            "https://www.orangetheory.co.nz"
+          ],
+          [
+            "YMCA",
+            "Concession rates for students/seniors + no joining fee in June",
+            "Up to 30% off for eligible members",
+            "Bring student/senior ID to any location",
+            "June 30, 2026",
+            "https://www.ymca.org.nz"
+          ]
         ]
       }
     },

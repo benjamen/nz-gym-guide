@@ -2,7 +2,7 @@
   "slug": "best-womens-gym-nz",
   "short_title": "Best Women's Gym NZ",
   "title": "Best Women's Gyms in New Zealand 2026 — Honest Guide",
-  "meta_desc": "Find the best women's gym in NZ. Compare Contours, Les Mills, YMCA, and ClassPass — pricing, women-only options, classes, and which suits beginners vs experienced gym-goers.",
+  "meta_desc": "Find the best women's gym in NZ. Compare Contours, Les Mills, YMCA and ClassPass — pricing, women-only options and classes for beginners and beyond.",
   "intro": "Finding the right gym as a woman in New Zealand means weighing up more than just price. Environment, class availability, and whether you want a women-only or mixed space all matter. This guide covers every major option — from dedicated women's gyms to mixed gyms with strong women's communities.",
   "updated": "May 2026",
   "reading_time": 6,
@@ -14,15 +14,63 @@
     {
       "heading": "Women's Gym Comparison",
       "table": {
-        "headers": ["Gym", "Women only?", "Price from", "Best for", "Contract"],
+        "headers": [
+          "Gym",
+          "Women only?",
+          "Price from",
+          "Best for",
+          "Contract"
+        ],
         "rows": [
-          ["Contours Women's Gym", "✓ Yes", "$9.99/wk", "Beginners, comfort, guided workouts", "No lock-in"],
-          ["Les Mills", "Mixed", "$17.99/wk", "Group fitness, premium facilities", "3 months"],
-          ["YMCA", "Mixed", "$17.50/wk", "Families, swimming, community", "6 months"],
-          ["ClassPass", "Mixed studios", "from $9/wk", "Variety: yoga, pilates, HIIT", "Monthly"],
-          ["Orangetheory", "Mixed", "$18.25/wk", "Weight loss, coached HIIT", "Monthly"],
-          ["F45", "Mixed", "$25/wk", "Team HIIT, community motivation", "Flexible"],
-          ["City Fitness", "Mixed", "$7.99/wk", "Budget, 24/7, flexible", "No lock-in"]
+          [
+            "Contours Women's Gym",
+            "✓ Yes",
+            "$9.99/wk",
+            "Beginners, comfort, guided workouts",
+            "No lock-in"
+          ],
+          [
+            "Les Mills",
+            "Mixed",
+            "$17.99/wk",
+            "Group fitness, premium facilities",
+            "3 months"
+          ],
+          [
+            "YMCA",
+            "Mixed",
+            "$17.50/wk",
+            "Families, swimming, community",
+            "6 months"
+          ],
+          [
+            "ClassPass",
+            "Mixed studios",
+            "from $9/wk",
+            "Variety: yoga, pilates, HIIT",
+            "Monthly"
+          ],
+          [
+            "Orangetheory",
+            "Mixed",
+            "$18.25/wk",
+            "Weight loss, coached HIIT",
+            "Monthly"
+          ],
+          [
+            "F45",
+            "Mixed",
+            "$25/wk",
+            "Team HIIT, community motivation",
+            "Flexible"
+          ],
+          [
+            "City Fitness",
+            "Mixed",
+            "$7.99/wk",
+            "Budget, 24/7, flexible",
+            "No lock-in"
+          ]
         ]
       }
     },

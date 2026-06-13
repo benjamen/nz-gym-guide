@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 
-{% block title %}{{ gym.name }} {{ city.name }} — Prices & Locations 2026{% endblock %}
+{% block title %}{{ gym.name }} {{ city.name }} — Prices 2026{% endblock %}
 {% block desc %}{{ gym.name }} {{ city.name }} membership from ${{ gym.pricing.weekly_from }}/week. Real 2026 prices, contract terms, locations across {{ city.name }}, and how it compares to other {{ city.name }} gyms.{% endblock %}
 {% block canonical %}gym/{{ gym.slug }}/{{ city.slug }}/{% endblock %}
+{% block og_title2 %}{{ gym.name }} {{ city.name }} — Prices 2026{% endblock %}
+{% block og_desc2 %}{{ gym.name }} {{ city.name }} membership from ${{ gym.pricing.weekly_from }}/week. Real 2026 prices, contract terms and locations across {{ city.name }}.{% endblock %}
+{% block tw_title2 %}{{ gym.name }} {{ city.name }} — Prices 2026{% endblock %}
+{% block tw_desc2 %}{{ gym.name }} {{ city.name }} membership from ${{ gym.pricing.weekly_from }}/week. Real 2026 prices, contract terms and locations across {{ city.name }}.{% endblock %}
 
 {% block head_extra %}
 <script type="application/ld+json">
@@ -21,13 +25,13 @@
    "offers":{"@type":"Offer","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","unitText":"per week"}}},
   {"@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":{{ ("How much does " ~ gym.name ~ " cost in " ~ city.name ~ "?") | tojson }},
-     "acceptedAnswer":{"@type":"Answer","text":{{ (gym.name ~ " " ~ city.name ~ " membership costs from $" ~ gym.pricing.weekly_from ~ " to $" ~ gym.pricing.weekly_to ~ " per week. Joining fee is $" ~ gym.pricing.joining_fee ~ ((" (" ~ gym.pricing.joining_fee_note ~ ")") if gym.pricing.joining_fee_note else "") ~ ".") | tojson }}},
+     "acceptedAnswer":{"@type":"Answer","text":{{ (gym.name ~ " " ~ city.name ~ " membership costs from $" ~ gym.pricing.weekly_from ~ " to $" ~ gym.pricing.weekly_to ~ " per week. Joining fee is $" ~ gym.pricing.joining_fee ~ ((" (" ~ gym.pricing.joining_fee_note ~ ")") if gym.pricing.joining_fee_note else "") ~ ".") | tojson }}}},
     {"@type":"Question","name":{{ ("Where are " ~ gym.name ~ " locations in " ~ city.name ~ "?") | tojson }},
-     "acceptedAnswer":{"@type":"Answer","text":{{ (gym.name ~ " has multiple locations across " ~ city.name ~ ". Use their website or app to find the nearest club to you.") | tojson }}},
+     "acceptedAnswer":{"@type":"Answer","text":{{ (gym.name ~ " has multiple locations across " ~ city.name ~ ". Use their website or app to find the nearest club to you.") | tojson }}}},
     {"@type":"Question","name":{{ ("Is " ~ gym.name ~ " the cheapest gym in " ~ city.name ~ "?") | tojson }},
-     "acceptedAnswer":{"@type":"Answer","text":{{ ("The cheapest gym in " ~ city.name ~ " is " ~ (city.cheapest_option | replace("-", " ") | title) ~ ". " ~ gym.name ~ " starts from $" ~ gym.pricing.weekly_from ~ "/week and is classified as " ~ gym.type ~ ".") | tojson }}},
+     "acceptedAnswer":{"@type":"Answer","text":{{ ("The cheapest gym in " ~ city.name ~ " is " ~ (city.cheapest_option | replace("-", " ") | title) ~ ". " ~ gym.name ~ " starts from $" ~ gym.pricing.weekly_from ~ "/week and is classified as " ~ gym.type ~ ".") | tojson }}}},
     {"@type":"Question","name":{{ ("Does " ~ gym.name ~ " have a contract in " ~ city.name ~ "?") | tojson }},
-     "acceptedAnswer":{"@type":"Answer","text":{{ ((gym.name ~ " in " ~ city.name ~ " requires a minimum term of " ~ gym.pricing.minimum_term ~ ".") if not gym.features.no_lock_in else (gym.name ~ " in " ~ city.name ~ " has no lock-in contract — you can cancel anytime.")) | tojson }}}
+     "acceptedAnswer":{"@type":"Answer","text":{{ ((gym.name ~ " in " ~ city.name ~ " requires a minimum term of " ~ gym.pricing.minimum_term ~ ".") if not gym.features.no_lock_in else (gym.name ~ " in " ~ city.name ~ " has no lock-in contract — you can cancel anytime.")) | tojson }}}}
   ]}
 ]}
 </script>

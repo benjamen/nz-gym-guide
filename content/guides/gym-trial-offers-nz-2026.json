@@ -1,7 +1,7 @@
 {
   "slug": "gym-trial-offers-nz-2026",
   "short_title": "Gym Trial Offers NZ",
-  "title": "Gym Trial Offers NZ 2026 — Free and Cheap Trials at Every Major Chain",
+  "title": "Gym Trial Offers NZ 2026 — Free Trials at Every Chain",
   "meta_desc": "Gym trial offers in NZ 2026. Which major chains offer free trials, first-session offers, or trial memberships — and how to use them before committing.",
   "intro": "You should never join a gym in New Zealand without trying it first. Most major chains offer some form of free trial or first-session pass — this guide covers exactly what's available at each chain, how to claim it, and what to look for during your trial.",
   "updated": "May 2026",
@@ -10,17 +10,57 @@
     {
       "heading": "Gym Trial Offers NZ — 2026 Summary",
       "table": {
-        "headers": ["Gym", "Trial Offer", "How to Access"],
+        "headers": [
+          "Gym",
+          "Trial Offer",
+          "How to Access"
+        ],
         "rows": [
-          ["F45 Training", "Free first session", "Walk in or book online at your nearest studio"],
-          ["Orangetheory", "Free first session", "Book online or call your local studio"],
-          ["Les Mills", "Free trial week (some clubs)", "Ask at reception or check lesmills.co.nz"],
-          ["Anytime Fitness", "Free day pass or trial (varies)", "Ask at your nearest club"],
-          ["Jetts", "Free visit (varies by club)", "Ask at your nearest Jetts"],
-          ["City Fitness", "Free trial visit (sometimes)", "Ask at reception"],
-          ["Snap Fitness", "Free trial session (varies)", "Contact your local club"],
-          ["YMCA", "Free community day / trial", "Check local YMCA website"],
-          ["ClassPass", "First month reduced or free credit offer", "Sign up via ClassPass app"]
+          [
+            "F45 Training",
+            "Free first session",
+            "Walk in or book online at your nearest studio"
+          ],
+          [
+            "Orangetheory",
+            "Free first session",
+            "Book online or call your local studio"
+          ],
+          [
+            "Les Mills",
+            "Free trial week (some clubs)",
+            "Ask at reception or check lesmills.co.nz"
+          ],
+          [
+            "Anytime Fitness",
+            "Free day pass or trial (varies)",
+            "Ask at your nearest club"
+          ],
+          [
+            "Jetts",
+            "Free visit (varies by club)",
+            "Ask at your nearest Jetts"
+          ],
+          [
+            "City Fitness",
+            "Free trial visit (sometimes)",
+            "Ask at reception"
+          ],
+          [
+            "Snap Fitness",
+            "Free trial session (varies)",
+            "Contact your local club"
+          ],
+          [
+            "YMCA",
+            "Free community day / trial",
+            "Check local YMCA website"
+          ],
+          [
+            "ClassPass",
+            "First month reduced or free credit offer",
+            "Sign up via ClassPass app"
+          ]
         ]
       }
     },

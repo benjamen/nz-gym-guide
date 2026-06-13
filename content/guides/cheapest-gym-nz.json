@@ -2,7 +2,7 @@
   "slug": "cheapest-gym-nz",
   "short_title": "Cheapest Gym NZ",
   "title": "Cheapest Gym in NZ 2026 — Full Price Breakdown",
-  "meta_desc": "What is the cheapest gym in New Zealand? Full price comparison of City Fitness, Jetts, Contours, Snap Fitness, and more — real 2026 weekly prices, joining fees, and no-contract options.",
+  "meta_desc": "What's the cheapest gym in NZ? Compare City Fitness, Jetts, Contours and Snap Fitness — real 2026 weekly prices, joining fees and no-contract options.",
   "intro": "Finding the cheapest gym in New Zealand depends on your city, contract preference, and what features you actually need. Here's a no-nonsense breakdown of the most affordable options in 2026 — with accurate prices checked against each gym's current membership terms.",
   "updated": "May 2026",
   "reading_time": 6,
@@ -11,18 +11,84 @@
       "heading": "The Cheapest NZ Gyms Ranked by Price (2026)",
       "body": "City Fitness is the cheapest major gym chain in New Zealand at $7.99/week. Contours Women's Gym is the cheapest for women at $9.99/week with no lock-in. Jetts is the cheapest no-lock-in mixed gym with 24/7 access at $14.95/week.",
       "table": {
-        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "headers": [
+          "Gym",
+          "From (weekly)",
+          "Joining fee",
+          "Lock-in?",
+          "24/7?"
+        ],
         "rows": [
-          ["City Fitness Basic", "$7.99", "$29 (often waived online)", "No (4-week min)", "Yes"],
-          ["Contours Women's Gym", "$9.99", "$0", "No lock-in", "No"],
-          ["Jetts", "$14.95", "$0", "No lock-in", "Yes"],
-          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies by location", "Yes"],
-          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
-          ["Anytime Fitness", "$16.95", "$49 (sometimes waived)", "12 months (some 6)", "Yes"],
-          ["Les Mills", "$17.99", "$49 (often waived)", "3 months", "No"],
-          ["YMCA", "$17.50", "$0", "6–12 months", "No"],
-          ["F45", "$25.00", "$0", "Flexible by studio", "No"],
-          ["ClassPass Starter", "$9/wk (~$39/mo)", "$0", "Monthly, cancel anytime", "No"]
+          [
+            "City Fitness Basic",
+            "$7.99",
+            "$29 (often waived online)",
+            "No (4-week min)",
+            "Yes"
+          ],
+          [
+            "Contours Women's Gym",
+            "$9.99",
+            "$0",
+            "No lock-in",
+            "No"
+          ],
+          [
+            "Jetts",
+            "$14.95",
+            "$0",
+            "No lock-in",
+            "Yes"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95",
+            "$49 (often waived)",
+            "Varies by location",
+            "Yes"
+          ],
+          [
+            "City Fitness Black Card",
+            "$14.99",
+            "$29",
+            "No",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95",
+            "$49 (sometimes waived)",
+            "12 months (some 6)",
+            "Yes"
+          ],
+          [
+            "Les Mills",
+            "$17.99",
+            "$49 (often waived)",
+            "3 months",
+            "No"
+          ],
+          [
+            "YMCA",
+            "$17.50",
+            "$0",
+            "6–12 months",
+            "No"
+          ],
+          [
+            "F45",
+            "$25.00",
+            "$0",
+            "Flexible by studio",
+            "No"
+          ],
+          [
+            "ClassPass Starter",
+            "$9/wk (~$39/mo)",
+            "$0",
+            "Monthly, cancel anytime",
+            "No"
+          ]
         ]
       }
     },

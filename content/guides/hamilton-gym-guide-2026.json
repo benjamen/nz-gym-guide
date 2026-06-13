@@ -1,7 +1,7 @@
 {
   "slug": "hamilton-gym-guide-2026",
   "short_title": "Hamilton Gyms",
-  "title": "Best Gyms in Hamilton 2026 — Prices, Reviews and Honest Guide",
+  "title": "Best Gyms in Hamilton 2026 — Prices & Honest Reviews",
   "meta_desc": "Find the best gym in Hamilton for your budget. Honest 2026 prices for City Fitness, Anytime Fitness, Les Mills, Jetts, F45 and more. No fluff.",
   "intro": "Hamilton is one of the most underrated gym cities in New Zealand. Prices are lower than Auckland, the chains are all present, and there are genuine independent options that offer excellent value. City Fitness Hamilton starts at $7.99/week. Les Mills Hamilton is one of the best-equipped Les Mills clubs outside Auckland. And Anytime Fitness has strong multi-club coverage. Whether you want budget 24/7 access or a premium group fitness experience, Hamilton delivers.",
   "updated": "May 2026",
@@ -10,16 +10,70 @@
     {
       "heading": "Hamilton Gym Prices — 2026",
       "table": {
-        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "headers": [
+          "Gym",
+          "From (weekly)",
+          "Joining fee",
+          "Lock-in?",
+          "24/7?"
+        ],
         "rows": [
-          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
-          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
-          ["Jetts Hamilton", "$14.95", "$0", "No lock-in", "Yes"],
-          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
-          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
-          ["Les Mills Hamilton", "$17.99", "$49 (often waived)", "3 months", "No"],
-          ["YMCA Hamilton", "$17.50", "$0", "6 months", "No"],
-          ["F45 Hamilton", "$25.00", "$0", "Flexible", "No (class-based)"]
+          [
+            "City Fitness Basic",
+            "$7.99",
+            "$29",
+            "No (4-week min)",
+            "Yes"
+          ],
+          [
+            "City Fitness Black Card",
+            "$14.99",
+            "$29",
+            "No",
+            "Yes"
+          ],
+          [
+            "Jetts Hamilton",
+            "$14.95",
+            "$0",
+            "No lock-in",
+            "Yes"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95",
+            "$49 (often waived)",
+            "Varies",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95",
+            "$49",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Les Mills Hamilton",
+            "$17.99",
+            "$49 (often waived)",
+            "3 months",
+            "No"
+          ],
+          [
+            "YMCA Hamilton",
+            "$17.50",
+            "$0",
+            "6 months",
+            "No"
+          ],
+          [
+            "F45 Hamilton",
+            "$25.00",
+            "$0",
+            "Flexible",
+            "No (class-based)"
+          ]
         ]
       }
     },

@@ -1,7 +1,7 @@
 {
   "slug": "new-plymouth-gym-guide-2026",
   "short_title": "New Plymouth Gyms",
-  "title": "Best Gyms in New Plymouth 2026 — Prices, Reviews and Local Options",
+  "title": "Best Gyms in New Plymouth 2026 — Prices & Reviews",
   "meta_desc": "Best gyms in New Plymouth 2026. Honest prices and reviews for City Fitness, Anytime Fitness, Snap Fitness, local gyms and fitness centres in New Plymouth.",
   "intro": "New Plymouth has a compact but well-served gym market. City Fitness, Anytime Fitness, and Snap Fitness all operate in the city, providing 24/7 access at competitive prices. New Plymouth has a notably active outdoor culture — many residents supplement gym training with surfing, mountain biking, or running on the Coastal Walkway — so gyms here tend to attract serious, consistent members rather than casual visitors.",
   "updated": "May 2026",
@@ -10,14 +10,56 @@
     {
       "heading": "New Plymouth Gym Prices — 2026",
       "table": {
-        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "headers": [
+          "Gym",
+          "From (weekly)",
+          "Joining fee",
+          "Lock-in?",
+          "24/7?"
+        ],
         "rows": [
-          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
-          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
-          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
-          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
-          ["Jetts", "$14.95", "$0", "No lock-in", "Yes"],
-          ["Local/independent gyms", "$15–$25", "Varies", "Varies", "Varies"]
+          [
+            "City Fitness Basic",
+            "$7.99",
+            "$29",
+            "No (4-week min)",
+            "Yes"
+          ],
+          [
+            "City Fitness Black Card",
+            "$14.99",
+            "$29",
+            "No",
+            "Yes"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95",
+            "$49 (often waived)",
+            "Varies",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95",
+            "$49",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Jetts",
+            "$14.95",
+            "$0",
+            "No lock-in",
+            "Yes"
+          ],
+          [
+            "Local/independent gyms",
+            "$15–$25",
+            "Varies",
+            "Varies",
+            "Varies"
+          ]
         ]
       }
     },

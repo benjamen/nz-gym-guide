@@ -1,7 +1,7 @@
 {
   "slug": "f45-vs-orangetheory-nz",
   "short_title": "F45 vs Orangetheory",
-  "title": "F45 vs Orangetheory — Which High-Intensity Gym Is Right for You?",
+  "title": "F45 vs Orangetheory NZ — Which HIIT Gym Wins?",
   "meta_desc": "F45 vs Orangetheory Fitness in NZ: HIIT workout styles, pricing, data tracking, contracts. Which high-intensity gym gives better results?",
   "intro": "F45 and Orangetheory are both high-intensity interval training (HIIT) studios, but they're fundamentally different experiences. Orangetheory is data-driven and coach-guided every session. F45 is functional movement-based with less personalised coaching. Both cost $25+/week and attract fitness-focused members. The choice depends on whether you want real-time data feedback (Orangetheory) or efficient functional training (F45).",
   "updated": "June 2026",
@@ -10,18 +10,62 @@
     {
       "heading": "F45 vs Orangetheory — Quick Comparison",
       "table": {
-        "headers": ["Factor", "F45 Training", "Orangetheory Fitness"],
+        "headers": [
+          "Factor",
+          "F45 Training",
+          "Orangetheory Fitness"
+        ],
         "rows": [
-          ["Price (from)", "$25/week", "$18.25/week"],
-          ["Joining fee", "None — first week free", "$49 registration"],
-          ["Contract", "No lock-in available", "Monthly minimum"],
-          ["Classes per week", "Unlimited", "Unlimited included"],
-          ["Workout style", "Functional movement circuits", "Cardio-treadmill + rower + strength"],
-          ["Data tracking", "Basic app", "Heart-rate zones monitored live"],
-          ["Real-time feedback", "Limited — group-based", "Personal real-time zones on screen"],
-          ["Max heart rate zones", "Not tracked", "Yes — live during class"],
-          ["Casual visit cost", "$30/class", "$32/class"],
-          ["NZ locations", "Limited (growing)", "Wellington, Auckland, Christchurch"]
+          [
+            "Price (from)",
+            "$25/week",
+            "$18.25/week"
+          ],
+          [
+            "Joining fee",
+            "None — first week free",
+            "$49 registration"
+          ],
+          [
+            "Contract",
+            "No lock-in available",
+            "Monthly minimum"
+          ],
+          [
+            "Classes per week",
+            "Unlimited",
+            "Unlimited included"
+          ],
+          [
+            "Workout style",
+            "Functional movement circuits",
+            "Cardio-treadmill + rower + strength"
+          ],
+          [
+            "Data tracking",
+            "Basic app",
+            "Heart-rate zones monitored live"
+          ],
+          [
+            "Real-time feedback",
+            "Limited — group-based",
+            "Personal real-time zones on screen"
+          ],
+          [
+            "Max heart rate zones",
+            "Not tracked",
+            "Yes — live during class"
+          ],
+          [
+            "Casual visit cost",
+            "$30/class",
+            "$32/class"
+          ],
+          [
+            "NZ locations",
+            "Limited (growing)",
+            "Wellington, Auckland, Christchurch"
+          ]
         ]
       }
     },

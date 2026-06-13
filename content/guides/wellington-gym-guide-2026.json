@@ -2,7 +2,7 @@
   "slug": "wellington-gym-guide-2026",
   "short_title": "Wellington Gyms",
   "title": "Best Gyms in Wellington 2026 — Honest Prices & Suburb Guide",
-  "meta_desc": "Find the best gym in Wellington NZ. Real 2026 prices for Les Mills, City Fitness, Jetts, Anytime Fitness, Orangetheory and boutique studios across the CBD, Newtown, Petone and Lower Hutt.",
+  "meta_desc": "Find the best gym in Wellington NZ. Real 2026 prices for Les Mills, City Fitness, Jetts and Anytime Fitness across the CBD, Newtown, Petone and Lower Hutt.",
   "intro": "Wellington's compact geography is a genuine advantage for gym-goers — most people can reach multiple gyms within a 10-minute commute. The market is competitive: City Fitness undercuts everyone on price, Les Mills dominates on group fitness, and the boutique studio scene around the CBD is growing fast. Here's the honest guide to finding your best option.",
   "updated": "May 2026",
   "reading_time": 7,
@@ -10,19 +10,91 @@
     {
       "heading": "Wellington Gym Prices — 2026",
       "table": {
-        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "headers": [
+          "Gym",
+          "From (weekly)",
+          "Joining fee",
+          "Lock-in?",
+          "24/7?"
+        ],
         "rows": [
-          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
-          ["Jetts Wellington", "$14.95", "$0", "No lock-in", "Yes"],
-          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
-          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
-          ["Les Mills Wellington", "$17.99", "$49 (often waived)", "3 months", "No"],
-          ["YMCA Wellington", "$17.50", "$0", "6–12 months", "No"],
-          ["Contours Women's", "$9.99", "$0", "No lock-in", "No"],
-          ["Orangetheory Wellington", "$18.25", "$49", "Monthly", "No (class-based)"],
-          ["F45 Wellington", "$25.00", "$0", "Flexible", "No (class-based)"],
-          ["9Round", "$24.99", "$0", "Monthly", "No"],
-          ["ClassPass", "from $9.00", "$0", "Monthly", "No"]
+          [
+            "City Fitness Basic",
+            "$7.99",
+            "$29",
+            "No (4-week min)",
+            "Yes"
+          ],
+          [
+            "Jetts Wellington",
+            "$14.95",
+            "$0",
+            "No lock-in",
+            "Yes"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95",
+            "$49 (often waived)",
+            "Varies",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95",
+            "$49",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Les Mills Wellington",
+            "$17.99",
+            "$49 (often waived)",
+            "3 months",
+            "No"
+          ],
+          [
+            "YMCA Wellington",
+            "$17.50",
+            "$0",
+            "6–12 months",
+            "No"
+          ],
+          [
+            "Contours Women's",
+            "$9.99",
+            "$0",
+            "No lock-in",
+            "No"
+          ],
+          [
+            "Orangetheory Wellington",
+            "$18.25",
+            "$49",
+            "Monthly",
+            "No (class-based)"
+          ],
+          [
+            "F45 Wellington",
+            "$25.00",
+            "$0",
+            "Flexible",
+            "No (class-based)"
+          ],
+          [
+            "9Round",
+            "$24.99",
+            "$0",
+            "Monthly",
+            "No"
+          ],
+          [
+            "ClassPass",
+            "from $9.00",
+            "$0",
+            "Monthly",
+            "No"
+          ]
         ]
       }
     },

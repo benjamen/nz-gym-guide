@@ -1,7 +1,7 @@
 {
   "slug": "gym-no-contract-vs-commitment-nz",
   "short_title": "No Contract vs Committed Gym",
-  "title": "Gym with No Contract vs Gym with Commitment — Which Should You Choose?",
+  "title": "No-Contract vs Commitment Gym NZ — How to Choose",
   "meta_desc": "No-lock-in gym vs 12-month contract: flexibility, price, commitment. How to choose the right gym contract structure for you in NZ.",
   "intro": "Choosing a gym involves choosing a contract structure: no lock-in flexibility or multi-month commitment. No-contract gyms (Jetts, City Fitness) let you cancel anytime, risking inconsistency. Committed contracts (Les Mills, Anytime Fitness) lock you in but encourage follow-through. There's no universally better choice — it depends on your commitment style, financial situation, and past gym history.",
   "updated": "June 2026",
@@ -10,18 +10,62 @@
     {
       "heading": "No Contract vs Commitment — Quick Comparison",
       "table": {
-        "headers": ["Factor", "No Contract Gym", "Committed Contract Gym"],
+        "headers": [
+          "Factor",
+          "No Contract Gym",
+          "Committed Contract Gym"
+        ],
         "rows": [
-          ["Flexibility", "Cancel anytime", "12 months or minimum term"],
-          ["Financial risk", "Low (try risk-free)", "Higher (locked in)"],
-          ["Price incentive", "Often cheaper weekly", "Often premium pricing"],
-          ["Psychological commitment", "Low — easy to quit", "High — financial pressure"],
-          ["Best for", "Uncertain members, frequent movers", "Committed trainers"],
-          ["Cancellation barrier", "None", "30-day notice + contract end"],
-          ["Hidden fees", "Rare", "Possible"],
-          ["Joining fee", "Often $0–$29", "Often $49–$99"],
-          ["Gym examples", "Jetts, City Fitness", "Les Mills, Anytime Fitness"],
-          ["Average cost/year", "$400–$700", "$800–$1200"]
+          [
+            "Flexibility",
+            "Cancel anytime",
+            "12 months or minimum term"
+          ],
+          [
+            "Financial risk",
+            "Low (try risk-free)",
+            "Higher (locked in)"
+          ],
+          [
+            "Price incentive",
+            "Often cheaper weekly",
+            "Often premium pricing"
+          ],
+          [
+            "Psychological commitment",
+            "Low — easy to quit",
+            "High — financial pressure"
+          ],
+          [
+            "Best for",
+            "Uncertain members, frequent movers",
+            "Committed trainers"
+          ],
+          [
+            "Cancellation barrier",
+            "None",
+            "30-day notice + contract end"
+          ],
+          [
+            "Hidden fees",
+            "Rare",
+            "Possible"
+          ],
+          [
+            "Joining fee",
+            "Often $0–$29",
+            "Often $49–$99"
+          ],
+          [
+            "Gym examples",
+            "Jetts, City Fitness",
+            "Les Mills, Anytime Fitness"
+          ],
+          [
+            "Average cost/year",
+            "$400–$700",
+            "$800–$1200"
+          ]
         ]
       }
     },

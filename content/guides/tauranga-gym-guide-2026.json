@@ -1,7 +1,7 @@
 {
   "slug": "tauranga-gym-guide-2026",
   "short_title": "Tauranga Gyms",
-  "title": "Best Gyms in Tauranga 2026 — Prices, Reviews and What to Know",
+  "title": "Best Gyms in Tauranga 2026 — Prices & What to Know",
   "meta_desc": "The best gyms in Tauranga in 2026. Honest prices for City Fitness, Anytime Fitness, Les Mills, Snap Fitness, F45 and more in Tauranga and Mt Maunganui.",
   "intro": "Tauranga and Mt Maunganui offer a solid range of gym options spread across the wider Bay of Plenty region. City Fitness provides budget 24/7 access. Les Mills Tauranga is one of the better-equipped regional Les Mills clubs. And Mt Maunganui has a strong boutique fitness scene with F45 and a growing number of independent studios. Whether you're in the CBD, the Mount, or Papamoa, there's a gym within easy reach.",
   "updated": "May 2026",
@@ -10,16 +10,70 @@
     {
       "heading": "Tauranga Gym Prices — 2026",
       "table": {
-        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "headers": [
+          "Gym",
+          "From (weekly)",
+          "Joining fee",
+          "Lock-in?",
+          "24/7?"
+        ],
         "rows": [
-          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
-          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
-          ["Jetts Tauranga", "$14.95", "$0", "No lock-in", "Yes"],
-          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
-          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
-          ["Les Mills Tauranga", "$17.99", "$49 (often waived)", "3 months", "No"],
-          ["F45 Mt Maunganui", "$25.00", "$0", "Flexible", "No (class-based)"],
-          ["Orangetheory Tauranga", "$18.25", "$49", "Monthly", "No (class-based)"]
+          [
+            "City Fitness Basic",
+            "$7.99",
+            "$29",
+            "No (4-week min)",
+            "Yes"
+          ],
+          [
+            "City Fitness Black Card",
+            "$14.99",
+            "$29",
+            "No",
+            "Yes"
+          ],
+          [
+            "Jetts Tauranga",
+            "$14.95",
+            "$0",
+            "No lock-in",
+            "Yes"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95",
+            "$49 (often waived)",
+            "Varies",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95",
+            "$49",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Les Mills Tauranga",
+            "$17.99",
+            "$49 (often waived)",
+            "3 months",
+            "No"
+          ],
+          [
+            "F45 Mt Maunganui",
+            "$25.00",
+            "$0",
+            "Flexible",
+            "No (class-based)"
+          ],
+          [
+            "Orangetheory Tauranga",
+            "$18.25",
+            "$49",
+            "Monthly",
+            "No (class-based)"
+          ]
         ]
       }
     },

@@ -1,7 +1,7 @@
 {
   "slug": "city-fitness-vs-anytime-fitness-nz",
   "short_title": "City Fitness vs Anytime Fitness",
-  "title": "City Fitness vs Anytime Fitness NZ — Which Is Better in 2026?",
+  "title": "City Fitness vs Anytime Fitness NZ — 2026 Verdict",
   "meta_desc": "City Fitness vs Anytime Fitness NZ honest comparison 2026. Prices, contracts, 24/7 access, and which gym is worth it for different types of members.",
   "intro": "City Fitness and Anytime Fitness are both 24/7 chains, but they sit at different ends of the budget-vs-network spectrum. City Fitness is cheaper — significantly so. Anytime Fitness has a bigger club network and worldwide reciprocal access. The right choice depends almost entirely on whether you need that network, or whether cheap and local is enough.",
   "updated": "May 2026",
@@ -10,17 +10,57 @@
     {
       "heading": "City Fitness vs Anytime Fitness — Quick Comparison",
       "table": {
-        "headers": ["Factor", "City Fitness", "Anytime Fitness"],
+        "headers": [
+          "Factor",
+          "City Fitness",
+          "Anytime Fitness"
+        ],
         "rows": [
-          ["Price (Basic, from)", "$7.99/week", "$16.95/week"],
-          ["Price (multi-club)", "$14.99/week (Black Card)", "$16.95/week"],
-          ["Joining fee", "$29 (often waived)", "$49"],
-          ["Contract", "No lock-in (4-week min)", "12 months"],
-          ["24/7 access", "Yes", "Yes"],
-          ["NZ locations", "30+", "100+"],
-          ["Worldwide access", "No", "Yes — worldwide Anytime network"],
-          ["Group fitness", "Very limited", "Varies by club"],
-          ["App / tracking", "Basic", "Better"]
+          [
+            "Price (Basic, from)",
+            "$7.99/week",
+            "$16.95/week"
+          ],
+          [
+            "Price (multi-club)",
+            "$14.99/week (Black Card)",
+            "$16.95/week"
+          ],
+          [
+            "Joining fee",
+            "$29 (often waived)",
+            "$49"
+          ],
+          [
+            "Contract",
+            "No lock-in (4-week min)",
+            "12 months"
+          ],
+          [
+            "24/7 access",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "NZ locations",
+            "30+",
+            "100+"
+          ],
+          [
+            "Worldwide access",
+            "No",
+            "Yes — worldwide Anytime network"
+          ],
+          [
+            "Group fitness",
+            "Very limited",
+            "Varies by club"
+          ],
+          [
+            "App / tracking",
+            "Basic",
+            "Better"
+          ]
         ]
       }
     },

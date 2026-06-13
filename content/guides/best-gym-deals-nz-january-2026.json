@@ -1,8 +1,8 @@
 {
   "slug": "best-gym-deals-nz-january-2026",
   "short_title": "Best NZ Gym Deals January",
-  "title": "Best Gym Deals NZ — January 2026 New Year Offers and How to Save",
-  "meta_desc": "Best gym deals in New Zealand for January 2026. New Year joining offers, waived fees, and how to get the best deal when every gym is competing for your resolution.",
+  "title": "Best Gym Deals NZ — January 2026 New Year Offers",
+  "meta_desc": "Best gym deals in NZ for January 2026. New Year joining offers, waived fees and how to get the best deal when every gym competes for your resolution.",
   "intro": "January is the single best month to join a gym in New Zealand. Every chain runs promotions competing for New Year resolution sign-ups — joining fees get waived, free months get added, and prices drop. This guide covers what to expect from each chain in January and how to get the best deal.",
   "updated": "May 2026",
   "reading_time": 6,
@@ -14,15 +14,47 @@
     {
       "heading": "January Offers by Chain (Expected 2026/27)",
       "table": {
-        "headers": ["Gym", "Typical January Offer", "What to Ask For"],
+        "headers": [
+          "Gym",
+          "Typical January Offer",
+          "What to Ask For"
+        ],
         "rows": [
-          ["City Fitness", "Joining fee waived ($29 saving)", "Ask for waived joining fee + current promo"],
-          ["Les Mills", "Joining fee waived + free month", "Ask for $0 joining fee and any current offer"],
-          ["Jetts", "Already $0 joining fee — lowest ever rate", "No negotiation needed — already cheapest entry"],
-          ["Anytime Fitness", "Joining fee waived or reduced + free training session", "Ask for waived $49 fee + free PT session"],
-          ["Snap Fitness", "Joining fee waived + reduced first month", "Check local club for specific January offer"],
-          ["F45", "Free week or reduced first month", "Ask for extended trial or first month offer"],
-          ["Orangetheory", "First class free + reduced first month", "Introductory package pricing available"]
+          [
+            "City Fitness",
+            "Joining fee waived ($29 saving)",
+            "Ask for waived joining fee + current promo"
+          ],
+          [
+            "Les Mills",
+            "Joining fee waived + free month",
+            "Ask for $0 joining fee and any current offer"
+          ],
+          [
+            "Jetts",
+            "Already $0 joining fee — lowest ever rate",
+            "No negotiation needed — already cheapest entry"
+          ],
+          [
+            "Anytime Fitness",
+            "Joining fee waived or reduced + free training session",
+            "Ask for waived $49 fee + free PT session"
+          ],
+          [
+            "Snap Fitness",
+            "Joining fee waived + reduced first month",
+            "Check local club for specific January offer"
+          ],
+          [
+            "F45",
+            "Free week or reduced first month",
+            "Ask for extended trial or first month offer"
+          ],
+          [
+            "Orangetheory",
+            "First class free + reduced first month",
+            "Introductory package pricing available"
+          ]
         ]
       }
     },

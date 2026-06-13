@@ -1,8 +1,8 @@
 {
   "slug": "christchurch-gym-guide-2026",
   "short_title": "Christchurch Gyms",
-  "title": "Best Gyms in Christchurch 2026 — Prices, Reviews & Suburb Guide",
-  "meta_desc": "Find the best gym in Christchurch NZ. Real 2026 prices for Les Mills, City Fitness, Anytime Fitness, Snap Fitness, F45, and women's gyms across Riccarton, Hornby, Papanui and the CBD.",
+  "title": "Best Gyms in Christchurch 2026 — Prices & Reviews",
+  "meta_desc": "Find the best gym in Christchurch NZ. Real 2026 prices for Les Mills, City Fitness, Anytime Fitness, Snap and F45 across Riccarton, Hornby and the CBD.",
   "intro": "Christchurch's flat geography and well-planned road network makes getting to the gym easier than most NZ cities. The post-rebuild CBD has seen a wave of new gym and studio openings, and competition keeps prices keen. City Fitness is the budget leader, Les Mills the premium choice, and the boutique scene is stronger than you might expect for a city this size.",
   "updated": "May 2026",
   "reading_time": 7,
@@ -10,17 +10,77 @@
     {
       "heading": "Christchurch Gym Prices — 2026",
       "table": {
-        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "headers": [
+          "Gym",
+          "From (weekly)",
+          "Joining fee",
+          "Lock-in?",
+          "24/7?"
+        ],
         "rows": [
-          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
-          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
-          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
-          ["Les Mills Christchurch", "$17.99", "$49 (often waived)", "3 months", "No"],
-          ["YMCA Christchurch", "$17.50", "$0", "6–12 months", "No"],
-          ["Contours Women's", "$9.99", "$0", "No lock-in", "No"],
-          ["Orangetheory Christchurch", "$18.25", "$49", "Monthly", "No (class-based)"],
-          ["F45 Christchurch", "$25.00", "$0", "Flexible", "No (class-based)"],
-          ["ClassPass", "from $9.00", "$0", "Monthly", "No"]
+          [
+            "City Fitness Basic",
+            "$7.99",
+            "$29",
+            "No (4-week min)",
+            "Yes"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95",
+            "$49 (often waived)",
+            "Varies",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95",
+            "$49",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Les Mills Christchurch",
+            "$17.99",
+            "$49 (often waived)",
+            "3 months",
+            "No"
+          ],
+          [
+            "YMCA Christchurch",
+            "$17.50",
+            "$0",
+            "6–12 months",
+            "No"
+          ],
+          [
+            "Contours Women's",
+            "$9.99",
+            "$0",
+            "No lock-in",
+            "No"
+          ],
+          [
+            "Orangetheory Christchurch",
+            "$18.25",
+            "$49",
+            "Monthly",
+            "No (class-based)"
+          ],
+          [
+            "F45 Christchurch",
+            "$25.00",
+            "$0",
+            "Flexible",
+            "No (class-based)"
+          ],
+          [
+            "ClassPass",
+            "from $9.00",
+            "$0",
+            "Monthly",
+            "No"
+          ]
         ]
       }
     },

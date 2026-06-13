@@ -1,7 +1,7 @@
 {
   "slug": "best-no-contract-gym-nz",
   "short_title": "Best No-Contract Gym NZ",
-  "title": "Best No-Contract Gym NZ 2026 — Flexible Memberships with No Lock-In",
+  "title": "Best No-Contract Gym NZ 2026 — No Lock-In Picks",
   "meta_desc": "Best no-contract gyms in New Zealand 2026. Which chains have genuine no lock-in memberships, what the actual flexibility looks like, and which is the best deal.",
   "intro": "Not everyone wants a 12-month gym contract. If you're new to training, moving cities, working on a visa, or just uncertain about commitment, a no-contract gym membership is the right move. Several NZ chains offer genuine flexibility — here's what the options actually look like.",
   "updated": "May 2026",
@@ -10,18 +10,84 @@
     {
       "heading": "No-Contract Gym Options in NZ — 2026",
       "table": {
-        "headers": ["Gym", "Contract?", "Minimum Period", "Price From", "Joining Fee"],
+        "headers": [
+          "Gym",
+          "Contract?",
+          "Minimum Period",
+          "Price From",
+          "Joining Fee"
+        ],
         "rows": [
-          ["Jetts", "No lock-in", "None stated", "$14.95/week", "$0"],
-          ["City Fitness Basic", "No lock-in", "4 weeks", "$7.99/week", "$29 (often waived)"],
-          ["City Fitness Black Card", "No lock-in", "4 weeks", "$14.99/week", "$29 (often waived)"],
-          ["Contours", "No lock-in", "None", "$9.99/week", "$0"],
-          ["ClassPass", "Monthly", "1 month", "from $9/week", "$0"],
-          ["9Round", "Month-to-month", "1 month", "$24.99/week", "$0"],
-          ["F45", "Flexible (varies)", "Monthly", "from $25/week", "$0"],
-          ["Les Mills", "3-month minimum", "3 months", "$17.99/week", "$49 (often waived)"],
-          ["Anytime Fitness", "12-month contract", "12 months", "$16.95/week", "$49"],
-          ["Snap Fitness", "Varies", "3–12 months", "$14.95/week", "$49"]
+          [
+            "Jetts",
+            "No lock-in",
+            "None stated",
+            "$14.95/week",
+            "$0"
+          ],
+          [
+            "City Fitness Basic",
+            "No lock-in",
+            "4 weeks",
+            "$7.99/week",
+            "$29 (often waived)"
+          ],
+          [
+            "City Fitness Black Card",
+            "No lock-in",
+            "4 weeks",
+            "$14.99/week",
+            "$29 (often waived)"
+          ],
+          [
+            "Contours",
+            "No lock-in",
+            "None",
+            "$9.99/week",
+            "$0"
+          ],
+          [
+            "ClassPass",
+            "Monthly",
+            "1 month",
+            "from $9/week",
+            "$0"
+          ],
+          [
+            "9Round",
+            "Month-to-month",
+            "1 month",
+            "$24.99/week",
+            "$0"
+          ],
+          [
+            "F45",
+            "Flexible (varies)",
+            "Monthly",
+            "from $25/week",
+            "$0"
+          ],
+          [
+            "Les Mills",
+            "3-month minimum",
+            "3 months",
+            "$17.99/week",
+            "$49 (often waived)"
+          ],
+          [
+            "Anytime Fitness",
+            "12-month contract",
+            "12 months",
+            "$16.95/week",
+            "$49"
+          ],
+          [
+            "Snap Fitness",
+            "Varies",
+            "3–12 months",
+            "$14.95/week",
+            "$49"
+          ]
         ]
       }
     },

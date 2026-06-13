@@ -1,7 +1,7 @@
 {
   "slug": "best-gym-weight-loss-nz",
   "short_title": "Best Gym for Weight Loss NZ",
-  "title": "Best Gym for Weight Loss in NZ 2026 — Which Gyms Actually Work",
+  "title": "Best Gym for Weight Loss in NZ 2026 — What Works",
   "meta_desc": "Best NZ gyms for weight loss in 2026. Which gym types, class formats, and training environments produce the best results — and what to avoid.",
   "intro": "Weight loss comes down to consistency more than any specific gym. But the right gym significantly increases your chance of actually showing up. This guide covers which NZ gym formats and chains are most effective for weight loss, based on what drives long-term consistency.",
   "updated": "May 2026",
@@ -21,15 +21,47 @@
     {
       "heading": "Best NZ Gym Formats for Weight Loss",
       "table": {
-        "headers": ["Format", "Effectiveness for Weight Loss", "Why"],
+        "headers": [
+          "Format",
+          "Effectiveness for Weight Loss",
+          "Why"
+        ],
         "rows": [
-          ["F45 Training", "★★★★★", "High-intensity, varied, strong community accountability"],
-          ["Les Mills GRIT / BODYATTACK", "★★★★★", "High-intensity group HIIT — proven fat burning"],
-          ["Les Mills BodyPump", "★★★★☆", "Resistance training builds muscle — raises resting metabolic rate"],
-          ["CrossFit", "★★★★☆", "High-intensity, varied, community-driven"],
-          ["Standard gym (Anytime/Jetts)", "★★★☆☆", "Effective if self-disciplined; many people lack structure"],
-          ["Contours", "★★★☆☆", "Good for beginners; lower intensity than HIIT options"],
-          ["Yoga / BodyBalance", "★★☆☆☆", "Good for flexibility and stress; less effective for calorie burn"]
+          [
+            "F45 Training",
+            "★★★★★",
+            "High-intensity, varied, strong community accountability"
+          ],
+          [
+            "Les Mills GRIT / BODYATTACK",
+            "★★★★★",
+            "High-intensity group HIIT — proven fat burning"
+          ],
+          [
+            "Les Mills BodyPump",
+            "★★★★☆",
+            "Resistance training builds muscle — raises resting metabolic rate"
+          ],
+          [
+            "CrossFit",
+            "★★★★☆",
+            "High-intensity, varied, community-driven"
+          ],
+          [
+            "Standard gym (Anytime/Jetts)",
+            "★★★☆☆",
+            "Effective if self-disciplined; many people lack structure"
+          ],
+          [
+            "Contours",
+            "★★★☆☆",
+            "Good for beginners; lower intensity than HIIT options"
+          ],
+          [
+            "Yoga / BodyBalance",
+            "★★☆☆☆",
+            "Good for flexibility and stress; less effective for calorie burn"
+          ]
         ]
       }
     },

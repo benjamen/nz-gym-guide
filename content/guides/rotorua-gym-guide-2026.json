@@ -1,7 +1,7 @@
 {
   "slug": "rotorua-gym-guide-2026",
   "short_title": "Rotorua Gyms",
-  "title": "Best Gyms in Rotorua 2026 — Prices, Options and What to Expect",
+  "title": "Best Gyms in Rotorua 2026 — Prices & Honest Reviews",
   "meta_desc": "Best gyms in Rotorua 2026. Prices, contracts and honest reviews for City Fitness, Anytime Fitness, Snap Fitness and local gyms in Rotorua.",
   "intro": "Rotorua has a smaller but solid gym market. The main chains — City Fitness, Anytime Fitness, and Snap Fitness — all operate here, giving residents 24/7 access options at competitive prices. The city doesn't have a Les Mills, but the independent gym scene fills some of that gap. For residents and visitors who train regularly, Rotorua has more to offer than most similarly-sized NZ cities.",
   "updated": "May 2026",
@@ -10,14 +10,56 @@
     {
       "heading": "Rotorua Gym Prices — 2026",
       "table": {
-        "headers": ["Gym", "From (weekly)", "Joining fee", "Lock-in?", "24/7?"],
+        "headers": [
+          "Gym",
+          "From (weekly)",
+          "Joining fee",
+          "Lock-in?",
+          "24/7?"
+        ],
         "rows": [
-          ["City Fitness Basic", "$7.99", "$29", "No (4-week min)", "Yes"],
-          ["City Fitness Black Card", "$14.99", "$29", "No", "Yes"],
-          ["Snap Fitness", "$14.95", "$49 (often waived)", "Varies", "Yes"],
-          ["Anytime Fitness", "$16.95", "$49", "12 months", "Yes"],
-          ["Jetts", "$14.95", "$0", "No lock-in", "Yes"],
-          ["Independent gyms", "$15–$25", "Varies", "Varies", "Varies"]
+          [
+            "City Fitness Basic",
+            "$7.99",
+            "$29",
+            "No (4-week min)",
+            "Yes"
+          ],
+          [
+            "City Fitness Black Card",
+            "$14.99",
+            "$29",
+            "No",
+            "Yes"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95",
+            "$49 (often waived)",
+            "Varies",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "$16.95",
+            "$49",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Jetts",
+            "$14.95",
+            "$0",
+            "No lock-in",
+            "Yes"
+          ],
+          [
+            "Independent gyms",
+            "$15–$25",
+            "Varies",
+            "Varies",
+            "Varies"
+          ]
         ]
       }
     },

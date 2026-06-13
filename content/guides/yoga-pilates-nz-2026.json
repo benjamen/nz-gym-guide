@@ -1,8 +1,8 @@
 {
   "slug": "yoga-pilates-nz-2026",
   "short_title": "Yoga & Pilates NZ",
-  "title": "Yoga & Pilates in NZ 2026 — Studio Guide, Prices & Best Options",
-  "meta_desc": "Compare yoga and pilates studios in New Zealand. Prices from $12/class, reformer pilates costs, hot yoga NZ, and whether ClassPass is worth it for studio access.",
+  "title": "Yoga & Pilates NZ 2026 — Studio Guide & Prices",
+  "meta_desc": "Compare yoga and pilates studios in NZ. Prices from $12/class, reformer pilates costs, hot yoga, and whether ClassPass is worth it for studio access.",
   "intro": "Yoga and pilates are two of New Zealand's fastest-growing fitness activities — but the pricing varies wildly, from $12 community classes to $45 reformer pilates sessions. This guide covers what you'll pay, what to expect, and the smartest way to access multiple studios without committing to one.",
   "updated": "May 2026",
   "reading_time": 7,
@@ -14,14 +14,49 @@
     {
       "heading": "Yoga Class Costs Compared",
       "table": {
-        "headers": ["Type", "Casual price", "Monthly (unlimited)", "Notes"],
+        "headers": [
+          "Type",
+          "Casual price",
+          "Monthly (unlimited)",
+          "Notes"
+        ],
         "rows": [
-          ["Standard yoga class", "$18–$28", "$79–$149/mo", "Most city studios"],
-          ["Hot yoga (Bikram/Inferno)", "$22–$35", "$99–$169/mo", "Specialist studios only"],
-          ["Yin / restorative yoga", "$18–$25", "$79–$129/mo", "Often paired with other styles"],
-          ["Community / council yoga", "$8–$15", "N/A — casual only", "Libraries, community centres"],
-          ["Corporate / workplace yoga", "$12–$20", "N/A", "Per-session, instructor comes to you"],
-          ["Online yoga (NZ instructors)", "$0–$29/mo", "$9–$29/mo", "Streaming, unlimited access"]
+          [
+            "Standard yoga class",
+            "$18–$28",
+            "$79–$149/mo",
+            "Most city studios"
+          ],
+          [
+            "Hot yoga (Bikram/Inferno)",
+            "$22–$35",
+            "$99–$169/mo",
+            "Specialist studios only"
+          ],
+          [
+            "Yin / restorative yoga",
+            "$18–$25",
+            "$79–$129/mo",
+            "Often paired with other styles"
+          ],
+          [
+            "Community / council yoga",
+            "$8–$15",
+            "N/A — casual only",
+            "Libraries, community centres"
+          ],
+          [
+            "Corporate / workplace yoga",
+            "$12–$20",
+            "N/A",
+            "Per-session, instructor comes to you"
+          ],
+          [
+            "Online yoga (NZ instructors)",
+            "$0–$29/mo",
+            "$9–$29/mo",
+            "Streaming, unlimited access"
+          ]
         ]
       }
     },
@@ -32,12 +67,37 @@
     {
       "heading": "Pilates Price Comparison",
       "table": {
-        "headers": ["Format", "Casual", "10-pack", "Monthly unlimited"],
+        "headers": [
+          "Format",
+          "Casual",
+          "10-pack",
+          "Monthly unlimited"
+        ],
         "rows": [
-          ["Reformer pilates (studio)", "$35–$45", "$300–$380", "$180–$280/mo"],
-          ["Mat pilates (studio)", "$18–$28", "$150–$230", "$79–$149/mo"],
-          ["Mat pilates (community)", "$8–$15", "N/A", "N/A"],
-          ["1:1 reformer pilates (PT)", "$80–$130", "N/A", "N/A"]
+          [
+            "Reformer pilates (studio)",
+            "$35–$45",
+            "$300–$380",
+            "$180–$280/mo"
+          ],
+          [
+            "Mat pilates (studio)",
+            "$18–$28",
+            "$150–$230",
+            "$79–$149/mo"
+          ],
+          [
+            "Mat pilates (community)",
+            "$8–$15",
+            "N/A",
+            "N/A"
+          ],
+          [
+            "1:1 reformer pilates (PT)",
+            "$80–$130",
+            "N/A",
+            "N/A"
+          ]
         ]
       }
     },
@@ -48,17 +108,67 @@
     {
       "heading": "Studio Fitness Cost Overview",
       "table": {
-        "headers": ["Activity", "Typical casual price", "Monthly (unlimited)", "Notes"],
+        "headers": [
+          "Activity",
+          "Typical casual price",
+          "Monthly (unlimited)",
+          "Notes"
+        ],
         "rows": [
-          ["Yoga", "$18–$28/class", "$89–$149/mo", "Widely available nationwide"],
-          ["Reformer pilates", "$35–$45/class", "$180–$280/mo", "Most expensive studio format"],
-          ["Mat pilates", "$18–$28/class", "$79–$149/mo", "More affordable than reformer"],
-          ["Barre", "$22–$32/class", "$99–$169/mo", "Major cities primarily"],
-          ["Indoor cycling (spin)", "$20–$30/class", "$99–$149/mo", "Dedicated cycling studios"],
-          ["Boxing / kickboxing", "$20–$35/class", "$89–$149/mo", "Very popular in NZ"],
-          ["Dance / zumba", "$10–$18/class", "$59–$99/mo", "Often cheaper than other studios"],
-          ["Meditation / mindfulness", "$12–$22/class", "$39–$79/mo", "Standalone or studio add-on"],
-          ["Swimming (casual)", "$5–$8/session", "$49–$89/mo", "Council pools are great value"]
+          [
+            "Yoga",
+            "$18–$28/class",
+            "$89–$149/mo",
+            "Widely available nationwide"
+          ],
+          [
+            "Reformer pilates",
+            "$35–$45/class",
+            "$180–$280/mo",
+            "Most expensive studio format"
+          ],
+          [
+            "Mat pilates",
+            "$18–$28/class",
+            "$79–$149/mo",
+            "More affordable than reformer"
+          ],
+          [
+            "Barre",
+            "$22–$32/class",
+            "$99–$169/mo",
+            "Major cities primarily"
+          ],
+          [
+            "Indoor cycling (spin)",
+            "$20–$30/class",
+            "$99–$149/mo",
+            "Dedicated cycling studios"
+          ],
+          [
+            "Boxing / kickboxing",
+            "$20–$35/class",
+            "$89–$149/mo",
+            "Very popular in NZ"
+          ],
+          [
+            "Dance / zumba",
+            "$10–$18/class",
+            "$59–$99/mo",
+            "Often cheaper than other studios"
+          ],
+          [
+            "Meditation / mindfulness",
+            "$12–$22/class",
+            "$39–$79/mo",
+            "Standalone or studio add-on"
+          ],
+          [
+            "Swimming (casual)",
+            "$5–$8/session",
+            "$49–$89/mo",
+            "Council pools are great value"
+          ]
         ]
       }
     },
