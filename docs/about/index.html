@@ -63,19 +63,32 @@
   </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "name": "About NZ Gym Guide",
-  "description": "NZ Gym Guide is an independent comparison site for gym memberships in New Zealand.",
-  "url": "https://nzgymguide.co.nz/about/",
-  "publisher": {
-    "@type": "Organization",
-    "name": "NZ Gym Guide",
-    "url": "https://nzgymguide.co.nz",
-    "contactPoint": {"@type": "ContactPoint", "email": "instituteofbba@gmail.com", "contactType": "customer support"}
-  }
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"AboutPage",
+   "name":"About NZ Gym Guide",
+   "description":"NZ Gym Guide is an independent comparison site for gym memberships in New Zealand.",
+   "url":"https://nzgymguide.co.nz/about/",
+   "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[
+     {"@type":"ListItem","position":1,"name":"Home","item":"https://nzgymguide.co.nz/"},
+     {"@type":"ListItem","position":2,"name":"About","item":"https://nzgymguide.co.nz/about/"}
+   ]}},
+  {"@type":"Person",
+   "@id":"https://nzgymguide.co.nz/about/#author",
+   "name":"NZ Gym Guide Team",
+   "jobTitle":"Founder, NZ Gym Guide",
+   "description":"Auckland and Wellington-based fitness enthusiasts who built NZ Gym Guide after getting frustrated with hidden gym pricing and misleading review sites.",
+   "url":"https://nzgymguide.co.nz/about/",
+   "email":"instituteofbba@gmail.com",
+   "knowsAbout":["NZ gym memberships","Gym contract law NZ","Exercise NZ subsidy","NZ fitness industry","Gym cancellation rights NZ"],
+   "worksFor":{"@id":"https://nzgymguide.co.nz/#organization"}},
+  {"@type":"Organization",
+   "@id":"https://nzgymguide.co.nz/#organization",
+   "name":"NZ Gym Guide",
+   "url":"https://nzgymguide.co.nz",
+   "logo":{"@type":"ImageObject","url":"https://nzgymguide.co.nz/static/img/og-image.svg"},
+   "contactPoint":{"@type":"ContactPoint","email":"instituteofbba@gmail.com","contactType":"customer support"},
+   "founder":{"@id":"https://nzgymguide.co.nz/about/#author"}}
+]}
 </script>
 
 </head>

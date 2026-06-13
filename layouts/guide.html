@@ -21,8 +21,8 @@
    "image":{"@type":"ImageObject","url":"{{ guide.hero_image.url if guide.hero_image else 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80' }}","width":1200,"height":630},
    "inLanguage":"en-NZ",
    "url":"{{ site.base_url }}/{{ _section }}/{{ guide.slug }}/",
-   "author":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}"},
-   "publisher":{"@type":"Organization","name":"NZ Gym Guide","url":"{{ site.base_url }}",
+   "author":{"@type":"Person","@id":"{{ site.base_url }}/about/#author","name":"NZ Gym Guide Team","url":"{{ site.base_url }}/about/"},
+   "publisher":{"@type":"Organization","@id":"{{ site.base_url }}/#organization","name":"NZ Gym Guide","url":"{{ site.base_url }}",
      "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.svg","width":512,"height":512}}
   }{% if guide.faq and guide.faq|length > 0 %},
   {"@type":"FAQPage","mainEntity":[
@@ -39,6 +39,7 @@
     <h1>{{ guide.title }}</h1>
     <p>{{ guide.intro }}</p>
     <div class="guide-meta">
+      <span>By <a href="/about/" style="color:inherit;text-decoration:underline">NZ Gym Guide Team</a></span>
       <span>Updated {{ guide.updated }}</span>
       {% if guide.reading_time %}<span>{{ guide.reading_time }} min read</span>{% endif %}
     </div>
