@@ -1,0 +1,73 @@
+{
+  "title": "Protein Needs Guide",
+  "short_title": "Protein Guide",
+  "meta_desc": "Learn how much protein you need for fitness goals, with NZ sources and brands, and discover how a gym membership can help, with links to NZ gym options and Exercise NZ's subsidised scheme",
+  "intro": "As a New Zealander looking to improve your fitness, it's essential to understand your protein needs. With around 1 in 3 New Zealand adults experiencing obesity, a well-balanced diet is crucial. Protein plays a significant role in muscle growth and repair, and getting enough is vital for achieving your fitness goals.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "How Much Protein Do You Need?",
+      "body": "The amount of protein you need depends on your fitness goals and weight. Generally, for muscle maintenance, you need around 0.8 grams of protein per kilogram of body weight per day. For muscle gain, this increases to around 1.2-1.6 grams per kilogram. Research suggests that spreading your protein intake throughout the day can help with absorption and muscle growth. For example, if you weigh 70 kilograms, you would need around 56-80 grams of protein per day for muscle gain."
+    },
+    {
+      "heading": "NZ Protein Sources and Brands",
+      "body": "New Zealand has a wide range of protein sources, including dairy, meat, and plant-based options. Some popular NZ brands include Fonterra, Westland, and Vital Foods. When choosing a protein supplement, consider whey protein, which is high in essential amino acids, or plant-based options like pea or rice protein. NZ brands often offer high-quality products, but imports can also be a good option. Look for products that are low in added sugars and artificial ingredients.",
+      "list": [
+        "Whey protein: high in essential amino acids",
+        "Plant-based options: pea, rice, and hemp protein",
+        "NZ brands: Fonterra, Westland, and Vital Foods"
+      ]
+    },
+    {
+      "heading": "Whey vs Plant-Based Protein",
+      "body": "Whey protein is a popular choice among gym-goers due to its high bioavailability and absorption rate. However, plant-based options are gaining popularity, particularly among those with dietary restrictions. Research suggests that plant-based proteins can be just as effective as whey protein for muscle growth and repair. Consider your dietary needs and preferences when choosing a protein supplement.",
+      "table": {
+        "headers": [
+          "Protein Type",
+          "Bioavailability",
+          "Absorption Rate"
+        ],
+        "rows": [
+          [
+            "Whey Protein",
+            "High",
+            "Fast"
+          ],
+          [
+            "Pea Protein",
+            "Medium",
+            "Medium"
+          ],
+          [
+            "Rice Protein",
+            "Low",
+            "Slow"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How a Gym Membership Can Help",
+      "body": "A gym membership can provide you with access to a range of equipment and expertise to help you achieve your fitness goals. Many gyms in New Zealand offer personal training sessions and group fitness classes, which can help you stay motivated and accountable. Additionally, Exercise NZ's subsidised gym scheme can help make gym memberships more affordable, with discounts of up to 70% off. You can find more information on the scheme and compare NZ gym options on our website.",
+      "cta": {
+        "text": "Compare NZ Gym Options",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Next Steps",
+      "body": "Now that you know more about your protein needs, it's time to take action. Consider your fitness goals and calculate your daily protein needs. Look for high-quality protein sources, including NZ brands and imports. Don't forget to spread your protein intake throughout the day for optimal absorption and muscle growth.",
+      "cta": {
+        "text": "Take Our Quiz to Find Your Perfect Gym",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "protein-gym-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-14",
+  "post_type": "health_info"
+}
