@@ -2,10 +2,10 @@
   "slug": "how-to-cancel-les-mills-nz",
   "short_title": "Cancel Les Mills NZ",
   "title": "How to Cancel Les Mills NZ Membership — Step-by-Step 2026",
-  "meta_desc": "How to cancel your Les Mills New Zealand gym membership. Notice periods, cancellation process, early exit fees, and what to watch out for in 2026.",
-  "intro": "Cancelling a Les Mills membership in New Zealand is a reasonably simple process as long as you follow the right steps and meet the notice period. Les Mills requires written notice and has a 3-month minimum term. Here's exactly how to do it.",
-  "updated": "May 2026",
-  "reading_time": 5,
+  "meta_desc": "How to cancel your Les Mills NZ membership — gym, Les Mills+ app, or class passes. Notice periods, minimum term, early exit fees, refunds and an email template.",
+  "intro": "Cancelling a Les Mills membership in New Zealand is straightforward as long as you know which type of membership you hold and follow the right steps. Les Mills has three very different products — full club (gym) membership, the Les Mills+ on-demand app, and class passes — and each cancels differently. Club memberships have a 3-month minimum term and require written notice; the app cancels through your app store; class passes simply expire. This guide covers the process for each, the notice period, early-exit and medical waivers, suspension vs cancellation, and your rights under NZ consumer law.",
+  "updated": "June 2026",
+  "reading_time": 7,
   "sections": [
     {
       "heading": "Les Mills NZ Cancellation — Quick Summary",
@@ -15,70 +15,50 @@
           "Details"
         ],
         "rows": [
-          [
-            "Minimum contract",
-            "3 months"
-          ],
-          [
-            "Notice period",
-            "14 days written notice (after minimum term)"
-          ],
-          [
-            "How to cancel",
-            "Online via member portal or in person at club"
-          ],
-          [
-            "Early exit fee",
-            "Remaining weeks of minimum term (3-month period)"
-          ],
-          [
-            "Cancellation after contract",
-            "Cancel any time with 14 days notice"
-          ],
-          [
-            "Direct debit",
-            "Cancel only after written confirmation from Les Mills"
-          ]
+          ["Minimum contract (club)", "3 months"],
+          ["Notice period (club)", "14 days written notice (after minimum term)"],
+          ["How to cancel (club)", "Member portal or in person at your club"],
+          ["Early exit fee", "Remaining weeks of the 3-month minimum"],
+          ["Les Mills+ app", "Cancel via App Store / Google Play subscription"],
+          ["Class passes", "No cancellation needed — they expire"],
+          ["Direct debit", "Cancel only after written confirmation from Les Mills"]
         ]
       }
     },
     {
-      "heading": "Step 1 — Check Your Minimum Term",
-      "body": "Les Mills requires a 3-month minimum. If you've been a member for less than 3 months, you'll need to either pay out the remainder or wait until the minimum term expires. Log into the Les Mills member portal or call your club to confirm your start date and when your minimum term ends."
+      "heading": "First: Which Les Mills Membership Do You Have?",
+      "body": "<p>Les Mills sells three distinct products, and the cancellation method depends entirely on which you hold:</p><ul><li><strong>Club (gym) membership</strong> — physical access to a Les Mills club. This is the one with a 3-month minimum term and a direct debit. Cancel via the member portal or in person (see below).</li><li><strong>Les Mills+ (on-demand app)</strong> — streaming workouts at home, billed as an app subscription. Cancel through your App Store or Google Play account, not at a club.</li><li><strong>Class passes / casual passes</strong> — pre-paid bundles of class entries. These have no ongoing billing and simply expire, so there's usually nothing to cancel.</li></ul><p>If you're being charged a fortnightly direct debit, you almost certainly have a club membership — read the gym-membership steps next.</p>"
     },
     {
-      "heading": "Step 2 — Submit Your Cancellation",
-      "body": "Les Mills offers two ways to cancel:\n\n1. **Online**: Log into the Les Mills member portal at lesmills.co.nz, navigate to your membership settings, and submit a cancellation request.\n2. **In person**: Visit your home club and complete a cancellation form with a staff member.\n\nEmail or phone cancellations are not typically accepted as formal notice — use the portal or complete a form in person. Always get written confirmation of your cancellation request."
+      "heading": "How to Cancel a Les Mills Club (Gym) Membership",
+      "body": "<p><strong>Step 1 — Check your minimum term.</strong> Les Mills club memberships have a 3-month minimum. If you've been a member for less than 3 months, you'll either pay out the remainder or wait until it ends. Log in to the member portal or call your club to confirm your start date.</p><p><strong>Step 2 — Submit your cancellation.</strong> Two accepted methods: (1) <em>online</em> — log in to the Les Mills member portal at lesmills.co.nz, open membership settings and submit a cancellation request; or (2) <em>in person</em> — visit your home club and complete a cancellation form with staff. A casual phone call is not accepted as formal notice; if you email, send it to your specific home club and request written acknowledgement.</p><p><strong>Step 3 — Serve the notice period.</strong> After the 3-month minimum, Les Mills requires 14 days written notice. You'll be billed for roughly two more weeks and keep access during that time.</p><p><strong>Step 4 — Get written confirmation</strong> of your end date and final payment, and only then cancel your bank direct debit.</p>"
     },
     {
-      "heading": "Step 3 — Notice Period",
-      "body": "Once your 3-month minimum term is complete, Les Mills requires 14 days written notice to cancel. This means you'll be charged for approximately 2 more weeks after submitting your cancellation. Plan your timing accordingly — if you want to stop paying on June 30, submit your cancellation around June 16."
+      "heading": "How to Cancel Les Mills+ (On-Demand App)",
+      "body": "<p>The Les Mills+ streaming app is billed as a normal app subscription, so you cancel it through whichever store you signed up with — not at a club and not via the member portal.</p><ul><li><strong>iPhone / iPad:</strong> Settings → tap your name → Subscriptions → Les Mills+ → Cancel Subscription.</li><li><strong>Android:</strong> Google Play → profile icon → Payments &amp; subscriptions → Subscriptions → Les Mills+ → Cancel.</li><li><strong>Signed up on the web:</strong> log in at lesmills.com/plus, go to account/billing, and cancel there.</li></ul><p>Cancelling stops the next renewal; you keep access until the end of the period you've already paid for. App-store subscriptions are not refunded for partial periods.</p>"
     },
     {
-      "heading": "Step 4 — Get Confirmation",
-      "body": "Wait for written confirmation from Les Mills that your membership has been cancelled and your final payment date. Do not cancel your direct debit before this confirmation arrives. Once you have the confirmation and your final payment has processed, cancel the direct debit through your bank."
+      "heading": "Cancelling During the 3-Month Minimum Term",
+      "body": "<p>To leave before the 3-month club minimum is up, you'll typically pay out the remaining weekly fees. Les Mills may waive this in specific circumstances:</p><ul><li><strong>Medical / injury</strong> — with a doctor's letter confirming you can't exercise.</li><li><strong>Significant relocation</strong> — moving to an area with no Les Mills club.</li><li><strong>Financial hardship / redundancy</strong> — at management discretion.</li></ul><p>Contact your club's membership team directly to discuss — outcomes vary and are at the club's discretion.</p>"
     },
     {
-      "heading": "Cancelling During the Minimum Term",
-      "body": "If you want to cancel before your 3-month minimum term is up, you'll typically be required to pay the remaining weekly fees for that period. Les Mills may waive this in specific circumstances:\n\n- **Medical / injury**: With a doctor's letter confirming you cannot exercise.\n- **Significant relocation**: Moving to an area with no Les Mills club.\n- **Financial hardship**: At management discretion.\n\nContact your club's membership team directly to discuss your situation — outcomes can vary."
+      "heading": "Suspending vs Cancelling",
+      "body": "<p>Going overseas, injured, or having a quiet period? Les Mills lets you suspend a club membership for a small weekly fee (typically a few dollars instead of your full rate). This pauses rather than ends the membership — your direct debit continues at the reduced rate and you keep your joining history, so you don't re-pay a joining fee later. A suspension is <strong>not</strong> a cancellation. Ask your club for current suspension terms and the maximum hold period.</p>"
     },
     {
-      "heading": "Les Mills NZ — Suspending vs Cancelling",
-      "body": "If you're going overseas, injured, or having a quiet period financially, Les Mills allows membership suspension for a weekly fee (typically $5–$7/week instead of your full weekly rate). This pauses your membership without cancelling it — useful if you plan to return. A suspension is not the same as cancellation — your direct debit will continue at the reduced rate. Ask your club for current suspension terms."
-    },
-    {
-      "heading": "Your Rights Under NZ Consumer Law",
-      "body": "<p>Les Mills membership contracts are covered by NZ Consumer Law. Important points:</p><ul><li>The 3-month minimum term must have been clearly disclosed at signup. If a sales representative misrepresented the terms verbally, you may have grounds to challenge the contract.</li><li>Les Mills's policy of not publishing prices online is legal but unusual. If the price you were charged differs materially from what was verbally quoted, this may be a Fair Trading Act issue.</li><li>Medical cancellations: Les Mills must allow cancellation during the minimum term for genuine medical reasons. You will need a doctor's certificate.</li></ul>"
+      "heading": "Fees, Refunds & Your Rights Under NZ Consumer Law",
+      "body": "<p>Les Mills membership contracts are covered by NZ consumer law. Key points:</p><ul><li>The 3-month minimum must have been clearly disclosed at signup. If a sales rep misrepresented the terms verbally, you may have grounds to challenge the contract under the Fair Trading Act.</li><li>Joining fees are non-refundable; the notice-period fortnight is still charged even if you don't attend.</li><li>Medical cancellations during the minimum term must be allowed for genuine medical reasons with a doctor's certificate.</li><li>If you're charged after your confirmed final payment date, request a refund and, if unresolved, raise a direct debit dispute with your bank.</li></ul>"
     },
     {
       "heading": "Use This Cancellation Email Template",
-      "body": "<div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Full Name]\n\nDear Les Mills [Club],\n\nI am giving 30 days formal notice of cancellation of my membership.\n\nName: [Name] | Member number: [Number]\nFinal day: [30 days from today]\n\nPlease confirm my end date and final charge in writing.\n\nKind regards, [Name]</div>"
+      "body": "<div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Full Name]\n\nDear Les Mills [Club],\n\nI am giving formal written notice to cancel my Les Mills club membership, effective at the end of my 14-day notice period (and after my 3-month minimum term, which ends [date]).\n\nFull name: [Name]\nMember number: [Number]\nHome club: [Club]\n\nPlease confirm in writing my final payment date and membership end date. I will keep my direct debit active until that final payment has been processed.\n\nKind regards,\n[Name]\n[Phone]</div>"
     },
     {
       "heading": "Mistakes to Avoid",
       "list": [
-        "Cancelling your direct debit before formal cancellation is confirmed — leads to a debt balance",
-        "Trying to cancel by email or phone rather than through the portal or in person",
+        "Cancelling your direct debit before formal cancellation is confirmed — this creates a debt balance",
+        "Trying to cancel a club membership by casual phone call rather than the portal or in writing",
+        "Cancelling the app at a club, or trying to cancel a club membership via the app store — they're separate",
         "Not accounting for the 14-day notice period in your timing",
         "Assuming suspension equals cancellation — they're different",
         "Not getting written confirmation — always request a cancellation confirmation email"
@@ -87,28 +67,32 @@
   ],
   "faq": [
     {
-      "question": "How do I cancel my Les Mills NZ membership?",
-      "answer": "Log into the Les Mills member portal at lesmills.co.nz and submit a cancellation request, or complete a cancellation form at your home club. The minimum term is 3 months; after that you can cancel with 14 days notice."
+      "q": "How do I cancel my Les Mills NZ club membership?",
+      "a": "Log in to the Les Mills member portal at lesmills.co.nz and submit a cancellation request, or complete a form in person at your home club. The minimum term is 3 months; after that you can cancel with 14 days written notice. Always get written confirmation."
     },
     {
-      "question": "What is the notice period for Les Mills NZ?",
-      "answer": "14 days written notice after your 3-month minimum term is complete. Submit through the member portal or in person at your club."
+      "q": "How do I cancel the Les Mills+ app?",
+      "a": "Les Mills+ is an app subscription, so cancel it where you signed up: iPhone via Settings → your name → Subscriptions; Android via Google Play → Subscriptions; or on the web at your lesmills.com account/billing page. You keep access until the paid period ends."
     },
     {
-      "question": "Can I cancel Les Mills NZ before 3 months?",
-      "answer": "Yes, but you'll typically need to pay out the remaining weeks of your 3-month minimum term. Medical conditions, relocation, or financial hardship may be grounds for waiver — contact your club directly."
+      "q": "What is the notice period for Les Mills NZ?",
+      "a": "For club memberships, 14 days written notice after your 3-month minimum term is complete. Submit through the member portal or in person — you'll be billed for that two-week notice window and keep access during it."
     },
     {
-      "q": "Can I cancel Les Mills NZ during the 3-month minimum term?",
-      "a": "Only in specific circumstances: medical reasons (with a doctor's certificate), relocation to an area without a Les Mills club, or redundancy/significant financial hardship. Contact your club to discuss — Les Mills has discretion to approve these."
+      "q": "Can I cancel Les Mills NZ before 3 months?",
+      "a": "Yes, but you'll typically pay out the remaining weeks of the 3-month minimum. Genuine medical reasons (with a doctor's certificate), relocation to an area with no Les Mills club, or financial hardship may be grounds for a waiver — contact your club directly."
     },
     {
-      "q": "Does the 30-day notice period cost me extra?",
-      "a": "Yes — you'll be charged for the 30-day notice period even if you don't attend. Your membership ends (and direct debit stops) at the conclusion of the 30-day notice period."
+      "q": "Will I be charged after I cancel?",
+      "a": "You'll be charged for the 14-day notice period even if you don't attend, then billing stops. You should not be charged after your confirmed final payment date — if you are, request a refund and, if needed, dispute the direct debit with your bank."
     },
     {
       "q": "Can I cancel Les Mills by phone?",
-      "a": "No — Les Mills requires written notice to cancel. Phone calls are not accepted as formal notice. Always cancel in writing via email and keep a copy."
+      "a": "No — Les Mills club memberships require written notice. A casual phone call isn't accepted as formal notice. Cancel via the member portal, in person, or by written email to your home club and keep a copy."
+    },
+    {
+      "q": "Do I need to cancel a Les Mills class pass?",
+      "a": "No. Class passes and casual passes have no ongoing billing — they simply expire after their validity period, so there's nothing to cancel and no direct debit to stop."
     }
   ]
 }

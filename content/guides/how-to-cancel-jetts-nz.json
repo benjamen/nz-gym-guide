@@ -2,10 +2,10 @@
   "slug": "how-to-cancel-jetts-nz",
   "short_title": "Cancel Jetts NZ",
   "title": "How to Cancel Jetts NZ Membership — Step-by-Step 2026",
-  "meta_desc": "How to cancel your Jetts gym membership in New Zealand. Simple steps, no lock-in complexity — Jetts is one of the easiest gyms to cancel in NZ.",
-  "intro": "Jetts is one of the easiest gym memberships to cancel in New Zealand. There's no long-term lock-in contract — just a notice period. You don't need to justify your cancellation, pay an exit fee, or negotiate with anyone. Here's the simple process.",
-  "updated": "May 2026",
-  "reading_time": 4,
+  "meta_desc": "How to cancel your Jetts gym membership in NZ. Steps via the app or club, notice period, fees, refunds and a ready-to-send cancellation email template.",
+  "intro": "Jetts is one of the easiest gym memberships to cancel in New Zealand. As a 24/7, no-lock-in gym, there's no long-term contract to fight your way out of — just a short notice period. You don't need to justify your cancellation, pay an exit fee, or negotiate with anyone. This guide covers all three ways to cancel (app, in person, email), exactly how the notice period and direct debit work, what happens to your joining fee, and the freeze and downgrade options worth considering before you leave for good.",
+  "updated": "June 2026",
+  "reading_time": 6,
   "sections": [
     {
       "heading": "Jetts NZ Cancellation — Quick Summary",
@@ -15,74 +15,70 @@
           "Details"
         ],
         "rows": [
-          [
-            "Contract type",
-            "No lock-in — month-to-month"
-          ],
-          [
-            "Notice period",
-            "Typically 10–14 days written notice"
-          ],
-          [
-            "How to cancel",
-            "Via the Jetts member portal or in person at your club"
-          ],
-          [
-            "Early exit fee",
-            "None — no lock-in contract"
-          ],
-          [
-            "Direct debit",
-            "Cancel after confirmation of membership end"
-          ]
+          ["Contract type", "No lock-in — month-to-month (Flexi)"],
+          ["Notice period", "Typically 10–14 days written notice"],
+          ["How to cancel", "Jetts member app, in person, or written email"],
+          ["Early exit fee", "None — no lock-in contract"],
+          ["Direct debit", "Cancel after confirmation of membership end"],
+          ["Joining fee refund", "Non-refundable"]
         ]
       }
     },
     {
-      "heading": "How to Cancel Jetts NZ",
-      "body": "Because Jetts has no lock-in contract, cancellation is straightforward:\n\n1. **Log into the Jetts member portal** (app or website) and submit a cancellation request. This is the easiest method.\n2. **Alternatively**, visit your Jetts club in person and request cancellation in writing.\n3. You'll receive confirmation of your cancellation and your final payment date.\n4. Continue using the club until your final payment date — your access remains active through the notice period.\n5. Cancel your direct debit via online banking after your final payment has processed."
+      "heading": "How to Cancel Jetts NZ (3 Methods)",
+      "body": "<p>Because Jetts is built around no-lock-in flexibility, cancelling reflects that — it's quick and penalty-free. There are three ways to do it.</p><p><strong>Method 1 — Jetts member app / portal.</strong> This is the easiest route. Open the Jetts app (or log in to the member portal on the website), go to your membership settings, and submit a cancellation request. Screenshot the confirmation. The app is also where you can freeze your membership if you only need a temporary break.</p><p><strong>Method 2 — In person at any Jetts club.</strong> Because Jetts clubs are 24/7 and staffed during the day, you can pop in to any location to lodge a written cancellation. Ask for it in writing and keep a copy.</p><p><strong>Method 3 — Email.</strong> Send a written cancellation to your home club (template below). Whichever method you choose, the steps are the same: (1) submit your cancellation, (2) get written confirmation of your final payment date, (3) keep training — access stays live through the notice period, and (4) only cancel your bank direct debit once the final payment has cleared.</p>"
     },
     {
-      "heading": "Notice Period",
-      "body": "Jetts typically requires 10–14 days notice. This means if you cancel today, you'll be charged for approximately 2 more weeks and your membership remains active during that period. Confirm the exact notice period in your membership agreement or with your club, as it can vary slightly."
+      "heading": "Jetts Cancellation Terms & Notice Period",
+      "body": "<p>Jetts typically requires 10–14 days written notice on the Flexi (no-lock-in) plan. In practice that means if you cancel today, you'll usually have one more fortnightly charge and your membership stays active for that period. Submit your notice before your next billing date to avoid an extra payment.</p><p>Billing stops at the end of the notice window, not the moment you ask. Confirm the exact notice figure in your membership agreement, as it can vary slightly by club.</p><p><strong>Direct debit:</strong> don't cancel the direct debit through your bank until Jetts confirms your final charge — cancelling early can cause a payment to dishonour and leave your account in arrears.</p><p><strong>Consumer rights:</strong> under the NZ Fair Trading Act and Consumer Guarantees Act, Jetts can't charge you beyond your confirmed final payment date. If you signed up under pressure or were misled, you may have grounds to exit without the standard notice.</p>"
     },
     {
-      "heading": "No Exit Fees",
-      "body": "One of the genuine advantages of Jetts is the absence of lock-in contracts and exit fees. There's no penalty for cancelling. If you joined Jetts specifically because of the no-contract flexibility, the cancellation process reflects exactly that — straightforward and penalty-free."
-    },
-    {
-      "heading": "Your Rights Under NZ Consumer Law",
-      "body": "<p>Jetts is one of the most consumer-friendly gym contracts in NZ. The no-lock-in Flexi plan means you can cancel at any time with just 2 weeks written notice. Key points:</p><ul><li>No early exit fees apply on the Flexi plan</li><li>Jetts cannot charge you beyond the 2-week notice period</li><li>If you have been charged after your confirmed cancellation date, you are entitled to a refund of those charges</li></ul>"
+      "heading": "Cancellation Fees & Refunds",
+      "body": "<p>The genuine selling point of Jetts is the absence of lock-in contracts and exit fees — there is no penalty for cancelling the Flexi plan.</p><ul><li><strong>Exit fee:</strong> none on the no-lock-in membership.</li><li><strong>Joining fee:</strong> the one-off joining fee is non-refundable, even if you cancel soon after signing up.</li><li><strong>Pro-rata billing:</strong> Jetts bills in advance, so you generally pay for the full fortnight you're in and aren't refunded for unused days within an already-paid period.</li><li><strong>Charged after cancelling?</strong> If money comes out after your confirmed final payment date, you're entitled to a refund — email your club with the written confirmation attached, and if unresolved, raise a direct debit dispute with your bank.</li></ul>"
     },
     {
       "heading": "Use This Cancellation Email Template",
-      "body": "<div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Name]\n\nHi Jetts [Club],\n\nI am cancelling my Jetts Flexi membership effective [two weeks from today].\n\nName: [Name] | Club: [Club name]\n\nPlease confirm my end date and final charge.\n\nThanks, [Name]</div>"
+      "body": "<div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Name]\n\nHi Jetts [Club],\n\nI am writing to cancel my Jetts Flexi membership, effective at the end of my notice period ([date 2 weeks from today]).\n\nFull name: [Name]\nMember ID: [if known]\nHome club: [Club name]\n\nPlease confirm in writing my final payment date and the date my membership ends. I will keep my direct debit active until that final payment has been processed.\n\nThank you,\n[Name]\n[Phone]</div>"
+    },
+    {
+      "heading": "Alternatives to Cancelling",
+      "body": "<p>Before cancelling, check whether one of these keeps your membership alive at lower cost or no cost:</p><ul><li><strong>Freeze / suspend:</strong> Jetts lets you put your membership on hold via the app — ideal for travel, injury, or a quiet few months. You keep your joining history and avoid re-paying a joining fee later.</li><li><strong>Switch home club:</strong> moving cities? You don't need to cancel — change your home club to a Jetts near you. Jetts members can train at any Jetts location nationwide and across the Trans-Tasman network.</li><li><strong>Downgrade / pause add-ons:</strong> if cost is the issue, ask your club about lower-tier options or removing any extras before cancelling entirely.</li></ul>"
     },
     {
       "heading": "If You Have a Problem",
-      "body": "Jetts cancellations are generally smooth, but if you encounter issues:\n- Always get written confirmation of your cancellation\n- If you're being charged after your confirmed cancellation date, contact your club directly\n- If unresolved, raise a direct debit dispute with your bank\n- Escalate to Jetts NZ support if your club doesn't respond"
+      "list": [
+        "Always get written confirmation of your cancellation and final payment date",
+        "If you're charged after your confirmed cancellation date, contact your club first",
+        "If unresolved, raise a direct debit dispute with your bank",
+        "Escalate to Jetts NZ support if your home club doesn't respond",
+        "Keep all correspondence in case of billing errors"
+      ]
     }
   ],
   "faq": [
     {
-      "question": "How do I cancel Jetts NZ?",
-      "answer": "Log into the Jetts member portal and submit a cancellation, or visit your club in person. There's no lock-in contract, so you just serve the notice period (typically 10–14 days) and your membership ends."
+      "q": "Can I cancel Jetts online?",
+      "a": "Yes — the easiest way is through the Jetts member app or online portal, where you can submit a cancellation request directly. You can also cancel in person at any Jetts club or by written email to your home club. Always keep the confirmation."
     },
     {
-      "question": "Is there a cancellation fee for Jetts NZ?",
-      "answer": "No — Jetts NZ has no lock-in contract and no exit fees. You just need to give the required notice period."
+      "q": "Will I be charged after I cancel Jetts?",
+      "a": "Your fortnightly payment continues through the 10–14 day notice period, so you'll usually have one more charge after submitting. You should not be charged after your confirmed final payment date — if you are, you're entitled to a refund."
     },
     {
-      "question": "How much notice do you need to cancel Jetts NZ?",
-      "answer": "Typically 10–14 days written notice. Check your membership agreement for the exact period at your club."
+      "q": "How much notice do I need to cancel Jetts NZ?",
+      "a": "Typically 10–14 days written notice on the Flexi plan. Your membership stays active and billing continues through that window, then stops. Check your agreement for the exact figure at your club."
     },
     {
-      "q": "Does Jetts NZ require you to cancel in person?",
-      "a": "No — Jetts accepts written cancellation by email. You do not need to visit the club in person. Email your home club directly and request written confirmation."
+      "q": "Is there a cancellation fee for Jetts NZ?",
+      "a": "No. Jetts has no lock-in contract and no exit fees on the Flexi membership. The only non-refundable cost is the original one-off joining fee."
     },
     {
-      "q": "Can I cancel Jetts before the 2 weeks is up?",
-      "a": "The 2-week notice period is the minimum required. You cannot end your membership sooner than 2 weeks after giving notice, as you'll be charged for that period regardless of whether you attend."
+      "q": "Do I have to cancel Jetts in person?",
+      "a": "No. Jetts accepts cancellation through the app, in person, or by written email — you do not need to visit the club. The app is usually the fastest method."
+    },
+    {
+      "q": "What if I'm moving cities?",
+      "a": "You don't need to cancel. Change your home club to a Jetts near your new location — members can train at any Jetts club nationwide, so a move is just a home-club switch rather than a cancellation."
     }
   ]
 }

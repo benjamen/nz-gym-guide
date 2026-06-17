@@ -2,10 +2,10 @@
   "slug": "how-to-cancel-city-fitness-nz",
   "short_title": "Cancel City Fitness NZ",
   "title": "How to Cancel City Fitness NZ — Step-by-Step 2026",
-  "meta_desc": "How to cancel City Fitness NZ membership. Notice period, steps, and what to watch for when ending your City Fitness Basic or Black Card membership.",
-  "intro": "City Fitness has no long-term lock-in contract — just a 4-week minimum membership period. This makes cancellation simple compared to gyms with 12-month contracts. Here's exactly how to do it.",
-  "updated": "May 2026",
-  "reading_time": 4,
+  "meta_desc": "How to cancel City Fitness NZ membership. Notice period, steps, fees, refunds and an email template for ending your City Fitness Basic or Black Card membership.",
+  "intro": "City Fitness has no long-term lock-in contract — just a short minimum membership period — which makes cancellation far simpler than gyms tied to 12-month agreements. Even so, plenty of members get caught out by the written-notice requirement and end up paying for an extra billing cycle. This guide walks through every cancellation method, the exact notice period, what happens to your direct debit, your rights under NZ consumer law, and the alternatives worth considering before you cancel altogether.",
+  "updated": "June 2026",
+  "reading_time": 6,
   "sections": [
     {
       "heading": "City Fitness NZ Cancellation — Quick Summary",
@@ -15,80 +15,75 @@
           "Details"
         ],
         "rows": [
-          [
-            "Minimum term",
-            "4 weeks"
-          ],
-          [
-            "Notice period",
-            "Typically 2–4 weeks written notice"
-          ],
-          [
-            "How to cancel",
-            "In person at your club or written notice by email"
-          ],
-          [
-            "Exit fee",
-            "None after the 4-week minimum"
-          ],
-          [
-            "Direct debit",
-            "Cancel after written confirmation only"
-          ]
+          ["Minimum term", "4 weeks"],
+          ["Notice period", "Typically 2–4 weeks written notice"],
+          ["How to cancel", "In person at your club, member portal, or written email notice"],
+          ["Exit fee", "None after the 4-week minimum"],
+          ["Direct debit", "Cancel after written confirmation only"],
+          ["Joining fee refund", "Non-refundable"]
         ]
       }
     },
     {
-      "heading": "How to Cancel City Fitness NZ",
-      "body": "City Fitness has no lock-in beyond the 4-week minimum. The cancellation process is:\n\n1. **Check you've completed your 4-week minimum** — if you signed up less than 4 weeks ago, you'll need to wait or pay for the remaining weeks.\n2. **Visit your home City Fitness club** and request a cancellation form. Complete it in person and keep a copy.\n3. **Alternatively**, send a written cancellation request via email to your club.\n4. **Get written confirmation** — email confirmation that your cancellation has been processed and your final payment date.\n5. **Continue training** until your final payment date — your membership remains active through the notice period.\n6. **Cancel your direct debit** via online banking after the final payment has processed."
+      "heading": "How to Cancel City Fitness NZ (3 Methods)",
+      "body": "<p>City Fitness has no lock-in beyond the short minimum term, so cancelling is straightforward as long as you give proper written notice. There are three ways to do it.</p><p><strong>Method 1 — Online via the member portal.</strong> Log in to your City Fitness member account (or the app). Look under <em>Membership</em> or <em>Account settings</em> for a cancellation or \"end membership\" request form. Submit it and screenshot the confirmation. Not every club exposes a self-service cancel button, so if you can't find one, use Method 2 or 3.</p><p><strong>Method 2 — In person at your home club.</strong> Visit the club where you signed up, ask the front desk for a cancellation form, complete it on the spot, and keep a stamped or signed copy. This is the most reliable method because you walk away with proof.</p><p><strong>Method 3 — Email / phone.</strong> Send a written cancellation request by email to your home club (see the template below) or call the club to start the process — but always follow a phone call up in writing. Whatever method you use, the four steps are the same: (1) confirm you've completed your 4-week minimum, (2) submit your cancellation with the required notice, (3) get written confirmation of your final payment date, and (4) only cancel your direct debit once that final payment has cleared.</p>"
     },
     {
-      "heading": "Notice Period",
-      "body": "City Fitness typically requires 2–4 weeks notice to cancel. Your direct debit will continue for this period after you submit your cancellation. Check your specific membership agreement for the exact notice requirement, as it can vary. The key is submitting cancellation before your next billing cycle if you want to minimise additional charges."
+      "heading": "City Fitness Cancellation Terms & Notice Period",
+      "body": "<p>City Fitness typically requires 2–4 weeks written notice to cancel. Your direct debit continues through that notice window after you submit your request, so timing matters: submit before your next billing date if you want to avoid an extra fortnightly charge.</p><p>Billing stops at the end of your notice period, not the day you ask. Your membership stays active — you can keep training — right up to your final payment date. Check your individual membership agreement for the exact notice figure, as it can vary slightly by club and membership type.</p><p><strong>Direct debit:</strong> never cancel the direct debit through your bank before City Fitness confirms your final charge. Cancelling early can leave a payment to bounce, which may trigger a dishonour fee or mark your account as in arrears.</p><p><strong>Cooling-off rights:</strong> under the NZ Consumer Guarantees Act and Fair Trading Act, if you signed up under pressure or were misled about the terms, you may have grounds to exit without the standard notice. For a normal change of mind, the standard notice period applies.</p>"
     },
     {
-      "heading": "No Long-Term Exit Fees",
-      "body": "Once you've completed your 4-week minimum, there are no exit fees for City Fitness cancellation. This is one of the advantages of choosing City Fitness over gyms with 12-month contracts — you're not locked in and there's no financial penalty for leaving."
-    },
-    {
-      "heading": "Your Rights Under NZ Consumer Law",
-      "body": "<p>City Fitness is one of NZ's most consumer-friendly gym contracts — no lock-in beyond the initial 4-week minimum. Key rights:</p><ul><li>You can cancel at any time with 4 weeks written notice</li><li>No early exit fees on standard memberships</li><li>City Fitness cannot charge you beyond the 4-week notice period</li><li>The $29 joining fee is non-refundable even if you cancel shortly after joining</li></ul>"
+      "heading": "Cancellation Fees & Refunds",
+      "body": "<p>Once you've completed the 4-week minimum, there are <strong>no exit fees</strong> for cancelling City Fitness — one of the biggest advantages over 12-month contract gyms.</p><ul><li><strong>Joining fee:</strong> the one-off joining fee is non-refundable, even if you cancel shortly after joining.</li><li><strong>Pro-rata billing:</strong> City Fitness bills fortnightly in advance, so you generally pay for the full period you're in and are not refunded for unused days within an already-paid fortnight.</li><li><strong>Charged after cancelling?</strong> If money comes out after your confirmed final payment date, email your club immediately with your written confirmation attached and request a refund of the erroneous charge. If they don't resolve it, your bank can reverse an unauthorised direct debit.</li></ul>"
     },
     {
       "heading": "Use This Cancellation Email Template",
-      "body": "<div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Name]\n\nHi City Fitness [Branch],\n\nI am cancelling my City Fitness membership effective [4 weeks from today].\n\nName: [Name] | Branch: [Branch]\n\nPlease confirm my end date and final charge.\n\nThanks, [Name]</div>"
+      "body": "<div style='background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1rem 1.25rem;font-family:monospace;font-size:.85rem;white-space:pre-wrap'>Subject: Membership Cancellation — [Your Name]\n\nHi City Fitness [Branch],\n\nI am writing to cancel my City Fitness membership, effective at the end of my notice period ([date 4 weeks from today]).\n\nFull name: [Name]\nMember ID: [if known]\nHome club: [Branch]\n\nPlease confirm in writing my final payment date and the date my membership ends. I will keep my direct debit active until that final payment has been processed.\n\nThank you,\n[Name]\n[Phone]</div>"
+    },
+    {
+      "heading": "Alternatives to Cancelling",
+      "body": "<p>Before you cancel outright, check whether one of these options suits you better — they keep your joining fee and history intact:</p><ul><li><strong>Freeze / suspend:</strong> City Fitness lets you put your membership on hold for injury, travel, or financial hardship, usually for a small weekly hold fee far below the full rate. Ideal if you'll be back within a few months.</li><li><strong>Downgrade:</strong> if cost is the issue, move from a Black Card (multi-club) to a single-club Basic membership to lower your fortnightly fee.</li><li><strong>Transfer / multi-club:</strong> moving cities? The Black Card membership already covers City Fitness clubs nationwide, so you may not need to cancel at all — just train at your new local club.</li></ul>"
     },
     {
       "heading": "Tips for a Smooth Cancellation",
       "list": [
         "Always get written confirmation of your cancellation date and final payment",
         "Don't cancel your direct debit before your final payment has been taken",
-        "Visit in person if possible — written forms at the club are more reliable than email alone",
+        "Cancel in person at the club where possible — a signed form is more reliable than email alone",
+        "Submit before your next billing date to avoid an extra fortnight's charge",
         "Keep a record of all correspondence in case of billing errors",
-        "If you're moving to another city, check if City Fitness has a club there before cancelling — the Black Card membership is multi-club"
+        "Moving cities? Check for a City Fitness club there before cancelling — Black Card is multi-club"
       ]
     }
   ],
   "faq": [
     {
-      "question": "How do I cancel City Fitness NZ?",
-      "answer": "Visit your home City Fitness club and complete a cancellation form in person, or send a written request by email. Give the required notice period (typically 2–4 weeks) and get written confirmation of your final payment date."
-    },
-    {
-      "question": "Is there a cancellation fee for City Fitness NZ?",
-      "answer": "No — City Fitness has no long-term lock-in contract and no exit fees after the 4-week minimum period. You just need to give the required notice."
-    },
-    {
-      "question": "Can I cancel City Fitness NZ online?",
-      "answer": "City Fitness recommends cancelling in person at your home club. Some clubs accept written email notice but in-person cancellation with a form is the most reliable method."
-    },
-    {
       "q": "Can I cancel City Fitness online?",
-      "a": "City Fitness does not have a centralised online cancellation system. Email your home branch directly and keep a copy of your cancellation email."
+      "a": "Some clubs offer a cancellation request through the member portal or app, but City Fitness does not have a single centralised online cancel button for every club. The most reliable methods are an in-person cancellation form at your home club or a written email to that club. Always keep the confirmation."
+    },
+    {
+      "q": "Will I be charged after I cancel?",
+      "a": "Your fortnightly direct debit continues through the 2–4 week notice period, so you'll usually have one more payment after submitting. You should not be charged after your confirmed final payment date — if you are, email your club with your written confirmation and request a refund."
+    },
+    {
+      "q": "What is the City Fitness notice period?",
+      "a": "City Fitness typically requires 2–4 weeks written notice. Your membership stays active and billing continues through that window, then stops. Check your membership agreement for the exact figure as it can vary slightly by club."
+    },
+    {
+      "q": "Can I get a refund on my City Fitness joining fee?",
+      "a": "No. The one-off joining fee is non-refundable, even if you cancel soon after joining. There are, however, no exit fees once you've completed the 4-week minimum term."
+    },
+    {
+      "q": "Can I cancel if I'm still in my minimum term?",
+      "a": "City Fitness only has a 4-week minimum period rather than a long contract. If you signed up less than 4 weeks ago you'll generally need to pay out the remaining weeks of that minimum, then the standard notice period applies."
+    },
+    {
+      "q": "What if I'm moving to another city?",
+      "a": "If you have a Black Card (multi-club) membership you can simply train at the City Fitness club in your new city without cancelling. If you're on a single-club Basic membership, give written notice as normal and rejoin at your new local club."
     },
     {
       "q": "Does the City Fitness Black Card have different cancellation terms?",
-      "a": "No — Black Card and Basic memberships both have the same 4-week notice requirement with no lock-in. The cancellation process is identical for both."
+      "a": "No — Black Card and Basic memberships share the same notice requirement with no long-term lock-in. The cancellation process is identical for both; only the price and multi-club access differ."
     }
   ]
 }
