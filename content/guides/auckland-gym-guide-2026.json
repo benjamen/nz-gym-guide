@@ -2,26 +2,22 @@
   "slug": "auckland-gym-guide-2026",
   "short_title": "Auckland Gyms",
   "title": "Best Gyms in Auckland 2026 — City-by-City Guide with Prices",
-  "meta_desc": "Find the best gyms in Auckland with our city-by-city guide, comparing prices from $15-$50/week",
-  "intro": "Auckland has numerous gym options, but finding the right one can be overwhelming. With prices ranging from $15 to $50 per week, it's essential to compare gyms by suburb, contract terms, and amenities. This guide will help you make an informed decision.",
+  "meta_desc": "Find the best gyms in Auckland with our city guide. Compare prices from $15-$40/week",
+  "intro": "Aucklanders have plenty of gym options to choose from, with prices ranging from $15 to over $40 per week. With so many choices, it can be hard to decide which gym is best for you. In this guide, we'll break down the best gyms in Auckland by suburb and compare their prices.",
   "updated": "June 2026",
-  "reading_time": 7,
+  "reading_time": 8,
   "sections": [
     {
-      "heading": "Auckland CBD Gyms",
-      "body": "The Auckland CBD has a high concentration of gyms, with options like Les Mills, Anytime Fitness, and Jetts. These gyms offer convenient locations, but prices vary greatly. Les Mills, for example, costs around $30 per week, while Anytime Fitness is priced at $20 per week."
+      "heading": "Gyms in the Auckland CBD",
+      "body": "The Auckland CBD has a high concentration of gyms, with options like Anytime Fitness, Snap Fitness, and Les Mills. These gyms are perfect for commuters who want to fit in a workout before or after work.",
+      "cta": {
+        "text": "Compare CBD gym prices",
+        "url": "/compare/cbd-gyms",
+        "affiliate": false
+      }
     },
     {
-      "heading": "Gyms by Suburb",
-      "list": [
-        "Auckland CBD: Les Mills, Anytime Fitness, Jetts",
-        "Ponsonby: F45, Snap Fitness, CityFitness",
-        "Takapuna: Anytime Fitness, Jetts, F45",
-        "Newmarket: Les Mills, CityFitness, F45"
-      ]
-    },
-    {
-      "heading": "Price Comparison",
+      "heading": "Gym Prices in Auckland",
       "table": {
         "headers": [
           "Gym",
@@ -30,13 +26,18 @@
         ],
         "rows": [
           [
-            "Les Mills",
-            "$29.95",
+            "Anytime Fitness",
+            "$24.95",
             "12 months"
           ],
           [
-            "Anytime Fitness",
+            "Snap Fitness",
             "$19.95",
+            "6 months"
+          ],
+          [
+            "Les Mills",
+            "$34.95",
             "12 months"
           ],
           [
@@ -45,40 +46,47 @@
             "12 months"
           ],
           [
-            "F45",
-            "$49.95",
+            "City Fitness",
+            "$29.95",
             "6 months"
-          ],
-          [
-            "CityFitness",
-            "$24.95",
-            "12 months"
           ]
         ]
       }
     },
     {
+      "heading": "Gyms by Suburb",
+      "list": [
+        "North Shore: Snap Fitness, Anytime Fitness",
+        "Auckland CBD: Les Mills, Jetts, City Fitness",
+        "Ponsonby: Anytime Fitness, City Fitness",
+        "Newmarket: Snap Fitness, Les Mills",
+        "Mt Eden: Jetts, City Fitness"
+      ]
+    },
+    {
       "heading": "Commuter Gyms",
-      "body": "Commuter gyms are ideal for those who want to work out before or after work. Options like Jetts and Anytime Fitness have 24/7 access, making them perfect for busy professionals. Prices start from $14.95 per week for Jetts and $19.95 per week for Anytime Fitness."
-    },
-    {
-      "heading": "Parking and Accessibility",
-      "body": "Parking and accessibility are crucial factors when choosing a gym. The Auckland CBD has limited parking options, but gyms like Les Mills and CityFitness offer convenient parking facilities. Suburban gyms, on the other hand, often have ample parking spaces."
-    },
-    {
-      "heading": "Conclusion",
+      "body": "If you're looking for a gym that's convenient for your commute, consider a gym with 24/7 access like Anytime Fitness or Snap Fitness. These gyms have multiple locations throughout Auckland and offer flexible membership options.",
       "cta": {
-        "text": "Compare Auckland gyms",
-        "url": "/compare/",
+        "text": "Find a 24/7 gym near you",
+        "url": "/gym/anytime-fitness",
         "affiliate": false
       }
     },
     {
-      "heading": "Next Steps",
-      "body": "Now that you've compared the best gyms in Auckland, it's time to find the perfect one for you. Check out our in-depth review of Les Mills Auckland CBD or visit our comparison page to find the best gym deals.",
+      "heading": "Parking and Accessibility",
+      "body": "Some gyms in Auckland offer free parking, while others are located near public transport hubs. Be sure to check the gym's website or call ahead to confirm their parking and accessibility options.",
       "cta": {
-        "text": "Read Les Mills Auckland CBD review",
-        "url": "/gym/les-mills-auckland-cbd/",
+        "text": "Compare gym amenities",
+        "url": "/compare/gym-amenities",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion",
+      "body": "With so many gym options in Auckland, it's easy to find one that fits your budget and meets your needs. Be sure to compare prices, contract terms, and amenities before making a decision. Happy exercising!",
+      "cta": {
+        "text": "Start comparing gyms today",
+        "url": "/compare/",
         "affiliate": false
       }
     }
