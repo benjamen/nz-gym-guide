@@ -55,5 +55,27 @@
         "affiliate": false
       }
     }
+  ],
+  "faq": [
+    {
+      "question": "Can I cancel a gym membership if I move away from the area?",
+      "answer": "Yes — if you're relocating to an area with no accessible branch, NZ consumer law allows you to cancel even mid-contract. You'll need to provide evidence of your new address. Most major gyms (Les Mills, Anytime Fitness) have written policies for relocation cancellations — contact your club directly."
+    },
+    {
+      "question": "What happens if I just cancel my direct debit without telling the gym?",
+      "answer": "Don't do this. Cancelling your direct debit without formal written cancellation means you'll accumulate a debt balance with the gym. They can send this to a debt collector, which affects your credit rating. Always cancel formally in writing first, then cancel the direct debit only after receiving written confirmation from the gym."
+    },
+    {
+      "question": "How do I cancel a gym membership in writing?",
+      "answer": "Email the gym's membership team stating your full name, member number, and the date you want your membership to end. Keep a copy of the email. For gyms like Anytime Fitness that require certified mail or in-club forms, follow their specific process. Always request a written confirmation that your membership is cancelled and the final payment date."
+    },
+    {
+      "question": "Which NZ gyms have no lock-in contracts?",
+      "answer": "Jetts (no lock-in, cancel via app), City Fitness (4-week minimum, cancel online), Snap Fitness (casual option available), ClassPass (cancel anytime in-app), and YMCA (2-week notice) all offer flexible, lock-in-free options. Anytime Fitness and Les Mills have minimum terms (typically 3–12 months) but allow early exit in certain circumstances."
+    },
+    {
+      "question": "Can I cancel a gym membership for medical reasons in NZ?",
+      "answer": "Yes. All major NZ gyms must allow medical cancellations even during a lock-in period. You'll need a letter from a registered health professional confirming you cannot use the gym. The gym may still require 30 days notice even with a medical certificate. If they refuse, you can escalate to the Commerce Commission or file a Disputes Tribunal claim."
+    }
   ]
 }

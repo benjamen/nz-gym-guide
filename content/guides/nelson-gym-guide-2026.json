@@ -1,0 +1,83 @@
+{
+  "slug": "nelson-gym-guide-2026",
+  "short_title": "Gyms in Nelson",
+  "title": "Best Gyms in Nelson 2026 — Prices, Reviews & Top Tasman Options",
+  "meta_desc": "Best gyms in Nelson 2026 — compare Snap Fitness, Jetts, Anytime Fitness and local studios in Nelson and Richmond. Honest prices for locals.",
+  "intro": "Nelson is the sunniest city in New Zealand and sits at the top of the South Island, covering Nelson city and Richmond (the main commercial suburb). The gym market is healthy for a mid-sized city, with the main 24/7 chains represented alongside strong local gyms and studios. Blenheim (Marlborough) is about 1.5 hours away and not covered here.",
+  "updated": "June 2026",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Gyms in Nelson — Overview",
+      "body": "Nelson's gym scene covers the essentials well. Snap Fitness and Jetts are both present with 24/7 keyfob access. Anytime Fitness serves those wanting a network gym. The Richmond suburb (15 minutes from central Nelson) has its own gym options as the main commercial zone. Local gyms and CrossFit boxes fill the gap for those wanting coached training. Nelson is also well-served by outdoor fitness options given the climate, but purpose-built indoor gyms are solid."
+    },
+    {
+      "heading": "Gym Membership Prices in Nelson",
+      "table": {
+        "headers": ["Gym", "Weekly Price", "Contract", "Access"],
+        "rows": [
+          ["Snap Fitness Nelson/Richmond", "~$19.95–$24.95/wk", "12-month", "24/7 keyfob"],
+          ["Jetts Nelson", "~$14.95/wk", "No lock-in", "24/7 keyfob"],
+          ["Anytime Fitness Nelson", "~$21.99/wk", "12-month", "24/7 keyfob"],
+          ["Nelson YMCA / community gym", "~$10–$15/wk", "Monthly", "Staffed hours"],
+          ["Local CrossFit / studio", "$150–$250/mth or $25/class", "Monthly", "Class schedule"]
+        ]
+      }
+    },
+    {
+      "heading": "Snap Fitness Nelson",
+      "body": "Snap Fitness has clubs in both Nelson city and Richmond, making it convenient regardless of where you live in the region. Standard Snap setup: 24/7 keyfob access, free weights, cables, cardio equipment. Priced at $19.95–$24.95/week on a 12-month term. Cancellation requires written notice. Good for those who want early morning or after-hours access."
+    },
+    {
+      "heading": "Jetts Nelson",
+      "body": "Jetts is the most affordable 24/7 chain gym option in Nelson at around $14.95/week with no lock-in and online cancellation. The lean-but-functional Jetts formula works well for independent trainers who don't need a PT or group fitness classes. For Nelson residents wanting to start a gym habit without a 12-month commitment, Jetts is the logical starting point."
+    },
+    {
+      "heading": "Anytime Fitness Nelson",
+      "body": "Anytime Fitness in Nelson is part of the same international network, so membership includes access to any Anytime club globally. Priced at ~$21.99/week on a 12-month term. Equipment is generally well-maintained and covers a broader range than Jetts. The international access benefit is most valuable for Nelson residents who travel regularly to Auckland or abroad."
+    },
+    {
+      "heading": "Nelson YMCA and Community Facilities",
+      "body": "Nelson has community fitness facilities including the Nelson City Council aquatic facilities and YMCA-affiliated gyms. These typically operate on staffed hours rather than 24/7 access but offer affordable membership rates ($10–$15/week range) and may include pool access. Good for families, seniors, and those who prefer a community gym environment."
+    },
+    {
+      "heading": "CrossFit and Boutique Studios in Nelson",
+      "body": "Nelson has a CrossFit box and several boutique fitness options including F45 and yoga/pilates studios. CrossFit membership in Nelson typically runs $150–$250/month including all coached classes and programming. F45 is priced similarly. Nelson's active, outdoor-oriented population supports a healthy studio scene for its size. Casual drop-in rates at CrossFit are usually $25–$35/session for visiting athletes."
+    },
+    {
+      "heading": "Nelson vs Richmond — Where to Gym?",
+      "body": "Richmond is the main commercial hub of the Nelson region and has good gym access including Snap Fitness. Nelson city centre has options but parking can be easier in Richmond. Most chains serve both areas. If you live in Stoke, Tahunanui, or the Maitai Valley, check which club is closest to your home or commute route before committing."
+    },
+    {
+      "heading": "Which Gym is Best in Nelson?",
+      "table": {
+        "headers": ["Best for", "Recommended gym"],
+        "rows": [
+          ["Budget, no lock-in", "Jetts (~$14.95/wk)"],
+          ["Better equipment, still 24/7", "Snap Fitness (~$20–$25/wk)"],
+          ["Network + travel access", "Anytime Fitness (~$22/wk)"],
+          ["Community / pool access", "Nelson City Council / YMCA"],
+          ["Coached strength or group fitness", "CrossFit Nelson or F45"]
+        ]
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What gyms are in Nelson?",
+      "answer": "Nelson has Snap Fitness (city and Richmond), Jetts, Anytime Fitness, CrossFit, F45, yoga studios and community/council facilities. Richmond (15 mins from central Nelson) is the main commercial hub and has several gym options."
+    },
+    {
+      "question": "What is the cheapest gym in Nelson?",
+      "answer": "Jetts is typically the cheapest 24/7 chain gym in Nelson at around $14.95/week with no lock-in contract. Community council facilities or the YMCA may be cheaper but operate on staffed hours rather than 24/7 access."
+    },
+    {
+      "question": "Are there 24/7 gyms in Nelson?",
+      "answer": "Yes — Snap Fitness, Jetts and Anytime Fitness all offer 24/7 keyfob access in the Nelson and Richmond area. You can train at any hour with your membership card."
+    },
+    {
+      "question": "Is there a gym in Richmond Nelson?",
+      "answer": "Yes — Snap Fitness has a club in Richmond, and other chains also serve the wider Nelson/Richmond area. Richmond is the main commercial suburb and has good gym access. It's about 15 minutes from central Nelson."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "sections": [
     {
       "heading": "Overview of Snap Fitness and Jetts NZ",
-      "body": "Both Snap Fitness and Jetts NZ operate on a 24/7 model, allowing members to access their facilities at any time. They also offer a range of equipment, including cardio machines, free weights, and strength training equipment. With over 40 locations, Snap Fitness has a strong presence in the North Island, while Jetts NZ has over 40 locations across both islands."
+      "body": "Both Snap Fitness and Jetts NZ operate on a 24/7 keyfob-access model, letting members train at any hour. Both stock cardio machines, free weights, and strength equipment, and both have 50+ clubs across New Zealand. The headline difference is price and contract: Jetts is cheaper at $14.95/week with no lock-in, while Snap Fitness runs $19.95–$24.95/week with slightly better-equipped, more urban clubs. Jetts also has stronger regional coverage, while Snap leans toward larger-city locations."
     },
     {
       "heading": "Pricing Comparison",
@@ -17,46 +17,37 @@
         "headers": [
           "Gym",
           "Weekly Price",
-          "Monthly Price",
-          "Contract Term"
+          "Contract",
+          "Cancellation"
         ],
         "rows": [
           [
-            "Snap Fitness",
+            "Jetts",
             "$14.95",
-            "$64.95",
-            "No contract"
-          ],
-          [
-            "Jetts NZ",
-            "$12.95",
-            "$59.95",
-            "No contract"
+            "No lock-in",
+            "Online cancellation"
           ],
           [
             "Snap Fitness",
-            "$19.95",
-            "$89.95",
-            "12-month contract"
-          ],
-          [
-            "Jetts NZ",
-            "$16.95",
-            "$79.95",
-            "12-month contract"
+            "$19.95–$24.95",
+            "12-month or casual",
+            "Written notice to club"
           ]
         ]
-      }
+      },
+      "body": "Jetts is the clear price winner at $14.95/week with no lock-in contract — and it's one of the only NZ budget chains that lets you cancel online. Snap Fitness sits higher at $19.95–$24.95/week depending on the club and whether you take a 12-month or casual plan. Over a year, the difference is roughly $260–$520 in Jetts' favour."
     },
     {
       "heading": "Equipment and Facilities",
-      "body": "Both Snap Fitness and Jetts NZ offer a range of equipment, including treadmills, elliptical trainers, and stationary bikes. They also have free weights, strength training equipment, and group fitness classes. However, Jetts NZ has a stronger focus on functional training, with equipment such as TRX and battle ropes."
+      "body": "Both chains cover the basics — treadmills, bikes, free weights, cable machines, and strength equipment. Snap Fitness clubs are generally slightly better equipped and larger, particularly in main-city locations, and some Snap clubs offer in-house personal training. Jetts keeps it lean and functional, which is part of how it holds its lower price point. For someone who wants straightforward weights and cardio, both are more than adequate; for a broader equipment range, Snap has a slight edge."
     },
     {
       "heading": "Locations and Accessibility",
       "list": [
-        "Snap Fitness: over 40 locations in the North Island, including Auckland, Hamilton, and Wellington",
-        "Jetts NZ: over 40 locations across both islands, including Christchurch, Queenstown, and Dunedin"
+        "Snap Fitness: 50+ NZ clubs, weighted toward larger urban centres including Auckland, Hamilton, and Wellington",
+        "Jetts: 50+ NZ clubs with strong regional coverage across both islands, including Christchurch, Queenstown, and Dunedin",
+        "Both use 24/7 keyfob entry, so access doesn't depend on staffed hours",
+        "Jetts is often the only 24/7 budget option in smaller regional towns"
       ]
     },
     {
@@ -69,12 +60,30 @@
     },
     {
       "heading": "Conclusion and Recommendation",
-      "body": "Ultimately, the choice between Snap Fitness and Jetts NZ depends on your individual needs and preferences. If you prioritize a stronger focus on functional training, Jetts NZ may be the better option. However, if you prefer a wider range of group fitness classes, Snap Fitness may be the way to go. We recommend comparing prices and membership options to find the best value for your money.",
+      "body": "For most people, Jetts wins on the two things that matter most for a budget gym: it's cheaper ($14.95/week vs $19.95–$24.95) and it has no lock-in, with the rare convenience of online cancellation. Choose Snap Fitness if you value slightly better-equipped clubs, more main-city locations, or want in-house personal training. Choose Jetts if price, flexibility, and regional availability are your priorities — it's the better default for shift workers and budget-conscious trainers.",
       "cta": {
         "text": "Visit the Snap Fitness page to learn more",
         "url": "/gym/snap-fitness",
         "affiliate": false
       }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Jetts cheaper than Snap Fitness in NZ?",
+      "answer": "Yes. Jetts is $14.95/week with no lock-in, while Snap Fitness runs $19.95–$24.95/week depending on the club and plan. Over a year, Jetts saves roughly $260–$520."
+    },
+    {
+      "question": "Can I cancel Jetts online?",
+      "answer": "Yes — Jetts allows online cancellation, which is unusual among NZ budget gyms. Snap Fitness generally requires written notice to your local club."
+    },
+    {
+      "question": "Which has better equipment, Snap Fitness or Jetts?",
+      "answer": "Snap Fitness clubs are generally slightly larger and better equipped, especially in main cities, and some offer in-house personal training. Jetts keeps facilities lean to hold its lower price, but covers all the essentials."
+    },
+    {
+      "question": "Are both Snap Fitness and Jetts open 24/7?",
+      "answer": "Yes. Both use 24/7 keyfob entry across their 50+ NZ clubs, so you can train at any hour regardless of staffed reception times."
     }
   ]
 }

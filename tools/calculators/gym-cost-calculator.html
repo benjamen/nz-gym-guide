@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Cost Calculator NZ 2026 — Monthly vs Annual Membership</title>
+  <meta name="description" content="Free NZ gym cost calculator — compare monthly vs annual membership costs for Les Mills, City Fitness, Jetts and more. Find out when it's worth paying upfront.">
+  <link rel="canonical" href="https://nzgymguide.co.nz/calculators/gym-cost-calculator/">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
+  <meta name="theme-color" content="#005ea2">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nzgymguide.co.nz/calculators/gym-cost-calculator/">
+  <meta property="og:title" content="Gym Cost Calculator NZ — Monthly vs Annual Membership">
+  <meta property="og:description" content="Compare monthly vs annual gym membership costs across NZ gyms. Find your break-even point and the cheapest option for how long you'll actually stay.">
+  <meta property="og:site_name" content="NZ Gym Guide">
+  <meta property="og:locale" content="en_NZ">
+
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"NZ Gym Cost Calculator","url":"https://nzgymguide.co.nz/calculators/gym-cost-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"NZD"},"description":"Compare monthly vs annual gym membership costs for NZ gyms and find your break-even point."}
+  </script>
+
+  <style>
+    :root{
+      --primary:#005ea2; --primary-dark:#00457a; --accent:#1a9e57;
+      --bg:#f6f8fb; --card:#fff; --border:#dce3ec; --text:#1b2733; --muted:#5a6b7b;
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.55}
+    .wrap{max-width:860px;margin:0 auto;padding:1.25rem}
+    header.top{background:var(--primary);color:#fff;padding:.75rem 0}
+    header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem}
+    header.top a{color:#fff;text-decoration:none;font-weight:700}
+    header.top nav a{font-weight:500;margin-left:1rem;opacity:.9;font-size:.95rem}
+    h1{font-size:1.85rem;margin:.2rem 0 .4rem}
+    .lede{color:var(--muted);margin:0 0 1.5rem;font-size:1.05rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.4rem;margin-bottom:1.25rem}
+    label{display:block;font-weight:600;margin:.85rem 0 .3rem;font-size:.95rem}
+    input,select{width:100%;padding:.6rem .7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;background:#fff;color:var(--text)}
+    input:focus,select:focus{outline:2px solid var(--primary);border-color:var(--primary)}
+    .row{display:flex;gap:1rem;flex-wrap:wrap}
+    .row > div{flex:1;min-width:140px}
+    .unit-row{display:flex;gap:.5rem;align-items:flex-end}
+    .unit-row input{flex:2}.unit-row select{flex:1;min-width:90px}
+    .slider-val{font-weight:700;color:var(--primary)}
+    input[type=range]{padding:0;accent-color:var(--primary)}
+    .results{background:linear-gradient(135deg,#eaf3fb,#f3f8fd)}
+    .res-grid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem;margin:.5rem 0 1rem}
+    @media(max-width:520px){.res-grid{grid-template-columns:1fr}}
+    .res-box{background:#fff;border:1px solid var(--border);border-radius:10px;padding:.8rem 1rem}
+    .res-box .lbl{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+    .res-box .num{font-size:1.45rem;font-weight:700;margin-top:.15rem}
+    .verdict{background:var(--accent);color:#fff;border-radius:10px;padding:1rem 1.2rem;font-size:1.05rem;font-weight:600}
+    .verdict.neutral{background:var(--primary)}
+    table{width:100%;border-collapse:collapse;font-size:.92rem}
+    th,td{text-align:left;padding:.55rem .5rem;border-bottom:1px solid var(--border)}
+    th{background:#eef3f8;font-size:.82rem;text-transform:uppercase;letter-spacing:.02em;color:var(--muted)}
+    td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+    .table-scroll{overflow-x:auto}
+    .note{font-size:.85rem;color:var(--muted);margin-top:.6rem}
+    .links a{display:inline-block;margin:.3rem .8rem .3rem 0;color:var(--primary);font-weight:600;text-decoration:none}
+    .links a:hover{text-decoration:underline}
+    footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 1rem}
+    h2{font-size:1.3rem;margin:.2rem 0 .9rem}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a href="/">NZ Gym Guide</a>
+      <nav>
+        <a href="/gym/">Gyms</a>
+        <a href="/guides/">Guides</a>
+        <a href="/quiz/">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Gym Cost Calculator NZ</h1>
+    <p class="lede">Work out whether a <strong>monthly</strong> or <strong>annual/upfront</strong> gym membership actually saves you money — based on how long you really plan to stay.</p>
+
+    <div class="card">
+      <h2>Your membership details</h2>
+      <label for="gym">Gym</label>
+      <select id="gym">
+        <option value="">Other / custom</option>
+        <option>Les Mills</option>
+        <option>City Fitness</option>
+        <option>Anytime Fitness</option>
+        <option>Snap Fitness</option>
+        <option>Jetts</option>
+        <option>F45</option>
+      </select>
+
+      <label for="price">Membership price</label>
+      <div class="unit-row">
+        <input type="number" id="price" min="0" step="0.01" placeholder="e.g. 19.95" value="19.95">
+        <select id="unit">
+          <option value="week">per week</option>
+          <option value="month">per month</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <div>
+          <label for="annual">Annual / upfront price (if offered)</label>
+          <input type="number" id="annual" min="0" step="0.01" placeholder="leave blank if none">
+        </div>
+        <div>
+          <label for="joining">Joining fee (one-off)</label>
+          <input type="number" id="joining" min="0" step="0.01" value="0">
+        </div>
+      </div>
+
+      <label for="months">How many months do you plan to stay? <span class="slider-val" id="monthsLabel">12</span></label>
+      <input type="range" id="months" min="1" max="24" step="1" value="12">
+    </div>
+
+    <div class="card results">
+      <h2>Your result</h2>
+      <div class="res-grid">
+        <div class="res-box"><div class="lbl">Total — monthly plan</div><div class="num" id="totalMonthly">$0</div></div>
+        <div class="res-box"><div class="lbl">Total — annual plan</div><div class="num" id="totalAnnual">—</div></div>
+        <div class="res-box"><div class="lbl">Monthly equivalent of annual</div><div class="num" id="annualEquiv">—</div></div>
+        <div class="res-box"><div class="lbl">Break-even point</div><div class="num" id="breakEven">—</div></div>
+      </div>
+      <div class="verdict neutral" id="verdict">Enter your numbers above to see a recommendation.</div>
+      <p class="note">Estimates only. NZ gyms change pricing, deals and joining-fee waivers often — always confirm the current price with the gym before signing up.</p>
+    </div>
+
+    <div class="card">
+      <h2>NZ gym prices at a glance (June 2026)</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Gym</th><th class="num">Weekly</th><th class="num">Monthly equiv</th><th>Annual / upfront</th><th>Break-even</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Jetts</td><td class="num">$14.95</td><td class="num">$64.75</td><td>N/A (no annual)</td><td>N/A</td></tr>
+            <tr><td>City Fitness</td><td class="num">$7.99 (DDR)</td><td class="num">$34.62</td><td>N/A (monthly only)</td><td>N/A</td></tr>
+            <tr><td>Snap Fitness</td><td class="num">$19.95</td><td class="num">$86.45</td><td>~$999 (12mo deal)</td><td>~8 months</td></tr>
+            <tr><td>Anytime Fitness</td><td class="num">$21.99</td><td class="num">$95.29</td><td>~$1,099 (incl. initiation)</td><td>~10 months</td></tr>
+            <tr><td>Les Mills</td><td class="num">$22.99</td><td class="num">$99.62</td><td>~$1,150 / yr</td><td>~11 months</td></tr>
+            <tr><td>F45</td><td class="num">~$65 / wk</td><td class="num">$281</td><td>Studio-specific</td><td>N/A</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">"Monthly equiv" = weekly price × 52 ÷ 12. Prices vary by location and current promotions.</p>
+    </div>
+
+    <div class="card">
+      <h2>Related guides</h2>
+      <div class="links">
+        <a href="/guides/cheapest-gym-nz/">Cheapest gyms in NZ →</a>
+        <a href="/guides/best-no-contract-gym-nz/">No-contract gyms NZ →</a>
+        <a href="/gym/">Compare all NZ gyms →</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>NZ Gym Guide — independent NZ gym comparison. Prices are estimates, verify before joining.</footer>
+
+  <script>
+    var GYM_DEFAULTS = {
+      "Les Mills":      {weekly:22.99, annual:1150, joining:0},
+      "City Fitness":   {weekly:7.99,  annual:null, joining:29},
+      "Anytime Fitness":{weekly:21.99, annual:1099, joining:0},
+      "Snap Fitness":   {weekly:19.95, annual:999,  joining:0},
+      "Jetts":          {weekly:14.95, annual:null, joining:0},
+      "F45":            {weekly:65.00, annual:null, joining:0}
+    };
+
+    var $ = function(id){return document.getElementById(id);};
+    var fmt = function(n){return "$" + n.toLocaleString("en-NZ",{minimumFractionDigits:0,maximumFractionDigits:0});};
+    var fmt2 = function(n){return "$" + n.toLocaleString("en-NZ",{minimumFractionDigits:2,maximumFractionDigits:2});};
+
+    function monthlyFromInput(){
+      var price = parseFloat($("price").value) || 0;
+      return $("unit").value === "week" ? price * 52 / 12 : price;
+    }
+
+    function calc(){
+      var months = parseInt($("months").value,10);
+      $("monthsLabel").textContent = months;
+
+      var perMonth = monthlyFromInput();
+      var joining = parseFloat($("joining").value) || 0;
+      var annual = parseFloat($("annual").value);
+      var hasAnnual = !isNaN(annual) && annual > 0;
+
+      var totalMonthly = joining + perMonth * months;
+      $("totalMonthly").textContent = fmt(totalMonthly);
+
+      if(!hasAnnual){
+        $("totalAnnual").textContent = "—";
+        $("annualEquiv").textContent = "—";
+        $("breakEven").textContent = "N/A";
+        var v = $("verdict");
+        v.className = "verdict neutral";
+        v.textContent = "No annual price entered — the monthly plan costs " + fmt(totalMonthly) +
+          " over " + months + " month" + (months===1?"":"s") + ". Add an annual/upfront price to compare.";
+        return;
+      }
+
+      var annualTotal = annual + joining;
+      $("totalAnnual").textContent = fmt(annualTotal);
+      $("annualEquiv").textContent = fmt2(annual/12) + "/mo";
+
+      var be = "N/A";
+      if(perMonth > 0){
+        var beMonths = Math.ceil(annual / perMonth);
+        be = beMonths + " month" + (beMonths===1?"":"s");
+      }
+      $("breakEven").textContent = be;
+
+      var v = $("verdict");
+      var diff = totalMonthly - annualTotal;
+      if(diff > 0){
+        v.className = "verdict";
+        v.textContent = "Annual saves you " + fmt(diff) + " if you stay " + months +
+          " month" + (months===1?"":"s") + ". Break-even is around " + be + ".";
+      } else if(diff < 0){
+        v.className = "verdict neutral";
+        v.textContent = "Monthly is cheaper by " + fmt(-diff) + " at " + months +
+          " month" + (months===1?"":"s") + ". The annual plan only pays off after about " + be + ".";
+      } else {
+        v.className = "verdict neutral";
+        v.textContent = "Both plans cost the same (" + fmt(totalMonthly) + ") at " + months + " months — break-even is right about now.";
+      }
+    }
+
+    $("gym").addEventListener("change", function(){
+      var d = GYM_DEFAULTS[this.value];
+      if(d){
+        $("unit").value = "week";
+        $("price").value = d.weekly;
+        $("annual").value = d.annual == null ? "" : d.annual;
+        $("joining").value = d.joining;
+        gtag('event','calc_gym_select',{gym:this.value});
+      }
+      calc();
+    });
+
+    ["price","unit","annual","joining","months"].forEach(function(id){
+      $(id).addEventListener("input", calc);
+    });
+    document.addEventListener("DOMContentLoaded", calc);
+    calc();
+  </script>
+</body>
+</html>

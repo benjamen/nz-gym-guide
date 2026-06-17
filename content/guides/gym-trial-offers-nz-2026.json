@@ -1,110 +1,113 @@
 {
   "slug": "gym-trial-offers-nz-2026",
-  "short_title": "Gym Trial Offers NZ",
-  "title": "Gym Trial Offers NZ 2026 — Free Trials at Every Chain",
-  "meta_desc": "Gym trial offers in NZ 2026. Which major chains offer free trials, first-session offers, or trial memberships — and how to use them before committing.",
-  "intro": "You should never join a gym in New Zealand without trying it first. Most major chains offer some form of free trial or first-session pass — this guide covers exactly what's available at each chain, how to claim it, and what to look for during your trial.",
-  "updated": "May 2026",
-  "reading_time": 6,
+  "short_title": "Free Gym Trials NZ",
+  "title": "Free Gym Trial Offers NZ 2026 — Every Chain + By City",
+  "meta_desc": "Free gym trials in NZ 2026: verified trial passes at Jetts, Les Mills, YMCA, Anytime Fitness and more, segmented by Auckland, Wellington and Christchurch.",
+  "intro": "Never join a gym in New Zealand without trying it first. This guide lists the verified 2026 free trial offers at every major chain — from Jetts' 1-day pass to Les Mills' 7-day trial — plus a city-by-city breakdown for Auckland, Wellington, and Christchurch so you can line up trials before you commit.",
+  "updated": "June 2026",
+  "reading_time": 7,
   "sections": [
     {
-      "heading": "Gym Trial Offers NZ — 2026 Summary",
+      "heading": "Free Gym Trials NZ — 2026 Summary",
       "table": {
-        "headers": [
-          "Gym",
-          "Trial Offer",
-          "How to Access"
-        ],
+        "headers": ["Gym", "Trial Offer", "How to Access"],
         "rows": [
-          [
-            "F45 Training",
-            "Free first session",
-            "Walk in or book online at your nearest studio"
-          ],
-          [
-            "Orangetheory",
-            "Free first session",
-            "Book online or call your local studio"
-          ],
-          [
-            "Les Mills",
-            "Free trial week (some clubs)",
-            "Ask at reception or check lesmills.co.nz"
-          ],
-          [
-            "Anytime Fitness",
-            "Free day pass or trial (varies)",
-            "Ask at your nearest club"
-          ],
-          [
-            "Jetts",
-            "Free visit (varies by club)",
-            "Ask at your nearest Jetts"
-          ],
-          [
-            "City Fitness",
-            "Free trial visit (sometimes)",
-            "Ask at reception"
-          ],
-          [
-            "Snap Fitness",
-            "Free trial session (varies)",
-            "Contact your local club"
-          ],
-          [
-            "YMCA",
-            "Free community day / trial",
-            "Check local YMCA website"
-          ],
-          [
-            "ClassPass",
-            "First month reduced or free credit offer",
-            "Sign up via ClassPass app"
-          ]
+          ["Jetts", "1-day free pass", "Online form on jetts.co.nz"],
+          ["Les Mills", "7-day free trial", "Online via lesmills.co.nz"],
+          ["Anytime Fitness", "7-day free pass", "Online form or local club"],
+          ["YMCA Auckland", "3-day free trial", "Local YMCA website"],
+          ["M2 Fitness", "3-day trial", "Local club"],
+          ["Flex Fitness", "Free trial available", "Local club"],
+          ["Snap Fitness", "Varies by club", "Contact your local club"],
+          ["Council leisure centres", "7-day community pass", "Local council / recreation site"]
         ]
       }
     },
     {
-      "heading": "F45 — Best Free Trial in NZ",
-      "body": "F45 studios almost universally offer a free first session. This is worth taking up — F45 is a significant price commitment ($25+/week) and the training style is intense. A free trial tells you whether you'll enjoy it and whether the community suits you. Book online or call your nearest studio and tell them you'd like to try a free session. Most studios will fit you into the next available class."
+      "heading": "Best Free Trials by Length",
+      "body": "If you want the most time to test a gym, the 7-day trials are the standouts: Les Mills (online), Anytime Fitness (7-day free pass), and council-run leisure centres (7-day community pass) all give you a full week. For a shorter look, YMCA Auckland and M2 Fitness offer 3-day trials, and Jetts offers a 1-day free pass via an online form. A full week is ideal because it lets you train at the times you'd actually use the gym — weekday mornings, after work, and the weekend — rather than judging it on a single visit.",
+      "list": [
+        "7 days: Les Mills, Anytime Fitness, council leisure centres",
+        "3 days: YMCA Auckland, M2 Fitness",
+        "1 day: Jetts",
+        "Varies / on request: Snap Fitness, Flex Fitness"
+      ]
     },
     {
-      "heading": "Orangetheory — Free First Class",
-      "body": "Orangetheory offers a free first workout at most NZ studios. Book online through the Orangetheory website or call your local studio. The session includes heart rate monitoring and gives you a good sense of the intensity and format. Given Orangetheory's premium pricing, the free trial is essential before committing."
+      "heading": "How to Claim Each Trial",
+      "list": [
+        "Jetts — fill in the 1-day free pass form on jetts.co.nz and bring photo ID to your chosen club",
+        "Les Mills — sign up for the 7-day trial online at lesmills.co.nz; use it to try multiple class formats",
+        "Anytime Fitness — request a 7-day free pass via the website or ask at your nearest club",
+        "YMCA Auckland — claim the 3-day trial through your local YMCA's website",
+        "M2 Fitness — ask for the 3-day trial directly at the club",
+        "Flex Fitness — ask about the current free trial at your local club",
+        "Snap Fitness — trials vary by club, so contact your nearest one to confirm what's on offer",
+        "Council leisure centres — ask about the 7-day community pass at your local recreation centre"
+      ]
     },
     {
-      "heading": "Les Mills — Trial Week",
-      "body": "Les Mills NZ sometimes offers a free trial week for new members — check the current offer on lesmills.co.nz or ask at your nearest club. Even without a formal trial week, you can often arrange a free guest pass through a current member or at the front desk. The trial period is worth using to try multiple class formats — BodyPump, RPM, BODYCOMBAT — to see which suits you best before committing to a 3-month membership."
+      "heading": "Free Trials in Auckland",
+      "body": "Auckland has the widest choice of free trials. YMCA Auckland offers a 3-day free trial across its central and suburban sites. Les Mills (7-day online trial) has strong Auckland coverage including the flagship Auckland City club. Anytime Fitness 7-day passes work across Auckland's many suburban clubs, and Jetts 1-day passes are available citywide. Auckland Council leisure centres (such as the Auckland Council pool and recreation network) offer a 7-day community pass — a great free option if you want pool access alongside the gym floor.",
+      "list": [
+        "YMCA Auckland — 3-day free trial",
+        "Les Mills — 7-day online trial (incl. Auckland City flagship)",
+        "Anytime Fitness — 7-day free pass at suburban clubs",
+        "Jetts — 1-day free pass citywide",
+        "Auckland Council leisure centres — 7-day community pass"
+      ]
     },
     {
-      "heading": "Budget Chains — Trial Day Passes",
-      "body": "City Fitness, Jetts, Anytime Fitness, and Snap Fitness all offer casual day passes ranging from $15–$25 for non-members. This is the best way to trial these chains before signing up. Walk in, pay the day rate, and use the club for the day. If they offer a free trial visit, you can do this for $0. Even at $15–$25, a day pass before committing to 12 months is worthwhile."
+      "heading": "Free Trials in Wellington",
+      "body": "In Wellington, Les Mills (CBD and Petone) offers the 7-day online trial — ideal for sampling its class timetable. Anytime Fitness 7-day passes cover the Wellington suburbs, and Jetts 1-day passes are available at its Thorndon, Tawa, Johnsonville, and Lower Hutt clubs. Wellington's council recreation centres offer community passes for pool and gym access. Snap Fitness (CBD and Petone) trials vary by club, so call ahead to confirm.",
+      "list": [
+        "Les Mills — 7-day online trial (CBD, Petone)",
+        "Anytime Fitness — 7-day free pass across suburbs",
+        "Jetts — 1-day pass (Thorndon, Tawa, Johnsonville, Lower Hutt)",
+        "Wellington council recreation centres — community pass",
+        "Snap Fitness — varies by club (CBD, Petone)"
+      ]
     },
     {
-      "heading": "ClassPass — Best for Trying Multiple Gyms",
-      "body": "ClassPass periodically offers reduced first-month pricing or free credit offers for new sign-ups. A ClassPass trial lets you try multiple studios and gyms across NZ before committing to any single gym membership. If you're unsure which format you'll enjoy — Les Mills, F45, yoga, pilates, or cycling — a month on ClassPass is the best way to find out."
+      "heading": "Free Trials in Christchurch",
+      "body": "Christchurch members can use the Les Mills 7-day online trial at the Riccarton and CBD clubs, and Anytime Fitness 7-day passes across the suburbs. Jetts 1-day passes are available at its Christchurch suburban clubs. Christchurch City Council leisure centres offer a 7-day community pass covering pool and gym facilities — a strong free option, especially for families. Snap Fitness trials vary by club.",
+      "list": [
+        "Les Mills — 7-day online trial (Riccarton, CBD)",
+        "Anytime Fitness — 7-day free pass across suburbs",
+        "Jetts — 1-day pass at suburban clubs",
+        "Christchurch City Council leisure centres — 7-day community pass",
+        "Snap Fitness — varies by club"
+      ]
     },
     {
       "heading": "What to Look for During Your Trial",
       "list": [
         "Location: Is the commute realistic? Will you actually make this journey 3+ times a week?",
-        "Cleanliness: Changing rooms, equipment, showers — standards vary significantly",
-        "Atmosphere: Does it feel welcoming? Intimidating? Do the staff acknowledge you?",
+        "Cleanliness: Changing rooms, equipment, and showers — standards vary significantly",
+        "Atmosphere: Does it feel welcoming? Do the staff acknowledge you?",
         "Class timing: Are the class times compatible with your schedule?",
-        "Equipment: Is the equipment you'd use available and in good condition?",
-        "Parking / access: Is it practical to get there?",
-        "What the contract actually says: Don't sign until you've read the cancellation terms"
+        "Equipment: Is the gear you'd use available and in good condition at your usual training time?",
+        "Parking and access: Is it practical to get there?",
+        "Contract terms: Don't sign until you've read the cancellation and lock-in terms"
       ]
     }
   ],
   "faq": [
     {
-      "question": "Which NZ gyms offer free trials?",
-      "answer": "F45 and Orangetheory offer free first sessions at almost all NZ studios. Les Mills sometimes offers a free trial week. Most budget chains (Anytime Fitness, Jetts, City Fitness) offer casual day passes for $15–$25."
+      "question": "Which NZ gyms offer a free 7-day trial?",
+      "answer": "Les Mills (online), Anytime Fitness (7-day free pass), and council-run leisure centres (7-day community pass) all offer a full week. They're the best options if you want enough time to test the gym at the times you'd actually train."
+    },
+    {
+      "question": "Does Jetts offer a free trial in NZ?",
+      "answer": "Yes — Jetts offers a 1-day free pass that you can claim through the online form on jetts.co.nz. Bring photo ID to your chosen club to use it."
     },
     {
       "question": "Can I try Les Mills NZ for free?",
-      "answer": "Les Mills periodically offers free trial weeks for new members — check the current offer at lesmills.co.nz. You can also often arrange a free guest pass at the front desk of your local Les Mills."
+      "answer": "Yes — Les Mills offers a 7-day free trial you can sign up for online at lesmills.co.nz. Use the week to try several class formats like BodyPump, RPM, and BODYCOMBAT before committing."
+    },
+    {
+      "question": "Are there free gym trials in Auckland, Wellington, and Christchurch?",
+      "answer": "Yes. All three cities have Les Mills (7-day), Anytime Fitness (7-day), and Jetts (1-day) trials, plus council leisure-centre community passes. Auckland also has a YMCA 3-day trial."
     }
   ]
 }

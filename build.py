@@ -12,6 +12,7 @@ DATA    = ROOT / "data"
 LAYOUTS = ROOT / "layouts"
 STATIC  = ROOT / "static"
 CONTENT = ROOT / "content"
+TOOLS   = ROOT / "tools"
 OUT     = ROOT / "docs"
 
 env = Environment(loader=FileSystemLoader(str(LAYOUTS)), autoescape=False)
@@ -40,6 +41,10 @@ def gym_by_slug(gyms, slug):
     return next((g for g in gyms if g["slug"] == slug), None)
 
 
+def suburb_slugify(name):
+    return name.lower().replace(" ", "-").replace("&", "and").replace("/", "-")
+
+
 def render(template_name, out_path, **ctx):
     t = env.get_template(template_name)
     write(OUT / out_path, t.render(**ctx))
@@ -53,6 +58,10 @@ def build():
     # Copy static assets
     if STATIC.exists():
         shutil.copytree(STATIC, OUT / "static")
+
+    # Copy standalone HTML tools (calculator, quiz) into site root
+    if TOOLS.exists():
+        shutil.copytree(TOOLS, OUT, dirs_exist_ok=True)
 
     site  = load("site")
     gyms  = load("gyms")
@@ -94,15 +103,18 @@ def build():
                 render("gym-city.html", f"gym/{gym['slug']}/{city['slug']}/index.html",
                        gym=gym, city=city, **ctx)
 
-    # Auckland suburb pages — capture "[suburb] gym" local search
-    akl = next((c for c in cities if c["slug"] == "auckland"), None)
-    if akl:
-        akl_gyms = [gym_by_slug(gyms, s) for s in akl["gyms_available"] if gym_by_slug(gyms, s)]
-        for suburb in akl.get("suburbs", []):
-            suburb_slug = suburb.lower().replace(" ", "-").replace("&", "and")
-            render("gym-suburb.html", f"gym/auckland/{suburb_slug}/index.html",
+    # City suburb pages — capture "[suburb] gym" local search
+    for city in cities:
+        suburbs = city.get("suburbs", [])
+        if not suburbs:
+            continue
+        city_gyms = [gym_by_slug(gyms, s) for s in city["gyms_available"] if gym_by_slug(gyms, s)]
+        all_suburbs = [{"name": s, "slug": suburb_slugify(s)} for s in suburbs]
+        for suburb in suburbs:
+            suburb_slug = suburb_slugify(suburb)
+            render("gym-suburb.html", f"gym/{city['slug']}/{suburb_slug}/index.html",
                    suburb_name=suburb, suburb_slug=suburb_slug,
-                   suburb_gyms=akl_gyms, city=akl, **ctx)
+                   suburb_gyms=city_gyms, city=city, all_suburbs=all_suburbs, **ctx)
 
     # My Gyms shortlist page
     render("my-gyms.html", "my-gyms/index.html", **ctx)
@@ -201,12 +213,11 @@ def build():
         for city in cities:
             if city["name"].lower() in gym_city_names and gym["slug"] in city.get("gyms_available", []):
                 sitemap += sm_url(f"gym/{gym['slug']}/{city['slug']}", "0.75", "monthly")
-    # Auckland suburb gym pages
-    akl_sitemap = next((c for c in cities if c["slug"] == "auckland"), None)
-    if akl_sitemap:
-        for suburb in akl_sitemap.get("suburbs", []):
-            suburb_slug = suburb.lower().replace(" ", "-").replace("&", "and")
-            sitemap += sm_url(f"gym/auckland/{suburb_slug}", "0.7", "monthly")
+    # City suburb gym pages
+    for city in cities:
+        for suburb in city.get("suburbs", []):
+            suburb_slug = suburb_slugify(suburb)
+            sitemap += sm_url(f"gym/{city['slug']}/{suburb_slug}", "0.7", "monthly")
     sitemap += sm_url("personal-trainers/auckland", "0.8", "weekly")
     for pt in pts:
         sitemap += sm_url(f"personal-trainers/{pt['slug']}", "0.7", "monthly")
