@@ -61,6 +61,20 @@
      "sameAs":["https://www.facebook.com/nzgymguide", "https://www.instagram.com/nzgymguide", "https://twitter.com/nzgymguide"]}
   ]
   </script>
+  <style>
+    .newsletter-strip{background:#1e3a5f;color:#fff;padding:1.5rem 1rem;text-align:center}
+    .newsletter-strip-inner{max-width:700px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:1rem;justify-content:center}
+    .ns-text strong{display:block;font-size:1.1rem;margin-bottom:.2rem}
+    .ns-text span{font-size:.9rem;opacity:.88}
+    .ns-form{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center}
+    .ns-input{padding:.6rem .9rem;border:none;border-radius:6px;font:inherit;min-width:220px}
+    .ns-btn{padding:.6rem 1.2rem;background:#f59e0b;color:#fff;border:none;border-radius:6px;font:inherit;cursor:pointer;font-weight:600}
+    .sticky-cta-bar{background:#2563eb;color:#fff;padding:.5rem 1rem;position:sticky;top:0;z-index:999;text-align:center}
+    .sticky-cta-inner{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;justify-content:center;max-width:900px;margin:0 auto}
+    .sticky-cta-link{color:#fff;text-decoration:none;font-size:.85rem;font-weight:600;white-space:nowrap}
+    .sticky-cta-link:hover{text-decoration:underline;opacity:.9}
+    @media(max-width:600px){.sticky-cta-bar{display:none}}
+  </style>
   
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
@@ -89,6 +103,15 @@
 
 </head>
 <body>
+  <!-- Sticky top CTA bar -->
+  <div class="sticky-cta-bar" id="stickyCta">
+    <div class="sticky-cta-inner">
+      <a href="/compare/" class="sticky-cta-link">💪 Compare All NZ Gyms</a>
+      <a href="/free-gym-trial/" class="sticky-cta-link">🆓 Free Gym Trials</a>
+      <a href="/calculators/gym-cost-calculator.html" class="sticky-cta-link">📊 Gym Cost Calculator</a>
+      <a href="/quiz/" class="sticky-cta-link">🎯 Find My Gym</a>
+    </div>
+  </div>
   <nav class="nav">
     <div class="nav-inner">
       <a href="/" class="nav-logo">NZ Gym Guide</a>
@@ -638,6 +661,21 @@
       </div>
     </div>
   </footer>
+
+  <!-- Newsletter strip -->
+  <div class="newsletter-strip">
+    <div class="newsletter-strip-inner">
+      <div class="ns-text">
+        <strong>🏋️ Get NZ Gym Deals & Price Drops</strong>
+        <span>New openings, membership deals, free trials & price cuts — delivered free.</span>
+      </div>
+      <form class="ns-form newsletter-form" action="#" method="POST" target="_blank">
+        <input type="hidden" name="tags" value="nzgg-footer-strip">
+        <input type="email" name="EMAIL" class="ns-input" placeholder="your@email.com" required autocomplete="email">
+        <button type="submit" class="btn ns-btn">Get deals →</button>
+      </form>
+    </div>
+  </div>
 
   <!-- Star rating input -->
   <script>
