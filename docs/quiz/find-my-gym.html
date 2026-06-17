@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find My Gym NZ — Which Gym Is Right for You? (Quiz)</title>
+  <meta name="description" content="Take our free 5-question quiz to find the best gym in NZ for your budget, schedule and goals — Les Mills, City Fitness, Jetts, Snap, Anytime Fitness and more.">
+  <link rel="canonical" href="https://nzgymguide.co.nz/quiz/find-my-gym/">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
+  <meta name="theme-color" content="#005ea2">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nzgymguide.co.nz/quiz/find-my-gym/">
+  <meta property="og:title" content="Find My Gym NZ — Which Gym Is Right for You?">
+  <meta property="og:description" content="Answer 5 quick questions and get a personalised NZ gym recommendation in under a minute. Free, no sign-up.">
+  <meta property="og:site_name" content="NZ Gym Guide">
+  <meta property="og:locale" content="en_NZ">
+
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Find My Gym NZ Quiz","url":"https://nzgymguide.co.nz/quiz/find-my-gym/","applicationCategory":"LifestyleApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"NZD"},"description":"A 5-question quiz that recommends the best NZ gym for your budget, schedule and goals."}
+  </script>
+
+  <style>
+    :root{
+      --primary:#005ea2; --primary-dark:#00457a; --accent:#1a9e57;
+      --bg:#f6f8fb; --card:#fff; --border:#dce3ec; --text:#1b2733; --muted:#5a6b7b;
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.55}
+    .wrap{max-width:720px;margin:0 auto;padding:1.25rem}
+    header.top{background:var(--primary);color:#fff;padding:.5rem 0}
+    header.top .wrap{display:flex;align-items:center;justify-content:space-between}
+    header.top a{color:#fff;text-decoration:none;font-weight:700}
+    header.top nav a{font-weight:500;margin-left:1rem;opacity:.9;font-size:.95rem}
+    h1{font-size:1.8rem;margin:.3rem 0 .3rem}
+    .lede{color:var(--muted);margin:0 0 1.25rem;font-size:1.05rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.4rem 1.4rem 1.6rem}
+    .progress{height:8px;background:#e3eaf2;border-radius:99px;overflow:hidden;margin-bottom:1rem}
+    .progress > span{display:block;height:100%;background:var(--primary);transition:width .25s ease;width:20%}
+    .step-label{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.4rem}
+    .q-text{font-size:1.3rem;font-weight:700;margin:.1rem 0 1.1rem}
+    .opt{display:block;width:100%;text-align:left;background:#fff;border:1.5px solid var(--border);border-radius:10px;padding:.85rem 1rem;margin-bottom:.6rem;font-size:1rem;cursor:pointer;transition:border-color .15s,background .15s}
+    .opt:hover{border-color:var(--primary);background:#f3f8fd}
+    .opt:focus-visible{outline:2px solid var(--primary)}
+    .nav-row{display:flex;justify-content:space-between;margin-top:.6rem}
+    .btn{display:inline-block;border:none;border-radius:8px;padding:.6rem 1.1rem;font-size:.95rem;font-weight:600;cursor:pointer;text-decoration:none}
+    .btn-back{background:transparent;color:var(--muted)}
+    .btn-back:hover{color:var(--text)}
+    .btn-primary{background:var(--primary);color:#fff}
+    .btn-primary:hover{background:var(--primary-dark)}
+    .btn-outline{background:#fff;border:1.5px solid var(--primary);color:var(--primary)}
+    /* results */
+    .result-card{text-align:center}
+    .badge{display:inline-block;background:var(--accent);color:#fff;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:.3rem .7rem;border-radius:99px;margin-bottom:.6rem}
+    .rec-name{font-size:2rem;font-weight:800;margin:.1rem 0 .5rem;color:var(--primary)}
+    .rec-why{color:var(--muted);font-size:1.05rem;margin:0 auto 1.2rem;max-width:480px}
+    .runners{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin:1.2rem 0}
+    @media(max-width:480px){.runners{grid-template-columns:1fr}}
+    .runner{background:#f3f8fd;border:1px solid var(--border);border-radius:10px;padding:.9rem}
+    .runner .ru-lbl{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+    .runner .ru-name{font-weight:700;font-size:1.1rem;margin:.15rem 0 .3rem}
+    .runner a{color:var(--primary);font-weight:600;text-decoration:none;font-size:.9rem}
+    .cta-row{margin-top:1.4rem;display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap}
+    footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 1rem}
+    .hidden{display:none}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a href="/">NZ Gym Guide</a>
+      <nav>
+        <a href="/gym/">Gyms</a>
+        <a href="/guides/">Guides</a>
+        <a href="/calculators/gym-cost-calculator/">Calculator</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Find My Gym NZ</h1>
+    <p class="lede">Answer 5 quick questions — get a personalised NZ gym recommendation in under a minute. Free, no sign-up.</p>
+
+    <div class="card" id="quizCard">
+      <div class="progress"><span id="bar"></span></div>
+      <div class="step-label" id="stepLabel">Question 1 of 5</div>
+      <div class="q-text" id="qText"></div>
+      <div id="opts"></div>
+      <div class="nav-row">
+        <button class="btn btn-back hidden" id="backBtn" type="button">← Back</button>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="card result-card hidden" id="resultCard">
+      <div class="badge">Your best match</div>
+      <div class="rec-name" id="recName"></div>
+      <p class="rec-why" id="recWhy"></p>
+      <div class="runners" id="runners"></div>
+      <div class="cta-row">
+        <a class="btn btn-outline" id="recLink" href="/gym/">View this gym →</a>
+        <button class="btn btn-primary" id="retakeBtn" type="button">Retake quiz</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>NZ Gym Guide — independent NZ gym comparison. Recommendations are a guide only; check current prices and locations before joining.</footer>
+
+  <script>
+  (function(){
+    var GYMS = {
+      "City Fitness":    {url:"/gym/city-fitness/",    why:"NZ's budget standout — from $7.99/week with 24/7 access and no long lock-in."},
+      "Jetts":           {url:"/gym/jetts/",           why:"No joining fee, no lock-in and 24/7 access, with the widest regional coverage in NZ."},
+      "Snap Fitness":    {url:"/gym/snap-fitness/",    why:"Solid 24/7 solo-training gyms with good equipment, found in most NZ towns."},
+      "Anytime Fitness": {url:"/gym/anytime-fitness/", why:"Strong equipment range, 24/7 access and global reciprocal access across clubs."},
+      "Les Mills":       {url:"/gym/les-mills/",       why:"NZ's best group-fitness brand — huge class timetable and premium facilities."},
+      "F45":             {url:"/gym/f45/",             why:"Coached HIIT classes with a tight community vibe and built-in accountability."},
+      "Orangetheory":    {url:"/gym/orangetheory/",    why:"Heart-rate-based coached classes — great for results and accountability."},
+      "YMCA":            {url:"/gym/ymca/",            why:"Community facilities with pools and crèches — good value for families."}
+    };
+
+    var QUESTIONS = [
+      {q:"What's your budget?", a:[
+        {t:"Under $10/week (budget)",            s:{"City Fitness":5,"Jetts":2}},
+        {t:"$10–$20/week (mid-range)",           s:{"Jetts":4,"Snap Fitness":4,"City Fitness":2}},
+        {t:"$20–$30/week (premium budget)",      s:{"Anytime Fitness":4,"Les Mills":4,"Snap Fitness":2}},
+        {t:"$30+/week (premium)",                s:{"Les Mills":4,"F45":4,"Orangetheory":4}}
+      ]},
+      {q:"When do you like to train?", a:[
+        {t:"Any time, day or night (24/7 needed)", s:{"Jetts":4,"Snap Fitness":4,"Anytime Fitness":4,"City Fitness":3}},
+        {t:"During staffed hours (6am–10pm)",      s:{"Les Mills":4,"YMCA":4}},
+        {t:"Class-based only",                     s:{"Les Mills":4,"F45":4,"Orangetheory":4}}
+      ]},
+      {q:"What's your priority?", a:[
+        {t:"Equipment range & free weights", s:{"Anytime Fitness":5,"Snap Fitness":4}},
+        {t:"Group fitness classes",          s:{"Les Mills":5}},
+        {t:"Flexibility (no lock-in)",       s:{"Jetts":5,"City Fitness":4}},
+        {t:"Community & accountability",     s:{"F45":5,"Orangetheory":4,"YMCA":3}},
+        {t:"Just the basics, cheapest possible", s:{"City Fitness":5,"Jetts":3}}
+      ]},
+      {q:"Where are you based?", a:[
+        {t:"Auckland",            s:{"Les Mills":2,"City Fitness":2,"Anytime Fitness":2,"Snap Fitness":2,"Jetts":2,"F45":2,"Orangetheory":2}},
+        {t:"Wellington",          s:{"Les Mills":2,"City Fitness":2,"Snap Fitness":2,"Jetts":2}},
+        {t:"Christchurch",        s:{"Les Mills":2,"City Fitness":2,"Snap Fitness":2,"Jetts":2}},
+        {t:"Smaller city or town", s:{"Jetts":5,"Snap Fitness":3,"Anytime Fitness":3}},
+        {t:"Rural / regional",    s:{"Jetts":6}}
+      ]},
+      {q:"Do you want a trial first?", a:[
+        {t:"Yes, definitely",        s:{"Les Mills":3,"City Fitness":3,"Anytime Fitness":2}},
+        {t:"No, I'm ready to commit", s:{}}
+      ]}
+    ];
+
+    var scores = {};
+    var answers = [];
+    var step = 0;
+
+    var bar = document.getElementById("bar");
+    var stepLabel = document.getElementById("stepLabel");
+    var qText = document.getElementById("qText");
+    var optsEl = document.getElementById("opts");
+    var backBtn = document.getElementById("backBtn");
+    var quizCard = document.getElementById("quizCard");
+    var resultCard = document.getElementById("resultCard");
+
+    function render(){
+      var Q = QUESTIONS[step];
+      bar.style.width = ((step)/QUESTIONS.length*100) + "%";
+      stepLabel.textContent = "Question " + (step+1) + " of " + QUESTIONS.length;
+      qText.textContent = Q.q;
+      optsEl.innerHTML = "";
+      Q.a.forEach(function(opt,i){
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "opt";
+        b.textContent = opt.t;
+        b.addEventListener("click", function(){ choose(i); });
+        optsEl.appendChild(b);
+      });
+      backBtn.classList.toggle("hidden", step === 0);
+    }
+
+    function choose(i){
+      answers[step] = i;
+      var s = QUESTIONS[step].a[i].s;
+      for(var g in s){ scores[g] = (scores[g]||0) + s[g]; }
+      gtag('event','quiz_answer',{step:step+1,choice:i});
+      step++;
+      if(step >= QUESTIONS.length){ finish(); }
+      else { render(); }
+    }
+
+    backBtn.addEventListener("click", function(){
+      if(step === 0) return;
+      step--;
+      var prev = answers[step];
+      if(prev != null){
+        var s = QUESTIONS[step].a[prev].s;
+        for(var g in s){ scores[g] = (scores[g]||0) - s[g]; }
+        answers[step] = null;
+      }
+      render();
+    });
+
+    function finish(){
+      bar.style.width = "100%";
+      var ranked = Object.keys(GYMS).map(function(g){return {g:g,v:scores[g]||0};})
+        .sort(function(a,b){return b.v - a.v;});
+      var top = ranked[0].g;
+      var runnerUps = ranked.slice(1,3).map(function(r){return r.g;});
+
+      document.getElementById("recName").textContent = top;
+      document.getElementById("recWhy").textContent = GYMS[top].why;
+      document.getElementById("recLink").setAttribute("href", GYMS[top].url);
+
+      var ru = document.getElementById("runners");
+      ru.innerHTML = "";
+      runnerUps.forEach(function(g){
+        var d = document.createElement("div");
+        d.className = "runner";
+        d.innerHTML = '<div class="ru-lbl">Also worth a look</div>' +
+          '<div class="ru-name">'+g+'</div>' +
+          '<a href="'+GYMS[g].url+'">View '+g+' →</a>';
+        ru.appendChild(d);
+      });
+
+      quizCard.classList.add("hidden");
+      resultCard.classList.remove("hidden");
+      gtag('event','quiz_complete',{recommended:top});
+    }
+
+    document.getElementById("retakeBtn").addEventListener("click", function(){
+      scores = {}; answers = []; step = 0;
+      resultCard.classList.add("hidden");
+      quizCard.classList.remove("hidden");
+      render();
+    });
+
+    render();
+  })();
+  </script>
+</body>
+</html>

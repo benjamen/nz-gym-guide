@@ -1,0 +1,48 @@
+{
+  "title": "New Plymouth Gym Deals",
+  "short_title": "Gym Deals",
+  "meta_desc": "Discover the best gym deals in New Plymouth, including current joining offers and free trials, plus tips for saving money on your membership.",
+  "intro": "New Plymouth has a thriving fitness culture, with a range of gyms to suit different needs and budgets. From 24/7 access to women's-only facilities, there's something for everyone. With the Exercise NZ subsidy scheme offering 40-70% off for eligible members, now is a great time to join a gym in New Plymouth.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Gym Deals in New Plymouth",
+      "body": "Several gyms in New Plymouth are offering special deals for new members. Snap Fitness is currently offering 6 weeks free, while Contours provides a no-contract option. Anytime Fitness offers 24/7 access to over 5,000 clubs worldwide. Additionally, the Exercise NZ subsidy scheme provides 40-70% off for eligible members, which includes new members or those who have been inactive for 12 months or more.",
+      "list": [
+        "Snap Fitness: 6 weeks free",
+        "Contours: no-contract option",
+        "Anytime Fitness: 24/7 access to over 5,000 clubs worldwide",
+        "Exercise NZ subsidy: 40-70% off for eligible members"
+      ]
+    },
+    {
+      "heading": "Best Value Gyms in New Plymouth",
+      "body": "When it comes to value for money, some gyms stand out from the rest. Snap Fitness is currently the best value gym in New Plymouth, offering a range of equipment and classes at an affordable price. Contours is also a great option for women, providing a supportive and welcoming environment. Anytime Fitness is a premium option, with 24/7 access to facilities worldwide.",
+      "list": [
+        "Snap Fitness: best value gym in New Plymouth",
+        "Contours: great option for women",
+        "Anytime Fitness: premium option with 24/7 access"
+      ]
+    },
+    {
+      "heading": "Money-Saving Tips for Joining a Gym in New Plymouth",
+      "body": "Joining a gym can be a significant investment, but there are ways to save money. Firstly, consider the Exercise NZ subsidy scheme, which can provide 40-70% off your membership. Secondly, look for gyms that offer no-contract options or free trials, such as Contours or Snap Fitness. Thirdly, think about your fitness goals and choose a gym that meets your needs, rather than paying for unnecessary extras. Finally, be sure to read the fine print and understand the terms of your membership before signing up.",
+      "list": [
+        "Consider the Exercise NZ subsidy scheme",
+        "Look for no-contract options or free trials",
+        "Choose a gym that meets your needs",
+        "Read the fine print and understand the terms of your membership"
+      ],
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "new-plymouth-gym-deals-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-18",
+  "post_type": "city_deals"
+}
