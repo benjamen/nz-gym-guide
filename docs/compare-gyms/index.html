@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare NZ Gym Memberships 2026 — Side-by-Side</title>
+  <meta name="description" content="Compare Les Mills, Anytime Fitness, Snap Fitness, Jetts and more — prices, contracts, 24/7 access, and features side-by-side.">
+  <link rel="canonical" href="https://nzgymguide.co.nz/compare-gyms/">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/static/img/favicon.png" type="image/png" sizes="32x32">
+  <meta name="theme-color" content="#005ea2">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nzgymguide.co.nz/compare-gyms/">
+  <meta property="og:title" content="Compare NZ Gym Memberships 2026 — Side-by-Side">
+  <meta property="og:description" content="Pick up to 3 NZ gyms and compare prices, contracts, 24/7 access and features side-by-side.">
+  <meta property="og:site_name" content="NZ Gym Guide">
+  <meta property="og:locale" content="en_NZ">
+
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R8CXM89FV"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-4R8CXM89FV');</script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"NZ Gym Comparison Tool","url":"https://nzgymguide.co.nz/compare-gyms/","applicationCategory":"LifestyleApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"NZD"},"description":"Compare up to 3 NZ gym chains side-by-side on price, contracts, 24/7 access and features."}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Which NZ gym is cheapest?","acceptedAnswer":{"@type":"Answer","text":"City Fitness has NZ's lowest entry price at around $7.99/week for its Basic tier, with no lock-in contract and a one-off $29 joining fee. Jetts ($14.95/week) and Snap Fitness ($14.95/week) are the cheapest 24/7 options. Always check current promotions, as weekly prices and joining-fee waivers change often."}},
+    {"@type":"Question","name":"Which NZ gyms have no contracts?","acceptedAnswer":{"@type":"Answer","text":"Jetts, City Fitness, F45, ClassPass, Orangetheory, Contours and 9Round are no-contract gyms in NZ — you can cancel with short notice (Jetts needs 2 weeks, City Fitness 4 weeks). Les Mills, Anytime Fitness and Snap Fitness require a minimum term, so check before signing."}},
+    {"@type":"Question","name":"Which NZ gym has the best 24/7 access?","acceptedAnswer":{"@type":"Answer","text":"Anytime Fitness offers the widest 24/7 access — over 80 NZ clubs plus 5,000+ worldwide on one membership, ideal for travellers. Snap Fitness, Jetts and City Fitness also offer 24/7 fob or app access at their NZ locations."}},
+    {"@type":"Question","name":"How do I compare gym memberships in NZ?","acceptedAnswer":{"@type":"Answer","text":"Compare weekly price, joining fee, whether a contract is required, 24/7 access, and included features like a pool or group classes. Use this tool to select up to 3 gyms and see these side-by-side, then read the full review before joining."}}
+  ]}
+  </script>
+
+  <style>
+    :root{
+      --primary:#005ea2; --primary-dark:#00457a; --accent:#1a9e57;
+      --bg:#f6f8fb; --card:#fff; --border:#dce3ec; --text:#1b2733; --muted:#5a6b7b;
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.55}
+    .wrap{max-width:980px;margin:0 auto;padding:1.25rem}
+    header.top{background:var(--primary);color:#fff;padding:.75rem 0}
+    header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem}
+    header.top a{color:#fff;text-decoration:none;font-weight:700}
+    header.top nav a{font-weight:500;margin-left:1rem;opacity:.9;font-size:.95rem}
+    h1{font-size:1.85rem;margin:.2rem 0 .4rem}
+    .lede{color:var(--muted);margin:0 0 1.25rem;font-size:1.05rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.4rem;margin-bottom:1.25rem}
+    h2{font-size:1.3rem;margin:.2rem 0 .9rem}
+    .hint{color:var(--muted);font-size:.92rem;margin:0 0 1rem}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.9rem}
+    .gym-card{position:relative;background:#fff;border:2px solid var(--border);border-radius:10px;padding:.9rem;cursor:pointer;text-align:center;transition:border-color .15s,box-shadow .15s;user-select:none}
+    .gym-card:hover{border-color:var(--primary)}
+    .gym-card:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+    .gym-card.selected{border-color:var(--accent);box-shadow:0 0 0 2px rgba(26,158,87,.18)}
+    .gym-card.disabled{opacity:.45;cursor:not-allowed}
+    .gym-card.disabled:hover{border-color:var(--border)}
+    .gym-card img{height:38px;max-width:100%;object-fit:contain;margin-bottom:.5rem}
+    .gym-card .gname{font-weight:700;font-size:1rem;line-height:1.2}
+    .gym-card .gtag{font-size:.78rem;color:var(--muted);margin-top:.25rem;display:block}
+    .check{position:absolute;top:.5rem;right:.5rem;width:22px;height:22px;border-radius:50%;background:var(--accent);color:#fff;font-size:.8rem;line-height:22px;text-align:center;display:none}
+    .gym-card.selected .check{display:block}
+
+    .bar{position:sticky;bottom:0;background:var(--primary);color:#fff;border-radius:10px;padding:.8rem 1rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:1rem;flex-wrap:wrap}
+    .bar .count{font-weight:600}
+    .btn{display:inline-block;background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.65rem 1.4rem;font-size:1rem;font-weight:700;cursor:pointer;text-decoration:none}
+    .btn:disabled{background:#9bb4c4;cursor:not-allowed}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,.6)}
+
+    .table-scroll{overflow-x:auto}
+    table{width:100%;border-collapse:collapse;font-size:.94rem;min-width:480px}
+    th,td{text-align:left;padding:.7rem .65rem;border-bottom:1px solid var(--border);vertical-align:top}
+    thead th{background:#eef3f8;font-size:.95rem}
+    thead th.gymhead{font-weight:700;color:var(--text)}
+    tbody th{font-weight:600;color:var(--muted);font-size:.85rem;text-transform:uppercase;letter-spacing:.02em;white-space:nowrap;width:170px}
+    .yes{color:var(--accent);font-weight:700}
+    .no{color:#b23b3b;font-weight:600}
+    .review-link{display:inline-block;background:var(--primary);color:#fff;text-decoration:none;border-radius:7px;padding:.45rem .8rem;font-size:.88rem;font-weight:600}
+    .review-link:hover{background:var(--primary-dark)}
+    .price-big{font-size:1.15rem;font-weight:700;color:var(--primary)}
+
+    .cta-quiz{background:linear-gradient(135deg,#eaf3fb,#f3f8fd);text-align:center}
+    .cta-quiz a{color:var(--primary);font-weight:700;text-decoration:none;font-size:1.05rem}
+    .cta-quiz a:hover{text-decoration:underline}
+
+    .faq dt{font-weight:700;margin-top:1rem}
+    .faq dd{margin:.3rem 0 0;color:var(--text)}
+    .note{font-size:.85rem;color:var(--muted);margin-top:.8rem}
+    footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 1rem}
+    .links a{display:inline-block;margin:.3rem .8rem .3rem 0;color:var(--primary);font-weight:600;text-decoration:none}
+    .links a:hover{text-decoration:underline}
+    #compareSection{display:none}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a href="/">NZ Gym Guide</a>
+      <nav>
+        <a href="/compare/">Compare All</a>
+        <a href="/quiz/">Quiz</a>
+        <a href="/calculators/gym-cost-calculator.html">Calculator</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Compare NZ Gym Memberships 2026</h1>
+    <p class="lede">Pick up to <strong>3 gyms</strong> below to see prices, contracts, 24/7 access and features <strong>side-by-side</strong>. Independent and no gym pays for placement.</p>
+
+    <div class="card">
+      <h2>Choose gyms to compare</h2>
+      <p class="hint">Tap a gym to select it. Choose 2–3, then hit Compare.</p>
+      <div class="grid" id="gymGrid"><p id="loading" class="hint">Loading gyms…</p></div>
+      <div class="bar">
+        <span class="count" id="selCount">0 selected (pick 2–3)</span>
+        <span>
+          <button class="btn ghost" id="clearBtn" type="button" style="margin-right:.5rem">Clear</button>
+          <button class="btn" id="compareBtn" type="button" disabled>Compare →</button>
+        </span>
+      </div>
+    </div>
+
+    <div class="card" id="compareSection">
+      <h2>Side-by-side comparison</h2>
+      <div class="table-scroll">
+        <table id="compareTable"></table>
+      </div>
+      <p class="note">Prices are indicative weekly "from" rates and change with promotions. Always confirm the current price and contract terms with the gym before joining.</p>
+    </div>
+
+    <div class="card cta-quiz">
+      <p style="margin:.2rem 0">Not sure which gym suits you? <a href="/quiz/">Take our 60-second Find My Gym quiz →</a></p>
+    </div>
+
+    <div class="card faq">
+      <h2>Gym comparison FAQ</h2>
+      <dl>
+        <dt>Which NZ gym is cheapest?</dt>
+        <dd>City Fitness has NZ's lowest entry price at around $7.99/week (Basic tier), with no lock-in and a one-off $29 joining fee. Jetts and Snap Fitness ($14.95/week) are the cheapest 24/7 options. Prices and joining-fee waivers change often — check current deals.</dd>
+        <dt>Which NZ gyms have no contracts?</dt>
+        <dd>Jetts, City Fitness, F45, ClassPass, Orangetheory, Contours and 9Round are no-contract gyms — cancel with short notice. Les Mills, Anytime Fitness and Snap Fitness require a minimum term.</dd>
+        <dt>Which NZ gym has the best 24/7 access?</dt>
+        <dd>Anytime Fitness has the widest 24/7 footprint — 80+ NZ clubs plus thousands worldwide on one membership. Snap Fitness, Jetts and City Fitness also offer 24/7 access at their NZ locations.</dd>
+        <dt>How do I compare gym memberships in NZ?</dt>
+        <dd>Weigh up weekly price, joining fee, contract length, 24/7 access and features like a pool or classes. Select up to 3 gyms above to see them side-by-side, then read the full review before joining.</dd>
+      </dl>
+    </div>
+
+    <div class="card">
+      <h2>Related</h2>
+      <div class="links">
+        <a href="/compare/">Full comparison table →</a>
+        <a href="/quiz/">Find My Gym quiz →</a>
+        <a href="/calculators/gym-cost-calculator.html">Gym cost calculator →</a>
+        <a href="/guides/cheapest-gym-nz/">Cheapest gyms in NZ →</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>NZ Gym Guide — independent NZ gym comparison. Prices are estimates, verify before joining.</footer>
+
+  <script>
+    var $ = function(id){return document.getElementById(id);};
+    var MAX = 3;
+    var GYMS = [];
+    var selected = [];
+
+    function money(n){
+      if(n == null || isNaN(n)) return "—";
+      return "$" + Number(n).toLocaleString("en-NZ",{minimumFractionDigits:2,maximumFractionDigits:2});
+    }
+    function yn(v){
+      return v ? '<span class="yes">Yes</span>' : '<span class="no">No</span>';
+    }
+    function contractLabel(g){
+      if(g.contract_required === false) return '<span class="yes">No</span>' + (g.minimum_term ? ' <span style="color:var(--muted);font-size:.85rem">(' + g.minimum_term + ')</span>' : '');
+      if(g.contract_required === true) return '<span class="no">Yes</span>' + (g.minimum_term ? ' <span style="color:var(--muted);font-size:.85rem">(' + g.minimum_term + ')</span>' : '');
+      return g.minimum_term || "—";
+    }
+
+    function renderGrid(){
+      var grid = $("gymGrid");
+      grid.innerHTML = "";
+      GYMS.forEach(function(g){
+        var isSel = selected.indexOf(g.slug) > -1;
+        var atMax = selected.length >= MAX && !isSel;
+        var card = document.createElement("div");
+        card.className = "gym-card" + (isSel ? " selected" : "") + (atMax ? " disabled" : "");
+        card.setAttribute("role","button");
+        card.setAttribute("tabindex","0");
+        card.setAttribute("aria-pressed", isSel ? "true" : "false");
+        card.dataset.slug = g.slug;
+        var logo = g.logo_file ? '<img src="' + g.logo_file + '" alt="' + g.name + ' logo" loading="lazy">' : '';
+        card.innerHTML =
+          '<span class="check" aria-hidden="true">✓</span>' +
+          logo +
+          '<span class="gname">' + g.name + '</span>' +
+          '<span class="gtag">' + (g.tagline || "") + '</span>';
+        card.addEventListener("click", function(){ toggle(g.slug); });
+        card.addEventListener("keydown", function(e){
+          if(e.key === "Enter" || e.key === " "){ e.preventDefault(); toggle(g.slug); }
+        });
+        grid.appendChild(card);
+      });
+      updateBar();
+    }
+
+    function toggle(slug){
+      var i = selected.indexOf(slug);
+      if(i > -1){ selected.splice(i,1); }
+      else {
+        if(selected.length >= MAX) return;
+        selected.push(slug);
+        gtag('event','compare_select',{gym:slug});
+      }
+      renderGrid();
+    }
+
+    function updateBar(){
+      var n = selected.length;
+      $("selCount").textContent = n + " selected" + (n < 2 ? " (pick 2–3)" : "");
+      $("compareBtn").disabled = n < 2;
+    }
+
+    function gymBySlug(slug){
+      return GYMS.filter(function(g){return g.slug === slug;})[0];
+    }
+
+    function renderTable(){
+      var chosen = selected.map(gymBySlug).filter(Boolean);
+      if(chosen.length < 2) return;
+      var rows = [
+        ["Monthly cost (from)", function(g){
+          if(g.weekly_from == null) return "—";
+          var monthly = g.weekly_from * 52 / 12;
+          return '<span class="price-big">' + money(monthly) + '</span><br><span style="color:var(--muted);font-size:.82rem">' + money(g.weekly_from) + '/week</span>';
+        }],
+        ["Joining fee", function(g){ return g.joining_fee ? money(g.joining_fee) : '<span class="yes">$0</span>'; }],
+        ["Contract required", function(g){ return contractLabel(g); }],
+        ["24/7 access", function(g){ return yn(g.open_247); }],
+        ["Pool", function(g){ return yn(g.pool); }],
+        ["Classes included", function(g){ return yn(g.group_fitness); }],
+        ["Cities in NZ", function(g){ return (g.locations && g.locations.length) ? g.locations.join(", ") : "—"; }],
+        ["Trial offer", function(g){ return g.trial_offer || "—"; }],
+        ["Rating", function(g){ return g.rating ? '★ ' + g.rating + (g.review_count ? ' <span style="color:var(--muted);font-size:.82rem">(' + g.review_count.toLocaleString("en-NZ") + ')</span>' : '') : "—"; }],
+        ["", function(g){ return '<a class="review-link" href="/gym/' + g.slug + '/">View full review →</a>'; }]
+      ];
+
+      var html = "<thead><tr><th></th>";
+      chosen.forEach(function(g){ html += '<th class="gymhead">' + g.name + '</th>'; });
+      html += "</tr></thead><tbody>";
+      rows.forEach(function(r){
+        html += "<tr><th>" + r[0] + "</th>";
+        chosen.forEach(function(g){ html += "<td>" + r[1](g) + "</td>"; });
+        html += "</tr>";
+      });
+      html += "</tbody>";
+      $("compareTable").innerHTML = html;
+      $("compareSection").style.display = "block";
+      gtag('event','compare_run',{gyms:selected.join(",")});
+    }
+
+    $("compareBtn").addEventListener("click", function(){
+      renderTable();
+      $("compareSection").scrollIntoView({behavior:"smooth"});
+    });
+    $("clearBtn").addEventListener("click", function(){
+      selected = [];
+      $("compareSection").style.display = "none";
+      renderGrid();
+    });
+
+    fetch("gyms-compare.json")
+      .then(function(r){ return r.json(); })
+      .then(function(data){ GYMS = data; renderGrid(); })
+      .catch(function(){ $("loading").textContent = "Could not load gym data. Please refresh."; });
+  </script>
+</body>
+</html>

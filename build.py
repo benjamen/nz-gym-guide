@@ -68,6 +68,46 @@ def build():
     cities = load("cities")
     pts   = load("personal-trainers")
 
+    # Compact dataset for the interactive Gym Comparison Tool (/compare-gyms/).
+    # Only the national/chain gyms, trimmed to the fields the tool renders,
+    # so the client downloads a few KB instead of the full gyms.json.
+    CHAIN_SLUGS = ["les-mills", "city-fitness", "anytime-fitness", "snap-fitness",
+                   "jetts", "ymca", "f45", "classpass", "orangetheory",
+                   "contours", "9round"]
+    compare_gyms = []
+    for slug in CHAIN_SLUGS:
+        g = gym_by_slug(gyms, slug)
+        if not g:
+            continue
+        p = g.get("pricing") or {}
+        f = g.get("features") or {}
+        compare_gyms.append({
+            "slug": g["slug"],
+            "name": g["name"],
+            "tagline": g.get("tagline", ""),
+            "logo_file": g.get("logo_file"),
+            "weekly_from": p.get("weekly_from"),
+            "joining_fee": p.get("joining_fee"),
+            "contract_required": p.get("contract_required"),
+            "minimum_term": p.get("minimum_term"),
+            "open_247": f.get("open_247"),
+            "pool": f.get("pool"),
+            "group_fitness": f.get("group_fitness"),
+            "locations": g.get("locations", []),
+            "rating": g.get("rating"),
+            "review_count": g.get("review_count"),
+            "trial_offer": g.get("trial_offer") or g.get("trial_duration") or "",
+        })
+    (OUT / "compare-gyms").mkdir(parents=True, exist_ok=True)
+    (OUT / "compare-gyms" / "gyms-compare.json").write_text(
+        json.dumps(compare_gyms, ensure_ascii=False))
+    # Place the interactive comparison tool at /compare-gyms/ and drop the
+    # raw tools/gym-comparison/ copy so we don't ship a duplicate page.
+    shutil.copyfile(TOOLS / "gym-comparison" / "index.html",
+                    OUT / "compare-gyms" / "index.html")
+    if (OUT / "gym-comparison").exists():
+        shutil.rmtree(OUT / "gym-comparison")
+
     ctx = dict(site=site, gyms=gyms, cities=cities)
 
     print("Building pages...")
@@ -194,6 +234,7 @@ def build():
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("compare", "0.9", "weekly")
+    sitemap += sm_url("compare-gyms", "0.85", "monthly")
     sitemap += sm_url("free-gym-trial", "0.9", "weekly")
     sitemap += sm_url("gym-alerts", "0.7", "weekly")
     sitemap += sm_url("quiz", "0.8", "monthly")
