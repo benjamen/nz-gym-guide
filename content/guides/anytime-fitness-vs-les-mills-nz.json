@@ -4,8 +4,8 @@
   "title": "Anytime Fitness vs Les Mills NZ — Which Is Better in 2026?",
   "meta_desc": "Anytime Fitness vs Les Mills NZ compared honestly. Prices, contracts, facilities, classes, and who each gym is actually best for in 2026.",
   "intro": "Anytime Fitness and Les Mills are two of the most popular mid-range gym chains in New Zealand, and they serve distinctly different needs. Anytime Fitness is 24/7, contract-based, and equipment-focused. Les Mills is class-focused, staffed-hours, and built around its proprietary group fitness programmes. Choosing between them comes down to whether you train alone or with structure.",
-  "updated": "May 2026",
-  "reading_time": 7,
+  "updated": "June 2026",
+  "reading_time": 9,
   "sections": [
     {
       "heading": "Anytime Fitness vs Les Mills — Quick Comparison",
@@ -25,8 +25,24 @@
       }
     },
     {
-      "heading": "Price Comparison",
-      "body": "The starting prices are close — Anytime Fitness from $16.95/week vs Les Mills from $17.99/week. However, Anytime Fitness locks you in for 12 months, while Les Mills only requires 3 months. Over a 12-month period, both cost roughly the same. The key differences emerge in joining fees (both $49, but Les Mills fees are frequently waived in person) and the under-23 discount that Les Mills offers (20% off) — which Anytime Fitness does not match. If you're under 23, Les Mills is almost always the better value of the two."
+      "heading": "Price Comparison by City",
+      "body": "<p>The starting prices are close — Anytime Fitness from $16.95/week vs Les Mills from $17.99/week — but Les Mills pricing rises faster in its flagship clubs, where you're paying for premium facilities and the full class timetable. Anytime Fitness is more consistent across the country because every club follows the same franchise model. Here's a rough city-by-city picture for 2026 (always confirm at the club, as Les Mills doesn't publish prices online):</p>",
+      "table": {
+        "headers": ["City", "Anytime Fitness (from)", "Les Mills (from)"],
+        "rows": [
+          ["Auckland", "$21.95/week", "$30+/week (flagship higher)"],
+          ["Wellington", "$16.95/week", "$17.99/week"],
+          ["Christchurch", "$18.95/week", "$22+/week"]
+        ]
+      }
+    },
+    {
+      "heading": "Joining Fees & Under-23 Value",
+      "body": "<p>Both chains charge a joining fee around $49, but Les Mills frequently waives it in person or during promos. The bigger lever is the under-23 discount: Les Mills gives under-23s roughly 20% off, which Anytime Fitness does not match. For a student or young member that discount usually makes Les Mills the better value of the two despite the similar headline price. Over a full 12 months the two land close on total cost for adults — so price rarely decides this matchup; access style and classes do.</p>"
+    },
+    {
+      "heading": "Contract Terms & Cancellation",
+      "body": "<p>This is a meaningful practical difference. <strong>Anytime Fitness</strong> uses a 12-month minimum contract; because each club is an independently owned franchise, the exact notice period (usually around 30 days) and any early-exit fee vary by club, and you must cancel in writing at your home club. <strong>Les Mills</strong> has a shorter 3-month minimum term, after which you can cancel with 14 days written notice via the member portal or in person. So Les Mills is the more flexible commitment if you're unsure how long you'll stay, while Anytime locks you in for a year but rewards that with the widest 24/7 network. Both will generally consider medical or relocation waivers with documentation.</p>"
     },
     {
       "heading": "24/7 Access",
@@ -43,6 +59,10 @@
     {
       "heading": "Equipment and Facilities",
       "body": "Les Mills flagship clubs (Auckland CBD, Wellington) have excellent equipment — large functional training zones, extensive free weights, cardio equipment, pools (select clubs), saunas, and crèches. Standard Les Mills clubs outside the major cities have solid but not exceptional equipment. Anytime Fitness clubs are consistent in their equipment standard: good cardio, functional free weights, some resistance machines. They don't have pools or saunas. The premium facilities gap is wider in Auckland and Wellington than in regional cities."
+    },
+    {
+      "heading": "Atmosphere & Training Style",
+      "body": "<p>Beyond price and facilities, these two gyms simply feel different to train in, and that's often what determines whether you actually keep showing up.</p><p><strong>Anytime Fitness</strong> is quiet, functional and self-directed. Outside peak hours the clubs are calm, sometimes near-empty, which suits people who put their headphones in and work through their own programme. There's little hand-holding — no class energy, often no staff at 6am — so it rewards self-motivated trainers and can feel isolating for beginners who want guidance.</p><p><strong>Les Mills</strong> is the opposite: busy, social and coached. The class studios drive the atmosphere, with instructors, music and a roomful of people moving together. That energy is a powerful motivator for many members and makes Les Mills far more beginner-friendly, but the flagship clubs can get genuinely crowded at peak times, and you're paying for facilities you may not use if you only lift weights. If accountability and buzz keep you consistent, Les Mills wins; if you train best alone and on your own schedule, Anytime Fitness is the better fit.</p>"
     },
     {
       "heading": "Who Should Choose Anytime Fitness?",
@@ -81,6 +101,22 @@
     {
       "question": "Is Les Mills open 24 hours in NZ?",
       "answer": "No — Les Mills operates on staffed hours, typically around 5:30am–10pm on weekdays with reduced weekend hours. Anytime Fitness is the 24/7 option."
+    },
+    {
+      "q": "Which has more locations in NZ, Anytime Fitness or Les Mills?",
+      "a": "Anytime Fitness has far more — over 100 clubs nationwide plus worldwide reciprocal access — versus around 25–30 Les Mills clubs concentrated in the main cities. For regional members or frequent travellers, Anytime Fitness has much wider coverage."
+    },
+    {
+      "q": "Is Anytime Fitness or Les Mills easier to cancel?",
+      "a": "Les Mills is generally easier: a 3-month minimum then 14 days written notice. Anytime Fitness has a 12-month contract and, because each club is a franchise, the early-exit terms and notice period vary by location and must be handled at your home club."
+    },
+    {
+      "q": "Does Anytime Fitness have better equipment than Les Mills?",
+      "a": "Equipment is broadly similar, with Les Mills' flagship clubs in Auckland and Wellington having a slight edge — bigger functional zones, pools and saunas at select clubs. Anytime Fitness is very consistent across all clubs but lacks pools and saunas at most sites."
+    },
+    {
+      "q": "Which should I choose if I want group classes?",
+      "a": "Les Mills, clearly. Group fitness is its core product, with a large, well-produced timetable of BodyPump, RPM, BODYCOMBAT and more. Anytime Fitness class offerings vary widely by club and are limited or absent at many."
     }
   ]
 }

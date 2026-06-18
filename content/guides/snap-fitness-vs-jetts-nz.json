@@ -5,7 +5,7 @@
   "meta_desc": "Snap Fitness vs Jetts NZ: compare prices, locations, equipment and contracts to find the best 24/7 budget gym membership for you in 2026.",
   "intro": "For Kiwis seeking affordable gym memberships with 24/7 access, Snap Fitness and Jetts NZ are two popular options. With over 80 locations across New Zealand, these franchises offer competitive pricing and flexible contract terms. But which one offers better value for money?",
   "updated": "June 2026",
-  "reading_time": 7,
+  "reading_time": 9,
   "sections": [
     {
       "heading": "Overview of Snap Fitness and Jetts NZ",
@@ -39,7 +39,7 @@
     },
     {
       "heading": "Equipment and Facilities",
-      "body": "Both chains cover the basics — treadmills, bikes, free weights, cable machines, and strength equipment. Snap Fitness clubs are generally slightly better equipped and larger, particularly in main-city locations, and some Snap clubs offer in-house personal training. Jetts keeps it lean and functional, which is part of how it holds its lower price point. For someone who wants straightforward weights and cardio, both are more than adequate; for a broader equipment range, Snap has a slight edge."
+      "body": "<p>Both chains cover the basics well — treadmills, bikes, rowers, free weights, cable machines and resistance equipment — and for the vast majority of members either is more than adequate for a solid weights-and-cardio routine.</p><p><strong>Snap Fitness</strong> clubs are generally slightly larger and better equipped, particularly in main-city locations, with a broader spread of machines, more free-weight stations, and in-house personal training available at many clubs. If you want a wider equipment range or coaching on site, Snap has the edge.</p><p><strong>Jetts</strong> deliberately keeps clubs lean and functional — a focused free-weights area, the key cardio machines, and the essential resistance kit. That efficiency is part of how Jetts holds its lower price point, and for anyone running a straightforward programme it rarely feels limiting. Neither chain offers pools or saunas, so if those matter you'll want a full-service club like Les Mills or YMCA instead. The practical takeaway: choose Snap if equipment breadth or on-site PT matters; choose Jetts if you want the essentials done well for less.</p>"
     },
     {
       "heading": "Locations and Accessibility",
@@ -49,6 +49,32 @@
         "Both use 24/7 keyfob entry, so access doesn't depend on staffed hours",
         "Jetts is often the only 24/7 budget option in smaller regional towns"
       ]
+    },
+    {
+      "heading": "24/7 Access — Both Deliver",
+      "body": "<p>Both Snap Fitness and Jetts are built around 24/7 keyfob entry, so on round-the-clock access there's no real winner — you can train at 5am or midnight at either. The nuance is the network you can use that fob in. A <strong>Snap Fitness</strong> membership unlocks Snap clubs across NZ <em>and internationally</em>, which is a genuine plus if you travel overseas. <strong>Jetts</strong> lets you train at any Jetts in NZ and across the Trans-Tasman network. For most members training in one city, both feel identical; for international travellers, Snap's global footprint edges ahead.</p>"
+    },
+    {
+      "heading": "Locations by City",
+      "body": "<p>Both chains run 50+ NZ clubs, but they're weighted differently. Snap leans urban; Jetts spreads wider into the regions.</p>",
+      "table": {
+        "headers": ["City / Region", "Snap Fitness", "Jetts"],
+        "rows": [
+          ["Auckland", "Strong — many clubs", "Strong — many clubs"],
+          ["Wellington", "CBD + Petone", "Thorndon, Tawa, Johnsonville, Lower Hutt"],
+          ["Christchurch", "Several clubs", "Several clubs"],
+          ["Hamilton / Waikato", "Good coverage", "Good coverage"],
+          ["Regional / smaller towns", "Limited", "Often the only 24/7 option"]
+        ]
+      }
+    },
+    {
+      "heading": "Contract Terms — Both No Lock-In",
+      "body": "<p>This is where these two genuinely shine compared with Anytime Fitness or Les Mills: both typically run no-lock-in memberships. <strong>Jetts</strong> is no-lock-in on its Flexi plan with around 10–14 days notice and — uniquely among NZ budget chains — online cancellation through the app. <strong>Snap Fitness</strong> is franchise-run, so most clubs offer no-lock-in month-to-month plans (a few still use fixed 3–12 month terms), with a typical 7–14 day notice period and cancellation via the app or your home club. Net result: Jetts is the more predictable no-contract experience nationwide, while Snap's terms depend slightly on the individual franchise — always confirm before signing.</p>"
+    },
+    {
+      "heading": "Member App — Jetts Has the Edge",
+      "body": "<p>Day-to-day, the app matters more than people expect. The <strong>Jetts</strong> app is the standout: you can join, freeze, manage and even cancel your membership from your phone, plus track visits — a big reason Jetts feels so low-friction. <strong>Snap Fitness</strong> also has a member app with workout tracking, club access and account management, and it integrates with Snap's in-house training tools, but cancellation and membership changes more often route back to your home club. If self-service convenience is a priority, Jetts wins the app comparison.</p>"
     },
     {
       "heading": "Compare Gym Membership Options",
@@ -84,6 +110,18 @@
     {
       "question": "Are both Snap Fitness and Jetts open 24/7?",
       "answer": "Yes. Both use 24/7 keyfob entry across their 50+ NZ clubs, so you can train at any hour regardless of staffed reception times."
+    },
+    {
+      "q": "Which has the better app, Snap Fitness or Jetts?",
+      "a": "Jetts. The Jetts app lets you join, freeze, manage and even cancel your membership and track visits from your phone. Snap's app also handles club access, account management and workout tracking, but cancellation and membership changes more often go through your home club."
+    },
+    {
+      "q": "Do Snap Fitness and Jetts have lock-in contracts?",
+      "a": "Generally no — both typically offer no-lock-in memberships, which is a key advantage over Anytime Fitness or Les Mills. Jetts is consistently no-lock-in nationwide; Snap is franchise-run, so most clubs are month-to-month but a few still use fixed terms — always confirm before signing."
+    },
+    {
+      "q": "Snap Fitness or Jetts — which should I choose?",
+      "a": "Choose Jetts for the lowest price, genuine no-lock-in flexibility, the best app, and strong regional coverage. Choose Snap Fitness for slightly larger, better-equipped clubs, more main-city locations, in-house personal training, and global club access if you travel."
     }
   ]
 }
