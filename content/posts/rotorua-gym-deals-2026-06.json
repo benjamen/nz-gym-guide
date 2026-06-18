@@ -1,0 +1,47 @@
+{
+  "title": "Rotorua Gym Deals",
+  "short_title": "Rotorua Gyms",
+  "meta_desc": "Discover the best gym deals in Rotorua for June 2026, including discounts, free trials, and the Exercise NZ subsidy scheme for eligible members.",
+  "intro": "Rotorua's gym scene is thriving, driven by its tourism economy and outdoor culture. With various gyms to choose from, including Anytime Fitness, Contours, Crossfit Rotorua, and Snap Fitness, there's something for everyone. Contours stands out as both the cheapest and best value option, while Anytime Fitness offers a premium experience.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Gym Deals in Rotorua",
+      "body": "Several gyms in Rotorua are offering attractive deals for new members. While there aren't specific promotions listed for Anytime Fitness, Contours, Crossfit Rotorua, or Snap Fitness in Rotorua, it's essential to check with each gym for their latest offers. Nationally, gyms like Jetts, Snap Fitness, and Les Mills are providing discounts and free trial periods.",
+      "list": [
+        "Jetts: 15% Off + 4 Weeks Free",
+        "Snap Fitness: 6 Weeks Free",
+        "Les Mills: No lock-in contract with Flexi Membership"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy Scheme",
+      "body": "To be eligible, members must meet specific criteria, such as being new to the gym or not having been a member for over a year. The subsidy can significantly reduce the cost of gym memberships, making it easier for people in Rotorua to prioritize their health and wellbeing."
+    },
+    {
+      "heading": "Best Value Gyms in Rotorua",
+      "body": "For those preferring a no-contract option, Contours is also the way to go, providing flexibility for members who don't want to commit to a long-term contract."
+    },
+    {
+      "heading": "Money-Saving Tips for Joining a Gym in Rotorua",
+      "body": "When considering joining a gym in Rotorua, there are several tips to keep in mind to save money. Firstly, look for gyms that offer a free trial or guest pass to test out their facilities and services before committing. Secondly, consider the location and whether it's convenient for your daily routine.",
+      "list": [
+        "Take advantage of free trials or guest passes",
+        "Choose a gym with a convenient location",
+        "Negotiate your contract, if possible",
+        "Consider off-peak memberships for lower rates",
+        "Utilize the Exercise NZ subsidy scheme if eligible"
+      ],
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "rotorua-gym-deals-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-19",
+  "post_type": "city_deals"
+}
