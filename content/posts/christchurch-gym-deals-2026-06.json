@@ -1,0 +1,54 @@
+{
+  "title": "Christchurch Gym Deals",
+  "short_title": "Gym Deals",
+  "meta_desc": "Discover the best gym deals in Christchurch, including current joining offers and free trials, plus how to save with Exercise NZ's subsidy scheme.",
+  "intro": "Christchurch has a wide range of gyms with competitive pricing. With options like City Fitness for budget-friendly memberships and Les Mills for premium facilities, there's something for everyone. The city's flat terrain also makes cycling to the gym a convenient option.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Gym Deals in Christchurch",
+      "body": "Several gyms in Christchurch are offering special deals for new members. These include discounts on monthly fees, free trial periods, and no-lock-in contracts. For example, City Fitness is offering a month-to-month membership for $18.99/week, while Les Mills has introduced a flexi membership with no lock-in contract. Anytime Fitness provides 24/7 access to over 5,000 clubs worldwide.",
+      "list": [
+        "Jetts: 15% off + 4 weeks free",
+        "Snap Fitness: 6 weeks free",
+        "Les Mills: Flexi Membership with no lock-in contract",
+        "City Fitness: $18.99/week month-to-month membership",
+        "Anytime Fitness: 24/7 access to over 5,000 clubs worldwide"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy Scheme",
+      "body": "To be eligible, members must meet certain criteria, such as being a new member or having not been active in a gym for over a year. The subsidy can be used at participating gyms, including some of the major chains in Christchurch."
+    },
+    {
+      "heading": "Best Value Gyms in Christchurch",
+      "body": "Based on current prices and offerings, City Fitness stands out as the best value gym in Christchurch. With a month-to-month membership option for $18.99/week, it provides an affordable and flexible way to stay active. Les Mills, on the other hand, is the premium pick for those looking for high-end facilities and services.",
+      "list": [
+        "City Fitness: Best value for budget-friendly memberships",
+        "Les Mills: Premium pick for high-end facilities and services",
+        "Anytime Fitness: No-contract option for flexibility"
+      ]
+    },
+    {
+      "heading": "Money-Saving Tips for Joining a Gym",
+      "body": "When considering joining a gym in Christchurch, there are several ways to save money. Firstly, look for gyms that offer month-to-month memberships or no-lock-in contracts to avoid being tied into a long-term commitment. Secondly, take advantage of free trial periods to test out a gym before committing. Thirdly, consider off-peak membership options, which can be cheaper than full-access memberships. Fourthly, check if your employer or health insurance provider offers any gym membership discounts. Lastly, think about exercising outdoors or at home to supplement your gym routine and reduce costs.",
+      "list": [
+        "Choose month-to-month or no-lock-in contract options",
+        "Use free trial periods to test out gyms",
+        "Consider off-peak membership options",
+        "Check for employer or health insurance discounts",
+        "Supplement with outdoor or home exercise"
+      ],
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "christchurch-gym-deals-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-20",
+  "post_type": "city_deals"
+}

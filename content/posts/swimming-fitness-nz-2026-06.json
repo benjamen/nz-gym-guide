@@ -1,0 +1,80 @@
+{
+  "title": "Swimming Fitness NZ",
+  "short_title": "Swim Fit",
+  "meta_desc": "Discover the best pools and gym access for swimming fitness in NZ, compare costs and workout routines with our guide.",
+  "intro": "Swimming is a low-impact exercise ideal for all fitness levels, and many NZ gyms offer pool access. In this guide, we'll explore the best pools and gym options, including YMCA, Les Mills, and council pools. Whether you're a beginner or seasoned swimmer, we'll provide you with practical tips and workout routines to get you started.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Benefits of Swimming for Fitness",
+      "body": "Swimming is an excellent way to improve cardiovascular health, build endurance, and increase strength. It's also low-impact, making it an ideal exercise for people with injuries or chronic pain. In NZ, many gyms and pools offer swimming programmes and classes, catering to different fitness levels and goals. Some popular options include City Fitness, Les Mills, and the YMCA.",
+      "list": [
+        "Improved cardiovascular health",
+        "Increased endurance and strength",
+        "Low-impact, reducing risk of injury",
+        "Variety of programmes and classes available"
+      ]
+    },
+    {
+      "heading": "NZ Gym Chains with Pool Access",
+      "body": "Several NZ gym chains offer pool access, including City Fitness, Les Mills, and Jetts. These gyms typically have a range of swimming facilities, from lap pools to recreational pools and hydrotherapy pools. Some gyms also offer swimming lessons, aqua aerobics, and other water-based classes. When choosing a gym with pool access, consider the location, facilities, and cost.",
+      "table": {
+        "headers": [
+          "Gym Chain",
+          "Pool Facilities",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "Lap pool, recreational pool",
+            "$20-$30 per week"
+          ],
+          [
+            "Les Mills",
+            "Lap pool, hydrotherapy pool",
+            "$30-$40 per week"
+          ],
+          [
+            "Jetts",
+            "Recreational pool",
+            "$15-$25 per week"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "YMCA and Council Pools",
+      "body": "The YMCA and council pools are also great options for swimming fitness in NZ. These pools often have more affordable membership options and a range of swimming programmes, including lessons and aqua aerobics. Additionally, many council pools offer casual swimming sessions and water-based activities, making them a great choice for those who prefer a more relaxed atmosphere.",
+      "list": [
+        "More affordable membership options",
+        "Variety of swimming programmes and classes",
+        "Casual swimming sessions available"
+      ]
+    },
+    {
+      "heading": "Swimming Workout Routines",
+      "body": "To get the most out of your swimming workouts, it's essential to have a structured routine. Start with warm-up laps, followed by a mix of cardio and strength exercises. You can also incorporate swimming drills, such as the flutter kick and arm circles, to improve your technique. For beginners, consider starting with shorter sessions and gradually increasing the duration and intensity.",
+      "list": [
+        "Warm-up laps (5-10 minutes)",
+        "Cardio exercises (20-30 minutes)",
+        "Strength exercises (10-20 minutes)",
+        "Cool-down stretches (5-10 minutes)"
+      ]
+    },
+    {
+      "heading": "Getting Started with Swimming Fitness",
+      "body": "To get started with swimming fitness in NZ, consider the following tips: find a gym or pool that suits your needs and budget, invest in a good pair of goggles and swimwear, and start with shorter sessions to build up your endurance. Don't forget to check out Exercise NZ's subsidised gym scheme, which offers 40-70% off gym memberships for eligible members.",
+      "cta": {
+        "text": "Compare NZ gyms and find the best deal for you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "swimming-fitness-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-20",
+  "post_type": "exercise_tips"
+}
