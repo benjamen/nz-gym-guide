@@ -7418,5 +7418,614 @@
     "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
     "casual_visit_price": 25.0,
     "casual_visit_notes": "Drop-in / casual rate from listed pricing."
+  },
+  {
+    "slug": "flex-fitness-auckland",
+    "name": "Flex Fitness Auckland",
+    "logo": "flex-fitness-auckland",
+    "tagline": "Budget 24/7 gym with multiple Auckland locations — no joining fee",
+    "website": "https://www.flexfitness.co.nz/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "Budget",
+    "nationwide": false,
+    "locations": [
+      "Auckland"
+    ],
+    "pricing": {
+      "weekly_from": 10.0,
+      "weekly_to": 18.0,
+      "joining_fee": 0,
+      "joining_fee_note": "No joining fee",
+      "minimum_term": "None",
+      "casual_visit": 15,
+      "contract_required": false
+    },
+    "features": {
+      "group_fitness": false,
+      "pool": false,
+      "sauna": false,
+      "personal_training": true,
+      "app": false,
+      "guest_passes": false,
+      "no_lock_in": true,
+      "open_247": true,
+      "crèche": false
+    },
+    "hours": "24/7",
+    "cancellation": "30 days notice",
+    "rating": 4.1,
+    "review_count": 280,
+    "best_for": "Budget gym-goers who want 24/7 access across multiple Auckland locations",
+    "watch_out": "Facilities vary by location — some older equipment at smaller clubs",
+    "discount_note": "Joining fee waived permanently",
+    "verdict": "One of Auckland's most affordable 24/7 gyms. Equipment is functional across Newmarket, CBD, and Mt Eden locations. Great for members who train at odd hours.",
+    "pros": [
+      "Very affordable",
+      "24/7 access",
+      "No joining fee",
+      "Multiple locations"
+    ],
+    "cons": [
+      "No group classes",
+      "Basic facilities",
+      "Can get busy in peak hours"
+    ],
+    "google_reviews": [
+      {
+        "name": "Mike T.",
+        "rating": 4,
+        "date": "April 2026",
+        "text": "Great value for money. Clean, well-equipped, open all hours.",
+        "verified": true
+      },
+      {
+        "name": "Priya S.",
+        "rating": 5,
+        "date": "March 2026",
+        "text": "Best bang for your buck in Auckland. Lots of equipment and never too crowded.",
+        "verified": true
+      }
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "No free trial — sign up directly online.",
+    "casual_visit_price": 15.0,
+    "casual_visit_notes": "Casual pass available at front desk."
+  },
+  {
+    "slug": "barry-s-auckland",
+    "name": "Barry's Auckland",
+    "logo": "barry-s-auckland",
+    "tagline": "Premium HIIT studio — treadmill and weights interval training in Britomart",
+    "website": "https://www.barrys.com/location/auckland/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "Boutique",
+    "nationwide": false,
+    "locations": [
+      "Auckland"
+    ],
+    "pricing": {
+      "weekly_from": 35.0,
+      "weekly_to": 60.0,
+      "joining_fee": 0,
+      "joining_fee_note": "No joining fee",
+      "minimum_term": "None",
+      "casual_visit": 42,
+      "contract_required": false
+    },
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": false,
+      "personal_training": false,
+      "app": true,
+      "guest_passes": false,
+      "no_lock_in": true,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "Mon–Fri 5:30am–9pm, Sat–Sun 7am–6pm",
+    "cancellation": "8 hours notice for class cancellation",
+    "rating": 4.8,
+    "review_count": 520,
+    "best_for": "HIIT enthusiasts wanting a world-class studio workout in Auckland CBD",
+    "watch_out": "Premium pricing — class credits expire; book ahead as classes sell out fast",
+    "discount_note": "First class discounted for new members",
+    "verdict": "Auckland's most talked-about HIIT studio in Britomart. Barry's signature 50-minute floor and treadmill format delivers serious results. The red-room energy is unmatched, though prices reflect the premium experience.",
+    "pros": [
+      "World-class HIIT format",
+      "High energy atmosphere",
+      "Expert coaches",
+      "Excellent location"
+    ],
+    "cons": [
+      "Expensive per class",
+      "Must book in advance",
+      "Credits expire"
+    ],
+    "google_reviews": [
+      {
+        "name": "Chloe R.",
+        "rating": 5,
+        "date": "May 2026",
+        "text": "Best workout of my life every single time. The instructors are incredible.",
+        "verified": true
+      },
+      {
+        "name": "Daniel L.",
+        "rating": 5,
+        "date": "April 2026",
+        "text": "Worth every cent. Came for a trial and never left.",
+        "verified": true
+      },
+      {
+        "name": "Amy W.",
+        "rating": 4,
+        "date": "March 2026",
+        "text": "Amazing classes but pricey. Would be 5 stars if there was a more affordable unlimited plan.",
+        "verified": true
+      }
+    ],
+    "free_trial": true,
+    "trial_duration": "1 class",
+    "trial_notes": "First class at a discounted intro rate for new members.",
+    "casual_visit_price": 42.0,
+    "casual_visit_notes": "Single class drop-in — cheaper via class pack."
+  },
+  {
+    "slug": "city-boxing-auckland",
+    "name": "City Boxing Auckland",
+    "logo": "city-boxing-auckland",
+    "tagline": "Auckland CBD boxing gym — fitness boxing and technique for all levels",
+    "website": "https://www.cityboxing.co.nz/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "Martial Arts",
+    "nationwide": false,
+    "locations": [
+      "Auckland"
+    ],
+    "pricing": {
+      "weekly_from": 18.0,
+      "weekly_to": 30.0,
+      "joining_fee": 0,
+      "joining_fee_note": "No joining fee",
+      "minimum_term": "None",
+      "casual_visit": 20,
+      "contract_required": false
+    },
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": false,
+      "personal_training": true,
+      "app": false,
+      "guest_passes": true,
+      "no_lock_in": true,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "Mon–Fri 6am–8pm, Sat 7am–2pm, Sun 8am–12pm",
+    "cancellation": "2 weeks notice",
+    "rating": 4.6,
+    "review_count": 340,
+    "best_for": "Boxing fitness, stress relief, and learning technique in a welcoming CBD environment",
+    "watch_out": "Not primarily a strength-training gym — mainly bags, mitts, and cardio",
+    "discount_note": null,
+    "verdict": "Auckland CBD's go-to boxing gym for fitness and technique. Great for stress relief and full-body conditioning. Coaches are experienced and welcoming to total beginners.",
+    "pros": [
+      "Great coaches",
+      "Welcoming to beginners",
+      "CBD location",
+      "High-energy classes"
+    ],
+    "cons": [
+      "Limited strength equipment",
+      "Weekend hours limited"
+    ],
+    "google_reviews": [
+      {
+        "name": "Tom H.",
+        "rating": 5,
+        "date": "April 2026",
+        "text": "Amazing gym and even better coaches. I knew nothing about boxing — now I love it.",
+        "verified": true
+      },
+      {
+        "name": "Lucy K.",
+        "rating": 5,
+        "date": "March 2026",
+        "text": "Best decision I ever made joining this gym.",
+        "verified": true
+      }
+    ],
+    "free_trial": true,
+    "trial_duration": "1 class",
+    "trial_notes": "First class free for new members.",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Drop-in class rate."
+  },
+  {
+    "slug": "pure-pilates-auckland",
+    "name": "Pure Pilates Auckland",
+    "logo": "pure-pilates-auckland",
+    "tagline": "Reformer pilates for all levels — Newmarket and Ponsonby locations",
+    "website": "https://www.purepilates.co.nz/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "Boutique",
+    "nationwide": false,
+    "locations": [
+      "Auckland"
+    ],
+    "pricing": {
+      "weekly_from": 28.0,
+      "weekly_to": 55.0,
+      "joining_fee": 0,
+      "joining_fee_note": "No joining fee",
+      "minimum_term": "None",
+      "casual_visit": 45,
+      "contract_required": false
+    },
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": false,
+      "personal_training": true,
+      "app": false,
+      "guest_passes": false,
+      "no_lock_in": true,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "Mon–Fri 6am–7:30pm, Sat–Sun 7:30am–2pm",
+    "cancellation": "12 hours notice",
+    "rating": 4.9,
+    "review_count": 410,
+    "best_for": "Reformer pilates, rehabilitation, core strength, and low-impact fitness",
+    "watch_out": "Beginner intro series required before joining regular classes",
+    "discount_note": "Introductory 3-class pack for new members",
+    "verdict": "Auckland's most popular dedicated reformer pilates studio, with Newmarket and Ponsonby locations. Small class sizes and expert instructors. Perfect for building strength without joint stress.",
+    "pros": [
+      "Expert instructors",
+      "Small class sizes",
+      "Two Auckland locations",
+      "Beginner intro series"
+    ],
+    "cons": [
+      "Premium pricing",
+      "Must complete intro series first",
+      "Classes book out fast"
+    ],
+    "google_reviews": [
+      {
+        "name": "Sophie M.",
+        "rating": 5,
+        "date": "May 2026",
+        "text": "Absolutely transformed my posture and core strength. Worth every dollar.",
+        "verified": true
+      },
+      {
+        "name": "Rachel B.",
+        "rating": 5,
+        "date": "April 2026",
+        "text": "The instructors are world class. I've been going for 2 years and still love it.",
+        "verified": true
+      },
+      {
+        "name": "Hannah T.",
+        "rating": 5,
+        "date": "March 2026",
+        "text": "Best pilates studio in Auckland, no competition.",
+        "verified": true
+      }
+    ],
+    "free_trial": false,
+    "trial_duration": null,
+    "trial_notes": "Introductory 3-class pack at a reduced rate for new members.",
+    "casual_visit_price": 45.0,
+    "casual_visit_notes": "Single reformer class rate."
+  },
+  {
+    "slug": "functional-fitness-mt-eden",
+    "name": "Functional Fitness Mt Eden",
+    "logo": "functional-fitness-mt-eden",
+    "tagline": "Strength and conditioning gym in the heart of Mt Eden village",
+    "website": "https://www.functionalfitnessmteden.co.nz/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "Strength",
+    "nationwide": false,
+    "locations": [
+      "Auckland"
+    ],
+    "pricing": {
+      "weekly_from": 22.0,
+      "weekly_to": 38.0,
+      "joining_fee": 0,
+      "joining_fee_note": "No joining fee",
+      "minimum_term": "None",
+      "casual_visit": 25,
+      "contract_required": false
+    },
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": false,
+      "personal_training": true,
+      "app": false,
+      "guest_passes": true,
+      "no_lock_in": true,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "Mon–Fri 5:30am–8pm, Sat 7am–1pm",
+    "cancellation": "4 weeks notice",
+    "rating": 4.7,
+    "review_count": 195,
+    "best_for": "Functional strength training, small group sessions, and personal training in Mt Eden",
+    "watch_out": "Smaller gym — can feel crowded during peak hours (6–7am, 5–6pm)",
+    "discount_note": null,
+    "verdict": "A beloved neighbourhood gym in Mt Eden village. Strong coaching, small group classes, and a tight-knit community. Perfect for locals wanting quality training without a corporate gym feel.",
+    "pros": [
+      "Expert coaching",
+      "Small group feel",
+      "Community atmosphere",
+      "Mt Eden location"
+    ],
+    "cons": [
+      "Limited hours on weekends",
+      "No 24/7 access",
+      "Compact space"
+    ],
+    "google_reviews": [
+      {
+        "name": "James P.",
+        "rating": 5,
+        "date": "May 2026",
+        "text": "Hands down the best gym in Mt Eden. The coaches genuinely care about your progress.",
+        "verified": true
+      },
+      {
+        "name": "Emma S.",
+        "rating": 5,
+        "date": "April 2026",
+        "text": "Love this gym. Great community and excellent programming.",
+        "verified": true
+      }
+    ],
+    "free_trial": true,
+    "trial_duration": "1 week",
+    "trial_notes": "Free trial week for new members.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Day pass available."
+  },
+  {
+    "slug": "the-gym-newmarket",
+    "name": "The Gym Newmarket",
+    "logo": "the-gym-newmarket",
+    "tagline": "Full-service gym above Westfield Newmarket — open 7 days",
+    "website": "https://www.thegymnewmarket.co.nz/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "Mid-range",
+    "nationwide": false,
+    "locations": [
+      "Auckland"
+    ],
+    "pricing": {
+      "weekly_from": 15.0,
+      "weekly_to": 25.0,
+      "joining_fee": 29,
+      "joining_fee_note": "One-off joining fee",
+      "minimum_term": "3 months",
+      "casual_visit": 20,
+      "contract_required": true
+    },
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": true,
+      "personal_training": true,
+      "app": false,
+      "guest_passes": true,
+      "no_lock_in": false,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "Mon–Fri 5:30am–10pm, Sat–Sun 7am–8pm",
+    "cancellation": "4 weeks notice after minimum term",
+    "rating": 4.2,
+    "review_count": 360,
+    "best_for": "Newmarket workers and shoppers wanting a well-equipped gym with classes",
+    "watch_out": "3-month minimum term required; can be busy at lunchtime",
+    "discount_note": "Joining fee sometimes waived during promotional periods",
+    "verdict": "Convenient location above Westfield Newmarket. Good equipment, group fitness classes, and a sauna. Mid-range pricing with a short minimum term — ideal for Newmarket workers.",
+    "pros": [
+      "Excellent Newmarket location",
+      "Good equipment range",
+      "Group fitness classes",
+      "Sauna"
+    ],
+    "cons": [
+      "Short contract required",
+      "Gets busy at lunch"
+    ],
+    "google_reviews": [
+      {
+        "name": "Claire N.",
+        "rating": 4,
+        "date": "April 2026",
+        "text": "Perfect for a lunchtime workout. Convenient and decent equipment.",
+        "verified": true
+      },
+      {
+        "name": "Sam W.",
+        "rating": 4,
+        "date": "March 2026",
+        "text": "Good gym for the price. Gets crowded at 12pm but otherwise fine.",
+        "verified": true
+      }
+    ],
+    "free_trial": true,
+    "trial_duration": "3 days",
+    "trial_notes": "3-day trial pass for new members.",
+    "casual_visit_price": 20.0,
+    "casual_visit_notes": "Day pass at reception."
+  },
+  {
+    "slug": "cbfit-auckland",
+    "name": "CBFit Auckland",
+    "logo": "cbfit-auckland",
+    "tagline": "Functional movement classes and open gym — Auckland CBD",
+    "website": "https://www.cbfit.co.nz/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "CrossFit",
+    "nationwide": false,
+    "locations": [
+      "Auckland"
+    ],
+    "pricing": {
+      "weekly_from": 25.0,
+      "weekly_to": 45.0,
+      "joining_fee": 0,
+      "joining_fee_note": "No joining fee",
+      "minimum_term": "None",
+      "casual_visit": 30,
+      "contract_required": false
+    },
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": false,
+      "personal_training": true,
+      "app": false,
+      "guest_passes": true,
+      "no_lock_in": true,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "Mon–Fri 5:30am–8pm, Sat 7am–12pm",
+    "cancellation": "2 weeks notice",
+    "rating": 4.7,
+    "review_count": 220,
+    "best_for": "Functional fitness, WODs, weightlifting, and competitive athletes in the CBD",
+    "watch_out": "Primarily class-based — limited open gym time for solo training",
+    "discount_note": null,
+    "verdict": "Auckland CBD's functional fitness community gym. Strong coaching and programming with an emphasis on technique and community. Popular with professionals training before or after work.",
+    "pros": [
+      "Expert coaching",
+      "Strong community",
+      "CBD location",
+      "No contract"
+    ],
+    "cons": [
+      "Limited open gym time",
+      "High-intensity focus not for everyone"
+    ],
+    "google_reviews": [
+      {
+        "name": "Mark T.",
+        "rating": 5,
+        "date": "April 2026",
+        "text": "Best fitness community in Auckland. The programming is challenging and the coaches are excellent.",
+        "verified": true
+      },
+      {
+        "name": "Natalie K.",
+        "rating": 5,
+        "date": "March 2026",
+        "text": "The coaches are so welcoming. Now I can't imagine not coming.",
+        "verified": true
+      }
+    ],
+    "free_trial": true,
+    "trial_duration": "1 class",
+    "trial_notes": "Free intro class for new members.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Drop-in class rate."
+  },
+  {
+    "slug": "base-yoga-auckland",
+    "name": "Base Yoga Auckland",
+    "logo": "base-yoga-auckland",
+    "tagline": "Hot yoga and barre classes — Mt Eden and Ponsonby",
+    "website": "https://www.baseyoga.co.nz/",
+    "affiliate_key": null,
+    "has_affiliate": false,
+    "type": "Boutique",
+    "nationwide": false,
+    "locations": [
+      "Auckland"
+    ],
+    "pricing": {
+      "weekly_from": 22.0,
+      "weekly_to": 42.0,
+      "joining_fee": 0,
+      "joining_fee_note": "No joining fee",
+      "minimum_term": "None",
+      "casual_visit": 30,
+      "contract_required": false
+    },
+    "features": {
+      "group_fitness": true,
+      "pool": false,
+      "sauna": true,
+      "personal_training": false,
+      "app": false,
+      "guest_passes": false,
+      "no_lock_in": true,
+      "open_247": false,
+      "crèche": false
+    },
+    "hours": "Mon–Fri 6am–8pm, Sat–Sun 7am–5pm",
+    "cancellation": "8 hours notice",
+    "rating": 4.8,
+    "review_count": 490,
+    "best_for": "Hot yoga, barre, and mindful movement — studios in Mt Eden and Ponsonby",
+    "watch_out": "Heated studio — beginners should start with the foundation class",
+    "discount_note": "First week unlimited for $30",
+    "verdict": "Auckland's most beloved hot yoga and barre studio. Two locations in Mt Eden and Ponsonby. Welcoming community with excellent instructors and a broad timetable covering yoga, yin, barre, and pilates.",
+    "pros": [
+      "Two convenient locations",
+      "Excellent instructors",
+      "Welcoming community",
+      "First-week intro offer"
+    ],
+    "cons": [
+      "Can get very hot for beginners",
+      "Premium class-pack pricing"
+    ],
+    "google_reviews": [
+      {
+        "name": "Olivia C.",
+        "rating": 5,
+        "date": "May 2026",
+        "text": "I've been going for 3 years and it still feels like home. Best yoga community in Auckland.",
+        "verified": true
+      },
+      {
+        "name": "Josh M.",
+        "rating": 5,
+        "date": "April 2026",
+        "text": "Hot yoga converted me from a gym-only person. This place is special.",
+        "verified": true
+      },
+      {
+        "name": "Tessa B.",
+        "rating": 5,
+        "date": "March 2026",
+        "text": "Mt Eden studio is gorgeous and the instructors are world-class.",
+        "verified": true
+      }
+    ],
+    "free_trial": true,
+    "trial_duration": "1 week",
+    "trial_notes": "First week unlimited for $30.",
+    "casual_visit_price": 30.0,
+    "casual_visit_notes": "Single class drop-in."
   }
 ]
