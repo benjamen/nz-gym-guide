@@ -1,0 +1,48 @@
+{
+  "title": "Palmy Gym Deals",
+  "short_title": "Gym Deals",
+  "meta_desc": "Discover the best gym deals in Palmerston North, including current joining offers, free trials, and the Exercise NZ subsidy scheme for eligible members.",
+  "intro": "Palmerston North has a solid gym scene with good value memberships and a growing boutique scene. The city's gyms cater to both Massey University students and the wider Manawatū community. With various deals and offers available, finding the right gym to suit your needs and budget is easier than ever.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Gym Deals in Palmerston North",
+      "body": "Several gyms in Palmerston North are offering attractive deals to new members. These include Snap Fitness's 6 weeks free offer and other national chains' promotions. Additionally, the Exercise NZ subsidy scheme provides 40-70% off gym memberships for eligible members, which can be a significant cost-saving opportunity.",
+      "list": [
+        "Snap Fitness: 6 weeks free",
+        "Jetts: 15% off + 4 weeks free",
+        "Exercise NZ subsidy: 40-70% off for eligible members"
+      ]
+    },
+    {
+      "heading": "Best Value Gyms in Palmerston North",
+      "body": "When it comes to value for money, some gyms stand out from the rest. Snap Fitness is currently the cheapest option, while also offering the best value. Anytime Fitness is the premium pick for those seeking a high-end experience. Contours is a great choice for those who prefer a no-contract option.",
+      "list": [
+        "Snap Fitness: cheapest and best value",
+        "Anytime Fitness: premium pick",
+        "Contours: no-contract option"
+      ]
+    },
+    {
+      "heading": "Money-Saving Tips for Joining a Gym",
+      "body": "To make the most of your gym membership, consider the following tips. Firstly, take advantage of the Exercise NZ subsidy scheme if you're eligible. Secondly, look for gyms that offer flexible contract options or no contracts at all. Thirdly, negotiate with the gym to see if they can offer any discounts. Fourthly, consider joining with a friend to split the cost of a premium membership. Lastly, think about your fitness goals and choose a gym that aligns with them, to ensure you get the most value out of your membership.",
+      "list": [
+        "Use the Exercise NZ subsidy scheme if eligible",
+        "Choose a gym with flexible contract options",
+        "Negotiate with the gym for discounts",
+        "Join with a friend to split costs",
+        "Align your gym choice with your fitness goals"
+      ],
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "palmerston-north-gym-deals-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-21",
+  "post_type": "city_deals"
+}
