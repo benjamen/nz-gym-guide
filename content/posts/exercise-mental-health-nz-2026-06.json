@@ -1,0 +1,53 @@
+{
+  "title": "Exercise & Mental Health",
+  "short_title": "Mental Health",
+  "meta_desc": "Discover how exercise reduces anxiety and depression in NZ. Learn about NZ mental health stats, gym formats, and resources to improve your wellbeing.",
+  "intro": "Regular exercise is a proven way to reduce anxiety and depression. New Zealand has a significant mental health issue, with one in five Kiwis experiencing mental illness each year. Research shows that physical activity can have a positive impact on mental wellbeing.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ Mental Health Statistics",
+      "body": "According to the Ministry of Health, approximately 792,000 New Zealanders experienced a mental health issue in 2020. The most common issues were anxiety and depression. The colour of someone's mental health can change rapidly, and it is essential to have the right resources and support. Exercise NZ's subsidised gym scheme offers 40-70% off gym memberships, making it more accessible for Kiwis to get moving and improve their mental wellbeing.",
+      "list": [
+        "1 in 5 Kiwis experience mental illness each year",
+        "Anxiety and depression are the most common issues"
+      ]
+    },
+    {
+      "heading": "The Science Behind Exercise and Mental Health",
+      "body": "The World Health Organisation recommends at least 150 minutes of moderate-intensity aerobic physical activity or 75 minutes of vigorous-intensity aerobic physical activity per week. It is essential to find an exercise programme that suits your lifestyle and preferences to ensure long-term adherence."
+    },
+    {
+      "heading": "Gym Formats That Help Most",
+      "body": "Some gym formats are more effective than others when it comes to improving mental health. Group fitness classes, such as spin classes and boot camps, provide a sense of community and accountability, which can be particularly beneficial for those struggling with mental health issues. Personal training sessions can also be helpful, as they provide one-on-one support and guidance.",
+      "list": [
+        "Group fitness classes",
+        "Personal training sessions",
+        "Yoga and Pilates"
+      ]
+    },
+    {
+      "heading": "NZ Resources and Next Steps",
+      "body": "If you are struggling with mental health issues, it is essential to seek help from a qualified healthcare professional. There are also many resources available in New Zealand, such as the Mental Health Foundation and the Exercise NZ organisation. Exercise NZ's subsidised gym scheme can help make gym memberships more affordable, with discounts of 40-70% off.",
+      "cta": {
+        "text": "Take our quiz to find the best gym for you",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion and Call to Action",
+      "body": "Regular exercise is a proven way to reduce anxiety and depression in New Zealand. By finding a gym format that suits your lifestyle and preferences, and seeking help from qualified healthcare professionals, you can take the first steps towards improving your mental wellbeing. Compare gyms and prices on our website to find the best option for you.",
+      "cta": {
+        "text": "Compare gyms and prices now",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-mental-health-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-22",
+  "post_type": "health_info"
+}
