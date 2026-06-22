@@ -1,0 +1,66 @@
+{
+  "title": "YMCA NZ Deals",
+  "short_title": "YMCA NZ",
+  "meta_desc": "Get the latest YMCA NZ deals and promotions for June 2026. Save with sliding scale membership and Exercise NZ subsidy. Compare with other gyms.",
+  "intro": "YMCA NZ offers a range of deals and promotions for community-focused gym-goers. With sliding scale membership available, you can enjoy pool, gym, and group classes at an affordable price. In this article, we'll cover how to claim current promotions, the best time to join, and tips for getting the best deal.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Deals and Promotions",
+      "body": "YMCA NZ currently offers a sliding scale membership, which means you can pay a price that suits your budget. This membership includes access to the pool, gym, and group classes. To claim this promotion, simply visit the YMCA NZ website or visit your local YMCA centre. You can also check if you're eligible for the Exercise NZ subsidy, which offers 40-70% off for new or inactive members.",
+      "list": [
+        "Sliding scale membership available",
+        "Pool, gym, and group classes included",
+        "Exercise NZ subsidy available for eligible members"
+      ]
+    },
+    {
+      "heading": "Best Time to Join",
+      "body": "It's also worth considering joining during the off-peak season (usually October to March), as some gyms may offer additional promotions or discounts during this time."
+    },
+    {
+      "heading": "Comparison with Exercise NZ Subsidy",
+      "body": "The Exercise NZ subsidy offers 40-70% off for new or inactive members, which can be a significant saving. However, the YMCA NZ sliding scale membership may still be a more affordable option, depending on your individual circumstances. It's worth comparing the two options and choosing the one that best suits your needs and budget.",
+      "table": {
+        "headers": [
+          "Option",
+          "Price",
+          "Discount"
+        ],
+        "rows": [
+          [
+            "YMCA NZ Sliding Scale Membership",
+            "$17.50-$26.00/week",
+            "No discount"
+          ],
+          [
+            "Exercise NZ Subsidy",
+            "40-70% off",
+            "40-70% off"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips for Getting the Best Deal",
+      "body": "To get the best deal at YMCA NZ, follow these tips: ",
+      "list": [
+        "Check if you're eligible for the Exercise NZ subsidy",
+        "Compare prices and services with other gyms",
+        "Consider joining during the off-peak season",
+        "Take advantage of the sliding scale membership",
+        "Ask about any additional promotions or discounts"
+      ],
+      "cta": {
+        "text": "View YMCA membership prices →",
+        "url": "https://www.ymca.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "ymca-deals-nz-june-2026",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-23",
+  "post_type": "chain_deals"
+}
