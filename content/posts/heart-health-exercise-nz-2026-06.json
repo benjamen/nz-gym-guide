@@ -1,0 +1,44 @@
+{
+  "title": "Heart Health NZ",
+  "short_title": "Heart Health",
+  "meta_desc": "Learn how exercise impacts heart health in NZ, including cardio training, target heart rate zones, and gym options to reduce heart disease risk.",
+  "intro": "Heart disease is a leading cause of death in New Zealand, with the Ministry of Health stating that cardiovascular disease accounts for over 30% of all deaths. Regular exercise, particularly cardio training, is a key factor in maintaining a healthy heart. By understanding how exercise impacts heart health, New Zealanders can take practical steps to reduce their risk of heart disease.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ Heart Disease Statistics",
+      "body": "According to the New Zealand Ministry of Health, coronary heart disease is a major cause of morbidity and mortality in this country. It is estimated that one in twenty New Zealanders have cardiovascular disease, with Māori and Pacific peoples being disproportionately affected. The good news is that regular physical activity can significantly reduce the risk of developing heart disease.",
+      "list": [
+        "30% of all deaths in NZ are due to cardiovascular disease",
+        "1 in 20 New Zealanders have cardiovascular disease"
+      ]
+    },
+    {
+      "heading": "Cardio Training for Heart Health",
+      "body": "Target heart rate zones are also an important consideration when engaging in cardio training. The ideal target heart rate zone for cardio exercise is between 50-85% of an individual's maximum heart rate. This zone is typically achieved through moderate-intensity exercise, such as brisk walking or cycling."
+    },
+    {
+      "heading": "Gym Options in NZ",
+      "body": "Exercise NZ's subsidised gym scheme is also a great option for those looking to join a gym. This scheme offers discounts of 40-70% off gym memberships for eligible individuals, making it more accessible to get regular exercise and improve heart health.",
+      "cta": {
+        "text": "Find a gym near you",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Taking Action",
+      "body": "Remember, every bit counts, and making small changes to your lifestyle can have a significant impact on your overall heart health. By understanding the importance of cardio training and taking action, you can reduce your risk of heart disease and improve your overall wellbeing.",
+      "cta": {
+        "text": "Take the first step towards a healthier heart",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "heart-health-exercise-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-25",
+  "post_type": "health_info"
+}
