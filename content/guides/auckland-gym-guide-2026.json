@@ -2,17 +2,25 @@
   "slug": "auckland-gym-guide-2026",
   "short_title": "Auckland Gyms",
   "title": "Best Gyms in Auckland 2026 — City-by-City Guide with Prices",
-  "meta_desc": "Find the best Auckland gyms by suburb with prices from $15/week. Compare gym memberships",
-  "intro": "Aucklanders have plenty of gym options to choose from, with prices ranging from $15 to over $50 per week. With so many choices, it can be hard to decide which one is best for you. This guide will help you navigate the best gyms in Auckland by suburb, including commuter gyms and CBD options.",
+  "meta_desc": "Find the best gyms in Auckland with our city guide, comparing prices and contract terms from $14.95/week",
+  "intro": "Aucklanders have numerous gym options, with prices ranging from $14.95 to over $50 per week. With contract terms varying from 6 to 24 months, it's essential to compare prices and services. This guide provides an overview of the best gyms in Auckland, covering prices, contract terms, and locations.",
   "updated": "June 2026",
-  "reading_time": 7,
+  "reading_time": 8,
   "sections": [
     {
-      "heading": "Gym Options by Suburb",
-      "body": "Auckland has a wide range of gyms across different suburbs. Some popular options include Snap Fitness in the CBD, Anytime Fitness in Newmarket, and Jetts in Takapuna. These gyms offer a range of equipment and classes, with prices varying depending on the location and membership type."
+      "heading": "Commuter Gyms in Auckland",
+      "body": "For those who work in the city, a commuter gym can be a convenient option. Companies like CityFitness and Jetts offer 24/7 access, allowing members to fit in a workout before or after work."
     },
     {
-      "heading": "Price Comparison",
+      "heading": "Gyms in the Auckland CBD",
+      "list": [
+        "Les Mills Auckland City: $34.95/week, 12-month contract",
+        "CityFitness Auckland CBD: $24.95/week, 6-month contract",
+        "Jetts Auckland CBD: $14.95/week, no contract"
+      ]
+    },
+    {
+      "heading": "Auckland Gym Price Comparison",
       "table": {
         "headers": [
           "Gym",
@@ -21,62 +29,54 @@
         ],
         "rows": [
           [
-            "Snap Fitness",
-            "$15.95",
-            "Month-to-month"
-          ],
-          [
-            "Anytime Fitness",
+            "CityFitness",
             "$24.95",
-            "12-month contract"
+            "6-24 months"
           ],
           [
             "Jetts",
-            "$19.95",
-            "Month-to-month"
+            "$14.95",
+            "no contract"
           ],
           [
             "Les Mills",
             "$34.95",
-            "12-month contract"
+            "12 months"
           ],
           [
-            "CityFitness",
+            "Anytime Fitness",
             "$29.95",
-            "6-month contract"
+            "12 months"
+          ],
+          [
+            "Snap Fitness",
+            "$19.95",
+            "6-12 months"
           ]
         ]
       }
     },
     {
-      "heading": "Commuter Gyms",
-      "body": "For those who commute to work, a gym near a major transport hub can be a great option. The Auckland CBD has several gyms to choose from, including Snap Fitness and Les Mills. These gyms offer a range of equipment and classes, and are open early and late to accommodate busy schedules."
-    },
-    {
-      "heading": "CBD Gym Options",
-      "list": [
-        "Snap Fitness: $15.95/week, month-to-month contract",
-        "Les Mills: $34.95/week, 12-month contract",
-        "CityFitness: $29.95/week, 6-month contract"
-      ]
+      "heading": "Gyms by Suburb",
+      "body": "Auckland has numerous gyms located throughout the city. Some popular suburbs with gyms include Newmarket, Ponsonby, and Takapuna. Prices and contract terms vary depending on the location and gym brand."
     },
     {
       "heading": "Parking and Accessibility",
-      "body": "For those who drive to the gym, parking can be a major consideration. Some gyms, such as Jetts in Takapuna, offer free parking for members. Others, such as Snap Fitness in the CBD, are located near public transport hubs and do not offer parking. It's worth considering the parking options when choosing a gym."
+      "body": "Parking and accessibility are essential considerations when choosing a gym. Many gyms in Auckland offer on-site parking, while others are located near public transport hubs. It's crucial to research the gym's location and accessibility before signing up."
     },
     {
-      "heading": "Compare Gyms and Get the Best Deal",
+      "heading": "Compare Auckland Gyms",
       "cta": {
-        "text": "Compare Auckland gym prices and memberships",
+        "text": "Compare prices and services from the best gyms in Auckland",
         "url": "/compare/",
         "affiliate": false
       }
     },
     {
-      "heading": "More Information on Popular Gyms",
+      "heading": "Les Mills Auckland City Review",
       "cta": {
-        "text": "Learn more about Snap Fitness and their membership options",
-        "url": "/gym/snap-fitness",
+        "text": "Read our review of Les Mills Auckland City",
+        "url": "/gym/les-mills-auckland-city",
         "affiliate": false
       }
     }
