@@ -1,0 +1,73 @@
+{
+  "title": "HIIT Workouts NZ",
+  "short_title": "HIIT Guide",
+  "meta_desc": "Discover the best HIIT workouts in NZ gyms, comparing F45 and Orangetheory to DIY options, including cost and effectiveness, with expert advice from nzgymguide.co.nz",
+  "intro": "High-Intensity Interval Training (HIIT) is a popular way to boost fitness in NZ gyms. With boutique studios like F45 and Orangetheory, and the option to do your own HIIT at standard gyms, it can be hard to choose. In this guide, we'll compare the costs and effectiveness of each option, and provide practical tips to get you started. Many NZ gyms, including City Fitness and Les Mills, offer HIIT classes or support DIY HIIT training.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is HIIT?",
+      "body": "HIIT involves short bursts of intense exercise followed by brief periods of rest. This type of training has been shown to improve cardiovascular health, increase calorie burn, and boost metabolism. In NZ, you can find HIIT classes at many gyms, including Jetts and Anytime Fitness, or follow along with online workouts at home.",
+      "list": [
+        "Improved cardiovascular health",
+        "Increased calorie burn",
+        "Boosted metabolism"
+      ]
+    },
+    {
+      "heading": "Boutique HIIT Studios: F45 and Orangetheory",
+      "body": "F45 and Orangetheory are two popular boutique HIIT studios in NZ. They offer high-energy, group workouts with experienced trainers. However, they can be pricey, with prices ranging from $20 to $40 per session. In comparison, many standard gyms offer HIIT classes or support DIY HIIT training at a lower cost. Exercise NZ's subsidised gym scheme can also help make gym memberships more affordable, with discounts of 40-70% off.",
+      "table": {
+        "headers": [
+          "Studio",
+          "Price per session",
+          "Contract length"
+        ],
+        "rows": [
+          [
+            "F45",
+            "$25",
+            "No contract"
+          ],
+          [
+            "Orangetheory",
+            "$30",
+            "No contract"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "DIY HIIT at Standard Gyms",
+      "body": "Doing your own HIIT at a standard gym can be a cost-effective option. Many gyms, including City Fitness and Les Mills, offer HIIT classes or provide equipment and space for DIY HIIT training. You can also follow along with online workouts or create your own using apps like Nike Training Club or JEFIT. With a standard gym membership, you can access a range of equipment and classes, including HIIT, for a lower monthly fee.",
+      "list": [
+        "Cost-effective",
+        "Access to a range of equipment and classes",
+        "Flexibility to create your own workouts"
+      ]
+    },
+    {
+      "heading": "Getting Started with HIIT",
+      "body": "To get started with HIIT, begin with short, manageable workouts and gradually increase the intensity and duration. It's also important to listen to your body and rest when needed. With the right mindset and support, you can achieve your fitness goals with HIIT. Consider consulting with a personal trainer or fitness coach to create a customized workout plan.",
+      "list": [
+        "Start with short, manageable workouts",
+        "Gradually increase intensity and duration",
+        "Listen to your body and rest when needed"
+      ]
+    },
+    {
+      "heading": "Conclusion",
+      "body": "In conclusion, HIIT workouts can be an effective and fun way to improve your fitness in NZ gyms. Whether you choose a boutique studio or DIY option, the key is to find a workout that you enjoy and can stick to. By considering your budget, fitness goals, and personal preferences, you can make an informed decision and get started with HIIT today.",
+      "cta": {
+        "text": "Compare NZ gyms and find the best HIIT option for you",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "hiit-workout-nz-gyms-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-27",
+  "post_type": "exercise_tips"
+}
