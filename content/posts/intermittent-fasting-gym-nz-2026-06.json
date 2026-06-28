@@ -1,0 +1,68 @@
+{
+  "title": "Intermittent Fasting NZ",
+  "short_title": "IF Guide",
+  "meta_desc": "Discover the benefits and risks of intermittent fasting for NZ gym-goers, with practical advice on 16:8, training windows, and affordable protein sources.",
+  "intro": "Intermittent fasting has gained popularity in New Zealand, but is it suitable for everyone, especially those who regularly train at the gym? This guide will explore the pros and cons of intermittent fasting, including the 16:8 method, and provide actionable tips for NZ gym-goers. With input from NZ dietitians, we'll examine the impact on muscle loss, performance, and overall health.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "What is Intermittent Fasting?",
+      "body": "Intermittent fasting involves alternating periods of eating and fasting in order to promote weight loss, improve metabolic health, and extend lifespan. The 16:8 method, which involves fasting for 16 hours and eating within an 8-hour window, is a popular choice among NZ gym-goers. For example, skipping breakfast and only eating between noon and 8 pm. Local supermarkets like Countdown and New World offer a range of healthy food options to support this eating pattern, including fresh produce, lean proteins, and whole grains.",
+      "list": [
+        "16:8 method: fast for 16 hours, eat within 8 hours",
+        "5:2 diet: eat normally for 5 days, restrict calories to 500-600 on the other 2 days",
+        "Eat-Stop-Eat: fast for 24 hours once or twice a week"
+      ]
+    },
+    {
+      "heading": "Training Windows and Muscle Loss Risk",
+      "body": "When it comes to training, the timing of your workouts can be crucial when following an intermittent fasting regimen. NZ dietitians recommend scheduling your training sessions during your eating window to ensure you have sufficient energy and can refuel afterwards. This can help mitigate the risk of muscle loss. Additionally, incorporating affordable protein sources like chicken breast ($8.99/kg at Pak'nSave), fish, and eggs, as well as supplements like whey protein powder ($30-$50 per kilo), can support muscle growth and repair.",
+      "list": [
+        "Schedule workouts during your eating window",
+        "Refuel with protein and complex carbohydrates after training",
+        "Consider adding supplements like creatine or HMB to support muscle growth"
+      ]
+    },
+    {
+      "heading": "Performance Impact and Who IF Suits",
+      "body": "Intermittent fasting can have both positive and negative effects on athletic performance, depending on the individual and the specific regimen. Some NZ gym-goers may find that IF improves their mental clarity and focus, while others may experience decreased energy levels and reduced endurance. IF is not suitable for everyone, particularly those with a history of eating disorders, certain medical conditions, or who are underweight. Pregnant or breastfeeding women should also consult with their healthcare provider before starting any new diet or fasting regimen.",
+      "list": [
+        "Improved mental clarity and focus",
+        "Increased fat burning and weight loss",
+        "Potential negative impacts on reproductive health and immune function"
+      ]
+    },
+    {
+      "heading": "NZ Dietitian Consensus and Affordable Nutrition",
+      "body": "NZ dietitians generally agree that intermittent fasting can be a useful tool for weight loss and improving metabolic health, but it's essential to approach it in a balanced and sustainable way. This includes listening to your body, staying hydrated, and prioritising whole, nutrient-dense foods. Affordable nutrition options are available at local supermarkets, including seasonal produce, whole grains, and lean protein sources. Exercise NZ's subsidised gym scheme can also help make regular exercise more accessible, with discounts of 40-70% off gym memberships.",
+      "list": [
+        "Prioritise whole, nutrient-dense foods",
+        "Stay hydrated and listen to your body",
+        "Consider consulting with a registered NZ dietitian for personalised advice"
+      ]
+    },
+    {
+      "heading": "Getting Started with IF and Gym Training",
+      "body": "If you're considering trying intermittent fasting, start by assessing your current diet and training routine. Identify areas where you can make adjustments to support your goals, and consult with a healthcare professional or registered dietitian if needed. Begin with a gentle approach, such as the 12:12 method, and gradually increase your fasting window as your body adapts. Don't forget to stay hydrated, listen to your body, and prioritise rest and recovery.",
+      "cta": {
+        "text": "Compare gym memberships and find a subsidised gym near you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Next Steps",
+      "body": "Now that you've learned more about intermittent fasting and its potential benefits and risks, it's time to take the next step. Whether you're looking to improve your overall health, increase your energy levels, or enhance your athletic performance, we're here to support you. Take our quiz to discover the best gym and training programme for your needs and goals.",
+      "cta": {
+        "text": "Take our quiz to find your perfect gym match",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "intermittent-fasting-gym-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-29",
+  "post_type": "nutrition"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "NZ Gym Supplements",
+  "short_title": "Supplements",
+  "meta_desc": "Discover the truth about gym supplements in NZ. Learn what works, what doesn't, and how to save money with our honest guide to creatine, caffeine, and protein powder.",
+  "intro": "With many New Zealanders hitting the gym to improve their health and fitness, the use of supplements has become increasingly popular. However, with so many options available, it can be difficult to know what works and what doesn't. According to the New Zealand Ministry of Health, around 50% of adults in NZ do not meet the recommended physical activity levels, highlighting the importance of a well-structured fitness programme. In this article, we will explore the most effective supplements for gym-goers in NZ, including creatine, caffeine, and protein powder.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What Works: Evidence-Based Supplements",
+      "body": "Research has shown that certain supplements can be beneficial for gym-goers. Creatine, for example, has been consistently shown to increase muscle strength and endurance. Caffeine, commonly found in pre-workout supplements, can also improve performance by increasing alertness and energy. Protein powder, which is high in protein and low in fat, can help with muscle recovery and growth. When choosing a supplement, it's essential to select a reputable NZ brand that adheres to strict quality control standards. Some popular NZ supplement brands include Nutrition Systems and Atlas Nutrition.",
+      "list": [
+        "Creatine: increases muscle strength and endurance",
+        "Caffeine: improves performance by increasing alertness and energy",
+        "Protein powder: helps with muscle recovery and growth"
+      ]
+    },
+    {
+      "heading": "What Doesn't Work: Separating Fact from Fiction",
+      "body": "In addition to supplements, a well-structured fitness programme is crucial for achieving your health and fitness goals. The New Zealand Physical Activity Guidelines recommend at least 150 minutes of moderate-intensity physical activity per week, which can be achieved through a combination of cardio and strength training exercises."
+    },
+    {
+      "heading": "Saving Money vs Results",
+      "body": "While supplements can be beneficial, they can also be expensive. It's essential to weigh the costs against the potential benefits and to consider alternative options. A gym membership, for example, can provide access to a range of equipment and classes, as well as personalized support and guidance from qualified trainers. With Exercise NZ's subsidised gym scheme, you can get a gym membership for a fraction of the cost, making it a more affordable and effective way to achieve your fitness goals.",
+      "cta": {
+        "text": "Compare NZ gym memberships",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "In conclusion, while supplements can be beneficial for gym-goers in NZ, it's essential to be informed and cautious when selecting a supplement. By choosing evidence-based supplements and combining them with a well-structured fitness programme, you can achieve your health and fitness goals. To get started, take our quiz to find the best gym and supplement options for your needs and budget.",
+      "cta": {
+        "text": "Take the quiz",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "supplements-gym-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-29",
+  "post_type": "health_info"
+}
