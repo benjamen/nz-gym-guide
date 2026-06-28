@@ -1,20 +1,21 @@
 #!/usr/bin/env python3
 """
-Auto-generates 3 daily posts for nzgymguide.co.nz.
+Auto-generates 4 daily posts for nzgymguide.co.nz.
   1. Exercise tip       — workout and training advice for NZ gym-goers
   2. Gym deals          — NZ gym deals, promos, and price guides
   3. Health information — health, wellness and fitness info for New Zealanders
+  4. Nutrition & food   — eating for fitness, NZ supplements, meal prep, protein
 
 Uses Groq API (llama-3.3-70b-versatile) for content generation.
 Run daily via cron / systemd timer.
 
 Usage:
-  python3 scripts/auto_generate.py            # generate today's 3 posts
+  python3 scripts/auto_generate.py            # generate today's 4 posts
   python3 scripts/auto_generate.py --dry-run  # preview topics only
   python3 scripts/auto_generate.py --rebuild  # rebuild + push only
   python3 scripts/auto_generate.py --force    # regenerate even if done today
   python3 scripts/auto_generate.py --count 5  # generate N posts
-  python3 scripts/auto_generate.py --type exercise_tips  # one specific type
+  python3 scripts/auto_generate.py --type nutrition  # one specific type
 """
 
 import json
@@ -106,6 +107,64 @@ EXERCISE_TOPICS = [
      "angle": "muscle repair science, DOMS, active recovery options at NZ gyms (sauna, pool, yoga), sleep and training"},
 ]
 
+# ── Nutrition & food topic pools ─────────────────────────────────────────────
+
+NUTRITION_TOPICS = [
+    # Pre/post workout nutrition
+    {"slug_base": "pre-workout-food-nz",          "title": "What to Eat Before the Gym in NZ — Timing and Food Guide",
+     "angle": "meal timing 1-3 hours before training, quick options from NZ supermarkets, fasted training pros/cons, simple carb+protein combos"},
+    {"slug_base": "post-workout-meal-nz",         "title": "Best Post-Workout Meals for NZ Gym-Goers",
+     "angle": "protein synthesis window myth vs reality, practical post-gym meals using NZ ingredients, quick options for busy people, budget ideas"},
+    {"slug_base": "pre-workout-morning-gym-nz",   "title": "Eating Before a Morning Gym Session in NZ — What Actually Works",
+     "angle": "early morning training with minimal food, banana vs protein shake, fasted cardio evidence, what NZ dietitians recommend"},
+
+    # Protein
+    {"slug_base": "protein-sources-nz",           "title": "Best Protein Sources for NZ Gym-Goers — Cheap and Effective",
+     "angle": "eggs, chicken, canned tuna, cottage cheese, legumes available at NZ supermarkets, cost per gram of protein comparison"},
+    {"slug_base": "protein-powder-nz-compare",    "title": "Best Protein Powder in NZ 2026 — Honest Comparison",
+     "angle": "Myprotein, Bulk Nutrients, Optimum Nutrition, No Regrets NZ — price per serve, taste, availability, where to buy in NZ"},
+    {"slug_base": "plant-protein-nz",             "title": "Plant-Based Protein for NZ Gym-Goers — Complete Guide",
+     "angle": "complete vs incomplete proteins, tofu, tempeh, legumes, pea protein powders available in NZ, hitting protein targets on a plant-based diet"},
+    {"slug_base": "protein-on-a-budget-nz",       "title": "How to Hit Your Protein Goals on a NZ Budget",
+     "angle": "cheapest protein per gram at Pak'nSave, Woolworths, Countdown — eggs, canned tuna, chicken thighs, Greek yoghurt, lentils with NZ prices"},
+
+    # Supplements
+    {"slug_base": "creatine-nz-guide",            "title": "Creatine in NZ — Does It Work and Where to Buy It",
+     "angle": "what creatine monohydrate does, evidence summary, dosing protocol, NZ brands vs imported, price comparison, who benefits most"},
+    {"slug_base": "supplements-worth-it-nz",      "title": "Which Gym Supplements Are Actually Worth It in NZ?",
+     "angle": "evidence tier list: creatine (strong), caffeine (strong), protein (food first), BCAAs (weak), fat burners (skip) — NZ context and prices"},
+    {"slug_base": "collagen-women-gym-nz",        "title": "Collagen Supplements for Women Who Work Out — NZ Guide",
+     "angle": "what collagen does for joints and skin, evidence quality, best time to take it, NZ brands available, cost vs food sources"},
+    {"slug_base": "caffeine-pre-workout-nz",      "title": "Caffeine vs Pre-Workout Supplements in NZ — What's Better?",
+     "angle": "coffee as pre-workout, caffeine dose for performance, comparing cheap caffeine to expensive pre-workouts, NZ prices, avoiding crash"},
+
+    # Meal prep & practical eating
+    {"slug_base": "meal-prep-gym-nz",             "title": "Meal Prep for NZ Gym-Goers — Simple Weekly Plan",
+     "angle": "Sunday batch cook strategy, 4-5 high-protein meals using NZ supermarket staples, portion sizing for gym goals, containers and storage"},
+    {"slug_base": "budget-gym-nutrition-nz",      "title": "Eating for the Gym on a NZ Budget — Under $100/Week",
+     "angle": "weekly meal plan hitting protein targets for under $100 at NZ supermarkets, Pak'nSave staples, avoiding expensive 'health foods'"},
+    {"slug_base": "supermarket-gym-food-nz",      "title": "Best Gym Foods at NZ Supermarkets — Woolworths and Pak'nSave",
+     "angle": "practical shopping list for gym-goers, high-protein staples at NZ supermarkets, which health foods are overpriced vs worth it"},
+
+    # Fat loss & body composition
+    {"slug_base": "fat-loss-nutrition-nz",        "title": "Nutrition for Fat Loss in NZ — What Actually Works",
+     "angle": "calorie deficit fundamentals, protein to preserve muscle, NZ-practical food swaps, debunking NZ diet fads, sustainable approach"},
+    {"slug_base": "bulking-nz-diet",              "title": "Bulking Diet for NZ Gym-Goers — How to Gain Muscle Without the Fat",
+     "angle": "clean bulk vs dirty bulk, calorie surplus targets, NZ high-calorie healthy foods, timing protein around workouts, realistic expectations"},
+
+    # Specific diets
+    {"slug_base": "keto-gym-nz",                  "title": "Keto and the Gym in NZ — Can You Build Muscle on Low Carb?",
+     "angle": "keto for strength vs cardio performance, adaptation period, NZ keto food costs, who it suits and who it doesn't, practical tips"},
+    {"slug_base": "intermittent-fasting-gym-nz",  "title": "Intermittent Fasting and Gym Training in NZ — Honest Guide",
+     "angle": "16:8 and training windows, muscle loss risk, performance impact, who IF suits (and who it doesn't), NZ dietitian consensus"},
+
+    # Hydration & recovery nutrition
+    {"slug_base": "hydration-gym-nz",             "title": "Hydration for NZ Gym-Goers — How Much Water Do You Really Need?",
+     "angle": "NZ climate and sweat rates, electrolytes vs plain water, sports drinks vs water, signs of dehydration during training, practical tips"},
+    {"slug_base": "nutrition-gym-women-nz",       "title": "Nutrition for Women Who Lift — NZ Guide",
+     "angle": "higher protein needs for body recomposition, iron for active women in NZ, hormone cycle and nutrition, NZ food sources, avoiding under-eating"},
+]
+
 # ── Health information topic pools ────────────────────────────────────────────
 
 HEALTH_TOPICS = [
@@ -163,6 +222,7 @@ def build_all_pools(gyms, cities):
     pools = {t: [] for t in DEAL_ARTICLE_TYPES}
     pools['exercise_tips'] = []
     pools['health_info']   = []
+    pools['nutrition']     = []
 
     for city in cities:
         pools['city_deals'].append({'type': 'city_deals', 'city': city})
@@ -183,6 +243,8 @@ def build_all_pools(gyms, cities):
         pools['exercise_tips'].append({'type': 'exercise_tips', 'topic': t})
     for t in HEALTH_TOPICS:
         pools['health_info'].append({'type': 'health_info', 'topic': t})
+    for t in NUTRITION_TOPICS:
+        pools['nutrition'].append({'type': 'nutrition', 'topic': t})
 
     return pools
 
@@ -193,12 +255,13 @@ def pick_by_date(pool, atype):
     seed = int(hashlib.md5(f"{date.today().isoformat()}:{atype}".encode()).hexdigest(), 16)
     return pool[seed % len(pool)]
 
-def pick_todays_three(pools):
+def pick_todays_four(pools):
     """
-    Always pick exactly 3 topics for the day:
+    Always pick exactly 4 topics for the day:
       1. An exercise tip
       2. A gym deal (rotating through city_deals, chain_deals, comparison, budget_guide)
       3. Health information
+      4. Nutrition & food
     """
     topics = []
 
@@ -222,14 +285,19 @@ def pick_todays_three(pools):
     if hi:
         topics.append(hi)
 
+    # 4. Nutrition & food
+    nu = pick_by_date(pools['nutrition'], 'nutrition')
+    if nu:
+        topics.append(nu)
+
     return topics
 
-def pick_todays_topics(pools, n=3):
+def pick_todays_topics(pools, n=4):
     """Wrapper used by --count flag."""
-    if n == 3:
-        return pick_todays_three(pools)
-    # For --count > 3, fill extra slots from remaining deal types
-    base = pick_todays_three(pools)
+    if n == 4:
+        return pick_todays_four(pools)
+    # For --count > 4, fill extra slots from remaining deal types
+    base = pick_todays_four(pools)
     extra_types = ['gym_review', 'suburb_guide', 'comparison', 'chain_deals']
     used = 0
     while len(base) < n and used < len(extra_types):
@@ -256,6 +324,9 @@ def topic_slug(topic):
     elif t == 'health_info':
         base = topic['topic']['slug_base']
         return f"{base}-{today}"
+    elif t == 'nutrition':
+        base = topic['topic']['slug_base']
+        return f"{base}-{today}"
     elif t == 'city_deals':
         return f"{topic['city']['slug']}-gym-deals-{today}"
     elif t == 'gym_review':
@@ -275,9 +346,7 @@ def topic_slug(topic):
 
 def topic_label(topic):
     t = topic['type']
-    if t == 'exercise_tips':
-        return topic['topic']['title']
-    elif t == 'health_info':
+    if t in ('exercise_tips', 'health_info', 'nutrition'):
         return topic['topic']['title']
     elif t == 'comparison':
         return f"{topic['gym1']['name']} vs {topic['gym2']['name']}"
@@ -368,6 +437,21 @@ def build_prompt(topic, deals):
             f"practical steps readers can take, "
             f"and how a gym membership helps — with links to relevant NZ gym options. "
             f"4–6 sections. End with a CTA to /quiz/ or /compare/."
+        )
+
+    elif t == 'nutrition':
+        tp = topic['topic']
+        ctx = f"Site: nzgymguide.co.nz — NZ gym comparison and fitness advice.\nMonth: {month} {year}."
+        instruction = (
+            f"Write a practical nutrition and food guide for NZ gym-goers: '{tp['title']}'. "
+            f"Focus angle: {tp['angle']}. "
+            f"Write for New Zealanders. Use NZ English spelling. Include: "
+            f"practical, evidence-based advice (not fad-diet hype), "
+            f"NZ-specific context (local supermarkets, brands, and prices where relevant), "
+            f"actionable tips gym-goers can use this week, "
+            f"and 4–6 sections with clear headings. "
+            f"Where relevant, mention affordable NZ protein sources or supplements. "
+            f"End with a CTA to /compare/ or /quiz/."
         )
 
     elif t == 'city_deals':
@@ -506,6 +590,8 @@ def generate_article(topic, deals, slug):
         t = topic['type']
         if t == 'exercise_tips':
             cta_url, cta_text = '/quiz/', 'Find the right NZ gym for your goals →'
+        elif t == 'nutrition':
+            cta_url, cta_text = '/compare/', 'Compare NZ gym memberships →'
         elif t == 'health_info':
             cta_url, cta_text = '/compare/', 'Compare NZ gym memberships →'
         elif t in ('city_deals', 'budget_guide', 'exercise_nz'):
@@ -547,7 +633,7 @@ def rebuild_and_push(dry_run=False):
 
     today = date.today().isoformat()
     subprocess.run(['git', 'add', '-A'], cwd=ROOT)
-    msg = f'Daily posts: exercise tip + gym deal + health info — {today}'
+    msg = f'Daily posts: exercise tip + gym deal + health info + nutrition — {today}'
     subprocess.run(['git', 'commit', '-m', msg], cwd=ROOT)
     push = subprocess.run(['git', 'push'], cwd=ROOT, capture_output=True, text=True)
     if push.returncode == 0:
@@ -563,8 +649,8 @@ def main():
     parser.add_argument('--dry-run', action='store_true', help='Preview topics only, no files written')
     parser.add_argument('--rebuild', action='store_true', help='Rebuild + push without generating')
     parser.add_argument('--force',   action='store_true', help='Regenerate even if done today')
-    parser.add_argument('--count',   type=int, default=3, help='Number of posts to generate (default 3)')
-    parser.add_argument('--type',    choices=['exercise_tips','health_info','city_deals','gym_review',
+    parser.add_argument('--count',   type=int, default=4, help='Number of posts to generate (default 4)')
+    parser.add_argument('--type',    choices=['exercise_tips','health_info','nutrition','city_deals','gym_review',
                                               'comparison','budget_guide','chain_deals','suburb_guide','exercise_nz'],
                         help='Force a specific article type')
     args = parser.parse_args()
@@ -592,6 +678,7 @@ def main():
         category = {
             'exercise_tips': '🏋️  Exercise tip',
             'health_info':   '🏥  Health info',
+            'nutrition':     '🥗  Nutrition',
             'city_deals':    '💰  City deals',
             'chain_deals':   '🏷️  Chain deals',
             'gym_review':    '⭐  Gym review',

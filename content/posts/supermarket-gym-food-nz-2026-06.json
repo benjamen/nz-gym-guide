@@ -1,0 +1,71 @@
+{
+  "title": "Gym Foods NZ",
+  "short_title": "Gym Food",
+  "meta_desc": "Discover the best gym foods at NZ supermarkets like Woolworths and Pak'nSave, and learn which health foods are worth the investment for your fitness programme.",
+  "intro": "As a gym-goer in New Zealand, you know that a balanced diet is crucial for achieving your fitness goals. With so many health food options available at supermarkets like Woolworths and Pak'nSave, it can be overwhelming to decide what to buy. In this guide, we'll explore the best gym foods to include in your shopping list, as well as which health foods are overpriced versus worth the investment.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to Gym Nutrition",
+      "body": "A well-planned diet is essential for supporting your fitness programme and achieving your goals. According to the New Zealand Ministry of Health, a balanced diet should include a variety of foods from all food groups, including lean protein sources, whole grains, and plenty of fruits and vegetables. As a gym-goer, you may require more protein to support muscle growth and repair, making it essential to include high-protein staples in your diet."
+    },
+    {
+      "heading": "High-Protein Staples at NZ Supermarkets",
+      "body": "Fortunately, NZ supermarkets like Woolworths and Pak'nSave offer a range of affordable high-protein staples. Some examples include chicken breast, lean beef, fish, eggs, and dairy products like milk and Greek yoghurt. You can also find plant-based protein sources like beans, lentils, and tofu. When shopping for protein supplements, consider affordable NZ brands like Balance or Horleys.",
+      "list": [
+        "Chicken breast (around $15 per kg)",
+        "Lean beef (around $20 per kg)",
+        "Canned fish (around $5 per can)",
+        "Eggs (around $2 per dozen)",
+        "Greek yoghurt (around $5 per 1kg tub)"
+      ]
+    },
+    {
+      "heading": "Health Foods: Worth the Investment or Not?",
+      "body": "While some health foods can be beneficial for your fitness programme, others may be overpriced or unnecessary. For example, foods high in added sugars or saturated fats should be limited, while whole foods like fruits, vegetables, and whole grains are generally a good investment. Consider the prices of health foods at NZ supermarkets and weigh the benefits against the costs. Some health foods, like chia seeds or almond milk, may be worth the investment due to their high nutritional value, while others, like expensive protein powders or detox juices, may not be necessary for a balanced diet.",
+      "table": {
+        "headers": [
+          "Food",
+          "Price",
+          "Nutritional Value"
+        ],
+        "rows": [
+          [
+            "Chia seeds",
+            "Around $10 per 250g bag",
+            "High in fibre and omega-3 fatty acids"
+          ],
+          [
+            "Almond milk",
+            "Around $5 per 1L carton",
+            "Low in calories and rich in vitamins"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Practical Tips for Gym-Goers",
+      "body": "To make the most of your gym programme, consider the following practical tips: plan your meals in advance, shop for whole foods, and cook at home using healthy methods like grilling or roasting. You can also save money by buying in bulk and using coupons or discounts at NZ supermarkets. Don't forget to stay hydrated by drinking plenty of water throughout the day.",
+      "list": [
+        "Plan your meals for the week",
+        "Shop for whole foods like fruits, vegetables, and whole grains",
+        "Cook at home using healthy methods",
+        "Stay hydrated by drinking plenty of water"
+      ]
+    },
+    {
+      "heading": "Get Started with Your Fitness Programme",
+      "body": "Now that you know the best gym foods to include in your diet, it's time to get started with your fitness programme. Consider visiting our website to compare gym prices and find the best deal for your needs. You can also take our quiz to determine which gym is right for you.",
+      "cta": {
+        "text": "Compare gym prices or take our quiz",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "supermarket-gym-food-nz-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-28",
+  "post_type": "nutrition"
+}
