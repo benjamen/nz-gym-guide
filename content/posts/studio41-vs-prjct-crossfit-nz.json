@@ -1,0 +1,65 @@
+{
+  "title": "Studio41 vs PRJCT",
+  "short_title": "Studio41 vs PRJCT",
+  "meta_desc": "Compare Studio41 and PRJCT CrossFit NZ gyms, including prices, contracts, facilities, and overall value to find the best fit for your fitness goals.",
+  "intro": "Studio41 and PRJCT CrossFit NZ are two boutique gyms in New Zealand, offering unique approaches to fitness. Studio41 focuses on personal training and holistic wellbeing, while PRJCT CrossFit NZ provides a community-driven CrossFit experience. This comparison will help you decide which gym is right for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Overview of Studio41 and PRJCT CrossFit NZ",
+      "body": "Studio41 is a boutique gym with a focus on personal training, nutrition, and mental wellbeing. It offers a holistic approach to fitness, with expert trainers and a small, intimate environment. PRJCT CrossFit NZ, on the other hand, is a community-focused CrossFit box with a welcoming culture and quality coaching. Both gyms have their strengths and weaknesses, which will be discussed in this comparison.",
+      "list": [
+        "Studio41: personal training, holistic approach, small intimate environment",
+        "PRJCT CrossFit NZ: community-focused, CrossFit, welcoming culture, quality coaching"
+      ]
+    },
+    {
+      "heading": "Price and Contract Comparison",
+      "body": "The prices for Studio41 and PRJCT CrossFit NZ vary, with Studio41 offering memberships from $30.00 to $80.00 per week, and PRJCT CrossFit NZ pricing from $45.00 to $65.00 per week. Neither gym has a joining fee or lock-in contract, providing flexibility for members. However, it's essential to consider the overall value and what each gym offers for the price.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per Week",
+          "Contract Length",
+          "Cancellation"
+        ],
+        "rows": [
+          [
+            "Studio41",
+            "$30.00-$80.00",
+            "No contract",
+            "Flexible cancellation"
+          ],
+          [
+            "PRJCT CrossFit NZ",
+            "$45.00-$65.00",
+            "No contract",
+            "Flexible cancellation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Facilities, Locations, and 24/7 Access",
+      "body": "Studio41 and PRJCT CrossFit NZ have different facilities and locations. Studio41 offers personal training, free weights, and parking, while PRJCT CrossFit NZ provides group fitness classes, personal training, guest passes, and parking. Neither gym offers 24/7 access, but this may not be a significant concern for those who prefer a more structured fitness routine.",
+      "list": [
+        "Studio41: personal training, free weights, parking",
+        "PRJCT CrossFit NZ: group fitness, personal training, guest passes, parking"
+      ]
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on the comparison, Studio41 is recommended for results-focused individuals who want expert personal training and a holistic approach to fitness. PRJCT CrossFit NZ is suitable for CrossFit beginners and experienced athletes who value a community-driven environment. Consider your fitness goals, preferences, and budget when choosing between these two gyms. Additionally, don't forget to check if you're eligible for Exercise NZ's subsidised gym scheme, which offers 40-70% off for eligible members.",
+      "cta": {
+        "text": "Check Exercise NZ's subsidised gym scheme",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "studio41-vs-prjct-crossfit-nz",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-30",
+  "post_type": "comparison"
+}

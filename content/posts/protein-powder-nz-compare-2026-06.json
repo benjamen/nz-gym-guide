@@ -1,0 +1,87 @@
+{
+  "title": "NZ Protein Powder 2026",
+  "short_title": "Protein Powder",
+  "meta_desc": "Compare the best protein powder in NZ for 2026. Myprotein, Bulk Nutrients, Optimum Nutrition, and No Regrets NZ reviewed on price, taste, and availability.",
+  "intro": "As a gym-goer in New Zealand, choosing the right protein powder can be overwhelming with numerous options available. This guide will help you make an informed decision by comparing popular brands like Myprotein, Bulk Nutrients, Optimum Nutrition, and No Regrets NZ. We'll consider factors such as price per serve, taste, and availability in local NZ supermarkets and online stores.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Introduction to Protein Powder",
+      "body": "Protein powder is a convenient way to increase your daily protein intake, essential for muscle growth and repair. When selecting a protein powder, consider your dietary needs, preferences, and budget. NZ gym-goers can also explore affordable protein sources like eggs, lean meats, and fish, or supplements such as whey protein concentrate or pea protein isolate.",
+      "list": [
+        "Whey protein concentrate",
+        "Pea protein isolate",
+        "Eggs",
+        "Lean meats",
+        "Fish"
+      ]
+    },
+    {
+      "heading": "Comparison of Popular Protein Powders",
+      "body": "We compared the prices of popular protein powders available in NZ. Myprotein offers a competitive price point, with approximately $1.50 per serve. Bulk Nutrients provides a similar price, while Optimum Nutrition is slightly more expensive. No Regrets NZ offers a unique flavour range but is generally pricier.",
+      "table": {
+        "headers": [
+          "Brand",
+          "Price per Serve (NZD)",
+          "Availability"
+        ],
+        "rows": [
+          [
+            "Myprotein",
+            "1.50",
+            "Online, selected supermarkets"
+          ],
+          [
+            "Bulk Nutrients",
+            "1.60",
+            "Online, health food stores"
+          ],
+          [
+            "Optimum Nutrition",
+            "2.20",
+            "Online, major supermarkets"
+          ],
+          [
+            "No Regrets NZ",
+            "2.80",
+            "Online, selected gyms"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Taste and Flavour Options",
+      "body": "Taste is a crucial factor when choosing a protein powder. Myprotein offers a wide range of flavours, including unflavoured options. Bulk Nutrients provides a more limited selection, while Optimum Nutrition has a variety of flavours. No Regrets NZ is known for its unique and delicious flavours, making it a popular choice among NZ gym-goers.",
+      "list": [
+        "Unflavoured",
+        "Chocolate",
+        "Vanilla",
+        "Strawberry",
+        "Cookies and Cream"
+      ]
+    },
+    {
+      "heading": "Where to Buy Protein Powder in NZ",
+      "body": "You can find protein powder in various online stores, health food shops, and major supermarkets throughout NZ. Some popular options include Chemist Warehouse, Nutrition Warehouse, and Countdown. Additionally, consider Exercise NZ's subsidised gym scheme, which may offer discounts on protein powder and other supplements.",
+      "cta": {
+        "text": "Compare protein powder prices and find the best deal",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "Choosing the right protein powder depends on your individual needs, preferences, and budget. By considering factors such as price, taste, and availability, you can make an informed decision. Remember to also explore affordable NZ protein sources and supplements.",
+      "cta": {
+        "text": "Take our quiz to find the best protein powder for you",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "protein-powder-nz-compare-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-30",
+  "post_type": "nutrition"
+}
