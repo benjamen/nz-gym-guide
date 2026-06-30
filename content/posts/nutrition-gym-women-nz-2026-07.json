@@ -1,0 +1,61 @@
+{
+  "title": "Nutrition for Women",
+  "short_title": "Women's Nutrition",
+  "meta_desc": "Evidence-based nutrition guide for NZ women who lift, focusing on higher protein needs, iron, hormone cycle and local food sources to support body recomposition and overall health.",
+  "intro": "As a woman who lifts in New Zealand, you have unique nutritional needs, especially when it comes to protein and iron. A well-structured nutrition programme can support your fitness goals, from body recomposition to overall health and wellbeing. In this guide, we'll explore the key aspects of nutrition for women who lift, including higher protein needs, iron intake, and hormone cycle considerations.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Higher Protein Needs for Women Who Lift",
+      "body": "Women who engage in resistance training have higher protein needs compared to sedentary women. Aim for 1.6-2.2 grams of protein per kilogram of body weight daily, spread across 3-5 main meals and 2-3 snacks. Include a source of protein at each meal, such as lean meats, fish, eggs, dairy, legumes, or plant-based alternatives like tofu or tempeh.",
+      "list": [
+        "Lean meats (chicken, turkey, beef): $8-$15 per kilogram at local supermarkets like Countdown or New World",
+        "Canned fish (salmon, tuna): $5-$10 per can",
+        "Eggs: $2-$4 per dozen",
+        "Dairy (milk, Greek yoghurt): $3-$6 per litre or $5-$10 per 500g tub",
+        "Legumes (lentils, chickpeas): $2-$5 per kilogram",
+        "Plant-based alternatives (tofu, tempeh): $5-$10 per 200g packet"
+      ]
+    },
+    {
+      "heading": "Iron Intake for Active Women",
+      "body": "Iron deficiency is common among active women in New Zealand, particularly those who engage in regular endurance or high-intensity exercise. Include iron-rich foods in your diet, such as red meat, poultry, fish, beans, lentils, and fortified cereals. Vitamin C can enhance iron absorption, so consume foods high in vitamin C (like citrus fruits, bell peppers, or tomatoes) along with iron-rich foods.",
+      "list": [
+        "Red meat (beef, lamb): $10-$20 per kilogram",
+        "Poultry (chicken, turkey): $8-$15 per kilogram",
+        "Fish (salmon, sardines): $15-$25 per kilogram",
+        "Beans (kidney beans, black beans): $2-$5 per kilogram",
+        "Lentils: $2-$5 per kilogram",
+        "Fortified cereals: $5-$10 per 750g box"
+      ]
+    },
+    {
+      "heading": "Hormone Cycle and Nutrition",
+      "body": "Hormonal fluctuations throughout the menstrual cycle can affect hunger, fullness, and cravings. Be mindful of your body's needs and adjust your nutrition programme accordingly. For example, increase calorie intake during the luteal phase (after ovulation) when energy needs may be higher. Include a variety of whole, unprocessed foods in your diet to support hormone balance and overall health.",
+      "list": [
+        "Whole grains (brown rice, quinoa): $2-$5 per kilogram",
+        "Fresh fruits (berries, citrus fruits): $5-$10 per kilogram",
+        "Leafy greens (spinach, kale): $2-$5 per bunch",
+        "Nuts and seeds (almonds, chia seeds): $10-$20 per 200g packet"
+      ]
+    },
+    {
+      "heading": "Avoiding Under-Eating and Supporting Body Recomposition",
+      "body": "Some affordable NZ protein sources include whey protein powder ($20-$30 per 500g tub) or plant-based alternatives like pea protein powder ($25-$35 per 500g tub)."
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "A well-structured nutrition programme is essential for women who lift in New Zealand. By focusing on higher protein needs, iron intake, hormone cycle considerations, and avoiding under-eating, you can support your fitness goals and overall health. For more information on gym memberships and finding the right gym for your needs, visit our comparison page or take our quiz to get started.",
+      "cta": {
+        "text": "Compare Gyms or Take Our Quiz",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "nutrition-gym-women-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-01",
+  "post_type": "nutrition"
+}

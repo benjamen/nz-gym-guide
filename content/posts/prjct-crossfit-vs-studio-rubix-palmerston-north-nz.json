@@ -1,0 +1,77 @@
+{
+  "title": "PRJCT CrossFit vs Studio Rubix",
+  "short_title": "CrossFit vs Rubix",
+  "meta_desc": "Compare PRJCT CrossFit and Studio Rubix NZ. Price, contract, facilities, and overall value. Choose the best gym for your fitness needs.",
+  "intro": "PRJCT CrossFit and Studio Rubix NZ are two boutique gyms offering unique workout experiences. PRJCT CrossFit is ideal for CrossFit enthusiasts, while Studio Rubix focuses on reformer pilates and holistic health. This comparison will help you decide which gym suits your fitness goals and budget.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Pricing and Contract",
+      "body": "PRJCT CrossFit prices range from $45.00 to $65.00 per week, with no joining fee. Studio Rubix NZ prices range from $20.00 to $50.00 per week, also with no joining fee. Both gyms offer flexible, no-lock-in contracts, allowing members to cancel anytime.",
+      "list": [
+        "PRJCT CrossFit: $45.00-$65.00/week",
+        "Studio Rubix NZ: $20.00-$50.00/week",
+        "No joining fee for both gyms"
+      ]
+    },
+    {
+      "heading": "Facilities and Locations",
+      "body": "PRJCT CrossFit features group fitness classes, personal training, and free weights. Studio Rubix NZ offers reformer pilates, personal training, and nutrition coaching. PRJCT CrossFit has locations in selected cities, while Studio Rubix NZ is primarily in Palmerston North.",
+      "list": [
+        "PRJCT CrossFit: group fitness, personal training, free weights",
+        "Studio Rubix NZ: reformer pilates, personal training, nutrition coaching"
+      ]
+    },
+    {
+      "heading": "Comparison Table",
+      "body": "The following table summarizes the key differences between PRJCT CrossFit and Studio Rubix NZ.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price/Week",
+          "Contract",
+          "Facilities",
+          "Locations",
+          "24/7 Access"
+        ],
+        "rows": [
+          [
+            "PRJCT CrossFit",
+            "$45.00-$65.00",
+            "No lock-in",
+            "Group fitness, personal training, free weights",
+            "Selected cities",
+            "No"
+          ],
+          [
+            "Studio Rubix NZ",
+            "$20.00-$50.00",
+            "No lock-in",
+            "Reformer pilates, personal training, nutrition coaching",
+            "Palmerston North",
+            "No"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Consider your fitness goals and budget when choosing between PRJCT CrossFit and Studio Rubix NZ. If you're a CrossFit enthusiast, PRJCT CrossFit is the better choice. For those interested in reformer pilates and holistic health, Studio Rubix NZ is the way to go. Eligible members can also explore Exercise NZ's subsidised gym scheme, offering 40-70% off membership prices. Ultimately, both gyms provide unique benefits, and it's essential to visit and experience them before making a decision.",
+      "list": [
+        "CrossFit enthusiasts: PRJCT CrossFit",
+        "Reformer pilates and holistic health: Studio Rubix NZ",
+        "Eligible members: Exercise NZ subsidised gym scheme"
+      ],
+      "cta": {
+        "text": "Compare all NZ gym memberships →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "prjct-crossfit-vs-studio-rubix-palmerston-north-nz",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-01",
+  "post_type": "comparison"
+}

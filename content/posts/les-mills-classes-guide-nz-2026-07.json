@@ -1,0 +1,96 @@
+{
+  "title": "Les Mills NZ Class",
+  "short_title": "Les Mills Guide",
+  "meta_desc": "Discover the best Les Mills NZ class for you, from BodyPump to RPM. Learn what each class involves, calorie burn, and which NZ gym chains offer them.",
+  "intro": "Les Mills NZ classes are a popular way for Kiwis to stay active and healthy. With various classes to choose from, it can be overwhelming to decide which one is right for you. This guide will break down the most popular Les Mills classes, including BodyPump, BodyCombat, BodyBalance, RPM, SH'BAM, and GRIT.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to Les Mills Classes",
+      "body": "Les Mills classes are high-energy group fitness classes that cater to different fitness levels and goals. They are designed to be fun, engaging, and challenging. Most NZ gyms, including Les Mills, City Fitness, and Jetts, offer a range of Les Mills classes. If you're new to group fitness, consider trying out a few classes to see which one you enjoy the most.",
+      "list": [
+        "BodyPump: a weights-based class",
+        "BodyCombat: a martial arts-inspired class",
+        "BodyBalance: a yoga and Pilates-based class",
+        "RPM: a cycling class",
+        "SH'BAM: a dance-based class",
+        "GRIT: a high-intensity interval training class"
+      ]
+    },
+    {
+      "heading": "Calorie Burn and Fitness Level",
+      "body": "Each Les Mills class has a unique calorie burn and fitness level. For example, BodyPump can burn up to 400 calories per class, while RPM can burn up to 600 calories per class. BodyBalance is a lower-intensity class, making it suitable for those who are new to exercise or recovering from injury. Consider your fitness goals and current level when choosing a class.",
+      "table": {
+        "headers": [
+          "Class",
+          "Calorie Burn",
+          "Fitness Level"
+        ],
+        "rows": [
+          [
+            "BodyPump",
+            "400 calories",
+            "Moderate"
+          ],
+          [
+            "BodyCombat",
+            "350 calories",
+            "Moderate"
+          ],
+          [
+            "BodyBalance",
+            "200 calories",
+            "Low"
+          ],
+          [
+            "RPM",
+            "600 calories",
+            "High"
+          ],
+          [
+            "SH'BAM",
+            "300 calories",
+            "Low-Moderate"
+          ],
+          [
+            "GRIT",
+            "500 calories",
+            "High"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips for Getting Started",
+      "body": "If you're new to Les Mills classes, start by trying out a few different classes to see which one you enjoy the most. Consider investing in a good pair of gym shoes and comfortable clothing. Don't be afraid to ask the instructor for help or modifications if you need them. Many NZ gyms, including Les Mills and City Fitness, offer beginner classes or workshops to help you get started.",
+      "list": [
+        "Arrive early to set up and meet the instructor",
+        "Bring a water bottle and towel",
+        "Listen to your body and take breaks when needed"
+      ]
+    },
+    {
+      "heading": "Finding a Gym that Offers Les Mills Classes",
+      "body": "Many NZ gyms offer Les Mills classes, including Les Mills, City Fitness, and Jetts. Consider visiting the Exercise NZ website to find a gym near you that offers Les Mills classes. You can also check out our gym comparison tool to find the best gym for your needs and budget. Don't forget to ask about Exercise NZ's subsidised gym scheme, which can offer 40-70% off gym memberships.",
+      "cta": {
+        "text": "Compare gyms and find the best deal for you",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion",
+      "body": "Les Mills NZ classes are a great way to stay active, challenge yourself, and have fun. With so many classes to choose from, there's something for everyone. Remember to consider your fitness goals, current level, and calorie burn when choosing a class. Don't be afraid to try out a few different classes to see which one you enjoy the most.",
+      "cta": {
+        "text": "Take our quiz to find the perfect Les Mills class for you",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "les-mills-classes-guide-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-01",
+  "post_type": "exercise_tips"
+}
