@@ -1,0 +1,78 @@
+{
+  "title": "Urban Fitness vs Flex Fitness",
+  "short_title": "Gym Comparison",
+  "meta_desc": "Compare Urban Fitness Wellington and Flex Fitness Auckland NZ on price, contract, facilities and overall value to find the best gym for your needs.",
+  "intro": "Urban Fitness Wellington and Flex Fitness Auckland NZ cater to different fitness needs. Urban Fitness is a boutique gym specialising in HYROX training and Olympic weightlifting, while Flex Fitness is a budget-friendly option with 24/7 access. This comparison will help you decide which gym is best for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Price Comparison",
+      "body": "Urban Fitness Wellington costs $70 per week, with no lock-in contract and a 7-day trial for $70. In contrast, Flex Fitness Auckland NZ offers a more affordable option from $10 to $18 per week, also with no lock-in contract. Consider your budget and how often you plan to visit the gym when deciding between these two options.",
+      "list": [
+        "Urban Fitness Wellington: $70/week",
+        "Flex Fitness Auckland NZ: $10-$18/week"
+      ]
+    },
+    {
+      "heading": "Facilities and Locations",
+      "body": "Urban Fitness Wellington is located at 4 College St, Te Aro, and specialises in HYROX training and Olympic weightlifting. Flex Fitness Auckland NZ has multiple locations across Auckland, including Newmarket, CBD, and Mt Eden, offering 24/7 access. If you prioritize specialised training and coaching, Urban Fitness might be the better choice. For those who value convenience and flexibility, Flex Fitness could be more suitable.",
+      "list": [
+        "Urban Fitness Wellington: Specialised HYROX training and Olympic weightlifting",
+        "Flex Fitness Auckland NZ: 24/7 access, multiple locations"
+      ]
+    },
+    {
+      "heading": "Comparison Table",
+      "body": "The following table summarises the key differences between Urban Fitness Wellington and Flex Fitness Auckland NZ.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per Week",
+          "Contract Length",
+          "Cancellation",
+          "Facilities",
+          "Locations",
+          "24/7 Access"
+        ],
+        "rows": [
+          [
+            "Urban Fitness Wellington",
+            "$70",
+            "No lock-in",
+            "Anytime",
+            "Specialised HYROX and Olympic weightlifting",
+            "4 College St, Te Aro",
+            "No"
+          ],
+          [
+            "Flex Fitness Auckland NZ",
+            "$10-$18",
+            "No lock-in",
+            "Anytime",
+            "Functional equipment",
+            "Multiple locations",
+            "Yes"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Ultimately, the choice between Urban Fitness Wellington and Flex Fitness Auckland NZ depends on your fitness goals, budget, and preferences. If you are a serious athlete or competitor looking for specialised coaching and training, Urban Fitness Wellington might be the better choice. However, if you are a casual gym-goer on a budget who values flexibility and convenience, Flex Fitness Auckland NZ could be the more suitable option. Consider your needs and priorities before making a decision. Additionally, don't forget to check if you are eligible for Exercise NZ's subsidised gym scheme, which offers 40-70% off for eligible members.",
+      "list": [
+        "For serious athletes and competitors: Urban Fitness Wellington",
+        "For casual gym-goers on a budget: Flex Fitness Auckland NZ"
+      ],
+      "cta": {
+        "text": "Compare all NZ gym memberships →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "urban-fitness-wellington-vs-flex-fitness-auckland-nz",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-02",
+  "post_type": "comparison"
+}

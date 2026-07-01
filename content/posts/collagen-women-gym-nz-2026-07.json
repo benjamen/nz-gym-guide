@@ -1,0 +1,74 @@
+{
+  "title": "Collagen for Women",
+  "short_title": "Collagen Guide",
+  "meta_desc": "Discover the benefits of collagen supplements for women who work out in NZ, including joint and skin health, and learn how to choose the best collagen supplement for your needs.",
+  "intro": "As a woman who works out regularly, you're likely no stranger to the importance of nutrition in supporting your fitness goals. One supplement that's gained popularity in recent years is collagen, which can help to improve joint health and skin elasticity. But what does the evidence say, and is it worth adding to your supplement routine?",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is Collagen and What Does it Do?",
+      "body": "Collagen is a type of protein that's found throughout the body, particularly in connective tissue such as skin, bones, and joints. It plays a crucial role in giving structure and strength to these tissues, and can help to reduce the risk of injury and improve recovery after exercise. Some studies have also suggested that collagen supplements can improve skin health, reducing the appearance of fine lines and wrinkles and improving skin elasticity.",
+      "list": [
+        "Improves joint health and reduces injury risk",
+        "Supports skin health and reduces signs of ageing",
+        "May improve muscle mass and strength"
+      ]
+    },
+    {
+      "heading": "Choosing a Collagen Supplement in NZ",
+      "body": "If you're considering adding a collagen supplement to your routine, there are a few things to keep in mind. Look for a supplement that's made from high-quality, grass-fed collagen, and that's free from additives and fillers. Some popular NZ brands include Vital Proteins and NuZest, which offer a range of collagen supplements in various flavours and formats. You can find these products at most health food stores or online, with prices starting from around $30-$40 per month.",
+      "table": {
+        "headers": [
+          "Brand",
+          "Price",
+          "Source"
+        ],
+        "rows": [
+          [
+            "Vital Proteins",
+            "$35/month",
+            "Grass-fed cows"
+          ],
+          [
+            "NuZest",
+            "$40/month",
+            "Grass-fed cows"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Food Sources of Collagen",
+      "body": "While supplements can be a convenient way to boost your collagen intake, it's also possible to get enough collagen through your diet. Foods that are rich in collagen include bone broth, gelatine, and fatty fish such as salmon and sardines. You can also increase your collagen production by consuming foods that are high in vitamin C, such as citrus fruits and leafy greens, as this vitamin is essential for collagen synthesis.",
+      "list": [
+        "Bone broth",
+        "Gelatine",
+        "Fatty fish such as salmon and sardines",
+        "Vitamin C-rich foods such as citrus fruits and leafy greens"
+      ]
+    },
+    {
+      "heading": "When to Take Collagen",
+      "body": "The best time to take collagen will depend on your individual needs and goals. If you're looking to improve joint health and reduce injury risk, you may want to take collagen before or after your workout. If you're looking to improve skin health, you may want to take collagen at night, as this can help to support collagen production while you sleep.",
+      "cta": {
+        "text": "Compare NZ gym membership options and find a gym that suits your needs",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "Collagen supplements can be a useful addition to your fitness routine, particularly if you're looking to improve joint health and skin elasticity. By choosing a high-quality supplement and combining it with a balanced diet and regular exercise, you can help to support your overall health and wellbeing. To learn more about how to choose the best gym and fitness programme for your needs, take our quiz or compare NZ gym membership options.",
+      "cta": {
+        "text": "Take our quiz to find a gym and fitness programme that suits your needs",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "collagen-women-gym-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-02",
+  "post_type": "nutrition"
+}

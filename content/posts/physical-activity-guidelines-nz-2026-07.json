@@ -1,0 +1,61 @@
+{
+  "title": "NZ Exercise Guidelines",
+  "short_title": "Exercise Guide",
+  "meta_desc": "Discover the Ministry of Health's 2026 physical activity guidelines for adults, children, and older New Zealanders, and learn how to get started with exercise and gym memberships.",
+  "intro": "Regular physical activity is essential for maintaining good health, and the Ministry of Health has guidelines to help New Zealanders get moving. With approximately 1 in 3 New Zealand adults being obese, and physical inactivity contributing to major health risks, it's crucial to understand how much exercise you need. The Ministry of Health recommends at least 150 minutes of moderate-intensity aerobic physical activity or 75 minutes of vigorous-intensity aerobic physical activity per week for adults.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Ministry of Health Guidelines for Adults",
+      "body": "The Ministry of Health recommends that adults aim for at least 150 minutes of moderate-intensity aerobic physical activity or 75 minutes of vigorous-intensity aerobic physical activity per week. This can be achieved through activities such as brisk walking, cycling, or swimming. Additionally, adults should incorporate muscle-strengthening activities into their routine at least two times per week, focusing on major muscle groups. Gyms can provide an ideal environment for meeting these guidelines, with access to a range of equipment and group fitness classes.",
+      "list": [
+        "Brisk walking",
+        "Cycling",
+        "Swimming",
+        "Muscle-strengthening activities"
+      ]
+    },
+    {
+      "heading": "Guidelines for Children and Older New Zealanders",
+      "body": "For children, the Ministry of Health recommends at least 60 minutes of moderate to vigorous physical activity per day, including activities that promote bone health and muscle strength. Older New Zealanders should aim for at least 150 minutes of moderate-intensity aerobic physical activity per week, with a focus on activities that promote balance and flexibility to reduce the risk of falls. Exercise programmes, such as those offered through gyms and community centres, can be tailored to meet the needs of older adults.",
+      "list": [
+        "Activities that promote bone health",
+        "Activities that promote muscle strength",
+        "Balance exercises",
+        "Flexibility exercises"
+      ]
+    },
+    {
+      "heading": "Getting Started with Exercise",
+      "body": "Getting started with exercise can seem daunting, but it doesn't have to be. Begin by scheduling physical activity into your daily routine, and start with small, achievable goals. You can also consider consulting with a healthcare professional or fitness expert to create a personalised exercise programme. Many gyms offer introductory sessions or trials, allowing you to experience their facilities and classes before committing to a membership.",
+      "list": [
+        "Schedule physical activity into your daily routine",
+        "Start with small, achievable goals",
+        "Consult with a healthcare professional or fitness expert"
+      ]
+    },
+    {
+      "heading": "How Gyms Can Help",
+      "body": "Gyms can provide a supportive environment for meeting the Ministry of Health's physical activity guidelines. With access to a range of equipment, group fitness classes, and personal training sessions, gyms can help you stay motivated and accountable. Additionally, many gyms offer subsidised membership options through Exercise NZ's subsidised gym scheme, which can provide 40-70% off membership prices. You can compare gym options and find a gym that suits your needs and budget on our website.",
+      "cta": {
+        "text": "Compare gyms and find a subsidised membership option",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Take the Next Step",
+      "body": "Now that you know more about the Ministry of Health's physical activity guidelines, it's time to take the next step. You can start by taking our quiz to determine your current fitness level and receive personalised recommendations for getting started with exercise.",
+      "cta": {
+        "text": "Take our fitness quiz",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "physical-activity-guidelines-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-02",
+  "post_type": "health_info"
+}

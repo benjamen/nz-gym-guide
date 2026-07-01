@@ -1,0 +1,96 @@
+{
+  "title": "Swimming for Fitness",
+  "short_title": "Swim Fit",
+  "meta_desc": "Discover the best NZ gyms with pools, compare costs and learn swimming workout routines for a fitter you, with gym access from $15/week, and Exercise NZ's subsidised scheme",
+  "intro": "Swimming is a low-impact exercise ideal for New Zealanders of all ages and fitness levels. Many NZ gyms offer pool facilities, including YMCA, Les Mills, and council pools. With prices starting from $15/week, it's an affordable way to stay fit and healthy. Exercise NZ's subsidised gym scheme can also help you save 40-70% on gym memberships.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Benefits of Swimming for Fitness",
+      "body": "Swimming is a great workout for the whole body, improving cardiovascular health, strengthening muscles, and increasing flexibility. It's also low-impact, making it easier on the joints compared to high-impact activities like running. In New Zealand, swimming is a popular recreational activity, with many gyms and pools offering swim classes, aqua aerobics, and lap swimming.",
+      "list": [
+        "Improves cardiovascular health",
+        "Strengthens muscles",
+        "Increases flexibility",
+        "Low-impact, easy on joints"
+      ]
+    },
+    {
+      "heading": "NZ Gyms with Pools",
+      "body": "Several NZ gym chains have pools, including Les Mills, City Fitness, and Jetts. YMCA and council pools are also popular options. When choosing a gym with a pool, consider factors like location, cost, and the types of swim classes and facilities offered. Some gyms may offer additional amenities like sauna, steam room, or hot tub.",
+      "table": {
+        "headers": [
+          "Gym Chain",
+          "Pool Facilities",
+          "Cost (per week)"
+        ],
+        "rows": [
+          [
+            "Les Mills",
+            "25m pool, swim classes, aqua aerobics",
+            "$25"
+          ],
+          [
+            "City Fitness",
+            "20m pool, lap swimming, sauna",
+            "$20"
+          ],
+          [
+            "YMCA",
+            "25m pool, swim classes, hot tub",
+            "$15"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Swimming Workout Routines",
+      "body": "To get the most out of your swimming workout, it's essential to have a structured routine. Start with warm-up exercises like leg swings and arm circles, followed by laps of freestyle, backstroke, or breaststroke. You can also incorporate interval training, sprints, and drills to improve technique and increase intensity. Many NZ gyms offer swim classes and personal training sessions to help you develop a customized workout routine.",
+      "list": [
+        "Warm-up exercises (5-10 minutes)",
+        "Laps of freestyle, backstroke, or breaststroke (20-30 minutes)",
+        "Interval training, sprints, and drills (10-20 minutes)"
+      ]
+    },
+    {
+      "heading": "Cost Comparison and Subsidies",
+      "body": "The cost of gym memberships with pool access can vary significantly depending on the gym chain, location, and type of membership. Exercise NZ's subsidised gym scheme can help you save 40-70% on gym memberships, making it more affordable to stay fit and healthy. Be sure to check the prices and membership options at your local gyms to find the best value for your money.",
+      "table": {
+        "headers": [
+          "Gym Chain",
+          "Membership Type",
+          "Cost (per week)",
+          "Subsidy"
+        ],
+        "rows": [
+          [
+            "Les Mills",
+            "Pool membership",
+            "$25",
+            "40% off with Exercise NZ"
+          ],
+          [
+            "City Fitness",
+            "Gym and pool membership",
+            "$30",
+            "50% off with Exercise NZ"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Get Started with Swimming for Fitness",
+      "body": "With so many NZ gyms offering pool facilities and swimming workout routines, it's easy to get started with swimming for fitness. Compare gym memberships and prices, and consider Exercise NZ's subsidised gym scheme to save money. Visit our website to learn more about the best NZ gyms with pools and to find a gym that suits your needs and budget.",
+      "cta": {
+        "text": "Compare NZ Gyms with Pools",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "swimming-fitness-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-02",
+  "post_type": "exercise_tips"
+}
