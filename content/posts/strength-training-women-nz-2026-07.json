@@ -1,0 +1,59 @@
+{
+  "title": "Women's Strength Training",
+  "short_title": "Strength Training",
+  "meta_desc": "Discover the benefits of strength training for women in NZ, debunking common myths and finding the best gyms for progressive overload",
+  "intro": "Strength training is often misunderstood, especially among women. However, research shows that it's a crucial component of a well-rounded fitness programme, helping to increase bone density, boost metabolism, and enhance overall health. In this guide, we'll explore the benefits of strength training for women in NZ and provide actionable advice on getting started.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Busting Common Myths",
+      "body": "One of the primary barriers to women engaging in strength training is the misconception that it will lead to bulky muscles. However, this is not the case. When done correctly, strength training can help women achieve a lean, toned physique. Another common myth is that strength training is only for young people, but research shows that it's beneficial for women of all ages, helping to prevent osteoporosis and maintain functional ability.",
+      "list": [
+        "Strength training won't make you bulky",
+        "It's beneficial for women of all ages",
+        "Helps increase bone density"
+      ]
+    },
+    {
+      "heading": "Progressive Overload",
+      "body": "Progressive overload is a crucial component of strength training, involving the gradual increase of weight or resistance to challenge the muscles and promote growth. This can be achieved through various means, such as increasing the weight lifted, reducing rest time between sets, or changing the exercise altogether. In NZ, gyms like Les Mills and City Fitness offer a wide range of free weights and resistance machines, making it easier to incorporate progressive overload into your routine.",
+      "list": [
+        "Increase weight or resistance",
+        "Reduce rest time between sets",
+        "Change exercises regularly"
+      ]
+    },
+    {
+      "heading": "Choosing the Right Gym",
+      "body": "When it comes to choosing a gym for strength training, it's essential to consider the availability of free weights and resistance machines. Contours gyms, which are designed specifically for women, often have a limited selection of weights and machines, which can limit progressive overload. In contrast, standard gyms like Jetts and Anytime Fitness typically have a more extensive range of equipment, making them a better option for women who want to focus on strength training.",
+      "list": [
+        "Consider the availability of free weights and machines",
+        "Contours gyms may have limited equipment",
+        "Standard gyms often have a wider range of equipment"
+      ]
+    },
+    {
+      "heading": "Getting Started",
+      "body": "If you're new to strength training, it's essential to start with a solid foundation. This includes learning proper form and technique, as well as beginning with lighter weights and gradually increasing the load. Many NZ gyms, including Les Mills and City Fitness, offer group fitness classes or personal training sessions that can help you get started. Additionally, Exercise NZ's subsidised gym scheme can provide 40-70% off gym memberships, making it more affordable to join a gym and start your strength training journey.",
+      "list": [
+        "Learn proper form and technique",
+        "Start with lighter weights and progress gradually",
+        "Consider group fitness classes or personal training"
+      ]
+    },
+    {
+      "heading": "Next Steps",
+      "body": "Now that you've learned about the benefits of strength training for women in NZ, it's time to take the next step. Compare gyms in your area and find one that suits your needs and budget. You can also take our quiz to determine which type of gym is best for you.",
+      "cta": {
+        "text": "Compare gyms or take our quiz",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "strength-training-women-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-03",
+  "post_type": "exercise_tips"
+}
