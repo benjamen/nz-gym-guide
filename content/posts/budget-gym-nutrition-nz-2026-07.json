@@ -1,0 +1,60 @@
+{
+  "title": "Eating for Gym",
+  "short_title": "Gym Food",
+  "meta_desc": "Eating for the gym on a NZ budget under $100/week, with practical nutrition advice and meal plans using affordable NZ protein sources and supermarket staples.",
+  "intro": "As a gym-goer in New Zealand, eating a balanced diet that meets your protein targets is crucial for muscle growth and recovery. However, with the rising cost of living, it can be challenging to stick to a meal plan without breaking the bank. The good news is that it's possible to eat for the gym on a budget of under $100 per week, using affordable protein sources and supermarket staples available at NZ supermarkets like Pak'nSave.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Understanding Your Protein Needs",
+      "body": "To determine your protein needs, you'll need to consider your weight, activity level, and fitness goals. A general rule of thumb is to aim for 1.2-1.6 grams of protein per kilogram of body weight per day. For example, if you weigh 70kg, you'll need around 84-112g of protein per day. You can get this from a combination of whole foods and supplements, such as whey protein or plant-based alternatives like pea or rice protein.",
+      "list": [
+        "Calculate your daily protein needs based on your weight and activity level",
+        "Aim to include a source of protein at every meal",
+        "Consider adding a protein supplement to your routine if you're struggling to meet your targets"
+      ]
+    },
+    {
+      "heading": "Affordable NZ Protein Sources",
+      "body": "There are many affordable protein sources available at NZ supermarkets. Some examples include chicken breast, lean beef, fish, eggs, and legumes like lentils and chickpeas. You can also find affordable protein-rich foods like Greek yoghurt and cottage cheese at most supermarkets. When shopping, look for specials and discounts on these items to stock up and save money.",
+      "list": [
+        "Chicken breast: $8-10 per kg",
+        "Lean beef: $10-12 per kg",
+        "Canned fish: $2-3 per can",
+        "Eggs: $1.50-2 per dozen"
+      ]
+    },
+    {
+      "heading": "Meal Planning on a Budget",
+      "body": "To eat for the gym on a budget of under $100 per week, you'll need to plan your meals carefully. Start by making a list of the protein sources and other ingredients you need, and then look for recipes that use these ingredients. Some examples of budget-friendly meals include stir-fries, omelettes, and soups. You can also use leftovers to make new meals and reduce food waste.",
+      "list": [
+        "Plan your meals for the week ahead of time",
+        "Make a shopping list and stick to it",
+        "Cook in bulk and use leftovers to make new meals"
+      ]
+    },
+    {
+      "heading": "Putting it All Together",
+      "body": "Eating for the gym on a budget of under $100 per week requires some planning and creativity, but it's definitely possible. By understanding your protein needs, choosing affordable protein sources, and planning your meals carefully, you can stay on track with your fitness goals without breaking the bank. Don't forget to also take advantage of Exercise NZ's subsidised gym scheme, which can help you save 40-70% on gym membership.",
+      "cta": {
+        "text": "Compare gym prices and find a gym near you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Get Started Today",
+      "body": "Now that you have the knowledge and tools to eat for the gym on a budget, it's time to get started. Take the first step by planning your meals for the week ahead and making a shopping list. Don't forget to also check out our quiz to find the best gym for your needs and budget.",
+      "cta": {
+        "text": "Take our gym quiz to find your perfect match",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "budget-gym-nutrition-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-04",
+  "post_type": "nutrition"
+}

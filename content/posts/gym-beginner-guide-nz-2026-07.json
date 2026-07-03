@@ -1,0 +1,60 @@
+{
+  "title": "NZ Gym Starter",
+  "short_title": "Gym Starter",
+  "meta_desc": "Get started with gym-going in NZ with our beginner's guide, covering what to expect, etiquette, and structuring your first 4 weeks of workouts with tips for City Fitness, Les Mills, and more.",
+  "intro": "Starting at the gym can be intimidating, especially for a first-timer. Knowing what to expect, how to navigate gym etiquette, and how to structure your workouts will make your journey smoother and more productive. This guide is designed to help you get started with confidence.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "What to Expect at the Gym",
+      "body": "When you first walk into a gym in NZ, such as City Fitness or Les Mills, you'll likely be greeted by a receptionist or a personal trainer who can give you a tour of the facilities. Most gyms offer a variety of equipment, including treadmills, free weights, and strength training machines. You'll also find group fitness classes and personal training sessions available. It's a good idea to ask about the gym's layout and any specific rules or policies they may have.",
+      "list": [
+        "Familiarize yourself with the gym's equipment and facilities",
+        "Ask about group fitness classes and personal training sessions",
+        "Understand the gym's rules and policies"
+      ]
+    },
+    {
+      "heading": "Gym Etiquette for Beginners",
+      "body": "Gym etiquette is essential to ensure a comfortable and safe environment for everyone. This includes re-racking your weights after use, wiping down equipment after your workout, and respecting other gym-goers' personal space. Les Mills and other NZ gyms often have signs reminding members of these etiquette rules. Following these guidelines will help you fit in and make the most of your gym experience.",
+      "list": [
+        "Re-rack your weights after use",
+        "Wipe down equipment after your workout",
+        "Respect other gym-goers' personal space"
+      ]
+    },
+    {
+      "heading": "What to Bring to the Gym",
+      "body": "Before heading to the gym, make sure you have the essentials. This includes comfortable workout clothes, a water bottle, a towel, and a lock for your locker. Some gyms, like Jetts and Anytime Fitness, offer 24/7 access, so it's also a good idea to bring a phone charger if you plan on working out late at night or early in the morning.",
+      "list": [
+        "Comfortable workout clothes",
+        "Water bottle",
+        "Towel",
+        "Lock for your locker"
+      ]
+    },
+    {
+      "heading": "Structuring Your First 4 Weeks",
+      "body": "For your first four weeks, focus on getting familiar with the gym and its equipment. Start with short workouts, 2-3 times a week, and gradually increase the duration and frequency. Consider taking advantage of group fitness classes or personal training sessions offered by gyms like City Fitness. Exercise NZ's subsidised gym scheme can also help make your gym membership more affordable, with discounts of 40-70% off.",
+      "list": [
+        "Start with short workouts, 2-3 times a week",
+        "Gradually increase workout duration and frequency",
+        "Consider group fitness classes or personal training"
+      ]
+    },
+    {
+      "heading": "Getting the Most Out of Your Gym Experience",
+      "body": "To get the most out of your gym experience, it's essential to find a gym that fits your needs and budget. Consider factors like location, hours of operation, and the types of equipment and classes offered. With the right gym and a solid workout plan, you'll be on your way to achieving your fitness goals in no time.",
+      "cta": {
+        "text": "Compare NZ Gyms and Find Your Perfect Fit",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "gym-beginner-guide-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-04",
+  "post_type": "exercise_tips"
+}
