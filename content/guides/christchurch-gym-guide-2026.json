@@ -2,77 +2,76 @@
   "slug": "christchurch-gym-guide-2026",
   "short_title": "Christchurch Gyms",
   "title": "Best Gyms in Christchurch 2026 — Prices, Locations and Honest Reviews",
-  "meta_desc": "Find the best gyms in Christchurch with prices from $15/week, compare 24/7 options and facilities",
-  "intro": "Christchurch's gym market has seen significant growth since the post-quake rebuild, with City Fitness dominating the scene. However, other players like Anytime Fitness and Jetts are offering competitive pricing and 24/7 access. With prices starting from $15/week, Christchurch residents have a wide range of options to choose from.",
+  "meta_desc": "Christchurch gym prices and reviews. Find the best gym in Christchurch",
+  "intro": "Christchurch's gym market has experienced significant growth since the post-quake rebuild, with City Fitness dominating the scene. With over 10 locations across the city, Kiwis have numerous options to choose from. However, with so many gyms to choose from, it can be overwhelming to decide which one is the best value for money.",
   "updated": "July 2026",
   "reading_time": 7,
   "sections": [
     {
+      "heading": "Overview of Christchurch Gym Market",
+      "body": "The Christchurch gym market has seen a surge in new facilities and renovated existing ones, providing a wide range of options for gym-goers. City Fitness, Les Mills, and Jetts are some of the popular franchises with multiple locations across the city. With prices starting from $14.95 per week, there's something for every budget."
+    },
+    {
       "heading": "City Fitness Christchurch",
-      "body": "City Fitness has multiple locations in Christchurch, including the CBD, Riccarton, and Papanui. Their membership prices start from $24.95/week for a 12-month contract, with a $99 joining fee. They offer a range of group fitness classes, personal training, and state-of-the-art equipment."
+      "body": "City Fitness has the largest presence in Christchurch, with 11 locations across the city. Their membership prices start from $19.95 per week, with a 12-month contract. They also offer a $29.95 per week option with no contract, providing more flexibility for members."
     },
     {
       "heading": "24/7 Gym Options in Christchurch",
       "list": [
-        "Anytime Fitness: $15/week for a 12-month contract",
-        "Jetts: $12.95/week for a 12-month contract",
-        "Snap Fitness: $14.95/week for a 6-month contract"
+        "Jetts Christchurch: $14.95 per week, 12-month contract",
+        "Anytime Fitness Christchurch: $29.95 per week, no contract",
+        "Snap Fitness Christchurch: $24.95 per week, 6-month contract"
       ]
     },
     {
-      "heading": "Price Comparison",
+      "heading": "Price Comparison of Christchurch Gyms",
       "table": {
         "headers": [
           "Gym",
           "Weekly Price",
-          "Contract Term",
-          "Joining Fee"
+          "Contract Term"
         ],
         "rows": [
           [
             "City Fitness",
-            "$24.95",
-            "12 months",
-            "$99"
-          ],
-          [
-            "Anytime Fitness",
-            "$15",
-            "12 months",
-            "$0"
+            "$19.95",
+            "12 months"
           ],
           [
             "Jetts",
-            "$12.95",
-            "12 months",
-            "$0"
+            "$14.95",
+            "12 months"
+          ],
+          [
+            "Anytime Fitness",
+            "$29.95",
+            "No contract"
           ],
           [
             "Snap Fitness",
-            "$14.95",
-            "6 months",
-            "$50"
+            "$24.95",
+            "6 months"
           ]
         ]
       }
     },
     {
       "heading": "Post-Quake Rebuild of Facilities",
-      "body": "The post-quake rebuild has seen a significant investment in new gym facilities in Christchurch. Many gyms now offer modern equipment, spacious workout areas, and a range of amenities such as pools, saunas, and steam rooms."
+      "body": "The rebuild of Christchurch's gym facilities has brought new and improved equipment, as well as expanded group fitness classes. Many gyms now offer specialized classes, such as yoga and Pilates, catering to a wider range of interests and fitness levels."
     },
     {
-      "heading": "Compare Gyms in Christchurch",
+      "heading": "Find the Best Gym for You",
       "cta": {
-        "text": "Compare all gyms in Christchurch",
-        "url": "/compare/christchurch",
+        "text": "Compare Christchurch gyms and find the best deal",
+        "url": "/compare/",
         "affiliate": false
       }
     },
     {
-      "heading": "Get Started with City Fitness",
+      "heading": "More Information on City Fitness Christchurch",
       "cta": {
-        "text": "View City Fitness membership options",
-        "url": "/gym/city-fitness",
+        "text": "Check out our in-depth review of City Fitness",
+        "url": "/gym/city-fitness-christchurch/",
         "affiliate": false
       }
     }
