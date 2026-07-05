@@ -1,0 +1,76 @@
+{
+  "title": "Cheapest Gyms Christchurch",
+  "short_title": "Cheap Gyms",
+  "meta_desc": "Discover the most affordable gyms in Christchurch with no contract options, prices, and compare deals with Exercise NZ subsidy for up to 70% off",
+  "intro": "Christchurch offers a range of affordable gym options with competitive pricing. City Fitness stands out as the cheapest option, while Anytime Fitness provides a no-contract alternative. The Exercise NZ subsidy programme offers the biggest discount available for eligible members.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Most Affordable Options",
+      "body": "City Fitness is the most affordable gym in Christchurch, with a price of $18.99 per week on a month-to-month basis. This deal provides full-service access to their facilities without a long-term contract. Anytime Fitness offers a no-contract option with 24/7 access to over 5,000 clubs worldwide.",
+      "list": [
+        "City Fitness: $18.99/week (month-to-month)",
+        "Anytime Fitness: no-contract option with 24/7 access"
+      ]
+    },
+    {
+      "heading": "No-Contract Alternatives",
+      "body": "For those who prefer flexibility, several gyms in Christchurch offer no-contract options. Anytime Fitness provides 24/7 access to their facilities, while Les Mills has introduced a Flexi Membership with no lock-in contract. Additionally, the Exercise NZ subsidy programme can be used with various gyms, including City Fitness, to receive a discounted membership.",
+      "list": [
+        "Anytime Fitness: 24/7 access, no contract",
+        "Les Mills: Flexi Membership, no lock-in contract"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy Programme",
+      "body": "The Exercise NZ subsidy programme offers the biggest discount available for eligible members, with up to 70% off gym memberships. This programme is available for new members or those who have been inactive for 12 months or more. By combining the subsidy with an affordable gym option, Christchurch residents can significantly reduce their gym membership costs.",
+      "list": [
+        "Up to 70% off gym memberships",
+        "Available for new members or those inactive for 12+ months"
+      ]
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "The following table compares the prices of various gym chains available in Christchurch.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price",
+          "Contract Length"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$18.99/week",
+            "Month-to-month"
+          ],
+          [
+            "Anytime Fitness",
+            "Varies",
+            "No contract"
+          ],
+          [
+            "Les Mills",
+            "Varies",
+            "Flexi Membership (no lock-in)"
+          ],
+          [
+            "Snap Fitness",
+            "6 weeks free, then varies",
+            "Varies"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "cheapest-gyms-christchurch-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-06",
+  "post_type": "budget_guide"
+}

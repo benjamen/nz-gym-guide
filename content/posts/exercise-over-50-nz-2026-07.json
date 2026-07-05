@@ -1,0 +1,55 @@
+{
+  "title": "Fit After 50",
+  "short_title": "Fit at 50",
+  "meta_desc": "Get fit after 50 in NZ with safe exercise, community-focused gyms, and age-friendly classes. Learn how to stay healthy and active with our guide.",
+  "intro": "As we age, regular exercise becomes crucial for maintaining our physical and mental wellbeing. In New Zealand, around 70% of adults aged 50-64 are not meeting the recommended physical activity guidelines, according to the Ministry of Health. Staying active can help prevent chronic diseases, such as diabetes and heart disease, and improve overall quality of life. For those over 50, finding a safe and enjoyable exercise programme is essential.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Safe Exercise for Over 50s",
+      "body": "It's essential to consult with a doctor before starting any new exercise programme, especially if you have any health concerns. Many gyms in New Zealand offer joint-friendly options, such as water-based classes or low-impact aerobics, which can be modified to suit individual needs. Research has shown that exercise programmes that incorporate strength training, flexibility, and balance exercises can help prevent falls and injuries in older adults.",
+      "list": [
+        "Consult with a doctor before starting a new exercise programme",
+        "Choose joint-friendly options, such as water-based classes or low-impact aerobics",
+        "Incorporate strength training, flexibility, and balance exercises into your routine"
+      ]
+    },
+    {
+      "heading": "Community-Focused Gyms",
+      "body": "Les Mills also offers age-friendly classes, such as BodyBalance and BodyPump, which can be modified to suit individual needs. Contours, a women's-only gym, provides a safe and supportive environment for women to exercise and socialise."
+    },
+    {
+      "heading": "Benefits of Gym Membership",
+      "body": "Having a gym membership can provide motivation, accountability, and access to a range of exercise equipment and classes. Many gyms in New Zealand offer personalised fitness programmes, which can help older adults set and achieve their fitness goals. With a gym membership, you can also track your progress, attend group fitness classes, and connect with like-minded individuals who share similar fitness goals.",
+      "list": [
+        "Access to a range of exercise equipment and classes",
+        "Personalised fitness programmes",
+        "Motivation and accountability",
+        "Opportunity to connect with like-minded individuals"
+      ]
+    },
+    {
+      "heading": "Getting Started",
+      "body": "If you're over 50 and looking to get fit, it's essential to start slowly and find an exercise programme that suits your needs and abilities. You can start by visiting our website and using our gym comparison tool to find a gym that offers age-friendly classes and joint-friendly options. You can also take our fitness quiz to determine your fitness level and get personalised recommendations for exercise programmes and gyms.",
+      "cta": {
+        "text": "Take our fitness quiz",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Compare Gyms",
+      "body": "To find a gym that meets your needs and budget, you can compare gyms on our website. We provide a range of filters, including location, price, and amenities, to help you find the perfect gym. You can also read reviews from other gym-goers to get a sense of the gym's community and atmosphere.",
+      "cta": {
+        "text": "Compare gyms",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-over-50-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-06",
+  "post_type": "health_info"
+}
