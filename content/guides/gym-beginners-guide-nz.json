@@ -1,77 +1,72 @@
 {
   "slug": "gym-beginners-guide-nz",
-  "short_title": "NZ Gym Guide",
-  "title": "Joining a Gym for the First Time in NZ — 2026 Guide",
-  "meta_desc": "Joining a gym in NZ for the first time? Compare prices from $15/week, learn what to expect on day one, and find the best starter gyms for beginners.",
-  "intro": "With gym memberships starting from $15 per week, joining a gym in New Zealand is more accessible than ever. However, choosing the right gym can be overwhelming, especially for first-timers. This guide will help you navigate the process and find the best value for your fitness goals.",
-  "updated": "May 2026",
+  "short_title": "Gym Guide NZ",
+  "title": "Joining a Gym for the First Time in NZ — What to Expect and How to Choose",
+  "meta_desc": "Joining a gym in NZ? Learn what to expect, costs and how to choose the best gym for you",
+  "intro": "Joining a gym for the first time can be daunting, especially with numerous options available in New Zealand. With prices ranging from $10 to $50 per week, it's essential to consider your budget and fitness goals before making a decision. For example, a basic membership at Jetts Fitness costs around $14.95 per week, while a premium membership at Les Mills can cost up to $34.95 per week.",
+  "updated": "July 2026",
   "reading_time": 7,
   "sections": [
     {
       "heading": "What to Look for in a Gym",
-      "body": "When searching for a gym, consider factors such as location, operating hours, equipment, and group fitness classes. Look for gyms with convenient locations, such as Les Mills with over 40 locations across New Zealand, or Jetts with 24/7 access to over 20 gyms nationwide."
+      "body": "When choosing a gym, consider factors such as location, equipment, group fitness classes, and personal training options. It's also essential to read reviews and ask about contract terms, as some gyms may have a minimum commitment period, such as 12 months at City Fitness, while others may offer flexible, month-to-month contracts, like those at Anytime Fitness."
     },
     {
       "heading": "Trial Passes and Induction Sessions",
-      "body": "Most gyms offer trial passes or guest passes, allowing you to try out their facilities before committing to a membership. Additionally, many gyms provide induction sessions, which can range from a simple equipment orientation to a personalized fitness assessment. For example, Anytime Fitness offers a free 7-day trial pass, while CityFitness provides a complimentary induction session with a personal trainer."
+      "body": "Many gyms in NZ offer trial passes or free induction sessions, allowing you to try out their facilities and services before committing to a membership. For instance, Snap Fitness offers a 7-day free trial, while Workout Wellington provides a complimentary induction session with a personal trainer."
     },
     {
-      "heading": "Contract Terms and Pricing",
+      "heading": "Gym Membership Price Comparison",
       "table": {
         "headers": [
           "Gym",
           "Weekly Price",
+          "Monthly Price",
           "Contract Term"
         ],
         "rows": [
           [
-            "Les Mills",
-            "$19.95",
-            "12 months"
-          ],
-          [
-            "Jetts",
+            "Jetts Fitness",
             "$14.95",
+            "$64.95",
             "No contract"
           ],
           [
-            "Anytime Fitness",
-            "$15.95",
-            "6 months"
+            "Les Mills",
+            "$24.95",
+            "$104.95",
+            "12 months"
           ],
           [
-            "CityFitness",
-            "$24.95",
+            "Anytime Fitness",
+            "$19.95",
+            "$79.95",
+            "Month-to-month"
+          ],
+          [
+            "City Fitness",
+            "$29.95",
+            "$129.95",
             "12 months"
           ]
         ]
       }
     },
     {
-      "heading": "Choosing the Best Starter Gym",
-      "body": "For those new to gym-going, consider starter gyms with affordable prices and flexible contract terms. Jetts and Anytime Fitness are popular options, with no contract or 6-month contract terms, respectively. Additionally, both gyms offer 24/7 access to their facilities, allowing you to work out at times that suit your schedule."
-    },
-    {
-      "heading": "Getting Started",
+      "heading": "Best Starter Gyms in NZ",
+      "body": "If you're new to working out or looking for a budget-friendly option, consider gyms like Jetts Fitness or Anytime Fitness, which offer affordable prices and flexible contracts. Alternatively, if you're willing to invest in a premium experience, Les Mills or City Fitness may be a better fit, with their wide range of group classes and state-of-the-art equipment.",
       "cta": {
-        "text": "Compare NZ gym prices and contracts",
+        "text": "Compare gym prices and find the best deal for you",
         "url": "/compare/",
         "affiliate": false
       }
     },
     {
-      "heading": "Popular Gyms for Beginners",
-      "list": [
-        "Jetts: $14.95/week, no contract, 24/7 access",
-        "Anytime Fitness: $15.95/week, 6-month contract, 24/7 access",
-        "Les Mills: $19.95/week, 12-month contract, group fitness classes"
-      ]
-    },
-    {
-      "heading": "Next Steps",
+      "heading": "Avoiding Overselling Yourself on a Contract",
+      "body": "It's crucial to carefully review the contract terms before signing up for a gym membership. Be aware of any additional fees, such as joining fees or cancellation fees, and make sure you understand the minimum commitment period. For example, some gyms may charge a $50 joining fee, while others may have a $100 cancellation fee if you terminate your contract early.",
       "cta": {
-        "text": "Learn more about Jetts gym membership",
-        "url": "/gym/jettss-new-zealand/",
+        "text": "Learn more about Jetts Fitness membership options",
+        "url": "/gym/jetts-fitness/",
         "affiliate": false
       }
     }
