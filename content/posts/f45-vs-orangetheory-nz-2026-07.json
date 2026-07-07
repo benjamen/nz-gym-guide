@@ -1,0 +1,70 @@
+{
+  "title": "F45 vs Orangetheory",
+  "short_title": "F45 or OTF",
+  "meta_desc": "Compare F45 and Orangetheory in NZ. Discover which HIIT studio suits your fitness goals, budget, and preferences. Get the best deals and find your ideal gym.",
+  "intro": "High-Intensity Interval Training (HIIT) has taken New Zealand by storm, with F45 and Orangetheory being two of the most popular options. Both offer unique workout formats, but which one is right for you? In this guide, we'll break down the key differences between F45 and Orangetheory, including format, price, results, community, and NZ locations.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "What is F45 and Orangetheory?",
+      "body": "F45 is a functional training programme that combines cardio and strength exercises in a high-energy, team-based environment. Orangetheory, on the other hand, focuses on heart-rate monitored workouts that aim to push your body to its limits. Both programmes offer a variety of classes, but F45 tends to have a more diverse range of workouts, including strength training, cardio, and hybrid classes. Orangetheory, by contrast, has a more consistent format across its classes.",
+      "list": [
+        "F45: functional training, team-based, diverse classes",
+        "Orangetheory: heart-rate monitored, consistent format"
+      ]
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "The cost of F45 and Orangetheory can vary depending on the location and membership package. However, on average, F45 tends to be slightly more affordable, with prices starting from around $25 per week. Orangetheory, by contrast, typically costs between $30-$40 per week. It's worth noting that some NZ gym chains, such as City Fitness and Les Mills, offer similar HIIT classes at a lower cost. Additionally, Exercise NZ's subsidised gym scheme can provide discounts of up to 70% off for eligible members.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per week",
+          "Contract length"
+        ],
+        "rows": [
+          [
+            "F45",
+            "$25-$35",
+            "No contract"
+          ],
+          [
+            "Orangetheory",
+            "$30-$40",
+            "No contract"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Results and Community",
+      "body": "Both F45 and Orangetheory have a strong focus on community and accountability, which can be a key factor in achieving your fitness goals. F45, in particular, has a reputation for its supportive and motivating environment, with members often forming close bonds with their classmates. Orangetheory, on the other hand, has a more individualised approach, with members wearing heart-rate monitors to track their progress. In terms of results, both programmes can be effective for weight loss and improving cardiovascular fitness, but F45 may have a slight edge when it comes to building strength and muscle.",
+      "list": [
+        "F45: supportive community, motivating environment",
+        "Orangetheory: individualised approach, heart-rate monitoring"
+      ]
+    },
+    {
+      "heading": "Which Type of Person Suits Each Programme?",
+      "body": "F45 tends to suit people who enjoy a variety of workouts and thrive in a team-based environment. It's also a good option for those who are looking for a more affordable HIIT programme. Orangetheory, on the other hand, is better suited to individuals who prefer a more structured and consistent workout format. It's also a good choice for those who are highly motivated and enjoy tracking their progress through heart-rate monitoring.",
+      "list": [
+        "F45: variety-seekers, team-players, budget-conscious",
+        "Orangetheory: structure-lovers, progress-trackers, motivated individuals"
+      ]
+    },
+    {
+      "heading": "NZ Locations and Conclusion",
+      "body": "Both F45 and Orangetheory have a strong presence in New Zealand, with multiple locations throughout the country. F45 has studios in major cities such as Auckland, Wellington, and Christchurch, while Orangetheory has a slightly smaller but still significant presence. Ultimately, the choice between F45 and Orangetheory will depend on your individual preferences and fitness goals. We recommend trying out both programmes to see which one works best for you.",
+      "cta": {
+        "text": "Compare gym prices and find your ideal HIIT studio",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "f45-vs-orangetheory-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-08",
+  "post_type": "exercise_tips"
+}

@@ -1,0 +1,54 @@
+{
+  "title": "NZ Gym Supplements Guide",
+  "short_title": "Supplements",
+  "meta_desc": "Discover what gym supplements work, evidence-based advice on creatine, caffeine and protein powder, and how to save money with NZ brands and gym memberships",
+  "intro": "As a gym-goer in New Zealand, you're likely considering supplements to enhance your workout routine. With the increasing popularity of fitness, the supplement market has grown significantly. However, it's essential to separate fact from fiction and understand what works and what doesn't. According to the New Zealand Ministry of Health, around 45% of adults in NZ do not meet the recommended physical activity levels, highlighting the importance of a well-structured fitness programme.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What Works: Evidence-Based Supplements",
+      "body": "Research suggests that creatine, caffeine, and protein powder can be effective supplements for gym-goers. Creatine can increase muscle strength and endurance, while caffeine can enhance alertness and performance. Protein powder can help with muscle recovery and growth. When choosing a supplement, consider the ingredient quality, manufacturing process, and scientific evidence supporting its claims. NZ brands such as Horleys and Balance offer high-quality supplements that are backed by research.",
+      "list": [
+        "Creatine: increases muscle strength and endurance",
+        "Caffeine: enhances alertness and performance",
+        "Protein powder: aids in muscle recovery and growth"
+      ]
+    },
+    {
+      "heading": "What Doesn't Work: Separating Fact from Fiction",
+      "body": "Additionally, the New Zealand Ministry of Health recommends at least 150 minutes of moderate-intensity physical activity or 75 minutes of vigorous-intensity physical activity per week. A gym membership can provide you with the necessary resources and motivation to meet these guidelines."
+    },
+    {
+      "heading": "Saving Money on Supplements and Gym Memberships",
+      "body": "While supplements can be beneficial, they can also be expensive. To save money, consider buying in bulk, looking for discounts, and choosing NZ brands that offer high-quality products at affordable prices. Additionally, take advantage of Exercise NZ's subsidised gym scheme to reduce your gym membership costs. With the money you save, you can invest in a well-structured fitness programme and a balanced diet to support your health and fitness goals.",
+      "list": [
+        "Buy in bulk to reduce costs",
+        "Look for discounts and promotions",
+        "Choose NZ brands for affordable prices"
+      ]
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "In conclusion, when it comes to gym supplements, it's essential to focus on evidence-based advice and separate fact from fiction. By choosing high-quality supplements and taking advantage of NZ brands and gym memberships, you can achieve your health and fitness goals without breaking the bank. To learn more about gym memberships and find the best option for you, visit our website and take our quiz to discover the perfect gym for your needs.",
+      "cta": {
+        "text": "Take our quiz to find your perfect gym",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Compare Gym Memberships",
+      "body": "Alternatively, you can compare gym memberships and find the best option for you. Our website provides a comprehensive guide to NZ gyms, including prices, contract lengths, and amenities. By comparing gyms and finding the one that suits your needs, you can prioritize your fitness and achieve your health and fitness goals.",
+      "cta": {
+        "text": "Compare gym memberships",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "supplements-gym-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-08",
+  "post_type": "health_info"
+}
