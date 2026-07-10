@@ -1,0 +1,55 @@
+{
+  "title": "NZ Gym Supplements",
+  "short_title": "Supps Worth It",
+  "meta_desc": "Discover which gym supplements are worth your money in NZ, with evidence-based advice on creatine, protein, and more. Learn how to save money and get results.",
+  "intro": "As a gym-goer in New Zealand, you're likely no stranger to the supplement aisle at your local supermarket. But with so many options available, it can be hard to know what's worth your money. In this guide, we'll cut through the hype and give you the lowdown on which supplements are actually backed by science. From creatine to protein powder, we'll cover the essentials and help you make informed decisions about your fitness programme.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "The Strong Contenders: Creatine and Caffeine",
+      "body": "When it comes to supplements with strong evidence behind them, creatine and caffeine are two of the top contenders. Creatine, in particular, has been shown to increase strength and endurance in both men and women. You can find creatine supplements at most NZ supermarkets, such as Countdown or New World, for around $20-$30 per kilogram. Caffeine, on the other hand, is a stimulant that can help increase alertness and focus during your workout. You can get your caffeine fix from a cup of coffee or a caffeine supplement, which usually costs between $10-$20 per month.",
+      "list": [
+        "Creatine: increases strength and endurance",
+        "Caffeine: improves alertness and focus"
+      ]
+    },
+    {
+      "heading": "Protein: Food First, Supplements Second",
+      "body": "While protein supplements can be convenient, it's essential to remember that whole foods should always be your first priority. NZ has an abundance of affordable protein sources, such as chicken, fish, and eggs, which can be found at your local supermarket or butcher. If you do choose to use protein supplements, look for a brand that uses high-quality protein sources like whey or casein. Some popular NZ protein powder brands include Balance and Good Health, with prices starting from around $20-$30 per kilogram.",
+      "list": [
+        "Whole foods: chicken, fish, eggs, lean beef",
+        "Protein supplements: whey, casein, plant-based options"
+      ]
+    },
+    {
+      "heading": "The Weak Link: BCAAs and Fat Burners",
+      "body": "BCAAs (branched-chain amino acids) and fat burners are two types of supplements that have gained popularity in recent years. However, the evidence behind their effectiveness is limited. BCAAs may help with muscle recovery, but the benefits are generally small and can be achieved through a balanced diet. Fat burners, on the other hand, are often filled with stimulants and other ingredients that can have negative side effects. Unless you have a specific medical condition, it's best to skip these supplements altogether and focus on a healthy diet and regular exercise programme.",
+      "list": [
+        "BCAAs: limited evidence for muscle recovery",
+        "Fat burners: often contain stimulants and have negative side effects"
+      ]
+    },
+    {
+      "heading": "Getting Started with Supplements",
+      "body": "If you're new to supplements, it's essential to start with the basics. Consider consulting with a healthcare professional or a registered nutritionist to determine the best supplements for your individual needs. You can also check out Exercise NZ's subsidised gym scheme, which offers discounts on gym memberships and supplements for eligible members. Always remember to read the label and follow the recommended dosage to avoid any adverse effects.",
+      "list": [
+        "Consult with a healthcare professional or registered nutritionist",
+        "Check out Exercise NZ's subsidised gym scheme"
+      ]
+    },
+    {
+      "heading": "Next Steps",
+      "body": "Now that you know which supplements are worth your money, it's time to take action. Compare prices and products on our website, or take our quiz to find the best supplements for your fitness goals. Remember to always prioritize a healthy diet and regular exercise programme, and use supplements as a tool to enhance your results.",
+      "cta": {
+        "text": "Compare supplements or take our quiz",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "supplements-worth-it-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-11",
+  "post_type": "nutrition"
+}
