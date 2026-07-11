@@ -2,85 +2,130 @@
   "slug": "classpass-vs-gym-membership-nz",
   "short_title": "ClassPass Savings",
   "title": "ClassPass vs Gym Membership in NZ — Which Saves More Money?",
-  "meta_desc": "ClassPass vs gym membership in NZ: compare real prices, flexibility and savings to work out which option is cheaper for how often you actually train.",
-  "intro": "With ClassPass credits starting from $49 per month for 3 classes, many Kiwis are wondering if it's a more cost-effective alternative to a traditional gym membership. In this guide, we'll compare the costs and benefits of ClassPass and gym memberships in NZ. From Auckland to Wellington, we'll explore the best use cases for each option.",
-  "updated": "June 2026",
+  "meta_desc": "Compare ClassPass prices with gym memberships in NZ, ClassPass vs gym membership",
+  "intro": "Aucklanders can save up to $30 per week by choosing ClassPass over a dedicated gym membership, but is it the best value for everyone? With ClassPass credits starting at $49 per month for 3 credits, the real cost per class can add up quickly. Let's dive into the numbers to find out which option is best for you.",
+  "updated": "July 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "How ClassPass Works",
-      "body": "ClassPass is a subscription-based fitness platform that allows users to attend classes at various studios and gyms across NZ. The platform uses a credits system, where users purchase a set number of credits per month, which can be redeemed for classes at participating studios. The cost of credits varies depending on the location and type of class, but on average, a single class costs between 4-6 credits."
+      "heading": "How ClassPass Works in NZ",
+      "body": "ClassPass is a subscription-based fitness platform that allows users to attend classes at various studios across NZ. The credits system can be confusing, so it's essential to understand how it works before signing up. For example, a yoga class at Yoga House in Wellington may cost 4-6 credits, while a strength training class at F45 Training in Auckland may cost 3-5 credits."
     },
     {
-      "heading": "ClassPass Pricing in NZ",
+      "heading": "ClassPass Prices in NZ",
       "table": {
         "headers": [
           "Plan",
           "Credits",
-          "Price"
+          "Monthly Price"
         ],
         "rows": [
           [
-            "3 classes",
-            "3",
-            "$49/month"
+            "Starter",
+            "3 credits",
+            "$49"
           ],
           [
-            "6 classes",
-            "6",
-            "$89/month"
+            "Core",
+            "8 credits",
+            "$99"
           ],
           [
-            "10 classes",
-            "10",
-            "$139/month"
+            "Pro",
+            "12 credits",
+            "$149"
+          ],
+          [
+            "Elite",
+            "20 credits",
+            "$249"
           ]
         ]
       }
     },
     {
-      "heading": "Gym Membership Prices in NZ",
-      "body": "In comparison, traditional gym memberships in NZ can range from $15 to $50 per week, depending on the gym and contract term. For example, a 12-month contract at Jetts Fitness costs around $19.95 per week, while a 12-month contract at Les Mills costs around $34.95 per week."
+      "heading": "Dedicated Gym Membership Prices in NZ",
+      "table": {
+        "headers": [
+          "Gym",
+          "Weekly Price",
+          "Contract Term"
+        ],
+        "rows": [
+          [
+            "Anytime Fitness",
+            "$21.95",
+            "12 months"
+          ],
+          [
+            "Les Mills",
+            "$34.95",
+            "6 months"
+          ],
+          [
+            "Jetts Fitness",
+            "$16.95",
+            "12 months"
+          ],
+          [
+            "City Fitness",
+            "$29.95",
+            "6 months"
+          ]
+        ]
+      }
     },
     {
-      "heading": "Price Comparison",
+      "heading": "Price Comparison: ClassPass vs Gym Membership",
       "table": {
         "headers": [
           "Option",
-          "Price per month",
-          "Classes per week"
+          "Monthly Price",
+          "Classes per Week"
         ],
         "rows": [
           [
-            "ClassPass (3 classes)",
-            "$49",
-            "0.75"
+            "ClassPass (Core)",
+            "$99",
+            "2-3 classes"
           ],
           [
-            "Jetts Fitness (12-month contract)",
-            "$79.40",
+            "Anytime Fitness",
+            "$89.60",
             "unlimited"
           ],
           [
-            "Les Mills (12-month contract)",
-            "$139.40",
+            "Les Mills",
+            "$139.80",
+            "unlimited"
+          ],
+          [
+            "F45 Training (dedicated membership)",
+            "$150",
             "unlimited"
           ]
         ]
       }
     },
     {
-      "heading": "Best Use Cases",
-      "body": "ClassPass is ideal for those who want to try out different classes and studios without committing to a single gym. On the other hand, a dedicated gym membership is better suited for those who plan to work out regularly and want access to a wide range of equipment and facilities. If you're looking for a more flexible and varied workout routine, ClassPass may be the better option. However, if you're a frequent gym-goer who wants to save money in the long run, a traditional gym membership may be the way to go.",
+      "heading": "Best Use Cases for ClassPass and Gym Membership",
+      "body": "ClassPass is ideal for those who enjoy variety in their workout routine and want to try different classes at various studios. On the other hand, a dedicated gym membership is best for those who prefer a consistent routine and want to use the gym's facilities regularly. For example, if you're a student at the University of Auckland, a gym membership at the university's recreation centre may be a more affordable option."
+    },
+    {
+      "heading": "Compare Gyms and Find the Best Value",
       "cta": {
-        "text": "Compare gym memberships and prices",
+        "text": "Compare gym prices and contracts",
         "url": "/compare/",
         "affiliate": false
       }
     },
     {
-      "heading": "Conclusion",
-      "body": "Ultimately, the decision between ClassPass and a gym membership in NZ depends on your individual fitness goals and preferences. By considering the costs, benefits, and use cases for each option, you can make an informed decision that suits your lifestyle and budget. For more information on gym memberships and prices in NZ, visit our gym guide pages, such as our page on Jetts Fitness: /gym/jetts-fitness/"
+      "heading": "Get Started with ClassPass or a Dedicated Gym Membership",
+      "cta": {
+        "text": "Learn more about Anytime Fitness membership options",
+        "url": "/gym/anytime-fitness/",
+        "affiliate": false
+      }
     }
   ]
 }
