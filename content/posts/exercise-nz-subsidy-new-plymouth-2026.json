@@ -1,0 +1,70 @@
+{
+  "title": "Gym Savings NZ",
+  "short_title": "Gym Discounts",
+  "meta_desc": "Get 40-70% off gym memberships in New Plymouth via Exercise NZ's subsidised scheme, available to eligible individuals, visit exercise.org.nz for more info",
+  "intro": "New Plymouth residents can now enjoy discounted gym memberships thanks to Exercise NZ's subsidised gym scheme. This programme offers 40-70% off regular membership prices for eligible individuals. To learn more, visit the Exercise NZ website at exercise.org.nz.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is the Exercise NZ Subsidised Gym Scheme?",
+      "body": "The Exercise NZ subsidised gym scheme is a programme designed to make gym memberships more affordable for individuals who may not have been able to afford them otherwise. The scheme offers discounts of 40-70% off regular membership prices at participating gyms. To be eligible, individuals must meet certain criteria, such as being a student, senior, or having a low income.",
+      "list": [
+        "Students",
+        "Seniors",
+        "Low-income individuals"
+      ]
+    },
+    {
+      "heading": "Which Gyms in New Plymouth Participate?",
+      "body": "In New Plymouth, several gyms participate in the Exercise NZ subsidised gym scheme, including Contours, Flex Fitness, and Snap Fitness. Anytime Fitness also offers discounted memberships through the scheme. It's essential to check with each gym directly to confirm their participation and to learn more about the discounted membership options available.",
+      "list": [
+        "Contours",
+        "Flex Fitness",
+        "Snap Fitness",
+        "Anytime Fitness"
+      ]
+    },
+    {
+      "heading": "How to Claim Your Discount",
+      "body": "To claim your discount, follow these steps: visit the Exercise NZ website at exercise.org.nz, check your eligibility, select a participating gym, and sign up for a membership. You will need to provide proof of eligibility, such as a student ID or proof of income. Once you've completed the sign-up process, you'll be able to enjoy your discounted gym membership.",
+      "list": [
+        "Visit exercise.org.nz",
+        "Check eligibility",
+        "Select a participating gym",
+        "Sign up for a membership"
+      ]
+    },
+    {
+      "heading": "How Much Can You Save?",
+      "body": "The amount you can save through the Exercise NZ subsidised gym scheme varies depending on the gym and the type of membership you choose. However, with discounts of 40-70% off regular membership prices, you can potentially save hundreds of dollars per year. For example, a membership that normally costs $100 per month could be discounted to $30-60 per month, resulting in significant savings over the course of a year.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Regular Price",
+          "Discounted Price"
+        ],
+        "rows": [
+          [
+            "Contours",
+            "$100/month",
+            "$30-60/month"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Get Started Today",
+      "body": "Don't miss out on this opportunity to save money on your gym membership. Visit the Exercise NZ website at exercise.org.nz to learn more about the subsidised gym scheme and to find a participating gym near you.",
+      "cta": {
+        "text": "Visit Exercise NZ",
+        "url": "https://exercise.org.nz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-nz-subsidy-new-plymouth-2026",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-13",
+  "post_type": "exercise_nz"
+}
