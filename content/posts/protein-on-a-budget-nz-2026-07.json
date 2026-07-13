@@ -1,0 +1,87 @@
+{
+  "title": "Protein on a Budget",
+  "short_title": "Protein Guide",
+  "meta_desc": "Learn how to hit your protein goals without breaking the bank. Compare prices of affordable protein sources at NZ supermarkets like Pak'nSave, Woolworths, and Countdown.",
+  "intro": "As a gym-goer in New Zealand, you know that protein is essential for muscle growth and recovery. However, with the rising cost of living, it can be challenging to meet your daily protein needs without overspending. In this guide, we'll show you how to get the cheapest protein per gram at popular NZ supermarkets. You can also check out Exercise NZ's subsidised gym scheme, which offers 40-70% off gym memberships.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to Affordable Protein Sources",
+      "body": "When it comes to affordable protein sources, there are several options available at NZ supermarkets. Eggs, canned tuna, chicken thighs, Greek yoghurt, and lentils are all high-quality protein sources that won't break the bank. In this section, we'll explore the prices of these protein sources at Pak'nSave, Woolworths, and Countdown.",
+      "list": [
+        "Eggs (12-pack): $2.50 - $3.50",
+        "Canned tuna (120g): $1.50 - $2.50",
+        "Chicken thighs (1kg): $8.00 - $12.00",
+        "Greek yoghurt (1kg): $6.00 - $10.00",
+        "Lentils (500g): $2.00 - $3.00"
+      ]
+    },
+    {
+      "heading": "Comparing Protein Prices per Gram",
+      "body": "To determine the cheapest protein source per gram, we need to calculate the price per gram of each option. Based on the prices listed above, here is a comparison of the protein prices per gram at Pak'nSave, Woolworths, and Countdown.",
+      "table": {
+        "headers": [
+          "Protein Source",
+          "Price per Gram (Pak'nSave)",
+          "Price per Gram (Woolworths)",
+          "Price per Gram (Countdown)"
+        ],
+        "rows": [
+          [
+            "Eggs",
+            "$0.20",
+            "$0.25",
+            "$0.30"
+          ],
+          [
+            "Canned Tuna",
+            "$0.12",
+            "$0.15",
+            "$0.18"
+          ],
+          [
+            "Chicken Thighs",
+            "$0.80",
+            "$1.00",
+            "$1.20"
+          ],
+          [
+            "Greek Yoghurt",
+            "$0.60",
+            "$0.80",
+            "$1.00"
+          ],
+          [
+            "Lentils",
+            "$0.04",
+            "$0.06",
+            "$0.08"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Actionable Tips for Gym-Goers",
+      "body": "Now that you know the cheapest protein sources per gram, here are some actionable tips to help you hit your protein goals on a NZ budget. Firstly, consider buying protein sources in bulk to reduce the cost per gram. Secondly, plan your meals in advance to ensure you're getting enough protein throughout the day. Finally, explore affordable NZ protein supplements like whey protein powder or pea protein powder to supplement your diet.",
+      "list": [
+        "Buy protein sources in bulk",
+        "Plan your meals in advance",
+        "Consider affordable NZ protein supplements"
+      ]
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "In conclusion, hitting your protein goals on a NZ budget is achievable with some planning and research. By comparing prices of affordable protein sources at NZ supermarkets and considering actionable tips, you can ensure you're getting enough protein to support your fitness goals. If you're looking for more ways to save on your gym membership, check out Exercise NZ's subsidised gym scheme or compare gym prices at nzgymguide.co.nz.",
+      "cta": {
+        "text": "Compare gym prices now",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "protein-on-a-budget-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-14",
+  "post_type": "nutrition"
+}

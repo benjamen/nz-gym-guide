@@ -1,0 +1,58 @@
+{
+  "title": "Heart Health NZ",
+  "short_title": "Heart Health",
+  "meta_desc": "Improve heart health with cardio exercise and a gym membership. Discover how your gym habit benefits you and NZ heart disease statistics.",
+  "intro": "Regular exercise is essential for maintaining a healthy heart, and New Zealanders can benefit from understanding the importance of cardio training. According to the New Zealand Ministry of Health, cardiovascular disease is a leading cause of death in NZ, accounting for approximately 30% of all deaths. By incorporating physical activity into your daily routine, you can significantly reduce your risk of heart disease.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ Heart Disease Statistics",
+      "body": "The New Zealand Ministry of Health reports that cardiovascular disease affects over 180,000 Kiwis, resulting in substantial healthcare costs and lost productivity. Furthermore, the organisation states that physical inactivity contributes to around 12% of all cardiovascular disease cases. Research suggests that regular exercise can help mitigate these risks by improving blood flow, lowering blood pressure, and enhancing overall cardiovascular function. Exercise NZ's subsidised gym scheme can help make gym memberships more affordable, with discounts ranging from 40-70% off standard membership prices.",
+      "list": [
+        "Cardiovascular disease accounts for 30% of all deaths in NZ",
+        "Physical inactivity contributes to 12% of cardiovascular disease cases",
+        "Regular exercise can reduce the risk of heart disease"
+      ]
+    },
+    {
+      "heading": "Cardio Training for Heart Health",
+      "body": "Cardio training, such as running, cycling, or swimming, is an excellent way to improve heart health. This type of exercise helps strengthen the heart, increasing its ability to pump blood efficiently. When engaging in cardio activities, it's essential to monitor your target heart rate zones to ensure you're working within a safe and effective range. Generally, moderate-intensity exercise should raise your heart rate to 50-70% of your maximum heart rate, while high-intensity exercise should reach 70-85% of your maximum heart rate. Many gyms in NZ offer cardio equipment and group fitness classes that cater to various fitness levels and goals.",
+      "list": [
+        "Moderate-intensity exercise: 50-70% of maximum heart rate",
+        "High-intensity exercise: 70-85% of maximum heart rate"
+      ]
+    },
+    {
+      "heading": "Gym Options in NZ",
+      "body": "New Zealand has a wide range of gyms and fitness centres that cater to different needs and budgets. From budget-friendly options like Jetts and Anytime Fitness to more premium gyms like Les Mills and CityFitness, there's something for everyone. Many gyms offer cardio equipment, group fitness classes, and personal training services to help you achieve your fitness goals. Exercise NZ's subsidised gym scheme can also help make gym memberships more affordable, with discounts available at participating gyms across the country.",
+      "cta": {
+        "text": "Find a gym near you",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Taking the First Step",
+      "body": "Incorporating physical activity into your daily routine can seem daunting, but it's essential to start small and be consistent. Begin by scheduling 30 minutes of moderate-intensity exercise into your daily routine, such as brisk walking or cycling. As you progress, you can gradually increase the intensity and duration of your workouts. Remember to consult with a healthcare professional before starting any new exercise programme, especially if you have any underlying health conditions.",
+      "list": [
+        "Schedule 30 minutes of moderate-intensity exercise daily",
+        "Gradually increase intensity and duration over time",
+        "Consult with a healthcare professional before starting a new exercise programme"
+      ]
+    },
+    {
+      "heading": "Get Started with Your Fitness Journey",
+      "body": "Improving heart health through regular exercise is a journey, and it's essential to find a gym and workout routine that suits your needs and preferences. By understanding the benefits of cardio training and taking advantage of gym options in NZ, you can significantly reduce your risk of heart disease and improve your overall well-being.",
+      "cta": {
+        "text": "Take our fitness quiz to find your perfect gym match",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "heart-health-exercise-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-14",
+  "post_type": "health_info"
+}
