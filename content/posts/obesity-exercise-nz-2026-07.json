@@ -1,0 +1,48 @@
+{
+  "title": "Exercise for Weight",
+  "short_title": "Weight Mgmt",
+  "meta_desc": "Learn how to manage weight with exercise and a healthy diet. NZ obesity rates are high, but a calorie deficit and regular physical activity can help. Compare gyms and find a programme that works for you.",
+  "intro": "New Zealand has one of the highest obesity rates among OECD countries, with around 1 in 3 adults being obese. Regular exercise and a healthy diet are key to managing weight. While a calorie deficit is essential for weight loss, exercise plays a crucial role in maintaining weight loss and overall health. In this article, we will explore the importance of exercise for weight management, which gym formats burn the most calories, and provide practical steps you can take to get started.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ Obesity Rates and Weight Management",
+      "body": "According to the Ministry of Health, around 34% of New Zealand adults are obese, which can lead to various health problems such as diabetes, heart disease, and certain types of cancer. Exercise is a crucial component of weight management, as it helps create a calorie deficit, builds muscle, and improves overall health. Research suggests that a combination of aerobic exercise and resistance training is most effective for weight loss and maintenance.",
+      "list": [
+        "Aerobic exercise, such as running or cycling, for at least 150 minutes per week",
+        "Resistance training, such as weightlifting or bodyweight exercises, at least two times per week"
+      ]
+    },
+    {
+      "heading": "Calorie Deficit vs Exercise",
+      "body": "Some gym formats, such as HIIT (High-Intensity Interval Training) and group fitness classes, can be effective for burning calories and creating a calorie deficit. These types of workouts often combine aerobic exercise with strength training, making them a great option for those looking to lose weight and improve overall fitness."
+    },
+    {
+      "heading": "Gym Formats that Burn the Most Calories",
+      "body": "Certain gym formats are more effective for burning calories than others. For example, HIIT workouts, such as Les Mills GRIT or CrossFit, can burn up to 700-1000 calories per session. Other high-calorie-burning gym formats include spinning classes, boot camp, and kickboxing. It's essential to find a workout that you enjoy and can stick to in the long term, as consistency is key to successful weight management.",
+      "list": [
+        "HIIT workouts: 700-1000 calories per session",
+        "Spinning classes: 400-700 calories per session",
+        "Boot camp: 500-800 calories per session"
+      ]
+    },
+    {
+      "heading": "Realistic Expectations and Getting Started",
+      "body": "To get started, find a gym that offers a variety of workout options, including group fitness classes and personal training. Many gyms in New Zealand offer free trials or introductory memberships, which can be a great way to try out a new gym and see if it's right for you."
+    },
+    {
+      "heading": "Next Steps",
+      "body": "Now that you know the importance of exercise for weight management, it's time to take action. Compare gyms and find a programme that works for you. You can also take our quiz to determine which type of workout is best for your fitness goals and preferences.",
+      "cta": {
+        "text": "Take the quiz or compare gyms now",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "obesity-exercise-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-16",
+  "post_type": "health_info"
+}
