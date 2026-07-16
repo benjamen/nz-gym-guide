@@ -1,92 +1,78 @@
 {
   "slug": "gym-trial-passes-nz",
   "short_title": "Free Gym Trials",
-  "title": "Free Gym Trials NZ — Every Major Chain's Trial Policy",
-  "meta_desc": "Get free gym trials at every major NZ chain. Compare trial passes, day passes and first-session offers — then test a gym before you commit in 2026.",
-  "intro": "Before committing to a gym membership, trying before you buy is essential. Many major NZ gym chains offer free trial passes, allowing you to test their facilities and services. With prices ranging from $15 to $40 per week, it's crucial to find the best fit for your budget and fitness goals.",
-  "updated": "June 2026",
+  "title": "How to Get Free Gym Trials in NZ — Every Major Chain's Trial Policy",
+  "meta_desc": "Discover how to get free gym trials in NZ with every major chain's trial policy, including Les Mills, Anytime Fitness, and more",
+  "intro": "Before committing to a gym membership, trying out a gym with a free trial pass can be a great way to test the facilities and equipment. With prices ranging from $15 to $30 per week, it's essential to find the right fit. In this guide, we'll explore the trial policies of major NZ gym chains.",
+  "updated": "July 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Free Trial Pass Availability",
-      "body": "Most major NZ gym chains offer free trial passes, but the duration and conditions vary. Some popular chains like Anytime Fitness, Jetts, and Snap Fitness provide 7-day free trials, while others like City Fitness and Les Mills offer 5-day or 3-day trials."
+      "heading": "Les Mills Free Trial",
+      "body": "Les Mills offers a 5-day free trial at most of its 12 locations across NZ, including Auckland, Wellington, and Christchurch. This trial gives you access to their group fitness classes and equipment."
     },
     {
-      "heading": "Trial Pass Conditions",
-      "list": [
-        "Valid ID and proof of address required",
-        "Limited to one trial per person",
-        "Must be 18 years or older",
-        "Some chains require a credit card to secure the trial"
-      ]
+      "heading": "Anytime Fitness Trial Policy",
+      "body": "Anytime Fitness provides a 7-day free trial at over 50 locations nationwide. You can try out their 24/7 access, cardio equipment, and free weights during this period."
     },
     {
-      "heading": "Price Comparison",
+      "heading": "Jetts Gym Trial",
+      "body": "Jetts Gym offers a 3-day free trial at its 18 locations across NZ. You can experience their no-contract membership, 24/7 access, and state-of-the-art equipment during this time.",
+      "cta": {
+        "text": "Compare Jetts Gym Membership Prices",
+        "url": "/gym/jetts-gym",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Fitness Centre Trial Comparison",
       "table": {
         "headers": [
           "Gym Chain",
-          "Weekly Price",
-          "Monthly Price",
-          "Contract Term"
+          "Trial Duration",
+          "Price per Week"
         ],
         "rows": [
           [
-            "Anytime Fitness",
-            "$19.95",
-            "$79.80",
-            "12 months"
-          ],
-          [
-            "Jetts",
-            "$14.95",
-            "$59.95",
-            "12 months"
-          ],
-          [
-            "Snap Fitness",
-            "$15.95",
-            "$69.95",
-            "6 months"
-          ],
-          [
-            "City Fitness",
-            "$24.95",
-            "$99.95",
-            "12 months"
-          ],
-          [
             "Les Mills",
-            "$29.95",
-            "$119.95",
-            "12 months"
+            "5 days",
+            "$19.95"
+          ],
+          [
+            "Anytime Fitness",
+            "7 days",
+            "$24.95"
+          ],
+          [
+            "Jetts Gym",
+            "3 days",
+            "$14.95"
+          ],
+          [
+            "CityFitness",
+            "7 days",
+            "$29.95"
           ]
         ]
       }
     },
     {
-      "heading": "Gym Chain Locations",
-      "body": "With over 300 locations across NZ, major gym chains like Anytime Fitness and Jetts have a wide reach. Others, like Snap Fitness and City Fitness, have around 50-100 locations, while Les Mills has around 10 locations in major cities."
-    },
-    {
-      "heading": "Get the Best Value",
+      "heading": "CityFitness Free Trial",
+      "body": "CityFitness offers a 7-day free trial at its 13 locations across NZ. You can try out their group fitness classes, including yoga and Pilates, during this period.",
       "cta": {
-        "text": "Compare gym memberships and prices",
-        "url": "/compare/",
+        "text": "Compare CityFitness Membership Prices",
+        "url": "/gym/cityfitness",
         "affiliate": false
       }
     },
     {
-      "heading": "Les Mills Free Trial",
-      "body": "Les Mills offers a 5-day free trial at their Auckland and Wellington locations. With prices starting at $29.95 per week, it's a great opportunity to experience their high-energy group fitness classes and state-of-the-art facilities.",
+      "heading": "Get the Best Value Gym Membership",
+      "body": "With so many options available, it's essential to compare prices and trial policies before committing to a gym membership. You can compare prices and find the best value gym membership on our website.",
       "cta": {
-        "text": "Learn more about Les Mills",
-        "url": "/gym/les-mills/",
+        "text": "Compare Gym Memberships in NZ",
+        "url": "/compare",
         "affiliate": false
       }
-    },
-    {
-      "heading": "Conclusion",
-      "body": "Taking advantage of free gym trial passes is an excellent way to find the perfect gym for your needs and budget. Remember to review the terms and conditions, and don't hesitate to reach out to the gym staff if you have any questions. By comparing prices and services, you'll be well on your way to achieving your fitness goals."
     }
   ]
 }
