@@ -1,0 +1,56 @@
+{
+  "title": "Compound Exercises",
+  "short_title": "5 Essential",
+  "meta_desc": "Discover the 5 compound exercises every NZ gym member should do, including squats, deadlifts, and bench press, to achieve a full-body workout and improve overall fitness",
+  "intro": "As a NZ gym-goer, incorporating compound exercises into your routine can help you build strength, increase muscle mass, and boost overall fitness. These exercises work multiple muscle groups at once, making them efficient and effective. In this guide, we'll cover the top 5 compound exercises you should be doing, along with technique tips and beginner alternatives.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to Compound Exercises",
+      "body": "Compound exercises are multi-joint movements that work several muscle groups simultaneously. They're superior to isolation exercises, which only work one muscle group at a time, as they promote greater overall muscle growth and strength gains. Examples of compound exercises include squats, deadlifts, bench press, rows, and overhead press. These exercises are staples in many NZ gyms, including City Fitness and Les Mills, which offer a range of equipment and classes to support this type of training."
+    },
+    {
+      "heading": "The Top 5 Compound Exercises",
+      "body": "The following exercises are essential for any NZ gym member looking to build strength and improve overall fitness. They include: squats, which work the legs, glutes, and core; deadlifts, which work the entire back, legs, and glutes; bench press, which works the chest, shoulders, and triceps; rows, which work the back and arms; and overhead press, which works the shoulders and triceps. These exercises can be modified to suit different fitness levels, making them accessible to beginners and experienced gym-goers alike.",
+      "list": [
+        "Squats: works legs, glutes, and core",
+        "Deadlifts: works entire back, legs, and glutes",
+        "Bench press: works chest, shoulders, and triceps",
+        "Rows: works back and arms",
+        "Overhead press: works shoulders and triceps"
+      ]
+    },
+    {
+      "heading": "Technique Tips and Beginner Alternatives",
+      "body": "Proper technique is essential when performing compound exercises to avoid injury and get the most out of your workout. For beginners, it's often helpful to start with modified versions of these exercises. For example, bodyweight squats or assisted pull-ups can be a great way to build strength and confidence before progressing to heavier weights. Many NZ gyms, such as Jetts and Anytime Fitness, offer personal training sessions or group classes that can help you learn proper technique and get started with a compound exercise routine.",
+      "list": [
+        "Start with bodyweight exercises or assisted versions",
+        "Focus on proper technique and form",
+        "Gradually increase weight and intensity as you build strength"
+      ]
+    },
+    {
+      "heading": "Getting Started with Compound Exercises",
+      "body": "Incorporating compound exercises into your routine can seem intimidating, but with the right guidance and support, you can achieve your fitness goals. Consider working with a personal trainer or joining a group fitness class to learn proper technique and get started with a compound exercise routine. You can also take advantage of Exercise NZ's subsidised gym scheme, which offers 40-70% off gym memberships at participating gyms.",
+      "cta": {
+        "text": "Compare gym memberships and find a gym that suits your needs",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion",
+      "body": "Compound exercises are a powerful tool for building strength, increasing muscle mass, and improving overall fitness. By incorporating these exercises into your routine and focusing on proper technique, you can achieve your fitness goals and take your workouts to the next level. Remember to start slow, focus on form, and gradually increase intensity as you build strength and confidence. For more information on finding the right gym and creating a workout routine, take our quiz or compare gym memberships today.",
+      "cta": {
+        "text": "Take our quiz to find the perfect gym for you",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "compound-exercises-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-17",
+  "post_type": "exercise_tips"
+}
