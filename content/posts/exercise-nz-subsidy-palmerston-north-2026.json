@@ -1,0 +1,54 @@
+{
+  "title": "Gym Savings in Palmy",
+  "short_title": "Gym Savings",
+  "meta_desc": "Get 40-70% off your gym membership in Palmerston North via Exercise NZ's subsidised gym scheme. Check eligibility and participating gyms.",
+  "intro": "Palmerston North residents can save big on gym memberships thanks to Exercise NZ's subsidised gym scheme. The programme offers discounts of 40-70% off regular membership prices. To learn more, visit exercise.org.nz.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is the Exercise NZ Subsidised Gym Scheme?",
+      "body": "The Exercise NZ subsidised gym scheme is an initiative to make gym memberships more affordable for New Zealanders. The programme is designed to encourage people to engage in regular physical activity, which is essential for maintaining good health and wellbeing. By partnering with various gyms across the country, Exercise NZ provides discounts on membership fees, making it easier for people to join a gym and start exercising regularly."
+    },
+    {
+      "heading": "Who is Eligible for the Subsidised Gym Scheme?",
+      "body": "To be eligible for the Exercise NZ subsidised gym scheme, you must be a New Zealand resident and meet certain criteria, such as being on a low income or having a health condition. You can check your eligibility on the Exercise NZ website at exercise.org.nz. The website provides a simple online application process and a list of participating gyms.",
+      "list": [
+        "Be a New Zealand resident",
+        "Meet the income or health criteria",
+        "Apply online through exercise.org.nz"
+      ]
+    },
+    {
+      "heading": "How to Claim Your Discount",
+      "body": "To claim your discount, follow these steps: visit exercise.org.nz, check your eligibility, choose a participating gym, and apply for the subsidised gym scheme. Once your application is approved, you will receive a discount code to use when joining your chosen gym. In Palmerston North, participating gyms include Snap Fitness and Contours.",
+      "list": [
+        "Visit exercise.org.nz",
+        "Check your eligibility",
+        "Choose a participating gym",
+        "Apply for the subsidised gym scheme"
+      ]
+    },
+    {
+      "heading": "Participating Gyms in Palmerston North",
+      "body": "In Palmerston North, you can use your Exercise NZ subsidised gym scheme discount at Snap Fitness and Contours. These gyms offer a range of equipment, classes, and services to help you achieve your fitness goals. With discounts of 40-70% off regular membership prices, you can save big on your gym membership.",
+      "list": [
+        "Snap Fitness",
+        "Contours"
+      ]
+    },
+    {
+      "heading": "How Much You Could Save",
+      "body": "The amount you can save with the Exercise NZ subsidised gym scheme varies depending on the gym and membership type. However, with discounts of 40-70% off regular membership prices, you can save hundreds of dollars per year. For example, if a gym membership typically costs $60 per month, you could pay as little as $18-36 per month with the subsidised gym scheme.",
+      "cta": {
+        "text": "Visit exercise.org.nz to learn more",
+        "url": "https://exercise.org.nz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-nz-subsidy-palmerston-north-2026",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-18",
+  "post_type": "exercise_nz"
+}
