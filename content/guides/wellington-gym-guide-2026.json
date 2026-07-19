@@ -2,94 +2,81 @@
   "slug": "wellington-gym-guide-2026",
   "short_title": "Wellington Gyms",
   "title": "Best Gyms in Wellington 2026 — CBD, Hutt Valley, and Kapiti",
-  "meta_desc": "Compare Wellington gym memberships, prices and contracts. Find the best gym in CBD, Hutt Valley, and Kapiti",
-  "intro": "Wellington's gym landscape offers a range of options, from Les Mills to boutique studios. With prices starting from $15.95 per week, there's something for every budget. We've compared the top gyms in Wellington to help you make an informed decision.",
+  "meta_desc": "Find the best gyms in Wellington, compare prices and membership options from $15/week",
+  "intro": "Wellington's gym scene has evolved significantly over the past few years, with new players entering the market and established franchises expanding their footprint. With prices starting from $15 per week, Kiwis have more options than ever before. However, navigating the numerous gyms and contracts can be overwhelming, especially for those new to the city.",
   "updated": "July 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "City-Centre Gym Options",
-      "body": "The Wellington CBD is home to a number of gym options, including Les Mills, City Fitness, and Anytime Fitness. These gyms offer a range of equipment, classes, and personal training services."
+      "heading": "Wellington Gym Landscape",
+      "body": "The city centre is home to a cluster of gyms, including Les Mills, Anytime Fitness, and City Fitness. These gyms cater to a diverse range of fitness enthusiasts, from beginners to seasoned athletes. The Hutt Valley and Kapiti regions also have a growing number of gyms, with options like YMCA and Jetts."
     },
     {
-      "heading": "Les Mills vs Alternative Gyms",
-      "body": "Les Mills is a popular choice in Wellington, with three locations in the city. However, alternative gyms like City Fitness and Anytime Fitness offer similar services at a lower price point. For example, Les Mills costs $29.95 per week, while City Fitness costs $24.95 per week.",
-      "table": {
-        "headers": [
-          "Gym",
-          "Price per week",
-          "Contract term"
-        ],
-        "rows": [
-          [
-            "Les Mills",
-            "$29.95",
-            "12 months"
-          ],
-          [
-            "City Fitness",
-            "$24.95",
-            "6 months"
-          ],
-          [
-            "Anytime Fitness",
-            "$19.95",
-            "12 months"
-          ]
-        ]
-      }
+      "heading": "Les Mills vs Alternatives",
+      "body": "Les Mills is a popular choice among Wellingtonians, with its comprehensive range of group fitness classes and state-of-the-art equipment. However, alternatives like F45 and Orangetheory offer a more specialized and intense workout experience. When it comes to pricing, Les Mills membership starts at $24.95 per week, while F45 and Orangetheory cost around $30-$40 per week."
     },
     {
-      "heading": "Hutt Valley Gym Options",
-      "body": "The Hutt Valley has a number of gym options, including Les Mills, Jetts, and Snap Fitness. These gyms offer a range of equipment, classes, and personal training services.",
+      "heading": "City-Centre Options",
       "list": [
-        "Les Mills Hutt City: $29.95 per week, 12 month contract",
-        "Jetts Lower Hutt: $14.95 per week, no contract",
-        "Snap Fitness Upper Hutt: $19.95 per week, 6 month contract"
+        "Les Mills Wellington: $24.95/week, 12-month contract",
+        "Anytime Fitness Wellington: $19.95/week, no contract",
+        "City Fitness: $29.95/week, 6-month contract"
       ]
     },
     {
-      "heading": "Kapiti Gym Options",
-      "body": "The Kapiti region has a number of gym options, including Les Mills, Anytime Fitness, and Core Fitness. These gyms offer a range of equipment, classes, and personal training services.",
+      "heading": "Price Comparison",
       "table": {
         "headers": [
           "Gym",
-          "Price per week",
-          "Contract term"
+          "Weekly Price",
+          "Contract Term"
         ],
         "rows": [
           [
-            "Les Mills Paraparaumu",
-            "$29.95",
-            "12 months"
-          ],
-          [
-            "Anytime Fitness Paraparaumu",
-            "$19.95",
-            "12 months"
-          ],
-          [
-            "Core Fitness Waikanae",
+            "Les Mills Wellington",
             "$24.95",
+            "12 months"
+          ],
+          [
+            "Anytime Fitness Wellington",
+            "$19.95",
+            "no contract"
+          ],
+          [
+            "City Fitness",
+            "$29.95",
             "6 months"
+          ],
+          [
+            "F45 Wellington",
+            "$35/week",
+            "12 months"
+          ],
+          [
+            "Jetts Wellington",
+            "$15/week",
+            "no contract"
           ]
         ]
       }
     },
     {
-      "heading": "Compare Gyms in Wellington",
+      "heading": "Hutt Valley and Kapiti Options",
+      "body": "The Hutt Valley and Kapiti regions have a range of gym options, including Jetts, Snap Fitness, and YMCA. These gyms offer a more affordable and flexible alternative to the city-centre options. For example, Jetts Hutt Valley costs $15 per week, with no contract, while YMCA Kapiti costs $20 per week, with a 6-month contract."
+    },
+    {
+      "heading": "Get the Best Deal",
       "cta": {
-        "text": "Compare all Wellington gyms",
-        "url": "/compare/wellington",
+        "text": "Compare Wellington gyms and find the best deal",
+        "url": "/compare/",
         "affiliate": false
       }
     },
     {
-      "heading": "Getting Started with Your New Gym",
-      "body": "Once you've chosen a gym, it's time to get started. Be sure to read the contract terms and conditions carefully before signing up. You should also take a tour of the gym and meet with a personal trainer to discuss your fitness goals.",
+      "heading": "Jetts Wellington Gym Review",
       "cta": {
-        "text": "Learn more about City Fitness",
-        "url": "/gym/city-fitness",
+        "text": "Read our review of Jetts Wellington and join from $15/week",
+        "url": "/gym/jetts-wellington/",
         "affiliate": false
       }
     }
