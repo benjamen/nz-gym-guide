@@ -1,0 +1,52 @@
+{
+  "title": "Wellington Gym Deals",
+  "short_title": "Gym Deals",
+  "meta_desc": "Get the best gym deals in Wellington with discounts, free trials, and subsidies. Compare prices and find the perfect gym for you.",
+  "intro": "Wellington has a competitive gym market with various deals and discounts available. From budget-friendly options to premium gyms, there's something for everyone. The Exercise NZ subsidy scheme also offers 40-70% off for eligible members.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Gym Deals in Wellington",
+      "body": "Several gyms in Wellington are offering discounts and free trials. Jetts is providing 15% off and 4 weeks free, while Snap Fitness is offering 6 weeks free. Les Mills has introduced a flexi membership with no lock-in contract, and City Fitness is offering a month-to-month membership for $18.99/week.",
+      "list": [
+        "Jetts: 15% off + 4 weeks free",
+        "Snap Fitness: 6 weeks free",
+        "Les Mills: Flexi membership with no lock-in contract",
+        "City Fitness: $18.99/week month-to-month membership"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy Scheme",
+      "body": "To be eligible, members must meet certain criteria, such as being a New Zealand citizen or resident, and not having been a member of a gym in the past 12 months."
+    },
+    {
+      "heading": "Best Value Gyms in Wellington",
+      "body": "City Fitness is currently the best value gym in Wellington, offering a full-service membership for $18.99/week. Les Mills is a premium option with a range of classes and facilities, but it comes at a higher price point.",
+      "list": [
+        "City Fitness: $18.99/week full-service membership",
+        "Les Mills: Premium gym with a range of classes and facilities"
+      ]
+    },
+    {
+      "heading": "Money-Saving Tips for Joining a Gym in Wellington",
+      "body": "Here are some tips to help you save money when joining a gym in Wellington: consider a month-to-month membership instead of a long-term contract, look for gyms that offer discounts or free trials, and take advantage of the Exercise NZ subsidy scheme if you're eligible.",
+      "list": [
+        "Consider a month-to-month membership",
+        "Look for gyms with discounts or free trials",
+        "Take advantage of the Exercise NZ subsidy scheme",
+        "Compare prices and find the best value for your money",
+        "Read reviews and check the gym's facilities before joining"
+      ],
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "wellington-gym-deals-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-20",
+  "post_type": "city_deals"
+}
