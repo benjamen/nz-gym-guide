@@ -1,72 +1,68 @@
 {
   "slug": "gym-beginners-guide-nz",
-  "short_title": "Gym Guide NZ",
+  "short_title": "Gym Starter Guide",
   "title": "Joining a Gym for the First Time in NZ — What to Expect and How to Choose",
-  "meta_desc": "Joining a gym in NZ? Learn what to expect, costs and how to choose the best gym for you",
-  "intro": "Joining a gym for the first time can be daunting, especially with numerous options available in New Zealand. With prices ranging from $10 to $50 per week, it's essential to consider your budget and fitness goals before making a decision. For example, a basic membership at Jetts Fitness costs around $14.95 per week, while a premium membership at Les Mills can cost up to $34.95 per week.",
+  "meta_desc": "Joining a gym in NZ? Learn what to expect, how to choose and compare prices from $10/week",
+  "intro": "Joining a gym for the first time can be daunting, but with the right information, you can make an informed decision. In NZ, the average gym membership costs around $30-40 per week. With numerous options available, it's essential to consider factors like contract terms, facilities, and prices before making a commitment.",
   "updated": "July 2026",
   "reading_time": 7,
   "sections": [
     {
       "heading": "What to Look for in a Gym",
-      "body": "When choosing a gym, consider factors such as location, equipment, group fitness classes, and personal training options. It's also essential to read reviews and ask about contract terms, as some gyms may have a minimum commitment period, such as 12 months at City Fitness, while others may offer flexible, month-to-month contracts, like those at Anytime Fitness."
+      "body": "When choosing a gym, consider factors like location, operating hours, equipment, group classes, and personal training options. Look for gyms with a supportive environment, clean facilities, and a variety of membership options. Some popular gym franchises in NZ include Anytime Fitness, Snap Fitness, and CityFitness."
     },
     {
       "heading": "Trial Passes and Induction Sessions",
-      "body": "Many gyms in NZ offer trial passes or free induction sessions, allowing you to try out their facilities and services before committing to a membership. For instance, Snap Fitness offers a 7-day free trial, while Workout Wellington provides a complimentary induction session with a personal trainer."
+      "body": "Many gyms offer trial passes or guest passes, allowing you to try out their facilities before committing to a membership. Take advantage of these offers to get a feel for the gym's atmosphere and equipment. Induction sessions are also a great way to learn about the gym's facilities and get a personalized workout plan."
     },
     {
-      "heading": "Gym Membership Price Comparison",
+      "heading": "Contract Terms and Pricing",
+      "body": "Be wary of contracts that lock you in for extended periods. Some gyms offer flexible membership options with no fixed-term contracts, while others may require a 12-month commitment. Prices vary depending on the gym and membership type, but here's a comparison of some popular options:",
       "table": {
         "headers": [
           "Gym",
-          "Weekly Price",
           "Monthly Price",
           "Contract Term"
         ],
         "rows": [
           [
-            "Jetts Fitness",
-            "$14.95",
-            "$64.95",
+            "Anytime Fitness",
+            "$49.95",
             "No contract"
           ],
           [
+            "Snap Fitness",
+            "$59.95",
+            "6-month contract"
+          ],
+          [
+            "CityFitness",
+            "$69.95",
+            "12-month contract"
+          ],
+          [
             "Les Mills",
-            "$24.95",
-            "$104.95",
-            "12 months"
-          ],
-          [
-            "Anytime Fitness",
-            "$19.95",
-            "$79.95",
-            "Month-to-month"
-          ],
-          [
-            "City Fitness",
-            "$29.95",
-            "$129.95",
-            "12 months"
+            "$89.95",
+            "No contract"
           ]
         ]
       }
     },
     {
       "heading": "Best Starter Gyms in NZ",
-      "body": "If you're new to working out or looking for a budget-friendly option, consider gyms like Jetts Fitness or Anytime Fitness, which offer affordable prices and flexible contracts. Alternatively, if you're willing to invest in a premium experience, Les Mills or City Fitness may be a better fit, with their wide range of group classes and state-of-the-art equipment.",
+      "body": "If you're new to gyms, consider starting with a more affordable option. Some great starter gyms in NZ include Jetts Fitness, which offers a $10 per week membership with no contract, and Snap Fitness, which has a $19.95 per week membership option with a 6-month contract.",
       "cta": {
-        "text": "Compare gym prices and find the best deal for you",
-        "url": "/compare/",
+        "text": "Compare Jetts Fitness prices",
+        "url": "/gym/jetts-fitness",
         "affiliate": false
       }
     },
     {
-      "heading": "Avoiding Overselling Yourself on a Contract",
-      "body": "It's crucial to carefully review the contract terms before signing up for a gym membership. Be aware of any additional fees, such as joining fees or cancellation fees, and make sure you understand the minimum commitment period. For example, some gyms may charge a $50 joining fee, while others may have a $100 cancellation fee if you terminate your contract early.",
+      "heading": "Making the Most of Your Gym Membership",
+      "body": "To get the most out of your gym membership, create a workout routine, set achievable goals, and track your progress. Don't be afraid to ask for help from gym staff or personal trainers, and take advantage of group classes and other amenities like pools and saunas.",
       "cta": {
-        "text": "Learn more about Jetts Fitness membership options",
-        "url": "/gym/jetts-fitness/",
+        "text": "Compare gym prices and find the best deal",
+        "url": "/compare",
         "affiliate": false
       }
     }
