@@ -1,0 +1,47 @@
+{
+  "title": "Dunedin Gym Deals",
+  "short_title": "Dunedin Gyms",
+  "meta_desc": "Discover the best gym deals in Dunedin, including current joining offers and the Exercise NZ subsidy scheme, to help you save money on your fitness journey.",
+  "intro": "Dunedin has a thriving gym scene with a range of options to suit different budgets and preferences. From budget-friendly options like the YMCA to premium gyms like Les Mills, there's something for everyone. With the Exercise NZ subsidy scheme offering 40-70% off for eligible members, now is a great time to join a gym in Dunedin.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Gym Deals in Dunedin",
+      "body": "Several gyms in Dunedin are offering special deals and discounts for new members. These include Snap Fitness, which is offering 6 weeks free, and Les Mills, which has introduced a flexi membership with no lock-in contract. Additionally, the Exercise NZ subsidy scheme is available to eligible members, providing 40-70% off gym memberships.",
+      "list": [
+        "Snap Fitness: 6 weeks free",
+        "Les Mills: Flexi membership with no lock-in contract",
+        "Exercise NZ subsidy: 40-70% off for eligible members"
+      ]
+    },
+    {
+      "heading": "Best Value Gyms in Dunedin",
+      "body": "When it comes to value for money, the YMCA is a clear winner in Dunedin. With its community membership and sliding scale pricing, it's an affordable option for those on a budget. Les Mills is also a great choice for those looking for a premium gym experience without breaking the bank.",
+      "list": [
+        "YMCA: Best value gym in Dunedin",
+        "Les Mills: Premium gym experience at a competitive price"
+      ]
+    },
+    {
+      "heading": "Money-Saving Tips for Joining a Gym in Dunedin",
+      "body": "To get the most out of your gym membership, consider the following tips. Firstly, take advantage of the Exercise NZ subsidy scheme if you're eligible. Secondly, look for gyms that offer flexible membership options or no-lock-in contracts. Thirdly, consider joining a gym during off-peak hours to save on costs. Lastly, think about joining a gym with a friend or family member to split the costs and stay motivated.",
+      "list": [
+        "Take advantage of the Exercise NZ subsidy scheme",
+        "Look for flexible membership options or no-lock-in contracts",
+        "Join during off-peak hours to save on costs",
+        "Join with a friend or family member to split costs and stay motivated",
+        "Consider a no-contract gym like Anytime Fitness for added flexibility"
+      ],
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "dunedin-gym-deals-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-23",
+  "post_type": "city_deals"
+}
