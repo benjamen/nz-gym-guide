@@ -1,0 +1,96 @@
+{
+  "title": "NZ Protein Guide",
+  "short_title": "Protein",
+  "meta_desc": "Discover the best and affordable protein sources for NZ gym-goers, including eggs, chicken, canned tuna, and legumes, to support your fitness goals and budget.",
+  "intro": "As a gym-goer in New Zealand, you know that protein is essential for building and repairing muscle tissue. However, with so many options available, it can be challenging to choose the best and most affordable sources. In this guide, we will explore the top protein sources available at NZ supermarkets, including their cost per gram of protein. We will also discuss some affordable NZ protein sources and supplements to help you achieve your fitness goals.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to Protein Sources",
+      "body": "Protein is a vital nutrient for gym-goers, as it helps to build and repair muscle tissue. In New Zealand, there are many affordable protein sources available at local supermarkets. Some of the best protein sources include eggs, chicken, canned tuna, cottage cheese, and legumes. These foods are not only rich in protein but also provide other essential nutrients like vitamins, minerals, and healthy fats.",
+      "list": [
+        "Eggs",
+        "Chicken",
+        "Canned tuna",
+        "Cottage cheese",
+        "Legumes (such as lentils, chickpeas, and black beans)"
+      ]
+    },
+    {
+      "heading": "Cost per Gram of Protein Comparison",
+      "body": "When it comes to choosing a protein source, cost is an essential factor to consider. We compared the cost per gram of protein for some of the most popular protein sources available at NZ supermarkets. The prices are based on average prices from major supermarkets like Countdown, New World, and Pak'nSave.",
+      "table": {
+        "headers": [
+          "Protein Source",
+          "Price per kg",
+          "Protein per 100g",
+          "Cost per gram of protein"
+        ],
+        "rows": [
+          [
+            "Eggs (12-pack)",
+            "$3.50",
+            "12g",
+            "$0.029 per gram"
+          ],
+          [
+            "Chicken breast",
+            "$13.99 per kg",
+            "31g",
+            "$0.045 per gram"
+          ],
+          [
+            "Canned tuna (120g)",
+            "$2.50",
+            "25g",
+            "$0.038 per gram"
+          ],
+          [
+            "Cottage cheese (500g)",
+            "$5.99",
+            "28g",
+            "$0.043 per gram"
+          ],
+          [
+            "Lentils (500g)",
+            "$2.99",
+            "23g",
+            "$0.026 per gram"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Actionable Tips for NZ Gym-Goers",
+      "body": "Now that you know some of the best and most affordable protein sources available in New Zealand, here are some actionable tips to help you incorporate them into your diet. Firstly, try to include a source of protein at every meal to help build and repair muscle tissue. Secondly, consider meal prepping with proteins like chicken, eggs, and legumes to save time and money. Finally, don't forget to stay hydrated by drinking plenty of water throughout the day.",
+      "list": [
+        "Include a source of protein at every meal",
+        "Meal prep with proteins like chicken, eggs, and legumes",
+        "Stay hydrated by drinking plenty of water"
+      ]
+    },
+    {
+      "heading": "Additional Protein Sources and Supplements",
+      "body": "In addition to whole foods, there are many affordable protein supplements available in New Zealand. Some popular options include whey protein powder, casein protein powder, and plant-based protein powders like pea and rice protein. These supplements can be useful for gym-goers who struggle to get enough protein from whole foods or need a convenient way to increase their protein intake. Exercise NZ's subsidised gym scheme also offers discounts on protein supplements and other fitness products.",
+      "list": [
+        "Whey protein powder",
+        "Casein protein powder",
+        "Plant-based protein powders like pea and rice protein"
+      ]
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "In conclusion, there are many affordable protein sources available in New Zealand, including eggs, chicken, canned tuna, cottage cheese, and legumes. By incorporating these foods into your diet and considering additional protein supplements, you can support your fitness goals and overall health. To learn more about the best gyms and fitness programmes in New Zealand, visit our website and compare gyms in your area.",
+      "cta": {
+        "text": "Compare Gyms and Find the Best Fitness Programme for You",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "protein-sources-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-24",
+  "post_type": "nutrition"
+}
