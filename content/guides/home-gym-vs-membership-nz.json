@@ -1,27 +1,53 @@
 {
   "slug": "home-gym-vs-membership-nz",
-  "short_title": "Home Gym vs Membership",
+  "short_title": "Gym Membership NZ",
   "title": "Home Gym vs Gym Membership in NZ — Full Cost Comparison 2026",
-  "meta_desc": "Compare home gym costs vs gym membership in NZ, including upfront equipment costs and ongoing fees",
-  "intro": "With average gym membership prices in NZ ranging from $15 to $30 per week, many Kiwis are considering the cost-effectiveness of home gyms. A basic home gym setup can cost between $500 to $2,000 upfront. But what are the ongoing costs and motivational factors to consider?",
+  "meta_desc": "Home gym vs gym membership NZ: Compare costs and find the best value for your fitness goals",
+  "intro": "With gym memberships in NZ ranging from $15 to $50 per week, many Kiwis are wondering if a home gym is a more cost-effective option. A typical home gym setup can cost between $500 to $2,000 upfront. But which option is best for you?",
   "updated": "July 2026",
-  "reading_time": 7,
+  "reading_time": 8,
   "sections": [
     {
-      "heading": "Upfront Equipment Costs",
-      "body": "The initial investment for a home gym can vary greatly, depending on the type and quality of equipment chosen. For example, a basic setup with dumbbells, a bench, and a pull-up bar can cost around $500, while a more advanced setup with a treadmill, exercise bike, and free weights can cost upwards of $2,000."
+      "heading": "Upfront Costs: Home Gym vs Gym Membership",
+      "body": "When considering a home gym, the initial equipment cost can be a significant outlay. However, with a gym membership, you'll typically pay a joining fee, which can range from $50 to $200, depending on the gym."
     },
     {
-      "heading": "Ongoing Costs of Gym Membership",
-      "body": "In contrast, gym memberships in NZ can have ongoing weekly or monthly fees, with some gyms offering discounts for long-term contracts. For example, a 12-month contract at Anytime Fitness can cost around $19.95 per week, while a month-to-month contract at Jetts can cost around $24.95 per week.",
-      "cta": {
-        "text": "Compare Gym Membership Prices",
-        "url": "/compare/",
-        "affiliate": false
+      "heading": "Ongoing Costs: Membership Fees and Equipment Maintenance",
+      "table": {
+        "headers": [
+          "Gym",
+          "Weekly Fee",
+          "Contract Term"
+        ],
+        "rows": [
+          [
+            "Anytime Fitness",
+            "$24.95",
+            "12 months"
+          ],
+          [
+            "Jetts",
+            "$19.95",
+            "12 months"
+          ],
+          [
+            "Les Mills",
+            "$34.95",
+            "6 months"
+          ]
+        ]
       }
     },
     {
-      "heading": "Price Comparison of Home Gym vs Gym Membership",
+      "heading": "What You Actually Use: Utilisation Rates and Equipment Variety",
+      "body": "Research shows that many gym members only use a small portion of the available equipment. With a home gym, you can tailor your setup to your specific needs and ensure you use every piece of equipment regularly."
+    },
+    {
+      "heading": "Motivational Factors: Group Fitness and Community",
+      "body": "One of the main benefits of a gym membership is the social aspect and access to group fitness classes. However, with the rise of online fitness classes and social media communities, it's now possible to stay motivated and connected from the comfort of your own home."
+    },
+    {
+      "heading": "Price Comparison: Home Gym vs Gym Membership",
       "table": {
         "headers": [
           "Option",
@@ -30,51 +56,27 @@
         ],
         "rows": [
           [
-            "Basic Home Gym",
-            "$500",
+            "Home Gym",
+            "$1,000",
             "$0"
           ],
           [
-            "Advanced Home Gym",
-            "$2,000",
-            "$0"
-          ],
-          [
-            "Anytime Fitness (12-month contract)",
-            "$0",
-            "$19.95"
-          ],
-          [
-            "Jetts (month-to-month contract)",
-            "$0",
+            "Anytime Fitness",
+            "$100 joining fee",
             "$24.95"
           ],
           [
-            "Les Mills (12-month contract)",
-            "$0",
-            "$29.95"
+            "Jetts",
+            "$50 joining fee",
+            "$19.95"
           ]
         ]
       }
     },
     {
-      "heading": "What You Actually Use",
-      "body": "When considering a gym membership, it's essential to think about what equipment and facilities you'll actually use. If you're someone who only uses the treadmill and free weights, a basic gym membership might be sufficient. However, if you enjoy group fitness classes or need access to a pool, a more premium gym membership might be necessary.",
+      "heading": "Make an Informed Decision",
       "cta": {
-        "text": "Read Our Les Mills Gym Review",
-        "url": "/gym/les-mills/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Motivational Factors",
-      "body": "Another significant factor to consider is motivation. Some people find that the social aspect of a gym and the variety of equipment and classes keep them motivated and engaged. Others prefer the convenience and comfort of working out at home. Ultimately, the decision between a home gym and a gym membership comes down to personal preference and what works best for your lifestyle and goals."
-    },
-    {
-      "heading": "Conclusion",
-      "body": "In conclusion, the cost-effectiveness of a home gym versus a gym membership in NZ depends on various factors, including upfront equipment costs, ongoing fees, and personal preferences. By considering these factors and comparing prices, Kiwis can make an informed decision that suits their budget and fitness goals.",
-      "cta": {
-        "text": "Start Comparing Gym Membership Prices Today",
+        "text": "Compare gym memberships and prices",
         "url": "/compare/",
         "affiliate": false
       }
