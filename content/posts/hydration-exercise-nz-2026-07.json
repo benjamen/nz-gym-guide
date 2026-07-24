@@ -1,0 +1,64 @@
+{
+  "title": "Hydration & Exercise",
+  "short_title": "Hydration",
+  "meta_desc": "Stay hydrated during exercise in NZ's climate. Learn how much water you need, signs of dehydration, and what to expect at NZ gym water stations.",
+  "intro": "Staying hydrated is crucial for exercise, especially in New Zealand's varied climate. Dehydration can lead to decreased performance and increased risk of injury. According to the Ministry of Health, around 70% of New Zealanders do not drink enough water. As a gym-goer, it's essential to understand your hydration needs and how to stay on top of them.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ Climate Considerations",
+      "body": "New Zealand's climate can be quite diverse, ranging from hot and humid in the north to cold and dry in the south. This variability means that your hydration needs may change depending on the region you're in and the time of year. For example, if you're exercising outdoors in Auckland during summer, you'll need to drink more water to replace lost fluids due to the heat and humidity. On the other hand, if you're exercising indoors in Wellington during winter, you may need to drink less water due to the cooler and drier air.",
+      "list": [
+        "Check the weather forecast before exercising outdoors",
+        "Adjust your hydration plan according to the climate and temperature",
+        "Consider using a hydration app to track your water intake"
+      ]
+    },
+    {
+      "heading": "Signs of Dehydration",
+      "body": "Dehydration can be a serious issue, especially during exercise. Some common signs of dehydration include dark yellow or brown urine, dizziness or lightheadedness, and headaches. If you experience any of these symptoms, it's essential to stop exercising and drink water immediately. According to research, even mild dehydration can cause a decrease in athletic performance. The New Zealand Ministry of Health recommends drinking at least 8-10 cups of water per day, and more if you're exercising regularly.",
+      "list": [
+        "Monitor your urine colour to ensure it's pale yellow or clear",
+        "Pay attention to your body's signs of dehydration, such as headaches or fatigue",
+        "Drink water regularly throughout the day, not just during exercise"
+      ]
+    },
+    {
+      "heading": "Electrolytes and Hydration",
+      "body": "Electrolytes, such as sodium and potassium, play a crucial role in maintaining proper hydration levels. When you sweat, you lose electrolytes, which can disrupt your body's balance and lead to dehydration. Many sports drinks contain electrolytes, but they can be high in sugar and calories. A more natural approach is to consume electrolyte-rich foods, such as bananas or avocados, or to add electrolyte tablets to your water.",
+      "list": [
+        "Include electrolyte-rich foods in your diet, such as nuts or dried fruit",
+        "Consider using electrolyte tablets or supplements during intense exercise",
+        "Drink coconut water or other natural sources of electrolytes"
+      ]
+    },
+    {
+      "heading": "NZ Gym Water Stations vs Bringing Your Own",
+      "body": "Many gyms in New Zealand offer water stations or fountains, which can be a convenient way to stay hydrated during your workout. However, some gyms may charge for water or offer limited options. Bringing your own water bottle is often the best option, as you can control the type and amount of water you drink. Exercise NZ's subsidised gym scheme can help make gym memberships more affordable, with discounts of up to 70% off. You can find more information on their website or by visiting a participating gym.",
+      "list": [
+        "Check with your gym to see what water options are available",
+        "Consider bringing your own water bottle to ensure you have enough water",
+        "Look into Exercise NZ's subsidised gym scheme for affordable membership options"
+      ],
+      "cta": {
+        "text": "Find a gym near you and compare membership options",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion",
+      "body": "Staying hydrated is essential for exercise and overall health. By understanding your hydration needs, recognizing signs of dehydration, and using electrolytes effectively, you can perform at your best and reduce your risk of injury. Remember to drink plenty of water throughout the day, and consider bringing your own water bottle to the gym. If you're looking for a new gym or want to learn more about Exercise NZ's subsidised gym scheme, take our quiz to find the best option for you.",
+      "cta": {
+        "text": "Take our quiz to find your perfect gym match",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "hydration-exercise-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-25",
+  "post_type": "health_info"
+}
