@@ -1,0 +1,52 @@
+{
+  "title": "Morning Gym Nutrition",
+  "short_title": "Gym Food",
+  "meta_desc": "Discover the best foods to eat before a morning gym session in NZ, including affordable protein sources and expert advice from NZ dietitians.",
+  "intro": "For many Kiwis, an early morning gym session is the best way to fit in a workout. But what should you eat before hitting the treadmill or weights? We'll explore the best options, from bananas to protein shakes, and examine the evidence on fasted cardio. Whether you're a casual gym-goer or a serious athlete, this guide will help you fuel your morning sessions and get the most out of your workout.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to Morning Gym Nutrition",
+      "body": "When it comes to eating before a morning gym session, the key is to keep things light and easy to digest. You don't want to feel bloated or uncomfortable during your workout, but you also need enough energy to get through your routine. NZ dietitians recommend opting for a small snack or meal that includes a balance of carbohydrates and protein."
+    },
+    {
+      "heading": "Banana vs Protein Shake: What's the Best Option?",
+      "body": "Two popular options for a pre-gym snack are bananas and protein shakes. Bananas are a great source of carbohydrates, which can provide energy for your workout. A medium-sized banana from your local NZ supermarket like Countdown or New World will set you back around $0.50-$0.70. On the other hand, protein shakes can be more expensive, with a tub of whey protein from a brand like Optimum Nutrition costing around $40-$50. However, protein shakes can be a convenient option if you're short on time or prefer a quick and easy snack.",
+      "list": [
+        "Banana: $0.50-$0.70, high in carbohydrates",
+        "Protein shake: $40-$50 per tub, high in protein"
+      ]
+    },
+    {
+      "heading": "The Evidence on Fasted Cardio",
+      "body": "Some people swear by fasted cardio, which involves doing your workout on an empty stomach. However, the evidence on this topic is mixed. Some studies have shown that fasted cardio can be beneficial for weight loss, while others have found that it can actually decrease performance and increase the risk of injury. If you do decide to try fasted cardio, make sure to listen to your body and stop if you feel lightheaded or dizzy.",
+      "list": [
+        "May be beneficial for weight loss",
+        "Can decrease performance and increase risk of injury"
+      ]
+    },
+    {
+      "heading": "Affordable NZ Protein Sources",
+      "body": "If you're looking for affordable protein sources to fuel your workouts, there are several options available in NZ. Canned tuna and eggs are both high in protein and can be purchased at a relatively low cost. You can also consider buying protein powder in bulk or opting for a more affordable brand like Bulk Nutrients.",
+      "list": [
+        "Canned tuna: $2-$3 per can",
+        "Eggs: $1.50-$2.50 per dozen",
+        "Protein powder: $20-$50 per kilogram"
+      ]
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "When it comes to eating before a morning gym session, the key is to keep things simple and focused on your goals. Whether you opt for a banana, protein shake, or fasted cardio, make sure to listen to your body and adjust your routine as needed. For more information on finding a gym that suits your needs and budget, check out our gym comparison tool or take our quiz to find your perfect match.",
+      "cta": {
+        "text": "Compare Gyms or Take Our Quiz",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "pre-workout-morning-gym-nz-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-29",
+  "post_type": "nutrition"
+}
