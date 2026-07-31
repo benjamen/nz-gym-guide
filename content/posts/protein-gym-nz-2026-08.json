@@ -1,0 +1,72 @@
+{
+  "title": "Protein Guide NZ",
+  "short_title": "Protein",
+  "meta_desc": "Discover how much protein you need for your fitness goals, with a guide to NZ protein sources, whey vs plant-based, and NZ brands vs imports.",
+  "intro": "As a gym member in New Zealand, getting the right amount of protein is crucial for achieving your fitness goals. With the country's high obesity rates, around 32% of adults being obese, a well-structured nutrition programme is essential. Protein helps build and repair muscle tissue, making it a vital component of any fitness routine.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "How Much Protein Do You Need?",
+      "body": "The amount of protein you need depends on your fitness goals and weight. Generally, for building and repairing muscle, you need around 1.6-2.2 grams of protein per kilogram of body weight daily. For endurance athletes, 1.2-1.6 grams per kilogram is often sufficient. It's also important to consider the source of your protein, with whey and plant-based options being popular choices.",
+      "list": [
+        "Whey protein: fast-absorbing, high in branched-chain amino acids (BCAAs)",
+        "Plant-based protein: pea, rice, and hemp protein are popular options, often lower in BCAAs"
+      ]
+    },
+    {
+      "heading": "NZ Protein Sources and Brands",
+      "body": "New Zealand has a wide range of protein sources and brands to choose from. You can opt for NZ-made products or choose from international brands available in the country. Some popular NZ brands include Nutrient Services and Optimum Nutrition. When choosing a protein supplement, consider the protein content per serving, additives, and flavour options.",
+      "table": {
+        "headers": [
+          "Brand",
+          "Protein Content",
+          "Additives"
+        ],
+        "rows": [
+          [
+            "Nutrient Services",
+            "25g per serving",
+            "No artificial flavours or colours"
+          ],
+          [
+            "Optimum Nutrition",
+            "30g per serving",
+            "Some flavours contain artificial sweeteners"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Importance of Protein for NZ Gym Members",
+      "body": "As a gym member in New Zealand, incorporating enough protein into your diet can help you achieve your fitness goals faster. Protein helps build and repair muscle tissue, reducing muscle soreness and improving overall performance. Additionally, a well-structured nutrition programme can help with weight management, which is a significant concern in New Zealand, with around 68% of adults being overweight or obese.",
+      "list": [
+        "Builds and repairs muscle tissue",
+        "Reduces muscle soreness",
+        "Improves overall performance"
+      ]
+    },
+    {
+      "heading": "Getting Started with a Fitness Programme",
+      "body": "If you're new to the gym or looking to start a fitness programme, consider taking advantage of Exercise NZ's subsidised gym scheme, which offers 40-70% off gym memberships for eligible individuals. You can find a range of gym options on our website, from budget-friendly to high-end facilities. Remember to also focus on a balanced diet, including a variety of protein sources, to support your fitness goals.",
+      "cta": {
+        "text": "Find a gym near you and start your fitness journey",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Next Steps",
+      "body": "Now that you know more about protein and its importance for your fitness goals, take the next step and assess your current nutrition and fitness routine. Our quiz can help you determine the best course of action and provide personalized recommendations for improvement.",
+      "cta": {
+        "text": "Take our fitness quiz to get started",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "protein-gym-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-01",
+  "post_type": "health_info"
+}
