@@ -1,0 +1,64 @@
+{
+  "title": "Diabetes Exercise Guide",
+  "short_title": "Diabetes",
+  "meta_desc": "Discover how exercise improves insulin sensitivity, safe gym practices, and suitable gym formats for diabetics in New Zealand, with relevant health statistics and practical advice.",
+  "intro": "As a nation, New Zealand is facing a growing diabetes epidemic, with over 250,000 Kiwis living with the condition. Regular exercise is a crucial component of diabetes management, improving insulin sensitivity and reducing the risk of complications. In this guide, we'll explore the benefits of exercise for diabetics, safe gym practices, and the most suitable gym formats.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "NZ Diabetes Statistics",
+      "body": "According to the Ministry of Health, approximately 1 in 20 New Zealanders has diabetes, with this number expected to rise to 1 in 4 by 2030. The total annual cost of diabetes in New Zealand is estimated to be around $1.5 billion. Exercise is a key factor in managing the condition, with research showing that regular physical activity can reduce the risk of developing type 2 diabetes by up to 30%.",
+      "list": [
+        "250,000+ Kiwis living with diabetes",
+        "1 in 20 New Zealanders has diabetes",
+        "Estimated annual cost: $1.5 billion"
+      ]
+    },
+    {
+      "heading": "Exercise and Insulin Sensitivity",
+      "body": "Exercise plays a critical role in improving insulin sensitivity, which is essential for managing blood glucose levels. When we exercise, our muscles become more responsive to insulin, allowing glucose to enter the cells more efficiently. This can help to reduce the risk of diabetes-related complications, such as heart disease and kidney damage. Aim for at least 150 minutes of moderate-intensity aerobic exercise, or 75 minutes of vigorous-intensity aerobic exercise, or a combination of both, per week.",
+      "list": [
+        "Aim for 150 minutes of moderate-intensity aerobic exercise per week",
+        "Include strength training exercises 2-3 times per week",
+        "Incorporate high-intensity interval training (HIIT) for improved insulin sensitivity"
+      ]
+    },
+    {
+      "heading": "Safe Gym Practices for Diabetics",
+      "body": "When exercising with diabetes, it's essential to take certain precautions to ensure your safety. This includes monitoring your blood glucose levels before, during, and after exercise, staying hydrated, and wearing a medical alert identification. It's also crucial to choose a gym that caters to your needs, with staff trained in diabetes management and emergency procedures.",
+      "list": [
+        "Monitor blood glucose levels before, during, and after exercise",
+        "Stay hydrated by drinking plenty of water",
+        "Wear a medical alert identification"
+      ]
+    },
+    {
+      "heading": "Suitable Gym Formats for Diabetics",
+      "body": "Not all gyms are created equal, especially for diabetics. Look for gyms that offer a supportive environment, with staff trained in diabetes management and emergency procedures. Some popular gym formats for diabetics include group fitness classes, personal training, and low-impact exercises like yoga or Pilates. Exercise NZ's subsidised gym scheme can also help make gym memberships more affordable, with discounts of up to 70% off.",
+      "list": [
+        "Group fitness classes",
+        "Personal training",
+        "Low-impact exercises like yoga or Pilates"
+      ],
+      "cta": {
+        "text": "Find a gym that suits your needs and budget",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Getting Started",
+      "body": "If you're living with diabetes and looking to get started with exercise, it's essential to consult with your healthcare provider first. They can help you develop a safe and effective exercise programme that meets your needs and abilities. You can also check out our quiz to find a gym that suits your needs and budget.",
+      "cta": {
+        "text": "Take our quiz to find your perfect gym match",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-diabetes-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-02",
+  "post_type": "health_info"
+}
