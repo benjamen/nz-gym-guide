@@ -1,0 +1,67 @@
+{
+  "title": "Hydration Guide",
+  "short_title": "Hydrate",
+  "meta_desc": "Learn how much water NZ gym-goers need, the importance of electrolytes, and signs of dehydration during training to optimise your fitness programme.",
+  "intro": "As a NZ gym-goer, it's essential to stay hydrated, especially in our country's temperate climate with high levels of sunshine and humidity. Proper hydration helps prevent dehydration, supports physical performance, and aids in recovery. In this guide, we'll explore the importance of hydration, electrolytes, and provide practical tips to enhance your fitness programme.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "How Much Water Do You Really Need?",
+      "body": "The amount of water you need depends on several factors, including your weight, activity level, and the climate you're in. A general rule of thumb is to drink at least 8-10 cups (64-80 ounces) of water per day. However, if you're a gym-goer, you may need more to account for sweat loss during exercise. For example, if you weigh 70kg and exercise for 60 minutes, you may lose up to 1-2 litres of sweat.",
+      "list": [
+        "Monitor your urine colour: if it's pale yellow or clear, you're likely hydrated",
+        "Weigh yourself before and after exercise to track water loss",
+        "Adjust your fluid intake based on the weather and your activity level"
+      ]
+    },
+    {
+      "heading": "Electrolytes vs Plain Water",
+      "body": "Some popular NZ brands include Nuun, GU, and Shotz. When choosing an electrolyte supplement, look for products with balanced sodium and potassium levels to avoid overloading on one mineral."
+    },
+    {
+      "heading": "Sports Drinks vs Water",
+      "body": "Sports drinks are designed for high-intensity, long-duration activities where electrolyte replenishment is critical. However, for most gym-goers, water is sufficient for hydration. If you're doing a low-to-moderate intensity workout, water is likely all you need. Save sports drinks for activities like marathon running, triathlons, or high-intensity interval training (HIIT).",
+      "table": {
+        "headers": [
+          "Activity Level",
+          "Duration",
+          "Hydration Choice"
+        ],
+        "rows": [
+          [
+            "Low-moderate",
+            "30-60 minutes",
+            "Water"
+          ],
+          [
+            "High-intensity",
+            "60-90 minutes",
+            "Electrolyte supplement or sports drink"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Signs of Dehydration During Training",
+      "body": "Dehydration can lead to decreased performance, fatigue, and even serious health issues. Be aware of the following signs of dehydration: dark urine, dizziness, headaches, and muscle cramps. If you experience any of these symptoms, stop exercising and rehydrate with water or an electrolyte-rich drink.",
+      "list": [
+        "Monitor your body temperature: if it's elevated, you may be dehydrated",
+        "Watch for signs of dehydration in your training partners or gym buddies"
+      ]
+    },
+    {
+      "heading": "Practical Tips for NZ Gym-Goers",
+      "body": "To stay hydrated and optimise your fitness programme, follow these practical tips: drink water regularly throughout the day, aim to drink at least 500ml of water 30 minutes before exercise, and monitor your urine colour to ensure you're hydrated. You can also consider adding an affordable NZ protein source like whey protein or plant-based alternatives to your diet to support muscle recovery and growth.",
+      "cta": {
+        "text": "Compare gym memberships and find a gym near you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "hydration-gym-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-03",
+  "post_type": "nutrition"
+}

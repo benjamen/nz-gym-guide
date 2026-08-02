@@ -1,0 +1,79 @@
+{
+  "title": "PRJCT vs P3 Recovery",
+  "short_title": "PRJCT vs P3",
+  "meta_desc": "Compare PRJCT CrossFit and P3 Recovery NZ prices, facilities, and value to find the best fit for your fitness needs in New Zealand.",
+  "intro": "PRJCT CrossFit and P3 Recovery NZ are two boutique fitness options in New Zealand, catering to different aspects of fitness. PRJCT CrossFit focuses on CrossFit training, while P3 Recovery NZ specializes in recovery services. This comparison will help you decide which one is right for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Overview of PRJCT CrossFit and P3 Recovery NZ",
+      "body": "PRJCT CrossFit is a community-focused CrossFit box with locations in selected cities across New Zealand. It offers group fitness classes, personal training, and guest passes, with prices ranging from $45 to $65 per week. On the other hand, P3 Recovery NZ provides recovery services such as float therapy, infrared sauna, and ice bath recovery, with prices ranging from $20 to $70 per week.",
+      "list": [
+        "PRJCT CrossFit: group fitness, personal training, guest passes",
+        "P3 Recovery NZ: float therapy, infrared sauna, ice bath recovery"
+      ]
+    },
+    {
+      "heading": "Comparison of Key Features",
+      "body": "When comparing PRJCT CrossFit and P3 Recovery NZ, consider the price per week, contract length, cancellation policies, facilities, locations, and 24/7 access. The table below summarizes the key features of each option.",
+      "table": {
+        "headers": [
+          "Feature",
+          "PRJCT CrossFit",
+          "P3 Recovery NZ"
+        ],
+        "rows": [
+          [
+            "Price per week",
+            "$45-$65",
+            "$20-$70"
+          ],
+          [
+            "Contract length",
+            "No lock-in contract",
+            "No lock-in contract"
+          ],
+          [
+            "Cancellation",
+            "No cancellation fees",
+            "No cancellation fees"
+          ],
+          [
+            "Facilities",
+            "Group fitness classes, personal training, free weights",
+            "Float tanks, infrared sauna, ice baths"
+          ],
+          [
+            "Locations",
+            "Selected cities",
+            "Selected cities"
+          ],
+          [
+            "24/7 access",
+            "No",
+            "No"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on the comparison, PRJCT CrossFit is suitable for those who want a community-focused CrossFit experience, while P3 Recovery NZ is ideal for individuals seeking recovery services. Consider your fitness goals and priorities when choosing between these two options. Additionally, check if you are eligible for the Exercise NZ subsidy, which offers 40-70% off for eligible members.",
+      "list": [
+        "CrossFit enthusiasts: PRJCT CrossFit",
+        "Recovery-focused individuals: P3 Recovery NZ",
+        "Eligible members: Exercise NZ subsidy for 40-70% off"
+      ],
+      "cta": {
+        "text": "Compare all NZ gym memberships →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "prjct-crossfit-vs-p3-recovery-nz-nz",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-03",
+  "post_type": "comparison"
+}

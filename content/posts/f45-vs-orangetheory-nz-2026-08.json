@@ -1,0 +1,81 @@
+{
+  "title": "F45 vs Orangetheory",
+  "short_title": "HIIT Showdown",
+  "meta_desc": "Compare F45 and Orangetheory in NZ: format, price, results, community. Find the best HIIT studio for you with nzgymguide.co.nz",
+  "intro": "High-Intensity Interval Training (HIIT) has become increasingly popular in New Zealand, with F45 and Orangetheory being two of the most well-known studios. Both offer a unique approach to HIIT, but which one is right for you? In this guide, we'll break down the key differences between F45 and Orangetheory to help you make an informed decision.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "What is F45 and Orangetheory?",
+      "body": "F45 is a functional training programme that offers a variety of workouts, including cardio, strength, and hybrid classes. Orangetheory, on the other hand, focuses on heart-rate based training, where you wear a heart rate monitor to track your intensity. Both studios offer a high-energy environment, but the format and structure of the workouts differ significantly. F45 has a more varied programme, with new workouts every day, while Orangetheory follows a more consistent structure, with a focus on endurance, strength, and power.",
+      "list": [
+        "F45: functional training with varied workouts",
+        "Orangetheory: heart-rate based training with consistent structure"
+      ]
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "The cost of F45 and Orangetheory varies depending on the location and membership type. On average, F45 memberships range from $50 to $100 per week, while Orangetheory memberships range from $60 to $120 per week. It's worth noting that some gyms, such as City Fitness and Les Mills, offer similar HIIT classes at a lower cost. Additionally, Exercise NZ's subsidised gym scheme can help reduce the cost of membership by 40-70%.",
+      "table": {
+        "headers": [
+          "Studio",
+          "Membership Type",
+          "Price per Week"
+        ],
+        "rows": [
+          [
+            "F45",
+            "Basic",
+            "$50"
+          ],
+          [
+            "F45",
+            "Premium",
+            "$100"
+          ],
+          [
+            "Orangetheory",
+            "Basic",
+            "$60"
+          ],
+          [
+            "Orangetheory",
+            "Premium",
+            "$120"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Results and Community",
+      "body": "Both F45 and Orangetheory have a strong focus on community and accountability, which can help drive results. F45 has a more team-based approach, with members working together to complete challenges and workouts. Orangetheory, on the other hand, has a more individualised approach, with members tracking their own progress and competing with themselves. In terms of results, both studios have been shown to be effective for weight loss and improving cardiovascular fitness.",
+      "list": [
+        "F45: team-based approach with challenges and workouts",
+        "Orangetheory: individualised approach with self-tracking and competition"
+      ]
+    },
+    {
+      "heading": "Which Studio is Right for You?",
+      "body": "Ultimately, the choice between F45 and Orangetheory depends on your personal preferences and fitness goals. If you enjoy a varied workout programme and a team-based approach, F45 may be the better choice. If you prefer a more structured and individualised approach, Orangetheory may be the way to go. Consider visiting both studios and trying out a class to see which one you prefer. You can also use our comparison tool to find the best HIIT studio for your needs and budget.",
+      "cta": {
+        "text": "Compare F45 and Orangetheory",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion",
+      "body": "F45 and Orangetheory are both popular HIIT studios in New Zealand, offering a unique approach to fitness and weight loss. By considering the format, price, results, and community of each studio, you can make an informed decision about which one is right for you. Don't forget to check out our quiz to find the best gym and fitness programme for your needs and goals.",
+      "cta": {
+        "text": "Take the quiz",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "f45-vs-orangetheory-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-03",
+  "post_type": "exercise_tips"
+}
