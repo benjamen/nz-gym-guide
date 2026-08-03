@@ -1,51 +1,56 @@
 {
   "slug": "outdoor-fitness-vs-gym-nz",
-  "short_title": "Outdoor Fitness Options",
+  "short_title": "Outdoor Fitness NZ",
   "title": "Outdoor Fitness vs Gym Membership in NZ — Why You Might Not Need Both",
-  "meta_desc": "Outdoor fitness in NZ: Explore running, cycling, and bootcamps as a gym alternative",
-  "intro": "With New Zealand's stunning outdoors, many Kiwis are ditching traditional gym memberships for outdoor fitness activities. In fact, a recent survey found that over 70% of New Zealanders prefer exercising outdoors. But when does a gym membership still add value?",
-  "updated": "July 2026",
+  "meta_desc": "Outdoor fitness in NZ vs gym membership: compare prices, contract terms and find the best option for you",
+  "intro": "With New Zealand's stunning outdoors, many Kiwis are opting for outdoor fitness activities like running and cycling over traditional gym memberships. However, there are scenarios where a gym membership can add value to your fitness routine. Let's explore the reality of outdoor fitness in NZ and when a gym membership might be worth considering.",
+  "updated": "August 2026",
   "reading_time": 7,
   "sections": [
     {
       "heading": "NZ Outdoor Fitness Reality",
-      "body": "New Zealand's temperate climate and diverse landscapes make it an ideal location for outdoor activities like running, cycling, and hiking. Many popular outdoor spots, such as Auckland's Waitakere Ranges and Wellington's Oriental Bay, offer scenic routes and trails for outdoor enthusiasts."
+      "body": "New Zealand's great outdoors offers plenty of opportunities for physical activity, from hiking and trail running to cycling and water sports. With over 30 percent of Kiwis engaging in outdoor activities at least once a week, it's clear that many prefer the freedom and variety that comes with exercising outside."
     },
     {
       "heading": "Running and Cycling in NZ",
-      "body": "Running and cycling are two of the most popular outdoor activities in New Zealand. With numerous bike trails and running tracks, Kiwis can easily find a route to suit their fitness level. For example, the popular Wellington Waterfront route offers a scenic 10km run or cycle path."
+      "body": "Running and cycling are two of the most popular outdoor activities in NZ, with many groups and clubs catering to enthusiasts. For example, the Auckland Running Club offers weekly group runs, while the NZ Cycling Federation provides training programs and events for cyclists of all levels."
     },
     {
-      "heading": "Outdoor Bootcamps in NZ",
-      "body": "Outdoor bootcamps are another great way to stay fit in New Zealand. Many gyms, such as Les Mills and F45, offer outdoor bootcamp classes, which typically cost between $10-$20 per session. Independent outdoor bootcamp providers, like Outdoor Fitness Auckland, charge around $15-$25 per session."
+      "heading": "Outdoor Bootcamps and Group Fitness",
+      "body": "Outdoor bootcamps and group fitness classes are also gaining popularity in NZ, with many gyms and fitness studios offering outdoor sessions. For instance, Les Mills NZ offers outdoor bootcamps in several locations, including Auckland and Wellington, with prices starting from $15 per session."
     },
     {
-      "heading": "Gym Membership Price Comparison",
+      "heading": "Gym Membership Prices in NZ",
       "table": {
         "headers": [
           "Gym",
           "Weekly Price",
+          "Monthly Price",
           "Contract Term"
         ],
         "rows": [
           [
-            "Anytime Fitness",
+            "Anytime Fitness NZ",
             "$21.95",
+            "$89.95",
             "12 months"
           ],
           [
-            "Les Mills",
-            "$29.95",
+            "Jetts NZ",
+            "$19.95",
+            "$79.95",
             "12 months"
           ],
           [
-            "F45",
-            "$59.00",
-            "3 months"
+            "CityFitness NZ",
+            "$24.95",
+            "$99.95",
+            "6 months"
           ],
           [
-            "CityFitness",
-            "$16.99",
+            "YMCA NZ",
+            "$20.95",
+            "$84.95",
             "12 months"
           ]
         ]
@@ -53,7 +58,7 @@
     },
     {
       "heading": "When a Gym Membership Adds Value",
-      "body": "While outdoor fitness activities are abundant in New Zealand, a gym membership can still add value for those who prefer strength training, group fitness classes, or require access to specialized equipment. For example, a gym like Jetts Fitness, with over 20 locations across NZ, offers a range of strength training equipment and group classes, with prices starting from $14.95 per week.",
+      "body": "While outdoor fitness activities can be an excellent way to stay active, there are scenarios where a gym membership can add value to your fitness routine. For example, during the winter months when outdoor activities may be limited, a gym membership can provide a convenient and weather-proof alternative. Additionally, gyms often offer specialized equipment and classes that may not be available outdoors.",
       "cta": {
         "text": "Compare NZ gym prices and find the best deal for you",
         "url": "/compare/",
@@ -62,10 +67,10 @@
     },
     {
       "heading": "Conclusion",
-      "body": "In conclusion, outdoor fitness activities in New Zealand offer a great alternative to traditional gym memberships. However, for those who require access to specialized equipment or prefer group fitness classes, a gym membership can still be a valuable investment. By weighing up the costs and benefits, Kiwis can make an informed decision about what works best for their fitness goals and budget.",
+      "body": "Ultimately, the decision between outdoor fitness and a gym membership in NZ depends on your individual preferences, fitness goals, and lifestyle. By considering the prices, contract terms, and benefits of each option, you can make an informed decision that suits your needs and budget. For more information on specific gyms and their membership options, visit our gym guide pages, such as the Anytime Fitness NZ page.",
       "cta": {
-        "text": "Learn more about Jetts Fitness and their membership options",
-        "url": "/gym/jetts-fitness/",
+        "text": "Learn more about Anytime Fitness NZ",
+        "url": "/gym/anytime-fitness-nz/",
         "affiliate": false
       }
     }
