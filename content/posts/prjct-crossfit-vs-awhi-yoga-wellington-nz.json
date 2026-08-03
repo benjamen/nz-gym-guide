@@ -1,0 +1,87 @@
+{
+  "title": "PRJCT CrossFit vs AWHI Yoga",
+  "short_title": "CrossFit vs Yoga",
+  "meta_desc": "Compare PRJCT CrossFit and AWHI Yoga & Wellbeing NZ. Find the best gym for your fitness needs and budget.",
+  "intro": "PRJCT CrossFit and AWHI Yoga & Wellbeing NZ are two popular boutique gyms in New Zealand. With different focuses and price points, it's essential to compare them before making a decision. In this article, we'll break down the key differences to help you choose the best gym for your needs.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Price Comparison",
+      "body": "PRJCT CrossFit costs between $45.00 and $65.00 per week, while AWHI Yoga & Wellbeing NZ costs between $20.00 and $40.00 per week. AWHI Yoga also offers a 10-class pass for $199 or $210 with mat hire. Consider your budget and attendance frequency when deciding between these options. Exercise NZ's subsidised gym scheme may also be available, offering 40-70% off for eligible members.",
+      "list": [
+        "PRJCT CrossFit: $45.00-$65.00/week",
+        "AWHI Yoga & Wellbeing NZ: $20.00-$40.00/week or 10-class pass"
+      ]
+    },
+    {
+      "heading": "Contract and Cancellation",
+      "body": "Both PRJCT CrossFit and AWHI Yoga & Wellbeing NZ offer no-lock-in contracts, providing flexibility for members. This means you can cancel your membership at any time without incurring penalties. Consider this when choosing between the two gyms, especially if you prefer a hassle-free experience.",
+      "list": [
+        "No-lock-in contracts for both gyms",
+        "Cancel anytime without penalties"
+      ]
+    },
+    {
+      "heading": "Facilities and Locations",
+      "body": "PRJCT CrossFit offers group fitness, personal training, and free weights, while AWHI Yoga & Wellbeing NZ provides a variety of yoga classes, including vinyasa, yin, and pilates. Both gyms have multiple locations across New Zealand, but PRJCT CrossFit is specifically designed for CrossFit enthusiasts. Consider the type of workout you prefer and the location that suits you best.",
+      "list": [
+        "PRJCT CrossFit: group fitness, personal training, free weights",
+        "AWHI Yoga & Wellbeing NZ: various yoga classes"
+      ]
+    },
+    {
+      "heading": "Comparison Table",
+      "body": "The following table summarizes the key differences between PRJCT CrossFit and AWHI Yoga & Wellbeing NZ.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per Week",
+          "Contract Length",
+          "Cancellation",
+          "Facilities",
+          "Locations",
+          "24/7 Access"
+        ],
+        "rows": [
+          [
+            "PRJCT CrossFit",
+            "$45.00-$65.00",
+            "No lock-in",
+            "Anytime",
+            "Group fitness, personal training, free weights",
+            "Selected cities",
+            "No"
+          ],
+          [
+            "AWHI Yoga & Wellbeing NZ",
+            "$20.00-$40.00",
+            "No lock-in",
+            "Anytime",
+            "Yoga classes",
+            "Selected cities",
+            "No"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on the comparison, PRJCT CrossFit is ideal for CrossFit enthusiasts who value a community-focused environment, while AWHI Yoga & Wellbeing NZ is perfect for those seeking a welcoming yoga community. If you're a beginner, consider PRJCT CrossFit's foundations course or AWHI Yoga's diverse class styles. Ultimately, choose the gym that aligns with your fitness goals and preferences. Don't forget to check if you're eligible for Exercise NZ's subsidised gym scheme, which could save you 40-70% on membership costs.",
+      "list": [
+        "PRJCT CrossFit: best for CrossFit enthusiasts",
+        "AWHI Yoga & Wellbeing NZ: best for yoga enthusiasts",
+        "Consider Exercise NZ's subsidised gym scheme"
+      ],
+      "cta": {
+        "text": "Compare all NZ gym memberships →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "prjct-crossfit-vs-awhi-yoga-wellington-nz",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-04",
+  "post_type": "comparison"
+}
