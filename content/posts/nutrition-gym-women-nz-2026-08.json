@@ -1,0 +1,60 @@
+{
+  "title": "Nutrition for Women",
+  "short_title": "Women's Nutrition",
+  "meta_desc": "Evidence-based nutrition guide for women who lift in NZ, covering protein needs, iron intake, and hormone cycle nutrition with NZ food sources",
+  "intro": "As a woman who lifts in New Zealand, you have unique nutritional needs to support your fitness goals and overall health. A well-planned diet can help with body recomposition, energy levels, and hormone balance. In this guide, we'll cover the essential nutrition topics for women who lift, including higher protein needs, iron intake, and affordable NZ food sources.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Higher Protein Needs for Women Who Lift",
+      "body": "Women who lift weights require more protein to support muscle growth and repair. Aim for 1.6-2.2 grams of protein per kilogram of body weight daily. For example, a 60kg woman should consume 96-132 grams of protein per day. You can achieve this through a balanced diet that includes protein-rich foods like chicken, fish, eggs, and legumes. Affordable NZ protein sources include canned tuna ($3-$5 per can), chicken breast ($8-$10 per kg), and eggs ($2-$3 per dozen).",
+      "list": [
+        "Chicken breast",
+        "Canned tuna",
+        "Eggs",
+        "Legumes (lentils, chickpeas, black beans)"
+      ]
+    },
+    {
+      "heading": "Iron Intake for Active Women in NZ",
+      "body": "Iron deficiency is common among active women in New Zealand, particularly those who experience heavy menstrual bleeding. The recommended daily intake of iron is 18mg for women aged 19-50 years. Include iron-rich foods like red meat, spinach, and fortified cereals in your diet. Vitamin C can enhance iron absorption, so consume foods high in vitamin C (like citrus fruits, bell peppers, and broccoli) along with iron-rich foods. NZ-specific iron-rich food sources include lamb ($10-$15 per kg), spinach ($2-$3 per bunch), and Weet-Bix ($5-$6 per box).",
+      "list": [
+        "Red meat (lamb, beef)",
+        "Spinach",
+        "Fortified cereals (Weet-Bix)",
+        "Vitamin C-rich foods (citrus fruits, bell peppers, broccoli)"
+      ]
+    },
+    {
+      "heading": "Hormone Cycle and Nutrition",
+      "body": "Hormonal fluctuations throughout the menstrual cycle can affect hunger, fullness, and nutrient needs. During the follicular phase, focus on complex carbohydrates and protein-rich foods to support energy production. In the luteal phase, include more healthy fats and omega-3 rich foods to support hormone production. Listen to your body and adjust your diet accordingly. Avoid under-eating, as this can disrupt hormone balance and negatively impact overall health.",
+      "list": [
+        "Follicular phase: complex carbohydrates, protein-rich foods",
+        "Luteal phase: healthy fats, omega-3 rich foods"
+      ]
+    },
+    {
+      "heading": "Avoiding Under-Eating and Supporting Overall Health",
+      "body": "Under-eating can lead to nutrient deficiencies, fatigue, and poor performance in the gym. Ensure you're consuming enough calories to support your energy needs, and prioritize whole, unprocessed foods like fruits, vegetables, whole grains, lean proteins, and healthy fats. Stay hydrated by drinking plenty of water throughout the day. Consider consulting with a registered dietitian or a healthcare professional for personalized nutrition advice. Exercise NZ's subsidised gym scheme can also help you access affordable fitness programmes and nutrition guidance.",
+      "list": [
+        "Eat whole, unprocessed foods",
+        "Stay hydrated",
+        "Consult a registered dietitian or healthcare professional"
+      ]
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "By following these evidence-based nutrition tips, you can support your fitness goals and overall health as a woman who lifts in New Zealand. Remember to prioritize higher protein needs, iron intake, and hormone cycle nutrition, and avoid under-eating to support overall health.",
+      "cta": {
+        "text": "Compare gym memberships and find a subsidised programme through Exercise NZ",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "nutrition-gym-women-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-05",
+  "post_type": "nutrition"
+}

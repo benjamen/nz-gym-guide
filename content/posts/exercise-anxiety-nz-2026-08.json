@@ -1,0 +1,49 @@
+{
+  "title": "Exercise for Anxiety",
+  "short_title": "Anxiety Relief",
+  "meta_desc": "Discover how exercise can help manage anxiety in NZ, with evidence-based advice and practical steps to get started safely, including yoga, walking, and swimming options",
+  "intro": "Anxiety affects many New Zealanders, with the Ministry of Health reporting that one in five Kiwis experience anxiety disorders each year. Exercise is a proven way to reduce anxiety symptoms, and certain types of physical activity are particularly beneficial. By incorporating exercise into your routine, you can take a significant step towards managing anxiety and improving your overall wellbeing.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Anxiety in NZ: The Facts",
+      "body": "According to the Ministry of Health, anxiety disorders are a significant concern in New Zealand, affecting around 20% of the population. The economic burden of anxiety is also substantial, with a recent study estimating that anxiety disorders cost the NZ economy over $1 billion annually. However, research has consistently shown that regular exercise can help alleviate anxiety symptoms, reducing the risk of developing anxiety disorders and improving overall mental health.",
+      "list": [
+        "1 in 5 Kiwis experience anxiety disorders each year",
+        "Anxiety disorders cost the NZ economy over $1 billion annually",
+        "Regular exercise can reduce anxiety symptoms by up to 40%"
+      ]
+    },
+    {
+      "heading": "Exercise as Medicine",
+      "body": "The New Zealand government recognises the importance of exercise for mental health, with initiatives such as Exercise NZ's subsidised gym scheme, which offers 40-70% off gym memberships for eligible individuals. This scheme can help make exercise more accessible and affordable for those who need it most."
+    },
+    {
+      "heading": "Gym Types to Reduce Anxiety",
+      "body": "Certain types of exercise are particularly beneficial for reducing anxiety symptoms. These include yoga, walking, and swimming, which are all low-impact activities that can be modified to suit different fitness levels. Yoga, in particular, has been shown to have a positive impact on anxiety symptoms, with its combination of physical postures, breathing techniques, and meditation helping to reduce stress and improve mood.",
+      "list": [
+        "Yoga: combines physical postures, breathing techniques, and meditation to reduce stress and improve mood",
+        "Walking: a low-impact activity that can be done almost anywhere, with minimal equipment required",
+        "Swimming: a low-impact activity that can help reduce stress and improve mood, while also providing a full-body workout"
+      ]
+    },
+    {
+      "heading": "Getting Started Safely",
+      "body": "Additionally, many gyms in NZ offer introductory sessions or beginner classes, which can be a great way to get started with exercise in a supportive and supervised environment. Exercise NZ's subsidised gym scheme can also help make gym memberships more affordable, with discounts of 40-70% off available for eligible individuals."
+    },
+    {
+      "heading": "Take the Next Step",
+      "body": "Alternatively, you can compare gyms in your area using our comparison tool, which allows you to filter gyms by location, price, and amenities. Visit our compare page to get started and find the perfect gym for your anxiety-reducing exercise programme.",
+      "cta": {
+        "text": "Compare gyms in your area",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-anxiety-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-05",
+  "post_type": "health_info"
+}

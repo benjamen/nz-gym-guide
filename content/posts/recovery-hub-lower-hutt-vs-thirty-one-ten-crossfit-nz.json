@@ -1,0 +1,65 @@
+{
+  "title": "Recovery Hub vs Thirty One Ten",
+  "short_title": "Recovery Hub",
+  "meta_desc": "Compare Recovery Hub and Thirty One Ten CrossFit NZ prices, contract lengths, and facilities to find the best fit for your fitness needs in New Zealand.",
+  "intro": "Recovery Hub and Thirty One Ten CrossFit NZ are two popular fitness options in New Zealand, catering to different needs and preferences. Recovery Hub is a boutique recovery centre, while Thirty One Ten CrossFit NZ is a CrossFit affiliate. In this comparison, we'll help you decide which one is right for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Overview of Recovery Hub and Thirty One Ten CrossFit NZ",
+      "body": "Recovery Hub is a boutique recovery centre with a focus on wellness and recovery, offering services like sauna, cold plunge, and float therapy. Thirty One Ten CrossFit NZ, on the other hand, is a CrossFit affiliate with a focus on functional fitness and community. Both options have their unique strengths and weaknesses, and the choice between them depends on your individual fitness goals and preferences.",
+      "list": [
+        "Recovery Hub: recovery-focused, boutique centre",
+        "Thirty One Ten CrossFit NZ: CrossFit affiliate, functional fitness"
+      ]
+    },
+    {
+      "heading": "Price and Contract Comparison",
+      "body": "Recovery Hub prices range from $14 to $50 per week, with no joining fee and flexible membership options. Thirty One Ten CrossFit NZ prices range from $35 to $50 per week, also with no joining fee. Both options offer flexible contract lengths, but it's essential to consider the overall value and what each option provides.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per Week",
+          "Contract Length",
+          "Cancellation"
+        ],
+        "rows": [
+          [
+            "Recovery Hub",
+            "$14-$50",
+            "No lock-in",
+            "Flexible"
+          ],
+          [
+            "Thirty One Ten CrossFit NZ",
+            "$35-$50",
+            "No lock-in",
+            "Flexible"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Facilities, Locations, and 24/7 Access",
+      "body": "Recovery Hub has multiple locations in selected cities, including Lower Hutt, and offers a range of recovery facilities like sauna, cold plunge, and float therapy. Thirty One Ten CrossFit NZ has locations in selected cities, including Tauranga, and offers group fitness classes, personal training, and a functional fitness space. Neither option provides 24/7 access, but both have flexible operating hours.",
+      "list": [
+        "Recovery Hub: multiple locations, recovery facilities",
+        "Thirty One Ten CrossFit NZ: multiple locations, functional fitness space"
+      ]
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on the comparison, Recovery Hub is the best option for those seeking a recovery-focused boutique centre with flexible membership options. Thirty One Ten CrossFit NZ is ideal for individuals looking for a CrossFit affiliate with a strong community and functional fitness focus. Consider your fitness goals and preferences when choosing between these two options. Additionally, don't forget to explore the Exercise NZ subsidy, which offers 40-70% off for eligible members.",
+      "cta": {
+        "text": "Learn more about Exercise NZ subsidy",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "recovery-hub-lower-hutt-vs-thirty-one-ten-crossfit-nz",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-05",
+  "post_type": "comparison"
+}
