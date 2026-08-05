@@ -1,0 +1,81 @@
+{
+  "title": "Hot Yoga Wellington vs Sweat Yoga",
+  "short_title": "Hot Yoga Comparison",
+  "meta_desc": "Compare Hot Yoga Wellington and Sweat Yoga Auckland NZ on price, contract, facilities, and value to find the best fit for your yoga needs.",
+  "intro": "Hot Yoga Wellington and Sweat Yoga Auckland NZ are two popular boutique yoga studios in New Zealand. Both offer a range of hot yoga classes, but they differ in terms of price, contract length, and facilities. In this article, we'll compare the two studios to help you decide which one is best for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Pricing and Contract",
+      "body": "Hot Yoga Wellington and Sweat Yoga Auckland NZ have similar pricing structures, with weekly prices ranging from $18 to $45. However, both studios offer no-lock-in contracts and casual classes, providing flexibility for members. Neither studio has a joining fee, making it easy to get started.",
+      "list": [
+        "Hot Yoga Wellington: $18-$45/week",
+        "Sweat Yoga Auckland NZ: $20-$45/week",
+        "No joining fee for either studio",
+        "No lock-in contracts"
+      ]
+    },
+    {
+      "heading": "Facilities and Locations",
+      "body": "Hot Yoga Wellington is located on Featherston St in Wellington and offers over 30 classes per week, including hot yoga, yin, and power vinyasa. Sweat Yoga Auckland NZ is located in Newmarket, Auckland, and specializes in Bikram-style and heated flow classes. Both studios have a strong focus on group fitness and community.",
+      "list": [
+        "Hot Yoga Wellington: Featherston St, Wellington",
+        "Sweat Yoga Auckland NZ: Newmarket, Auckland"
+      ]
+    },
+    {
+      "heading": "Comparison Table",
+      "body": "The following table summarizes the key differences between Hot Yoga Wellington and Sweat Yoga Auckland NZ.",
+      "table": {
+        "headers": [
+          "Studio",
+          "Price/Week",
+          "Contract Length",
+          "Cancellation",
+          "Facilities",
+          "Locations",
+          "24/7 Access"
+        ],
+        "rows": [
+          [
+            "Hot Yoga Wellington",
+            "$18-$45",
+            "No lock-in",
+            "Easy cancellation",
+            "Group fitness, hot yoga, yin, power vinyasa",
+            "Wellington",
+            "No"
+          ],
+          [
+            "Sweat Yoga Auckland NZ",
+            "$20-$45",
+            "No lock-in",
+            "Easy cancellation",
+            "Group fitness, Bikram-style, heated flow",
+            "Auckland",
+            "No"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on our comparison, Hot Yoga Wellington is the better choice for yoga enthusiasts who want variety and a range of classes. Sweat Yoga Auckland NZ is ideal for serious practitioners who want a dedicated hot yoga experience. Consider taking advantage of Exercise NZ's subsidised gym scheme, which offers 40-70% off for eligible members. Ultimately, the best studio for you will depend on your individual needs and preferences.",
+      "list": [
+        "Hot Yoga Wellington: best for yoga enthusiasts wanting variety",
+        "Sweat Yoga Auckland NZ: best for serious hot yoga practitioners",
+        "Consider Exercise NZ's subsidised gym scheme for discounts"
+      ],
+      "cta": {
+        "text": "Compare all NZ gym memberships →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "hot-yoga-wellington-vs-sweat-yoga-auckland-nz",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-06",
+  "post_type": "comparison"
+}

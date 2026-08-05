@@ -1,0 +1,78 @@
+{
+  "title": "Les Mills Class Guide",
+  "short_title": "Les Mills NZ",
+  "meta_desc": "Discover the best Les Mills classes for your fitness goals, including BodyPump, BodyCombat, and RPM. Find a gym near you with our comparison tool.",
+  "intro": "Les Mills is a household name in New Zealand, with a range of high-energy classes to suit all fitness levels. From strength training to cardio and yoga, there's a Les Mills class to help you achieve your goals. In this guide, we'll break down the most popular classes, including BodyPump, BodyCombat, BodyBalance, RPM, SH'BAM, and GRIT.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to Les Mills Classes",
+      "body": "Les Mills classes are designed to be fun, engaging, and challenging. Each class is carefully choreographed to music, with expert instructors guiding you through the workout. Whether you're a beginner or an experienced athlete, there's a Les Mills class to suit your needs. BodyPump, for example, is a weights-based class that's perfect for building strength and toning muscle. BodyCombat, on the other hand, is a high-energy martial arts-inspired workout that's great for cardio and stress relief.",
+      "list": [
+        "BodyPump: weights-based class for strength and toning",
+        "BodyCombat: martial arts-inspired cardio workout",
+        "BodyBalance: yoga and Pilates-based class for flexibility and relaxation"
+      ]
+    },
+    {
+      "heading": "Calorie Burn and Intensity",
+      "body": "Les Mills classes vary in terms of calorie burn and intensity. RPM, for example, is a high-intensity indoor cycling class that can burn up to 600 calories per session. SH'BAM, on the other hand, is a fun and energetic dance-based class that's designed to be low-impact and accessible to all fitness levels. GRIT, a high-intensity interval training (HIIT) class, is perfect for those looking to push themselves to the limit.",
+      "table": {
+        "headers": [
+          "Class",
+          "Calorie Burn",
+          "Intensity"
+        ],
+        "rows": [
+          [
+            "BodyPump",
+            "400-500 calories",
+            "Medium-High"
+          ],
+          [
+            "RPM",
+            "600-700 calories",
+            "High"
+          ],
+          [
+            "SH'BAM",
+            "300-400 calories",
+            "Low-Medium"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Which Class is Right for You?",
+      "body": "With so many Les Mills classes to choose from, it can be difficult to know where to start. If you're new to group fitness classes, we recommend starting with a lower-intensity class like BodyBalance or SH'BAM. If you're looking to challenge yourself, try RPM or GRIT. Many New Zealand gyms, including Les Mills, City Fitness, and Jetts, offer a range of Les Mills classes, so you're sure to find one that suits your needs. Don't forget to check out Exercise NZ's subsidised gym scheme, which can save you 40-70% on gym membership.",
+      "list": [
+        "Start with a lower-intensity class like BodyBalance or SH'BAM",
+        "Challenge yourself with RPM or GRIT",
+        "Check out Exercise NZ's subsidised gym scheme for discounts"
+      ]
+    },
+    {
+      "heading": "Getting Started",
+      "body": "Once you've chosen a Les Mills class, it's time to get started. Arrive at least 10-15 minutes before the class to meet the instructor and get familiar with the equipment. Wear comfortable clothing and shoes, and bring a water bottle to stay hydrated. Most New Zealand gyms offer a free trial or introductory session, so be sure to take advantage of this to try out a new class.",
+      "list": [
+        "Arrive 10-15 minutes before the class",
+        "Wear comfortable clothing and shoes",
+        "Bring a water bottle to stay hydrated"
+      ]
+    },
+    {
+      "heading": "Find a Gym Near You",
+      "body": "With so many great Les Mills classes to choose from, it's time to find a gym near you that offers them. Use our comparison tool to find a gym that suits your needs and budget. Whether you're in Auckland, Wellington, or Christchurch, we've got you covered.",
+      "cta": {
+        "text": "Compare Gyms Now",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "les-mills-classes-guide-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-06",
+  "post_type": "exercise_tips"
+}

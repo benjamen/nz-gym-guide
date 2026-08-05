@@ -1,0 +1,54 @@
+{
+  "title": "NZ Supplement Guide",
+  "short_title": "Supplements",
+  "meta_desc": "Discover the truth about gym supplements in NZ. Learn what works, what doesn't and how to save money with evidence-based advice and NZ health statistics.",
+  "intro": "With many New Zealanders hitting the gym, the use of supplements has become increasingly popular. However, with so many options available, it can be difficult to know what works and what doesn't. According to the New Zealand Ministry of Health, around 45% of adults in NZ do not meet the recommended physical activity guidelines, highlighting the importance of a well-structured fitness programme. In this guide, we will explore the effectiveness of popular supplements like creatine, caffeine, and protein powder, and provide practical advice on how to make the most of your gym membership.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What Works: Evidence-Based Supplements",
+      "body": "Research has shown that certain supplements can be beneficial for gym-goers. Creatine, for example, has been consistently shown to increase muscle strength and endurance. Caffeine can also be effective in improving athletic performance, particularly in high-intensity activities. Protein powder, on the other hand, can be a convenient way to meet daily protein needs, especially for those with busy lifestyles. NZ supplement brands like Balance Sports Nutrition and Horleys offer a range of products that can support your fitness goals.",
+      "list": [
+        "Creatine: increases muscle strength and endurance",
+        "Caffeine: improves athletic performance",
+        "Protein powder: convenient way to meet daily protein needs"
+      ]
+    },
+    {
+      "heading": "What Doesn't Work: Separating Fact from Fiction",
+      "body": "Exercise NZ's subsidised gym scheme can help you save up to 70% on gym memberships, allowing you to invest in effective supplements and achieve your fitness goals."
+    },
+    {
+      "heading": "Saving Money vs Results",
+      "body": "When it comes to supplements, it's essential to consider the cost-effectiveness of each product. While some supplements may be expensive, they can also be highly effective. On the other hand, cheaper alternatives may not provide the desired results. It's crucial to weigh up the costs and benefits of each supplement and consider your overall fitness goals. A gym membership can also provide access to qualified personal trainers and nutrition advice, which can help you make informed decisions about your supplement routine.",
+      "cta": {
+        "text": "Find a gym near you",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Practical Steps to Supplement Success",
+      "body": "To get the most out of your supplements, it's essential to follow a few practical steps. First, consult with a healthcare professional or registered nutritionist to determine the best supplements for your fitness goals. Second, always follow the recommended dosage and be patient, as supplements can take time to produce results. Finally, monitor your progress and adjust your supplement routine as needed. By taking a structured and informed approach to supplements, you can achieve your fitness goals and enjoy a healthier, more balanced lifestyle.",
+      "list": [
+        "Consult with a healthcare professional or registered nutritionist",
+        "Follow the recommended dosage",
+        "Monitor your progress and adjust your supplement routine as needed"
+      ]
+    },
+    {
+      "heading": "Get Started with Your Fitness Journey",
+      "body": "Now that you have a better understanding of the role of supplements in your fitness programme, it's time to take the next step. Whether you're a seasoned gym-goer or just starting out, a well-structured fitness programme and a balanced diet are essential for achieving your goals. Consider taking our quiz to determine the best gym and supplement routine for your needs.",
+      "cta": {
+        "text": "Take the quiz",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "supplements-gym-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-06",
+  "post_type": "health_info"
+}
