@@ -2,58 +2,49 @@
   "slug": "wellington-gym-guide-2026",
   "short_title": "Wellington Gyms",
   "title": "Best Gyms in Wellington 2026 — CBD, Hutt Valley, and Kapiti",
-  "meta_desc": "Find the best gyms in Wellington, compare prices and membership options from $15/week",
-  "intro": "Wellington's gym scene has evolved significantly over the past few years, with new players entering the market and established franchises expanding their footprint. With prices starting from $15 per week, Kiwis have more options than ever before. However, navigating the numerous gyms and contracts can be overwhelming, especially for those new to the city.",
-  "updated": "July 2026",
+  "meta_desc": "Find the best gyms in Wellington, from CBD to Hutt Valley and Kapiti, with prices from $15/week",
+  "intro": "Wellington's gym scene is thriving, with a range of options to suit all budgets and fitness levels. With prices starting from $15/week, there's never been a better time to get fit in the capital. From city-centre giants like Les Mills to local favourites in the Hutt Valley and Kapiti, we've got the lowdown on the best gyms in Wellington.",
+  "updated": "August 2026",
   "reading_time": 7,
   "sections": [
     {
       "heading": "Wellington Gym Landscape",
-      "body": "The city centre is home to a cluster of gyms, including Les Mills, Anytime Fitness, and City Fitness. These gyms cater to a diverse range of fitness enthusiasts, from beginners to seasoned athletes. The Hutt Valley and Kapiti regions also have a growing number of gyms, with options like YMCA and Jetts."
-    },
-    {
-      "heading": "Les Mills vs Alternatives",
-      "body": "Les Mills is a popular choice among Wellingtonians, with its comprehensive range of group fitness classes and state-of-the-art equipment. However, alternatives like F45 and Orangetheory offer a more specialized and intense workout experience. When it comes to pricing, Les Mills membership starts at $24.95 per week, while F45 and Orangetheory cost around $30-$40 per week."
+      "body": "The Wellington gym landscape is dominated by a few major players, including Les Mills, Anytime Fitness, and Jetts. However, there are also a number of independent gyms and studios offering specialized classes and training programs."
     },
     {
       "heading": "City-Centre Options",
       "list": [
-        "Les Mills Wellington: $24.95/week, 12-month contract",
-        "Anytime Fitness Wellington: $19.95/week, no contract",
-        "City Fitness: $29.95/week, 6-month contract"
+        "Les Mills Wellington: $29.99/week, 12-month contract",
+        "Anytime Fitness Wellington CBD: $24.95/week, no contract",
+        "Jetts Wellington: $19.95/week, 12-month contract"
       ]
     },
     {
-      "heading": "Price Comparison",
+      "heading": "Les Mills vs Alternatives",
       "table": {
         "headers": [
           "Gym",
-          "Weekly Price",
+          "Price/Week",
           "Contract Term"
         ],
         "rows": [
           [
             "Les Mills Wellington",
-            "$24.95",
+            "$29.99",
             "12 months"
           ],
           [
-            "Anytime Fitness Wellington",
-            "$19.95",
+            "Anytime Fitness Wellington CBD",
+            "$24.95",
             "no contract"
           ],
           [
-            "City Fitness",
-            "$29.95",
-            "6 months"
-          ],
-          [
-            "F45 Wellington",
-            "$35/week",
+            "Jetts Wellington",
+            "$19.95",
             "12 months"
           ],
           [
-            "Jetts Wellington",
+            "CityFitness Wellington",
             "$15/week",
             "no contract"
           ]
@@ -62,21 +53,19 @@
     },
     {
       "heading": "Hutt Valley and Kapiti Options",
-      "body": "The Hutt Valley and Kapiti regions have a range of gym options, including Jetts, Snap Fitness, and YMCA. These gyms offer a more affordable and flexible alternative to the city-centre options. For example, Jetts Hutt Valley costs $15 per week, with no contract, while YMCA Kapiti costs $20 per week, with a 6-month contract."
-    },
-    {
-      "heading": "Get the Best Deal",
+      "body": "If you're based in the Hutt Valley or Kapiti, there are a number of gym options available to you. These include Les Mills Hutt City, Anytime Fitness Lower Hutt, and Jetts Paraparaumu.",
       "cta": {
-        "text": "Compare Wellington gyms and find the best deal",
-        "url": "/compare/",
+        "text": "Compare Hutt Valley gym prices",
+        "url": "/compare/hutt-valley/",
         "affiliate": false
       }
     },
     {
-      "heading": "Jetts Wellington Gym Review",
+      "heading": "Getting the Best Value",
+      "body": "To get the best value from your gym membership, it's essential to consider your fitness goals and budget. If you're looking for a low-cost option with no contract, CityFitness Wellington may be the best choice. However, if you're willing to commit to a 12-month contract, Les Mills or Jetts may offer better value in the long run.",
       "cta": {
-        "text": "Read our review of Jetts Wellington and join from $15/week",
-        "url": "/gym/jetts-wellington/",
+        "text": "Read our full Les Mills review",
+        "url": "/gym/les-mills/",
         "affiliate": false
       }
     }
