@@ -1,0 +1,69 @@
+{
+  "title": "Mount CrossFit vs Thirty One Ten",
+  "short_title": "CrossFit Comparison",
+  "meta_desc": "Compare Mount CrossFit and Thirty One Ten CrossFit NZ prices, features and overall value to find the best CrossFit gym for you in New Zealand.",
+  "intro": "Mount CrossFit and Thirty One Ten CrossFit NZ are two popular CrossFit gyms in New Zealand, offering high-quality coaching and programming. With similar features and pricing, it can be difficult to choose between the two. In this article, we'll compare the two gyms to help you decide which one is best for you. Both gyms also offer eligibility for Exercise NZ's subsidised gym scheme, which provides 40-70% off for eligible members.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Overview of Mount CrossFit and Thirty One Ten CrossFit NZ",
+      "body": "Mount CrossFit and Thirty One Ten CrossFit NZ are both CrossFit affiliates with multiple locations in New Zealand. They offer group fitness classes, personal training, and guest passes, with no lock-in contracts. Mount CrossFit is known for its beachside location in Mount Maunganui, while Thirty One Ten CrossFit NZ has a deep-rooted community culture and proven coaching.",
+      "list": [
+        "Group fitness classes",
+        "Personal training",
+        "Guest passes",
+        "No lock-in contracts"
+      ]
+    },
+    {
+      "heading": "Pricing Comparison",
+      "body": "The pricing for Mount CrossFit and Thirty One Ten CrossFit NZ is similar, with weekly prices ranging from $35 to $52. There are no joining fees for either gym, and both offer flexible membership options. However, it's worth noting that prices may vary depending on the location and membership type.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per week",
+          "Contract length",
+          "Cancellation"
+        ],
+        "rows": [
+          [
+            "Mount CrossFit",
+            "$38-$52",
+            "No lock-in",
+            "Anytime"
+          ],
+          [
+            "Thirty One Ten CrossFit NZ",
+            "$35-$50",
+            "No lock-in",
+            "Anytime"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Facilities and Locations",
+      "body": "Mount CrossFit has a beachside location in Mount Maunganui, while Thirty One Ten CrossFit NZ has locations in Tauranga. Both gyms offer high-quality facilities, but Thirty One Ten CrossFit NZ has a smaller facility that can feel crowded during peak classes. Neither gym offers 24/7 access, but they both have flexible class schedules to accommodate different member needs.",
+      "list": [
+        "Mount CrossFit: beachside location in Mount Maunganui",
+        "Thirty One Ten CrossFit NZ: locations in Tauranga",
+        "High-quality facilities",
+        "No 24/7 access"
+      ]
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on the comparison, Mount CrossFit is a better option for those who value a beachside location and a strong community. Thirty One Ten CrossFit NZ is a better option for those who prioritize a deep-rooted community culture and proven coaching. Both gyms offer high-quality coaching and programming, and are eligible for Exercise NZ's subsidised gym scheme. Ultimately, the choice between the two gyms depends on your individual preferences and needs.",
+      "cta": {
+        "text": "Find out more about Exercise NZ's subsidised gym scheme",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "mount-crossfit-tauranga-vs-thirty-one-ten-crossfit-nz",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-07",
+  "post_type": "comparison"
+}
