@@ -1,0 +1,65 @@
+{
+  "title": "Les Mills vs EDDY Barre",
+  "short_title": "Gym Comparison",
+  "meta_desc": "Compare Les Mills and EDDY Barre Studio NZ prices, facilities, and value to choose the best gym for your needs.",
+  "intro": "Les Mills and EDDY Barre Studio NZ are two popular gym options in New Zealand, catering to different fitness needs and preferences. Les Mills is a premium gym with a wide range of facilities, while EDDY Barre Studio NZ is a boutique studio specializing in barre workouts. In this article, we will compare the two gyms to help you decide which one is best for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Price Comparison",
+      "body": "The price per week for Les Mills ranges from $17.99 to $29.99, while EDDY Barre Studio NZ costs between $20.00 and $45.00 per week. It's essential to note that Les Mills often has a joining fee of $49, which may be waived during promotions. On the other hand, EDDY Barre Studio NZ does not have a joining fee.",
+      "list": [
+        "Les Mills: $17.99 - $29.99 per week",
+        "EDDY Barre Studio NZ: $20.00 - $45.00 per week"
+      ]
+    },
+    {
+      "heading": "Contract and Cancellation",
+      "body": "Les Mills typically requires a minimum term contract, although they are currently offering a flexi membership with no lock-in contract. In contrast, EDDY Barre Studio NZ does not have lock-in contracts, providing more flexibility for members. When it comes to cancellation, Les Mills has stricter policies, while EDDY Barre Studio NZ allows for easier cancellation.",
+      "list": [
+        "Les Mills: Minimum term contract, flexi membership available",
+        "EDDY Barre Studio NZ: No lock-in contract"
+      ]
+    },
+    {
+      "heading": "Facilities and Locations",
+      "body": "Les Mills has a wide range of facilities, including group fitness classes, a pool, sauna, and personal training. They also have a mobile app and offer guest passes. In contrast, EDDY Barre Studio NZ is a boutique studio that specializes in barre workouts and does not have the same range of facilities. Les Mills has locations throughout New Zealand, while EDDY Barre Studio NZ is only available in selected cities.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Facilities",
+          "Locations",
+          "24/7 Access"
+        ],
+        "rows": [
+          [
+            "Les Mills",
+            "Group fitness, pool, sauna, personal training",
+            "Nationwide",
+            "No"
+          ],
+          [
+            "EDDY Barre Studio NZ",
+            "Barre workouts",
+            "Selected cities",
+            "No"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on the comparison, Les Mills is best suited for those who want a premium gym experience with a wide range of facilities and group fitness classes. On the other hand, EDDY Barre Studio NZ is ideal for those who specifically want to focus on barre workouts and prefer a boutique studio experience. It's also worth considering the Exercise NZ subsidy, which offers 40-70% off for eligible members. Ultimately, the choice between Les Mills and EDDY Barre Studio NZ depends on your individual fitness needs and preferences.",
+      "cta": {
+        "text": "Find out if you're eligible for the Exercise NZ subsidy",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "les-mills-vs-eddy-wellington-nz",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-08",
+  "post_type": "comparison"
+}

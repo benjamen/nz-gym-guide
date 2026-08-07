@@ -1,0 +1,73 @@
+{
+  "title": "NZ Gym Starter Guide",
+  "short_title": "Gym Starter",
+  "meta_desc": "Get started with gym in NZ, learn what to expect, etiquette and how to structure your first 4 weeks with our beginner's guide, including tips on finding the right gym with Exercise NZ's subsidised scheme.",
+  "intro": "Starting a gym routine can be intimidating, especially for beginners. With numerous gym chains in NZ, such as City Fitness, Les Mills, and Jetts, it's essential to know what to expect and how to make the most of your membership. In this guide, we'll walk you through the process of starting a gym routine, including what to bring, gym etiquette, and how to structure your first 4 weeks.",
+  "reading_time": 10,
+  "sections": [
+    {
+      "heading": "What to Expect at the Gym",
+      "body": "When you first join a gym, you can expect a tour of the facilities and an introduction to the equipment and services offered. Most gyms in NZ, such as Anytime Fitness and Jetts, provide a free induction session to help you get started. This is a great opportunity to ask questions and get familiar with the gym layout. You'll also be required to sign a contract, which can vary in length from 3 to 24 months, depending on the gym and the type of membership you choose.",
+      "list": [
+        "Free induction session",
+        "Tour of the facilities",
+        "Introduction to equipment and services"
+      ]
+    },
+    {
+      "heading": "Gym Etiquette 101",
+      "body": "Gym etiquette is essential to ensure a positive experience for all members. This includes re-racking your weights after use, wiping down equipment after your workout, and being mindful of noise levels. It's also important to respect other members' personal space and allow them to work out without interruption. Les Mills and City Fitness are great examples of gyms that promote a supportive and respectful environment for all members.",
+      "list": [
+        "Re-rack your weights",
+        "Wipe down equipment",
+        "Respect personal space"
+      ]
+    },
+    {
+      "heading": "What to Bring to the Gym",
+      "body": "To get the most out of your gym session, it's essential to bring the right gear. This includes a towel, water bottle, and comfortable workout clothes. You may also want to consider investing in a good pair of workout shoes and a gym bag to carry your belongings. Some gyms, such as Jetts, offer towel service and water bottles for sale, but it's always a good idea to bring your own.",
+      "list": [
+        "Towel",
+        "Water bottle",
+        "Comfortable workout clothes"
+      ]
+    },
+    {
+      "heading": "Structuring Your First 4 Weeks",
+      "body": "When starting a new gym routine, it's essential to structure your workouts to ensure you're making progress and avoiding injury. A good starting point is to aim for 2-3 sessions per week, with a focus on compound exercises such as squats, deadlifts, and bench press. You can also consider group fitness classes, such as those offered by Les Mills, to add variety to your routine and stay motivated.",
+      "list": [
+        "Aim for 2-3 sessions per week",
+        "Focus on compound exercises",
+        "Consider group fitness classes"
+      ]
+    },
+    {
+      "heading": "Getting Started with Exercise NZ's Subsidised Scheme",
+      "body": "Exercise NZ's subsidised gym scheme is a great way to get started with a gym routine while saving money. The scheme offers 40-70% off gym memberships at participating gyms, including City Fitness and Jetts. To be eligible, you'll need to meet certain criteria, such as being a New Zealand resident and meeting the income threshold.",
+      "list": [
+        "40-70% off gym memberships",
+        "Participating gyms include City Fitness and Jetts",
+        "Meet the income threshold to be eligible"
+      ],
+      "cta": {
+        "text": "Compare NZ gyms and find the best deal for you",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Next Steps",
+      "body": "Now that you've got started with our beginner's guide, it's time to find the right gym for you. Take our quiz to discover which gym chain is the best fit for your fitness goals and budget.",
+      "cta": {
+        "text": "Take the quiz to find your perfect gym match",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "gym-beginner-guide-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-08",
+  "post_type": "exercise_tips"
+}
