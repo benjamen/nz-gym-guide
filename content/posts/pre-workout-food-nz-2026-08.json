@@ -1,0 +1,59 @@
+{
+  "title": "Gym Food Guide",
+  "short_title": "Gym Food",
+  "meta_desc": "Discover what to eat before the gym in NZ with our guide on meal timing, quick options, and simple carb+protein combos for optimal performance",
+  "intro": "As a gym-goer in New Zealand, it's essential to fuel your body with the right foods at the right time to get the most out of your workout. Eating the right meal 1-3 hours before training can make a significant difference in your energy levels and overall performance. In this guide, we'll explore the best food options available at NZ supermarkets, the pros and cons of fasted training, and simple carb+protein combos to help you power through your gym sessions.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Meal Timing and Importance",
+      "body": "Aim to eat a balanced meal containing carbohydrates and protein 1-3 hours before your gym session. This allows for optimal digestion and energy release. Carbohydrates provide energy, while protein helps to build and repair muscles. For example, a meal consisting of wholegrain bread with turkey and avocado provides a good mix of complex carbohydrates and protein. Additionally, consider including some healthy fats like nuts or seeds to keep you full and satisfied.",
+      "list": [
+        "Wholegrain bread with turkey and avocado",
+        "Oatmeal with banana and almonds",
+        "Greek yoghurt with berries and honey"
+      ]
+    },
+    {
+      "heading": "Quick Options from NZ Supermarkets",
+      "body": "If you're short on time, there are plenty of quick and affordable options available at NZ supermarkets like Countdown, New World, and Pak'nSave. Look for foods that are high in carbohydrates and protein, such as energy bars, trail mix, or fresh fruit. Some affordable NZ protein sources include chicken breast, canned tuna, and eggs. You can also consider purchasing protein supplements like whey protein powder or casein protein powder from local health food stores or online retailers.",
+      "list": [
+        "Energy bars (around $2-$3 each)",
+        "Trail mix (around $5-$6 per packet)",
+        "Fresh fruit (around $1-$2 each)"
+      ]
+    },
+    {
+      "heading": "Fasted Training: Pros and Cons",
+      "body": "Fasted training, or working out on an empty stomach, has gained popularity in recent years. Some benefits of fasted training include improved mental clarity and increased fat burning. However, it may not be suitable for everyone, particularly those who are new to exercise or have certain health conditions. It's essential to consult with a healthcare professional or a registered dietitian before starting any new diet or exercise programme. Additionally, consider your individual goals and needs, and adjust your nutrition plan accordingly.",
+      "list": [
+        "Improved mental clarity",
+        "Increased fat burning",
+        "Potential negative impact on muscle mass and strength"
+      ]
+    },
+    {
+      "heading": "Simple Carb+Protein Combos",
+      "body": "Combining carbohydrates and protein can help to provide sustained energy and support muscle growth. Some simple and effective combos include banana and peanut butter, apple slices with almond butter, or Greek yoghurt with honey and mixed nuts. You can also experiment with different types of protein powder, such as whey or casein, and mix it with your favourite fruits or milks.",
+      "list": [
+        "Banana and peanut butter",
+        "Apple slices with almond butter",
+        "Greek yoghurt with honey and mixed nuts"
+      ]
+    },
+    {
+      "heading": "Get the Most Out of Your Workout",
+      "body": "By fueling your body with the right foods at the right time, you can optimize your workout performance and achieve your fitness goals. Remember to stay hydrated by drinking plenty of water before, during, and after your gym sessions. Additionally, consider taking advantage of Exercise NZ's subsidised gym scheme, which offers 40-70% off gym memberships for eligible individuals.",
+      "cta": {
+        "text": "Compare gym memberships and find the best deal for you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "pre-workout-food-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-09",
+  "post_type": "nutrition"
+}

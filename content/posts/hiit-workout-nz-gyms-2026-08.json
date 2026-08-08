@@ -1,0 +1,73 @@
+{
+  "title": "HIIT Workouts NZ",
+  "short_title": "HIIT Guide",
+  "meta_desc": "Discover the best HIIT workouts in NZ, comparing F45, Orangetheory, and DIY options at standard gyms like City Fitness, Les Mills, and Jetts, with costs and effectiveness.",
+  "intro": "High-Intensity Interval Training (HIIT) is a popular workout method in NZ, offering efficient and effective exercise. Boutique studios like F45 and Orangetheory have gained popularity, but you can also do HIIT workouts at standard gyms. This guide compares the options, including costs and effectiveness, to help you choose the best HIIT workout for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is HIIT?",
+      "body": "HIIT involves short bursts of intense exercise followed by brief periods of rest. This type of training can be applied to various exercises, such as sprints, burpees, jump squats, and more. HIIT workouts are often 15-30 minutes long and can be adapted to suit different fitness levels. Many NZ gyms, including Les Mills and City Fitness, offer HIIT classes or allow you to create your own HIIT routines using their equipment.",
+      "list": [
+        "Improved cardiovascular health",
+        "Increased caloric burn",
+        "Enhanced muscular endurance"
+      ]
+    },
+    {
+      "heading": "Boutique HIIT Studios: F45 and Orangetheory",
+      "body": "F45 and Orangetheory are two popular boutique HIIT studios in NZ. They offer structured classes with experienced trainers and a supportive community. F45 costs around $25-$35 per session, while Orangetheory costs around $30-$40 per session. Both studios provide a high-energy environment, but the cost can add up quickly.",
+      "table": {
+        "headers": [
+          "Studio",
+          "Cost per Session",
+          "Contract Length"
+        ],
+        "rows": [
+          [
+            "F45",
+            "$25-$35",
+            "No contract"
+          ],
+          [
+            "Orangetheory",
+            "$30-$40",
+            "No contract"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "DIY HIIT at Standard Gyms",
+      "body": "You can create your own HIIT workouts at standard gyms like Jetts, Anytime Fitness, or City Fitness. This option is often more affordable, with membership prices starting from around $10-$20 per week. Many gyms also offer group fitness classes, including HIIT-style workouts. Additionally, you can use Exercise NZ's subsidised gym scheme to get 40-70% off your gym membership, making it an even more affordable option.",
+      "list": [
+        "More affordable than boutique studios",
+        "Flexibility to create your own routine",
+        "Access to a variety of equipment"
+      ]
+    },
+    {
+      "heading": "Comparison and Conclusion",
+      "body": "Ultimately, the best HIIT workout option for you depends on your budget, preferences, and fitness goals. If you value a structured class environment and are willing to pay a premium, F45 or Orangetheory might be the best choice. However, if you're on a tighter budget or prefer to create your own routine, a standard gym like City Fitness or Jetts could be the way to go. Consider your options carefully and choose the one that suits you best.",
+      "cta": {
+        "text": "Compare gyms and find the best HIIT workout option for you",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Get Started with HIIT",
+      "body": "Ready to start your HIIT journey? Visit our gym comparison page to find the best gym for your needs and budget. You can also take our quiz to determine which type of workout is best suited for you.",
+      "cta": {
+        "text": "Take the quiz to find your perfect workout match",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "hiit-workout-nz-gyms-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-09",
+  "post_type": "exercise_tips"
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Wellington Boxing Gym vs Encore Pilates NZ",
+  "short_title": "Boxing vs Pilates",
+  "meta_desc": "Compare Wellington Boxing Gym and Encore Pilates NZ on price, contract, and facilities to find the best fit for your fitness needs in NZ.",
+  "intro": "Wellington Boxing Gym and Encore Pilates NZ are two boutique fitness options in New Zealand, offering unique approaches to fitness. Wellington Boxing Gym focuses on boxing for fitness, while Encore Pilates NZ specializes in reformer pilates. This comparison will help you decide which gym is best for you.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Overview of Wellington Boxing Gym and Encore Pilates NZ",
+      "body": "Wellington Boxing Gym offers a range of classes, including BoxFit and youth boxing, with prices starting from $20.00 per week. Encore Pilates NZ, on the other hand, provides reformer pilates classes, with prices starting from $22.00 per week. Both gyms have no joining fee and offer flexible membership plans, including monthly, quarterly, and annual options.",
+      "list": [
+        "Wellington Boxing Gym: $20.00-$40.00/week",
+        "Encore Pilates NZ: $22.00-$50.00/week"
+      ]
+    },
+    {
+      "heading": "Comparison of Key Features",
+      "body": "Both gyms offer group fitness classes and personal training, with no lock-in contracts. However, they differ in their areas of specialization and facilities. Wellington Boxing Gym has three locations in Wellington, while Encore Pilates NZ has three studios in the Bay of Plenty.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price/Week",
+          "Contract Length",
+          "Cancellation",
+          "Facilities",
+          "Locations",
+          "24/7 Access"
+        ],
+        "rows": [
+          [
+            "Wellington Boxing Gym",
+            "$20.00-$40.00",
+            "Monthly, Quarterly, Annual",
+            "No lock-in",
+            "Boxing facilities",
+            "Wellington (3 locations)",
+            "No"
+          ],
+          [
+            "Encore Pilates NZ",
+            "$22.00-$50.00",
+            "Monthly, Quarterly, Annual",
+            "No lock-in",
+            "Reformer pilates studios",
+            "Bay of Plenty (3 studios)",
+            "No"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verdict and Recommendation",
+      "body": "Based on the comparison, Wellington Boxing Gym is recommended for those interested in boxing for fitness, while Encore Pilates NZ is better suited for those looking for reformer pilates classes. Consider your fitness goals and preferences when choosing between these two boutique gyms. Additionally, check if you are eligible for Exercise NZ's subsidised gym scheme, which offers 40-70% off for eligible members.",
+      "cta": {
+        "text": "Check Exercise NZ's subsidised gym scheme",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "wellington-boxing-gym-vs-encore-pilates-tauranga-nz",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-09",
+  "post_type": "comparison"
+}
