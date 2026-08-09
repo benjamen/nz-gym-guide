@@ -2,70 +2,72 @@
   "slug": "f45-worth-it-nz",
   "short_title": "F45 NZ Review",
   "title": "Is F45 Worth It in NZ? — Honest Review for 2026",
-  "meta_desc": "Is F45 worth it in NZ? Compare F45 prices, results & contract terms in our honest review for 2026",
-  "intro": "With over 20 locations across New Zealand, F45 has gained popularity for its high-intensity interval training (HIIT) workouts. But with prices starting from $65 per week, is it worth the investment? In this review, we'll dive into F45's pricing, results, and contract terms to help you decide.",
-  "updated": "July 2026",
+  "meta_desc": "Is F45 worth it in NZ? Explore F45 pricing, results, and contract terms in our honest review",
+  "intro": "With over 30 locations across New Zealand, F45 has become a popular choice for those seeking a high-intensity workout. But with prices starting from $60 per week, is it worth the investment? We'll dive into the details to help you decide.",
+  "updated": "August 2026",
   "reading_time": 7,
   "sections": [
     {
       "heading": "F45 Pricing in NZ",
-      "body": "F45's pricing varies depending on the location and membership type. On average, you can expect to pay around $65 per week for a standard membership, with discounts available for long-term commitments and students."
+      "body": "F45 offers a range of membership options, with prices varying depending on the location and commitment term. The most popular option is the 12-month contract, which costs $60 per week. A 6-month contract is also available for $70 per week, while a month-to-month option costs $80 per week."
     },
     {
       "heading": "Contract Terms and Conditions",
-      "body": "F45's contract terms typically range from 3 to 12 months, with a minimum commitment period of 3 months. It's essential to review the terms and conditions carefully before signing up, as some locations may have different policies regarding cancellations and refunds."
+      "body": "It's essential to understand the contract terms before signing up. F45's 12-month contract requires a minimum commitment of 12 months, with a 30-day notice period for cancellations. The 6-month contract has a 14-day notice period, while the month-to-month option can be cancelled at any time with 30 days' notice."
     },
     {
-      "heading": "F45 vs HIIT Alternatives in NZ",
+      "heading": "F45 vs HIIT Alternatives",
       "table": {
         "headers": [
           "Gym",
-          "Price (per week)",
+          "Price (weekly)",
           "Contract Term"
         ],
         "rows": [
           [
             "F45",
-            "$65",
-            "3-12 months"
+            "$60",
+            "12 months"
           ],
           [
             "Les Mills",
-            "$49",
-            "1-12 months"
+            "$40",
+            "12 months"
           ],
           [
             "Jetts",
-            "$39",
-            "1-12 months"
+            "$25",
+            "no contract"
           ],
           [
             "YMCA",
-            "$55",
-            "1-12 months"
+            "$35",
+            "month-to-month"
           ]
         ]
       }
     },
     {
       "heading": "Who is F45 Best For?",
-      "body": "F45 is ideal for individuals who enjoy HIIT workouts, are motivated by group training, and value the support of a community. However, it may not be the best fit for those on a tight budget or who prefer more flexibility in their workout routine."
+      "body": "F45 is an excellent choice for those seeking a high-intensity, functional workout with a strong focus on community and accountability. It's ideal for individuals who enjoy group training and are willing to commit to a regular schedule."
     },
     {
-      "heading": "Results and Success Stories",
-      "body": "Many F45 members have reported significant weight loss, improved fitness, and increased energy levels. However, results may vary depending on individual factors, such as diet and consistency of workouts."
-    },
-    {
-      "heading": "Compare F45 with Other Gyms in NZ",
+      "heading": "Is F45 Worth It?",
+      "body": "Ultimately, whether F45 is worth it depends on your individual fitness goals and budget. If you value the high-energy atmosphere and personalized attention, F45 may be a worthwhile investment. However, if you're on a tight budget or prefer a more flexible workout routine, alternative options like Les Mills or Jetts may be more suitable.",
       "cta": {
-        "text": "Compare F45 prices and memberships",
+        "text": "Compare F45 prices and contracts",
         "url": "/compare/f45",
         "affiliate": false
       }
     },
     {
-      "heading": "Conclusion",
-      "body": "Ultimately, whether F45 is worth it in NZ depends on your individual fitness goals, budget, and preferences. We recommend visiting the F45 website or contacting your local studio to learn more about their pricing, contract terms, and membership options. You can also compare F45 with other gyms in NZ on our website to find the best fit for you."
+      "heading": "Find an F45 Gym Near You",
+      "body": "With locations in Auckland, Wellington, Christchurch, and more, there's likely an F45 gym near you. Visit the F45 website or check out our gym guide for more information on F45 locations and pricing.",
+      "cta": {
+        "text": "Visit the F45 gym page",
+        "url": "/gym/f45",
+        "affiliate": false
+      }
     }
   ]
 }
