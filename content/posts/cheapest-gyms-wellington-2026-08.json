@@ -1,0 +1,74 @@
+{
+  "title": "Cheapest Gyms Wellington",
+  "short_title": "Wellington Gyms",
+  "meta_desc": "Find the most affordable gyms in Wellington with no contract options, prices, and discounts. Compare gym chains and get the best deal with Exercise NZ subsidy.",
+  "intro": "Wellington has a competitive gym market with various options to suit different budgets and preferences. For those looking for affordability without long-term commitment, there are several no-contract gyms available. The Exercise NZ subsidy offers the biggest discount for eligible members, with 40-70% off.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Most Affordable Options",
+      "body": "The cheapest gym option in Wellington is City Fitness, offering a month-to-month membership for $18.99 per week. Jetts is another affordable option with a no-contract membership and currently has a promotion of 15% off plus 4 weeks free. Snap Fitness also offers 6 weeks free, making it a competitive choice for those on a budget.",
+      "list": [
+        "City Fitness: $18.99/week (month-to-month)",
+        "Jetts: 15% off + 4 weeks free (no contract)",
+        "Snap Fitness: 6 weeks free"
+      ]
+    },
+    {
+      "heading": "No-Contract Alternatives",
+      "body": "For those who prefer flexibility, several gyms in Wellington offer no-contract memberships. Jetts and Les Mills Flexi Membership are popular choices, allowing members to cancel anytime without penalty. City Fitness also offers a month-to-month membership with no lock-in contract.",
+      "list": [
+        "Jetts: no contract",
+        "Les Mills Flexi Membership: no lock-in contract",
+        "City Fitness: month-to-month membership"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy",
+      "body": "With the subsidy, members can enjoy significant savings on their gym membership, making it more affordable to stay active and healthy. For example, a $20 per week membership could be reduced to as low as $6 per week with the maximum 70% subsidy."
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "To help you make an informed decision, we've compiled a price comparison table of gym chains available in Wellington.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per week",
+          "Contract length"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$18.99",
+            "Month-to-month"
+          ],
+          [
+            "Jetts",
+            "$14.95 (with 15% off promotion)",
+            "No contract"
+          ],
+          [
+            "Snap Fitness",
+            "$14.95 (with 6 weeks free promotion)",
+            "Month-to-month"
+          ],
+          [
+            "Les Mills",
+            "$24.95 (Flexi Membership)",
+            "No lock-in contract"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "cheapest-gyms-wellington-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-10",
+  "post_type": "budget_guide"
+}
