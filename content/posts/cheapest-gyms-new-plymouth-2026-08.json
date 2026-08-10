@@ -1,0 +1,68 @@
+{
+  "title": "Cheapest Gyms New Plymouth",
+  "short_title": "Cheap Gyms",
+  "meta_desc": "Find the most affordable gyms in New Plymouth with no contract options, including prices and discounts, plus information on Exercise NZ's subsidised gym scheme",
+  "intro": "New Plymouth has a thriving fitness community, with a range of gyms to suit different budgets and preferences. For those on a tight budget, Contours and Snap Fitness offer affordable options with no contract required. Additionally, Exercise NZ's subsidised gym scheme provides discounts of 40-70% off for eligible members.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "No-Contract Gym Options",
+      "body": "Contours is the cheapest option in New Plymouth, with a no-contract policy that allows members to cancel at any time. Snap Fitness also offers a flexible membership plan with no lock-in contract. Both gyms provide a range of equipment and classes, making them great options for those who want to try out a gym without committing to a long-term contract.",
+      "list": [
+        "Contours: no contract, affordable prices",
+        "Snap Fitness: 6 weeks free, flexible membership"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy",
+      "body": "The subsidy can be used at a range of gyms in New Plymouth, including Contours and Snap Fitness. It's a great way to get started with exercise and improve overall health and wellbeing."
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "Here is a comparison of the prices of gyms in New Plymouth:",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price",
+          "Contract Length"
+        ],
+        "rows": [
+          [
+            "Contours",
+            "$10-$15/week",
+            "No contract"
+          ],
+          [
+            "Snap Fitness",
+            "$15-$20/week",
+            "No contract"
+          ],
+          [
+            "Anytime Fitness",
+            "$20-$30/week",
+            "12-24 months"
+          ],
+          [
+            "Flex Fitness",
+            "$20-$30/week",
+            "12-24 months"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Conclusion",
+      "body": "In conclusion, there are several affordable gym options in New Plymouth with no contract required. Contours and Snap Fitness offer great value for money, while the Exercise NZ subsidy provides an excellent opportunity for eligible members to save even more. By comparing prices and considering the subsidy, individuals can find a gym that suits their budget and fitness goals.",
+      "cta": {
+        "text": "Find out more about the Exercise NZ subsidy",
+        "url": "https://www.exercisenz.org.nz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "cheapest-gyms-new-plymouth-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-11",
+  "post_type": "budget_guide"
+}

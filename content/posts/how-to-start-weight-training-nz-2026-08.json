@@ -1,0 +1,58 @@
+{
+  "title": "Weight Training NZ",
+  "short_title": "Weight Training",
+  "meta_desc": "Get started with weight training in NZ with our beginner's guide, covering free weights, machines, compound movements, and progressive overload. Compare gyms and find the best weights area for you.",
+  "intro": "Weight training is an excellent way to improve overall health and fitness. As a beginner in NZ, it's essential to understand the basics of weight training, including the difference between free weights and machines, compound movements, and progressive overload. This guide will walk you through the process and help you find the best gym for your needs.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Free Weights vs Machines",
+      "body": "When it comes to weight training, you have two primary options: free weights and machines. Free weights, such as dumbbells and barbells, allow for a full range of motion and work multiple muscle groups at once. Machines, on the other hand, isolate specific muscles and can be easier to use for beginners. In NZ, many gyms offer a combination of both, but if you're looking for a gym with an excellent free weights area, consider City Fitness or Les Mills.",
+      "list": [
+        "Free weights: dumbbells, barbells, kettlebells",
+        "Machines: leg press, chest press, lat pulldown"
+      ]
+    },
+    {
+      "heading": "Compound Movements",
+      "body": "Compound movements are exercises that work multiple muscle groups at once, such as squats, deadlifts, and bench press. These movements are essential for building overall strength and muscle mass. As a beginner, it's crucial to focus on compound movements and progress gradually. Many NZ gyms offer group fitness classes that incorporate compound movements, such as Les Mills' BODYPUMP or Jetts' functional training classes.",
+      "list": [
+        "Squats: works legs, glutes, and core",
+        "Deadlifts: works back, legs, and core",
+        "Bench press: works chest, shoulders, and triceps"
+      ]
+    },
+    {
+      "heading": "Progressive Overload",
+      "body": "Progressive overload refers to the gradual increase in weight or resistance to continue challenging your muscles and promoting growth. This can be achieved by increasing the weight, reps, or sets over time. In NZ, many gyms offer personal training sessions or group fitness classes that can help you progress your workout routine. Additionally, some gyms like Anytime Fitness offer a free weights area with a wide range of weights and equipment to help you progress your workout.",
+      "list": [
+        "Increase weight: add 2.5-5kg to your lift every two weeks",
+        "Increase reps: add 2-3 reps to your set every two weeks",
+        "Increase sets: add 1-2 sets to your workout routine every two weeks"
+      ]
+    },
+    {
+      "heading": "Finding the Best Gym for Weight Training",
+      "body": "When looking for a gym in NZ, it's essential to consider the quality of the weights area, the availability of equipment, and the expertise of the staff. Some gyms, like City Fitness and Les Mills, offer a wide range of weights and equipment, while others, like Jetts and Anytime Fitness, focus on functional training and group fitness classes. Exercise NZ's subsidised gym scheme can also help you save 40-70% on gym membership, making it more affordable to find the best gym for your needs.",
+      "list": [
+        "City Fitness: excellent free weights area and personal training sessions",
+        "Les Mills: wide range of group fitness classes and functional training equipment",
+        "Jetts: functional training classes and 24/7 access"
+      ]
+    },
+    {
+      "heading": "Getting Started",
+      "body": "Now that you have a better understanding of weight training, it's time to get started. Consider visiting a few gyms in your area to see which one best suits your needs. Don't forget to check out Exercise NZ's subsidised gym scheme to save on membership. Compare gyms and find the best weights area for you by visiting our website.",
+      "cta": {
+        "text": "Compare Gyms and Find the Best Weights Area",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "how-to-start-weight-training-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-11",
+  "post_type": "exercise_tips"
+}

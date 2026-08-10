@@ -1,0 +1,79 @@
+{
+  "title": "NZ Protein Powder Guide",
+  "short_title": "Protein Powder",
+  "meta_desc": "Compare the best protein powder in NZ 2026 from Myprotein, Bulk Nutrients, Optimum Nutrition, and No Regrets NZ. Get the best value for your fitness programme with our honest review and price comparison.",
+  "intro": "As a gym-goer in New Zealand, choosing the right protein powder can be overwhelming with so many options available. In this guide, we'll compare the best protein powder in NZ from popular brands like Myprotein, Bulk Nutrients, Optimum Nutrition, and No Regrets NZ. We'll look at price per serve, taste, availability, and where to buy in NZ to help you make an informed decision.",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Introduction to Protein Powder",
+      "body": "Protein powder is a convenient way to increase your protein intake, especially after a workout. It can help with muscle recovery and growth. When choosing a protein powder, consider your dietary needs, such as lactose intolerance or vegan requirements. NZ brands like No Regrets NZ offer a range of options to suit different needs.",
+      "list": [
+        "Whey protein: fast absorption, high in BCAAs",
+        "Casein protein: slow absorption, promotes muscle recovery during sleep",
+        "Pea protein: hypoallergenic, high in essential amino acids"
+      ]
+    },
+    {
+      "heading": "Comparison of Popular Protein Powders in NZ",
+      "body": "We've compared the prices of popular protein powders in NZ, including Myprotein, Bulk Nutrients, Optimum Nutrition, and No Regrets NZ. Prices may vary depending on the retailer and location. You can find these products at local health food stores or online retailers like Nutrition Warehouse or Supplement Warehouse.",
+      "table": {
+        "headers": [
+          "Brand",
+          "Product",
+          "Price per Serve",
+          "Taste Options"
+        ],
+        "rows": [
+          [
+            "Myprotein",
+            "Impact Whey Protein",
+            "$1.20",
+            "10+ flavours"
+          ],
+          [
+            "Bulk Nutrients",
+            "Whey Protein Concentrate",
+            "$1.50",
+            "5+ flavours"
+          ],
+          [
+            "Optimum Nutrition",
+            "Gold Standard 100% Whey",
+            "$2.00",
+            "10+ flavours"
+          ],
+          [
+            "No Regrets NZ",
+            "Whey Protein Isolate",
+            "$1.80",
+            "5+ flavours"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Affordable NZ Protein Sources",
+      "body": "If you're on a tight budget, consider alternative protein sources like eggs, Greek yoghurt, or canned fish. These can be found at local supermarkets like Countdown or New World. You can also look into Exercise NZ's subsidised gym scheme, which offers discounts on gym memberships and fitness programmes.",
+      "list": [
+        "Eggs: $1.50 per dozen",
+        "Greek yoghurt: $3.00 per 200g serving",
+        "Canned fish: $2.00 per 120g serving"
+      ]
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "When choosing a protein powder, consider your dietary needs, budget, and personal preferences. Be sure to read reviews and check the ingredient label to ensure you're getting a high-quality product. If you're looking for more information on fitness programmes or gym memberships, check out our comparison tool or take our quiz to find the best option for you.",
+      "cta": {
+        "text": "Compare Gyms and Fitness Programmes",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "protein-powder-nz-compare-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-11",
+  "post_type": "nutrition"
+}

@@ -1,0 +1,73 @@
+{
+  "title": "NZ Weight Management",
+  "short_title": "Exercise for Weight",
+  "meta_desc": "Evidence-based advice on exercise for weight management in NZ, including calorie deficit, gym formats, and realistic expectations to help combat NZ's high obesity rates",
+  "intro": "New Zealand has one of the highest obesity rates among OECD countries, with around 30% of adults being obese. Exercise plays a crucial role in weight management, but it's often misunderstood. Creating a calorie deficit through a combination of diet and exercise is key to weight loss. In this article, we'll explore what works, which gym formats burn the most calories, and how to set realistic expectations.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ Obesity Rates and Context",
+      "body": "According to the Ministry of Health, around 30% of New Zealand adults are obese, and a further 35% are overweight. The total annual cost of obesity and overweight in NZ is estimated to be around $830 million. Regular exercise, combined with a healthy diet, can help reduce the risk of obesity-related health problems. Exercise NZ's subsidised gym scheme offers 40-70% off gym memberships for eligible individuals, making it more accessible to start a fitness programme."
+    },
+    {
+      "heading": "Calorie Deficit and Exercise",
+      "body": "A calorie deficit occurs when you burn more calories than you consume. Exercise can help create a calorie deficit, but it's often not enough on its own. A combination of diet and exercise is usually the most effective way to achieve weight loss. Research suggests that high-intensity interval training (HIIT) and strength training are effective for burning calories and building muscle. These types of workouts are often available at gyms, and can be modified to suit different fitness levels.",
+      "list": [
+        "Aim for at least 150 minutes of moderate-intensity exercise per week",
+        "Incorporate strength training exercises at least two times per week",
+        "High-intensity interval training (HIIT) can be an effective way to burn calories"
+      ]
+    },
+    {
+      "heading": "Gym Formats for Weight Loss",
+      "body": "Some gym formats are more effective for weight loss than others. For example, group fitness classes like Les Mills and F45 can be high-intensity and calorie-intensive. Gyms with a focus on strength training, such as Anytime Fitness and Snap Fitness, can also be effective for building muscle and burning calories. It's essential to find a gym and workout routine that you enjoy and can stick to in the long term.",
+      "table": {
+        "headers": [
+          "Gym Format",
+          "Calories Burned per Hour",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Les Mills",
+            "400-600",
+            "$15-$30 per week"
+          ],
+          [
+            "F45",
+            "500-700",
+            "$20-$40 per week"
+          ],
+          [
+            "Anytime Fitness",
+            "300-500",
+            "$10-$25 per week"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Realistic Expectations and Next Steps",
+      "body": "Weight loss takes time and patience. It's essential to set realistic expectations and focus on progress, not perfection. Aim to lose 0.5-1 kg per week for a sustainable weight loss. With the right mindset and support, you can achieve your weight loss goals. Consider visiting our quiz page to find the best gym for your needs, or compare different gym options to find the one that suits you best.",
+      "cta": {
+        "text": "Take the quiz to find your best gym match",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion and Call to Action",
+      "body": "Exercise is a crucial component of weight management, but it's often misunderstood. By creating a calorie deficit through a combination of diet and exercise, and finding a gym format that works for you, you can achieve your weight loss goals. Remember to set realistic expectations and focus on progress, not perfection. For more information on gym options and to find the best gym for your needs, visit our compare page.",
+      "cta": {
+        "text": "Compare gyms and find your best match",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "obesity-exercise-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-11",
+  "post_type": "health_info"
+}
