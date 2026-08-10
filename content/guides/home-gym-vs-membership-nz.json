@@ -2,82 +2,100 @@
   "slug": "home-gym-vs-membership-nz",
   "short_title": "Gym Membership NZ",
   "title": "Home Gym vs Gym Membership in NZ — Full Cost Comparison 2026",
-  "meta_desc": "Home gym vs gym membership NZ: Compare costs and find the best value for your fitness goals",
-  "intro": "With gym memberships in NZ ranging from $15 to $50 per week, many Kiwis are wondering if a home gym is a more cost-effective option. A typical home gym setup can cost between $500 to $2,000 upfront. But which option is best for you?",
-  "updated": "July 2026",
-  "reading_time": 8,
+  "meta_desc": "Compare home gym costs with NZ gym membership prices and contracts",
+  "intro": "With a typical gym membership in NZ costing between $15-$30 per week, many Kiwis are considering the cost-effectiveness of investing in a home gym. However, the upfront costs of equipment can be daunting. In this article, we'll break down the costs and benefits of both options to help you make an informed decision. The average annual gym membership cost in NZ is around $800-$1,600.",
+  "updated": "August 2026",
+  "reading_time": 7,
   "sections": [
     {
-      "heading": "Upfront Costs: Home Gym vs Gym Membership",
-      "body": "When considering a home gym, the initial equipment cost can be a significant outlay. However, with a gym membership, you'll typically pay a joining fee, which can range from $50 to $200, depending on the gym."
+      "heading": "Upfront Equipment Costs for a Home Gym",
+      "body": "The initial investment for a home gym can range from $500 to $5,000 or more, depending on the type and quality of equipment. A basic setup with dumbbells, a treadmill, and a exercise bike can start from around $1,000. On the other hand, a high-end home gym with a range of machines and free weights can cost upwards of $10,000."
     },
     {
-      "heading": "Ongoing Costs: Membership Fees and Equipment Maintenance",
+      "heading": "Ongoing Costs of a Gym Membership in NZ",
       "table": {
         "headers": [
           "Gym",
-          "Weekly Fee",
+          "Weekly Cost",
           "Contract Term"
         ],
         "rows": [
           [
             "Anytime Fitness",
-            "$24.95",
+            "$14.95",
             "12 months"
           ],
           [
-            "Jetts",
+            "Jetts Fitness",
+            "$16.95",
+            "12 months"
+          ],
+          [
+            "Les Mills NZ",
+            "$25.00",
+            "6 months"
+          ],
+          [
+            "CityFitness",
             "$19.95",
             "12 months"
-          ],
-          [
-            "Les Mills",
-            "$34.95",
-            "6 months"
           ]
         ]
       }
     },
     {
-      "heading": "What You Actually Use: Utilisation Rates and Equipment Variety",
-      "body": "Research shows that many gym members only use a small portion of the available equipment. With a home gym, you can tailor your setup to your specific needs and ensure you use every piece of equipment regularly."
+      "heading": "What You Actually Use at the Gym",
+      "body": "Many gym-goers tend to use only a small portion of the available equipment and facilities. If you find yourself only using the treadmill, exercise bike, and free weights, a home gym might be a more cost-effective option in the long run. Additionally, with a home gym, you can avoid the hassle of commuting to the gym and waiting for equipment to become available."
     },
     {
-      "heading": "Motivational Factors: Group Fitness and Community",
-      "body": "One of the main benefits of a gym membership is the social aspect and access to group fitness classes. However, with the rise of online fitness classes and social media communities, it's now possible to stay motivated and connected from the comfort of your own home."
+      "heading": "Motivational Factors and Support",
+      "body": "One of the main advantages of a gym membership is the motivational factor of working out with others and having access to group fitness classes. However, with the rise of online fitness communities and personal training apps, it's now possible to stay motivated and accountable from the comfort of your own home. Some popular fitness apps in NZ include Nike Training Club and JEFIT."
     },
     {
-      "heading": "Price Comparison: Home Gym vs Gym Membership",
+      "heading": "Price Comparison of Home Gym and Gym Membership",
       "table": {
         "headers": [
           "Option",
           "Upfront Cost",
-          "Ongoing Cost (per week)"
+          "Ongoing Cost",
+          "Total Cost (1 year)"
         ],
         "rows": [
           [
             "Home Gym",
             "$1,000",
-            "$0"
+            "$0",
+            "$1,000"
           ],
           [
             "Anytime Fitness",
-            "$100 joining fee",
-            "$24.95"
+            "$0",
+            "$14.95/week",
+            "$779.40"
           ],
           [
-            "Jetts",
-            "$50 joining fee",
-            "$19.95"
+            "Jetts Fitness",
+            "$0",
+            "$16.95/week",
+            "$883.40"
           ]
         ]
       }
     },
     {
-      "heading": "Make an Informed Decision",
+      "heading": "Conclusion and Next Steps",
+      "body": "Ultimately, the decision between a home gym and a gym membership in NZ depends on your individual preferences, fitness goals, and budget. We recommend comparing the costs and benefits of both options and considering your own motivations and workout habits before making a decision.",
       "cta": {
-        "text": "Compare gym memberships and prices",
+        "text": "Compare NZ gym prices and contracts",
         "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Get Started with a Home Gym or Gym Membership Today",
+      "cta": {
+        "text": "Learn more about Anytime Fitness membership options",
+        "url": "/gym/anytime-fitness/",
         "affiliate": false
       }
     }
