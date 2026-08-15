@@ -632,14 +632,28 @@ def rebuild_and_push(dry_run=False):
     print(f"  {lines[-1]}" if lines else "  Built.")
 
     today = date.today().isoformat()
-    subprocess.run(['git', 'add', '-A'], cwd=ROOT)
+
+    add = subprocess.run(['git', 'add', '-A'], cwd=ROOT, capture_output=True, text=True)
+    if add.returncode != 0:
+        print("  ✗ git add FAILED — aborting, nothing pushed:", add.stderr[:500])
+        return False
+
     msg = f'Daily posts: exercise tip + gym deal + health info + nutrition — {today}'
-    subprocess.run(['git', 'commit', '-m', msg], cwd=ROOT)
+    commit = subprocess.run(['git', 'commit', '-m', msg], cwd=ROOT, capture_output=True, text=True)
+    if commit.returncode != 0:
+        # "nothing to commit" is not an error — everything was already committed.
+        if 'nothing to commit' in commit.stdout:
+            print("  Nothing to commit (working tree already clean).")
+        else:
+            print("  ✗ git commit FAILED — aborting, nothing pushed:", commit.stdout[-500:] or commit.stderr[-500:])
+            return False
+
     push = subprocess.run(['git', 'push'], cwd=ROOT, capture_output=True, text=True)
     if push.returncode == 0:
         print("  ✓ Pushed to GitHub Pages → nzgymguide.co.nz")
     else:
-        print("  Push failed:", push.stderr[:200])
+        print("  ✗ Push failed:", push.stderr[:500])
+        return False
     return True
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -658,7 +672,8 @@ def main():
     gyms, cities, site, deals = load_data()
 
     if args.rebuild:
-        rebuild_and_push()
+        if not rebuild_and_push():
+            sys.exit(1)
         return
 
     pools  = build_all_pools(gyms, cities)
@@ -712,7 +727,8 @@ def main():
 
     if generated:
         print(f"\n✓ Generated {len(generated)} posts.")
-        rebuild_and_push()
+        if not rebuild_and_push():
+            sys.exit(1)
     else:
         print("\nNothing new to generate today.")
 
