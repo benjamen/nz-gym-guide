@@ -52,5 +52,7 @@
     "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Young_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg",
     "alt": "Gym workout and supplements guide New Zealand",
     "credit": "Wikimedia Commons"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "supplements-gym-nz-2026-08"
 }

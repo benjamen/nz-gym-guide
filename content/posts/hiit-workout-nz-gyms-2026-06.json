@@ -69,5 +69,7 @@
   "updated": "June 2026",
   "auto_generated": true,
   "generated_date": "2026-06-27",
-  "post_type": "exercise_tips"
+  "post_type": "exercise_tips",
+  "noindex": true,
+  "canonical_slug": "hiit-workout-nz-gyms-2026-08"
 }

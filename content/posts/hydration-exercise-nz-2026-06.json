@@ -54,5 +54,7 @@
   "updated": "June 2026",
   "auto_generated": true,
   "generated_date": "2026-06-07",
-  "post_type": "health_info"
+  "post_type": "health_info",
+  "noindex": true,
+  "canonical_slug": "hydration-exercise-nz-2026-08"
 }

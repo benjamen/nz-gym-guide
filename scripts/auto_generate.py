@@ -249,11 +249,28 @@ def build_all_pools(gyms, cities):
     return pools
 
 def pick_by_date(pool, atype):
-    """Rotate through a pool deterministically by date+type."""
+    """Rotate through a pool deterministically by date+type.
+
+    Skips forward past any candidate whose topic was already generated
+    (under any date-suffixed slug) within COOLDOWN_DAYS, so the same topic
+    can't get regenerated as a near-duplicate a month or two later. Falls
+    back to the plain hash pick if every candidate is in cooldown (small
+    pool / high generation frequency) rather than generating nothing.
+    """
     if not pool:
         return None
     seed = int(hashlib.md5(f"{date.today().isoformat()}:{atype}".encode()).hexdigest(), 16)
-    return pool[seed % len(pool)]
+    n = len(pool)
+    start = seed % n
+    for offset in range(n):
+        candidate = pool[(start + offset) % n]
+        try:
+            base = topic_base_key(topic_slug(candidate))
+        except Exception:
+            return candidate  # defensive: never let the cooldown check break generation
+        if not in_cooldown(base):
+            return candidate
+    return pool[start]  # everything in cooldown — fall back to original deterministic pick
 
 def pick_todays_four(pools):
     """
@@ -310,6 +327,60 @@ def pick_todays_topics(pools, n=4):
 
 def already_generated(slug):
     return (ROOT / 'content/posts' / f'{slug}.json').exists()
+
+# ── Regeneration cooldown ─────────────────────────────────────────────────────
+# Root cause of the near-duplicate "deals" pages found in the Aug 2026 audit:
+# pick_by_date() reseeds its hash every day with no memory of what was
+# published in a *previous* month, so the same topic (e.g. gym-etiquette-nz,
+# supplements-gym-nz) could get regenerated under a new date-suffixed slug a
+# month or two later, creating near-identical pages competing for the same
+# query. already_generated() only blocked the exact same slug (same month),
+# not the same topic in a different month.
+#
+# Fix: before accepting a hash-selected topic, check whether *any* slug
+# sharing its date-less base (e.g. "gym-etiquette-nz") was generated within
+# COOLDOWN_DAYS. If so, skip forward to the next topic in the pool. This is a
+# cheap guard, not a rewrite — it reads existing content/posts/*.json files,
+# no new state file needed.
+COOLDOWN_DAYS = 75  # ~2.5 months — allows quarterly refresh, blocks monthly cycling
+
+_DATE_SUFFIX_RE = re.compile(
+    r'-(20\d{2}-\d{2}|'
+    r'(?:january|february|march|april|may|june|july|august|september|october|november|december)-20\d{2}|'
+    r'20\d{2})$'
+)
+
+def topic_base_key(slug):
+    """Strip a trailing date/month/year suffix from a generated slug so
+    near-duplicate topics regenerated in different months share one key."""
+    return _DATE_SUFFIX_RE.sub('', slug)
+
+def most_recent_generated_date(base_key):
+    """Latest generated_date across all existing posts sharing this base key."""
+    best = None
+    for f in (ROOT / 'content/posts').glob(f'{base_key}-*.json'):
+        try:
+            data = json.loads(f.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        if topic_base_key(data.get('slug', f.stem)) != base_key:
+            continue  # avoid accidental prefix collisions between base keys
+        gd = data.get('generated_date')
+        if not gd:
+            continue
+        try:
+            dt = date.fromisoformat(gd)
+        except ValueError:
+            continue
+        if best is None or dt > best:
+            best = dt
+    return best
+
+def in_cooldown(base_key, days=COOLDOWN_DAYS):
+    last = most_recent_generated_date(base_key)
+    if last is None:
+        return False
+    return (date.today() - last).days < days
 
 # ── Slug generation ───────────────────────────────────────────────────────────
 

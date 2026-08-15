@@ -266,6 +266,8 @@ def build():
         sitemap += sm_url(f"guides/{g['slug']}", "0.75", "monthly")
     if posts:
         for p in posts:
+            if p.get("noindex"):
+                continue  # near-duplicate, canonicalized elsewhere — keep out of sitemap
             sitemap += sm_url(f"deals/{p['slug']}", "0.8", "weekly")
     for dp in diet_plans:
         sitemap += sm_url(f"diet/{dp['slug']}", "0.8", "monthly")

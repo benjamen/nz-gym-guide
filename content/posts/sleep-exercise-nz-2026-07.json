@@ -53,5 +53,7 @@
   "updated": "July 2026",
   "auto_generated": true,
   "generated_date": "2026-07-05",
-  "post_type": "health_info"
+  "post_type": "health_info",
+  "noindex": true,
+  "canonical_slug": "sleep-exercise-nz-2026-08"
 }

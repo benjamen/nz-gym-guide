@@ -92,5 +92,7 @@
   "updated": "July 2026",
   "auto_generated": true,
   "generated_date": "2026-07-01",
-  "post_type": "exercise_tips"
+  "post_type": "exercise_tips",
+  "noindex": true,
+  "canonical_slug": "les-mills-classes-guide-nz-2026-08"
 }

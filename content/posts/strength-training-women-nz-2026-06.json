@@ -46,5 +46,7 @@
   "updated": "June 2026",
   "auto_generated": true,
   "generated_date": "2026-06-04",
-  "post_type": "exercise_tips"
+  "post_type": "exercise_tips",
+  "noindex": true,
+  "canonical_slug": "strength-training-women-nz-2026-08"
 }

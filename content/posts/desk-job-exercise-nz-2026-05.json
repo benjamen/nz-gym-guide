@@ -63,5 +63,7 @@
   "updated": "May 2026",
   "auto_generated": true,
   "generated_date": "2026-05-30",
-  "post_type": "health_info"
+  "post_type": "health_info",
+  "noindex": true,
+  "canonical_slug": "desk-job-exercise-nz-2026-08"
 }

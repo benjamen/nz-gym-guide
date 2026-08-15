@@ -66,5 +66,7 @@
   "updated": "July 2026",
   "auto_generated": true,
   "generated_date": "2026-07-06",
-  "post_type": "exercise_tips"
+  "post_type": "exercise_tips",
+  "noindex": true,
+  "canonical_slug": "home-vs-gym-nz-2026-08"
 }

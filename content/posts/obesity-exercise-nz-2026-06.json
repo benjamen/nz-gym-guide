@@ -55,5 +55,7 @@
   "updated": "June 2026",
   "auto_generated": true,
   "generated_date": "2026-06-10",
-  "post_type": "health_info"
+  "post_type": "health_info",
+  "noindex": true,
+  "canonical_slug": "obesity-exercise-nz-2026-08"
 }

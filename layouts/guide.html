@@ -4,7 +4,11 @@
 
 {% block title %}{{ guide.title }}{% endblock %}
 {% block desc %}{{ guide.meta_desc }}{% endblock %}
-{% block canonical %}{{ _section }}/{{ guide.slug }}/{% endblock %}
+{# Non-canonical near-duplicates set "canonical_slug" to point at the chosen
+   canonical post in the same section, and "noindex: true" to keep them out
+   of the index while still passing link equity via rel=canonical. #}
+{% block canonical %}{{ _section }}/{{ guide.canonical_slug if guide.canonical_slug else guide.slug }}/{% endblock %}
+{% block robots %}{{ 'noindex, follow' if guide.noindex else 'index, follow' }}{% endblock %}
 {% block head_extra %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
