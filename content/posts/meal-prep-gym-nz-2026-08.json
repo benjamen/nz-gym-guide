@@ -1,0 +1,87 @@
+{
+  "title": "Meal Prep NZ",
+  "short_title": "Meal Prep",
+  "meta_desc": "Get a simple weekly meal prep plan using NZ supermarket staples, perfect for gym-goers aiming to boost protein intake and support fitness goals, with affordable NZ protein sources and supplements.",
+  "intro": "As a gym-goer in New Zealand, meal prep is a great way to ensure you're fueling your body for optimal performance and recovery. By dedicating a few hours on Sunday to batch cooking, you can set yourself up for success and make healthy eating easier. In this guide, we'll show you a simple weekly meal prep plan using NZ supermarket staples.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why Meal Prep Matters for Gym-Goers",
+      "body": "Meal prep is essential for gym-goers as it helps ensure you're consuming the right amount of protein, complex carbohydrates, and healthy fats to support muscle growth and recovery. A well-planned meal prep programme can also save you time and money, and reduce food waste. In New Zealand, we're lucky to have access to a wide range of affordable protein sources, including chicken, fish, and eggs, as well as supplements like whey protein powder.",
+      "list": [
+        "Saves time during the week",
+        "Supports muscle growth and recovery",
+        "Reduces food waste and saves money"
+      ]
+    },
+    {
+      "heading": "Sunday Batch Cook Strategy",
+      "body": "To make meal prep easy and efficient, we recommend dedicating a few hours on Sunday to batch cooking. This can include cooking proteins like chicken, beef, or fish, as well as preparing complex carbohydrates like brown rice, quinoa, or sweet potatoes. You can also roast a large batch of vegetables like broccoli, cauliflower, or Brussels sprouts. In New Zealand, you can find these ingredients at supermarkets like Countdown, New World, or Pak'nSave.",
+      "list": [
+        "Cook proteins like chicken, beef, or fish",
+        "Prepare complex carbohydrates like brown rice or quinoa",
+        "Roast a large batch of vegetables"
+      ]
+    },
+    {
+      "heading": "4-5 High-Protein Meals Using NZ Supermarket Staples",
+      "body": "Here are 4-5 high-protein meal ideas using NZ supermarket staples: grilled chicken breast with roasted vegetables, salmon with quinoa and broccoli, beef and vegetable stir-fry with brown rice, chicken and avocado salad, and turkey and cheese wrap with carrot sticks. You can find these ingredients at affordable prices at NZ supermarkets, and use supplements like whey protein powder to boost your protein intake.",
+      "table": {
+        "headers": [
+          "Meal",
+          "Protein Source",
+          "Complex Carbohydrate",
+          "Vegetables"
+        ],
+        "rows": [
+          [
+            "Grilled Chicken Breast",
+            "Chicken Breast",
+            "Brown Rice",
+            "Broccoli"
+          ],
+          [
+            "Salmon with Quinoa",
+            "Salmon",
+            "Quinoa",
+            "Cauliflower"
+          ],
+          [
+            "Beef and Vegetable Stir-Fry",
+            "Beef",
+            "Brown Rice",
+            "Mixed Vegetables"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Portion Sizing for Gym Goals",
+      "body": "To support your gym goals, it's essential to get your portion sizes right. A general rule of thumb is to aim for 1.6-2.2 grams of protein per kilogram of body weight, 2-3 grams of complex carbohydrates per kilogram of body weight, and 0.5-1 gram of healthy fats per kilogram of body weight. You can use a food scale or measuring cups to measure your portions, and adjust as needed based on your progress.",
+      "list": [
+        "Aim for 1.6-2.2 grams of protein per kilogram of body weight",
+        "Aim for 2-3 grams of complex carbohydrates per kilogram of body weight",
+        "Aim for 0.5-1 gram of healthy fats per kilogram of body weight"
+      ]
+    },
+    {
+      "heading": "Containers and Storage",
+      "body": "To keep your meal prep fresh and convenient, it's essential to use the right containers and storage. You can use glass or plastic containers with lids, and label them with the date and meal name. Store your containers in the fridge or freezer, and reheat as needed. You can also use a thermos or insulated bag to keep your meals warm or cool on-the-go.",
+      "list": [
+        "Use glass or plastic containers with lids",
+        "Label containers with date and meal name",
+        "Store containers in fridge or freezer"
+      ],
+      "cta": {
+        "text": "Compare gyms and find a subsidised gym scheme through Exercise NZ",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "meal-prep-gym-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-16",
+  "post_type": "nutrition"
+}

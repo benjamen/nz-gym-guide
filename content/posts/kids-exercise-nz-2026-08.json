@@ -1,0 +1,59 @@
+{
+  "title": "Kids Fitness NZ",
+  "short_title": "Kids Fitness",
+  "meta_desc": "Get your kids moving with NZ gym options and family-friendly exercise ideas. Learn how to encourage physical activity in children and find a gym near you.",
+  "intro": "Regular physical activity is crucial for kids' health and development. According to the World Health Organisation, children should engage in at least 60 minutes of moderate to vigorous physical activity daily. In New Zealand, many gyms offer family-friendly facilities and programmes to support this goal. In this article, we'll explore the best options for kids' fitness and how to get your family moving.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ Guidelines for Children's Activity",
+      "body": "The New Zealand Ministry of Health recommends that children aged 5-18 years old engage in at least 60 minutes of moderate to vigorous physical activity daily. This can include activities like swimming, cycling, or team sports. Research shows that regular physical activity in childhood is associated with a range of health benefits, including improved cardiovascular health, stronger bones, and reduced risk of obesity. As a parent, you can play a significant role in encouraging your kids to be more active by setting a good example and providing opportunities for physical activity.",
+      "list": [
+        "Encourage outdoor play",
+        "Support participation in sports teams",
+        "Engage in physical activity together as a family"
+      ]
+    },
+    {
+      "heading": "Family-Friendly Gyms in NZ",
+      "body": "Many gyms in New Zealand offer family-friendly facilities and programmes. Some popular options include YMCA, which offers swimming lessons and crèche services, as well as holiday programmes for kids. Other gyms, such as Les Mills and CityFitness, also offer kids' classes and activities. When choosing a gym, consider factors like the availability of childcare services, kids' programmes, and family-friendly facilities like pools and playgrounds.",
+      "list": [
+        "YMCA: swimming lessons, crèche, holiday programmes",
+        "Les Mills: kids' classes, childcare services",
+        "CityFitness: kids' activities, family-friendly facilities"
+      ]
+    },
+    {
+      "heading": "How a Gym Membership Helps",
+      "body": "A gym membership can be a great way to support your family's physical activity goals. Many gyms offer subsidised membership options, including Exercise NZ's subsidised gym scheme, which can provide 40-70% off regular membership prices. With a gym membership, you can access a range of facilities and services, including pools, playgrounds, and kids' classes. This can be a convenient and affordable way to keep your kids active and healthy.",
+      "cta": {
+        "text": "Find a family-friendly gym near you",
+        "url": "https://nzgymguide.co.nz/compare",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Practical Steps to Get Your Kids Moving",
+      "body": "In addition to joining a gym, there are many other ways to encourage physical activity in your kids. Try setting aside dedicated time each day for outdoor play, or finding activities that your kids enjoy, like swimming or dancing. You can also encourage participation in sports teams or clubs, which can provide a fun and social way for kids to stay active. By making physical activity a priority and providing opportunities for your kids to be active, you can help them develop healthy habits that will last a lifetime.",
+      "list": [
+        "Set aside dedicated time for outdoor play",
+        "Find activities your kids enjoy",
+        "Encourage participation in sports teams or clubs"
+      ]
+    },
+    {
+      "heading": "Get Started Today",
+      "body": "By following these tips and finding a family-friendly gym near you, you can help your kids develop a love of physical activity that will last a lifetime. Remember to always consult with a healthcare professional before starting any new exercise programme, especially if your child has any health concerns. With the right support and resources, you can help your kids stay active, healthy, and happy.",
+      "cta": {
+        "text": "Take our quiz to find the best gym for your family",
+        "url": "https://nzgymguide.co.nz/quiz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "kids-exercise-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-16",
+  "post_type": "health_info"
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Gym Split Routines",
+  "short_title": "Gym Splits",
+  "meta_desc": "Learn about full body, upper/lower, and push/pull/legs gym split routines and find the best for your NZ gym membership",
+  "intro": "When it comes to creating a workout programme, choosing the right gym split routine can be overwhelming. In this guide, we'll break down the most popular gym split routines and help you decide which one is best for you. Whether you're a beginner or an experienced gym-goer, we'll provide you with practical tips and advice to get the most out of your workouts.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to Gym Split Routines",
+      "body": "A gym split routine refers to the way you divide your workouts throughout the week. The most common gym split routines are full body, upper/lower, and push/pull/legs. Each routine has its pros and cons, and the best one for you will depend on your fitness goals, schedule, and personal preferences. For example, full body workouts are great for beginners, while push/pull/legs routines are better suited for more experienced gym-goers.",
+      "list": [
+        "Full body workouts: targeting all major muscle groups in one session",
+        "Upper/lower workouts: dividing the body into upper and lower body days",
+        "Push/pull/legs workouts: focusing on specific muscle groups such as chest, back, and legs"
+      ]
+    },
+    {
+      "heading": "Full Body Workouts",
+      "body": "Full body workouts involve targeting all major muscle groups in one session. This type of routine is great for beginners, as it allows you to work on overall fitness and muscle balance. Full body workouts are also time-efficient, as you can complete a full workout in one day. However, they may not be as effective for building muscle mass as other routines. City Fitness and Les Mills gyms in NZ offer a range of full body group fitness classes, such as BodyPump and GRIT.",
+      "cta": {
+        "text": "Find a City Fitness gym near you",
+        "url": "/gyms/city-fitness",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Upper/Lower and Push/Pull/Legs Workouts",
+      "body": "Upper/lower and push/pull/legs workouts are more advanced routines that involve dividing the body into specific muscle groups. These routines allow for more focused training and can be more effective for building muscle mass. However, they require more time and dedication, as you'll need to complete multiple workouts per week. Anytime Fitness and Jetts gyms in NZ offer 24/7 access, making it easier to fit in multiple workouts per week. Exercise NZ's subsidised gym scheme can also help make these routines more affordable.",
+      "list": [
+        "Upper/lower workouts: 2-3 days per week",
+        "Push/pull/legs workouts: 3-4 days per week"
+      ]
+    },
+    {
+      "heading": "Choosing the Right Routine for Your NZ Gym Membership",
+      "body": "When choosing a gym split routine, consider your fitness goals, schedule, and personal preferences. If you're a beginner, a full body workout may be the best place to start. If you're more experienced, an upper/lower or push/pull/legs routine may be more suitable. Also, consider the type of gym membership you have and the facilities available to you. For example, if you have a membership at a gym with limited equipment, a bodyweight-focused routine may be more suitable.",
+      "table": {
+        "headers": [
+          "Gym Chain",
+          "Best Routine",
+          "Facilities"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "Full body",
+            "Group fitness classes"
+          ],
+          [
+            "Anytime Fitness",
+            "Upper/lower, push/pull/legs",
+            "24/7 access"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Getting Started with Your Chosen Routine",
+      "body": "Once you've chosen a gym split routine, it's time to get started. Begin by creating a workout programme that outlines your exercises, sets, and reps. Make sure to include a mix of compound exercises such as squats, deadlifts, and bench press, as well as isolation exercises to target specific muscle groups. Also, don't forget to warm up before each workout and cool down afterwards to prevent injury.",
+      "cta": {
+        "text": "Compare NZ gyms and find the best one for your routine",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "Choosing the right gym split routine can be a daunting task, but with this guide, you're one step closer to achieving your fitness goals. Remember to consider your fitness level, schedule, and personal preferences when selecting a routine. Don't be afraid to try out different routines and see what works best for you. If you're still unsure, take our quiz to find the best gym and routine for your needs.",
+      "cta": {
+        "text": "Take the quiz to find your perfect gym match",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "gym-split-routine-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-16",
+  "post_type": "exercise_tips"
+}
