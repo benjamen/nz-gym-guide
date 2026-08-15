@@ -1,0 +1,55 @@
+{
+  "title": "NZ Gym Supplements",
+  "short_title": "Supplements",
+  "meta_desc": "Discover which gym supplements are worth it in NZ, backed by evidence and considering local prices and context.",
+  "intro": "As a gym-goer in New Zealand, navigating the world of supplements can be overwhelming. With numerous options available, it's crucial to separate fact from fiction. This guide will help you understand which supplements are actually worth considering, based on evidence and tailored to the NZ context.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to Supplements",
+      "body": "When it comes to supplements, it's essential to have a clear understanding of what works and what doesn't. In New Zealand, gym-goers often look for ways to enhance their workout performance and recovery. However, not all supplements are created equal. Some have strong evidence backing their effectiveness, while others are more hype than help.",
+      "list": [
+        "Always consult with a healthcare professional before starting any new supplement regimen.",
+        "Be wary of exaggerated claims and focus on evidence-based recommendations."
+      ]
+    },
+    {
+      "heading": "Strong Evidence: Creatine and Caffeine",
+      "body": "Creatine and caffeine are two supplements with strong evidence supporting their use. Creatine can enhance strength and endurance, while caffeine can boost alertness and performance. In NZ, you can find creatine and caffeine supplements at local health stores or supermarkets like Countdown and New World, with prices ranging from $20 to $50 per month, depending on the brand and quality.",
+      "list": [
+        "Creatine monohydrate is a cost-effective and well-researched option.",
+        "Caffeine is also found in common foods and beverages, such as coffee and green tea."
+      ]
+    },
+    {
+      "heading": "Protein: Food First, Then Supplements",
+      "body": "Protein is crucial for muscle growth and recovery. While supplements can be convenient, whole foods should always be your first choice. In NZ, affordable protein sources include chicken, fish, beans, and dairy products. If you do choose to supplement, look for a protein powder that aligns with your dietary needs and preferences, with prices starting from around $30 per kilogram.",
+      "list": [
+        "Aim to consume 1.2-1.6 grams of protein per kilogram of body weight from whole foods daily.",
+        "Consider a protein supplement if you're struggling to meet your daily protein needs through food alone."
+      ]
+    },
+    {
+      "heading": "Weak Evidence: BCAAs and Fat Burners",
+      "body": "Branch-Chain Amino Acids (BCAAs) and fat burners are two types of supplements with weaker evidence supporting their effectiveness. BCAAs may have some benefits during prolonged exercise, but the evidence is not strong enough to recommend them as a necessity. Fat burners, on the other hand, are often associated with potential side effects and lack substantial evidence to support their use. In NZ, it's best to approach these supplements with caution and consider more evidence-based options.",
+      "list": [
+        "BCAAs may be beneficial for endurance athletes, but more research is needed.",
+        "Fat burners are not a reliable or safe way to lose weight; focus on a balanced diet and regular exercise instead."
+      ]
+    },
+    {
+      "heading": "Conclusion and Next Steps",
+      "body": "When it comes to supplements in NZ, it's crucial to be informed and make evidence-based decisions. By focusing on creatine, caffeine, and whole food protein sources, you can enhance your workout performance and recovery without breaking the bank. Remember, supplements should complement your diet and exercise programme, not replace them. For more information on fitness and nutrition, or to compare gym prices and find a gym that suits your needs, visit our website.",
+      "cta": {
+        "text": "Compare Gyms and Prices",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "supplements-worth-it-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-15",
+  "post_type": "nutrition"
+}

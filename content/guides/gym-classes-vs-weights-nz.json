@@ -1,48 +1,43 @@
 {
   "slug": "gym-classes-vs-weights-nz",
-  "short_title": "Gym Classes",
+  "short_title": "Gym Types NZ",
   "title": "Group Classes vs Weights — Which Gym Type Is Right for You in NZ?",
-  "meta_desc": "Group Classes vs Weights: Discover which gym type suits your goals and budget in NZ",
-  "intro": "When choosing a gym in New Zealand, it's essential to consider your personality type and fitness goals. If you're a social butterfly, group classes might be the way to go, with popular options like Les Mills and F45 offering a range of high-energy workouts. However, if you prefer a more solo approach, weights and resistance training might be more suitable.",
-  "updated": "July 2026",
-  "reading_time": 8,
+  "meta_desc": "Gym classes vs weights in NZ: compare prices and contract terms",
+  "intro": "When choosing a gym in New Zealand, it ultimately comes down to your personality, goals, and budget. If you're a social butterfly, group classes might be the way to go, but if you prefer solo workouts, a weights-focused gym could be more suitable. With prices ranging from $15 to $50 per week, it's essential to weigh up the costs and benefits.",
+  "updated": "August 2026",
+  "reading_time": 7,
   "sections": [
     {
       "heading": "Personality Types and Gym Preferences",
-      "body": "If you're an outgoing person who thrives in social environments, group classes are likely to be a great fit. On the other hand, if you prefer to work out alone or have specific fitness goals that require a more tailored approach, weights and resistance training might be more effective."
+      "body": "If you're an outgoing person who thrives in social environments, group classes like those offered at Les Mills (with over 40 locations across NZ) might be the perfect fit. On the other hand, if you're more introverted or prefer working out alone, a gym like Jetts (with 24/7 access and no lock-in contracts) could be more suitable."
     },
     {
-      "heading": "Cost Comparison: Group Classes vs Weights",
+      "heading": "Cost Comparison",
       "table": {
         "headers": [
-          "Gym Type",
+          "Gym",
           "Weekly Price",
-          "Monthly Price",
           "Contract Term"
         ],
         "rows": [
           [
-            "Les Mills (group classes)",
-            "$24.99",
-            "$99.99",
+            "Les Mills",
+            "$24.95",
             "12 months"
           ],
           [
-            "Anytime Fitness (weights and cardio)",
+            "Jetts",
+            "$16.95",
+            "no lock-in contract"
+          ],
+          [
+            "City Fitness",
             "$19.95",
-            "$79.95",
-            "12 months"
-          ],
-          [
-            "F45 (high-intensity group classes)",
-            "$29.95",
-            "$129.95",
             "6 months"
           ],
           [
-            "Jetts Fitness (24/7 weights and cardio)",
-            "$14.95",
-            "$59.95",
+            "Anytime Fitness",
+            "$29.95",
             "12 months"
           ]
         ]
@@ -50,30 +45,32 @@
     },
     {
       "heading": "ClassPass: A Hybrid Solution",
-      "body": "If you're struggling to choose between group classes and weights, ClassPass might be the perfect solution. With a range of partner studios and gyms across New Zealand, including locations in Auckland, Wellington, and Christchurch, ClassPass offers a flexible and affordable way to try different workouts and find what works best for you. Prices start at $29.95 per week for 3 classes, with options to upgrade to 5 or 10 classes per week.",
-      "cta": {
-        "text": "Compare ClassPass prices and plans",
-        "url": "/compare/classpass/",
-        "affiliate": false
-      }
+      "body": "If you're torn between group classes and weights, ClassPass could be the answer. With prices starting from $49 per month for 3 classes, you can try out different gyms and classes without committing to a long-term contract. ClassPass partners with over 100 gyms in NZ, including popular chains like F45 and Orangetheory."
     },
     {
-      "heading": "Popular Gym Chains in NZ",
-      "list": [
-        "Les Mills (over 40 locations nationwide)",
-        "Anytime Fitness (over 20 locations across NZ)",
-        "Jetts Fitness (over 10 locations in Auckland and Wellington)",
-        "F45 (multiple locations in Auckland, Wellington, and Christchurch)"
-      ]
+      "heading": "Social Factor and Motivation",
+      "body": "Exercising with others can be a great motivator, and group classes often provide a sense of community and accountability. However, if you prefer working out alone, you can still stay motivated by tracking your progress and setting goals. Consider what drives you and what type of environment will help you stick to your fitness routine."
     },
     {
-      "heading": "Making the Right Choice for Your Fitness Journey",
-      "body": "Ultimately, the choice between group classes and weights comes down to your individual preferences, goals, and budget. By considering your personality type, fitness objectives, and the costs involved, you can make an informed decision and find a gym that suits your needs. Be sure to research and compare prices, contract terms, and services offered by different gyms in your area to find the best value for your money.",
+      "heading": "Compare Gyms and Find the Best Deal",
       "cta": {
-        "text": "Compare NZ gym prices and find the best deal",
+        "text": "Compare NZ gyms and prices",
         "url": "/compare/",
         "affiliate": false
       }
+    },
+    {
+      "heading": "Les Mills Gym Review",
+      "body": "Les Mills is one of the most popular gym chains in NZ, with a wide range of group classes and equipment. Prices start from $24.95 per week, and you can sign up for a 12-month contract. If you're interested in learning more, check out our in-depth review.",
+      "cta": {
+        "text": "Read our Les Mills gym review",
+        "url": "/gym/les-mills/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion",
+      "body": "Ultimately, the right gym type for you will depend on your unique preferences, goals, and budget. By considering the social factor, cost per session, and contract terms, you can make an informed decision and find a gym that helps you achieve your fitness goals."
     }
   ]
 }

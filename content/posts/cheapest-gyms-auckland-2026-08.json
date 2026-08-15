@@ -1,0 +1,83 @@
+{
+  "title": "Cheapest Gyms Auckland",
+  "short_title": "Auckland Gyms",
+  "meta_desc": "Discover the most affordable gym options in Auckland with no-contract alternatives and Exercise NZ subsidy, featuring prices and comparisons of major gym chains.",
+  "intro": "Auckland offers a wide range of gym options, from budget-friendly to premium. For those on a budget, City Fitness stands out as the cheapest option, with a monthly fee of $18.99. No-contract alternatives like Jetts provide flexibility, while the Exercise NZ subsidy offers the biggest discount available for eligible members.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Most Affordable Options",
+      "body": "City Fitness leads as the most affordable option in Auckland, with a weekly fee of $18.99. Jetts is another contender, offering a no-contract membership with a 15% discount and 4 weeks free. Snap Fitness also provides a competitive option with 6 weeks free. The Exercise NZ subsidy is available for new members or those inactive for 12+ months, offering 40-70% off.",
+      "list": [
+        "City Fitness: $18.99/week",
+        "Jetts: 15% off + 4 weeks free",
+        "Snap Fitness: 6 weeks free"
+      ]
+    },
+    {
+      "heading": "No-Contract Alternatives",
+      "body": "For those who prefer flexibility, no-contract gyms are a great option. Jetts offers a no-contract membership, while Les Mills provides a flexi membership with no lock-in contract. City Fitness also has a month-to-month membership option. These alternatives allow members to cancel or change their membership without being tied to a long-term contract.",
+      "list": [
+        "Jetts: no-contract membership",
+        "Les Mills: flexi membership",
+        "City Fitness: month-to-month membership"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy",
+      "body": "The Exercise NZ subsidy is the biggest discount available for eligible members. New members or those who have been inactive for 12+ months can receive 40-70% off their gym membership. This subsidy can be applied to various gym chains, including City Fitness, Jetts, and Les Mills. It's an excellent opportunity for those who want to start or return to exercise without breaking the bank.",
+      "list": [
+        "40-70% off for eligible members",
+        "New members or inactive for 12+ months"
+      ]
+    },
+    {
+      "heading": "Price Comparison",
+      "body": "The following table compares the prices of major gym chains in Auckland. Please note that prices may vary depending on the location and membership type.",
+      "table": {
+        "headers": [
+          "Gym Chain",
+          "Weekly Fee",
+          "No-Contract Option"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "$18.99",
+            "Yes"
+          ],
+          [
+            "Jetts",
+            "$19.95",
+            "Yes"
+          ],
+          [
+            "Les Mills",
+            "$29.95",
+            "Yes (flexi membership)"
+          ],
+          [
+            "Anytime Fitness",
+            "$24.95",
+            "No"
+          ],
+          [
+            "F45",
+            "$49.95",
+            "No"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "cheapest-gyms-auckland-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-14",
+  "post_type": "budget_guide"
+}

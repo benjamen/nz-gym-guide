@@ -2,82 +2,62 @@
   "slug": "classpass-vs-gym-membership-nz",
   "short_title": "ClassPass Savings",
   "title": "ClassPass vs Gym Membership in NZ — Which Saves More Money?",
-  "meta_desc": "ClassPass vs gym membership in NZ: compare prices and save money",
-  "intro": "With ClassPass credits starting from $49 per month for 3 credits, Kiwis are considering alternative fitness options to traditional gym memberships. For example, a monthly membership at Les Mills Auckland costs around $34.95 per week. However, the real question is: which option provides better value for money?",
-  "updated": "July 2026",
+  "meta_desc": "Compare ClassPass and gym membership costs in NZ. Discover which option saves you more money with our expert guide.",
+  "intro": "With the rising cost of living in New Zealand, it's essential to choose a fitness membership that suits your budget. ClassPass and traditional gym memberships are two popular options, but which one offers better value for money? Let's dive into the details and compare the costs.",
+  "updated": "August 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "How ClassPass Works in NZ",
-      "body": "ClassPass is a fitness membership platform that allows users to attend various classes and workouts at different studios and gyms across NZ. The platform operates on a credit system, where users purchase credits that can be redeemed for classes. The number of credits required per class varies, with most classes costing between 2-4 credits."
+      "heading": "How ClassPass Works",
+      "body": "ClassPass is a subscription-based fitness platform that allows users to attend classes at various studios and gyms across New Zealand. The platform uses a credit system, where users purchase a set number of credits per month, which can be redeemed for classes. The cost of ClassPass in NZ starts at $49 per month for 3 credits, with each credit valued at around $15-$20 per class."
     },
     {
-      "heading": "ClassPass Pricing in NZ",
-      "table": {
-        "headers": [
-          "Plan",
-          "Monthly Price",
-          "Credits"
-        ],
-        "rows": [
-          [
-            "3 credits",
-            "$49",
-            "3"
-          ],
-          [
-            "5 credits",
-            "$79",
-            "5"
-          ],
-          [
-            "10 credits",
-            "$139",
-            "10"
-          ]
-        ]
-      }
+      "heading": "Real Cost at NZ Studios",
+      "body": "The cost of classes at NZ studios varies greatly, with some studios charging as low as $10 per class and others charging up to $30 per class. For example, a yoga class at Yoga House in Auckland costs around $20 per class, while a strength training class at F45 in Wellington costs around $25 per class."
     },
     {
-      "heading": "Dedicated Gym Membership Prices in NZ",
+      "heading": "ClassPass vs Gym Membership: Price Comparison",
       "table": {
         "headers": [
-          "Gym",
-          "Monthly Price",
+          "Option",
+          "Weekly Cost",
+          "Monthly Cost",
           "Contract Term"
         ],
         "rows": [
           [
-            "Les Mills Auckland",
-            "$149.95",
-            "12 months"
+            "ClassPass (3 credits)",
+            "$11.80",
+            "$49",
+            "Month-to-month"
           ],
           [
-            "Jetts NZ",
-            "$14.95 per week",
-            "12 months"
+            "Les Mills NZ",
+            "$16.95",
+            "$69.95",
+            "12-month contract"
           ],
           [
             "Anytime Fitness NZ",
-            "$69.95 per month",
-            "12 months"
+            "$19.95",
+            "$79.95",
+            "12-month contract"
+          ],
+          [
+            "Jetts NZ",
+            "$14.95",
+            "$59.95",
+            "12-month contract"
           ]
         ]
       }
     },
     {
-      "heading": "Price Comparison: ClassPass vs Dedicated Membership",
-      "body": "To make a fair comparison, let's consider the cost of attending 4 classes per week. With ClassPass, this would require the 10-credit plan, costing $139 per month. In contrast, a dedicated membership at Les Mills Auckland costs $149.95 per month, but includes unlimited access to classes and facilities. However, if you prefer a more flexible schedule, ClassPass might be the better option."
+      "heading": "Best Use Cases for ClassPass and Gym Membership",
+      "body": "ClassPass is ideal for those who enjoy variety in their workout routine and want to try different classes and studios. On the other hand, a dedicated gym membership is better suited for those who have a consistent workout routine and prefer to use the same equipment and facilities regularly."
     },
     {
-      "heading": "Best Use Cases for ClassPass and Dedicated Memberships",
-      "list": [
-        "Use ClassPass for: trying out new workouts, accessing boutique studios, and flexibility in scheduling",
-        "Use dedicated membership for: frequent gym-goers, those who prefer a fixed routine, and access to additional facilities like pools and saunas"
-      ]
-    },
-    {
-      "heading": "Conclusion and Next Steps",
+      "heading": "Get the Best Value for Your Money",
       "cta": {
         "text": "Compare gym memberships and prices",
         "url": "/compare/",
@@ -85,8 +65,13 @@
       }
     },
     {
-      "heading": "Popular Gyms in NZ",
-      "body": "For those interested in exploring dedicated gym memberships, popular options in NZ include Les Mills, Jetts, and Anytime Fitness. You can visit our gym pages for more information and to compare prices: /gym/les-mills, /gym/jetts, /gym/anytime-fitness"
+      "heading": "Specific Gym Membership Options",
+      "body": "If you're looking for a dedicated gym membership, consider options like Les Mills NZ, which offers a 12-month contract for $69.95 per month. Alternatively, you can check out our detailed guide to Anytime Fitness NZ, which offers a 12-month contract for $79.95 per month.",
+      "cta": {
+        "text": "Learn more about Anytime Fitness NZ",
+        "url": "/gym/anytime-fitness-nz/",
+        "affiliate": false
+      }
     }
   ]
 }

@@ -1,26 +1,26 @@
 {
   "slug": "nz-gym-app-workouts",
-  "short_title": "Gym App Workouts",
+  "short_title": "NZ Gym Apps",
   "title": "Best Workout Apps to Pair with Your NZ Gym Membership",
   "meta_desc": "Discover the best workout apps to pair with your NZ gym membership, including free and paid options",
-  "intro": "With many NZ gyms offering memberships from $15-$30 per week, such as Anytime Fitness and Jetts, supplementing your gym routine with a workout app can be a great way to stay motivated and reach your fitness goals. Les Mills On Demand is a popular option, priced at $14.95 per month. Many Kiwis are turning to workout apps to enhance their gym experience and track progress.",
-  "updated": "July 2026",
+  "intro": "With a wide range of workout apps available, Kiwis can enhance their gym experience without breaking the bank. For example, a membership at Les Mills Auckland costs around $34.95 per week, and pairing it with their On Demand app can be a great way to stay motivated. Many NZ gyms offer affordable membership options, such as Jetts Gym at $16.95 per week, and $149.95 for a 12-month contract",
+  "updated": "August 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Free Workout Apps",
-      "body": "There are many free workout apps available that can be used in conjunction with your NZ gym membership. These apps often include a range of workouts, from yoga and Pilates to strength training and cardio. Some popular free workout apps include Nike Training Club and JEFIT."
+      "heading": "Free Workout Apps for NZ Gym Goers",
+      "body": "If you're looking for a free workout app to complement your NZ gym membership, there are several options available. The Nike Training Club app offers a range of workouts, from strength training to cardio, and is completely free to download and use. Another option is the JEFIT app, which has a large exercise database and allows you to create and customize your own workouts."
     },
     {
-      "heading": "Paid Workout Apps",
+      "heading": "Paid Workout Apps for NZ Gym Members",
       "list": [
-        "Les Mills On Demand ($14.95/month)",
-        "Peloton Digital ($16.49/month)",
-        "Centr ($19.99/month)"
+        "Les Mills On Demand: $14.95 per month",
+        "Fitstar Personalized Fitness: $7.99 per month",
+        "Aaptiv: $14.99 per month"
       ]
     },
     {
-      "heading": "NZ Gym Membership Prices",
+      "heading": "NZ Gym Price Comparison",
       "table": {
         "headers": [
           "Gym",
@@ -29,65 +29,41 @@
         ],
         "rows": [
           [
+            "Jetts Gym",
+            "$16.95",
+            "12 months"
+          ],
+          [
             "Anytime Fitness",
-            "$15-$25",
-            "12-month contract"
+            "$24.95",
+            "12 months"
           ],
           [
-            "Jetts",
-            "$15-$30",
-            "12-month contract"
-          ],
-          [
-            "Les Mills",
-            "$20-$40",
-            "12-month contract"
+            "Les Mills Auckland",
+            "$34.95",
+            "12 months"
           ]
         ]
       }
     },
     {
-      "heading": "App and Gym Membership Price Comparison",
-      "table": {
-        "headers": [
-          "Gym Membership",
-          "Workout App",
-          "Total Weekly Price"
-        ],
-        "rows": [
-          [
-            "Anytime Fitness ($15/week)",
-            "Les Mills On Demand ($2.90/week)",
-            "$17.90/week"
-          ],
-          [
-            "Jetts ($20/week)",
-            "Peloton Digital ($4/week)",
-            "$24/week"
-          ],
-          [
-            "Les Mills ($30/week)",
-            "Centr ($5/week)",
-            "$35/week"
-          ]
-        ]
-      }
+      "heading": "How to Choose the Best Workout App for Your NZ Gym Membership",
+      "body": "When choosing a workout app to pair with your NZ gym membership, consider your fitness goals and what type of workouts you enjoy. If you prefer group fitness classes, Les Mills On Demand may be a great option. If you prefer personalized workouts, Fitstar may be a better fit."
     },
     {
-      "heading": "Getting the Most Out of Your Gym Membership and Workout App",
-      "body": "To get the most out of your gym membership and workout app, it's essential to find a combination that works for you. Consider your fitness goals, budget, and preferences when choosing a gym and workout app. Many gyms, such as Les Mills, offer free trials or discounts for new members, so it's worth shopping around to find the best deal.",
+      "heading": "Get the Most Out of Your NZ Gym Membership",
       "cta": {
-        "text": "Compare NZ gym memberships",
+        "text": "Compare NZ gym memberships and prices",
         "url": "/compare/",
         "affiliate": false
       }
     },
     {
-      "heading": "Conclusion",
-      "body": "Supplementing your NZ gym membership with a workout app can be a great way to enhance your fitness routine and reach your goals. With many free and paid options available, there's something to suit every budget and preference. Consider visiting the Les Mills website to learn more about their gym memberships and Les Mills On Demand workout app.",
+      "heading": "Jetts Gym Membership and App Bundle",
+      "body": "Jetts Gym offers a membership and app bundle for $149.95 for a 12-month contract, which includes access to their gyms and a range of workout apps. This can be a great option for those who want a hassle-free fitness experience.",
       "cta": {
-        "text": "Learn more about Les Mills",
-        "url": "/gym/les-mills/",
+        "text": "Learn more about Jetts Gym membership options",
+        "url": "/gym/jetts-gym/",
         "affiliate": false
       }
     }

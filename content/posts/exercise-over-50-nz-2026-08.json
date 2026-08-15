@@ -1,0 +1,45 @@
+{
+  "title": "Fit After 50",
+  "short_title": "Fitness 50+",
+  "meta_desc": "Get fit after 50 in NZ with safe exercise, community-focused gyms and programmes, and subsidies from Exercise NZ. Learn how to start your fitness journey with the best gyms and classes for over 50s.",
+  "intro": "As we age, regular exercise becomes even more crucial for maintaining physical and mental health. In New Zealand, around 70% of adults over 50 are not meeting the recommended physical activity levels, according to the Ministry of Health. With the right programme and support, getting fit after 50 can be achievable and enjoyable.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Safe Exercise for Over 50s",
+      "body": "When starting or returning to exercise after 50, it's essential to consider your overall health and any physical limitations. The New Zealand government recommends consulting with your doctor before beginning any new exercise programme. Many gyms in NZ offer joint-friendly options, such as swimming, cycling, or low-impact aerobics, which can be modified to suit your fitness level. Research has shown that exercising with others can also enhance motivation and overall well-being.",
+      "list": [
+        "Consult your doctor before starting a new exercise programme",
+        "Choose low-impact activities, such as swimming or cycling",
+        "Consider group fitness classes for motivation and support"
+      ]
+    },
+    {
+      "heading": "Community-Focused Gyms and Programmes",
+      "body": "Exercise NZ's subsidised gym scheme can also help make gym memberships more affordable, with discounts of 40-70% off regular prices. This scheme is available to adults of all ages, including those over 50, and can be used at participating gyms across NZ."
+    },
+    {
+      "heading": "Getting Started with a Gym Membership",
+      "body": "A gym membership can provide access to a range of equipment, classes, and support services to help you achieve your fitness goals. When choosing a gym, consider factors such as location, hours of operation, and the types of classes and equipment available. Many gyms in NZ also offer personal training sessions or small group training, which can be tailored to your fitness level and goals.",
+      "list": [
+        "Consider location, hours, and classes when choosing a gym",
+        "Look for gyms with personal training or small group training options",
+        "Check if the gym offers discounts or promotions for seniors"
+      ]
+    },
+    {
+      "heading": "Take the Next Step",
+      "body": "Getting fit after 50 requires a combination of motivation, support, and the right resources. By choosing a community-focused gym, selecting joint-friendly exercises, and taking advantage of subsidies or discounts, you can set yourself up for success. To learn more about gym options and find the best fit for you, take our quiz or compare gyms today.",
+      "cta": {
+        "text": "Take the quiz or compare gyms",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-over-50-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-14",
+  "post_type": "health_info"
+}

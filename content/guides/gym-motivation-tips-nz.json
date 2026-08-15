@@ -2,79 +2,73 @@
   "slug": "gym-motivation-tips-nz",
   "short_title": "Gym Motivation",
   "title": "How to Actually Stick to Your Gym Membership in NZ — Practical Tips",
-  "meta_desc": "Stick to your gym membership in NZ with practical tips, habit formation and accountability strategies",
-  "intro": "With gym memberships in NZ ranging from $15 to $50 per week, making the most of your membership requires more than just a financial commitment. Many Kiwis struggle to stick to their gym routine, with some gyms like Les Mills and Jetts having contract terms of up to 12 months. However, with the right mindset and strategies, you can achieve your fitness goals and make the most of your membership.",
-  "updated": "July 2026",
+  "meta_desc": "Sticking to gym memberships in NZ, discover habit formation and accountability strategies",
+  "intro": "With many NZ gym memberships costing between $15-$30 per week, such as Anytime Fitness and Jetts, it can be frustrating to not see results due to poor attendance. Forming habits and being accountable are crucial to achieving your fitness goals. Let's explore practical tips to help you stick to your gym membership.",
+  "updated": "August 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Habit Formation Strategies",
-      "body": "Forming a habit takes time and consistency, but it can be achieved by setting realistic goals and tracking progress. Start by committing to a specific workout schedule, such as 3 times a week, and gradually increase the frequency and intensity over time. You can also find a workout buddy or join a fitness class to stay motivated and accountable."
+      "heading": "Forming Habits",
+      "body": "To create a gym routine, start by scheduling specific times to visit the gym each week. This could be early in the morning before work or straight after dinner. Consistency is key, so try to visit the gym at the same time every day or week to make it a habit. For example, if you join a gym like Les Mills with over 40 locations across NZ, you can choose a gym close to your work or home to make it easier to stick to your routine."
     },
     {
       "heading": "Accountability Strategies",
       "list": [
-        "Find a workout buddy or personal trainer",
+        "Exercise with a friend or family member",
         "Join a fitness class or group training session",
-        "Track progress through mobile apps or fitness trackers",
-        "Set realistic goals and reward yourself for achieving them"
+        "Find a workout buddy online or through social media"
       ]
     },
     {
-      "heading": "Making the Most of Your NZ Gym Membership",
-      "body": "Different gyms in NZ offer varying levels of service and amenities, so it's essential to choose a gym that meets your needs and budget. For example, Anytime Fitness has over 50 locations across NZ and offers 24/7 access, with memberships starting from $20 per week. On the other hand, CityFitness has a more comprehensive range of amenities, including pools and group fitness classes, with memberships starting from $30 per week."
-    },
-    {
-      "heading": "Price Comparison of Popular Gyms in NZ",
+      "heading": "Price Comparison of Popular NZ Gyms",
       "table": {
         "headers": [
           "Gym",
           "Weekly Price",
-          "Contract Term",
-          "Locations"
+          "Contract Term"
         ],
         "rows": [
           [
             "Anytime Fitness",
-            "$20",
-            "12 months",
-            "50+ locations"
-          ],
-          [
-            "CityFitness",
-            "$30",
-            "6 months",
-            "20+ locations"
-          ],
-          [
-            "Les Mills",
-            "$35",
-            "12 months",
-            "10+ locations"
+            "$19.95",
+            "12 months"
           ],
           [
             "Jetts",
-            "$25",
-            "12 months",
-            "10+ locations"
+            "$15.95",
+            "12 months"
+          ],
+          [
+            "Les Mills",
+            "$24.95",
+            "6 months"
+          ],
+          [
+            "City Fitness",
+            "$29.95",
+            "12 months"
           ]
         ]
       }
     },
     {
-      "heading": "Getting Started with Your Gym Membership",
+      "heading": "Making the Most of Your Membership",
+      "body": "Many gyms in NZ offer additional services such as personal training sessions, group fitness classes, and nutritional advice. For example, a gym like Jetts offers a free 7-day trial, allowing you to try out their facilities and services before committing to a membership. With a membership costing $15.95 per week, it's an affordable option for those looking to try out a new gym."
+    },
+    {
+      "heading": "Get Started with a Gym Membership",
       "cta": {
-        "text": "Compare gym memberships in NZ",
+        "text": "Compare NZ gym prices and memberships",
         "url": "/compare/",
         "affiliate": false
       }
     },
     {
-      "heading": "Finding the Right Gym for You",
-      "body": "With so many gyms to choose from in NZ, it can be overwhelming to decide which one is right for you. Consider factors such as location, amenities, and price when making your decision. You can also read reviews and ask for referrals from friends or family members who have experience with different gyms. For example, you can check out our guide to Les Mills NZ to learn more about their services and prices.",
+      "heading": "Les Mills Gym Membership",
+      "body": "Les Mills is one of the most popular gyms in NZ, with over 40 locations across the country. Their membership costs $24.95 per week, with a minimum contract term of 6 months. To learn more about Les Mills and their services, you can visit their page on our website.",
       "cta": {
-        "text": "Learn more about Les Mills NZ",
-        "url": "/guides/les-mills-nz/",
+        "text": "Learn more about Les Mills gym membership",
+        "url": "/gym/les-mills/",
         "affiliate": false
       }
     }
