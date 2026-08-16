@@ -1,75 +1,56 @@
 {
   "slug": "corporate-gym-discounts-nz",
-  "short_title": "Gym Discounts At Work",
+  "short_title": "Gym Discounts NZ",
   "title": "Corporate Gym Discounts in NZ — How to Get a Cheaper Membership Through Work",
-  "meta_desc": "Discover corporate gym discounts in NZ and save up to 20% on memberships through employee wellness programmes",
-  "intro": "Many Kiwis are unaware that their workplace can provide significant discounts on gym memberships, with some employers offering up to 20% off standard rates. Companies like NZHL and Southern Cross offer discounted gym memberships as part of their employee wellness programmes. By negotiating a corporate rate, you can enjoy cheaper gym memberships at popular franchises like Les Mills and Anytime Fitness.",
+  "meta_desc": "Get cheaper gym memberships through corporate discounts with NZHL, Southern Cross & more",
+  "intro": "Many Kiwis are unaware that their employer can offer discounted gym memberships through corporate wellness programs. With prices starting from $14.95 per week at Jetts Fitness, a corporate discount can make a significant difference. In this guide, we'll explore how to negotiate corporate rates and compare prices from popular NZ gyms.",
   "updated": "August 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "How Corporate Gym Discounts Work",
-      "body": "Corporate gym discounts are available to employees of participating companies, with the employer often covering a portion of the membership cost. This can result in significant savings for employees, with discounts ranging from 10% to 20% off standard rates. For example, a standard monthly membership at Les Mills typically costs around $130, but with a corporate discount, this could be reduced to $104 per month."
+      "heading": "What are Corporate Gym Discounts?",
+      "body": "Corporate gym discounts are negotiated rates offered to employees of a company, often as part of an employee wellness program. These discounts can range from 5-20% off the regular membership price, depending on the gym and the company's agreement. Some popular NZ gyms that offer corporate discounts include Anytime Fitness, Jetts Fitness, and Les Mills."
     },
     {
-      "heading": "NZ Companies Offering Gym Discounts",
-      "list": [
-        "NZHL",
-        "Southern Cross",
-        "ACC",
-        "Fonterra"
-      ]
+      "heading": "NZHL and Southern Cross Gym Discounts",
+      "body": "NZ Home Loans (NZHL) and Southern Cross offer gym discounts to their employees and members. For example, NZHL employees can get a discounted membership at Jetts Fitness for $14.95 per week, which is 10% off the regular price of $16.95 per week. Southern Cross members can get a 10% discount on Anytime Fitness memberships, which start from $24.95 per week."
     },
     {
-      "heading": "Popular Gyms with Corporate Rates",
+      "heading": "Comparing Corporate Gym Membership Prices",
       "table": {
         "headers": [
           "Gym",
-          "Standard Monthly Price",
-          "Corporate Monthly Price"
+          "Regular Price (weekly)",
+          "Corporate Discount (weekly)"
         ],
         "rows": [
           [
-            "Les Mills",
-            "$130",
-            "$104"
-          ],
-          [
             "Anytime Fitness",
-            "$60",
-            "$48"
+            "$24.95",
+            "$22.45 (10% off)"
           ],
           [
-            "Jetts",
-            "$40",
-            "$32"
+            "Jetts Fitness",
+            "$16.95",
+            "$14.95 (12% off)"
           ],
           [
-            "City Fitness",
-            "$90",
-            "$72"
+            "Les Mills",
+            "$29.95",
+            "$26.95 (10% off)"
           ]
         ]
       }
     },
     {
-      "heading": "Negotiating a Corporate Rate",
-      "body": "If your employer does not currently offer a corporate gym discount, it's worth negotiating a rate with your HR department. Many gyms are willing to offer discounts to companies with a minimum number of employees, typically around 10-20. You can also suggest partnering with a specific gym, such as Jetts or City Fitness, which may offer more competitive corporate rates."
+      "heading": "How to Negotiate Corporate Rates",
+      "body": "To negotiate corporate rates, employees should contact their HR department or wellness program coordinator to inquire about existing gym discounts. If no discounts are available, employees can approach their employer to negotiate a corporate rate with a preferred gym. It's essential to provide evidence of the gym's regular pricing and the potential benefits of offering discounted memberships to employees."
     },
     {
       "heading": "Get Started with a Corporate Gym Membership",
       "cta": {
-        "text": "Compare gym memberships and corporate rates",
+        "text": "Compare NZ gym prices and find the best corporate membership for you",
         "url": "/compare/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Example: Les Mills Corporate Membership",
-      "body": "Les Mills offers corporate memberships at over 40 locations across NZ, with discounts available for employees of participating companies. A standard 12-month membership at Les Mills typically costs around $1,560, but with a corporate discount, this could be reduced to $1,248. You can learn more about Les Mills corporate memberships and pricing on their website or by visiting a local gym.",
-      "cta": {
-        "text": "Learn more about Les Mills corporate memberships",
-        "url": "/gym/les-mills/",
         "affiliate": false
       }
     }
