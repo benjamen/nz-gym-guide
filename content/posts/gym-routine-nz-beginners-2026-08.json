@@ -1,0 +1,61 @@
+{
+  "title": "NZ Gym Routine",
+  "short_title": "3-Day Gym",
+  "meta_desc": "Get started with a simple 3-day full-body gym routine for NZ beginners, including sets, reps, rest times, and warm-up routines at City Fitness, Les Mills, and more",
+  "intro": "Starting a gym routine can be intimidating, but with a simple and effective plan, you'll be on your way to achieving your fitness goals. This 3-day full-body routine is perfect for NZ beginners, and can be done at most gyms, including City Fitness, Les Mills, and Jetts. Remember to check if you're eligible for Exercise NZ's subsidised gym scheme for 40-70% off your membership",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Introduction to the 3-Day Routine",
+      "body": "This routine is designed to be completed 3 days a week, with at least one day of rest in between. It's a full-body routine, meaning you'll be working multiple muscle groups each day. This is a great way to get started with weightlifting, as it allows you to make consistent progress and see results quickly. Most NZ gyms, such as Anytime Fitness and Jetts, offer the necessary equipment for this routine",
+      "list": [
+        "Squats",
+        "Deadlifts",
+        "Bench Press",
+        " Rows"
+      ]
+    },
+    {
+      "heading": "Warm-up and Cool-down Routines",
+      "body": "Before starting your workout, it's essential to warm up your muscles to prevent injury and get your blood flowing. A 5-10 minute cardio session on the treadmill or stationary bike is a great way to get started. After your workout, take 5-10 minutes to stretch and cool down, focusing on the muscle groups you worked. Many NZ gyms, such as Les Mills, offer group fitness classes that can help with warm-up and cool-down routines",
+      "list": [
+        "Jumping jacks",
+        "Leg swings",
+        "Arm circles",
+        "Chest stretches"
+      ]
+    },
+    {
+      "heading": "Sets, Reps, and Rest Times",
+      "body": "For each exercise, you'll be doing 3-4 sets of 8-12 reps. This means you'll be doing 8-12 repetitions of the exercise, resting for 60-90 seconds, and then repeating for a total of 3-4 sets. As you get stronger, you can increase the weight or reps to continue making progress. Remember to listen to your body and take rest days as needed",
+      "list": [
+        "Start with lighter weights and progress gradually",
+        "Focus on proper form and technique",
+        "Increase weight or reps as you get stronger"
+      ]
+    },
+    {
+      "heading": "Putting it all Together",
+      "body": "Now that you have a basic understanding of the routine, it's time to put it all together. Start by scheduling your 3 workout days per week, and make sure to warm up and cool down each time. Focus on making progress, not perfection, and don't be afraid to ask for help or guidance from gym staff. With consistency and patience, you'll be on your way to achieving your fitness goals",
+      "cta": {
+        "text": "Compare NZ gym memberships and find the best one for you",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Next Steps",
+      "body": "If you're ready to get started with your fitness journey, take our quiz to find the best gym for your needs and budget. With Exercise NZ's subsidised gym scheme, you may be eligible for 40-70% off your membership",
+      "cta": {
+        "text": "Take our quiz to find your perfect gym match",
+        "url": "/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "gym-routine-nz-beginners-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-17",
+  "post_type": "exercise_tips"
+}

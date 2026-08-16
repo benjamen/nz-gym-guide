@@ -1,0 +1,45 @@
+{
+  "title": "Gym Savings Rotorua",
+  "short_title": "Gym Deals",
+  "meta_desc": "Get 40-70% off gym memberships in Rotorua with Exercise NZ's subsidised scheme. Check eligibility, participating gyms and claim process.",
+  "intro": "Rotorua's gym scene is thriving, with various options available. Exercise NZ's subsidised gym scheme offers significant discounts for eligible individuals. To learn more, visit exercise.org.nz.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is Exercise NZ's Subsidised Gym Scheme?",
+      "body": "The scheme is available to individuals who meet specific eligibility criteria, such as those with a low income or a disability. To check your eligibility, visit the Exercise NZ website at exercise.org.nz."
+    },
+    {
+      "heading": "Eligibility and Claim Process",
+      "body": "Once you have confirmed your eligibility, you can claim your discount by registering on the Exercise NZ website. You will need to provide some personal and financial information to complete the registration process.",
+      "list": [
+        "Be a New Zealand resident",
+        "Have a low income",
+        "Live with a disability"
+      ]
+    },
+    {
+      "heading": "Participating Gyms in Rotorua",
+      "body": "Several gyms in Rotorua participate in Exercise NZ's subsidised gym scheme. These include Contours, Snap Fitness, and Anytime Fitness. You can visit the Exercise NZ website to see a full list of participating gyms in your area.",
+      "list": [
+        "Contours",
+        "Snap Fitness",
+        "Anytime Fitness"
+      ]
+    },
+    {
+      "heading": "Potential Savings",
+      "body": "The amount you can save with Exercise NZ's subsidised gym scheme varies depending on the gym and your eligibility. However, you can expect to save between 40-70% off the regular gym membership price. For example, if a gym membership normally costs $60 per month, you could pay as little as $18 per month with the subsidised scheme.",
+      "cta": {
+        "text": "Visit Exercise NZ to learn more and register",
+        "url": "https://exercise.org.nz",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-nz-subsidy-rotorua-2026",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-17",
+  "post_type": "exercise_nz"
+}
