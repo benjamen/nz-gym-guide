@@ -1,0 +1,61 @@
+{
+  "title": "Heart Health and Exercise in NZ – What Your Gym Habit Does for You",
+  "short_title": "Heart Health & Exercise",
+  "meta_desc": "Discover how regular cardio at NZ gyms can lower heart disease risk, target your heart rate zones, and benefit from Exercise NZ discounts. Get practical steps now.",
+  "intro": "Heart disease remains New Zealand’s top killer, but a consistent gym habit can turn the tide. This guide explains the numbers, the science, and how to make your workouts work for your heart.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why Heart Disease Matters in NZ",
+      "body": "Cardiovascular disease (CVD) accounts for about 30% of all deaths in New Zealand – roughly one in three adults will experience a heart‑related event in their lifetime. The Ministry of Health reports that 1 in 4 NZ adults have high blood pressure, a major CVD risk factor, and Māori and Pacific peoples are disproportionately affected, with rates up to 50% higher than the national average. Understanding these statistics highlights why regular aerobic exercise isn’t just optional – it’s a public‑health priority.",
+      "list": [
+        "CVD: ~30% of all deaths in NZ",
+        "1 in 4 adults have hypertension",
+        "Māori & Pacific rates ~50% higher than average"
+      ]
+    },
+    {
+      "heading": "How Cardio Training Protects Your Heart",
+      "body": "Research from the University of Otago shows that moderate‑intensity cardio performed at least 150 minutes per week can reduce the risk of coronary artery disease by up to 30%. Exercise improves endothelial function, lowers LDL cholesterol, and helps maintain a healthy weight – all key factors in preventing heart attacks and strokes. Even short bouts of high‑intensity interval training (HIIT) have been linked to improved VO₂ max and lower resting heart rate, offering similar benefits in less time.",
+      "list": [
+        "150 min/week moderate cardio → ~30% lower CVD risk",
+        "Improves cholesterol and blood pressure",
+        "HIIT boosts VO₂ max in 10‑15 min sessions"
+      ]
+    },
+    {
+      "heading": "Find Your Target Heart Rate Zone",
+      "body": "Training in the right zone maximises cardiovascular gain without over‑training. Use the simple formula: 220 minus your age = maximum heart rate (MHR). Aim for 50‑70% of MHR for moderate intensity and 70‑85% for vigorous sessions. For a 40‑year‑old, that’s 90‑126 bpm (moderate) and 126‑153 bpm (vigorous). Wear a chest strap or smartwatch to stay on target, and adjust the incline or resistance as needed to keep within the zone.",
+      "list": [
+        "Calculate MHR: 220‑age",
+        "Moderate zone: 50‑70% MHR",
+        "Vigorous zone: 70‑85% MHR",
+        "Use a monitor to stay in zone"
+      ]
+    },
+    {
+      "heading": "Gym Options that Support Cardio Workouts",
+      "body": "New Zealand offers a range of gyms with equipment and classes designed for heart‑healthy training. Les Mills clubs across Auckland, Wellington and Christchurch provide world‑renowned cardio classes like BodyPump and RPM. Anytime Fitness and Snap Fitness have 24/7 access to treadmills, ellipticals and rowing machines, ideal for flexible schedules. Community centres such as the Auckland City Gym and Christchurch Leisure also run low‑cost cardio sessions. Eligible members can tap into the Exercise NZ subsidised scheme, which offers 40‑70% off standard membership fees, making regular cardio more affordable for everyone.",
+      "list": [
+        "Les Mills – cardio‑focused group classes",
+        "Anytime Fitness / Snap Fitness – 24/7 cardio gear",
+        "Community centres – low‑cost options",
+        "Exercise NZ scheme – 40‑70% discount"
+      ]
+    },
+    {
+      "heading": "Start Today – Simple Action Plan",
+      "body": "1. Calculate your MHR and pick a target zone. 2. Choose a gym that fits your budget – check the Exercise NZ discount eligibility. 3. Schedule three cardio sessions per week (e.g., 30 min treadmill + 15 min HIIT). 4. Track heart rate each session and aim to stay in zone for at least 20 minutes. 5. Re‑assess every 4 weeks – adjust intensity or duration as fitness improves. Consistency is the key driver for a stronger heart and lower disease risk.",
+      "cta": {
+        "text": "Take the Heart‑Health Quiz or Compare NZ Gyms now",
+        "url": "https://www.nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "heart-health-exercise-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-20",
+  "post_type": "health_info"
+}

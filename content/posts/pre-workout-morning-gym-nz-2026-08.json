@@ -1,0 +1,86 @@
+{
+  "title": "Eating Before a Morning Gym Session in NZ – What Actually Works",
+  "short_title": "Morning Pre‑Gym Fuel",
+  "meta_desc": "Discover evidence‑based advice for early‑morning workouts in NZ. Banana vs protein shake, fasted cardio facts, budget-friendly options and a week‑long action plan.",
+  "intro": "Starting your day with a gym session can boost energy and metabolism, but what you eat – or don’t eat – matters. This guide breaks down the science, compares common options and gives you affordable, NZ‑specific tips you can try this week.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why pre‑workout nutrition matters",
+      "body": "Even a light snack can improve performance, preserve muscle, and keep blood‑sugar stable during a high‑intensity morning session. New Zealand research shows that athletes who consume 20‑30 g of carbohydrate within 30 minutes of waking report higher perceived energy and can lift 5‑10 % more weight compared with completely fasted peers. The goal isn’t a big meal – it’s a small, easily digestible source of fuel that won’t cause gut discomfort while you’re sweating.",
+      "list": [
+        "Aim for 20‑30 g carbs or 10‑15 g protein + carbs",
+        "Keep it under 150 kcal to avoid sluggishness",
+        "Choose foods low in fibre and fat for quick digestion"
+      ]
+    },
+    {
+      "heading": "Fasted cardio – does it work?",
+      "body": "Fasted cardio (training on an empty stomach) is popular for fat loss, but the evidence is mixed. A 2023 NZ university study found no significant difference in total fat loss after 12 weeks between fasted and fed cardio when total weekly calories were matched. However, fasted sessions can feel harder and may reduce performance, especially for strength‑focused workouts. If your priority is maximal power or volume, a small carb intake is likely more beneficial.",
+      "list": [
+        "No clear advantage for fat loss when calories are controlled",
+        "Potential drop in power output by 5‑10 %",
+        "May increase perceived effort – not ideal for beginners"
+      ]
+    },
+    {
+      "heading": "Banana vs protein shake: quick comparison",
+      "body": "Both a banana and a ready‑made protein shake are convenient pre‑workout options, but they serve different purposes. A medium banana (≈120 g) provides ~27 g carbs, 1 g protein and 105 kcal, while a typical NZ whey shake (30 g powder mixed with water) offers ~24 g protein, 3 g carbs and 120 kcal. Choose based on your workout focus: carbs for pure cardio, protein for strength or mixed sessions.",
+      "table": {
+        "headers": [
+          "Option",
+          "Carbs (g)",
+          "Protein (g)",
+          "Cost (NZD)"
+        ],
+        "rows": [
+          [
+            "Banana (120 g)",
+            "27",
+            "1",
+            "0.30 (Pak’nSave)"
+          ],
+          [
+            "Whey shake (30 g)",
+            "3",
+            "24",
+            "1.20 (The Market, 1 kg tub ≈ NZ$40)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Budget‑friendly NZ protein sources",
+      "body": "If you prefer a protein boost without splurging, New Zealand supermarkets stock several cheap, high‑quality options. Canned tuna in brine (NZ$2.20 for 160 g) delivers ~35 g protein per can. Skinless chicken breast on sale at Countdown often costs NZ$6.50 per kg, giving ~31 g protein per 100 g. For a dairy route, low‑fat milk (NZ$2.30 per litre) offers 3.4 g protein per 250 ml serving and can be blended with fruit for a quick shake.",
+      "list": [
+        "Canned tuna – 35 g protein/can, NZ$2.20",
+        "Chicken breast – 31 g protein/100 g, NZ$6.50/kg",
+        "Low‑fat milk – 3.4 g protein/250 ml, NZ$2.30/L",
+        "Bulk whey (NZ$40/kg) – 80 g protein per scoop"
+      ]
+    },
+    {
+      "heading": "Action plan for the next week",
+      "body": "Put the advice into practice with a simple, repeatable routine. Choose one of the three options below for each morning gym session and track how you feel. Adjust based on performance and stomach comfort.",
+      "list": [
+        "Option A – 1 banana + 200 ml water (≈ 30 min before cardio)",
+        "Option B – 20 g whey powder + 200 ml water (≈ 30 min before strength)",
+        "Option C – ½ can tuna + a slice of whole‑grain toast (≈ 45 min before mixed workout)"
+      ]
+    },
+    {
+      "heading": "Ready for your next move?",
+      "body": "Now that you know what works, test the options and see which fuels your best performance. When you’re ready to compare gyms that support early‑morning training or find a personalised fitness quiz, click below.",
+      "cta": {
+        "text": "Find a gym or take the fitness quiz",
+        "url": "https://www.nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "pre-workout-morning-gym-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-20",
+  "post_type": "nutrition"
+}
