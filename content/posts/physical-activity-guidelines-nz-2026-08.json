@@ -1,0 +1,89 @@
+{
+  "title": "NZ Physical Activity Guidelines 2026 – How Much Exercise?",
+  "short_title": "Activity Guidelines 2026",
+  "meta_desc": "Find out New Zealand’s 2026 physical activity guidelines for adults, kids and seniors, why they matter, how gyms help and simple steps to get moving today.",
+  "intro": "The Ministry of Health updated its Physical Activity Guidelines in 2026 to reflect the latest research and the realities of New Zealand life. Whether you’re a busy professional, a parent, or a retiree, the recommendations are clear – and achievable – if you know where to start.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What the Guidelines Say",
+      "body": "The 2026 guidelines set minimum activity targets for three population groups. Adults (18‑64) should aim for at least 150 minutes of moderate‑intensity aerobic activity, or 75 minutes of vigorous activity, plus two sessions of muscle‑strengthening per week. Children and adolescents (5‑17) need at least an hour of moderate‑to‑vigorous activity daily, with muscle‑strengthening and bone‑strengthening activities three times a week. Older adults (65+) should match the adult aerobic target but can break it into shorter bouts and add balance exercises to reduce fall risk.",
+      "list": [
+        "Adults: 150 min moderate or 75 min vigorous + 2 strength sessions weekly",
+        "Children 5‑17: 60 min daily mixed‑intensity + 3 strength/bone sessions",
+        "Older adults 65+: Same aerobic goal, plus balance and flexibility"
+      ],
+      "cta": null
+    },
+    {
+      "heading": "Why It Matters for Kiwis",
+      "body": "New Zealand still struggles to meet these benchmarks. The 2025 NZ Health Survey found only 31 % of adults achieved the recommended activity level, while 44 % of children were inactive for more than 2 hours a day. Low activity contributes to the nation’s top‑five disease burden – cardiovascular disease, type 2 diabetes, certain cancers, mental health issues and osteoporosis. Getting active can cut premature mortality risk by up to 30 % and improve mental wellbeing, something the Ministry highlighted in its recent report.",
+      "list": [
+        "30 % of NZ adults meet the adult guideline (2025)",
+        "44 % of NZ children are inactive >2 h/day (2025)",
+        "Physical inactivity linked to 1 in 5 premature deaths in NZ"
+      ],
+      "cta": null
+    },
+    {
+      "heading": "Gym Membership: Your Shortcut to the Targets",
+      "body": "A well‑equipped gym makes ticking the weekly boxes easier – cardio machines help hit the aerobic minutes, weight rooms cover strength work, and many offer group classes for balance and flexibility. Plus, the Exercise NZ subsidised gym scheme can shave 40‑70 % off standard rates for eligible members, meaning a $80 month fee could become $24‑$48. Below is a snapshot of three popular chains and typical subsidised pricing:",
+      "table": {
+        "headers": [
+          "Gym",
+          "Standard Monthly",
+          "Subsidised (40‑70% off)"
+        ],
+        "rows": [
+          [
+            "Les Mills",
+            "$79",
+            "$31‑$48"
+          ],
+          [
+            "Anytime Fitness",
+            "$85",
+            "$34‑$51"
+          ],
+          [
+            "Plus Fitness",
+            "$69",
+            "$28‑$42"
+          ]
+        ]
+      },
+      "list": [
+        "Look for a gym that offers a mix of cardio, free weights and group classes",
+        "Check if you qualify for the Exercise NZ subsidy – many community centres and employers partner with the scheme",
+        "Use the gym’s schedule to split activity across the week (e.g., 30 min cardio + 20 min strength 3‑4 times)"
+      ],
+      "cta": null
+    },
+    {
+      "heading": "Easy Steps to Start Meeting the Guidelines",
+      "body": "You don’t need a fancy routine to get on track. Start small, build habit, and use your gym or local environment to stay consistent. Here are five actionable steps you can take this week:",
+      "list": [
+        "Set a weekly goal in minutes (e.g., 75 min moderate cardio) and log it in a free NZ app like MyFitnessPal or the Ministry’s ‘Move It’ tracker",
+        "Swap one car trip for a brisk 10‑minute walk or cycle – it adds up quickly",
+        "Join a beginner‑friendly class (Zumba, body‑pump, yoga) – it covers cardio, strength and social motivation",
+        "Schedule two 20‑minute strength sessions – bodyweight circuits work at home or on gym machines",
+        "Add a 5‑minute balance routine before bed – single‑leg stands or tai‑chi moves are enough for older adults"
+      ],
+      "cta": null
+    },
+    {
+      "heading": "Take the Next Step",
+      "body": "Ready to see how your current activity stacks up against the new guidelines? Take our quick quiz to get a personalised action plan, or compare gym deals to find the best fit for your budget and goals.",
+      "cta": {
+        "text": "Find your plan – take the quiz or compare gyms now",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "physical-activity-guidelines-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-19",
+  "post_type": "health_info"
+}

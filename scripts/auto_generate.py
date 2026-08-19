@@ -6,7 +6,7 @@ Auto-generates 4 daily posts for nzgymguide.co.nz.
   3. Health information — health, wellness and fitness info for New Zealanders
   4. Nutrition & food   — eating for fitness, NZ supplements, meal prep, protein
 
-Uses Groq API (llama-3.3-70b-versatile) for content generation.
+Uses Groq API (openai/gpt-oss-120b) for content generation.
 Run daily via cron / systemd timer.
 
 Usage:
@@ -42,7 +42,7 @@ if env_file.exists():
 
 from groq import Groq
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 client = Groq(api_key=os.environ['GROQ_API_KEY'])
 
 MONTHS = ['January','February','March','April','May','June',
