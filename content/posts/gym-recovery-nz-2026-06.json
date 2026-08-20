@@ -55,5 +55,7 @@
   "updated": "June 2026",
   "auto_generated": true,
   "generated_date": "2026-06-10",
-  "post_type": "exercise_tips"
+  "post_type": "exercise_tips",
+  "noindex": true,
+  "canonical_slug": "gym-recovery-nz-2026-08"
 }

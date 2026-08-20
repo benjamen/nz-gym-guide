@@ -69,5 +69,7 @@
   "updated": "July 2026",
   "auto_generated": true,
   "generated_date": "2026-07-15",
-  "post_type": "nutrition"
+  "post_type": "nutrition",
+  "noindex": true,
+  "canonical_slug": "caffeine-pre-workout-nz-2026-08"
 }

@@ -75,5 +75,7 @@
   "updated": "July 2026",
   "auto_generated": true,
   "generated_date": "2026-07-07",
-  "post_type": "nutrition"
+  "post_type": "nutrition",
+  "noindex": true,
+  "canonical_slug": "creatine-nz-guide-2026-08"
 }

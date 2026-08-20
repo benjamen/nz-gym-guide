@@ -51,5 +51,7 @@
   "updated": "July 2026",
   "auto_generated": true,
   "generated_date": "2026-07-06",
-  "post_type": "health_info"
+  "post_type": "health_info",
+  "noindex": true,
+  "canonical_slug": "exercise-over-50-nz-2026-08"
 }

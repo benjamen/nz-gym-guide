@@ -44,5 +44,7 @@
   "updated": "June 2026",
   "auto_generated": true,
   "generated_date": "2026-06-18",
-  "post_type": "city_deals"
+  "post_type": "city_deals",
+  "noindex": true,
+  "canonical_slug": "new-plymouth-gym-deals-2026-07"
 }
