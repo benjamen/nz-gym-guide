@@ -1,0 +1,99 @@
+{
+  "title": "How NZ Students Can Afford the Gym – Deals & Tips",
+  "short_title": "Student Gym Deals",
+  "meta_desc": "Discover real student discounts at NZ gym chains, uni rec centres, ClassPass and Exercise NZ subsidy. Practical steps to stay fit on a budget.",
+  "intro": "Balancing study, work and a social life is tough, but staying active doesn’t have to break the bank. This guide outlines the cheapest ways for New Zealand students to hit the gym, backed by local health data and real‑world pricing.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why Exercise Matters for Students",
+      "body": "Stats NZ reports that 20% of 15‑24 year olds are overweight or obese, and mental‑health surveys show a strong link between regular activity and reduced anxiety. Research indicates that students who exercise at least three times a week see a 10‑15% boost in academic performance and concentration. Getting moving is therefore both a health and a study hack."
+    },
+    {
+      "heading": "University Recreation Centres – Low‑Cost Access",
+      "body": "Most NZ universities run on‑campus gyms that are heavily subsidised for enrolled students. Membership is usually a flat weekly rate, includes unlimited group classes, and requires no long‑term contract.",
+      "list": [
+        "University of Auckland Rec Centre – NZ$5 per week (incl. free fitness assessment).",
+        "Victoria University of Wellington Sport & Recreation – NZ$6 per week, 24/7 access to cardio and weights.",
+        "University of Canterbury Sport & Recreation – NZ$5.50 per week, includes swimming pool and yoga.",
+        "Eligibility: valid student ID and enrolment confirmation."
+      ]
+    },
+    {
+      "heading": "Major Gym Chains – Student Discounts",
+      "body": "National chains offer specific student rates that cut the usual price by 20‑30%. Most still require a 12‑month contract, so read the fine print before you sign.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Student Price (per week)",
+          "Contract Length",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Anytime Fitness",
+            "NZ$20",
+            "12 months",
+            "24/7 access, nationwide keys, free first‑month trial."
+          ],
+          [
+            "Snap Fitness",
+            "NZ$18",
+            "12 months",
+            "Includes free fitness assessment and one guest pass per month."
+          ],
+          [
+            "Jetts",
+            "NZ$19",
+            "12 months",
+            "No lock‑in if 30‑day notice is given; student discount applies to first 12 months only."
+          ],
+          [
+            "Plus Fitness",
+            "NZ$16",
+            "12 months",
+            "Cheapest option, limited group class schedule."
+          ],
+          [
+            "CityGym",
+            "NZ$22",
+            "12 months",
+            "Two personal‑training sessions per year included."
+          ]
+        ]
+      },
+      "list": [
+        "Pros: Nationwide networks, modern equipment, often include free classes.",
+        "Cons: 12‑month lock‑in, price rises after discount period, some locations have limited peak‑hour space."
+      ]
+    },
+    {
+      "heading": "ClassPass Student Rate – Flexibility Without Commitment",
+      "body": "ClassPass now offers a student tier at NZ$9.99 per month, giving you 5 class credits that can be used at any participating studio or gym. It’s ideal for students who want variety or only need occasional workouts.",
+      "list": [
+        "No contract – cancel anytime.",
+        "Access to boutique studios, swimming pools and yoga rooms that might be pricey on their own.",
+        "Credits roll over each month up to a maximum of 10, so you won’t lose unused sessions."
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidised Membership – 40‑70% Off for Eligible Students",
+      "body": "Exercise NZ runs a government‑backed subsidy for low‑income students and those on student hardship grants. After a simple online application, you can receive a voucher that reduces the weekly cost of most commercial gyms by 40‑70%. The scheme works with the chains listed above, plus regional community gyms.",
+      "list": [
+        "Eligibility: student status + proof of income or hardship (e.g., NZ$20,000 annual income threshold).",
+        "How to apply: visit exercise.nz, create an account, upload student ID and income proof, receive a digital voucher.",
+        "Savings example: a $20/week Anytime Fitness membership drops to $6‑12/week depending on the subsidy level."
+      ],
+      "cta": {
+        "text": "Find the best student gym deal for you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "student-gym-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-23",
+  "post_type": "health_info"
+}
