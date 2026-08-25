@@ -1,0 +1,103 @@
+{
+  "title": "Intermittent Fasting & Gym Training in NZ – Honest Guide",
+  "short_title": "IF & Gym Guide NZ",
+  "meta_desc": "Discover how the 16:8 intermittent fasting plan works with gym training for New Zealanders. Evidence‑based tips, local food options, risks and a week plan.",
+  "intro": "Intermittent fasting (IF) has become a popular way to manage calories, but how does it sit alongside regular gym work? This guide breaks down the 16:8 method, its impact on strength training, and what New Zealanders need to know before trying it.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What is the 16:8 Intermittent Fasting Protocol?",
+      "body": "The 16:8 approach limits eating to an eight‑hour window each day and fasts for the remaining sixteen hours. Most people choose a window that fits their lifestyle – for example, 10 am to 6 pm or 12 pm to 8 pm. During the fast you can drink water, black coffee or tea, but no calories. The simplicity makes it easier to stick to than more complex calorie‑restriction plans.",
+      "list": [
+        "Typical eating windows: 10 am‑6 pm, 12 pm‑8 pm, or 1 pm‑9 pm",
+        "Fast‑break meals should include protein, carbs and healthy fats",
+        "Adjust the window if you train early in the morning – a 6 am‑2 pm window works for some lifters"
+      ]
+    },
+    {
+      "heading": "Training Within the 16‑Hour Fast – Timing and Performance",
+      "body": "Strength and hypertrophy rely on muscle protein synthesis, which is strongest when nutrients are available around the workout. If you train near the start of your eating window, you can fuel the session with a small pre‑workout snack (e.g., a banana and a scoop of whey) and follow up with a protein‑rich meal. Research from the University of Otago shows that training in a fasted state may modestly reduce power output, but the effect is usually small for recreational lifters.",
+      "list": [
+        "Best practice: finish your fast 30–60 minutes before lifting, or train at the very end of the fast and break the fast immediately after.",
+        "If you feel low on energy, try a 20‑gram whey shake before the session – it adds only ~80 kcal.",
+        "Hydration is key; aim for 2‑3 L of water daily, especially on fasted training days."
+      ]
+    },
+    {
+      "heading": "Potential Risks – Muscle Loss and Who Should Avoid IF",
+      "body": "When calories are too low or protein intake is insufficient, the body may start breaking down muscle for fuel. This risk rises if you train hard while still in the early fasting phase. People with high training volume, competitive athletes, or those with a history of disordered eating should approach IF with caution. The New Zealand Dietitians Board advises that anyone with diabetes, thyroid issues, or who is pregnant should seek professional guidance before starting.",
+      "list": [
+        "Avoid IF if you train >5 days/week with heavy lifts and struggle to meet 1.6 g protein/kg body weight.",
+        "Those on medication for blood sugar control need to monitor glucose closely during fasts.",
+        "If you notice a drop in strength, mood swings, or trouble sleeping, reconsider the protocol."
+      ]
+    },
+    {
+      "heading": "NZ‑Friendly Food Choices – Affordable Protein and Meal Ideas",
+      "body": "New Zealand supermarkets stock a range of inexpensive, high‑protein foods that fit nicely into an IF eating window. Pair these with seasonal veg and whole‑grain carbs for a balanced post‑workout plate. Below is a quick price guide (2026 NZ prices) to help you hit your protein targets without breaking the bank.",
+      "table": {
+        "headers": [
+          "Food",
+          "Price per 100 g (NZD)",
+          "Protein (g)"
+        ],
+        "rows": [
+          [
+            "Chicken breast (fresh)",
+            "1.20",
+            "31"
+          ],
+          [
+            "Tinned tuna in springwater",
+            "0.80",
+            "25"
+          ],
+          [
+            "Large eggs",
+            "0.30",
+            "13"
+          ],
+          [
+            "Lentils (dry)",
+            "0.45",
+            "9"
+          ],
+          [
+            "Quorn mince",
+            "1.10",
+            "14"
+          ],
+          [
+            "Milk (skim)",
+            "0.20",
+            "3.4"
+          ]
+        ]
+      },
+      "list": [
+        "Meal idea: 150 g grilled chicken, 200 g roasted kumara, and a side of steamed broccoli – ~35 g protein.",
+        "Quick snack: 1 can tuna mixed with low‑fat Greek yoghurt and chopped celery.",
+        "Budget boost: Cook a big pot of lentil stew; portion for lunches throughout the week."
+      ]
+    },
+    {
+      "heading": "Your First Week Plan & Next Steps",
+      "body": "Start with a 12‑hour fast for the first two days to let your body adjust, then move to 16:8. Choose a window that lets you train either just before or just after you break the fast. Track your protein intake (aim for 1.6‑2.2 g/kg) and keep a simple log of energy levels and strength performance. By the end of week one you should know whether the schedule feels sustainable.",
+      "list": [
+        "Day 1‑2: 8 am‑8 pm eating window (12‑hour fast).",
+        "Day 3‑7: Shift to 12 pm‑8 pm window; train at 5 pm, break fast at 6 pm with a whey shake + fruit.",
+        "Record daily protein grams and any changes in squat or bench numbers."
+      ],
+      "cta": {
+        "text": "Find the best NZ gyms for IF‑friendly training or test your knowledge with our quick quiz.",
+        "url": "https://www.nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "intermittent-fasting-gym-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-26",
+  "post_type": "nutrition"
+}

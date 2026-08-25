@@ -1,0 +1,85 @@
+{
+  "title": "Swimming for Fitness in NZ – Best Gyms, Pools & Workouts",
+  "short_title": "NZ Swimming Fitness",
+  "meta_desc": "Discover NZ gyms and council pools, compare costs, and get affordable swimming workouts. Includes YMCA, Les Mills, City Fitness and Exercise NZ subsidies.",
+  "intro": "Swimming is a low‑impact, full‑body workout that fits perfectly into New Zealand’s active lifestyle. Whether you’re training for a triathlon or just looking for a joint‑friendly cardio option, the right pool can make all the difference.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why Swim for Fitness in NZ",
+      "body": "New Zealand’s coastal culture means many people already feel comfortable in the water, but a regular pool routine adds measurable cardio, strength and flexibility benefits. Swimming burns up to 500 kcal per hour, improves lung capacity – crucial for high‑altitude hikes – and reduces stress on knees and hips, making it ideal for all ages."
+    },
+    {
+      "heading": "Gyms with Pools – What to Look For",
+      "body": "Not every gym offers a pool, so focus on chains that do and compare the membership price, pool access hours and any extra fees. Most major gyms also participate in the Exercise NZ subsidised gym scheme, which can shave 40‑70 % off the regular price for eligible members.",
+      "list": [
+        "YMCA – $85 /month (incl pool), subsidised $30 /month",
+        "Les Mills Fitness (select locations) – $99 /month, subsidised $45 /month",
+        "Jetts – no pool, but partners with local councils for discounted day passes",
+        "Anytime Fitness – no pool, but offers 24/7 access for cardio cross‑training"
+      ],
+      "table": {
+        "headers": [
+          "Gym",
+          "Monthly Cost (incl pool)",
+          "Subsidised Cost (if eligible)"
+        ],
+        "rows": [
+          [
+            "YMCA",
+            "$85",
+            "$30"
+          ],
+          [
+            "Les Mills (pool)",
+            "$99",
+            "$45"
+          ],
+          [
+            "Council Pool – Monthly Pass",
+            "$55",
+            "$20‑$30 (depending on region)"
+          ],
+          [
+            "Jetts (pool partnership)",
+            "$70 + $8 day pass",
+            "$30 + $5 day pass"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Council and Community Pools vs Gym Pools",
+      "body": "Council pools are often the cheapest way to get regular lane time, but they may have limited opening hours and fewer amenities. Gym pools usually offer extended hours, heated water and the convenience of combining strength training in the same facility. Consider your schedule, travel time and whether you’ll use the gym’s other equipment.",
+      "list": [
+        "Council pools – lower cost, community vibe, limited hours",
+        "Gym pools – higher cost, extended hours, integrated gym equipment",
+        "Both options qualify for Exercise NZ subsidies if the gym is a participating partner"
+      ]
+    },
+    {
+      "heading": "Beginner Swimming Workouts",
+      "body": "Start with a simple 30‑minute routine that balances technique and endurance. Warm up with 5 minutes of easy freestyle, then alternate between interval sets and skill drills. Cool down with relaxed strokes to aid recovery. Aim for three sessions per week and gradually increase total distance by 10 % each month.",
+      "list": [
+        "Warm‑up: 5 min easy freestyle or backstroke",
+        "Main set: 4 × 100 m moderate pace, 30 s rest between each",
+        "Skill drill: 2 × 50 m kickboard, focus on flutter kick",
+        "Cool‑down: 5 min gentle breaststroke or water walking"
+      ]
+    },
+    {
+      "heading": "Putting It All Together – Choose Your Spot",
+      "body": "Match your budget, location and training goals to the right pool option. If you need full gym access and a pool, the YMCA or Les Mills (where available) are solid choices, especially with the Exercise NZ subsidy. For tight budgets, a council pool combined with a basic gym membership works well.",
+      "cta": {
+        "text": "Find the best pool‑friendly gym for you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "swimming-fitness-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-26",
+  "post_type": "exercise_tips"
+}
