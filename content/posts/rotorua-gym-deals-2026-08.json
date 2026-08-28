@@ -1,0 +1,92 @@
+{
+  "title": "Best Gym Deals in Rotorua – August 2026",
+  "short_title": "Rotorua Gym Deals",
+  "meta_desc": "Find the cheapest, best‑value and premium gym deals in Rotorua for August 2026, plus Exercise NZ subsidies and money‑saving tips.",
+  "intro": "Rotorua’s gym market punches above its weight, with a mix of national chains and local facilities. Whether you want 24/7 access, community vibes or a CrossFit box, there’s a deal that fits your budget.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Current Joining Deals & Free Trials",
+      "body": "Local gyms are running a handful of limited‑time offers this month. Contours, the city’s most affordable option, is currently offering a 4‑week free trial for new members – just sign up for a month‑to‑month plan and the first four weeks are on the house. Snap Fitness is matching that with a 6‑week free trial, but you’ll need to commit to a 12‑month contract to access the offer. Anytime Fitness has no free‑trial promotion, but its 24/7 worldwide access is bundled into a standard 12‑month membership. CrossFit Rotorua isn’t running a trial this month, but new members can snag a discounted introductory package that includes the first two weeks for $49.",
+      "list": [
+        "Contours – 4 weeks free, $12.95 /week, month‑to‑month, no contract required",
+        "Snap Fitness – 6 weeks free, $14.00 /week, 12‑month contract",
+        "Anytime Fitness – 24/7 global access, $15.00 /week, 12‑month contract",
+        "CrossFit Rotorua – Intro package $49 for 2 weeks, $199 /month, 12‑month contract"
+      ],
+      "table": {
+        "headers": [
+          "Gym",
+          "Deal",
+          "Price / week",
+          "Contract"
+        ],
+        "rows": [
+          [
+            "Contours",
+            "4 weeks free trial",
+            "$12.95",
+            "Month‑to‑month"
+          ],
+          [
+            "Snap Fitness",
+            "6 weeks free trial",
+            "$14.00",
+            "12 months"
+          ],
+          [
+            "Anytime Fitness",
+            "24/7 worldwide access",
+            "$15.00",
+            "12 months"
+          ],
+          [
+            "CrossFit Rotorua",
+            "2‑week intro $49",
+            "$199 /month",
+            "12 months"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Best Value Right Now",
+      "body": "If you strip away the extras and look purely at cost per week, Contours is the clear winner. At $12.95 per week with no lock‑in, it beats the national chains and still offers a full range of cardio and weight equipment plus group classes. Anytime Fitness offers the biggest network reach – ideal if you travel between cities – but you pay $2 more per week for a 12‑month lock‑in. For those after specialised training, CrossFit Rotorua’s $199 /month is steep, but the community coaching and niche programming can justify the price for serious athletes.",
+      "list": [
+        "Contours – cheapest, flexible, good equipment",
+        "Anytime Fitness – 24/7 access, global club network",
+        "CrossFit Rotorua – specialised coaching, high‑intensity classes"
+      ]
+    },
+    {
+      "heading": "Exercise NZ Subsidy Scheme",
+      "body": "Eligible New Zealanders can claim a 40‑70 % discount on most gym memberships through the Exercise NZ programme. To qualify, you must be a new member or have been inactive for at least 12 months, and you need to provide proof of eligibility (e.g., health card, student ID, or low‑income documentation). The discount is applied directly to the weekly rate, meaning a Contours membership could drop from $12.95 to as low as $4.00 per week, while an Anytime Fitness membership could fall to $4.50‑$6.00 per week. Check with each gym’s front desk for the exact subsidy percentage they offer, as it can vary between 40 % (minimum) and 70 % (maximum).",
+      "list": [
+        "Eligibility – new members or 12+ months inactive",
+        "Proof – health card, student ID, low‑income status",
+        "Discount range – 40‑70 % off the advertised weekly rate"
+      ]
+    },
+    {
+      "heading": "Money‑Saving Tips for Joining a Gym in Rotorua",
+      "body": "Getting the best bang for your buck isn’t just about the headline price. Use these strategies to stretch your fitness budget further:",
+      "list": [
+        "Negotiate the sign‑up fee – many gyms will waive or reduce the $50‑$100 joining fee if you ask, especially during off‑peak months",
+        "Combine deals – pair a free‑trial offer with the Exercise NZ subsidy for maximum discount",
+        "Go month‑to‑month first – test the facility before committing to a 12‑month contract; you can often lock in a lower rate later",
+        "Share a family or couple membership – several gyms, including Contours, offer discounted joint memberships that split the cost",
+        "Use off‑peak hours – some clubs have reduced rates for daytime access only, which can cut the weekly price by up to 20 %"
+      ],
+      "cta": {
+        "text": "Check Exercise NZ subsidy eligibility →",
+        "url": "https://www.exercise.org.nz/subsidised-gym-membership/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "rotorua-gym-deals-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-29",
+  "post_type": "city_deals"
+}
