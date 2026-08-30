@@ -1,0 +1,182 @@
+{
+  "title": "Eating for the Gym on a NZ Budget – Under $100 a Week",
+  "short_title": "Gym Food < $100",
+  "meta_desc": "Practical NZ guide to hit protein targets on a $100 weekly budget. Cheap supermarket staples, meal plan and shopping tips for gym‑goers.",
+  "intro": "Hitting your protein goals doesn’t have to break the bank. This guide shows how to fuel strength training with everyday NZ supermarket staples for under $100 a week.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "1. Set Your Protein Target",
+      "body": "Most active adults need 1.6‑2.2 g of protein per kilogram of body weight per day to support muscle repair and growth (Sports Medicine Australia). For a 75 kg lifter that’s 120‑165 g daily, or roughly 840‑1,155 g per week. Spread the intake over 3‑4 meals to maximise muscle protein synthesis and keep hunger in check.",
+      "list": [
+        "Calculate your weight in kg and multiply by 1.8 g as a practical middle ground",
+        "Aim for 30‑40 g protein per main meal and 15‑20 g in snacks"
+      ],
+      "cta": {
+        "text": "Find your ideal protein intake",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "2. Budget‑Friendly Protein Sources",
+      "body": "NZ supermarkets stock a range of cheap, high‑quality protein foods. Below are the most cost‑effective options and typical Pak'nSave prices (May 2026).",
+      "table": {
+        "headers": [
+          "Food",
+          "Approx. price (NZ$)",
+          "Protein per 100 g"
+        ],
+        "rows": [
+          [
+            "Chicken thigh (bone‑in)",
+            "$5.00/kg",
+            "20 g"
+          ],
+          [
+            "Eggs (large)",
+            "$4.00/dozen",
+            "13 g"
+          ],
+          [
+            "Canned tuna in springwater",
+            "$2.50/425 g",
+            "23 g"
+          ],
+          [
+            "Lentils (dry)",
+            "$2.00/500 g",
+            "9 g"
+          ],
+          [
+            "Greek yoghurt (plain)",
+            "$4.00/500 g",
+            "10 g"
+          ],
+          [
+            "Quark (low‑fat)",
+            "$5.00/500 g",
+            "11 g"
+          ],
+          [
+            "Soy mince (frozen)",
+            "$6.00/500 g",
+            "16 g"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "3. Sample 7‑Day Meal Plan (<$100)",
+      "body": "The plan below hits ~130 g protein per day and totals about $92 for the week. Adjust portion sizes to match your exact target and calorie needs.",
+      "list": [
+        "Day 1 – Breakfast: 80 g oats + 250 ml milk + 2 eggs (30 g protein)\\nLunch: Chicken thigh stir‑fry with rice and frozen veg (35 g)\\nSnack: Greek yoghurt + banana (12 g)\\nDinner: Lentil chilli with canned tomatoes (28 g)",
+        "Day 2 – Breakfast: Quark with berries and a drizzle of honey (22 g)\\nLunch: Tuna salad (canned tuna, mixed leaf, beans) (30 g)\\nSnack: Handful of almonds (6 g)\\nDinner: Soy mince bolognese with whole‑wheat pasta (35 g)",
+        "Day 3 – Breakfast: 3‑egg scramble with veg (27 g)\\nLunch: Leftover lentil chilli (28 g)\\nSnack: Cottage cheese (if on sale) + apple (10 g)\\nDinner: Grilled chicken thigh, sweet potato, broccoli (32 g)",
+        "Day 4 – Breakfast: Oats with whey protein (if budget allows) or extra egg (30 g)\\nLunch: Tuna wrap with whole‑grain tortilla (28 g)\\nSnack: Greek yoghurt (10 g)\\nDinner: Soy mince fried rice (35 g)",
+        "Day 5 – Breakfast: Quark parfait with muesli (22 g)\\nLunch: Chicken thigh salad with beans (30 g)\\nSnack: Hard‑boiled eggs (12 g)\\nDinner: Lentil soup + whole‑grain roll (25 g)",
+        "Day 6 – Breakfast: 2‑egg omelette + cheese (28 g)\\nLunch: Leftover bolognese (35 g)\\nSnack: Protein‑rich smoothie (milk + yoghurt) (15 g)\\nDinner: Grilled fish (if on sale) or extra chicken (30 g)",
+        "Day 7 – Breakfast: Oats + peanut butter + milk (20 g)\\nLunch: Tuna & quinoa bowl (30 g)\\nSnack: Greek yoghurt (12 g)\\nDinner: Soy mince tacos with lettuce and salsa (35 g)"
+      ],
+      "table": {
+        "headers": [
+          "Item",
+          "Weekly Qty",
+          "Cost (NZ$)"
+        ],
+        "rows": [
+          [
+            "Chicken thigh",
+            "2 kg",
+            "$10.00"
+          ],
+          [
+            "Eggs",
+            "2 dozen",
+            "$8.00"
+          ],
+          [
+            "Canned tuna",
+            "4 x425 g",
+            "$10.00"
+          ],
+          [
+            "Lentils (dry)",
+            "1 kg",
+            "$4.00"
+          ],
+          [
+            "Greek yoghurt",
+            "1 kg",
+            "$8.00"
+          ],
+          [
+            "Quark",
+            "500 g",
+            "$5.00"
+          ],
+          [
+            "Soy mince",
+            "1 kg",
+            "$12.00"
+          ],
+          [
+            "Oats",
+            "1 kg",
+            "$2.00"
+          ],
+          [
+            "Rice",
+            "2 kg",
+            "$4.00"
+          ],
+          [
+            "Frozen mixed veg",
+            "2 bags",
+            "$6.00"
+          ],
+          [
+            "Milk",
+            "4 L",
+            "$6.00"
+          ],
+          [
+            "Fruit & veg extras",
+            "~$15",
+            "$15.00"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "4. Smart Shopping & Prep Tips",
+      "body": "Saving money is as much about how you shop as what you buy. Follow these habits to stretch every dollar while keeping nutrition on point.",
+      "list": [
+        "Buy in bulk when items are on sale – Pak'nSave’s “Buy One Get One Free” on frozen veg is a goldmine",
+        "Choose store‑brand products; they’re nutritionally identical to name brands at 30‑40 % less",
+        "Freeze portions of raw chicken or soy mince right after purchase to avoid waste",
+        "Cook a large batch of rice, lentils or oats on Sunday and portion into freezer‑safe bags",
+        "Use a kitchen scale to portion protein accurately – you’ll avoid over‑cooking and over‑spending"
+      ],
+      "cta": {
+        "text": "See the cheapest gym deals near you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    },
+    {
+      "heading": "5. Get More Value with Exercise NZ",
+      "body": "If you’re a member of Exercise NZ, you can access subsidised gym memberships (40‑70 % off) at participating clubs. That extra cash can be redirected into higher‑quality food or a small whey protein supplement if you need a convenient boost.",
+      "cta": {
+        "text": "Find your subsidised gym today",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "budget-gym-nutrition-nz-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-31",
+  "post_type": "nutrition"
+}
