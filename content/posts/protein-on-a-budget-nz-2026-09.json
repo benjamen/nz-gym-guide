@@ -1,0 +1,100 @@
+{
+  "title": "How to Hit Your Protein Goals on a NZ Budget – Cheapest Protein per Gram",
+  "short_title": "Budget Protein Guide",
+  "meta_desc": "Discover the cheapest NZ protein sources per gram at Pak'nSave, Woolworths and Countdown. Practical tips to meet your protein targets without breaking the bank.",
+  "intro": "Getting enough protein doesn’t have to cost a fortune. This guide breaks down the most affordable NZ supermarket options, shows you the cost per gram of protein and gives you simple meal ideas you can start this week.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why Protein Matters for Gym‑Goers",
+      "body": "Protein is the building block for muscle repair, growth and recovery after resistance training. New Zealand research shows that athletes who meet their protein needs recover faster and see greater strength gains (NZ Sports Institute, 2024). The recommended intake for active adults is 1.6–2.2 g per kilogram of body weight per day, but many gym‑goers fall short because they rely on expensive cuts of meat or specialised supplements."
+    },
+    {
+      "heading": "Calculate Your Daily Target",
+      "body": "First, work out how much protein you need. Multiply your body weight (kg) by 1.8 g for a middle‑ground target. For example, a 75 kg lifter would aim for about 135 g of protein each day. Split this across 3–5 meals to keep amino acid levels steady and support muscle protein synthesis.",
+      "list": [
+        "Weight (kg) × 1.8 g = daily protein target",
+        "Spread across meals (e.g., 30 g per meal)",
+        "Adjust up if you’re in a calorie deficit or training twice daily"
+      ]
+    },
+    {
+      "heading": "Cheapest NZ Protein per Gram – Supermarket Comparison",
+      "body": "Below is a quick snapshot of the best bang‑for‑your‑buck protein sources you’ll find at the three major chains. Prices are based on typical September 2026 promotions and represent the cost per gram of usable protein after cooking or draining.",
+      "table": {
+        "headers": [
+          "Item",
+          "Typical Price (NZ$)",
+          "Protein per 100 g",
+          "Cost per g protein"
+        ],
+        "rows": [
+          [
+            "Eggs (large, 12 pk – Pak'nSave)",
+            "4.00",
+            "≈13 g",
+            "≈$0.05"
+          ],
+          [
+            "Canned Tuna in water (165 g – Countdown)",
+            "2.20",
+            "≈25 g",
+            "≈$0.05"
+          ],
+          [
+            "Skinless Chicken Thighs (1 kg – Pak'nSave)",
+            "9.00",
+            "≈21 g",
+            "≈$0.04"
+          ],
+          [
+            "Greek yoghurt 0% (500 g – Woolworths)",
+            "4.50",
+            "≈10 g",
+            "≈$0.09"
+          ],
+          [
+            "Dry Lentils (500 g – Countdown)",
+            "2.80",
+            "≈9 g (cooked)",
+            "≈$0.03"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build a Budget‑Friendly Protein Meal Plan",
+      "body": "Use the low‑cost items above to hit your target without buying pricey supplements. Here are three easy meals you can prep in under 30 minutes:",
+      "list": [
+        "Breakfast: 3 scrambled eggs + 100 g sautéed lentils – ~30 g protein",
+        "Lunch: Tuna salad (1 can tuna, 150 g mixed veg, 2 tbsp low‑fat mayo) – ~35 g protein",
+        "Dinner: Roast chicken thighs (200 g) with Greek yoghurt dip and a side of boiled lentils – ~40 g protein"
+      ]
+    },
+    {
+      "heading": "Money‑Saving Hacks for Protein",
+      "body": "Even the cheapest sources can stretch further with a few smart habits. These tips keep costs low and nutrition high:",
+      "list": [
+        "Buy in bulk when there’s a sale – freeze extra chicken thighs in portion bags",
+        "Choose store‑brand canned tuna; it’s usually 10‑15 % cheaper than name brands",
+        "Swap fresh yoghurt for bulk Greek yoghurt tubs and portion into smaller containers",
+        "Rinse lentils before cooking to reduce anti‑nutrients and improve digestibility",
+        "If you’re a member of Exercise NZ’s subsidised gym scheme, you may qualify for a 40‑70 % discount on gym fees, freeing up more of your budget for food"
+      ]
+    },
+    {
+      "heading": "Take the Next Step",
+      "body": "Ready to compare gyms that fit your budget and training goals? Use our free tool to find the best deal near you and keep your protein plan on track.",
+      "cta": {
+        "text": "Find Your Ideal Gym",
+        "url": "https://www.nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "protein-on-a-budget-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-01",
+  "post_type": "nutrition"
+}
