@@ -1,0 +1,89 @@
+{
+  "title": "NZ Physical Activity Guidelines 2026 – How Much Exercise Do You Need?",
+  "short_title": "2026 Activity Guidelines",
+  "meta_desc": "Discover the 2026 NZ Ministry of Health physical activity guidelines for adults, kids and seniors, and practical ways gyms can help you meet them.",
+  "intro": "The Ministry of Health updated its physical activity recommendations for 2026, reflecting the latest evidence on health benefits. Whether you’re a busy professional, a parent, or enjoying retirement, the guidelines show how much movement you really need – and how a gym can make it easier.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why the Guidelines Matter",
+      "body": "Physical inactivity is the fourth leading risk factor for disease in New Zealand, contributing to roughly 7% of all deaths each year. The new guidelines translate research into clear weekly targets, helping Kiwis reduce the risk of heart disease, type‑2 diabetes, obesity and mental‑health issues. By following them, you’re aligning with the evidence that even modest activity levels improve longevity and quality of life."
+    },
+    {
+      "heading": "Adults (18‑64): 150‑300 min moderate or 75‑150 min vigorous weekly",
+      "body": "For most healthy adults the Ministry recommends at least 150 minutes of moderate‑intensity activity (like brisk walking) or 75 minutes of vigorous activity (such as running) each week. You can also combine both intensities to reach the target. Benefits include lower blood pressure, better mood and a 20‑30% reduction in premature mortality risk.",
+      "list": [
+        "Aim for 30 min of moderate activity on most days – a 30‑minute walk during lunch counts",
+        "If you prefer intensity, 15 min of vigorous activity (e.g., cycling) three times a week meets the guideline",
+        "Strength training for major muscle groups at least twice weekly supports bone health and metabolic function"
+      ]
+    },
+    {
+      "heading": "Children & Teens (5‑17): Daily movement",
+      "body": "Young Kiwis need at least 60 minutes of moderate‑to‑vigorous activity each day. This should include a mix of aerobic play, muscle‑strengthening, and bone‑strengthening activities. Regular movement supports healthy growth, improves academic performance and reduces the risk of childhood obesity, which currently affects 1 in 6 NZ children.",
+      "list": [
+        "Active play – tag, soccer, or bike rides – counts toward the 60‑minute goal",
+        "Incorporate strength‑building activities like climbing frames or body‑weight exercises twice a week",
+        "Limit recreational screen time to under 2 hours per day to encourage more active choices"
+      ]
+    },
+    {
+      "heading": "Older Adults (65+): Stay active, stay safe",
+      "body": "For seniors the focus shifts to maintaining balance, flexibility and strength while still meeting aerobic targets. The guidelines suggest at least 150 minutes of moderate activity weekly, plus activities that improve balance and prevent falls. Evidence shows regular activity can delay age‑related decline and lower the risk of dementia by up to 40%.",
+      "list": [
+        "Low‑impact cardio – swimming, water aerobics or brisk walking – reduces joint stress",
+        "Strength and balance work (e.g., yoga, tai chi) at least twice weekly lowers fall risk",
+        "Stay social – group classes add motivation and mental‑health benefits"
+      ]
+    },
+    {
+      "heading": "Getting Started – How a Gym Can Help",
+      "body": "A gym provides a convenient, climate‑controlled environment for all the activity types the guidelines cover. From cardio machines for aerobic minutes to free‑weights and classes for strength and balance, you can tailor a programme that fits your schedule. Many gyms also offer the Exercise NZ subsidised scheme, giving eligible members 40‑70% off regular fees, making it affordable for families and seniors alike.",
+      "list": [
+        "Choose a gym with a free‑trial or day‑pass to test equipment and class vibe",
+        "Book a beginner’s induction – most clubs provide a 30‑minute session at no extra cost",
+        "Use the gym’s scheduling app to log minutes and ensure you hit weekly targets",
+        "Ask about the Exercise NZ discount if you’re on a low‑income benefit or pension"
+      ],
+      "table": {
+        "headers": [
+          "Gym",
+          "Monthly Cost (NZ$)",
+          "Typical Contract"
+        ],
+        "rows": [
+          [
+            "Les Mills Fitness – Auckland",
+            "$59 (plus 50% Exercise NZ discount)",
+            "12‑month"
+          ],
+          [
+            "Anytime Fitness – Nationwide",
+            "$69 (no lock‑in)",
+            "Month‑to‑month"
+          ],
+          [
+            "Snap Fitness – Wellington",
+            "$64 (30% Exercise NZ discount)",
+            "6‑month"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare NZ gym memberships →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "cta": {
+    "text": "Find the right gym for your goals – compare options now",
+    "url": "https://nzgymguide.co.nz/compare/",
+    "affiliate": false
+  },
+  "slug": "physical-activity-guidelines-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-02",
+  "post_type": "health_info"
+}

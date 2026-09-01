@@ -1,0 +1,88 @@
+{
+  "title": "Hydration for NZ Gym‑Goers – How Much Water Do You Really Need?",
+  "short_title": "Hydration for NZ Gym‑Goers",
+  "meta_desc": "Discover how NZ climate, sweat rates and electrolytes affect your water needs. Get evidence‑based tips, sports drink advice and simple weekly actions for better gym performance.",
+  "intro": "Staying properly hydrated is as important as your lifts or cardio sessions, especially in New Zealand's varied climate. This guide breaks down how much water you really need, when electrolytes matter, and practical steps you can start this week.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why Hydration Matters in the NZ Climate",
+      "body": "New Zealand's weather swings from humid coastal days to dry inland conditions, meaning sweat loss can vary dramatically even within a single workout. Dehydration of just 2 % of body weight can reduce strength and endurance by up to 10 %, and increase perceived effort. Local studies show that gym‑goers in Auckland lose an average of 0.9 L per hour in summer, while Wellington's cooler climate drops that to around 0.5 L.",
+      "list": [
+        "Cold, windy days → less obvious sweating but still fluid loss through respiration.",
+        "Hot, humid days (e.g., Auckland summer) → higher sweat rates, faster dehydration.",
+        "Altitude in the South Island can increase breathing rate, raising fluid needs."
+      ]
+    },
+    {
+      "heading": "How Much Water Do You Really Need?",
+      "body": "A one‑size‑fits‑all rule (like 8 cups a day) doesn't work for active people. The most reliable method is to base intake on body weight, activity duration and environment. Aim for 30–35 ml of water per kilogram of body weight daily, plus extra for each hour of moderate‑to‑vigorous training.",
+      "table": {
+        "headers": [
+          "Body Weight (kg)",
+          "Daily Base (ml)",
+          "Add per 1‑hr workout (ml)"
+        ],
+        "rows": [
+          [
+            "60",
+            "1800‑2100",
+            "400‑600"
+          ],
+          [
+            "75",
+            "2250‑2625",
+            "500‑750"
+          ],
+          [
+            "90",
+            "2700‑3150",
+            "600‑900"
+          ]
+        ]
+      },
+      "list": [
+        "Weigh yourself before a workout; use the formula to set a daily target.",
+        "Add 400‑600 ml per hour of moderate effort in moderate climate; increase by 25 % in hot/humid conditions."
+      ]
+    },
+    {
+      "heading": "Electrolytes: When Plain Water Isn’t Enough",
+      "body": "Sweat isn’t just water – it contains sodium, potassium, magnesium and calcium. If you train longer than 60 minutes or sweat heavily (≥1 L), you’ll need to replace those minerals to avoid cramping and fatigue. Sodium is the most critical; a loss of 0.5 g per litre of sweat is typical for NZ adults.",
+      "list": [
+        "Add a pinch of sea salt (≈0.3 g) to a litre of water after a heavy session.",
+        "NZ‑made electrolyte powders such as “Electrolyte Boost” (NZ$12 for 30 g) provide 300 mg sodium per serving.",
+        "Natural foods – a banana (≈400 mg potassium) or a handful of almonds (≈80 mg magnesium) – can top up minerals post‑workout."
+      ]
+    },
+    {
+      "heading": "Sports Drinks vs Water – What’s Best for the Gym?",
+      "body": "Commercial sports drinks often contain 6‑8 % carbohydrate and 200‑300 mg sodium per litre. For most New Zealand gym sessions under an hour, plain water with a pinch of salt is sufficient and cheaper. However, for high‑intensity classes, long endurance rides, or hot summer sessions, a low‑calorie sports drink can help maintain blood glucose and electrolyte balance.",
+      "list": [
+        "Choose low‑sugar options (≤5 g carbs/L) if you’re watching calories.",
+        "NZ brands like “Powerade NZ” cost about $2.50 for a 500 ml bottle – comparable to a homemade mix.",
+        "DIY alternative: 500 ml water + ½ tsp honey + pinch of salt + squeeze of lemon."
+      ]
+    },
+    {
+      "heading": "Practical Tips to Stay Hydrated This Week",
+      "body": "Implement these simple actions tomorrow and notice the difference in energy and recovery. Consistency beats occasional mega‑guzzling.",
+      "list": [
+        "Carry a 500 ml reusable bottle (e.g., KeepCup NZ $12) and sip every 15 minutes during workouts.",
+        "Weigh yourself nude before and after a session; aim for <1 % body‑weight loss in fluid.",
+        "Prep a weekly electrolyte mix: 1 L water, ¼ tsp sea salt, ½ tsp honey, and a splash of 100 % kiwi juice (NZ$3 for 500 g pack).",
+        "Add a protein snack post‑gym – e.g., 200 g low‑fat quark (NZ$4 for 500 g) – to support recovery and encourage fluid intake."
+      ],
+      "cta": {
+        "text": "Find the best gym deals and test your hydration knowledge",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "hydration-gym-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-02",
+  "post_type": "nutrition"
+}
