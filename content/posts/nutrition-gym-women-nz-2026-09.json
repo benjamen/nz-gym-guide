@@ -1,0 +1,91 @@
+{
+  "title": "Nutrition for Women Who Lift – NZ Guide",
+  "short_title": "Women Lifting Nutrition",
+  "meta_desc": "Discover evidence‑based nutrition for New Zealand women who lift: protein targets, iron tips, hormone‑cycle eating, affordable local foods and a weekly action plan.",
+  "intro": "Strength training changes a woman's nutritional needs. This guide breaks down the extra protein, iron and hormone‑cycle considerations for NZ lifters and gives you practical steps you can start this week.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Protein Power for Body Recomposition",
+      "body": "Women who lift need more protein than the general population to support muscle repair and growth while losing fat. Research suggests 1.6–2.2 g of protein per kilogram of body weight per day for active women. For a 65 kg lifter that’s 104–143 g daily, spread over 3–4 meals to maximise muscle protein synthesis. Aim for 20–30 g of high‑quality protein each feed, and include a source within 30 minutes post‑workout for optimal recovery.",
+      "list": [
+        "Calculate your target: weight (kg) × 1.8 ≈ daily grams",
+        "Split protein across 3‑4 meals + post‑gym shake",
+        "Prioritise complete proteins (animal or complementary plant combos)"
+      ],
+      "cta": {
+        "text": "Find the best gym plan for your goals",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    },
+    {
+      "heading": "Iron – The Hidden Deficiency in Active NZ Women",
+      "body": "Iron loss is common for women who train, especially with heavy sweating and occasional menstrual blood. NZ data shows 1 in 4 women of reproductive age have low ferritin levels. Aim for 18 mg of iron daily (27 mg if menstruating heavily). Pair iron‑rich foods with vitamin C to boost absorption and avoid calcium or tea/coffee at the same meal, which can inhibit uptake.",
+      "list": [
+        "Red meat (beef mince, lamb) – 2.6 mg iron per 100 g",
+        "Kangaroo steak – 3.2 mg per 100 g (often cheaper than beef)",
+        "Iron‑fortified cereals – 10 mg per serving",
+        "Pumpkin seeds – 3.3 mg per 30 g"
+      ],
+      "table": {
+        "headers": [
+          "Food",
+          "Iron (mg/100 g)",
+          "Approx. NZ price (per kg)"
+        ],
+        "rows": [
+          [
+            "Beef mince",
+            "2.6",
+            "$12"
+          ],
+          [
+            "Kangaroo steak",
+            "3.2",
+            "$15"
+          ],
+          [
+            "Iron‑fortified cereal",
+            "10 (per 30 g)",
+            "$4 per 500 g"
+          ],
+          [
+            "Pumpkin seeds",
+            "3.3",
+            "$8 per 500 g"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Eating with Your Hormone Cycle",
+      "body": "Hormone fluctuations affect appetite, glycogen storage and recovery. In the follicular phase (days 1‑14) estrogen rises, supporting protein synthesis – a good time to focus on strength sessions and higher protein intake. In the luteal phase (days 15‑28) progesterone can raise body temperature and carbohydrate cravings; include complex carbs and slightly more calories to maintain performance and mood.",
+      "list": [
+        "Follicular (1‑14): Prioritise protein‑rich meals, lean meats, beans",
+        "Luteal (15‑28): Add whole‑grain carbs (sweet potato, oats) and healthy fats (avocado, nuts)",
+        "Track cycle in a simple app to adjust macros each phase"
+      ]
+    },
+    {
+      "heading": "Affordable NZ Protein Sources & Supplements",
+      "body": "You don’t need pricey imported whey to hit your targets. Local options provide excellent value and support NZ producers. Consider these when budgeting:",
+      "list": [
+        "Plain Greek yoghurt (NZ Brand: Meadow Fresh) – ~$4 per 500 g, 10 g protein per 100 g",
+        "Canned tuna in springwater – $1.80 per 95 g can, 23 g protein",
+        "Eggs (free‑range) – $5 per dozen, 13 g protein per 100 g",
+        "Kiwifruit protein powder (NZ‑made) – ~$30 per 500 g, 80 g protein per 100 g"
+      ],
+      "cta": {
+        "text": "Test your nutrition knowledge with our quiz",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "nutrition-gym-women-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-03",
+  "post_type": "nutrition"
+}
