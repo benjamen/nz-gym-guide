@@ -1,0 +1,100 @@
+{
+  "title": "Eating for the Gym on a NZ Budget – Under $100/Week",
+  "short_title": "Gym Food on $100",
+  "meta_desc": "Practical NZ guide to hit protein targets on a $100 weekly grocery budget. Includes cheap supermarket staples, a meal plan and prep tips for gym-goers.",
+  "intro": "You don’t need pricey health foods to fuel your workouts. With a bit of planning you can meet protein goals, stay full and keep costs below $100 a week using everyday NZ supermarket items.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "1. Set Your Protein Target",
+      "body": "Research from the New Zealand Nutrition Society recommends 1.6–2.2 g of protein per kilogram of body weight for strength training. For a 75 kg (165 lb) lifter that’s 120–165 g of protein daily. Split it across meals to aid absorption and satiety.",
+      "list": [
+        "Calculate your weight in kg (kg = lbs ÷ 2.2).",
+        "Multiply by 1.8 g as a middle‑ground target.",
+        "Aim for 30–40 g protein per main meal and 15–20 g in snacks."
+      ]
+    },
+    {
+      "heading": "2. Shop Smart – Where and What to Buy",
+      "body": "Pak’nSave and Countdown’s “Everyday Value” ranges give the best price per gram of protein. Bulk packs of chicken thighs, minced beef, and canned tuna are often under $5 per kilogram. Eggs, lentils, and frozen peas are cheap, high‑protein staples. Look for store‑brand Greek yoghurt (≈$3.50 for 500 g) and milk (≈$2.30 for 2 L).",
+      "list": [
+        "Chicken thigh (bone‑in, skin‑on) – $4.20/kg at Pak’nSave",
+        "Canned tuna in water – $1.20 per 165 g can",
+        "Red lentils (dry) – $2.80/kg",
+        "Eggs (large, free‑range) – $4.50 for a dozen",
+        "Whey protein concentrate (budget brand) – $25 for 1 kg (≈25 g protein per scoop)"
+      ]
+    },
+    {
+      "heading": "3. Sample Weekly Meal Plan (Under $100)",
+      "body": "Below is a simple seven‑day plan that hits ~130 g protein daily while staying under $100 total. Adjust portion sizes if your target is higher.",
+      "table": {
+        "headers": [
+          "Day",
+          "Main Meal (Protein Source)",
+          "Approx Cost (NZ$)"
+        ],
+        "rows": [
+          [
+            "Mon",
+            "Grilled chicken thigh + brown rice + frozen peas",
+            "9.20"
+          ],
+          [
+            "Tue",
+            "Tuna & bean salad with whole‑grain wrap",
+            "8.80"
+          ],
+          [
+            "Wed",
+            "Beef mince chili with lentils",
+            "10.10"
+          ],
+          [
+            "Thu",
+            "Scrambled eggs (3) + toast + yoghurt",
+            "7.30"
+          ],
+          [
+            "Fri",
+            "Baked salmon (budget frozen) + sweet potato",
+            "12.50"
+          ],
+          [
+            "Sat",
+            "Chicken stir‑fry with mixed veg",
+            "9.90"
+          ],
+          [
+            "Sun",
+            "Lentil soup + cheese toast",
+            "6.70"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "4. Prep, Cook, Save Time",
+      "body": "Batch‑cook on Sunday to lock in protein and reduce daily cooking stress. Portion into reusable containers and refrigerate for up to four days, or freeze for longer storage. Use a large pot for lentils, a sheet pan for chicken thighs, and a slow cooker for beef mince – minimal active cooking time, maximum flavour.",
+      "list": [
+        "Cook 2 kg of chicken thighs at once – 4‑5 meals ready.",
+        "Boil a 500 g bag of red lentils – use in soups, salads, or as a mince substitute.",
+        "Pre‑portion yoghurt into 150 g snack cups with a handful of berries."
+      ]
+    },
+    {
+      "heading": "5. Stretch Your Budget Further",
+      "body": "Buy in bulk when sales run (e.g., 2 kg chicken packs for $7.80). Choose frozen veg over fresh to avoid waste. If you’re eligible for Exercise NZ’s subsidised gym scheme, you can redirect the saved money into higher‑quality protein or a basic whey supplement. Remember, consistency beats perfection – the goal is to keep protein high without breaking the bank.",
+      "cta": {
+        "text": "Find the best gym deals for your budget",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "budget-gym-nutrition-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-04",
+  "post_type": "nutrition"
+}

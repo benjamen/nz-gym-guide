@@ -1,0 +1,91 @@
+{
+  "title": "Hydration and Exercise in NZ – How Much Water Do You Really Need?",
+  "short_title": "NZ Hydration Guide",
+  "meta_desc": "Discover evidence‑based advice on staying hydrated while exercising in New Zealand's varied climate. Learn intake guidelines, dehydration signs, electrolytes and gym water options.",
+  "intro": "Whether you’re hitting the tracks in Wellington’s wind or the trails of Queenstown, staying properly hydrated is key to performance and health. New Zealand’s climate and lifestyle mean the right water strategy can differ from overseas advice.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why Hydration Matters in the NZ Climate",
+      "body": "New Zealand’s climate ranges from humid subtropical in the north to cool, wet conditions in the south. Humidity increases sweat loss, while cooler, windy days can mask fluid loss, leading athletes to underestimate their needs. A recent Ministry of Health report showed 1 in 5 adults reported feeling “dehydrated” after moderate outdoor activity during summer months, highlighting the local relevance of proper fluid management."
+    },
+    {
+      "heading": "How Much Water Do You Actually Need?",
+      "body": "The classic “8 × 8 oz” rule is a rough starting point, but exercise‑specific guidelines are more useful. General recommendations for adults in NZ are 2.5 L for women and 3.0 L for men per day, plus extra for activity. For each 30 minutes of moderate exercise, add roughly 250‑350 ml; for intense sessions, add 500‑750 ml. These figures assume a temperate climate; in hotter regions like Auckland summer, add another 10‑15 % to cover increased sweat rates.",
+      "list": [
+        "2.5 L (women) + 250‑350 ml per 30 min moderate activity",
+        "3.0 L (men) + 250‑350 ml per 30 min moderate activity",
+        "Intense effort: +500‑750 ml per 30 min",
+        "Add 10‑15 % in hot, humid conditions"
+      ],
+      "table": {
+        "headers": [
+          "Activity Level",
+          "Base Daily Intake",
+          "Extra per 30 min"
+        ],
+        "rows": [
+          [
+            "Light (e.g., walking)",
+            "2.5 L (F) / 3.0 L (M)",
+            "250 ml"
+          ],
+          [
+            "Moderate (gym class)",
+            "2.5 L (F) / 3.0 L (M)",
+            "350 ml"
+          ],
+          [
+            "High‑intensity (HIIT, trail run)",
+            "2.5 L (F) / 3.0 L (M)",
+            "600 ml"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Spotting Dehydration & the Role of Electrolytes",
+      "body": "Early dehydration can feel like mild thirst, but performance drops appear after a 2 % body‑weight loss in fluid. Common signs include dry mouth, dark urine, headache, and reduced sweating. Electrolyte loss—especially sodium and potassium—becomes a factor during longer sessions (>60 min) or in warm, humid conditions. Replacing fluids with a balanced electrolyte drink can prevent cramping and maintain nerve function.",
+      "list": [
+        "Thirst or dry mouth",
+        "Dark‑yellow urine (clear urine = well‑hydrated)",
+        "Dizziness or headache",
+        "Reduced sweat output or muscle cramps"
+      ]
+    },
+    {
+      "heading": "Gym Water Stations vs Bringing Your Own Bottle",
+      "body": "Most NZ gyms now provide filtered water stations, but the quality and availability vary. Large chains like Les Mills and Anytime Fitness offer chilled, refillable taps that are free for members. However, they often lack added electrolytes, so for longer workouts you may still need a sports drink or a personal bottle with added salts. Bringing your own reusable bottle ensures you control volume and can add electrolyte tablets on the go, reducing plastic waste.",
+      "list": [
+        "Gym stations: free, filtered, no electrolytes",
+        "Own bottle: volume control, add salts, eco‑friendly"
+      ],
+      "cta": {
+        "text": "Find a gym with great water facilities near you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Practical Hydration Plan & How a Gym Membership Helps",
+      "body": "1. Weigh yourself before and after a typical workout; a loss of >0.5 kg indicates you need to drink ~500 ml more. 2. Start your session with 200‑300 ml of water 20 minutes beforehand. 3. Sip 150‑200 ml every 15‑20 minutes during activity. 4. Post‑exercise, replace 150 % of the fluid lost (e.g., lose 0.7 kg → drink ~1 L). 5. Use the Exercise NZ subsidised gym scheme (40‑70 % off) to access facilities with water stations and professional advice without breaking the bank. Many subsidised gyms also run free hydration workshops, making it easy to stay on track.",
+      "list": [
+        "Weigh pre‑ and post‑workout",
+        "Pre‑hydrate 200‑300 ml",
+        "Sip regularly during exercise",
+        "Replace 150 % of fluid loss after",
+        "Leverage Exercise NZ discounts"
+      ],
+      "cta": {
+        "text": "Take our hydration quiz to personalise your plan",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "hydration-exercise-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-04",
+  "post_type": "health_info"
+}
