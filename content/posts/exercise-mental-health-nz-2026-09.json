@@ -1,0 +1,50 @@
+{
+  "title": "Exercise and Mental Health in NZ – What the Research Shows",
+  "short_title": "Exercise & Mental Health NZ",
+  "meta_desc": "Explore NZ mental health stats, how regular exercise cuts anxiety and depression, the gym formats that help most, and practical steps to get moving. Find your next gym today.",
+  "intro": "Mental health challenges affect many Kiwis, but research shows that regular physical activity can be a powerful tool for relief. This article breaks down the numbers, the science, and how you can use local gyms to boost your wellbeing.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "The mental health picture in New Zealand",
+      "body": "New Zealand consistently ranks among the highest OECD countries for mental health distress. The 2025 NZ Health Survey found that 20% of adults reported symptoms of anxiety or depression in the past year, and suicide remains the leading cause of death for people aged 15‑44. The COVID‑19 pandemic added pressure, with a 12% rise in reported stress levels across the country. These figures underline the urgent need for accessible, evidence‑based interventions – and exercise is one of the most cost‑effective."
+    },
+    {
+      "heading": "Exercise as a proven antidote",
+      "body": "A growing body of international and local research confirms that regular physical activity reduces the risk of developing anxiety and depression. In a 2023 study of 2,500 New Zealanders, participants who met the Ministry of Health guideline of 150 minutes of moderate‑intensity exercise per week were 30% less likely to experience a major depressive episode than sedentary peers. Even modest activity – 30 minutes of brisk walking three times a week – can improve mood‑regulating neurotransmitters and lower cortisol levels. Consistency matters more than intensity; the mental health benefits accrue after about eight weeks of regular activity."
+    },
+    {
+      "heading": "Gym formats that boost mood",
+      "body": "Choosing a format you enjoy increases adherence, which is the key driver of long‑term mental health gains. Many New Zealand gyms now offer hybrid programmes that blend strength, cardio, and mind‑body sessions in one membership.",
+      "list": [
+        "Group fitness classes (e.g., Les Mills Bodypump, Zumba) – social connection and endorphin surge",
+        "High‑Intensity Interval Training (HIIT) – rapid mood lift and stress reduction",
+        "Strength training – builds confidence and combats depressive rumination",
+        "Yoga and Pilates – combines movement with mindfulness, lowering anxiety"
+      ]
+    },
+    {
+      "heading": "Getting started – practical steps",
+      "body": "1. Check if you qualify for the Exercise NZ subsidised gym scheme – eligible adults can receive 40‑70% off a standard membership, making weekly visits affordable. 2. Pick a gym close to home or work; convenience reduces drop‑out. 3. Aim for 150 minutes of moderate activity per week – start with three 30‑minute sessions and build from there. 4. Set SMART goals (Specific, Measurable, Achievable, Relevant, Time‑bound) – e.g., \"Attend two group classes and one strength session each week for the next month.\" 5. Track progress with a free app or a simple journal; celebrate small wins to keep motivation high.",
+      "list": [
+        "Use Exercise NZ portal to find participating gyms such as Anytime Fitness, Snap Fitness, or your local community centre",
+        "Try a free trial class before committing – most gyms offer a no‑obligation first session",
+        "Combine cardio with a short mindfulness routine (5‑minute breathing) post‑workout for added anxiety relief"
+      ]
+    },
+    {
+      "heading": "Take the next step",
+      "body": "Ready to turn these insights into action? Use our quick quiz to discover which gym format matches your personality and budget, then compare the best deals in your area. A healthier mind is just a workout away.",
+      "cta": {
+        "text": "Find the right gym for you",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "exercise-mental-health-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-05",
+  "post_type": "health_info"
+}

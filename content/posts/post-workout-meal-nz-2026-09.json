@@ -1,0 +1,91 @@
+{
+  "title": "Best Post‑Workout Meals for NZ Gym‑Goers",
+  "short_title": "Post‑Workout Meals NZ",
+  "meta_desc": "Discover evidence‑based post‑workout meals using NZ ingredients, bust the protein window myth, and get quick, budget‑friendly options for busy Kiwis.",
+  "intro": "After a hard training session you want to refuel efficiently without breaking the bank. This guide separates myth from science and gives you practical meal ideas using ingredients you can find at any NZ supermarket.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "The protein synthesis window – myth or fact?",
+      "body": "Research shows that muscle protein synthesis stays elevated for up to 24 hours after resistance training, with the most noticeable rise in the first 2‑3 hours. The old “30‑minute window” is an oversimplification – you don’t need to eat immediately, just aim for a protein‑rich meal within a few hours. Consistency across the day matters more than exact timing, so focus on meeting your total daily protein target (1.6‑2.2 g per kg body weight for most active adults)."
+    },
+    {
+      "heading": "Key NZ protein sources on a budget",
+      "body": "New Zealand offers plenty of affordable, high‑quality protein options. Choose from these staples and keep an eye on supermarket flyers for specials.",
+      "list": [
+        "Chicken breast – approx $8.00 kg⁻¹ at Countdown",
+        "Canned tuna (in spring water) – $1.50 per 95 g can at New World",
+        "Eggs – $4.20 per dozen at Pak'nSave",
+        "Lentils (dry) – $3.00 kg⁻¹ at FreshChoice",
+        "Grass‑fed beef mince – $12.00 kg⁻¹ at The Warehouse",
+        "Whey protein isolate – $30.00 for 1 kg (bulk) from NZ‑sourced brands"
+      ],
+      "cta": {
+        "text": "See more affordable protein options",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Quick 30‑minute meals for the busy gym‑goer",
+      "body": "When time is tight, these meals can be assembled in half an hour or less, using ingredients you likely already have at home. Each provides around 20‑30 g of protein and a balanced mix of carbs and fats to support recovery.",
+      "list": [
+        "Stir‑fried chicken strips with frozen mixed veg and instant brown rice – $3.20 per serving",
+        "Tuna & quinoa salad with cherry tomatoes, cucumber, and a drizzle of olive oil – $2.80 per serving",
+        "Scrambled eggs with smoked salmon, spinach, and whole‑grain toast – $3.00 per serving"
+      ],
+      "cta": {
+        "text": "Find quick recipes and grocery lists",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Meal prep for the week – cost‑effective NZ style",
+      "body": "Batch‑cooking on a Sunday saves time and money. Prepare a base of protein, carbs and veg, then mix‑and‑match throughout the week. Below is a simple prep plan with approximate protein content and cost per portion.",
+      "table": {
+        "headers": [
+          "Meal",
+          "Protein (g)",
+          "Cost (NZD)"
+        ],
+        "rows": [
+          [
+            "Chicken, quinoa & roasted veg",
+            "30",
+            "$3.20"
+          ],
+          [
+            "Beef mince, sweet potato & broccoli",
+            "28",
+            "$3.50"
+          ],
+          [
+            "Lentil curry with brown rice",
+            "22",
+            "$2.70"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Plan your weekly meals",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Take the next step – optimise your gym and nutrition plan",
+      "body": "Now that you have the facts and meal ideas, pair them with the right gym environment. Use our tools to compare local gyms, check for Exercise NZ subsidies, and tailor a programme that fits your schedule and budget.",
+      "cta": {
+        "text": "Compare gyms and start your fitness programme",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "post-workout-meal-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-05",
+  "post_type": "nutrition"
+}
