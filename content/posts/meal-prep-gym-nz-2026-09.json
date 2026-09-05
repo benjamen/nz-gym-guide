@@ -1,0 +1,144 @@
+{
+  "title": "Meal Prep for NZ Gym‑Goers: Simple Weekly Plan",
+  "short_title": "NZ Gym Meal Prep",
+  "meta_desc": "Learn a practical Sunday batch‑cook routine for New Zealand gym‑goers. Get affordable high‑protein meals, portion guides, storage tips and local supermarket prices in a simple weekly plan.",
+  "intro": "Batch cooking on a Sunday saves time, money and keeps your nutrition on track. This guide shows how to create 4‑5 high‑protein meals using everyday NZ supermarket staples, with clear portion sizes for strength or weight‑loss goals.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Why Batch Cook on Sunday?",
+      "body": "Cooking once a week reduces the temptation to grab fast‑food or processed snacks, which can add hidden sugars and excess calories. Studies show meal‑preppers are 30% more likely to meet their protein targets and stay within their energy budget. In New Zealand, the average gym‑goer spends about $12‑$15 per meal when eating out – batch cooking can cut that to under $5 per portion."
+    },
+    {
+      "heading": "Pick Your Protein: Affordable NZ Options",
+      "body": "New Zealand supermarkets stock a range of cheap, high‑quality protein sources. Choose a mix of animal and plant proteins to hit the 1.6‑2.2 g protein kg⁻¹ body‑weight recommendation for muscle gain, or the lower end for weight loss.",
+      "list": [
+        "Skinless chicken breast – $9.99/kg at Countdown",
+        "Lean beef mince (5% fat) – $12.49/kg at New World",
+        "Canned tuna in spring water – $1.79 per 165 g can (Woolworths)",
+        "Red lentils – $2.99/kg bulk (Pak'nSave)",
+        "Firm tofu – $3.49/400 g (The Warehouse)",
+        "Whey isolate – $39.95 per 1 kg tub (NZ Sports Nutrition)"
+      ],
+      "table": {
+        "headers": [
+          "Protein",
+          "Cost per 100 g",
+          "Protein g per 100 g"
+        ],
+        "rows": [
+          [
+            "Chicken breast",
+            "$1.00",
+            "31"
+          ],
+          [
+            "Beef mince",
+            "$1.25",
+            "26"
+          ],
+          [
+            "Canned tuna",
+            "$1.08",
+            "23"
+          ],
+          [
+            "Red lentils (cooked)",
+            "$0.30",
+            "9"
+          ],
+          [
+            "Tofu",
+            "$0.87",
+            "8"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build Balanced Meals: Portion Sizes for Common Goals",
+      "body": "A typical gym‑goer’s meal should contain a protein source, complex carbohydrate, veg and a healthy fat. Adjust the carb portion based on whether you’re bulking (larger carbs) or cutting (smaller carbs).",
+      "list": [
+        "Protein: 120‑150 g cooked weight per meal (≈30‑35 g protein)",
+        "Carb: 100‑150 g cooked rice/pasta or 150‑200 g sweet potato",
+        "Veg: 150‑200 g mixed veg – broccoli, capsicum, carrots",
+        "Fat: 1‑2 tbsp olive oil, avocado or a handful of nuts"
+      ]
+    },
+    {
+      "heading": "The 4‑Meal Weekly Plan",
+      "body": "Cook four different meals on Sunday, store in individual containers and rotate through the week. This variety keeps flavour interesting and covers a broad micronutrient profile.",
+      "list": [
+        "Meal 1 – Chicken, brown rice, broccoli, olive oil",
+        "Meal 2 – Beef mince, quinoa, capsicum, avocado",
+        "Meal 3 – Lentil‑tomato stew, sweet potato, spinach",
+        "Meal 4 – Tuna & chickpea salad, mixed leaf lettuce, feta"
+      ],
+      "table": {
+        "headers": [
+          "Meal",
+          "Main Protein",
+          "Carb Base",
+          "Veg Mix",
+          "Approx Cost per Portion"
+        ],
+        "rows": [
+          [
+            "Meal 1",
+            "Chicken breast",
+            "Brown rice",
+            "Broccoli",
+            "$3.20"
+          ],
+          [
+            "Meal 2",
+            "Lean beef mince",
+            "Quinoa",
+            "Capsicum & avocado",
+            "$3.80"
+          ],
+          [
+            "Meal 3",
+            "Red lentils",
+            "Sweet potato",
+            "Spinach",
+            "$2.90"
+          ],
+          [
+            "Meal 4",
+            "Canned tuna",
+            "Chickpeas",
+            "Mixed lettuce & feta",
+            "$3.00"
+          ]
+        ]
+      }
+    },
+    "heading",
+    ":",
+    "Pack",
+    "Store",
+    "and Reheat",
+    "body",
+    ":",
+    "Invest in BPA‑free 800 ml or 1 L containers – they fit most fridge shelves and are microwave safe. Cool cooked food to room temperature before sealing to avoid condensation. Label each container with the date and meal name; meals stay fresh 3‑4 days in the fridge or up to 2 months in the freezer. Reheat in the microwave for 2‑3 minutes",
+    "stirring halfway for even heating.",
+    "cta",
+    ":",
+    {
+      "text": "Find the best gym deals for your new meal‑prep routine",
+      "url": "https://nzgymguide.co.nz/compare/",
+      "affiliate": true,
+      "cta": {
+        "text": "Compare NZ gym memberships →",
+        "url": "/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "meal-prep-gym-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-06",
+  "post_type": "nutrition"
+}
