@@ -1,0 +1,87 @@
+{
+  "title": "Which Gym Supplements Are Actually Worth It in NZ? Evidence‑Based Guide",
+  "short_title": "Worthwhile NZ Supplements",
+  "meta_desc": "Discover the supplements that truly work for New Zealand gym‑goers. Evidence‑based rankings, local prices and practical tips to help you spend wisely on creatine, caffeine, protein and more.",
+  "intro": "Not all gym supplements deliver on their promises. This guide breaks down the science, looks at NZ pricing and gives you clear actions you can take this week to get the most bang for your buck.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Creatine – The Most Proven Performance Booster",
+      "body": "Creatine monohydrate has a strong evidence base for increasing strength, power and lean mass, especially for short‑duration, high‑intensity work. The benefits appear after a loading phase of 5 g daily for 5‑7 days, then a maintenance dose of 3‑5 g. In New Zealand you can buy a 500 g tub of bulk creatine for NZ$30‑$40, which works out to about NZ$0.08 per gram – far cheaper than most pre‑workout blends.\n\nFor most gym‑goers the simplest approach is to mix 5 g with water or a post‑workout shake. Creatine is safe for healthy adults, but stay hydrated and avoid excessive doses. If you’re on a tight budget, the bulk option from brands like Bulk Powders NZ or MyProtein NZ gives the best value.",
+      "list": [
+        "Take 5 g daily – no need to cycle",
+        "Mix with water, juice or your protein shake",
+        "Buy bulk (500 g) for NZ$30‑$40 to save long‑term"
+      ]
+    },
+    {
+      "heading": "Caffeine – Simple, Cheap, and Effective",
+      "body": "Caffeine is one of the few ergogenic aids with consistent strong evidence for improving endurance, focus and even strength output when taken 30‑60 minutes before training. A dose of 3‑6 mg per kg body weight is enough – that’s roughly 200‑400 mg for a 70 kg adult.\n\nIn NZ you can get a 250 g bag of pure caffeine powder for about NZ$25, but most people find a strong coffee (≈100 mg) or a ready‑made pre‑workout drink (≈150 mg) more convenient. A regular cup of coffee from a local café costs NZ$3‑$4, making caffeine one of the cheapest performance enhancers available.\n\nIf you’re sensitive to caffeine, start at the lower end of the dose range and avoid late‑day consumption to protect sleep.",
+      "list": [
+        "3‑6 mg/kg body weight 30‑60 min pre‑workout",
+        "A strong coffee (~100 mg) works as well as a pre‑workout drink",
+        "Limit intake after 2 pm to avoid sleep disruption"
+      ]
+    },
+    {
+      "heading": "Protein – Eat First, Supplement Second",
+      "body": "Whole foods should supply the majority of your protein. In New Zealand, affordable options include chicken breast (NZ$9‑$11/kg), lean beef (NZ$12‑$15/kg), canned tuna (NZ$2‑$3 per 185 g can) and dairy (milk NZ$2.30/L, Greek yoghurt NZ$6‑$8/kg). These provide high‑quality protein at a lower cost per gram than most powders.\n\nSupplementation makes sense when you struggle to meet the recommended 1.6‑2.2 g/kg body weight per day, especially around workouts. A 2 kg tub of whey protein isolate from NZ‑based brands like The Protein Works NZ or MuscleTech NZ retails for NZ$45‑$55, delivering about NZ$0.20 per gram of protein – comparable to the cost of quality food sources.\n\nTiming isn’t critical; aim for 20‑30 g of protein within two hours post‑workout, whether from a shake or a meal.\n",
+      "list": [
+        "Prioritise whole‑food protein sources first",
+        "Use whey protein if you’re <1 g/kg from food",
+        "Aim for 20‑30 g protein post‑workout, any source works"
+      ],
+      "cta": {
+        "text": "Compare NZ protein powders and find the best price",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    },
+    {
+      "heading": "BCAAs – Not Worth the Money",
+      "body": "Branched‑chain amino acids (leucine, isoleucine, valine) are popular but the evidence for performance or recovery benefits in already protein‑adequate athletes is weak. Most NZ diets already provide sufficient BCAAs from food and regular protein powders.\n\nA typical 300 g BCAA powder costs NZ$45‑$55, which works out to roughly NZ$0.15‑$0.18 per gram – similar to a whey protein scoop that also delivers all essential amino acids. In most cases you’ll get better value and results by simply ensuring you meet your total protein target.\n",
+      "table": {
+        "headers": [
+          "Product",
+          "Price (NZ$)",
+          "Cost per g of BCAA"
+        ],
+        "rows": [
+          [
+            "300 g BCAA powder",
+            "NZ$50",
+            "NZ$0.17"
+          ],
+          [
+            "30 g whey scoop (≈6 g BCAA)",
+            "NZ$2.00",
+            "NZ$0.33"
+          ]
+        ]
+      },
+      "list": [
+        "Skip BCAA powders if you already hit protein goals",
+        "Invest in a good whey or whole‑food protein instead"
+      ]
+    },
+    {
+      "heading": "Skip Fat Burners – No Evidence, Plenty of Side‑effects",
+      "body": "Thermogenic “fat burners” are heavily marketed but lack robust scientific support for meaningful fat loss beyond what a calorie deficit and training provide. Many contain high doses of stimulants, which can cause jitteriness, sleep issues and increased heart rate.\n\nIn New Zealand the average price for a 60‑capsule bottle of a popular fat burner sits around NZ$40‑$60, yet the risk‑to‑benefit ratio is unfavourable. Instead, focus on proven strategies: consistent resistance training, interval cardio, adequate protein and a modest calorie deficit.\n\nIf you’re still considering a supplement, talk to a qualified health professional first.\n",
+      "list": [
+        "No reliable evidence for extra fat loss",
+        "High stimulant content can affect sleep and heart health",
+        "Stick to diet, training and sleep for sustainable results"
+      ],
+      "cta": {
+        "text": "Take our gym supplement quiz to see what you really need",
+        "url": "https://nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "supplements-worth-it-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-07",
+  "post_type": "nutrition"
+}
