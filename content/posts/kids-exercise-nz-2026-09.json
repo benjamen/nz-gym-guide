@@ -1,0 +1,107 @@
+{
+  "title": "Physical Activity for Kids in NZ – Family Gym Options & Tips",
+  "short_title": "Kids Activity & Family Gyms",
+  "meta_desc": "Discover NZ guidelines for children's activity, family-friendly gyms, YMCA swimming, crèche and holiday programmes. Practical steps to keep kids moving.",
+  "intro": "Getting kids active is a top priority for New Zealand families. This guide outlines national recommendations, real‑world gym options and easy steps to make movement a daily habit for the whole family.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "What the NZ Guidelines Say",
+      "body": "The Ministry of Health recommends that children aged 5‑17 get at least 60 minutes of moderate‑to‑vigorous physical activity each day, with a mix of aerobic, strength and flexibility work. Short bursts throughout the day count – a 10‑minute game of tag or a quick bike ride adds up. The guidelines also stress limiting sedentary screen time to under two hours daily."
+    },
+    {
+      "heading": "Why It Matters – NZ Child Activity Stats",
+      "body": "Recent NZ Health Survey data shows only 41% of 5‑14 year‑olds meet the daily activity target, while 30% exceed recommended screen time. Low activity levels are linked to rising childhood obesity rates – currently 11% of primary school kids are classified as obese. Regular movement improves mental health, academic performance and reduces future chronic disease risk.",
+      "list": [
+        "41% meet 60‑minute daily target",
+        "30% exceed 2‑hour screen limit",
+        "11% of primary schoolers are obese"
+      ]
+    },
+    {
+      "heading": "Family‑Friendly Gyms – Real Prices & Pros/Cons",
+      "body": "Below are four gyms with clear family membership options. All prices are current as of September 2026 and include standard 12‑month contracts unless noted.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Family Price (per month)",
+          "Contract Length",
+          "Key Pros",
+          "Key Cons"
+        ],
+        "rows": [
+          [
+            "YMCA (Auckland, Wellington, etc.)",
+            "$119",
+            "12 months",
+            "Multiple locations, swimming pools, on‑site crèche, kids classes",
+            "Higher price, mandatory contract"
+          ],
+          [
+            "Snap Fitness",
+            "$100* (2 adults + 2 kids)",
+            "12 months",
+            "24/7 access, many suburbs, affordable add‑on",
+            "Limited child‑specific facilities"
+          ],
+          [
+            "Anytime Fitness",
+            "$100* (2 adults + 2 kids)",
+            "12 months",
+            "24/7, nationwide network, family add‑on $10 per child",
+            "Few dedicated kids programmes"
+          ],
+          [
+            "Les Mills Live (Studio)",
+            "$149",
+            "12 months",
+            "High‑quality group classes, family-friendly schedule",
+            "Premium price, classes may fill quickly"
+          ]
+        ]
+      },
+      "list": [
+        "Snap Fitness family add‑on is $15 per child per month (minimum 2 adults).",
+        "Anytime Fitness family add‑on is $10 per child per month (minimum 2 adults)."
+      ],
+      "cta": {
+        "text": "Compare these family memberships",
+        "url": "https://www.nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "YMCA Swimming, Crèche & Holiday Programmes",
+      "body": "YMCA clubs are the most comprehensive option for families with young children. All major centres offer supervised swimming sessions, a on‑site crèche (often included in the family membership) and holiday camps that blend sport, arts and NZ cultural activities. Prices for holiday camps run $150‑$250 per week per child, with discounts for existing members.",
+      "list": [
+        "Swimming lessons – 30‑minute groups, qualified coaches.",
+        "Crèche – up to 4‑hour care for $30 per day (free for members in some locations).",
+        "Holiday camps – 5‑day programmes, 2‑hour daily activity blocks."
+      ],
+      "cta": {
+        "text": "Find your nearest YMCA",
+        "url": "https://www.ymca.org.nz/locations",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Practical Steps & Using the Exercise NZ Subsidised Scheme",
+      "body": "The Exercise NZ programme offers eligible families 40‑70% off standard gym fees. To qualify, check your health board’s eligibility list and apply online. Once you have a subsidised membership, use it to schedule regular family workouts – a 30‑minute circuit, a swim class, or a weekend hike. Set a weekly family activity calendar, involve kids in planning, and celebrate milestones with non‑food rewards.",
+      "list": [
+        "Check eligibility at https://www.exercise.org.nz/subsidised-gym-scheme.",
+        "Book a free family induction session at your chosen gym.",
+        "Create a simple calendar: e.g., Monday swim, Wednesday family HIIT, Saturday park run."
+      ],
+      "cta": {
+        "text": "Take our family activity quiz",
+        "url": "https://www.nzgymguide.co.nz/quiz/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "kids-exercise-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-09",
+  "post_type": "health_info"
+}
