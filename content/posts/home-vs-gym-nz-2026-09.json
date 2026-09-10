@@ -1,0 +1,97 @@
+{
+  "title": "Home Gym vs Gym Membership in NZ – Real Cost Comparison",
+  "short_title": "Home Gym vs Gym",
+  "meta_desc": "Compare upfront equipment costs, monthly fees, space needs and break‑even points for a home gym versus NZ gym memberships. Practical advice for City Fitness, Les Mills, Jetts, Anytime Fitness and Exercise NZ discounts.",
+  "intro": "Deciding between a home gym and a commercial gym can feel like a numbers game. This guide breaks down the real costs, space requirements and what you might miss, so you can choose the option that fits your budget and lifestyle.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Upfront Costs: Buying Equipment vs Joining a Gym",
+      "body": "A home gym starts with a one‑off purchase. A basic strength set – adjustable dumbbells (5‑20 kg), a barbell with 20 kg of plates, an adjustable bench, a power rack and a pull‑up bar – runs about NZ$1,630. If you add a cardio machine like a foldable treadmill (NZ$1,200) or rowing machine (NZ$900) the total can exceed NZ$2,500. By contrast, most NZ gyms charge a modest sign‑up fee (often waived) and no large equipment outlay.",
+      "list": [
+        "Adjustable dumbbell set (5‑20 kg) – NZ$250",
+        "Barbell + 20 kg plates – NZ$300",
+        "Adjustable bench – NZ$200",
+        "Power rack – NZ$800",
+        "Pull‑up bar – NZ$80",
+        "Foldable treadmill – NZ$1,200 (optional)",
+        "Rowing machine – NZ$900 (optional)"
+      ]
+    },
+    {
+      "heading": "Monthly Fees and What They Include",
+      "body": "Gym memberships are the recurring cost you’ll face. Prices vary by chain and contract length, and many clubs now offer the Exercise NZ subsidised scheme, which can shave 40‑70 % off the regular rate for eligible members.",
+      "list": [
+        "City Fitness – NZ$120 / month (12‑month contract), $99 sign‑up fee (often waived).",
+        "Les Mills GYMS – NZ$140 / month (12‑month contract), $79 sign‑up fee.",
+        "Jetts – NZ$100 / month, month‑to‑month, $0 joining fee.",
+        "Anytime Fitness – NZ$120 / month (12‑month contract), $0 joining fee.",
+        "Exercise NZ discount – typically NZ$70‑$100 / month for eligible members."
+      ]
+    },
+    {
+      "heading": "Space Requirements and Home Setup",
+      "body": "A home gym needs dedicated floor area and ceiling height. A power rack and bench require at least 2.5 m × 2 m of clear space and a 2.4 m ceiling. Cardio machines need additional room for safe movement. If you’re renting a small apartment, a compact set‑up – kettlebells, resistance bands and a foldable bench – can fit in a 1.5 m × 1.5 m corner.",
+      "list": [
+        "Strength zone: minimum 2.5 m × 2 m, 2.4 m ceiling.",
+        "Treadmill/rower: extra 1 m clearance behind the machine.",
+        "Flooring: interlocking rubber tiles (NZ$30‑$50 per square metre) protect both equipment and floor.",
+        "Ventilation: a fan or open window helps manage heat during intense sessions."
+      ]
+    },
+    {
+      "heading": "What You Miss at Home",
+      "body": "Commercial gyms offer more than just equipment. Group classes, on‑site personal trainers, varied machines and the social buzz can boost motivation and expose you to new training styles. At home you’ll need to source workouts yourself and may lack the progressive weight stacks found on commercial rigs.",
+      "list": [
+        "Les Mills group classes (e.g., BODYPUMP, RPM) – unavailable at home without a subscription.",
+        "Access to specialised machines (leg press, smith machine, cable towers).",
+        "Professional coaching and form checks.",
+        "Community motivation – spotting, challenges, and post‑workout socialising.",
+        "Regular equipment maintenance handled by the gym."
+      ]
+    },
+    {
+      "heading": "Break‑Even Analysis: When Does a Home Gym Pay Off?",
+      "body": "Calculate how many months it takes for the upfront equipment spend to equal the cost of a gym membership. Use the table below as a quick reference. Remember to factor in the Exercise NZ discount if you qualify – it can shift the break‑even point dramatically.",
+      "table": {
+        "headers": [
+          "Equipment Cost (NZ$)",
+          "Monthly Gym Cost (NZ$)",
+          "Break‑Even (months)"
+        ],
+        "rows": [
+          [
+            "1,630",
+            "120",
+            "14"
+          ],
+          [
+            "800",
+            "120",
+            "7"
+          ],
+          [
+            "2,500",
+            "120",
+            "21"
+          ],
+          [
+            "1,630 (Exercise NZ $85)",
+            "85",
+            "19"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Find the best option for you",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "home-vs-gym-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-11",
+  "post_type": "exercise_tips"
+}

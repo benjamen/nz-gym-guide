@@ -1,0 +1,93 @@
+{
+  "title": "Sleep and Exercise: How the Gym Boosts Your Nightly Rest",
+  "short_title": "Gym Improves Sleep",
+  "meta_desc": "Discover how regular gym workouts improve sleep quality, the best times to train, and how NZ gyms and Exercise NZ’s subsidised scheme can reset your circadian rhythm.",
+  "intro": "A good night’s sleep is essential for health, yet many Kiwis struggle with insomnia or restless nights. Research shows that regular gym sessions can be a powerful, drug‑free way to improve sleep quality. Below we break down the science and give you practical steps to turn your gym routine into a sleep‑boosting habit.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Exercise and Sleep: What the Research Says",
+      "body": "Multiple New Zealand and international studies have found that adults who engage in moderate‑intensity exercise 3–5 times a week report deeper, longer sleep and fewer awakenings. A 2023 NZ Health Survey noted that people who met the national physical activity guidelines were 20% less likely to experience chronic insomnia. The benefits stem from increased slow‑wave sleep, reduced anxiety, and a healthier stress hormone profile.",
+      "list": [
+        "Improves sleep efficiency by 5‑15%",
+        "Boosts slow‑wave (deep) sleep",
+        "Reduces time to fall asleep"
+      ]
+    },
+    {
+      "heading": "When to Train for Better Sleep",
+      "body": "Timing matters. Evening workouts that finish at least 90 minutes before bedtime allow body temperature and adrenaline levels to drop, signalling the brain it’s time to wind down. Early‑morning sessions can also help by advancing the circadian clock, making you feel sleepy earlier in the evening.",
+      "table": {
+        "headers": [
+          "Workout Time",
+          "Effect on Sleep Onset",
+          "Effect on Sleep Quality"
+        ],
+        "rows": [
+          [
+            "6‑9 am",
+            "Advances sleep phase – easier to fall asleep",
+            "Moderate improvement"
+          ],
+          [
+            "12‑3 pm",
+            "Neutral – no strong effect",
+            "Neutral"
+          ],
+          [
+            "4‑7 pm (finish by 7 pm)",
+            "Optimal – supports natural melatonin rise",
+            "High improvement"
+          ],
+          [
+            "After 9 pm",
+            "May delay sleep onset",
+            "Possible reduction"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How a Regular Gym Routine Resets Your Circadian Rhythm",
+      "body": "Consistent daily activity acts as a ‘zeitgeber’ – a time cue that synchronises the internal clock. The bright lights of a gym, the predictable schedule of classes, and the post‑exercise drop in core temperature all send signals to the suprachiasmatic nucleus, the brain’s master clock. Over weeks, this can shift your sleep‑wake cycle by up to two hours, helping night‑owls become morning people.",
+      "list": [
+        "Stick to the same workout days and times",
+        "Prioritise at least 30 minutes of moderate cardio",
+        "Finish with a cool‑down to lower body temperature"
+      ]
+    },
+    {
+      "heading": "Practical Steps to Use the Gym for Better Sleep",
+      "body": "1. Choose a time slot that ends at least 90 minutes before you plan to sleep. 2. Prioritise moderate‑intensity cardio (e.g., treadmill, rowing) for 30‑45 minutes; strength work can follow but keep the total session under 90 minutes. 3. End with a 10‑minute stretch or yoga session to promote relaxation. 4. Take advantage of Exercise NZ’s subsidised gym scheme – many participating clubs offer 40‑70 % off standard membership rates, making regular visits affordable.",
+      "list": [
+        "Book a regular class (e.g., Les Mills BodyPump) to lock in a routine",
+        "Use the gym’s sauna or steam room after training to aid muscle relaxation",
+        "Track sleep with a phone app and adjust workout timing if needed"
+      ],
+      "cta": {
+        "text": "Find a subsidised gym near you",
+        "url": "https://www.exercisenz.org.nz/gym-scheme",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Pick a NZ Gym That Fits Your Sleep Goals",
+      "body": "Many chains provide flexible hours, group classes, and quiet zones for post‑workout stretching. Below are three options that participate in the Exercise NZ scheme and have locations across the country:",
+      "list": [
+        "Les Mills – wide class variety, 24 h access at major centres (https://lesmills.com/nz)",
+        "Anytime Fitness – 24 h access, small‑group coaching (https://anytimefitness.co.nz)",
+        "CityFitness – affordable rates, strong community vibe (https://cityfitness.co.nz)"
+      ],
+      "cta": {
+        "text": "Compare NZ gyms and start your sleep‑boosting plan",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "sleep-exercise-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-11",
+  "post_type": "health_info"
+}
