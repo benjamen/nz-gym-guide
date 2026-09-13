@@ -1,0 +1,84 @@
+{
+  "title": "Gym Tips for Desk Workers in NZ – Countering a Sedentary Job",
+  "short_title": "Desk Worker Gym Tips",
+  "meta_desc": "Learn how NZ desk workers can beat sitting risks with targeted exercises, lunchtime gym routines and affordable membership options, including Exercise NZ subsidies.",
+  "intro": "A desk job can add up to 10‑12 hours of sitting each week, raising the risk of back pain, heart disease and reduced productivity. This guide shows practical gym strategies to offset those effects and keep you moving during the workday.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "The hidden health cost of sitting",
+      "body": "New Zealand health data shows that office workers are twice as likely to develop chronic lower‑back pain compared with more active occupations. The Ministry of Health reports that prolonged sitting is linked to a 20% higher risk of cardiovascular disease and contributes to the country's rising obesity rates, with 31% of adults classified as obese in 2025. These figures highlight why a sedentary job isn’t just uncomfortable – it’s a public‑health concern."
+    },
+    {
+      "heading": "Desk‑to‑gym stretches that fix posture",
+      "body": "A few minutes of targeted movement every hour can dramatically improve spinal alignment and circulation. Start with a shoulder roll, then move to a seated cat‑cow stretch to mobilise the thoracic spine. Finish with a standing hip flexor lunge to counteract the anterior pelvic tilt that develops from long periods of sitting. Doing these three moves three times a day can reduce neck tension and improve lower‑back comfort.",
+      "list": [
+        "Shoulder rolls – 10 forward, 10 backward",
+        "Seated cat‑cow – 8‑10 reps each direction",
+        "Standing hip‑flexor lunge – hold 20‑30 seconds each side"
+      ]
+    },
+    {
+      "heading": "Efficient 30‑minute gym routine for office workers",
+      "body": "When you have limited time, focus on compound movements that engage the posterior chain and core – the areas most compromised by desk work. A 30‑minute circuit of deadlifts, rows, goblet squats and planks restores balance, strengthens the back, and boosts metabolic rate. Perform each exercise for 45 seconds, rest 15 seconds, and repeat the circuit three times. This format fits neatly into a lunch break or a quick after‑work session.",
+      "list": [
+        "Deadlifts – 45 s (moderate weight)",
+        "Seated cable rows – 45 s",
+        "Goblet squats – 45 s",
+        "Plank – 45 s",
+        "Rest – 15 s, repeat 3×"
+      ]
+    },
+    {
+      "heading": "Lunchtime gym options and affordable memberships",
+      "body": "Many NZ cities now offer gyms with 24‑hour access and short‑term contracts, making it easy to pop in for a quick workout. Below is a snapshot of popular chains, their typical pricing and contract terms as of September 2026. If you’re eligible, the Exercise NZ subsidised gym scheme can knock 40‑70% off these rates, turning a $79/month membership into as little as $24/month.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Price per month",
+          "Contract length"
+        ],
+        "rows": [
+          [
+            "Les Mills",
+            "$79",
+            "12 months"
+          ],
+          [
+            "Anytime Fitness",
+            "$79",
+            "12 months"
+          ],
+          [
+            "Snap Fitness",
+            "$69",
+            "12 months"
+          ],
+          [
+            "24/7 Fitness",
+            "$69",
+            "12 months"
+          ]
+        ]
+      },
+      "list": [
+        "Pros – 24‑hour access, multiple locations, group classes",
+        "Cons – Fixed‑term contracts can be restrictive; some sites lack dedicated stretching zones"
+      ]
+    },
+    {
+      "heading": "Take the next step",
+      "body": "Ready to break the cycle of sitting and start feeling stronger at work? Compare the best NZ gym deals, see which offers the Exercise NZ subsidy, and find a location that fits your lunch break schedule.",
+      "cta": {
+        "text": "Compare NZ gyms now",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "desk-job-exercise-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-14",
+  "post_type": "health_info"
+}
