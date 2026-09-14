@@ -1,0 +1,102 @@
+{
+  "title": "HIIT Workouts in NZ Gyms – F45, Orangetheory vs DIY",
+  "short_title": "HIIT in NZ Gyms",
+  "meta_desc": "Compare boutique HIIT studios like F45 and Orangetheory with DIY HIIT at standard NZ gyms. Get cost, effectiveness and practical tips for your next workout.",
+  "intro": "High‑intensity interval training (HIIT) is a time‑efficient way to boost cardio fitness and burn fat. In New Zealand you can join a boutique studio, hit the treadmill at a city gym, or mix both. This guide breaks down the options so you can pick the most effective, affordable route for your goals.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "HIIT 101: What it is and why it works",
+      "body": "HIIT alternates short bursts of maximal effort (20‑60 seconds) with brief recovery periods. Research from the University of Otago shows a 4‑week HIIT programme can improve VO₂max by up to 15 % – comparable to traditional endurance training but in half the time. Because the work intervals are brief, the overall session often fits into a lunch break or after‑work slot, making it popular among busy Kiwis."
+    },
+    {
+      "heading": "Boutique HIIT studios – F45 & Orangetheory",
+      "body": "Both studios run on a class‑based model with a strong community vibe and coach‑led programming. Prices reflect the premium experience and the use of proprietary equipment and heart‑rate monitoring.",
+      "list": [
+        "F45 – NZ$25 per class or $199 / month unlimited (month‑to‑month). 12‑month commitment optional but not required. Pros: varied functional circuits, strong group energy, coach feedback. Cons: cost adds up if you attend <3 times/week; limited flexibility on class times.",
+        "Orangetheory – NZ$30 per class or $239 / month unlimited (month‑to‑month). 12‑month contract available for a slight discount. Pros: heart‑rate zone tracking, consistent class length (60 min), strong brand support. Cons: higher per‑class price; classes can fill quickly in major cities."
+      ],
+      "table": {
+        "headers": [
+          "Studio",
+          "Per‑class price",
+          "Monthly unlimited",
+          "Typical contract"
+        ],
+        "rows": [
+          [
+            "F45",
+            "NZ$25",
+            "NZ$199",
+            "Month‑to‑month"
+          ],
+          [
+            "Orangetheory",
+            "NZ$30",
+            "NZ$239",
+            "Month‑to‑month"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "DIY HIIT in a regular gym",
+      "body": "Most mainstream NZ gyms have the space and equipment to run effective HIIT sessions without a studio fee. You control the interval length, exercise selection and total volume, which can be cheaper and more adaptable to your schedule. Typical DIY HIIT equipment includes treadmills, rowing machines, kettlebells, battle ropes and body‑weight stations.",
+      "list": [
+        "City Fitness – $79 / month (12‑month contract) with unlimited access to cardio and free‑weight zones.",
+        "Jetts – $69 / month (12‑month contract) – 24/7 access, good for off‑peak HIIT.",
+        "Anytime Fitness – $79 / month (12‑month contract) – nationwide keys for flexible training.",
+        "Les Mills programmes (e.g., BodyPump, Sprint) are often included in the membership for an extra class fee."
+      ],
+      "table": {
+        "headers": [
+          "Gym",
+          "Monthly fee",
+          "Contract length",
+          "24‑hr access"
+        ],
+        "rows": [
+          [
+            "City Fitness",
+            "NZ$79",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Jetts",
+            "NZ$69",
+            "12 months",
+            "Yes"
+          ],
+          [
+            "Anytime Fitness",
+            "NZ$79",
+            "12 months",
+            "Yes"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "NZ gym chains that make DIY HIIT easy",
+      "body": "If you prefer to design your own intervals, choose a gym with ample cardio machines, a functional‑training area and minimal class crowding. The following chains consistently provide these features across most NZ cities:",
+      "list": [
+        "City Fitness – large floor space, plenty of treadmills and free‑weights; often runs free HIIT‑style bootcamps on weekends.",
+        "Les Mills – many clubs offer the Les Mills Sprint class (a HIIT format) included in the base membership.",
+        "Jetts – 24/7 access means you can slot a 20‑minute HIIT burst whenever you want, even at 2 am.",
+        "Anytime Fitness – nationwide key system lets you travel and still hit a familiar HIIT setup.",
+        "Exercise NZ subsidised gym scheme – eligible members can get 40‑70 % off the above rates, making DIY HIIT even more affordable."
+      ],
+      "cta": {
+        "text": "Find the best NZ gym for your HIIT goals",
+        "url": "https://www.nzgymguide.co.nz/compare/",
+        "affiliate": false
+      }
+    }
+  ],
+  "slug": "hiit-workout-nz-gyms-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-15",
+  "post_type": "exercise_tips"
+}
