@@ -1,0 +1,86 @@
+{
+  "title": "Exercise for Weight Management in NZ – Honest Advice",
+  "short_title": "Weight Management Exercise",
+  "meta_desc": "Discover realistic NZ‑focused advice on using exercise for weight management, with stats, calorie‑burn tips, gym options and practical steps.",
+  "intro": "Weight loss is a common goal in New Zealand, but the path is often clouded by myths and quick‑fix promises. This guide cuts through the hype, giving you evidence‑based advice that works in the Kiwi context.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "NZ obesity rates – the starting point",
+      "body": "The latest New Zealand Health Survey (2023/24) shows that about 30 % of adults are classified as obese, with another 35 % overweight. Among children aged 2‑14, roughly 10 % are obese and 20 % overweight. These figures place NZ among the highest OECD rates for adult obesity, highlighting the scale of the challenge. Understanding the national picture helps set realistic goals and underscores why a balanced approach – diet plus exercise – is essential for sustainable weight management."
+    },
+    {
+      "heading": "Calorie deficit vs exercise – what the research says",
+      "body": "Weight loss ultimately comes down to energy balance: you must burn more calories than you consume. Studies consistently show that a modest daily deficit of 500 kcal (about 0.5 kg per week) is the most sustainable rate. Exercise alone can contribute to the deficit, but diet typically accounts for 70‑80 % of the total. That doesn't mean cardio is useless – it improves cardiovascular health and preserves lean muscle while you lose fat, which keeps metabolism higher. The key is pairing a sensible eating plan with regular activity rather than relying on workouts to offset a high‑calorie diet."
+    },
+    {
+      "heading": "High‑burn workouts – which formats torch the most calories",
+      "body": "While the numbers vary with intensity and fitness level, the takeaway is clear: combine cardio bursts with resistance work to maximise calorie burn and preserve muscle mass. Mixing modalities also reduces boredom and injury risk.",
+      "list": [
+        "Running (8 km/h) – 600 kcal per hour",
+        "Rowing (moderate) – 540 kcal per hour",
+        "HIIT circuit (30 s work/30 s rest) – 500–650 kcal per hour",
+        "Circuit‑style strength classes – 400–500 kcal per hour",
+        "Steady‑state cycling – 350–450 kcal per hour"
+      ]
+    },
+    {
+      "heading": "Gym membership options that support weight loss",
+      "body": "*Prices are standard rates before any Exercise NZ discount. Check each provider’s website for the exact discount you qualify for.",
+      "table": {
+        "headers": [
+          "Gym",
+          "Monthly price*",
+          "Contract length",
+          "Pros",
+          "Cons"
+        ],
+        "rows": [
+          [
+            "Anytime Fitness",
+            "$69.95",
+            "12‑month lock‑in",
+            "24/7 access, many locations, good cardio range",
+            "Higher price after discount expires"
+          ],
+          [
+            "Snap Fitness",
+            "$59.95",
+            "No lock‑in (month‑to‑month)",
+            "Flexible membership, good group‑class schedule",
+            "Limited pool facilities"
+          ],
+          [
+            "Plus Fitness",
+            "$49.95",
+            "6‑month minimum",
+            "Affordable, strong community vibe, many HIIT classes",
+            "Smaller footprint, fewer premium machines"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Practical steps and realistic expectations",
+      "body": "Remember that plateaus are normal; adjust your calorie intake or increase workout intensity after 4‑6 weeks if progress stalls. Consistency, not perfection, drives long‑term success.",
+      "list": [
+        "Set a measurable goal – e.g., lose 0.5 kg per week or 5 kg in 10 weeks",
+        "Track food intake for at least two weeks to identify hidden calories",
+        "Schedule at least 150 minutes of moderate cardio + two strength sessions per week",
+        "Use a wearable or app to log activity and ensure you stay in a 500‑kcal deficit",
+        "Take advantage of the Exercise NZ scheme to reduce membership cost",
+        "Re‑weigh yourself weekly, not daily, to avoid normal weight fluctuations"
+      ],
+      "cta": {
+        "text": "Find the right NZ gym for your weight‑loss plan – take the quiz or compare offers now!",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "obesity-exercise-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-16",
+  "post_type": "health_info"
+}

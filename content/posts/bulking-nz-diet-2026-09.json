@@ -1,0 +1,84 @@
+{
+  "title": "Bulking Diet for NZ Gym‑Goers – Clean Bulk Guide",
+  "short_title": "Clean Bulk Guide",
+  "meta_desc": "Learn how NZ gym‑goers can bulk cleanly with realistic calorie targets, local high‑protein foods, meal timing tips and affordable supplements.",
+  "intro": "Building muscle without adding excess fat is possible with a disciplined clean‑bulk approach. This guide breaks down the numbers, the foods you can buy locally and practical steps you can start this week.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "Clean Bulk vs Dirty Bulk",
+      "body": "A clean bulk focuses on a modest calorie surplus (5‑10 % above maintenance) and nutrient‑dense foods, aiming for muscle gain while keeping fat gain low. A dirty bulk throws calorie counting out the window, relying on any high‑calorie foods – often processed and sugary – which can lead to rapid fat accumulation and later a cutting phase. While a dirty bulk may speed up weight gain, it usually requires a longer cut to shed the extra fat, which can be demotivating and affect hormone balance.\n\nFor most NZers balancing work, study or family, a clean bulk is more sustainable. It keeps energy levels steady, supports recovery, and aligns with the typical NZ diet that already includes plenty of fresh produce and lean proteins.",
+      "list": [
+        "Clean bulk: +5‑10 % calories, whole‑food focus, slower but leaner gains.",
+        "Dirty bulk: +20‑30 % calories, processed foods, faster weight gain but higher fat."
+      ]
+    },
+    {
+      "heading": "Setting Your Calorie Surplus",
+      "body": "First, estimate your maintenance calories using a simple multiplier (body weight kg × 30‑33 kcal for most active men, 28‑31 kcal for women). Add 250‑500 kcal for a clean bulk. Keep protein at 2.2 g per kg bodyweight, carbs at 4‑5 g per kg, and the remainder from healthy fats.\n\nTracking your intake for a week with a free app (MyFitnessPal, Cronometer) will reveal if you’re hitting the target. Adjust by 100 kcal each week based on weight changes – aim for 0.25‑0.5 kg gain per week.\n\nA quick reference table helps you plug in your numbers:",
+      "table": {
+        "headers": [
+          "Metric",
+          "Men (kcal/kg)",
+          "Women (kcal/kg)"
+        ],
+        "rows": [
+          [
+            "Maintenance",
+            "30‑33",
+            "28‑31"
+          ],
+          [
+            "Clean‑bulk surplus",
+            "+250‑500",
+            "+250‑500"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "NZ Supermarket Staples for a Clean Bulk",
+      "body": "New Zealand supermarkets stock a range of affordable, high‑quality protein and carb sources. Buying in bulk and choosing store brands keeps costs down while still delivering the nutrients you need for muscle growth.\n\nThese items are widely available at Countdown, New World, Pak'nSave and local co‑ops:",
+      "list": [
+        "Chicken breast – $10‑$12 /kg (FreshChoice, Countdown).",
+        "Lean beef mince (5 % fat) – $12‑$14 /kg (Pak'nSave).",
+        "Eggs – $5 /dozen (NZ’s free‑range eggs).",
+        "Canned tuna in springwater – $2‑$3 /400 g can (Sealord).",
+        "Quorn mince – $8 /kg (plant‑based, good for variety).",
+        "Lentils (dry) – $3 /kg (bulk bins).",
+        "Rolled oats – $2.50 /kg (NZ’s own brand).",
+        "Full‑fat milk – $2.20 /L (anchor).",
+        "Greek yoghurt (2 % fat) – $4.50 /kg (Fonterra).",
+        "Bananas – $2.30 /kg (local growers)."
+      ]
+    },
+    {
+      "heading": "Protein Timing and Meal Planning",
+      "body": "Research shows that spreading protein intake evenly across 4‑5 meals maximises muscle protein synthesis. Aim for 20‑30 g of high‑quality protein within 2 hours pre‑ and post‑workout. Include a carbohydrate source post‑session to replenish glycogen and support recovery.\n\nA simple weekly plan could look like:\n• Breakfast – 40 g oats, 1 cup milk, 2 eggs.\n• Mid‑morning snack – Greek yoghurt + banana.\n• Lunch – 150 g chicken breast, 200 g sweet potato, veg.\n• Pre‑workout (30 min) – 1 slice whole‑grain toast with 30 g Quorn mince.\n• Post‑workout – Whey shake (25 g protein) + fruit.\n• Dinner – 150 g lean beef, brown rice, broccoli.\n• Evening snack – cottage cheese or a small handful of nuts.\n\nConsistent timing helps you hit daily protein goals without feeling overly full.",
+      "list": [
+        "Aim for 0.4‑0.5 g protein per kg bodyweight per meal.",
+        "Include carbs around workouts (30‑60 g) for energy and recovery.",
+        "Hydrate – at least 3 L water daily, more on heavy training days."
+      ]
+    },
+    {
+      "heading": "Affordable Supplements & Extra Protein Sources",
+      "body": "Supplements can fill gaps but aren’t essential if you hit targets with whole foods. The most cost‑effective options in NZ are:\n• Whey protein concentrate – NZ$40 per 1 kg (Bulk Nutrients, The Protein Works). One scoop (~30 g) gives ~24 g protein for about $1.20.\n• Milk protein isolate – $45 per 1 kg, useful for night‑time shakes.\n• Creatine monohydrate – $20 per 300 g, proven to boost strength and lean mass.\n\nIf you prefer plant‑based routes, soy or pea protein powders sit around $35‑$45 per kg. Pair them with a banana or oat milk for a quick post‑workout shake.\n\nRemember, Exercise NZ’s subsidised gym scheme can reduce your membership cost by 40‑70 %, freeing up budget for quality food and supplements.",
+      "list": [
+        "Whey concentrate – $40 /kg, ~24 g protein per scoop.",
+        "Creatine monohydrate – $20 /300 g, 5 g daily dose.",
+        "Soy/pea protein – $35‑$45 /kg for plant‑based athletes."
+      ],
+      "cta": {
+        "text": "Find the best gym deals for your bulk",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "bulking-nz-diet-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-16",
+  "post_type": "nutrition"
+}

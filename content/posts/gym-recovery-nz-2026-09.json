@@ -1,0 +1,68 @@
+{
+  "title": "Gym Recovery: How Rest Days Make You Stronger & Fitter",
+  "short_title": "Gym Recovery",
+  "meta_desc": "Find out why rest days, quality sleep, active recovery options like sauna, pool or yoga, and targeted nutrition are vital for NZ gym‑goers to repair muscle, reduce DOMS and improve overall performance.",
+  "intro": "Rest days aren’t a luxury – they’re a science‑backed part of any training programme. Understanding how your body rebuilds muscle will help you train smarter and avoid burnout.",
+  "reading_time": 5,
+  "sections": [
+    {
+      "heading": "The Science of Rest: Muscle Repair & DOMS",
+      "body": "When you lift, you create tiny tears in muscle fibres. During rest, the body initiates muscle‑protein synthesis, repairing those fibres and making them stronger. This process also clears metabolic waste that contributes to delayed‑onset muscle soreness (DOMS). Skipping rest stalls this repair, prolongs soreness and can increase injury risk. Evidence shows that 48‑72 hours of quality rest after a heavy session maximises strength gains and reduces chronic inflammation.",
+      "list": [
+        "Muscle‑protein synthesis peaks 24‑48 h post‑workout",
+        "DOMS typically peaks 24‑48 h after unfamiliar activity",
+        "Adequate rest lowers cortisol, supporting recovery"
+      ],
+      "cta": null
+    },
+    {
+      "heading": "Sleep – Your Most Powerful Recovery Tool",
+      "body": "Sleep is the single most effective recovery modality. NZ health data indicates 33 % of adults get less than 7 hours nightly, which impairs hormone balance and slows protein synthesis. Aim for 7‑9 hours of uninterrupted sleep, keep the room cool (16‑18 °C), and limit screens 30 minutes before bed. A short nap (20‑30 minutes) on a rest day can also boost glycogen restoration without disrupting night‑time sleep patterns.",
+      "list": [
+        "Target 7‑9 h nightly; 1‑2 h nap if needed",
+        "Maintain a dark, cool environment",
+        "Avoid caffeine after 2 pm"
+      ],
+      "cta": null
+    },
+    {
+      "heading": "Active Recovery in NZ Gyms",
+      "body": "Active recovery speeds blood flow, reduces stiffness and can be enjoyable. Most major chains offer facilities that fit a recovery day: City Fitness provides infrared sauna and hydro‑massage; Les Mills’ larger centres have heated pools and aqua‑aerobics; Anytime Fitness often runs low‑impact yoga or Pilates classes; Jetts includes functional‑training zones for gentle mobility circuits. These options let you move without taxing the nervous system, accelerating nutrient delivery to muscles.",
+      "list": [
+        "Sauna – improves circulation & relaxes tight fascia",
+        "Pool – buoyant cardio reduces joint load",
+        "Yoga/Pilates – enhances flexibility and core stability"
+      ],
+      "cta": null
+    },
+    {
+      "heading": "Nutrition to Speed Up Repair",
+      "body": "What you eat on rest days is as important as the workout itself. Aim for 1.6‑2.2 g protein per kg body weight spread across 3‑4 meals – think kiwi‑based whey, grass‑fed lamb, or lentil stews. Pair protein with 1‑1.2 g carbs per kg to replenish glycogen; sweet potatoes and local berries are excellent choices. Hydration supports metabolic waste clearance – aim for 35‑45 ml kg⁻¹ of water daily, more if you’ve sweated in a sauna or pool.",
+      "list": [
+        "Protein: 20‑30 g per meal (e.g., Greek yoghurt, tofu)",
+        "Carbs: 30‑50 g post‑workout (e.g., oats, fruit)",
+        "Fluids: 2‑3 L water + electrolytes if sweating"
+      ],
+      "cta": null
+    },
+    {
+      "heading": "Build a Weekly Recovery Plan",
+      "body": "A simple template works for most New Zealand gym‑goers: • Monday – Strength (upper) • Tuesday – Rest day (sleep ≥ 8 h, light yoga) • Wednesday – Strength (lower) • Thursday – Active recovery (pool or sauna) • Friday – Full‑body circuit • Saturday – Rest day (protein‑rich meals, nap) • Sunday – Light cardio or mobility. Adjust based on personal load and listen to soreness cues. Use this plan to schedule your gym visits and compare which chain offers the recovery amenities you need.",
+      "list": [
+        "Mark rest days on your calendar",
+        "Log sleep & soreness to spot patterns",
+        "Pick a gym with the recovery tools you’ll actually use"
+      ],
+      "cta": {
+        "text": "Find the best NZ gym for your recovery routine",
+        "url": "https://nzgymguide.co.nz/compare/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "gym-recovery-nz-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-16",
+  "post_type": "exercise_tips"
+}
