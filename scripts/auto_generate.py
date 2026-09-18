@@ -32,6 +32,22 @@ ROOT = Path(__file__).parent.parent
 VENV_PYTHON = ROOT / 'venv' / 'bin' / 'python'
 sys.path.insert(0, str(ROOT))
 
+# ── Daily generation paused (2026-09-18) ────────────────────────────────────
+# GTM/marketing review (see /home/ben/wikis/seo-portfolio, nzgymguide.md
+# 2026-09-17 + 09-18 entries): 4+ weeks of flat search traction, monetization
+# non-functional, and this same generation pipeline was actively causing a
+# near-duplicate-content regression (see pick_by_date() below). Not worth
+# further daily content spend right now.
+#
+# This flag is the only pause lever reachable from this repo — no
+# GitHub Actions workflow or local crontab entry controls the daily run
+# (checked: no .github/workflows/, no entry in `crontab -l` on this host).
+# The daily commits keep landing regardless, so whatever schedules this
+# script (cron on another host, or an external/openclaw routine) is outside
+# this repo's visibility; this flag makes generation a safe no-op regardless
+# of how/where it's invoked. Flip back to False to resume.
+GENERATION_PAUSED = True
+
 # Load .env
 env_file = ROOT / '.env'
 if env_file.exists():
@@ -764,6 +780,11 @@ def main():
                                               'comparison','budget_guide','chain_deals','suburb_guide','exercise_nz'],
                         help='Force a specific article type')
     args = parser.parse_args()
+
+    if GENERATION_PAUSED and not args.dry_run:
+        print("⏸  Daily generation is PAUSED (scripts/auto_generate.py: GENERATION_PAUSED = True).")
+        print("   See nzgymguide.md's 2026-09-18 wiki entry for why. Set GENERATION_PAUSED = False to resume.")
+        return
 
     gyms, cities, site, deals = load_data()
 

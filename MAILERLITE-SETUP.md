@@ -108,8 +108,9 @@ The guide page will now include the email capture form in the output HTML.
 | Form Name | Form ID | URL | Purpose |
 |-----------|---------|-----|---------|
 | Gym Deals Weekly | `gym-deals-weekly` | /guides/nz-gym-discount-codes-2026/ | Weekly gym deal updates |
+| Gym Deals Weekly (sitewide footer) | `gym-deals-weekly` | every page, sticky footer strip (`layouts/base.html`) | Same audience/form reused sitewide — previously a raw `<form action="#">` that submitted nowhere (fixed 2026-09-18) |
 
-**Setup date:** June 2026
+**Setup date:** June 2026 (guide embed); footer wired to the same form 2026-09-18.
 
 ## Testing
 
