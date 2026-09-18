@@ -95,5 +95,7 @@
   "updated": "August 2026",
   "auto_generated": true,
   "generated_date": "2026-08-27",
-  "post_type": "nutrition"
+  "post_type": "nutrition",
+  "noindex": true,
+  "canonical_slug": "post-workout-meal-nz-2026-09"
 }

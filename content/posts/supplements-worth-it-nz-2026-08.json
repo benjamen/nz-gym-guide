@@ -51,5 +51,7 @@
   "updated": "August 2026",
   "auto_generated": true,
   "generated_date": "2026-08-15",
-  "post_type": "nutrition"
+  "post_type": "nutrition",
+  "noindex": true,
+  "canonical_slug": "supplements-worth-it-nz-2026-09"
 }

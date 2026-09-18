@@ -85,5 +85,7 @@
   "updated": "August 2026",
   "auto_generated": true,
   "generated_date": "2026-08-19",
-  "post_type": "health_info"
+  "post_type": "health_info",
+  "noindex": true,
+  "canonical_slug": "physical-activity-guidelines-nz-2026-09"
 }

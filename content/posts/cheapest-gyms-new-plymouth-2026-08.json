@@ -64,5 +64,7 @@
   "updated": "August 2026",
   "auto_generated": true,
   "generated_date": "2026-08-11",
-  "post_type": "budget_guide"
+  "post_type": "budget_guide",
+  "noindex": true,
+  "canonical_slug": "cheapest-gyms-new-plymouth-2026-09"
 }

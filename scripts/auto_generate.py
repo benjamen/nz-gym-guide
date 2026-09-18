@@ -253,9 +253,17 @@ def pick_by_date(pool, atype):
 
     Skips forward past any candidate whose topic was already generated
     (under any date-suffixed slug) within COOLDOWN_DAYS, so the same topic
-    can't get regenerated as a near-duplicate a month or two later. Falls
-    back to the plain hash pick if every candidate is in cooldown (small
-    pool / high generation frequency) rather than generating nothing.
+    can't get regenerated as a near-duplicate a month or two later. If every
+    candidate in the pool is in cooldown (small pool / high generation
+    frequency), falls back to the least-recently-used candidate — the one
+    whose most recent generation is furthest in the past — rather than
+    generating nothing *or* silently ignoring the cooldown entirely.
+
+    (2026-09: the previous fallback was `return pool[start]`, the raw
+    hash-selected candidate, which could still be freshly in cooldown —
+    that silently defeated the whole cooldown mechanism and let duplicates
+    re-accumulate, e.g. `budget-gym-nutrition-nz` regenerated 2026-08-31 and
+    again 2026-09-04, both inside the 75-day window.)
     """
     if not pool:
         return None
@@ -270,7 +278,24 @@ def pick_by_date(pool, atype):
             return candidate  # defensive: never let the cooldown check break generation
         if not in_cooldown(base):
             return candidate
-    return pool[start]  # everything in cooldown — fall back to original deterministic pick
+
+    # Every candidate is in cooldown. Pick the least-recently-used one (the
+    # topic that has been in cooldown longest / is closest to expiring)
+    # instead of ignoring the constraint outright.
+    least_recent_candidate = None
+    least_recent_date = None
+    for candidate in pool:
+        try:
+            base = topic_base_key(topic_slug(candidate))
+            last = most_recent_generated_date(base)
+        except Exception:
+            return candidate  # defensive: never let the cooldown check break generation
+        if last is None:
+            return candidate  # never actually generated — safe to use
+        if least_recent_date is None or last < least_recent_date:
+            least_recent_date = last
+            least_recent_candidate = candidate
+    return least_recent_candidate if least_recent_candidate is not None else pool[start]
 
 def pick_todays_four(pools):
     """

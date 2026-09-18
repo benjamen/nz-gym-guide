@@ -69,5 +69,7 @@
   "updated": "June 2026",
   "auto_generated": true,
   "generated_date": "2026-06-14",
-  "post_type": "health_info"
+  "post_type": "health_info",
+  "noindex": true,
+  "canonical_slug": "protein-gym-nz-2026-08"
 }

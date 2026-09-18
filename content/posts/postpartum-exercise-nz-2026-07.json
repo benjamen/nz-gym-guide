@@ -55,5 +55,7 @@
   "updated": "July 2026",
   "auto_generated": true,
   "generated_date": "2026-07-21",
-  "post_type": "health_info"
+  "post_type": "health_info",
+  "noindex": true,
+  "canonical_slug": "postpartum-exercise-nz-2026-09"
 }

@@ -65,5 +65,7 @@
   "updated": "July 2026",
   "auto_generated": true,
   "generated_date": "2026-07-09",
-  "post_type": "nutrition"
+  "post_type": "nutrition",
+  "noindex": true,
+  "canonical_slug": "intermittent-fasting-gym-nz-2026-08"
 }

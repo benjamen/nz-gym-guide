@@ -59,5 +59,7 @@
   "updated": "August 2026",
   "auto_generated": true,
   "generated_date": "2026-08-10",
-  "post_type": "exercise_tips"
+  "post_type": "exercise_tips",
+  "noindex": true,
+  "canonical_slug": "gym-bag-essentials-nz-2026-09"
 }
