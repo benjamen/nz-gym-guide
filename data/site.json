@@ -1,6 +1,6 @@
 {
   "title": "NZ Gym Guide",
-  "tagline": "Compare gym memberships across New Zealand \u2014 prices, contracts, locations",
+  "tagline": "Compare gym memberships across New Zealand — prices, contracts, locations",
   "description": "Compare NZ gym memberships side by side. Find the cheapest gym near you, read honest reviews, and get the best deal on a membership in Auckland, Wellington, Christchurch and beyond.",
   "base_url": "https://nzgymguide.co.nz",
   "base_path": "",
@@ -73,5 +73,7 @@
       "cta": "Shop Gymshark NZ",
       "status": "PENDING_AWIN"
     }
-  }
+  },
+  "mailerlite_account_id": "",
+  "newsletter_form_url": ""
 }

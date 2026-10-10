@@ -90,12 +90,12 @@
 {% endfor %}
 
 <!-- Email capture (if defined in guide) -->
-{% if guide.email_capture %}
+{% if guide.email_capture and site.mailerlite_account_id %}
 <section class="section" style="background:linear-gradient(135deg,#f3e8ff,#e9d5ff);border-radius:var(--radius);">
   <div style="max-width:640px;margin:0 auto;text-align:center;">
     <h2 style="margin-bottom:.5rem;">{{ guide.email_capture.heading }}</h2>
     <p style="color:var(--gray-600);margin-bottom:1.5rem;">{{ guide.email_capture.body }}</p>
-    <div data-mailerlite-form="{{ guide.email_capture.mailerlite_form_id }}" style="max-width:400px;margin:0 auto;"></div>
+    <div class="ml-embedded" data-form="{{ guide.email_capture.mailerlite_form_id }}" style="max-width:400px;margin:0 auto;"></div>
   </div>
 </section>
 {% endif %}

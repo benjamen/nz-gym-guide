@@ -198,6 +198,7 @@
   </footer>
 
   <!-- Newsletter strip -->
+  {% if site.newsletter_form_url %}
   <div class="newsletter-strip">
     <div class="newsletter-strip-inner">
       <div class="ns-text">
@@ -207,6 +208,7 @@
       <div class="ns-form" data-mailerlite-form="gym-deals-weekly"></div>
     </div>
   </div>
+  {% endif %}
 
   <!-- Star rating input -->
   <script>
@@ -270,19 +272,9 @@
 
   {% block extra_foot %}{% endblock %}
 
-  <!-- MailerLite Email Capture Script -->
-  <script>
-    (function() {
-      // MailerLite form embed — inject forms with data-mailerlite-form attribute
-      var script = document.createElement('script');
-      script.src = 'https://assets.mailerlite.com/js/form-embed.min.js';
-      script.onload = function() {
-        if (window.mailerlite && window.mailerlite.load) {
-          window.mailerlite.load();
-        }
-      };
-      document.body.appendChild(script);
-    })();
-  </script>
+  {% if site.mailerlite_account_id %}
+  <!-- MailerLite universal embed (enabled by mailerlite_account_id in data/site.json; see MAILERLITE-SETUP.md) -->
+  <script>(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n)})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','{{ site.mailerlite_account_id }}');</script>
+  {% endif %}
 </body>
 </html>
