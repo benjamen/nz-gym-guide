@@ -695,3 +695,5 @@ tr.hidden-row { display: none; }
 .cons-box h3 { color: #b91c1c; }
 .star-count, .verified-stamp, .verified-stamp a { color: #6b7280; }
 .review-date, .review-google-badge, .reviews-source, .city-stats, .pt-suburb, .pt-price span { color: #6b7280; }
+.page-hero .feat { background: #eef2f7; color: #374151; }
+.page-hero .feat-trial, .page-hero .feat-green { background: #15803d; color: #fff; }
