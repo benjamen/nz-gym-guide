@@ -26,4 +26,3 @@ User-agent: CCBot
 Disallow: /
 
 Sitemap: https://nzgymguide.co.nz/sitemap.xml
-Feed: https://nzgymguide.co.nz/feed.xml

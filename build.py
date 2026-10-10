@@ -286,7 +286,6 @@ def build():
         "User-agent: Bingbot\nAllow: /\n\n"
         "User-agent: CCBot\nDisallow: /\n\n"
         f"Sitemap: {site['base_url']}/sitemap.xml\n"
-        f"Feed: {site['base_url']}/feed.xml\n"
     )
 
     # RSS feed
