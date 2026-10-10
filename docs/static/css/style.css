@@ -680,3 +680,18 @@ tr.hidden-row { display: none; }
 
 /* Free trial badge (gym hero) */
 .feat-trial { background: #16a34a; color: #fff; font-weight: 700; }
+
+/* Accessibility: AA text contrast (4.5:1). Darker shades of the same hues, only where text sits on a light background. */
+.table-note, .city-count, .star-score { color: #6b7280; }
+.type-budget { color: #15803d; }
+.type-boutique, .bad { color: #92400e; }
+.stars, .review-stars, .star-input-star.is-on { color: #b45309; }
+.feat-green, .feat-trial { background: #15803d; }
+.price-note, .price-row em, .breadcrumb, .feat-no { color: #6b7280; }
+.breadcrumb a { text-decoration: underline; }
+.badge-green { color: #166534; }
+.badge-amber { color: #92400e; }
+.pros-box h3 { color: #15803d; }
+.cons-box h3 { color: #b91c1c; }
+.star-count, .verified-stamp, .verified-stamp a { color: #6b7280; }
+.review-date, .review-google-badge, .reviews-source, .city-stats, .pt-suburb, .pt-price span { color: #6b7280; }
