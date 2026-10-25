@@ -16,6 +16,17 @@ CONTENT = ROOT / "content"
 TOOLS   = ROOT / "tools"
 OUT     = ROOT / "docs"
 
+REDIRECT_TMPL = (
+    '<!DOCTYPE html><html><head>'
+    '<meta charset="UTF-8">'
+    '<meta name="robots" content="noindex, follow">'
+    '<meta http-equiv="refresh" content="0; url={dest}">'
+    '<link rel="canonical" href="{dest}">'
+    '<title>Redirecting…</title></head>'
+    '<body><a href="{dest}">Click here if not redirected automatically.</a></body></html>'
+)
+
+
 env = Environment(loader=FileSystemLoader(str(LAYOUTS)), autoescape=False)
 
 def _to_iso_date(s):
@@ -25,11 +36,21 @@ def _to_iso_date(s):
     return str(s)
 
 env.filters['to_iso_date'] = _to_iso_date
+def _fit_title(options, limit=60):
+    """First title option within the search-result length limit (else the shortest)."""
+    return next((o for o in options if len(o) <= limit), min(options, key=len))
+
+env.filters['fit_title'] = _fit_title
 env.filters['tojson'] = lambda v: json.dumps(v, ensure_ascii=False)
 
 
 def load(name):
     return json.loads((DATA / f"{name}.json").read_text())
+
+
+def write_redirect(path: Path, dest: str):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(REDIRECT_TMPL.format(dest=dest))
 
 
 def write(path: Path, html: str):
@@ -228,6 +249,14 @@ def build():
         for post in posts:
             render("guide.html", f"deals/{post['slug']}/index.html",
                    guide=post, guide_section='deals', guide_section_label='Gym Deals', **ctx)
+
+    # Merged duplicate articles: old dated URLs redirect to the page kept per topic
+    # (scripts/consolidate_canonical_duplicates.py writes content/redirects.json).
+    # GitHub Pages has no server redirects, so these are meta-refresh stubs.
+    redirects_file = CONTENT / "redirects.json"
+    if redirects_file.exists():
+        for old, new in json.loads(redirects_file.read_text()).items():
+            write_redirect(OUT / old / "index.html", f"{site['base_url']}/{new}/")
 
     # About and Privacy pages
     render("about.html", "about/index.html", **ctx)

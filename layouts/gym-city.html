@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ gym.name }} {{ city.name }} — Prices 2026{% endblock %}
+{% block title %}{{ [gym.name ~ " " ~ city.name ~ " — Prices 2026", gym.name ~ " " ~ city.name ~ " Prices 2026", gym.name ~ " Prices 2026"] | fit_title }}{% endblock %}
 {% block desc %}{{ gym.name }} {{ city.name }} membership from ${{ gym.pricing.weekly_from }}/week. Real 2026 prices, contract terms, locations across {{ city.name }}, and how it compares to other {{ city.name }} gyms.{% endblock %}
 {% block canonical %}gym/{{ gym.slug }}/{{ city.slug }}/{% endblock %}
 {% block og_title2 %}{{ gym.name }} {{ city.name }} — Prices 2026{% endblock %}

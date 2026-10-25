@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ gym.name }} NZ — Membership Prices & Review 2026{% endblock %}
+{% block title %}{{ [gym.name ~ " NZ — Membership Prices & Review 2026", gym.name ~ " NZ — Prices & Review 2026", gym.name ~ " Prices & Review 2026", gym.name ~ " Prices 2026"] | fit_title }}{% endblock %}
 {% block desc %}{{ gym.name }} NZ membership review: prices from ${{ gym.pricing.weekly_from }}/week, contract terms, features, locations and whether it's worth it in 2026.{% endblock %}
 {% block canonical %}gym/{{ gym.slug }}/{% endblock %}
 

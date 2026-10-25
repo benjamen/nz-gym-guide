@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Personal Trainers in Auckland — Directory & Prices 2026 | NZ Gym Guide{% endblock %}
+{% block title %}Personal Trainers in Auckland — Directory & Prices 2026{% endblock %}
 {% block desc %}Find a personal trainer in Auckland. Browse {{ pts|length }} trainers by suburb and speciality — weight loss, strength, sports performance, prenatal and more. Prices from ${{ (pts|map(attribute='price_per_hour')|min) }}/hr.{% endblock %}
 {% block canonical %}personal-trainers/auckland/{% endblock %}
 

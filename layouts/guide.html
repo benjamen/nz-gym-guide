@@ -2,7 +2,7 @@
 {% set _section = guide_section if guide_section is defined else 'guides' %}
 {% set _section_label = guide_section_label if guide_section_label is defined else 'Gym Guides' %}
 
-{% block title %}{{ guide.title }}{% endblock %}
+{% block title %}{{ guide.seo_title or guide.title }}{% endblock %}
 {% block desc %}{{ guide.meta_desc }}{% endblock %}
 {# Non-canonical near-duplicates set "canonical_slug" to point at the chosen
    canonical post in the same section, and "noindex: true" to keep them out

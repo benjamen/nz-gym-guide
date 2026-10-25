@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Gyms in {{ suburb_name }}, {{ city.name }} 2026 — Prices & Reviews{% endblock %}
+{% block title %}{{ ["Gyms in " ~ suburb_name ~ ", " ~ city.name ~ " 2026 — Prices & Reviews", "Gyms in " ~ suburb_name ~ ", " ~ city.name ~ " 2026 — Prices", "Gyms in " ~ suburb_name ~ " 2026 — Prices & Reviews"] | fit_title }}{% endblock %}
 {% block desc %}Find a gym in {{ suburb_name }}, {{ city.name }}. Compare {{ suburb_gyms|length }} gyms by price, contract and features — from budget 24/7 clubs to premium studios near {{ suburb_name }}.{% endblock %}
 {% block canonical %}gym/{{ city.slug }}/{{ suburb_slug }}/{% endblock %}
 

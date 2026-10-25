@@ -367,7 +367,21 @@ def pick_todays_topics(pools, n=4):
     return base[:n]
 
 def already_generated(slug):
-    return (ROOT / 'content/posts' / f'{slug}.json').exists()
+    """True if this exact slug exists, or any page on the same topic does.
+
+    Matching only the exact slug let the generator rewrite a topic every month
+    under a new dated URL (the dated duplicates merged by
+    scripts/consolidate_canonical_duplicates.py). Merged pages in
+    content/_merged also count, so a merged topic is not regenerated either.
+    """
+    base = topic_base_key(slug)
+    for folder in ('content/posts', 'content/_merged/posts'):
+        d = ROOT / folder
+        if (d / f'{slug}.json').exists():
+            return True
+        if any(topic_base_key(f.stem) == base for f in d.glob(f'{base}-*.json')):
+            return True
+    return False
 
 # ── Regeneration cooldown ─────────────────────────────────────────────────────
 # Root cause of the near-duplicate "deals" pages found in the Aug 2026 audit:

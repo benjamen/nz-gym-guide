@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ pt.name }} — Personal Trainer in {{ pt.suburb }}, Auckland | NZ Gym Guide{% endblock %}
+{% block title %}{{ [pt.name ~ " — Personal Trainer in " ~ pt.suburb ~ ", Auckland | NZ Gym Guide", pt.name ~ " — Personal Trainer, " ~ pt.suburb ~ " | NZ Gym Guide", pt.name ~ " — Personal Trainer in " ~ pt.suburb, pt.name ~ " — Personal Trainer"] | fit_title }}{% endblock %}
 {% block desc %}{{ pt.name }} is a {{ pt.speciality|lower }} personal trainer in {{ pt.suburb }}, Auckland. ${{ pt.price_per_hour }}/hr.{% if pt.gym_affiliation %} Based at {{ pt.gym_affiliation }}.{% endif %} View certifications and contact details.{% endblock %}
 {% block canonical %}personal-trainers/{{ pt.slug }}/{% endblock %}
 
