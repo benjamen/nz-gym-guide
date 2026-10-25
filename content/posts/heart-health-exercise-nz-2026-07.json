@@ -27,7 +27,7 @@
       "body": "New Zealand has a wide range of gyms and fitness centres that cater to different needs and budgets. From budget-friendly options like Jetts and Anytime Fitness to more premium gyms like Les Mills and CityFitness, there's something for everyone. Many gyms offer cardio equipment, group fitness classes, and personal training services to help you achieve your fitness goals. Exercise NZ's subsidised gym scheme can also help make gym memberships more affordable, with discounts available at participating gyms across the country.",
       "cta": {
         "text": "Find a gym near you",
-        "url": "https://nzgymguide.co.nz/compare",
+        "url": "https://nzgymguide.co.nz/compare/",
         "affiliate": false
       }
     },
@@ -45,7 +45,7 @@
       "body": "Improving heart health through regular exercise is a journey, and it's essential to find a gym and workout routine that suits your needs and preferences. By understanding the benefits of cardio training and taking advantage of gym options in NZ, you can significantly reduce your risk of heart disease and improve your overall well-being.",
       "cta": {
         "text": "Take our fitness quiz to find your perfect gym match",
-        "url": "https://nzgymguide.co.nz/quiz",
+        "url": "https://nzgymguide.co.nz/quiz/",
         "affiliate": false
       }
     }

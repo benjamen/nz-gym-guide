@@ -42,7 +42,7 @@
       ],
       "cta": {
         "text": "Find a gym that suits your needs and budget",
-        "url": "https://nzgymguide.co.nz/compare",
+        "url": "https://nzgymguide.co.nz/compare/",
         "affiliate": false
       }
     },
@@ -51,7 +51,7 @@
       "body": "If you're living with diabetes and looking to get started with exercise, it's essential to consult with your healthcare provider first. They can help you develop a safe and effective exercise programme that meets your needs and abilities. You can also check out our quiz to find a gym that suits your needs and budget.",
       "cta": {
         "text": "Take our quiz to find your perfect gym match",
-        "url": "https://nzgymguide.co.nz/quiz",
+        "url": "https://nzgymguide.co.nz/quiz/",
         "affiliate": false
       }
     }

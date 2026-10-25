@@ -2,6 +2,7 @@
 """NZ Gym Guide — static site generator."""
 
 import json
+import re
 import shutil
 from pathlib import Path
 from datetime import datetime
@@ -48,6 +49,44 @@ def suburb_slugify(name):
 def render(template_name, out_path, **ctx):
     t = env.get_template(template_name)
     write(OUT / out_path, t.render(**ctx))
+
+_INTERNAL_HREF = re.compile(r'href="(?:https?://(?:www\.)?nzgymguide\.co\.nz)?(/[a-z0-9][a-z0-9/_-]*[a-z0-9_-])"')
+
+
+def normalise_internal_links(out):
+    """Give extensionless internal links a trailing slash.
+
+    GitHub Pages 301s /compare to /compare/, so a slashless link is a link to a
+    redirect (Ahrefs: "Page has links to redirect"). Generated articles and
+    guides emit them freely, so fix them once here instead of in every source.
+    """
+    fixed = 0
+    for f in out.rglob("*.html"):
+        html = f.read_text()
+        new, n = _INTERNAL_HREF.subn(lambda m: f'href="{m.group(1)}/"', html)
+        if n:
+            f.write_text(new)
+            fixed += n
+    print(f"  normalised {fixed} internal links")
+
+def resolve_canonical_chains(posts):
+    """Point every canonical_slug at the end of its chain.
+
+    Each autogen run canonicalises older near-duplicates to the newest page, which
+    later gets canonicalised itself, leaving A -> B -> C. Search engines may ignore
+    a canonical that targets a noindex or non-canonical page, so follow the chain.
+    """
+    by_slug = {p["slug"]: p for p in posts}
+    for p in posts:
+        target, seen = p.get("canonical_slug"), {p["slug"]}
+        while target and target in by_slug and target not in seen:
+            seen.add(target)
+            nxt = by_slug[target].get("canonical_slug")
+            if not nxt:
+                break
+            target = nxt
+        if target:
+            p["canonical_slug"] = target
 
 
 def build():
@@ -182,6 +221,7 @@ def build():
     if posts_dir.exists():
         for f in sorted(posts_dir.glob("*.json"), reverse=True):  # newest first
             posts.append(json.loads(f.read_text()))
+        resolve_canonical_chains(posts)
     if posts:
         # Posts index page — reuse the guide layout as a simple hub
         render("posts.html", "deals/index.html", posts=posts, **ctx)
@@ -385,6 +425,8 @@ def build():
 
     # CNAME for GitHub Pages
     (OUT / "CNAME").write_text("nzgymguide.co.nz")
+
+    normalise_internal_links(OUT)
 
     print(f"\nBuild complete → {OUT}/")
 

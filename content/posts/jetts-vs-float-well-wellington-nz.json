@@ -81,8 +81,8 @@
       ],
       "cta": {
         "text": "Compare membership options now",
-        "url": "https://www.nzgymguide.co.nz/compare-jetts-floatwell",
-        "affiliate": true
+        "url": "https://nzgymguide.co.nz/gym/jetts/",
+        "affiliate": false
       }
     }
   ],
