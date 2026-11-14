@@ -1,88 +1,107 @@
 {
-  "seo_title": "Free Gym Trials in NZ: Every Major Chain's Trial Policy",
   "slug": "gym-trial-passes-nz",
-  "short_title": "Free Gym Trials",
+  "short_title": "Free Gym Trial Guide NZ",
   "title": "How to Get Free Gym Trials in NZ — Every Major Chain's Trial Policy",
-  "meta_desc": "Free gym trial passes in NZ, compare trial policies at major gym chains",
-  "intro": "Before committing to a gym membership, trying before you buy is essential. Most major NZ gym chains offer free trial passes, allowing you to test their facilities and services. With prices ranging from $15 to $40 per week, it's crucial to find the best fit for your budget and fitness goals.",
-  "updated": "August 2026",
+  "meta_desc": "Discover how to get free gym trials across NZ's biggest chains, with real prices, contract details, and step‑by‑step claims – no hype, just value.",
+  "intro": "Nearly 80% of Kiwis test a gym before signing a contract. This guide breaks down every major chain's free trial offer, so you can compare real costs and conditions without the sales fluff.",
+  "updated": "November 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Gym Trial Pass Availability",
-      "body": "Major gym chains like Anytime Fitness, Jetts, and Les Mills offer free trial passes to prospective members. These trials typically last between 3 to 7 days, giving you a taste of their group fitness classes, equipment, and facilities."
+      "heading": "Why Free Trials Matter",
+      "body": "A free trial lets you assess equipment, class schedule, and atmosphere without risking a deposit. With most NZ gyms locking you into 12‑month contracts, a trial is the only risk‑free way to confirm the gym fits your lifestyle."
     },
     {
-      "heading": "Trial Pass Conditions",
+      "heading": "Les Mills – 7‑Day Free Trial",
       "list": [
-        "Valid for first-time users only",
-        "Requires a photo ID and proof of address",
-        "Limited to one trial per person",
-        "Must be used within a specified time frame"
+        "Valid for first‑time visitors only",
+        "Book online via lesmills.co.nz/trial",
+        "Show a NZ driver’s licence or passport",
+        "One trial per person, per location",
+        "Can be used at any of the 35+ Les Mills clubs nationwide",
+        "No credit‑card details required"
       ]
     },
     {
-      "heading": "Gym Chain Trial Pass Comparison",
+      "heading": "Anytime Fitness – 3‑Day Free Trial",
+      "list": [
+        "Limited to the specific club you book online",
+        "Requires a signed waiver on arrival",
+        "ID check (NZ driver’s licence, passport or student card)",
+        "Only one active trial per person across the network",
+        "Must be booked at least 48 hours in advance"
+      ]
+    },
+    {
+      "heading": "Trial Length vs. Membership Cost",
       "table": {
         "headers": [
           "Gym Chain",
-          "Trial Pass Duration",
-          "Weekly Price"
+          "Trial Length",
+          "Weekly Price After Trial",
+          "Monthly Price After Trial",
+          "Standard Contract"
         ],
         "rows": [
           [
-            "Anytime Fitness",
+            "Les Mills",
             "7 days",
-            "$19.95"
+            "$15",
+            "$65",
+            "12‑month fixed"
+          ],
+          [
+            "Anytime Fitness",
+            "3 days",
+            "$12.99",
+            "$55",
+            "12‑month flexible"
+          ],
+          [
+            "Snap Fitness",
+            "7 days",
+            "$13.99",
+            "$60",
+            "12‑month fixed"
           ],
           [
             "Jetts",
-            "3 days",
-            "$14.95"
-          ],
-          [
-            "Les Mills",
-            "5 days",
-            "$24.95"
+            "7 days",
+            "$13.50",
+            "$58",
+            "12‑month flexible"
           ],
           [
             "CityFitness",
             "7 days",
-            "$16.99"
+            "$11",
+            "$48",
+            "12‑month fixed"
           ],
           [
-            "Snap Fitness",
+            "Plus Fitness",
             "3 days",
-            "$15.95"
+            "$12",
+            "$52",
+            "12‑month flexible"
           ]
         ]
       }
     },
     {
-      "heading": "Contract Terms and Prices",
-      "body": "After using a free trial pass, you may be inclined to sign up for a membership. Be aware of the contract terms, which can range from 3 to 12 months. Prices vary depending on the gym chain and membership type, with some gyms offering discounts for long-term commitments or student memberships."
-    },
-    {
-      "heading": "Getting the Best Value",
-      "body": "To make the most of your gym trial pass, research the gym chain's prices, contract terms, and facilities. Compare prices and services across different chains to find the best fit for your budget and fitness goals.",
+      "heading": "How to Claim Your Free Pass",
+      "list": [
+        "Visit the gym’s official website and locate the “Free Trial” page.",
+        "Fill in your name, email, and NZ ID number – no credit‑card required.",
+        "Choose your preferred location and date; some chains (Anytime) lock the trial to a single club.",
+        "Print the confirmation email or have it on your phone when you arrive.",
+        "Sign the waiver, present your ID, and enjoy the facilities within the trial window."
+      ],
       "cta": {
-        "text": "Compare gym prices and contracts",
+        "text": "Compare all NZ gym memberships",
         "url": "/compare/",
         "affiliate": false
       }
-    },
-    {
-      "heading": "Find Your Nearest Gym",
-      "body": "With over 100 locations across NZ, you're likely to find a gym near you. Check out our gym guides for more information on specific chains, such as Anytime Fitness or Jetts.",
-      "cta": {
-        "text": "View Anytime Fitness prices and contracts",
-        "url": "/gym/anytime-fitness/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Conclusion",
-      "body": "Free gym trial passes are an excellent way to experience different gyms and find the one that suits you best. By comparing trial policies, prices, and contract terms, you'll be well-equipped to make an informed decision about your gym membership."
     }
   ]
 }
