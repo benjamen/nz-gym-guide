@@ -3321,9 +3321,9 @@
   },
   {
     "slug": "instinct-fitness-wellington",
-    "name": "Instinct Fitness (Thorndon CrossFit)",
+    "name": "Instinct Fitness",
     "logo": "instinct-fitness-wellington",
-    "tagline": "Wellington's elite CrossFit gym — led by 6x national champion Luke Fiso",
+    "tagline": "Coached CrossFit and HYROX classes in Thorndon, Wellington",
     "website": "https://instinctfitness.co.nz/",
     "affiliate_key": null,
     "has_affiliate": false,
@@ -3333,24 +3333,24 @@
       "Wellington"
     ],
     "pricing": {
-      "weekly_from": 48.0,
-      "weekly_to": 55.0,
+      "weekly_from": 57.0,
+      "weekly_to": 65.0,
       "joining_fee": 0,
-      "joining_fee_note": "3x weekly $48/week. Unlimited $55/week.",
-      "minimum_term": "1 month",
-      "casual_visit": null,
+      "joining_fee_note": "3x weekly $57/week. All Access (unlimited) $65/week. No joining fee.",
+      "minimum_term": "No lock-in",
+      "casual_visit": 25.0,
       "contract_required": false
     },
     "tiers": [
       {
         "name": "3x Weekly",
-        "weekly": 48.0,
+        "weekly": 57.0,
         "includes": "3 coached classes per week"
       },
       {
-        "name": "Unlimited",
-        "weekly": 55.0,
-        "includes": "Unlimited coached classes + open gym"
+        "name": "All Access",
+        "weekly": 65.0,
+        "includes": "Unlimited coached classes + Open Gym"
       }
     ],
     "features": {
@@ -3364,55 +3364,30 @@
       "open_247": false,
       "crèche": false
     },
-    "hours": "Classes from 5:30am weekdays, mornings weekends",
-    "cancellation": "No lock-in — monthly",
-    "rating": 5.0,
-    "review_count": 72,
-    "best_for": "Serious CrossFit athletes wanting elite coaching and a semi-private training environment",
-    "watch_out": "Semi-private model — not a drop-in big-box CrossFit. High standards expected.",
-    "discount_note": "Kids/Teens CrossFit classes available — contact for pricing",
-    "verdict": "Led by Luke Fiso, a six-time CrossFit national champion, Instinct Fitness is Wellington's most technically accomplished CrossFit gym. Specialty barbell, gymnastics, and kids programming set it apart. The 3x/week option at $48 is great value.",
+    "hours": "Coached classes from 6am weekdays; see their timetable",
+    "cancellation": "No lock-in contract",
+    "rating": 0,
+    "review_count": 0,
+    "best_for": "People wanting coached CrossFit or HYROX classes in Wellington, from beginners to experienced athletes",
+    "watch_out": "Prices and class times change; confirm on the gym's website before joining.",
+    "discount_note": "Teens and bootcamp run in terms; see their website.",
+    "verdict": "Instinct Fitness runs coached CrossFit and HYROX group classes on Thorndon Quay, plus personal training, bootcamp and teens classes. Check their website for current pricing and timetable.",
     "pros": [
-      "Led by 6x national CrossFit champion",
-      "Specialty barbell and gymnastics classes",
-      "Kids/Teens CrossFit available",
-      "Thorndon Quay location",
-      "Semi-private attention"
+      "Coached CrossFit and HYROX classes",
+      "Personal training, bootcamp and teens programmes",
+      "Drop-in option available",
+      "Thorndon Quay location"
     ],
     "cons": [
-      "High expectations — not casual drop-in",
-      "Smaller class sizes",
       "No 24/7 access",
-      "Pricing by enquiry for PT"
+      "Personal training priced by enquiry"
     ],
-    "google_reviews": [
-      {
-        "name": "Tom H.",
-        "rating": 5,
-        "date": "April 2026",
-        "text": "Best CrossFit coaching in Wellington, hands down. Luke's knowledge of movement is exceptional and every session has purpose. My lifts have gone up 20% in 4 months.",
-        "verified": true
-      },
-      {
-        "name": "Sarah K.",
-        "rating": 5,
-        "date": "March 2026",
-        "text": "The gymnastics specialty classes here are incredible — I've gone from zero pull-ups to strict muscle-ups in 6 months. The coaches here are the real deal.",
-        "verified": true
-      },
-      {
-        "name": "James R.",
-        "rating": 5,
-        "date": "February 2026",
-        "text": "Enrolled my son in the teens CrossFit programme and he loves it. The coaches are patient, fun and build real athleticism. Best decision we made.",
-        "verified": true
-      }
-    ],
-    "free_trial": false,
+    "google_reviews": [],
+    "free_trial": true,
     "trial_duration": null,
-    "trial_notes": "No standing free trial found; many studios offer a free/discounted intro class — ask directly.",
-    "casual_visit_price": null,
-    "casual_visit_notes": "Casual rate not published; contact studio."
+    "trial_notes": "Free intro session offered; book on their website.",
+    "casual_visit_price": 25.0,
+    "casual_visit_notes": "Drop-in $25 per class; check their website for current options."
   },
   {
     "slug": "urban-fitness-wellington",

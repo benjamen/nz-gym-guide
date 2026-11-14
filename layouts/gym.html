@@ -18,14 +18,14 @@
    "url":"{{ gym.website }}",
    "description":"{{ gym.tagline }}",
    "inLanguage":"en-NZ",
-   "offers":{"@type":"Offer","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","unitText":"per week"}},
+   "offers":{"@type":"Offer","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","priceSpecification":{"@type":"UnitPriceSpecification","price":"{{ gym.pricing.weekly_from }}","priceCurrency":"NZD","unitText":"per week"}}{% if gym.rating %},
    "aggregateRating":{
      "@type":"AggregateRating",
      "ratingValue":"{{ gym.rating }}",
      "reviewCount":"{{ gym.review_count }}",
      "bestRating":"5",
      "worstRating":"1"
-   }{% if gym.google_reviews %},
+   }{% endif %}{% if gym.google_reviews %},
    "review":[
      {% for r in gym.google_reviews %}{"@type":"Review","author":{"@type":"Person","name":"{{ r.name }}"},"reviewRating":{"@type":"Rating","ratingValue":"{{ r.rating }}"},"reviewBody":{{ r.text | tojson }},"datePublished":"{{ r.date }}"}{% if not loop.last %},{% endif %}{% endfor %}
    ]{% endif %}
@@ -40,8 +40,8 @@
    {% if gym.phone %}"telephone":{{ gym.phone | tojson }},{% endif %}
    {% if gym.opening_hours %}"openingHours":{{ gym.opening_hours | tojson }},{% endif %}
    {% if gym.lat and gym.lng %}"geo":{"@type":"GeoCoordinates","latitude":"{{ gym.lat }}","longitude":"{{ gym.lng }}"},{% endif %}
-   "priceRange":"${{ gym.pricing.weekly_from }}-${{ gym.pricing.weekly_to }} per week",
-   "aggregateRating":{"@type":"AggregateRating","ratingValue":"{{ gym.rating }}","reviewCount":"{{ gym.review_count }}","bestRating":"5","worstRating":"1"}
+   "priceRange":"${{ gym.pricing.weekly_from }}-${{ gym.pricing.weekly_to }} per week"{% if gym.rating %},
+   "aggregateRating":{"@type":"AggregateRating","ratingValue":"{{ gym.rating }}","reviewCount":"{{ gym.review_count }}","bestRating":"5","worstRating":"1"}{% endif %}
   },
   {% endif %}
   {"@type":"FAQPage","mainEntity":[
@@ -105,7 +105,7 @@
       <span class="stat-val">{{ gym.pricing.minimum_term }}</span>
       <span class="stat-label">Minimum term</span>
     </div>
-    <div class="stat-box">
+    {% if gym.rating %}<div class="stat-box">
       {% set r = gym.rating %}
       {% set full = (r | int) %}
       {% set half = 1 if (r - full) >= 0.5 else 0 %}
@@ -119,7 +119,7 @@
         </span>
       </span>
       <span class="stat-label">{{ gym.review_count | int }} Google reviews</span>
-    </div>
+    </div>{% endif %}
   </div>
 </section>
 
@@ -189,7 +189,7 @@
     <div class="price-row"><span>Cancellation</span><span>{{ gym.cancellation }}</span></div>
   </div>
   {% endif %}
-  <p class="price-note">Prices are indicative. {{ gym.name }} uses franchise pricing — your local club may differ. Always confirm before signing.</p>
+  <p class="price-note">Prices are indicative. {% if gym.nationwide %}{{ gym.name }} uses franchise pricing — your local club may differ. {% endif %}Always confirm before signing.</p>
 </section>
 
 <!-- Features -->
