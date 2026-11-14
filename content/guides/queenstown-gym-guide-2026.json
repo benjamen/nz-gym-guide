@@ -3,9 +3,9 @@
   "slug": "queenstown-gym-guide-2026",
   "short_title": "Gyms in Queenstown",
   "title": "Best Gyms in Queenstown 2026 — Prices, Reviews & Local Options",
-  "meta_desc": "Best gyms in Queenstown 2026 — compare Jetts, Snap Fitness, CrossFit and local studios. Prices for locals and visitors. Honest guide.",
+  "meta_desc": "Best gyms in Queenstown 2026 — compare Jetts, Snap Fitness, CrossFit, OC Health Clubs and local studios. Prices for locals and visitors. Honest guide.",
   "intro": "Queenstown is New Zealand's adventure tourism capital and has a year-round gym scene to match. Whether you're a local, a long-term seasonal worker, or a visitor wanting to keep up your training between ski days and bungee jumps, there are solid options available. The market skews slightly towards fitness studios and CrossFit alongside the standard 24/7 chains.",
-  "updated": "June 2026",
+  "updated": "November 2026",
   "reading_time": 6,
   "sections": [
     {
@@ -15,14 +15,55 @@
     {
       "heading": "Gym Membership Prices in Queenstown",
       "table": {
-        "headers": ["Gym", "Price", "Contract", "Notes"],
+        "headers": [
+          "Gym",
+          "Price",
+          "Contract",
+          "Notes"
+        ],
         "rows": [
-          ["Jetts Queenstown/Frankton", "~$14.95/wk", "No lock-in", "24/7 keyfob"],
-          ["Snap Fitness Queenstown", "~$19.95–$24.95/wk", "12-month", "24/7 keyfob"],
-          ["Anytime Fitness", "~$21.99/wk", "12-month", "24/7 keyfob"],
-          ["CrossFit Queenstown", "~$200–$250/mth", "Monthly", "Coaching included"],
-          ["Queenstown Events Centre", "~$10–$15/visit (casual)", "Daily/weekly", "Pool + gym access"],
-          ["Boutique studios (yoga/pilates)", "$25–$40/class", "Class pack", "Studio hours"]
+          [
+            "Jetts Queenstown/Frankton",
+            "~$14.95/wk",
+            "No lock-in",
+            "24/7 keyfob"
+          ],
+          [
+            "Snap Fitness Queenstown",
+            "~$19.95–$24.95/wk",
+            "12-month",
+            "24/7 keyfob"
+          ],
+          [
+            "Anytime Fitness",
+            "~$21.99/wk",
+            "12-month",
+            "24/7 keyfob"
+          ],
+          [
+            "CrossFit Queenstown",
+            "~$200–$250/mth",
+            "Monthly",
+            "Coaching included"
+          ],
+          [
+            "OC Health Clubs (Frankton)",
+            "Not published",
+            "Ask at intro",
+            "Free 15-min intro; 28-Day Kickstart"
+          ],
+          [
+            "Queenstown Events Centre",
+            "~$10–$15/visit (casual)",
+            "Daily/weekly",
+            "Pool + gym access"
+          ],
+          [
+            "Boutique studios (yoga/pilates)",
+            "$25–$40/class",
+            "Class pack",
+            "Studio hours"
+          ]
         ]
       }
     },
@@ -43,6 +84,10 @@
       "body": "CrossFit Queenstown has a loyal local following and caters well to the active, outdoor-focused Queenstown demographic. Monthly membership is typically in the $200–$250 range including all coached WODs. Drop-in rates for visiting CrossFit athletes are available (usually $25–$35/session). If you're staying for ski season and want structured coached training, CrossFit is worth the investment."
     },
     {
+      "heading": "OC Health Clubs Queenstown (Frankton)",
+      "body": "OC Health Clubs is a coached gym at Queenstown Central Shopping Centre (Shop D1-01, 19 Grant Road, Frankton) offering personal training and group classes. Personal training sessions are capped at four people, and the group classes cover strength, conditioning, Pilates and mobility with a coach guiding each class. New members can book a free 15-minute No-Sweat Intro, by phone or at the club, then start with a 28-Day Kickstart of four weeks of coached training, an induction and a progress review. OC does not publish membership prices on its website, so ask at your intro. Phone 027 308 8080, website ochealthclubs.co.nz. This listing was added at the club's request; no payment or ranking was involved."
+    },
+    {
       "heading": "Queenstown Events Centre (Public Facility)",
       "body": "The Queenstown Events Centre in Frankton offers a pool, gym facilities, and group fitness classes as a public facility. Casual day passes are available, making it ideal for short-stay visitors. Weekly passes are good value for those spending a week or two in town. It's operated by the Queenstown Lakes District Council and provides a community-priced alternative to commercial gyms."
     },
@@ -57,13 +102,31 @@
     {
       "heading": "Which Gym is Best in Queenstown?",
       "table": {
-        "headers": ["Best for", "Recommended gym"],
+        "headers": [
+          "Best for",
+          "Recommended gym"
+        ],
         "rows": [
-          ["Locals and seasonal workers", "Jetts (~$14.95/wk, no lock-in)"],
-          ["Better equipment, still 24/7", "Snap Fitness (~$20–$25/wk)"],
-          ["International travel + gym network", "Anytime Fitness (~$22/wk)"],
-          ["Coached strength training", "CrossFit Queenstown (~$200–$250/mth)"],
-          ["Short-stay visitors / day pass", "Queenstown Events Centre"]
+          [
+            "Locals and seasonal workers",
+            "Jetts (~$14.95/wk, no lock-in)"
+          ],
+          [
+            "Better equipment, still 24/7",
+            "Snap Fitness (~$20–$25/wk)"
+          ],
+          [
+            "International travel + gym network",
+            "Anytime Fitness (~$22/wk)"
+          ],
+          [
+            "Coached strength training",
+            "CrossFit Queenstown (~$200–$250/mth)"
+          ],
+          [
+            "Short-stay visitors / day pass",
+            "Queenstown Events Centre"
+          ]
         ]
       }
     }
@@ -71,7 +134,7 @@
   "faq": [
     {
       "question": "What gyms are in Queenstown?",
-      "answer": "Queenstown has Jetts, Snap Fitness, Anytime Fitness, CrossFit Queenstown, boutique studios (yoga/pilates), and the Queenstown Events Centre public facility in Frankton. Most clubs are concentrated in Frankton rather than the central tourist area."
+      "answer": "Queenstown has Jetts, Snap Fitness, Anytime Fitness, CrossFit Queenstown, OC Health Clubs, boutique studios (yoga/pilates), and the Queenstown Events Centre public facility in Frankton. Most clubs are concentrated in Frankton rather than the central tourist area."
     },
     {
       "question": "What is the cheapest gym in Queenstown?",
