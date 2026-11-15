@@ -1,77 +1,91 @@
 {
-  "seo_title": "Outdoor Fitness vs Gym Membership in NZ: Do You Need Both?",
   "slug": "outdoor-fitness-vs-gym-nz",
-  "short_title": "Outdoor Fitness NZ",
+  "short_title": "Outdoor Fitness vs Gym Membership",
   "title": "Outdoor Fitness vs Gym Membership in NZ — Why You Might Not Need Both",
-  "meta_desc": "Outdoor fitness in NZ vs gym membership: compare prices, contract terms and find the best option for you",
-  "intro": "With New Zealand's stunning outdoors, many Kiwis are opting for outdoor fitness activities like running and cycling over traditional gym memberships. However, there are scenarios where a gym membership can add value to your fitness routine. Let's explore the reality of outdoor fitness in NZ and when a gym membership might be worth considering.",
-  "updated": "August 2026",
+  "meta_desc": "Explore NZ's outdoor fitness options, compare real gym membership costs and contracts, and find out when a gym adds value—no hype, just facts.",
+  "intro": "New Zealand offers world‑class trails, beaches and parks that let you train for free, but the hidden costs and limits of outdoor‑only routines can add up. Let’s see where a gym actually saves you money and time.",
+  "updated": "November 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "NZ Outdoor Fitness Reality",
-      "body": "New Zealand's great outdoors offers plenty of opportunities for physical activity, from hiking and trail running to cycling and water sports. With over 30 percent of Kiwis engaging in outdoor activities at least once a week, it's clear that many prefer the freedom and variety that comes with exercising outside."
+      "heading": "The NZ Outdoor Fitness Landscape",
+      "body": "From the Southern Walkway in Wellington to the Otago Central Rail Trail, Kiwis can run, cycle, hike or join community bootcamps without paying a membership fee. Cities host free group runs (Auckland’s “City Run Club”), municipal fitness stations, and seasonal outdoor classes run by local councils."
     },
     {
-      "heading": "Running and Cycling in NZ",
-      "body": "Running and cycling are two of the most popular outdoor activities in NZ, with many groups and clubs catering to enthusiasts. For example, the Auckland Running Club offers weekly group runs, while the NZ Cycling Federation provides training programs and events for cyclists of all levels."
+      "heading": "Cost of Going Outside",
+      "list": [
+        "Running shoes: NZ$120‑$200 (one‑off)",
+        "Basic bike: NZ$800‑$1,500 (one‑off)",
+        "Cycling helmet: NZ$80‑$150",
+        "Free park workouts & council bootcamps",
+        "Paid specialty bootcamps (e.g., F45 Outdoor) ~ NZ$25 per session"
+      ]
     },
     {
-      "heading": "Outdoor Bootcamps and Group Fitness",
-      "body": "Outdoor bootcamps and group fitness classes are also gaining popularity in NZ, with many gyms and fitness studios offering outdoor sessions. For instance, Les Mills NZ offers outdoor bootcamps in several locations, including Auckland and Wellington, with prices starting from $15 per session."
-    },
-    {
-      "heading": "Gym Membership Prices in NZ",
+      "heading": "Gym Membership Prices & Terms (2026)",
       "table": {
         "headers": [
           "Gym",
-          "Weekly Price",
-          "Monthly Price",
-          "Contract Term"
+          "Weekly Price (No Contract)",
+          "Weekly Price (12‑Month Contract)",
+          "Minimum Term",
+          "Notable Locations"
         ],
         "rows": [
           [
-            "Anytime Fitness NZ",
-            "$21.95",
-            "$89.95",
-            "12 months"
+            "Anytime Fitness",
+            "NZ$14.99",
+            "NZ$9.99",
+            "12 months",
+            "Auckland CBD, Christchurch Central, Dunedin North"
           ],
           [
-            "Jetts NZ",
-            "$19.95",
-            "$79.95",
-            "12 months"
+            "Les Mills",
+            "NZ$30.00",
+            "NZ$15.00",
+            "12 months",
+            "Auckland West, Hamilton, Queenstown"
           ],
           [
-            "CityFitness NZ",
-            "$24.95",
-            "$99.95",
-            "6 months"
+            "Snap Fitness",
+            "NZ$14.00",
+            "NZ$9.00",
+            "12 months",
+            "Wellington Central, Tauranga, Nelson"
           ],
           [
-            "YMCA NZ",
-            "$20.95",
-            "$84.95",
-            "12 months"
+            "24/7 Fitness",
+            "NZ$12.95",
+            "NZ$9.95",
+            "12 months",
+            "Auckland North Shore, Christchurch Riccarton, Palmerston North"
+          ],
+          [
+            "F45 Training (indoor)",
+            "NZ$20 per class",
+            "NZ$199 monthly unlimited",
+            "No contract",
+            "Auckland Ponsonby, Wellington Te Aro, Christchurch Riccarton"
           ]
         ]
       }
     },
     {
-      "heading": "When a Gym Membership Adds Value",
-      "body": "While outdoor fitness activities can be an excellent way to stay active, there are scenarios where a gym membership can add value to your fitness routine. For example, during the winter months when outdoor activities may be limited, a gym membership can provide a convenient and weather-proof alternative. Additionally, gyms often offer specialized equipment and classes that may not be available outdoors.",
-      "cta": {
-        "text": "Compare NZ gym prices and find the best deal for you",
-        "url": "/compare/",
-        "affiliate": false
-      }
+      "heading": "When a Gym Adds Real Value",
+      "list": [
+        "Strength training with calibrated equipment – impossible to replicate reliably outdoors.",
+        "Weather‑proof consistency during NZ’s rainy winter months.",
+        "Professional coaching for technique‑heavy sports (weightlifting, rowing, HIIT).",
+        "Access to group classes with certified instructors (e.g., Les Mills GRIT, F45).",
+        "Childcare facilities for parents who can’t bring kids to parks."
+      ]
     },
     {
-      "heading": "Conclusion",
-      "body": "Ultimately, the decision between outdoor fitness and a gym membership in NZ depends on your individual preferences, fitness goals, and lifestyle. By considering the prices, contract terms, and benefits of each option, you can make an informed decision that suits your needs and budget. For more information on specific gyms and their membership options, visit our gym guide pages, such as the Anytime Fitness NZ page.",
+      "heading": "Hybrid Approach: Do You Need Both?",
+      "body": "If you love the freedom of a morning run on the Tamaki Drive but struggle with upper‑body strength, a part‑time gym membership can fill the gaps. Many gyms now offer “pay‑as‑you‑go” day passes (NZ$10‑$15) so you can keep the cost low while still accessing equipment when the weather turns.",
       "cta": {
-        "text": "Learn more about Anytime Fitness NZ",
-        "url": "/gym/anytime-fitness/",
+        "text": "Compare NZ gyms and find the cheapest plan for your hybrid routine",
+        "url": "/compare/",
         "affiliate": false
       }
     }
