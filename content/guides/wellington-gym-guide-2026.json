@@ -1,71 +1,116 @@
 {
   "slug": "wellington-gym-guide-2026",
-  "short_title": "Wellington Gyms",
+  "short_title": "Wellington Gym Guide 2026",
   "title": "Best Gyms in Wellington 2026 — CBD, Hutt Valley, and Kapiti",
-  "meta_desc": "Find the best gyms in Wellington, from CBD to Hutt Valley and Kapiti, with prices from $15/week",
-  "intro": "Wellington's gym scene is thriving, with a range of options to suit all budgets and fitness levels. With prices starting from $15/week, there's never been a better time to get fit in the capital. From city-centre giants like Les Mills to local favourites in the Hutt Valley and Kapiti, we've got the lowdown on the best gyms in Wellington.",
-  "updated": "August 2026",
+  "meta_desc": "Explore the best gyms in Wellington 2026 – from CBD premium clubs to Hutt Valley value hubs and Kapiti local gyms. Real prices, contracts, and Les Mills alternatives.",
+  "intro": "Wellington’s gym scene is split between high‑end boutique clubs in the CBD and community‑focused facilities in the Hutt Valley and Kapiti. Knowing the exact weekly cost and contract terms can save you hundreds a year.",
+  "updated": "November 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Wellington Gym Landscape",
-      "body": "The Wellington gym landscape is dominated by a few major players, including Les Mills, Anytime Fitness, and Jetts. However, there are also a number of independent gyms and studios offering specialized classes and training programs."
+      "heading": "Wellington gym landscape 2026",
+      "body": "The capital now hosts three clear tiers: premium chains (mainly Les Mills) in the city centre, mid‑range 24/7 gyms with limited classes, and low‑cost community clubs that focus on equipment. Most providers still require a 12‑month minimum contract with a $100 exit fee, though many allow three months of freeze per year."
     },
     {
-      "heading": "City-Centre Options",
+      "heading": "CBD premium gyms",
       "list": [
-        "Les Mills Wellington: $29.99/week, 12-month contract",
-        "Anytime Fitness Wellington CBD: $24.95/week, no contract",
-        "Jetts Wellington: $19.95/week, 12-month contract"
+        "Les Mills Wellington – $49.95 /week, 12‑month contract, unlimited Les Mills classes, 24/7 access",
+        "Vigor Fitness Wellington – $12.95 /week, 12‑month contract, includes group classes (HIIT, Yoga)",
+        "Anytime Fitness Wellington Central – $13.99 /week, 12‑month contract, 24/7 access, 1 guest pass/month",
+        "Snap Fitness Te Aro – $10.95 /week, 12‑month contract, 24/7 access, no classes",
+        "The Gym Wellington (CBD) – $9.95 /week, 12‑month contract, equipment‑only"
       ]
     },
     {
-      "heading": "Les Mills vs Alternatives",
+      "heading": "Hutt Valley – value and community gyms",
+      "list": [
+        "Les Mills Hutt City – $49.95 /week, 12‑month contract, all Les Mills classes",
+        "Anytime Fitness Lower Hutt – $13.99 /week, 12‑month contract, 24/7 access",
+        "Snap Fitness Upper Hutt – $10.95 /week, 12‑month contract, 24/7 access",
+        "The Gym Petone – $9.95 /week, 12‑month contract, equipment‑only",
+        "Fit4Life Hutt Valley – $15.00 /week, 12‑month contract, group classes + 10% off personal training"
+      ]
+    },
+    {
+      "heading": "Kapiti – local neighbourhood gyms",
+      "list": [
+        "Les Mills Kapiti (Paraparaumu) – $49.95 /week, 12‑month contract, all classes",
+        "Anytime Fitness Kapiti – $13.99 /week, 12‑month contract, 24/7 access",
+        "The Gym Kapiti – $9.95 /week, 12‑month contract, equipment‑only",
+        "Kapiti Fitness Club – $12.00 /week, 12‑month contract, includes weekly group class"
+      ]
+    },
+    {
+      "heading": "Price comparison – weekly cost and contract terms",
       "table": {
         "headers": [
           "Gym",
-          "Price/Week",
-          "Contract Term"
+          "Weekly price",
+          "Monthly estimate",
+          "Contract length",
+          "Key features"
         ],
         "rows": [
           [
-            "Les Mills Wellington",
-            "$29.99",
-            "12 months"
+            "Les Mills Wellington (CBD)",
+            "$49.95",
+            "$216",
+            "12 months",
+            "All Les Mills classes, 24/7 access"
           ],
           [
-            "Anytime Fitness Wellington CBD",
-            "$24.95",
-            "no contract"
+            "Anytime Fitness Wellington Central",
+            "$13.99",
+            "$61",
+            "12 months",
+            "24/7 access, 1 guest pass/month"
           ],
           [
-            "Jetts Wellington",
-            "$19.95",
-            "12 months"
+            "Snap Fitness Te Aro",
+            "$10.95",
+            "$47",
+            "12 months",
+            "24/7 access, no classes"
           ],
           [
-            "CityFitness Wellington",
-            "$15/week",
-            "no contract"
+            "The Gym Wellington",
+            "$9.95",
+            "$43",
+            "12 months",
+            "Equipment‑only, no classes"
+          ],
+          [
+            "Les Mills Hutt City",
+            "$49.95",
+            "$216",
+            "12 months",
+            "All Les Mills classes, 24/7 access"
+          ],
+          [
+            "Fit4Life Hutt Valley",
+            "$15.00",
+            "$65",
+            "12 months",
+            "Group classes + PT discount"
           ]
         ]
       }
     },
     {
-      "heading": "Hutt Valley and Kapiti Options",
-      "body": "If you're based in the Hutt Valley or Kapiti, there are a number of gym options available to you. These include Les Mills Hutt City, Anytime Fitness Lower Hutt, and Jetts Paraparaumu.",
-      "cta": {
-        "text": "Compare Hutt Valley gym prices",
-        "url": "/compare/",
-        "affiliate": false
-      }
+      "heading": "Les Mills vs alternatives – what’s the real difference",
+      "body": "Les Mills gyms charge a premium for a constantly refreshed class schedule (e.g., BODYCOMBAT, RPM, PIIT28) and world‑class instructors. Cheaper 24/7 gyms give you the same equipment but limited or no group sessions, meaning you’ll need to plan your own workouts.",
+      "list": [
+        "Class variety – Les Mills offers 30+ weekly classes; most alternatives offer 2‑4.",
+        "Cost – Les Mills averages $50 /week versus $10‑$14 for 24/7 gyms.",
+        "Flexibility – 24/7 gyms let you train any hour without a class slot.",
+        "Community – Les Mills cultivates a class‑based community; budget gyms rely on self‑motivation."
+      ]
     },
     {
-      "heading": "Getting the Best Value",
-      "body": "To get the best value from your gym membership, it's essential to consider your fitness goals and budget. If you're looking for a low-cost option with no contract, CityFitness Wellington may be the best choice. However, if you're willing to commit to a 12-month contract, Les Mills or Jetts may offer better value in the long run.",
+      "heading": "Find your best fit",
       "cta": {
-        "text": "Read our full Les Mills review",
-        "url": "/gym/les-mills/",
+        "text": "Compare Wellington gyms now",
+        "url": "/compare/",
         "affiliate": false
       }
     }
