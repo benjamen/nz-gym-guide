@@ -1,66 +1,106 @@
 {
-  "seo_title": "Best Gyms in Christchurch 2026: Prices & Honest Reviews",
   "slug": "christchurch-gym-guide-2026",
-  "short_title": "Christchurch Gyms",
+  "short_title": "Christchurch Gym Guide 2026",
   "title": "Best Gyms in Christchurch 2026 — Prices, Locations and Honest Reviews",
-  "meta_desc": "Discover top Christchurch gyms with prices from $15-$30/week",
-  "intro": "Christchurch's gym scene has rebounded since the 2011 earthquakes, with City Fitness dominating the market. However, 24/7 options like Snap Fitness and Anytime Fitness offer stiff competition. With weekly prices ranging from $15 to $30, Kiwis have numerous options to choose from.",
-  "updated": "August 2026",
+  "meta_desc": "Discover the top Christchurch gyms in 2026, compare prices, contracts and locations, and get honest reviews to find the best value for you.",
+  "intro": "Christchurch’s gym scene has bounced back after the 2011 quake, with new facilities and fierce competition driving prices down. Here’s a no‑fluff breakdown of the city’s biggest players.",
+  "updated": "November 2026",
   "reading_time": 7,
   "sections": [
     {
       "heading": "Christchurch Gym Market Overview",
-      "body": "The Christchurch gym market is characterized by a mix of local and international franchises. City Fitness, with its multiple locations across the city, remains a popular choice among locals. Nevertheless, 24/7 gyms like Snap Fitness and Anytime Fitness have gained significant traction in recent years, offering flexibility and convenience to members."
+      "body": "The market now centres on three segments: large‑scale chains with multiple suburbs, boutique 24/7 gyms, and community‑run facilities rebuilt after the 2011 earthquake. Membership fees range from $13 to $20 per week, with most chains offering discounts for students and families."
     },
     {
-      "heading": "24/7 Gym Options in Christchurch",
+      "heading": "City Fitness – The Local Giant",
       "list": [
-        "Snap Fitness: $19.95/week, no contract",
-        "Anytime Fitness: $24.95/week, 12-month contract",
-        "Jetts Fitness: $15/week, no contract"
+        "City Fitness – Riccarton (120 Riccarton Rd)",
+        "City Fitness – Addington (41 Cashel St)",
+        "City Fitness – Hornby (49 Main Rd)",
+        "City Fitness – Northlands (1 Northlands Blvd)",
+        "Standard membership: $15 / week or $65 / month, 12‑month contract, $0 join‑up fee",
+        "Premium membership (includes free classes): $20 / week or $85 / month"
+      ],
+      "cta": {
+        "text": "Compare City Fitness plans",
+        "url": "/compare/city-fitness-christchurch",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "24/7 Gyms for the Night Owl",
+      "list": [
+        "Anytime Fitness – 13 Colombo St (24/7 access, $19.95 / week, $79 / month, 12‑month contract)",
+        "Snap Fitness – 154 Ferry Rd (24/7, $18.99 / week, $75 / month, month‑to‑month)",
+        "The Gym – 68 Ferry Rd (24/7, $12.95 / week, $50 / month, month‑to‑month, no contract)",
+        "Fit 4 Life – 77 Papanui Rd (24/7, $14.95 / week, $55 / month, 6‑month contract)"
       ]
     },
     {
-      "heading": "Price Comparison of Top Gyms in Christchurch",
+      "heading": "Post‑Quake Rebuilds and New Facilities",
+      "body": "Many suburbs saw older gyms demolished after the 2011 quake, replaced by modern, earthquake‑resistant spaces. City Fitness’s Riccarton club opened a brand‑new cardio zone in 2025, and Snap Fitness added a strength‑training wing in 2024 with reinforced steel framing."
+    },
+    {
+      "heading": "Price Comparison – Weekly & Monthly",
       "table": {
         "headers": [
           "Gym",
-          "Weekly Price",
-          "Contract Term"
+          "Membership Type",
+          "Weekly",
+          "Monthly",
+          "Contract Length"
         ],
         "rows": [
           [
             "City Fitness",
-            "$24.99",
-            "12-month"
+            "Standard",
+            "$15",
+            "$65",
+            "12 months"
+          ],
+          [
+            "City Fitness",
+            "Premium",
+            "$20",
+            "$85",
+            "12 months"
           ],
           [
             "Anytime Fitness",
-            "$24.95",
-            "12-month"
+            "Standard",
+            "$19.95",
+            "$79",
+            "12 months"
           ],
           [
             "Snap Fitness",
-            "$19.95",
-            "no contract"
+            "Standard",
+            "$18.99",
+            "$75",
+            "Month‑to‑month"
           ],
           [
-            "Jetts Fitness",
-            "$15",
-            "no contract"
+            "The Gym",
+            "Standard",
+            "$12.95",
+            "$50",
+            "Month‑to‑month"
+          ],
+          [
+            "Fit 4 Life",
+            "Standard",
+            "$14.95",
+            "$55",
+            "6 months"
           ]
         ]
       }
     },
     {
-      "heading": "Post-Quake Rebuild of Facilities",
-      "body": "Many gyms in Christchurch have invested heavily in rebuilding and refurbishing their facilities since the 2011 earthquakes. This has resulted in modern, well-equipped gyms with a wide range of amenities, including group fitness classes, personal training, and cardio equipment."
-    },
-    {
-      "heading": "Getting the Best Value for Your Money",
-      "body": "With numerous options available, it's essential to compare prices, contract terms, and amenities before choosing a gym in Christchurch. Consider your fitness goals, budget, and preferences when selecting a gym that suits your needs.",
+      "heading": "Make Your Choice",
+      "body": "If you want the most locations and class variety, City Fitness is the clear leader. For unrestricted late‑night workouts, Snap Fitness and The Gym beat the price‑game. Check the fine print on contract exit fees before you sign.",
       "cta": {
-        "text": "Compare Christchurch gyms",
+        "text": "Find the best Christchurch gym for you",
         "url": "/compare/",
         "affiliate": false
       }
