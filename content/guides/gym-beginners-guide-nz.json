@@ -1,76 +1,98 @@
 {
-  "seo_title": "Joining a Gym for the First Time in NZ: What to Expect",
   "slug": "gym-beginners-guide-nz",
-  "short_title": "Gym Starter Guide",
+  "short_title": "First Gym Guide NZ",
   "title": "Joining a Gym for the First Time in NZ — What to Expect and How to Choose",
-  "meta_desc": "Joining a gym in NZ? Learn what to expect, compare prices & choose the best gym for you",
-  "intro": "Starting a gym journey can be daunting, especially with numerous options available in New Zealand. With weekly membership prices ranging from $15 to $50, it's essential to choose a gym that suits your needs and budget. In this guide, we'll walk you through the process of selecting the perfect gym for your fitness goals.",
-  "updated": "August 2026",
-  "reading_time": 7,
+  "meta_desc": "Learn what to expect when joining a gym for the first time in NZ, from trial passes and inductions to contracts and the best starter gyms.",
+  "intro": "Your first gym membership can feel overwhelming – there are dozens of chains, hidden fees, and a flood of promotional offers. This guide cuts through the noise with real prices and practical tips.",
+  "updated": "November 2026",
+  "reading_time": 6,
   "sections": [
     {
-      "heading": "What to Look for in a Gym",
-      "body": "When selecting a gym, consider factors such as location, operating hours, equipment variety, and group fitness classes. Popular gyms like Anytime Fitness, with over 50 locations across NZ, and Les Mills, with 12 locations, offer a range of amenities and services."
+      "heading": "What to Look for in Your First Gym",
+      "list": [
+        "Location and opening hours – 24/7 access is common, but a gym near home or work saves commute time.",
+        "Equipment mix – enough free weights, cardio machines, and functional zones for beginners.",
+        "Class variety – introductory HIIT, yoga, or strength classes help build confidence.",
+        "Cleanliness and staff friendliness – a welcoming environment reduces intimidation.",
+        "Additional amenities – showers, lockers, and parking can affect your overall cost."
+      ]
     },
     {
-      "heading": "Trial Passes and Induction Sessions",
-      "body": "Most gyms offer trial passes or guest passes, allowing you to experience their facilities before committing to a membership. For example, Jetts Fitness provides a 3-day trial pass, while City Fitness offers a free 7-day trial. Induction sessions are also essential, as they help you understand how to use the equipment and create a workout routine."
+      "heading": "Trial Passes – Test Before You Commit",
+      "list": [
+        "7‑day free passes are standard at Les Mills, Anytime Fitness and Jetts.",
+        "3‑day $5 passes at Snap Fitness Auckland City – great for a quick feel.",
+        "No‑card required trial at Fitness First Wellington; just bring ID.",
+        "Ask about “bring a friend” days – you get two passes for the price of one."
+      ]
     },
     {
-      "heading": "Contract Terms and Pricing",
+      "heading": "Induction Sessions – Getting Started Safely",
+      "body": "Most NZ gyms include a free induction session with a qualified trainer. Expect a 30‑minute walkthrough of equipment, a basic movement screen, and a starter workout plan tailored to your goals. Bring your own shoes and a water bottle; the session is your chance to ask about class schedules and injury‑prevention tips."
+    },
+    {
+      "heading": "Contracts, Fees and Price Comparison",
       "table": {
         "headers": [
           "Gym",
-          "Weekly Price",
-          "Contract Term"
+          "Weekly Price (Contract)",
+          "Monthly Price (No‑Contract)",
+          "Contract Length",
+          "Joining Fee"
         ],
         "rows": [
           [
-            "Anytime Fitness",
-            "$24.95",
-            "12-month"
+            "Les Mills (Auckland Central)",
+            "$15",
+            "$20",
+            "12 months (auto‑renew)",
+            "$0"
           ],
           [
-            "Jetts Fitness",
-            "$19.95",
-            "12-month"
+            "Anytime Fitness (Christchurch)",
+            "$20",
+            "$27",
+            "12 months",
+            "$30 (waivable with 3‑month commitment)"
           ],
           [
-            "Les Mills",
-            "$34.95",
-            "6-month"
+            "Jetts (Wellington)",
+            "$15",
+            "$19",
+            "12 months",
+            "$0"
           ],
           [
-            "City Fitness",
-            "$29.95",
-            "12-month"
+            "Snap Fitness (Hamilton)",
+            "$15",
+            "$18",
+            "12 months",
+            "$20"
+          ],
+          [
+            "Fitness First (Dunedin)",
+            "$18",
+            "$24",
+            "12 months",
+            "$0"
           ]
         ]
       }
     },
     {
-      "heading": "Best Starter Gyms in NZ",
+      "heading": "Best Starter Gyms for Newbies",
       "list": [
-        "Anytime Fitness: 24/7 access, affordable pricing, and a wide range of equipment",
-        "Jetts Fitness: No contract options, low prices, and a variety of group fitness classes",
-        "Les Mills: High-quality equipment, expert trainers, and a supportive community",
-        "City Fitness: State-of-the-art facilities, personalized training programs, and flexible membership options"
+        "Les Mills – low joining fee, strong beginner class schedule, 7‑day free trial.",
+        "Jetts – affordable $15 week contract, 24/7 access, free induction.",
+        "Anytime Fitness – nationwide key card, good cardio area, frequent promotional discounts.",
+        "Snap Fitness – friendly staff, plenty of free weights, $5‑day trial for first‑timers."
       ]
     },
     {
-      "heading": "Getting Started",
-      "body": "Once you've chosen a gym, it's essential to set realistic fitness goals and create a workout routine. Consider investing in a personal training session to help you get started. Don't oversell yourself on a contract – opt for a flexible membership or a shorter contract term to ensure you're committed to your fitness journey.",
+      "heading": "Take the Next Step",
       "cta": {
-        "text": "Compare gym memberships",
+        "text": "Compare NZ gyms side‑by‑side",
         "url": "/compare/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Next Steps",
-      "cta": {
-        "text": "Learn more about Anytime Fitness",
-        "url": "/gym/anytime-fitness/",
         "affiliate": false
       }
     }
