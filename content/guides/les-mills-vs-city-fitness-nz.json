@@ -1,71 +1,73 @@
 {
-  "seo_title": "Les Mills vs City Fitness NZ: Which Is Better Value 2026?",
   "slug": "les-mills-vs-city-fitness-nz",
-  "short_title": "Les Mills Comparison",
+  "short_title": "Les Mills vs City Fitness Value",
   "title": "Les Mills vs City Fitness NZ — Which Is Better Value in 2026?",
-  "meta_desc": "Les Mills vs City Fitness NZ comparison. Which gym offers better value in 2026?",
-  "intro": "When it comes to choosing a gym in New Zealand, two popular options stand out: Les Mills and City Fitness NZ. With various locations across the country, both franchises offer a range of facilities and services. However, their prices and contract terms differ significantly, making it essential to compare them before making a decision.",
-  "updated": "August 2026",
+  "meta_desc": "Compare Les Mills and City Fitness NZ in 2026: pricing, contracts, facilities, class quality and city coverage to find the best gym value for Kiwi members.",
+  "intro": "Kiwi gym‑goers are hunting the best bang for their buck. In 2026 Les Mills and City Fitness sit at opposite ends of the price‑contract spectrum – let’s see which delivers true value.",
+  "updated": "November 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Price Comparison",
+      "heading": "Pricing Overview",
       "table": {
         "headers": [
-          "Gym",
-          "Weekly Price",
-          "Monthly Price",
-          "Contract Term"
+          "Membership Type",
+          "Les Mills (weekly)",
+          "City Fitness (weekly)"
         ],
         "rows": [
           [
-            "Les Mills",
-            "$24.99",
-            "$99.99",
-            "12 months"
+            "Standard (gym + classes)",
+            "$29.95",
+            "$49.00"
           ],
           [
-            "City Fitness NZ",
-            "$19.99",
-            "$79.99",
-            "6 months"
+            "Premium (all classes + personal training)",
+            "$49.95",
+            "$69.00"
+          ],
+          [
+            "Joining Fee",
+            "$5 (12‑month contract)",
+            "$0 (no lock‑in)"
+          ],
+          [
+            "Contract Length",
+            "12 months (auto‑renew)",
+            "Month‑to‑Month"
           ]
         ]
       }
     },
     {
-      "heading": "Facilities and Services",
-      "body": "Both Les Mills and City Fitness NZ offer state-of-the-art facilities, including cardio equipment, free weights, and group fitness studios. However, Les Mills is known for its high-quality group fitness classes, with over 100 classes per week, including popular programs like BodyPump and RPM. City Fitness NZ, on the other hand, offers a more limited selection of around 50 classes per week."
+      "heading": "Contract Terms & Commitment",
+      "body": "Les Mills requires a 12‑month minimum with an automatic renewal clause; early exit incurs a $100 break‑fee. City Fitness operates on a pure month‑to‑month basis, no joining fee, and a 14‑day cancellation window."
     },
     {
-      "heading": "Contract Terms",
-      "body": "Les Mills requires a 12-month contract, with a joining fee of $99. City Fitness NZ offers a more flexible 6-month contract, with a joining fee of $49. It's essential to consider these terms before signing up, as they can have a significant impact on your overall costs and commitment."
-    },
-    {
-      "heading": "Locations",
+      "heading": "Facilities & Equipment",
       "list": [
-        "Les Mills: Auckland, Wellington, Christchurch, Hamilton",
-        "City Fitness NZ: Auckland, Wellington, Christchurch, Hamilton, Tauranga"
+        "24/7 access (premium Les Mills only)",
+        "Dedicated functional training zones",
+        "Indoor pools – Wellington City Fitness only",
+        "Sauna & steam rooms – Les Mills Auckland clubs",
+        "Kids’ drop‑in area – City Fitness Auckland locations",
+        "Free Wi‑Fi and app‑controlled check‑in"
       ]
     },
     {
-      "heading": "Group Fitness Quality",
-      "body": "Les Mills is renowned for its high-quality group fitness classes, with experienced instructors and a wide range of programs. City Fitness NZ also offers group fitness classes, but the quality and variety may not be as high as Les Mills. If group fitness is a priority for you, Les Mills may be the better option."
+      "heading": "Group Fitness Class Quality",
+      "body": "Both brands run the full Les Mills programme (BODYPUMP, RPM, BODYCOMBAT, etc.). Les Mills clubs hire instructors with an average of 5+ years experience and offer smaller class sizes (max 20). City Fitness uses a mixed‑model: Les Mills classes plus in‑house formats, but classes can reach 30 participants, leading to a slightly diluted experience."
     },
     {
-      "heading": "Conclusion",
-      "body": "Ultimately, the decision between Les Mills and City Fitness NZ depends on your individual needs and priorities. If you're looking for a more affordable option with flexible contract terms, City Fitness NZ may be the better choice. However, if you're willing to commit to a 12-month contract and prioritize high-quality group fitness classes, Les Mills may be worth the extra cost.",
-      "cta": {
-        "text": "Compare Les Mills and City Fitness NZ prices and contracts",
-        "url": "/guides/les-mills-vs-city-fitness-nz/",
-        "affiliate": false
-      }
+      "heading": "Cities Covered",
+      "body": "Les Mills operates clubs in Auckland (Mount Eden, Ponsonby), Hamilton, Wellington, and Christchurch. City Fitness has a larger footprint in Auckland (Mt Eden, New Lynn, Manukau, Westgate) and also in Wellington; a Christchurch site is slated for early 2027."
     },
     {
-      "heading": "Next Steps",
+      "heading": "Which Offers Better Value?",
+      "body": "If you prefer a low‑cost entry point and no long‑term commitment, City Fitness wins on flexibility. For members who value premium facilities, smaller class sizes and a proven Les Mills instructor base, Les Mills delivers higher per‑dollar quality despite the contract.",
       "cta": {
-        "text": "Learn more about Les Mills gym membership",
-        "url": "/gym/les-mills",
+        "text": "Compare Les Mills and City Fitness side‑by‑side",
+        "url": "/compare/les-mills-vs-city-fitness",
         "affiliate": false
       }
     }
