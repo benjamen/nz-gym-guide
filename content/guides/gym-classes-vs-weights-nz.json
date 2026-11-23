@@ -1,77 +1,90 @@
 {
-  "seo_title": "Group Classes vs Weights: Which Gym Type Suits You in NZ?",
   "slug": "gym-classes-vs-weights-nz",
-  "short_title": "Gym Types NZ",
+  "short_title": "Classes or Weights – NZ Guide",
   "title": "Group Classes vs Weights — Which Gym Type Is Right for You in NZ?",
-  "meta_desc": "Gym classes vs weights in NZ: compare prices and contract terms",
-  "intro": "When choosing a gym in New Zealand, it ultimately comes down to your personality, goals, and budget. If you're a social butterfly, group classes might be the way to go, but if you prefer solo workouts, a weights-focused gym could be more suitable. With prices ranging from $15 to $50 per week, it's essential to weigh up the costs and benefits.",
-  "updated": "August 2026",
+  "meta_desc": "Compare group‑class gyms and weight‑focused gyms in NZ – costs, contracts, personality fit and hybrid options like ClassPass. Find the right fit.",
+  "intro": "Whether you thrive on high‑energy classes or prefer solo strength sessions, the right gym can save you money and keep you motivated. This guide breaks down personality fit, goals, social vibe and real NZ pricing.",
+  "updated": "November 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Personality Types and Gym Preferences",
-      "body": "If you're an outgoing person who thrives in social environments, group classes like those offered at Les Mills (with over 40 locations across NZ) might be the perfect fit. On the other hand, if you're more introverted or prefer working out alone, a gym like Jetts (with 24/7 access and no lock-in contracts) could be more suitable."
+      "heading": "Personality Types & Motivation",
+      "body": "Extroverted, schedule‑driven people often enjoy the structure and community of group classes, while introverts or self‑directed lifters usually prefer the freedom of a weights‑only floor. If you need a trainer’s cue or music to push you, classes win; if you value quiet focus, a weight‑centric gym is a better match."
     },
     {
-      "heading": "Cost Comparison",
+      "heading": "Goal Alignment – Strength vs Cardio",
+      "body": "Group‑class programs like Les Mills, F45 or Jetts HIIT target cardiovascular fitness, flexibility and functional movement, ideal for weight loss or sport‑specific conditioning. Dedicated weight rooms at Anytime Fitness, Snap Fitness or CityFitness let you program progressive overload, perfect for building muscle, improving bone density, or mastering lifts."
+    },
+    {
+      "heading": "Social Factor & Community",
+      "list": [
+        "Classes create built‑in accountability – you’re less likely to skip a session when the whole class is counting on you.",
+        "Weight‑only gyms often host smaller community events (e.g., power‑lifting meet‑ups) but daily interaction is optional.",
+        "Hybrid gyms (e.g., Anytime Fitness) offer both, letting you switch between a class and a solo session as your mood changes."
+      ]
+    },
+    {
+      "heading": "Cost per Session – Real NZ Prices",
       "table": {
         "headers": [
           "Gym",
-          "Weekly Price",
-          "Contract Term"
+          "Type",
+          "Monthly Cost",
+          "Contract",
+          "Included Classes"
         ],
         "rows": [
           [
-            "Les Mills",
-            "$24.95",
-            "12 months"
+            "Les Mills",
+            "Group‑class",
+            "NZ$89 (12‑month)",
+            "12‑month",
+            "Unlimited Les Mills classes"
           ],
           [
-            "Jetts",
-            "$16.95",
-            "no lock-in contract"
+            "F45 Training",
+            "Group‑class",
+            "NZ$149 (12‑month)",
+            "12‑month",
+            "Unlimited F45 sessions"
           ],
           [
-            "City Fitness",
-            "$19.95",
-            "6 months"
+            "Anytime Fitness",
+            "Weights + Classes",
+            "NZ$79 (12‑month)",
+            "12‑month",
+            "Up to 4 group classes per month"
           ],
           [
-            "Anytime Fitness",
-            "$29.95",
-            "12 months"
+            "Snap Fitness",
+            "Weights‑only",
+            "NZ$79 (no contract)",
+            "None",
+            "None – classes $10 each"
+          ],
+          [
+            "CityFitness",
+            "Hybrid",
+            "NZ$69 (12‑month)",
+            "12‑month",
+            "Unlimited CityFitness classes"
           ]
         ]
-      }
-    },
-    {
-      "heading": "ClassPass: A Hybrid Solution",
-      "body": "If you're torn between group classes and weights, ClassPass could be the answer. With prices starting from $49 per month for 3 classes, you can try out different gyms and classes without committing to a long-term contract. ClassPass partners with over 100 gyms in NZ, including popular chains like F45 and Orangetheory."
-    },
-    {
-      "heading": "Social Factor and Motivation",
-      "body": "Exercising with others can be a great motivator, and group classes often provide a sense of community and accountability. However, if you prefer working out alone, you can still stay motivated by tracking your progress and setting goals. Consider what drives you and what type of environment will help you stick to your fitness routine."
-    },
-    {
-      "heading": "Compare Gyms and Find the Best Deal",
+      },
       "cta": {
-        "text": "Compare NZ gyms and prices",
+        "text": "Compare these gyms side‑by‑side",
         "url": "/compare/",
         "affiliate": false
       }
     },
     {
-      "heading": "Les Mills Gym Review",
-      "body": "Les Mills is one of the most popular gym chains in NZ, with a wide range of group classes and equipment. Prices start from $24.95 per week, and you can sign up for a 12-month contract. If you're interested in learning more, check out our in-depth review.",
+      "heading": "Hybrid Solution: ClassPass",
+      "body": "ClassPass lets you sample any of the above gyms (and boutique studios) on a credit basis: NZ$30 for 5 credits, each class typically costs 2‑3 credits. This works well for people who want the social boost of classes but still need unrestricted weight‑room access on off‑days.",
       "cta": {
-        "text": "Read our Les Mills gym review",
-        "url": "/gym/les-mills/",
+        "text": "See ClassPass options in NZ",
+        "url": "/guides/classpass-nz/",
         "affiliate": false
       }
-    },
-    {
-      "heading": "Conclusion",
-      "body": "Ultimately, the right gym type for you will depend on your unique preferences, goals, and budget. By considering the social factor, cost per session, and contract terms, you can make an informed decision and find a gym that helps you achieve your fitness goals."
     }
   ]
 }
