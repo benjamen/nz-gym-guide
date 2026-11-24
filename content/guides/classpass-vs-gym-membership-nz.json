@@ -1,75 +1,110 @@
 {
   "slug": "classpass-vs-gym-membership-nz",
-  "short_title": "ClassPass Savings",
+  "short_title": "ClassPass vs Traditional Gym Membership",
   "title": "ClassPass vs Gym Membership in NZ — Which Saves More Money?",
-  "meta_desc": "Compare ClassPass and gym membership costs in NZ. Discover which option saves you more money with our expert guide.",
-  "intro": "With the rising cost of living in New Zealand, it's essential to choose a fitness membership that suits your budget. ClassPass and traditional gym memberships are two popular options, but which one offers better value for money? Let's dive into the details and compare the costs.",
-  "updated": "August 2026",
+  "meta_desc": "Compare ClassPass credit costs with NZ gym membership fees. Find out which option gives you the best value based on real prices and contracts.",
+  "intro": "Kiwis love flexibility, but does that flexibility come at a higher price? We break down ClassPass credit pricing versus standard gym contracts across New Zealand to see where the real savings lie.",
+  "updated": "November 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "How ClassPass Works",
-      "body": "ClassPass is a subscription-based fitness platform that allows users to attend classes at various studios and gyms across New Zealand. The platform uses a credit system, where users purchase a set number of credits per month, which can be redeemed for classes. The cost of ClassPass in NZ starts at $49 per month for 3 credits, with each credit valued at around $15-$20 per class."
+      "heading": "What is ClassPass and how the credit system works",
+      "body": "ClassPass sells a monthly bundle of credits that you trade for classes, studio time, or specialised sessions. Each activity costs a set number of credits – usually 1 credit for a standard group class, 2‑3 credits for premium or longer workshops. Unused credits roll over for up to three months, giving you a safety net if you miss a week."
     },
     {
-      "heading": "Real Cost at NZ Studios",
-      "body": "The cost of classes at NZ studios varies greatly, with some studios charging as low as $10 per class and others charging up to $30 per class. For example, a yoga class at Yoga House in Auckland costs around $20 per class, while a strength training class at F45 in Wellington costs around $25 per class."
-    },
-    {
-      "heading": "ClassPass vs Gym Membership: Price Comparison",
+      "heading": "ClassPass pricing in New Zealand",
       "table": {
         "headers": [
-          "Option",
-          "Weekly Cost",
-          "Monthly Cost",
-          "Contract Term"
+          "Credits",
+          "Monthly Cost (NZD)",
+          "Cost per Credit"
         ],
         "rows": [
           [
-            "ClassPass (3 credits)",
-            "$11.80",
-            "$49",
-            "Month-to-month"
+            "8",
+            "$39",
+            "$4.88"
           ],
           [
-            "Les Mills NZ",
-            "$16.95",
-            "$69.95",
-            "12-month contract"
+            "15",
+            "$69",
+            "$4.60"
           ],
           [
-            "Anytime Fitness NZ",
-            "$19.95",
-            "$79.95",
-            "12-month contract"
-          ],
-          [
-            "Jetts NZ",
-            "$14.95",
-            "$59.95",
-            "12-month contract"
+            "30",
+            "$119",
+            "$3.97"
           ]
         ]
       }
     },
     {
-      "heading": "Best Use Cases for ClassPass and Gym Membership",
-      "body": "ClassPass is ideal for those who enjoy variety in their workout routine and want to try different classes and studios. On the other hand, a dedicated gym membership is better suited for those who have a consistent workout routine and prefer to use the same equipment and facilities regularly."
-    },
-    {
-      "heading": "Get the Best Value for Your Money",
-      "cta": {
-        "text": "Compare gym memberships and prices",
-        "url": "/compare/",
-        "affiliate": false
+      "heading": "Typical New Zealand gym membership rates",
+      "table": {
+        "headers": [
+          "Gym",
+          "Weekly Cost (NZD)",
+          "Monthly Cost (NZD)",
+          "Contract Length"
+        ],
+        "rows": [
+          [
+            "Les Mills",
+            "$70",
+            "$303",
+            "12 months"
+          ],
+          [
+            "Anytime Fitness",
+            "$20",
+            "$87",
+            "12 months"
+          ],
+          [
+            "Jetts",
+            "$15",
+            "$65",
+            "12 months"
+          ],
+          [
+            "Snap Fitness",
+            "$20",
+            "$87",
+            "12 months"
+          ],
+          [
+            "Fitness First",
+            "$90",
+            "$390",
+            "No contract"
+          ]
+        ]
       }
     },
     {
-      "heading": "Specific Gym Membership Options",
-      "body": "If you're looking for a dedicated gym membership, consider options like Les Mills NZ, which offers a 12-month contract for $69.95 per month. Alternatively, you can check out our detailed guide to Anytime Fitness NZ, which offers a 12-month contract for $79.95 per month.",
+      "heading": "When ClassPass gives you the best value",
+      "list": [
+        "You work out 1‑2 times a week and want to sample different studios.",
+        "You travel between Auckland, Wellington, and Christchurch and need access to multiple locations.",
+        "You prefer boutique classes (e.g., HIIT, Pilates, boxing) that charge extra credits but fit your schedule.",
+        "You’re unsure which type of workout you’ll stick with and want to try before committing."
+      ]
+    },
+    {
+      "heading": "When a dedicated membership wins",
+      "list": [
+        "You hit the gym 4+ times a week – a weekly $15‑$20 membership becomes cheaper than buying credits.",
+        "You need 24/7 access to equipment (e.g., weight rooms, cardio machines) that boutique studios don’t always offer.",
+        "You prefer a single location with locker rooms, showers, and on‑site personal trainers.",
+        "You’re comfortable signing a 12‑month contract to lock in a lower weekly rate."
+      ]
+    },
+    {
+      "heading": "Bottom line: Which saves more money?",
+      "body": "If your workout frequency is low or you love hopping between studios, ClassPass can be cheaper – especially with the 30‑credit bundle at $119, which covers up to 15 standard classes a month. However, anyone exercising three or more times a week will see the per‑visit cost drop below $5 with a $15‑$20 weekly gym membership, making a traditional contract the clear winner.",
       "cta": {
-        "text": "Learn more about Anytime Fitness NZ",
-        "url": "/gym/anytime-fitness/",
+        "text": "Compare all NZ gyms side‑by‑side",
+        "url": "/compare/",
         "affiliate": false
       }
     }
