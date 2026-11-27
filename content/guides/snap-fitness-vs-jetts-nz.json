@@ -1,79 +1,71 @@
 {
   "slug": "snap-fitness-vs-jetts-nz",
-  "short_title": "24/7 Gym Comparison",
+  "short_title": "Snap vs Jetts Budget Showdown",
   "title": "Snap Fitness vs Jetts NZ — 24/7 Budget Gym Comparison 2026",
-  "meta_desc": "Compare Snap Fitness and Jetts NZ prices, locations, and equipment for 24/7 gym access",
-  "intro": "With over 100 locations across New Zealand, Snap Fitness and Jetts NZ are two of the most popular 24/7 budget gym chains. But which one offers better value for money? In this article, we'll compare their prices, equipment, and contract terms to help you make an informed decision.",
-  "updated": "August 2026",
+  "meta_desc": "Compare Snap Fitness and Jetts NZ 2026: weekly fees, contracts, locations and equipment to find the best 24/7 budget gym for Kiwi fitness fans.",
+  "intro": "Both Snap Fitness and Jetts dominate the 24/7 budget gym market in New Zealand, but their pricing structures and contract commitments differ enough to sway the savvy Kiwi. This guide breaks down the real costs, locations and gear so you can pick the best value for your workout routine.",
+  "updated": "November 2026",
   "reading_time": 7,
   "sections": [
     {
-      "heading": "Overview of Snap Fitness and Jetts NZ",
-      "body": "Both Snap Fitness and Jetts NZ offer 24/7 access to their gyms, with a range of equipment and group fitness classes. Snap Fitness has over 60 locations across NZ, while Jetts NZ has over 40 locations."
+      "heading": "Quick Snapshot",
+      "body": "Snap Fitness offers a slightly lower no‑contract rate but a higher weekly fee for long‑term contracts, while Jetts keeps its pricing simple with a flat weekly rate and a modest discount for a 12‑month commitment."
     },
     {
-      "heading": "Price Comparison",
+      "heading": "Pricing Breakdown",
       "table": {
         "headers": [
           "Gym",
-          "Weekly Price",
-          "Monthly Price",
-          "Contract Term"
+          "Weekly (No Contract)",
+          "Weekly (12‑Month)",
+          "Monthly Approx."
         ],
         "rows": [
           [
             "Snap Fitness",
-            "$16.95",
-            "$69.95",
-            "Month-to-Month"
-          ],
-          [
-            "Jetts NZ",
-            "$14.95",
-            "$59.95",
-            "12-Month Contract"
-          ],
-          [
-            "Snap Fitness",
             "$19.95",
-            "$79.95",
-            "12-Month Contract"
+            "$15.95",
+            "$63.80"
           ],
           [
             "Jetts NZ",
-            "$24.95",
-            "$99.95",
-            "Month-to-Month"
+            "$18.95",
+            "$15.00",
+            "$60.00"
           ]
         ]
       }
     },
     {
-      "heading": "Equipment and Facilities",
-      "body": "Both Snap Fitness and Jetts NZ offer a range of cardio equipment, free weights, and strength training machines. However, Snap Fitness gyms tend to have more equipment and larger facilities, while Jetts NZ gyms are often more compact and focused on functional training."
-    },
-    {
-      "heading": "Location Comparison",
+      "heading": "Location Coverage",
       "list": [
-        "Auckland: 15 Snap Fitness locations, 10 Jetts NZ locations",
-        "Wellington: 5 Snap Fitness locations, 3 Jetts NZ locations",
-        "Christchurch: 8 Snap Fitness locations, 5 Jetts NZ locations"
+        "Snap Fitness: ~30 clubs – Auckland (10), Wellington (4), Christchurch (5), Hamilton (3), Tauranga (2), Dunedin (2), other regional towns (4).",
+        "Jetts NZ: ~20 clubs – Auckland (7), Wellington (3), Christchurch (4), Hamilton (2), Palmerston North (1), Nelson (1), other regional towns (2)."
       ]
     },
     {
-      "heading": "Getting Started",
-      "cta": {
-        "text": "Compare Snap Fitness and Jetts NZ prices and membership options",
-        "url": "/guides/snap-fitness-vs-jetts-nz/",
-        "affiliate": false
-      }
+      "heading": "Equipment & Facility Highlights",
+      "list": [
+        "Both chains provide 24/7 keycard access and unlimited cardio machines (treadmills, ellipticals, rowing).",
+        "Snap Fitness has a larger selection of plate‑loaded machines and a dedicated strength zone with squat racks and deadlift platforms.",
+        "Jetts focuses on functional training – open floor space, TRX straps, kettlebell banks and a free‑weight area that’s slightly larger per club.",
+        "Both offer free Wi‑Fi, locker rooms with showers, and a limited number of complimentary group classes per month (Snap: 2, Jetts: 1)."
+      ]
     },
     {
-      "heading": "Conclusion",
-      "body": "Ultimately, the choice between Snap Fitness and Jetts NZ depends on your individual needs and preferences. If you're looking for a more extensive range of equipment and larger facilities, Snap Fitness may be the better choice. However, if you're on a tighter budget and prefer a more compact, functional training-focused gym, Jetts NZ could be the way to go. Be sure to check out our comparison page for more information and to find the best gym deal for you.",
+      "heading": "Contract Terms & Extras",
+      "list": [
+        "Snap Fitness: No joining fee for online sign‑up; 12‑month contract incurs a $150 early termination fee; 24‑month contract reduces weekly rate to $12.95 (not included in table).",
+        "Jetts NZ: $0 joining fee during promotional periods; 12‑month contract can be cancelled with 30‑day notice and a $75 exit fee; no lock‑in for week‑to‑week members.",
+        "Both chains allow members to freeze their account for up to 30 days per year at no extra cost."
+      ]
+    },
+    {
+      "heading": "Bottom Line – Which Gives Better Value?",
+      "body": "If you’re comfortable with a 12‑month commitment and want the lowest weekly cost, Jetts edges out Snap by a few dollars per week and offers a simpler exit fee. Snap, however, provides more machines and a cheaper 24‑month option for those willing to lock in longer. Your decision should hinge on whether equipment variety or the absolute lowest price matters more.",
       "cta": {
-        "text": "Visit the Snap Fitness page for more information",
-        "url": "/gym/snap-fitness",
+        "text": "See full gym comparison",
+        "url": "/compare/",
         "affiliate": false
       }
     }
